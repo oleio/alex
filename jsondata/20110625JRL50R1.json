@@ -1,0 +1,222 @@
+{
+	"fileName": "20110625JRL50R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110625JRL50R1.json",
+	"score": 711,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月25日10时0分",
+	"fileNameDate": "20110625",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：10min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "10",
+	"lostProductNum": "6",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 尹熠俊         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查示教板程序信息，发现机器人GUN2 IN POS信号无；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "调整传感器位置后GUN2 IN POS信号仍然无；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "跳转信号，将机器人开到POUNCE位置；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复自动（发生焊枪与白车身干涉）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "调整焊枪对中性，完成工位焊接后放行白车身；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL50R1机器人换枪报警，维修人员作跳转处理并将机器人开到POUNCE位置，"
+		],
+		[
+			"恢复自动后焊枪与车身干涉。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人换枪时发生故障？因为换枪时2#枪到位信号不稳定"
+		],
+		[
+			"为什么换枪时2#枪到位信号不稳定？因为传感器离开感应片过远（临界位置，出现问题时传感器无法感应到。）"
+		],
+		[
+			"为什么机器人焊枪干涉白车身？因为机器人抓枪错误"
+		],
+		[
+			"为什么机器人抓枪错误？因为维修干预处理，跳转不正确。"
+		],
+		[
+			"为什么维修干预处理，跳转不正确？因为程序跳转条件不直接，没有程序跳转说明，抢修操作时维修没有正确处理导致机器人抓枪错误。"
+		]
+	],
+	"rootCause": "主要原因：维修干预处理，跳转不正确。                                 间接原因：程序跳转条件不直接，没有程序跳转说明",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "停机情况维修班组通报，一点课程培训班组员工。",
+				"resp": "尹熠俊",
+				"supp": "徐啸顺",
+				"compDate": "11-6-30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改机器人程序，增加跳转说明，方便维修人员在抢修时快速正确处理。",
+				"resp": "徐啸顺",
+				"supp": "尹熠俊",
+				"compDate": "11-6-30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "步骤3处理不当，其余步骤正确。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

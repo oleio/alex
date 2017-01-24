@@ -1,0 +1,222 @@
+{
+	"fileName": "20120412JFM090R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120412JFM090R3.json",
+	"score": 663,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 4月 12日 20时20分",
+	"fileNameDate": "20120412",
+	"equipName": "设备名称:R3机器人",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：",
+	"lostTime": "NONE",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:顾乐宾          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进工位查看R3，发现DRESS卡在机器人4轴与GATE中；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "示教机器人将卡住的DRESS部分拉出，手动做完此车；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "第二辆车进来后，降低R3机器人速度，在工位旁观察，还是与前一辆同样问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "再次进工位调整，发现DRESS在焊接轮罩姿态时，弹簧没有收回，调整J4处支架位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "后一辆车慢速运行R3，DRESS状态OK；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "工位恢复正常运行，R3正常工作无报警。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090R3过985时故障报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么做C-CAR时R3故障？因为R3碰撞报警；"
+		],
+		[
+			"为什么R3碰撞报警？因为R3在运行至轮罩位置时DRESS卡在GATE和机器人4轴处；"
+		],
+		[
+			"为什么R3在运行至轮罩位置时DRESS卡在GATE和机器人4轴处？因为DRESS没有完全收回；"
+		],
+		[
+			""
+		],
+		[
+			"为什么DRESS没有完全收回？因为DRESS较长阻滞，弹簧力量不足；"
+		]
+	],
+	"rootCause": "R3 DRESS没有完全收回导致运行时卡在4轴和GATE之间",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整R3机器人J4处支架位置并做好标示",
+				"resp": "顾乐宾",
+				"supp": "黄光耀",
+				"compDate": "2012.4.12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "在DRESS套管上加黄油润滑",
+				"resp": "黄光耀",
+				"supp": "陈烨华",
+				"compDate": "2012.4.12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "针对机器主线机器人DRESS状态要求比较高的，在套管上",
+				"resp": "徐啸顺",
+				"supp": "黄光耀",
+				"compDate": "2012.4.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "加黄油",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

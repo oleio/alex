@@ -1,0 +1,222 @@
+{
+	"fileName": "20110801ESOR6.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110801ESOR6.json",
+	"score": 487,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "11年  8月 1 日 10",
+	"fileNameDate": "20110801",
+	"equipName": "设备名称:ESOR6",
+	"breakdownTime": "停机时间：  1h",
+	"areaLocation": "停机区域\/点:    ESO",
+	"maintainTeam": "维修班组：",
+	"lostTime": "NONE",
+	"lostProductNum": "30",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator   陈文佳 8\/1",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "ESOR6 DTERR 报警频繁，断电重启复位。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "清洁饲服模块R侧T侧，无效报警仍频繁发生。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "飞编码器线J3至R侧，无效报警仍发生。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换饲服模块R侧，报警消除。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "工位恢复自动",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOR6 DTERR 报警频繁"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么DTERR报警？因为编码器回路接触不良或存在干扰"
+		],
+		[
+			"为什么更换编码器线后故障未消除？因为故障点为饲服模块。"
+		],
+		[
+			"为什么编码器回路存在干扰？因为伺服模块插座处飞溅较多绝缘橡胶已损坏"
+		],
+		[
+			"为什么此处飞溅较多?因为当换枪盘换抓手时伺服模块R侧无遮挡物,飞溅易"
+		],
+		[
+			"进入模块内部."
+		]
+	],
+	"rootCause": "伺服模块飞溅较多造成短路",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换伺服模块",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "08\/01",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "伺服模块T侧抓手侧加装挡板（防止飞溅进入R侧模块)",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "09\/30 ",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "1，2，3，4，5"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

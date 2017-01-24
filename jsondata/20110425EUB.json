@@ -1,0 +1,222 @@
+{
+	"fileName": "20110425EUB.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110425EUB.json",
+	"score": 833,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年4月25日9时15分",
+	"fileNameDate": "20110425",
+	"equipName": "设备名称:shuttle",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:EUB",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期          \nOringinator谢诚侃 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查PLC程序状态位，判断减速传感器没有感应原因造成故障发生；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "拆开电机安装位置盖板，手动松刹车转动电机使SHUTTLE回到正确的后退停止位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "拆开防护盖板，检查并更换减速传感器（金属外壳的防碰撞传感器）；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "同时用电焊机焊接撞裂的死挡块；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "点动操作SHUTTLE后退，确认传感器正常动作；手动操作SHUTTLE后退时再次发生碰撞；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "怀疑更换的传感器响应速度慢，更换与原来同类形传感器后设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB SHUTTLE线返回时碰撞后退死挡块，死挡块支架开裂。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SHUTTLE返回时碰撞后退死挡块并导致开裂？因为SHUTTLE返回碰到停止位后没有及时停止"
+		],
+		[
+			"为什么SHUTTLE返回碰到停止位后没有及时停止？因为此时SHUTTLE停止前后退速度过快"
+		],
+		[
+			"为什么SHUTTLE停止前后退速度过快？因为后退减速传感器没有动作"
+		],
+		[
+			"为什么后退减速传感器没有动作？因为后退减速传感器性能失效"
+		],
+		[
+			"为什么更换减速传感器后仍然发生碰撞？因为首先更换的减速传感器响应速度过慢"
+		]
+	],
+	"rootCause": "后退减速传感器性能失效，首先更换的金属外壳传感器响应速度过慢。（使用了类型不正确的传感器）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换同类型的减速传感器，修理、焊接碰坏的后退死挡块",
+				"resp": "黄波",
+				"supp": "夏伟",
+				"compDate": "11-4-25",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改前进后退减速传感器安装板（扩大调节范围），使用正确的传感器，将减速传感器改为直径30mm，（感应距离远）并增加一个同样功能的减速传感器（提高减速可靠性）",
+				"resp": "尹熠俊",
+				"supp": "马晓洲 黄轶佳",
+				"compDate": "11-5-6",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查东昌响应速度快的传感器安全库存并保证现场库位足够数量",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "11-05-6",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "步骤3应为：更换类型正确的减速传感器"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

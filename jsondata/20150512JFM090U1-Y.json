@@ -1,0 +1,222 @@
+{
+	"fileName": "20150512JFM090U1-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150512JFM090U1-Y.json",
+	"score": 789,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年5月12日18时0分",
+	"fileNameDate": "20150512",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:   JFM090",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "45",
+	"lostProductNum": "32",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   钱毅吉      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "E15车型时，R4发生焊接故障的情况下复位，U1与R3发生碰撞",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查程序，此时R3在干涉区内，U1在干涉区外等待R3。修改U1程序，将等待R3干涉区的位置提前",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "工位恢复自动运行。生产反应焊点全部跑偏。进入工位，根据修磨位置微调TCP位置",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "部分车型的轨迹由于TCP变化，机器人无法达到或与工装碰撞。微调机器人轨迹",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "由于干涉区扩大，机器人等待时间变长，E15车型CT超5秒。待下一批车进入工位优化干涉区",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "优化U1与R3，U1与L3的干涉区。将U1与L3的干涉区分成2个小干涉区",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090U1与R3碰撞，U1的焊点跑偏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么U1焊点跑偏"
+		],
+		[
+			"为什么焊枪机械位置发生变化？因为U1与R3发生碰撞；"
+		],
+		[
+			"为什么U1与R3发生碰撞？因为U1与R3的干涉区设置不合理，工位发生故障后机器人相对位置与正常生产时不同"
+		],
+		[
+			"为什么U1与R3的干涉区设置不合理？因为未充分验证不同情况下的机器人轨迹，编程环节存在缺失。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人干涉区设置不合理，未充分验证不同情况下的机器人轨迹，编程环节存在缺失。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "微调U1的TCP",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "2015.5.11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "优化干涉区。将U1与L3的干涉区分成2个小干涉区",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "2015.5.11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查焊枪，紧固焊枪上的螺丝",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2015.5.11",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "重新对供应商编程人员培训操作规范,通过考核后进行现场施工",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2015.5.16",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "验证JFM090机器人干涉区，避免故障重启后机器人轨迹干涉。",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2015.5.16",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

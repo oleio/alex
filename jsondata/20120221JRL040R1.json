@@ -1,0 +1,222 @@
+{
+	"fileName": "20120221JRL040R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120221JRL040R1.json",
+	"score": 553,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年2月21日6时30分",
+	"fileNameDate": "20120221",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JRL线",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 刘少杰         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产保修电极帽修磨后状态不佳引起焊接质量问题，检查电极帽修磨状态确认问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "调整焊枪电极帽修磨参数，修磨效果不佳；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "延长修磨刀片转动时间后修磨效果改善；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "发现该焊枪焊点出现虚焊，怀疑焊枪压力过高，调整焊枪压力后问题仍然出现；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "进一步观察跟踪发现调整焊枪压力无实际效果，怀疑焊枪压力无法调节并证实；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "利用气动调压器调低焊枪进气压力为正常焊枪压力；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"早班生产开始后不久JRL040R1修磨电极帽效果差导致焊接分流，"
+		],
+		[
+			"后该焊枪焊点又出现虚焊。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人转动接头密封损坏，内部气路穿透。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "利用三联件的压缩空气调压器调低焊枪闭合压力为标准值",
+				"resp": "程超",
+				"supp": "黄光耀",
+				"compDate": "2\/21\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换内部密封损坏的机器人转动接头",
+				"resp": "尹熠俊",
+				"supp": "程超",
+				"compDate": "2\/22\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "评估车间内使用的转动接头使用情况，制订转动接头拆除及更换计划。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "3\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "",
+				"descr": "同维修处理过程但判断时间需缩短"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:程超",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110427JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110427JFM090.json",
+	"score": 579,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 4 月27日  18时30  分",
+	"fileNameDate": "20110427",
+	"equipName": "设备名称:Gate锁紧",
+	"breakdownTime": "停机时间：30",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 马安韪\n2011-4-27",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM90故障报警，Opengate右侧锁紧不到位，进入工位察看，发现实际到位，复位上自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "下一个Cycle，继续报警，通知工程师临时强制关闭到位信号",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "CT完成后，进入工位察看，发现感应铁片损坏变形",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "将感应铁片临时烧焊并整形，调整感应铁片位置后，恢复自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90 Opengate右前锁紧到位传感器不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM90 Gate锁紧报警？因为锁紧到位传感器不到位"
+		],
+		[
+			"为什么锁紧到位传感器不到位？因为感应铁片变形"
+		],
+		[
+			"为什么感应铁片变形？因为感应片反复锁紧过程中擦碰变形"
+		],
+		[
+			""
+		],
+		[
+			"为什么复锁紧过程中感应片擦碰变形？锁紧机构怀疑有机械窜动现象"
+		]
+	],
+	"rootCause": "锁紧机构怀疑有机械窜动现象，导致感应铁片变形。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "5\/1期间对锁紧缸机构进行检修和更换",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011\/5\/5",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "批量制作感应铁片备件，并设现场料架库位",
+				"resp": "胡滨",
+				"supp": "马晓洲",
+				"compDate": "2011\/5\/5",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "内外总拼预防性维修工作内容中增加GATE锁检查项目",
+				"resp": "胡滨",
+				"supp": "马晓洲",
+				"compDate": "2011\/5\/10",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:刘丰"
+}

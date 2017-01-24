@@ -1,0 +1,222 @@
+{
+	"fileName": "20110325EMC020.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110325EMC020.json",
+	"score": 477,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年  月  日  时  分",
+	"fileNameDate": "20110325",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：20",
+	"areaLocation": "停机区域\/点:emc020",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 2011.3.24 谢诚侃",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "EMC20前围左侧横梁定位气缸不能关闭",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "关闭气源手动动作气缸也无法关闭",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查外观，没有卡住干涉的现象",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "判断气缸动力卡箍内部损坏",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换气缸，调整垫片，恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC20手动夹头（tiebar 定位孔）卡住，不能关闭"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工装报错？因为夹头关闭信号不到。"
+		],
+		[
+			"为什么夹头关闭信号不到？因为夹头不能关闭。"
+		],
+		[
+			"为什么夹头不能关闭？因为动力卡箍损坏。"
+		],
+		[
+			"为什么动力卡箍损坏？因为此处被硬物撞坏。（凿检，焊接时损坏）"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "动力卡箍在凿检或焊接时被损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换气缸，调整定位销",
+				"resp": "谢诚侃",
+				"supp": "黄波",
+				"compDate": "2011.3.24",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "动力卡箍周围装防护措施",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "2011.3.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制定规范，避免在做TPM，PM时对气缸造成破坏",
+				"resp": "殷致平",
+				"supp": "",
+				"compDate": "2011.3.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:"
+}

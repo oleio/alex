@@ -1,0 +1,222 @@
+{
+	"fileName": "20110418JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110418JFM090.json",
+	"score": 605,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 4 月 18 日 22 时  50分",
+	"fileNameDate": "20110418",
+	"equipName": "设备名称:618GATE",
+	"breakdownTime": "停机时间：20",
+	"areaLocation": "停机区域\/点:JFM090",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 李颖琛\n2011-4-14",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进工位查看故障点，发现DUMP与气缸分离，未能打开",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将转动支轴装回DUMP与气缸活塞杆之间，发现止推铁片已磨损",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "将支轴临时固定维持生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "等L-CAR　GATE切换到外围时，将磨损的止推铁片与L-CAR SW的DUMP对换，维持生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "新制造铁片，使之加宽，加大与槽的接触面积，保证设备正常运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"L-CAR GATE上LN227　DUMP　OPEN不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么L-CARGATE上LN227DUMP打开不到位？因为气缸活塞杆与DUMP脱离。"
+		],
+		[
+			"为什么活塞杆和DUMP脱离？因为支轴脱落，DUMP没有支点固定。"
+		],
+		[
+			"为什么支轴会脱落？因为固定支轴的铁板磨损。"
+		],
+		[
+			"为什么固定支轴的铁板磨损？因为支轴转动时和铁片摩擦，而铁片和支轴"
+		],
+		[
+			"　　　　　　　　　　　　　　　　的接触面小（1mm),容易被磨损。"
+		]
+	],
+	"rootCause": "",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新制作止推铁片并安装",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011.4.19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查车间类似结构的DUMP，对不良支轴止推铁片进行更换",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.5.3",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:蒋兆俊（代）"
+}

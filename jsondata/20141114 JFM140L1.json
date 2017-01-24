@@ -1,0 +1,222 @@
+{
+	"fileName": "20141114 JFM140L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20141114 JFM140L1.json",
+	"score": 577,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年11月14日7时30分",
+	"fileNameDate": "20141114",
+	"equipName": "设备名称:送丝系统",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: JFM140",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  黄俊宇       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "下线当前A10后bypass140工位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进入工位手动操作机器人到维修位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "排查变化点（之前更换焊丝时焊丝和导丝管干涉），检查导丝管状态，状态正常；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "询问更换焊丝的操作步骤，发现推丝机和拉丝机的压轮压紧力被调整过,重新调整好后恢复自动后故障消除。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM140L1送丝系统送丝主马达过电流报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么主马达过电流报警"
+		],
+		[
+			"为什么主马达过载"
+		],
+		[
+			"为什么推丝和拉丝马达负载分配不当"
+		],
+		[
+			"为什么拉丝机压轮压紧力过小？因为维修工在更换焊丝的过程中误操作改变了压轮压紧力"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "维修工在更换焊丝的过程中误操作改变了压轮压紧力,造成马达过载报警。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换送丝管；",
+				"resp": "黄光耀",
+				"supp": "黄俊宇",
+				"compDate": "11\/14\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整压轮压紧力；",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "11\/14\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "编写焊丝更换的MTS，增加检查记录并确认更换前后压紧力的状态，增加换丝过程中分段检查焊丝通过的要求，并培训。",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "11\/16\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "调整推丝机和拉丝机的压轮压紧力"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

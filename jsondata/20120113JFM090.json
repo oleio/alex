@@ -1,0 +1,222 @@
+{
+	"fileName": "20120113JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120113JFM090.json",
+	"score": 824,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年01月13日8时 50分",
+	"fileNameDate": "20120113",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：35min",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "35",
+	"lostProductNum": "23",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 黄光耀\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进工位检查，发现夹头气缸传感器信号线被DUMP运动部件卡住",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "强制将此DUMP关闭，更换损坏的信号线（原信号线从GATE框架内部横穿整个GATE）并对原线束走向进行变更并固定。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "当前白车身做完放行，第二辆车进入工位机器人焊接白车身时L3机器人焊枪干涉与信号电缆捆扎在一起的气管；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换碰坏的气管接头后精调机器人轨迹；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "完成其它机器人焊接后放行白车身；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090工位E-10左侧GATE UN-231工装夹头打开不到位报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为GATE上UN231DUMP夹头打开不到位报警"
+		],
+		[
+			"为什么GATE上DUMPUN231夹头打开不到位报警？因为DUMP夹头UN231传感器信号线被DUMP夹住损坏"
+		],
+		[
+			"为什么UN231夹头传感器信号线被DUMP夹住？因为随DUMP运动的夹头传感器信号线自由长度过大"
+		],
+		[
+			"为什么随DUMP运动的夹头传感器信号线自由长度过大？因为原来正常捆扎的夹头传感器信号线被机器人焊枪干涉、拉扯"
+		],
+		[
+			"为什么原来正常捆扎的夹头传感器信号线被机器人焊枪干涉、拉扯？因为上一非生产日工位CT优化，变更后的机器人轨迹过于靠近UN231夹头传感器信号电缆"
+		]
+	],
+	"rootCause": "工位CT优化，变更后的机器人轨迹过于靠近UN231夹头传感器信号电缆。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的信号电缆及气管接头，精调机器人轨迹使其离开信号电缆及气管足够距离。",
+				"resp": "顾乐斌",
+				"supp": "黄光耀",
+				"compDate": "12-01-13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "补充机器人轨迹调整工作规范，要求轨迹与信号电缆的距离大于10mm，如无法满足则调整信号电缆位置。一点课程培训维修员工。",
+				"resp": "黄俊宇",
+				"supp": "徐啸顺",
+				"compDate": "12-01-18",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀",
+	"person_Manager": "工程师\/ENG.:尹伟文 周志辉"
+}

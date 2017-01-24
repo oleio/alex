@@ -1,0 +1,222 @@
+{
+	"fileName": "20120613JRL080.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120613JRL080.json",
+	"score": 889,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 6月13日19时10分",
+	"fileNameDate": "20120613",
+	"equipName": "设备名称:R1滚边胎膜",
+	"breakdownTime": "停机时间：22min",
+	"areaLocation": "停机区域\/点: JRL080",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "22",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李颖琛        \nOringinator 2012.6.13",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL080过E10时胎膜夹头报警打开不到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "维修错误判断为夹紧不到位并强制该信号，胎膜移动，夹头连接块被拉断；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "临时将E11胎膜上的夹头拆下安装在E10胎膜上维持生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "临时加工此连接块恢复E10胎膜上的夹头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL080R1在E10滚边时胎膜夹头报警打开不到位，维修人员错误判断为夹紧"
+		],
+		[
+			"未到位，强制此信号后胎膜运行，夹头连接块被白车身拉断"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么夹头连接块断裂？因为夹头未打开而胎膜移动，夹头连接块被拉断；"
+		],
+		[
+			"为什么夹头未打开而胎膜运动了？因为维修人员强制了打开到位信号；"
+		],
+		[
+			"为什么维修人员强制了打开到位信号？因为维修人员误认为是夹头关闭未到位；"
+		],
+		[
+			"为什么维修人员误认为是夹头关闭未到位？因为此夹头位置板材错位问题频繁，夹头不到位报警 较多，维修人员未仔细判断工位状态和报警的具体信息，凭经验强制了该信号，导致问题发生。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "维修人员凭经验操作导致判断错误，强制信号后夹头连接块被拉断",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "拆下E11胎膜上的夹头连接块用于E10胎膜上，恢复生产",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "2012.6.13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "临时制作夹头连接块恢复胎膜正常运行",
+				"resp": "李颖琛",
+				"supp": "王昀",
+				"compDate": "2012.6.13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制作相关备件更换临时制作的连接块",
+				"resp": "沈建伟",
+				"supp": "胡滨",
+				"compDate": "2012.6.15",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "维修工段内部对该维修人员(曹鸣晓）进行通报批评教育，绩效考评处理。",
+				"resp": "沈建伟",
+				"supp": "钱俊",
+				"compDate": "2012.6.14",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "维修工段内部举一反三、总结经验，规范强制信号的风险评估要求",
+				"resp": "沈建伟",
+				"supp": "尹伟文、徐啸顺",
+				"compDate": "2012.6.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "拉动工程支持配合解决滚边工装夹头夹不到位问题",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "2012.6.25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "维修过程同上（由于加工周期影响，第一轮E10\/E11车型切换时仍采用E10"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "胎膜夹头连接块拆装到E11胎膜上维持生产，影响主线产量）"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

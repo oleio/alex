@@ -1,0 +1,222 @@
+{
+	"fileName": "20110215JRL100L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110215JRL100L1.json",
+	"score": 628,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年2月 15日17时 30分",
+	"fileNameDate": "20110215",
+	"equipName": "设备名称:转动接头",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点:  JRL100",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "28",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  黄智君       \nOringinator 2011.2.15",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JRL100L1焊机跳闸，上电再次焊接后仍跳闸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "通知生产准备backup方案，对此台机器人进行bypass；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "进入工位检查此焊枪电缆及转动接头，打开转动接头发现转动接头汇电环拉弧损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "将焊枪开出工位外，更换转动接头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换完成后检查焊点位置，确认正常后恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL100L1焊机跳闸，检查发现转动接头内汇电环拉弧"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接控制柜跳闸？因为输出相间短路；"
+		],
+		[
+			"为什么相间短路？因为转动接头汇电环两相之间拉弧；"
+		],
+		[
+			"为什么两相之间拉弧？因为转动接头内部汇电环表面有较多焊接损耗的印记；"
+		],
+		[
+			""
+		],
+		[
+			"为什么汇电环表面有印记?因为在固定点处经常性焊接，通大电流后汇电环表面有损耗凹陷，长期工作后电刷容易拉弧；"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换此转动接头",
+				"resp": "尹熠俊",
+				"supp": "黄智君",
+				"compDate": "2011.2.15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "供应商拆解分析拉弧根本原因",
+				"resp": "徐啸顺",
+				"supp": "nitta",
+				"compDate": "2011.2.20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "改进保养方式并加速推广实施。原为在线清理内部，现为",
+				"resp": "徐啸顺",
+				"supp": "nitta",
+				"compDate": "2011.4",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "总成更换下线后送供应商分解更换，并必须更换箱盖密封垫",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

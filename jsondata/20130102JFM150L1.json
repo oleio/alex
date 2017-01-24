@@ -1,0 +1,222 @@
+{
+	"fileName": "20130102JFM150L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130102JFM150L1.json",
+	"score": 733,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年01月01日08时45分",
+	"fileNameDate": "20130102",
+	"equipName": "设备名称:JFM150L1",
+	"breakdownTime": "停机时间：累计55",
+	"areaLocation": "停机区域\/点:    JFM",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "45",
+	"lostProductNum": "40",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  尹熠俊        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "L1机器人在焊接E10车型时寻找不到焊缝,precitec图像上焊缝位置往监控屏蔽区偏离；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "尝试程序参数中进行偏移，情况没有明显改善；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进入工位查看压轮实际情况状态正常，引导激光位置有轻微偏差；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "Bypass该机器人，采用Backup方案，同时缩小监控屏蔽区覆盖范围数值；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "验证参数调整后的实际焊接情况；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼150#L1机器人E10车型时寻找不到焊缝"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么L1机器人焊接时寻找不到焊缝？Precitec监控程序没有检测到正常的焊缝图像；"
+		],
+		[
+			"为什么没有检测到正常的焊缝图像？焊缝的特征图像有部分被屏蔽区覆盖；"
+		],
+		[
+			"为什么特征图像会被屏蔽区覆盖？引导激光的检测区域内零件配合有微量的变化；"
+		],
+		[
+			"为什么零件配合有变化？怀疑车顶拱面在JFM130#工位定位时不精确；相反Precitec检测精度较高(uM)，造成检测时超差。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "通过对比E11车型的监控历史数据，发现E10车型的焊缝位置有明显的变化，怀疑车顶位置有轻微变化，造成焊缝寻找不到",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时缩小监控图像屏蔽区数值",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2013.01.02",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "通过一点课程让大家了解有关监控图像上屏蔽区的相关内容。",
+				"resp": "尹熠俊",
+				"supp": "黄俊宇",
+				"compDate": "2013.01.03",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "示教BACKUP机器人轨迹（车顶距离偏差导致BACKUP不能启动）",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2013.01.06",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上1、3、4、5步骤。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

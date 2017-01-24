@@ -1,0 +1,222 @@
+{
+	"fileName": "20120927EUB LIFTER2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120927EUB LIFTER2.json",
+	"score": 1095,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月27日6时51分",
+	"fileNameDate": "20120927",
+	"equipName": "设备名称:LIFTER2",
+	"breakdownTime": "停机时间：90min",
+	"areaLocation": "停机区域\/点:EUB SHUTTLE",
+	"maintainTeam": "维修班组：B\/C班",
+	"lostTime": "90",
+	"lostProductNum": "45",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 沈建伟         \nOringinator　2012.9.27",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "查看故障现场，发现LIFTER2后部支架气缸连接件脱焊，LIFTER1前端传感器支架变形；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "烧焊损坏的连接件，更换传感器，整形传感器支架；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "将损坏的底板搬到位，由于备胎箱处损坏塌陷，需垫高后手动输送底板；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "手动操作一个循环后发现底板右前定位销位置偏差，通知工装工程师确认状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "根据实际前围定位孔状态调整EUB020右前定位销，使落车到位；（跟踪尺寸状态）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "手动完成4个循环后在EUB060将损坏的底板搬运下线，恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB区域报警，LIFTER2未升到高位SHUTTLE线即移动，造成LIFTER2上的"
+		],
+		[
+			"底板与工装干涉，并被LIFTER1撞击后备胎箱区域"
+		],
+		[
+			"（故障后分析现场情况，EUB LIFTER2有掉落现象，原因为光栅触发后上升"
+		],
+		[
+			"信号丢失，气缸刹车磨损；但上升到位传感器在掉落状态下仍被点亮，故"
+		],
+		[
+			"复位后LIFTER2在低位即前进，造成撞击）"
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么LIFTER1撞击LIFTER2上的底板？因为LIFTER2未到高位，SHUTTLE线前进；"
+		],
+		[
+			"1）为什么LIFTER2未到高位？因为光幕触发后上升信号丢失，气缸受重掉落；2)为什么LIFTER2未到高位，SHUTTLE线前进？因为气缸高位传感器（2个）均被点亮；"
+		],
+		[
+			"1)为什么气缸受重掉落？因为气缸刹车磨损，保持不了原状态；2)为什么传感器均被点亮？因为一个传感器感应条被飞溅包裹，另一个感应器上有飞溅；"
+		],
+		[
+			"2)为什么传感器上飞溅多？因为感应器安装区域在中底板下端，飞溅比较集中；"
+		],
+		[
+			"2)为什么飞溅比较集中？因为底板焊接板材较厚，焊接参数设置较高，飞溅较多。"
+		]
+	],
+	"rootCause": "底板区域飞溅较多导致传感器被误触发(此时LIFTER2在低位），导致碰撞",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修复受损部件，调整相关工装，恢复自动运行",
+				"resp": "谢诚侃",
+				"supp": "刘丰",
+				"compDate": "2012.9.27",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "优化传感器位置，在后底板附近加装到位传感器（此处焊枪飞溅影响较少）",
+				"resp": "刘丰",
+				"supp": "夏伟",
+				"compDate": "2012.10.2",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查气缸刹车系统，调整或更换刹车单元，增强刹车功能；",
+				"resp": "夏伟",
+				"supp": "A班",
+				"compDate": "2012.10.2",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "尝试再次优化焊接参数，降低焊接飞溅；",
+				"resp": "孙杰",
+				"supp": "焊接组",
+				"compDate": "2012.10.2",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "增加PM要求，每个非生产日责任班组清理自动工位飞溅；",
+				"resp": "黄光耀",
+				"supp": "A班",
+				"compDate": "2012.10.2",
+				"status": "2\/4"
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

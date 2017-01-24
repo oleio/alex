@@ -1,0 +1,222 @@
+{
+	"fileName": "20111210JFM40.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111210JFM40.json",
+	"score": 709,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011  年 12 月10日   09 时30     分",
+	"fileNameDate": "20111210",
+	"equipName": "设备名称:JFM000",
+	"breakdownTime": "停机时间：60",
+	"areaLocation": "停机区域\/点: JFM000",
+	"maintainTeam": "维修班组：c",
+	"lostTime": "60",
+	"lostProductNum": "40",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期            \nOringinator   尹熠俊2011。12.10",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM040助力器无动作，机运线跳急停。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "对故障工位进行复位无效。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查助力器模块输出电源无，通过查找图纸发现输出模块电源和runbar共用一个电源。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "发现runbar电源输入电缆有异常弯折，可能造成内部短路，引起急停。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "临时对破损电缆进行更换，并重新整理runbar输入电缆。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "对总拼线所有急停工位所有越程雪橇进行复位处理，恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM040助力器模块无电源，检查过程中机运线跳急停。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机运线急停？因为中继器失电，通讯故障造成急停"
+		],
+		[
+			"为什么中继器失电？因为助力器模块输出电源无。"
+		],
+		[
+			"为什么模块输出电源无？因为runbar电源输入电缆内部短路，且共用一电源。"
+		],
+		[
+			"为什么runbar电源输入电缆内部短路？因为runbar旋转超过360°，且无限位。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "runbar旋转超过360°，造成runbar电源输入电缆内部短路，且和助力器模块输出电源共用。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换内部短路runbar电源输入电缆。",
+				"resp": "尹熠俊",
+				"supp": "陈文佳",
+				"compDate": "2011.12.9",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "临时整理线束并固定。",
+				"resp": "尹熠俊",
+				"supp": "陈文佳",
+				"compDate": "2011.12.9",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对助力器输出模块24V电源单独进线。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "2011.12.11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "增加runbar限位，避免旋转过度。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.12.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:尹伟文",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

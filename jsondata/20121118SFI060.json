@@ -1,0 +1,222 @@
+{
+	"fileName": "20121118SFI060.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121118SFI060.json",
+	"score": 718,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年11月18日14时00分",
+	"fileNameDate": "20121118",
+	"equipName": "设备名称: Gate切换驱动电机",
+	"breakdownTime": "停机时间：35min",
+	"areaLocation": "停机区域\/点: SFI060",
+	"maintainTeam": "维修班组：",
+	"lostTime": "35",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄波       \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查ML2导轨上的驱动电机的变频器输出 OK；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看现场电机输出，电机运行正常；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查驱动电机的减速箱输出，发现动力输出齿轮与减速箱分离；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "尝试现场检修减速箱输出齿轮机构，通知东昌紧急准备驱动电机总成备件；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "由于现场检修减速箱未果且耗时较长，备件到现场后直接更换电机总成；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060工位Gate切换故障ML2导轨上的驱动电机无法驱动Gate"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么Gate切换故障ML2导轨上的驱动电机无法驱动Gate？因为驱动电机输出的动力无法传递到输出齿轮；"
+		],
+		[
+			"为什么驱动电机输出的动力无法传递到输出齿轮？因为动力输出齿轮与电机减速箱分离；"
+		],
+		[
+			"为什么动力输出齿轮与电机减速箱分离？因为驱动单元动力输出齿轮损坏；"
+		],
+		[
+			"为什么驱动单元动力输出齿轮损坏？因为Gate在ML2导轨上X向拖动停止时，动力输出齿轮受到冲击，输出齿轮固定螺栓受剪切力而断裂；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "Gate在ML2导轨上X向拖动停止时，动力输出齿轮受到冲击，输出齿轮固定螺栓受剪切力而断裂；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换驱动电机总成备件；",
+				"resp": "陈烨华",
+				"supp": "刘丰",
+				"compDate": "2012\/11\/18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.将损坏的电机减速箱修复入库；",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "2012\/11\/25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.控制组增加Gate切换系统减速传感器，使用双减速传感器保证驱动电机每次及时减速避免输出齿轮受到冲击；",
+				"resp": "刘丰",
+				"supp": "",
+				"compDate": "11\/18\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110605ESOL6.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110605ESOL6.json",
+	"score": 797,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年  6月  5日  时  分",
+	"fileNameDate": "20110605",
+	"equipName": "设备名称:通讯模块",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:ESOL6",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "NONE",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  尹熠俊        \nOringinator:11.6.5",
+	"troubleShooting": [
+		[
+			{
+				"step": "修理步骤 \/ Trouble-Shooting steps (记下维修过程中的实际步骤,不正确的打\"X\".)",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "1",
+				"descr": "更换连接33#通讯模块干路上的Ｔ头，报警依然发生。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "更换连接到33#模块的通讯总线，报警依然发生。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "从北厂调用总线输入输出模块（SG23042）更换，报警频次降低。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查24V直流电源输出电压偏低为22V，调整到24V后报警进一步减少。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "利用生产间歇时间进一步检查通讯电缆，发现机器人侧没有安装通讯电缆终端电阻。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "补装通讯电缆终端电阻后设备通讯正常。",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOL6机器人抓手上33#Devicenet通讯模块频繁通讯报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位频繁停止自动运行？因为机器人L6通讯报警"
+		],
+		[
+			"为什么机器人L6通讯报警？因为33#Devicenet通讯模块通讯不稳定"
+		],
+		[
+			""
+		],
+		[
+			"为什么33#Devicenet通讯模块通讯不稳定？因为通讯电缆机器人端没有安装终端电阻"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause:",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "短期\/Short Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换Devicenet通讯网络相关备件",
+				"resp": "尹熠俊",
+				"supp": "黄俊宇",
+				"compDate": "2011.6.5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整通讯电压，并跟踪通讯情况。",
+				"resp": "尹熠俊",
+				"supp": "钱俊",
+				"compDate": "2011.6.12",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "补装机器人端的通讯电缆终端电阻",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2011.6.10",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "通讯网络构成一点课程培训维修员工",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2011.6.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "1",
+				"descr": "检查通讯电缆，保证电缆连接正常，补装漏装的通讯电缆终端电阻。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

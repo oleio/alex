@@ -1,0 +1,222 @@
+{
+	"fileName": "20110218JFM120L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110218JFM120L1.json",
+	"score": 680,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年2  月18 日0830时分",
+	"fileNameDate": "20110218",
+	"equipName": "设备名称:焊枪",
+	"breakdownTime": "停机时间：18",
+	"areaLocation": "停机区域\/点:   JFM120",
+	"maintainTeam": "维修班组C",
+	"lostTime": "18",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期   佘佳安2011.2.18     \nOringinator 2010.",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM120L1ECAR时发生碰撞报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查焊枪整体与车身干涉，焊枪平衡缸未回到UP状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "将焊枪开回HOME检查，发现平衡缸切换阀固定处掉落，信号插头拉坏，信号线断；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "临时对此电磁阀信号线接线；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120 L1 E-CAR 时焊接故障碰撞报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么碰撞？因为平衡缸没有动作,ARM没有别向上顶起，与横梁干涉；"
+		],
+		[
+			"为什么平衡缸没有动作？因为电磁阀的信号线被扯断；"
+		],
+		[
+			"为什么电磁阀信号线被扯断？因为电磁阀脱落，是信号线在L1运动中被拉扯；"
+		],
+		[
+			"为什么电磁阀会脱落？因为电磁阀固定螺丝掉，遗失后使电磁阀无法固定；"
+		],
+		[
+			"为什么固定螺丝会掉落？因为此处阀体安装过多可能选用的固定螺丝过短；"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause:",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "短期\/Short Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "扯断部位临时接线，并用扎带将电池阀临时固定",
+				"resp": "陈文佳",
+				"supp": "佘佳安",
+				"compDate": "2011.2.19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班恢复接线周末重新固定掉落电磁阀",
+				"resp": "夜班  PM班组",
+				"supp": "",
+				"compDate": "2010.2.20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:钱俊"
+}

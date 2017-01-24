@@ -1,0 +1,222 @@
+{
+	"fileName": "20150819 JFM150-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150819 JFM150-Y.json",
+	"score": 493,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015-8-19",
+	"fileNameDate": "20150819",
+	"equipName": "设备名称:激光焊",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:JFM150",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 张海涛\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM160查看车顶发现压轮偏外,调整压轮位置.无效",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "因车顶右后拱起,与4号梁间隙大,尝试恢复JFM130右后焊点.仍有未烧好的车",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查车顶天窗框与侧围干涉点,发现E16都存在车顶与侧围干涉的情况",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "通知工程、生产实施短期措施",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E16右边激光焊后部批量无法找到焊缝"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么E-car右侧后部20cm未激光焊接"
+		],
+		[
+			"为什么焊缝跟踪系统未找到焊缝"
+		],
+		[
+			"为什么压轮位置离侧围车顶搭接处太近"
+		],
+		[
+			"为什么焊接至后部时车顶拱起,压轮滑下"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "E16内侧围后梁切边线与天窗框加强件干涉",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "供应商对E16右侧围侧内梁进行打磨",
+				"resp": "生产",
+				"supp": "张海涛",
+				"compDate": "8\/20\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "供应商对E16内侧围进行修边4MM",
+				"resp": "张海涛",
+				"supp": "吴丁磊",
+				"compDate": "8\/25\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "检查车顶天窗框与侧围干涉点,发现E16存在车顶与侧围干涉的情况"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "通知生产实施短期措施"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL 陈烨华",
+	"person_ENG": "工程师\/ENG.:张海涛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

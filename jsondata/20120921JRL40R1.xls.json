@@ -1,0 +1,222 @@
+{
+	"fileName": "20120921JRL40R1.xls.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120921JRL40R1.xls.json",
+	"score": 579,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 9月22日  时  分",
+	"fileNameDate": "20120921",
+	"equipName": "设备名称: R1",
+	"breakdownTime": "停机时间：累计30  min",
+	"areaLocation": "停机区域\/点:    JRL40",
+	"maintainTeam": "维修班组：c",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李颖琛          \nOringinator\/201 . .  ",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动示教，发现气缸有动作，示教板上信号不稳定。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进工位检查并发现限位传感器支架有松动。调整传感器支架。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "几个CYCLE后故障仍有。检查19芯电缆，发现19芯电缆插座内有针脚缩了进去。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "拆开插座，将缩入其中的针脚顶出，恢复自动工作。",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "故障再次出现，BYPASS此焊枪，再次检查19芯插头时，仍发现信号抖动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "飞接19芯电缆",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "取消BYPASS，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL40R1 backup（ clsoe &open）信号不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"因为机器人DRESS\/电缆工作状态不佳,导致线缆在机器人移动时受拉力。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人DRESS\/电缆工作状态不佳,导致线缆在机器人移动时受拉力。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用备件19芯电缆临时飞线恢复设备运行",
+				"resp": " 樊超杰",
+				"supp": "   李颖琛",
+				"compDate": "9\/22\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查机器人运动轨迹并同时检查调整机器人DRESS\/19芯电缆走向与捆扎状态，解决电缆受拉问题。",
+				"resp": "李颖琛 ",
+				"supp": "",
+				"compDate": "10\/2\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "3，4，6"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

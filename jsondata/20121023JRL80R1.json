@@ -1,0 +1,222 @@
+{
+	"fileName": "20121023JRL80R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121023JRL80R1.json",
+	"score": 673,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月23日  14时  10分",
+	"fileNameDate": "20121023",
+	"equipName": "设备名称:080R1",
+	"breakdownTime": "停机时间：10min",
+	"areaLocation": "停机区域\/点: JRL",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "10",
+	"lostProductNum": "6",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 何文泽         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "现场维修查看机器人程序，发现机器人在等待折边机关闭到位的信号DI[427]；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进入工位检查，发现折边机未关闭过，手动发信号关闭折边机，折边机无动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "继续手动发信号关闭折边机，观察液压泵状态，发现泵机未收到信号，怀疑通信线路故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "从机器人示教板查看相关33#通信模块连接状态，发现此模块未与机器人建立通讯；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动连接33#模块，失败。怀疑换枪盘内接触不良；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "脱开换枪盘，清洁T侧换枪盘内信号针，重新抓枪，33#模块连接成功；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "重新运行折边程序，折边成功，故障恢复。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"生产C-Car时，JRL80R1自动停止，无法继续运行"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行"
+		],
+		[
+			"为什么机器人R1在等待信号DI[427]"
+		],
+		[
+			"为什么折边机未关闭"
+		],
+		[
+			"为什么液压泵未收到关闭信号？因为33#模块未能与机器人建立通信；"
+		],
+		[
+			"为什么33#模块未能与机器人建立通信？因为T侧换枪盘内信号针接触不良。"
+		]
+	],
+	"rootCause": "NITTA换枪盘R侧与T侧间信号针接触不良引起Devicenet通讯故障。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "清洁换枪盘内信号针，恢复设备运行。",
+				"resp": "冯文杰",
+				"supp": "黄光耀",
+				"compDate": "10\/23\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查此T侧换枪盘内所有信号针，更换状态不佳的信号针",
+				"resp": "黄光耀",
+				"supp": "何文泽",
+				"compDate": "10\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同问题处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

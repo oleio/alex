@@ -1,0 +1,222 @@
+{
+	"fileName": "20120419ESO L.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120419ESO L.json",
+	"score": 666,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年4月20日0时30分",
+	"fileNameDate": "20120419",
+	"equipName": "设备名称:PLC自动工位",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:  ESO",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   马鞍伟       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "解决导致机器人自动工位紧急停止的ESO15L人工工位夹具通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "调整机器人抓手位置，解决ESOL4机器人抓手夹头位置偏转问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "自动工位复位，恢复自动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO左侧自动工位紧急停止，机器人L4抓手突然停止产生的冲击力"
+		],
+		[
+			"导致夹头位置偏转。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人L4抓手夹头位置偏转"
+		],
+		[
+			"为什么机器人在抓料快速移动过程中突然紧急停止"
+		],
+		[
+			"为什么工位PLC D6网络通讯故障"
+		],
+		[
+			"为什么ESO15L人工工位通讯故障会导致机器人自动工位紧急停止"
+		],
+		[
+			"为什么人工工位和自动工位共用一个PLC而且PLC安全程序没有设计成相对独立"
+		]
+	],
+	"rootCause": "PLC安全程序没有考虑生产现场的实际情况,没有相互物理关系的2个工位共用安全程序，导致故障范围扩大。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修复因机器人紧急停止发生偏转的抓手夹头",
+				"resp": "马鞍伟",
+				"supp": "",
+				"compDate": "4\/19\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换内部短路的通讯电缆并分析确切电缆失效原因（项目集成商制作电缆，接插件内部接线头断）",
+				"resp": "陈烨华",
+				"supp": "黄轶佳",
+				"compDate": "4\/20\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修改PLC安全程序，使ESO左右侧人工工位和机器人自动工位的PLC安全程序相对独立，避免人工工位通讯故障影响机器人自动工位运行。",
+				"resp": "尹伟文黄轶佳",
+				"supp": "",
+				"compDate": "5\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶件",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20151103ASOL R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151103ASOL R1.json",
+	"score": 513,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.11.3.13",
+	"fileNameDate": "20151103",
+	"equipName": "设备名称:  R1机器人",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点: ASOL",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "40",
+	"lostProductNum": "5",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:   \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动示教机器人将焊枪开离停放架，故障暂时恢复",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "观察焊枪停放的轨迹，2个支撑点中有一个未与焊枪贴合，需要调整支撑点",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "调整支撑点，示教机器人抓枪轨迹两次",
+				"lostMin": 30,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复自动",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ASOL R1机器人在抓取1#枪时机器人过载报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人抓枪时报警"
+		],
+		[
+			"为什么机器人过载报警？因为机器人将焊枪抓离停放支架时收到阻力过大"
+		],
+		[
+			"为什么机器人将焊枪抓离停放支架时收到阻力过大？因为焊枪停放位置发生偏移"
+		],
+		[
+			"为什么焊枪停放位置发生偏移？因为焊枪停放架上一个支撑点位置偏移，未能支撑住焊枪"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊枪停放架上一个支撑点位置偏移，未能支撑住焊枪，机器人抓枪故障",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整支撑点，示教机器人抓枪轨迹",
+				"resp": "顾念仁",
+				"supp": "",
+				"compDate": "11\/3\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "加固焊枪停放架，精调抓放枪轨迹及过渡点",
+				"resp": "曹明晓",
+				"supp": "",
+				"compDate": "11\/6\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "记录停放架正确位置，便于PM关注该要点",
+				"resp": "曹明晓",
+				"supp": "",
+				"compDate": "11\/6\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：陈烨华",
+	"person_ENG": "工程师\/ENG.:钱毅吉",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

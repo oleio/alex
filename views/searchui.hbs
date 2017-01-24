@@ -1,0 +1,141 @@
+
+    <div class="section section-success">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">故障搜索</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6">
+            <form role="form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="输入故障关键词" id="searchwords">
+                  <span class="input-group-btn">
+                    <a class="btn btn-primary" type="submit" id="search_button">Go</a>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+        <input type="hidden" id="isPortal" value="{{isPortal}}" />
+
+
+      <div id="result"> 
+      </div>
+
+       <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js"></script>    -->
+        <script src="/js/handlebars.min.js"></script>
+
+        <script id="hbsTemplate" type="text/x-handlebars-template">
+       \{{#each item}}
+          <div class="col-md-12">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title" >  <a href="\{{fileLink}}">  \{{fileName}}</a></h3>
+              </div>
+    <div class="panel-body">
+    <p>\{{{summary}}}
+                  <br>
+                </p>
+              </div>
+            </div>
+          </div>
+       \{{/each}} 
+
+       </script>                              	      	  		       	       	     	         
+
+       <div id="formattedResult"> </div>
+
+    </div>
+
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+     var searchButton = document.getElementById("search_button");
+     var inputText = document.getElementById("searchwords");
+     searchButton.onclick = function(){ 
+         console.log("search button clicked")
+	 console.log(inputText.value);	 
+	 jQuery.ajax(
+	    {
+	         type: "GET",
+                 url : "/lucene",
+	         data: {words:inputText.value},
+                 success: displayCallback
+              }
+          )
+	 };
+
+	 function displayCallback(fileName_summary){
+         var isPortal = Boolean(document.getElementById('isPortal').value);
+         //obtain file name at the client
+	     var str= fileName_summary.toString();
+             var fileName_summary_str = str.split('\n');
+
+ //       d3.select("#result")
+ //	   		     .append("ul")			        
+ //			     .selectAll("li")
+ //			     .data(arrFileNames)
+ //			     .enter()
+ //			     .append("li")
+ //			     .append("a")
+ //			     .text(  function(d){ return d})
+ //			     .attr("href","/find?name=20160306JFM090");
+ 
+             var hbsTemplate = Handlebars.compile(
+				    $('#hbsTemplate').html());
+	     var $formatter = $('#formattedResult');
+
+// new format
+//fileName	Summary	
+//20130126SFI060U1.xlsx	隔离接触器故障，东昌现场无备件；机器人控制柜24V电源线接线差异，ICOM板CSTOP##报警##，造成备用焊机隔离接触也无法吸合 ... 生产反映SFI60 U1机器人无法焊接，工程师到场后发现焊机有##报警##； ... 检测发现焊机内焊接控制器##报警##、隔离接触器未吸合； ... 焊机更换后依旧有##报警##，检查发现ICOM板CSTOP指示灯异常，与机器人控制柜连接的24V电源无输入； ... 使用短接排短接，消除##报警##，焊机可正常焊接； ... 1.启用BACKUP焊机，使用短接排清除##报警##，临时维持生产 ... 为什么SFI60U1工位HMI##报警## ... 为什么U1焊接##报警## ... 	
+//20120328JRL040.xlsx	JRL机运线##报警##030工位升降滚床下降不到位 ... JRL机运线##报警##030工位升降滚床下降不到位，手动进行下降操作，滚床下降运行正常； ... 检查030工位下降传感器，已经到位，但故障##报警##未消除，通知控制确认状态； ... 检查##报警##代码发现是040滚床下降不到位，手动操作，没有动作； ... 运行一段时间后相同##报警##又出现，热保护器复位后检查接触器状态，发现并联端子有些松； ... 更改HMI##报警##信息 ... 对主线##报警##信息进行核对 ... 为什么工位##报警##？因为040工位升降滚床下降不到位； ... 	
+
+	     
+	     var objArrayHrefFileNameSummary =[];
+	     var arrLen = fileName_summary_str.length;
+	     // the first line is 'fileName Summary'
+	     for(var i=1;i<arrLen;i++){
+		 if(fileName_summary_str[i]){
+		     
+		 //remove .xls replace it with json
+		     var nameParts = fileName_summary_str[i].split('.');
+		     var name = nameParts[0]+'.json';  //first dot
+		     var displayName = 'File : '+nameParts[0];
+		     
+		     var summary_text = fileName_summary_str[i];
+		     var summary_text_modified = summary_text.replace(/##([^#]*)##/g,'<span style="background-color: #EDF315">$1</span>');
+		     var fileLink = "/display?fileName="+name;
+		     if (isPortal) {
+		         fileLink += "&portal=true";
+             }
+		 objArrayHrefFileNameSummary.push({
+		     fileLink: fileLink,
+		     fileName:displayName,
+		     summary:summary_text_modified
+		 })
+		 }
+	     };
+
+	     $formatter.html(hbsTemplate({
+                 item: objArrayHrefFileNameSummary				 
+	     }));
+	     
+	     
+         }
+      
+   })    
+</script>

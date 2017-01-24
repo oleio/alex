@@ -1,0 +1,222 @@
+{
+	"fileName": "20120911CV14.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120911CV14.json",
+	"score": 571,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月11日15时50分",
+	"fileNameDate": "20120911",
+	"equipName": "设备名称:EMS空中BUFFER",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: CV14",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "15",
+	"lostProductNum": "5",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  丁伟        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "处理设备故障现场，将损坏的侧围放回小车运回地面；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "恢复设备运行同时分析侧围掉落原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV14机运线小车上的E-CAR内侧围掉落到空中平台上"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"正常情况侧围离平台150-200mm"
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么E-CAR内侧围从小车掉落到空中平台上？因为小车过弯道时小车上的侧围下部碰到铁丝网平台"
+		],
+		[
+			"为什么小车过弯道时小车上的侧围下部碰到铁丝网平台？因为内侧围下部距离铁丝网平台距离过近"
+		],
+		[
+			"为什么内侧围下部距离铁丝网平台距离过近？因为小车在上料位停止位置偏差；内侧围在装载升降台上位置的偏差；小车从静止到行走时内侧围在小车上前后位置变化；"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "上述三种原因造成内侧围下部距离铁丝网平台距离过近",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "维修人员注意观察，发现侧围在小车上位置问题及时纠正。",
+				"resp": "底板维修人员",
+				"supp": "",
+				"compDate": "9\/16\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "在空中机运线钢丝网平台上加装光电开关检测侧围与平台距离，发现距离过小的小车报警停止。",
+				"resp": "马晓洲黄轶佳",
+				"supp": "黄光耀",
+				"compDate": "9\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

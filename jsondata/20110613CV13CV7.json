@@ -1,0 +1,222 @@
+{
+	"fileName": "20110613CV13CV7.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110613CV13CV7.json",
+	"score": 620,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月13日  时  分",
+	"fileNameDate": "20110613",
+	"equipName": "设备名称:EMS小车",
+	"breakdownTime": "停机时间：10+20min",
+	"areaLocation": "停机区域\/点:CV7\/CV13",
+	"maintainTeam": "维修班组：B\/C",
+	"lostTime": "10",
+	"lostProductNum": "15",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期 马晓洲         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "小车停止后人工干预、复位，恢复小车运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "后问题重复，进一步检查小车运动相关机械部分，发现小车承载轮轴承过度磨损；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "问题小车（CV13\/#22,CV7\/#3）拉到维修工位修理后放出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"中班生产过程中CV7\/CV13小车重复故障，小车变频器报警，小车停止，需人工"
+		],
+		[
+			"干预、复位。（CV7累计20min\/CV13累计10min）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么生产过程中CV7\/CV13小车报警停止？因为小车变频器过电流报警"
+		],
+		[
+			"为什么小车变频器过电流报警？因为小车运行阻力超过正常范围"
+		],
+		[
+			"为什么小车运行阻力超过正常范围？因为小车承载轮轴承磨损"
+		],
+		[
+			""
+		],
+		[
+			"为什么小车承载轮轴承磨损？因为长期使用磨损后没有及时提前更换"
+		]
+	],
+	"rootCause": "小车承载轮轴承长期使用磨损后没有及时提前更换",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将重复发生问题的小车（CV13\/#22,CV7\/#3）拉到维修工位修理",
+				"resp": "佘佳安",
+				"supp": "李颖琛",
+				"compDate": "11-6-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查CV13\/CV7所有小车承载轮状态，必要时更换修理。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "11-6-18",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将小车检修列入预防性维修计划（暂定1次\/3个月）",
+				"resp": "马晓洲",
+				"supp": "胡滨",
+				"compDate": "11-6-30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波 陈文佳",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

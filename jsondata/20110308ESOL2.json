@@ -1,0 +1,222 @@
+{
+	"fileName": "20110308ESOL2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110308ESOL2.json",
+	"score": 860,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年3月8日13 时 10分",
+	"fileNameDate": "20110308",
+	"equipName": "设备名称:机器人抓具",
+	"breakdownTime": "停机时间：33 min",
+	"areaLocation": "停机区域\/点: ESO L",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "33",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator张兆     2011.3.4",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "机器人L2故障工位报警停止，检查L2示教板发现L2通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "连续复位，机器人反复微动作导致机器人将已经停放到架子上的GRIPPER拉出停放位置；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "手动操作机器人将GRIPPER重新抓住；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检修导致通讯故障的松动电缆接头，调整位置变化的GRIPPER固定夹头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "调整并检验机器人L2的抓放料位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备正常运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO左侧机器人L2放抓具时通讯报警停止，反复复位后机器人将GRIPPER拉出停"
+		],
+		[
+			"放位置并将GRIPPER固定夹头位置拉偏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人反复微动作导致机器人将已经停放到架子上的GRIPPER拉出停放位置？因为机器人在换枪盘锁枪机构频繁打开、关闭情况下反复微动作"
+		],
+		[
+			"为什么机器人在换枪盘锁枪机构频繁打开关闭情况下反复微动作？因为锁枪电磁阀通电失电状态频繁变化的同时机器人频繁动作、停止"
+		],
+		[
+			"为什么锁枪电磁阀通电失电状态频繁变化的同时机器人频繁动作、停止？因为机器人通讯故障而且被反复复位"
+		],
+		[
+			""
+		],
+		[
+			"为什么机器人通讯故障而且被反复复位？修理方法不当，没有根据故障现象解决根本问题原因"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整位置发生变化的GRIPPER固定夹头，调整检验机器人",
+				"resp": "陈烨华",
+				"supp": "黄波",
+				"compDate": "11-03-08",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "抓放料位置。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "处理故障不当，反复复位机器人故障导致问题扩大的维修人员内部通报批评。",
+				"resp": "马晓洲",
+				"supp": "李成",
+				"compDate": "11-03-09",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "机器人放GRIPPER时增加监控程序，在换枪盘机构没有",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11-03-20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "UNLOCK的情况下机器人HOLD，避免放GRIPPER时出现拉",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "动GRIPPER现象。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "根据示教板报警信息提示，检修导致通讯故障的松动电缆接头。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄波",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

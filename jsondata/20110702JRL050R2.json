@@ -1,0 +1,222 @@
+{
+	"fileName": "20110702JRL050R2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110702JRL050R2.json",
+	"score": 599,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月2日16时54分",
+	"fileNameDate": "20110702",
+	"equipName": "设备名称:  机器人气动焊枪",
+	"breakdownTime": "停机时间：15MIN",
+	"areaLocation": "",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "6",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 黄智君\n2011-5-5",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "准备备件并同时拆卸损坏的上下电极杆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "更换上下电极杆并同时更换电极帽；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "修磨电极帽后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL30R2 WATER SAVER报警，进入工位检查发现上下电机杆锥面损坏"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪WATER SAVER报警？因为电极帽脱落"
+		],
+		[
+			"为什么电极帽脱落？因为焊点处有有胶导致炸枪粘电极帽"
+		],
+		[
+			"为什么粘掉电极帽后需要更换上下电极杆？因为电极帽粘掉后焊枪又打了3个焊点"
+		],
+		[
+			"为什么电极帽粘掉后焊枪又打了3个焊点？因为WATER SAVER流量传感器灵敏度调得过低"
+		],
+		[
+			"为什么WATER SAVER流量传感器灵敏度调得过低？因为流量传感器检测不稳定，出现WATER SAVER误报警时调整量过大。"
+		]
+	],
+	"rootCause": "流量传感器检测不稳定，出现WATER SAVER误报警时调整量过大,导致电极帽粘掉后焊枪没有马上停止焊接。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "夜班生产结束后检查、调整WATER SAVER灵敏度",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11-7-3",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "用性能较好的新型WATER SAVER替代老型号WATER SAVER",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11-7-20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:谢鲲",
+	"person_Manager": "工程师\/ENG.:陈超"
+}

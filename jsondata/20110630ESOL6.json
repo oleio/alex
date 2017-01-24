@@ -1,0 +1,222 @@
+{
+	"fileName": "20110630ESOL6.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110630ESOL6.json",
+	"score": 775,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月30日22时45分",
+	"fileNameDate": "20110630",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：205MIN",
+	"areaLocation": "停机区域\/点:ESO L",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "35",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 尹熠俊",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "查看焊机状态，发现隔离接触器没有吸合(10min)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "万用表测量隔离接触器A1,A2线圈桩头发现120V吸合电压输出正常(5min)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换隔离接触器，隔离接触器能正常吸合但仍只有微小电流输出(20min)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查隔离接触器接线正确性，并用测电笔测量隔离接触器上下桩头输出发现有微弱输出(10min)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "检查焊枪软连接换枪盘桩头正常，发现隔离接触器上下桩头无电流输出，怀疑逆变器同时损坏，更换逆变器和主板(40min)",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "更换后发现仍无电流输出，将焊机输出接入旁边工位焊枪能正常焊接(20min)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "制作机器人焊接电缆进行飞线，飞线后能正常焊接（60min)",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO L6机器人无法正常焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么无法焊接？因为隔离接触器未吸合"
+		],
+		[
+			"为什么未吸合？因为隔离接触器吸合线圈断路，更换隔离接触器"
+		],
+		[
+			"为什么更换后仍无法正常焊接？因为焊接电缆部分断路，输出电流小"
+		],
+		[
+			"为什么焊接电缆断路？该机器人轨迹较复杂，翻转扭曲动作较多；电缆容易疲劳断裂。"
+		],
+		[
+			"为什么该机器人轨迹复杂？机器人需要兼顾焊接和抓料两套工艺"
+		]
+	],
+	"rootCause": "1.隔离接触器损坏   2.焊接电缆部分断路",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的隔离接触器",
+				"resp": "尹熠俊",
+				"supp": "孙杰",
+				"compDate": "11-6-30",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "临时飞电缆，夜班恢复",
+				"resp": "尹熠俊",
+				"supp": "徐啸顺",
+				"compDate": "11-6-30",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.评估该机器人轨迹优化空间。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11-7-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.采用高柔性焊接电缆替代。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11-8-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.总结排故过程中的经验与教训，工段内部学习交流。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "11-7-10",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "除第5条外同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:孙杰"
+}

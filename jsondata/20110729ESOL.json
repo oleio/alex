@@ -1,0 +1,222 @@
+{
+	"fileName": "20110729ESOL.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110729ESOL.json",
+	"score": 938,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月29日17 时30分",
+	"fileNameDate": "20110729",
+	"equipName": "设备名称:手工焊枪",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点:ESO",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "40",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 谢成侃         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查焊机气源并同时检查焊枪手柄对焊枪控制气阀的控制，电磁阀动作正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "判断焊枪气缸内部泄漏，东昌紧急送货同时领用密封圈修理焊枪气缸，现场更换BACKUP气缸密封圈并同时更换焊接缸密封圈；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "完成更换后再次操作焊枪手柄动作BACKUP气缸不动作，发现阀组保持排气状态（有排气声）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查阀组排气原因，发现备用阀的BACKUP阀气路与现用阀为并联状态（未用闷头闷死），备用阀处于BACKUP关闭状态，阀组排气，影响现用BACKUP气路正常工作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "将备用阀手动动作到“BACKUP打开状态”，因怀疑焊枪手柄可能存在短路状态，更换焊枪手柄后试验焊枪动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复焊枪正常动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "将换下的焊枪手柄装到C-CAR区域焊机上试验，功能正常；模拟故障焊枪气路状态，确认气缸修复后焊枪无法正确动作原因。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO手工焊枪气缸BACKUP不动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪BACKUP气缸不动作？因为焊枪气缸密封圈磨损导致焊枪气缸泄漏"
+		],
+		[
+			"为什么焊枪气缸密封圈更换完成，焊枪气缸修复后焊枪BACKUP仍然不能动作？因为BACKUP控制气路保持排气"
+		],
+		[
+			"为什么BACKUP控制气路保持排气？因为焊枪BACKUP控制气阀与备用2#枪BACKUP气阀并联而且修理过程中备用BACKUP阀被误动作到BACKUP关闭状态"
+		],
+		[
+			"为什么焊枪BACKUP控制气阀与备用2#枪BACKUP气阀并联？因为焊枪安装初始阶段气路存在问题，气路连接不规范"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1)焊枪气缸内泄漏  2)焊枪安装初始阶段气路存在问题，气路连接不规范。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换焊枪气缸密封圈",
+				"resp": "谢成侃",
+				"supp": "程超",
+				"compDate": "11-7-29",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "车间范围内检查手工焊枪阀组气管连接，发现相同问题焊枪控制气路进行整改。",
+				"resp": "黄波   陈文佳 尹熠俊",
+				"supp": "黄波     程超",
+				"compDate": "11-8-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "在修理焊枪气缸前备用BACKUP电磁阀由于误接焊枪手柄或手动动作阀造成气阀状态"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "问题导致需要检查发现气阀组排气问题。"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:程超"
+}

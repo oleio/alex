@@ -1,0 +1,222 @@
+{
+	"fileName": "20120510JRL050R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120510JRL050R1.json",
+	"score": 755,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年05月9日22时35分",
+	"fileNameDate": "20120510",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 陈烨华",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "焊机焊接故障复位故障依旧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "维修打开焊接控制柜检查焊接控制模块组发现温控输入点断开；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "进入工位内检查焊枪温控回路接线发现换枪盘T侧温控线、电磁阀线、19芯接线盒插座、安全插销线缆全部拉断；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "将该机器人L-CAR车型Bypass,对L-CAR焊枪换枪盘及线缆进行更换及修复；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "对R1机器人抓放枪轨迹进行验证并合理捆扎线缆避免与外部其它设备干涉；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL050工位R1机器人切换焊枪释放L-CAR焊枪时焊枪梅达焊机自检未通过报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊枪无法焊接？因为焊枪梅达焊机自检未通过"
+		],
+		[
+			"为什么焊枪梅达焊机自检未通过？因为焊接控制模块组温控输入点断开"
+		],
+		[
+			"为什么焊接控制模块组温控输入点断开？因为焊枪温控线断路"
+		],
+		[
+			"为什么焊枪温控线断路？因为换枪盘T侧下部外露线缆与停枪支架干涉受力扯断"
+		],
+		[
+			"为什么换枪盘T侧下部外露线缆与停枪支架干涉受力扯断？因为焊枪停枪支架与焊枪间留给焊枪线缆的排放空间狭小，当焊枪线缆的捆扎松动散开后会与停枪支架干涉引起损坏"
+		]
+	],
+	"rootCause": "机器人焊枪停枪支架与焊枪间留给焊枪线缆的排放空间狭小，当焊枪线缆的捆扎松动散开后抓放枪时会与停枪支架干涉引起损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的电缆及换枪盘T侧插座总成并合理捆扎线缆验证机器人换枪轨迹",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "12-05-09",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "加工切割停枪支架在保证强度的情况下使焊枪与停枪支架间空间变大避免线缆与停枪支架干涉；",
+				"resp": "陈烨华",
+				"supp": "徐啸顺",
+				"compDate": "12-05-13",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修经过"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:黄波（代）"
+}

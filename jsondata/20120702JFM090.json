@@ -1,0 +1,222 @@
+{
+	"fileName": "20120702JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120702JFM090.json",
+	"score": 612,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年07月02日13时40分",
+	"fileNameDate": "20120702",
+	"equipName": "设备名称:GATE切换",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: JFM090",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "15",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 陈佳文        \nOringinator 2012.7.2",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090 GATE不切换，查看HMI无报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动操作HMI切换GATE，但无动作，无报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "通知控制工程师查看程序，确认输出信号正常，查看变频器状态，正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "查看变频器上级接触器发现使能信号接触器未有效吸合；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动触发使能信号接触器，接触器吸合，恢复自动运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090自动状态下跳手动模式，无报警，复位后下一辆E11进总拼GATE不切"
+		],
+		[
+			"换，跳手动模式"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位跳手动？因为GATE切换超时；"
+		],
+		[
+			"为什么GATE切换超时？因为变频器无输出；"
+		],
+		[
+			"为什么变频器无输出？因为使能信号未收到；"
+		],
+		[
+			"为什么使能信号未收到？因为使能接触器未有效吸合；"
+		],
+		[
+			"为什么使能接触器未有效吸合？因为接触器吸合机械部件阻滞；"
+		]
+	],
+	"rootCause": "接触器吸合机械部件阻滞卡住，未有效吸合造成GATE切换故障",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "在线手动触发接触器使其吸合，恢复运行",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2012.7.2",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换此接触器",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012.7.3",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换JFM090GATE切换高功率接触器（共4个）",
+				"resp": "尹伟文",
+				"supp": "A班",
+				"compDate": "2012.7.8",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "维修过程同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20150318(s).xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150318(s).json",
+	"score": 527,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年3月15日18时 分",
+	"fileNameDate": "20150318",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点:  总拼",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "50",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   钱毅吉      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "机器人断电冷启动,启动失败.重启时按住PREV NEXT键,无法进入控制启动界面",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查控制柜内保险丝,保险丝无损坏",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "启动时按F1,F5进入BOOT MENU.对当前机器人进行镜像备份",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换机器人主板,并导入镜像备份.启动失败.导入JFM090R2的镜像备份,仍启动失败.排除主板问题.换回原主板",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换panel board.机器人无法启动",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换PSU电源板.机器人启动成功",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090L2机器人无法开机"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人无法开机"
+		],
+		[
+			"为什么机器人控制系统部分电源不正常？因为控制柜PSU电源板存在故障"
+		],
+		[
+			"为什么PSU电源板发生故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "设备调试插拔短接排时对PSU部分通道产生冲击，导致PSU损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换PSU电源板",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2015.3.15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将PSU电源板送至FANUC检查故障原因",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "6\/10\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:佘佳安",
+	"person_ENG": "工程师\/ENG.:钱毅吉",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

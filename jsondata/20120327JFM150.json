@@ -1,0 +1,222 @@
+{
+	"fileName": "20120327JFM150.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120327JFM150.json",
+	"score": 801,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 3月 27日 21时00分",
+	"fileNameDate": "20120327",
+	"equipName": "设备名称:激光焊接",
+	"breakdownTime": "停机时间：累积35min",
+	"areaLocation": "停机区域\/点:JFM150",
+	"maintainTeam": "维修班组：B&C班",
+	"lostTime": "50",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:尹熠俊          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM150激光焊工位报警，L1机器人在焊接E10时找不到焊缝；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "尝试手动进行焊接，发现测量位置偏差超限，移动后可进行焊接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "JFM150L1报警频次较高，故临时对L1进行BYPASS，用R1焊接两侧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "切换到E11时R1找不到焊缝，手动用L1进行两侧焊接，报警频次较高；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "临时用L1烧焊E11，R1烧焊E10；利用618生产间隙进工位查看激光焊硬件状态，正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "检查后恢复L1\/R1同时烧焊（仅有E11，而E10待确认），恢复正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM150激光焊工位报警，L1机器人找不到焊缝（E10)"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM150L1报警？因为L1焊缝测量系统测量失败；"
+		],
+		[
+			"为什么L1测量失败？因为L1拍照系统测量得到的车顶&侧围相对位置数据超出容差范围；"
+		],
+		[
+			"为什么超出容差范围？车顶位置发生变化。"
+		],
+		[
+			"为什么车顶位置发生变化？因为在内总拼的工装调整可能影响到车顶的定位。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "问题车辆在CMM排测量后确认车顶偏左；JFM150采用单枪焊接CYCLE在85秒左右，影响线速。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修改机器人程序，E10由R1焊接对车顶两边焊接。",
+				"resp": "李颖琛",
+				"supp": "尹熠俊",
+				"compDate": "2012.3.27",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对E-10车顶工位的放料位置进行调整，恢复L1焊接。",
+				"resp": "徐啸顺",
+				"supp": "缪逸晨",
+				"compDate": "2012.3.28",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "机器人组根据激光焊测量方式特点制定测量问题的维修任务书（MTS），并培训各班维修，提高操作排故效率。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012.4.2",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "论证激光焊快速烧焊方案，使得单枪烧焊能够满足CYCLE要求。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012.4.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

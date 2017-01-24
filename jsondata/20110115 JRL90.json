@@ -1,0 +1,222 @@
+{
+	"fileName": "20110115 JRL90.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110115 JRL90.json",
+	"score": 694,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年1月15日14时12分",
+	"fileNameDate": "20110115",
+	"equipName": "设备名称:T2200焊机",
+	"breakdownTime": "停机时间：30",
+	"areaLocation": "停机区域\/点:JRL90",
+	"maintainTeam": "维修班组：C\\A",
+	"lostTime": "30",
+	"lostProductNum": "0",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期          \nOringinator 王俊杰2011.1.15\n",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "用万用表检查焊接控制箱内部交流电源，有电压；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查并更换焊接主板上的保险丝后，故障状态相同；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换备件焊接主板后显示屏恢复显示但报警隔离接触器故障（手工焊机无隔离接触器）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "从C-CAR区域临时“借”一块焊机主板更换，恢复焊机正常功能；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "调整焊接参数恢复正常生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "（维修焊机期间用L2焊枪维持正常线速生产）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL090工位左侧L1手工焊枪显示屏暗，焊机没用动作。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊机不能焊接，显示屏没有显示？ 因为焊接主板损坏"
+		],
+		[
+			"为什么更换焊接主板后设备还是不能运行？因为焊机显示屏报警隔离接触器没有动作（手工焊机没有隔离接触器）"
+		],
+		[
+			"为什么焊机显示报警隔离接触器没有动作？ 因为焊机为通用性主板，初始化设置不正确。"
+		],
+		[
+			""
+		],
+		[
+			"为什么焊机为通用性主板，初始化设置不正确？因为梅达出厂未正确设置，东昌收货后维修没有上线检查主板功能。"
+		]
+	],
+	"rootCause": "梅达出厂未正确设置，东昌收货后维修没有上线检查主板功能。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "从C-CAR区域临时“借”一块焊机主板恢复正在生产的设备",
+				"resp": "王俊杰",
+				"supp": "",
+				"compDate": "2011.1.15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系梅达，保证T2200主板送东昌前完成正确的初始化设置",
+				"resp": "王俊杰",
+				"supp": "钱俊",
+				"compDate": "2011.1.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "开发焊机主板初始化设置的一点课程，培训全体维修人员",
+				"resp": "王俊杰",
+				"supp": "钱俊",
+				"compDate": "2011.1.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳、尹熠俊",
+	"person_Manager": "工程师\/ENG.:王俊杰"
+}

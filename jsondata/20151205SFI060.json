@@ -1,0 +1,222 @@
+{
+	"fileName": "20151205SFI060.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151205SFI060.json",
+	"score": 715,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015\/12\/5",
+	"fileNameDate": "20151205",
+	"equipName": "设备名称:  GATE",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: SFI060",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    谢诚侃\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "切换GATE时E15从middle位置至storage位置时停止",
+				"lostMin": 2,
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看HMI STORAGE绿框亮起，但实际未到",
+				"lostMin": 1,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "现场维修手动拉到STORAGE位置后发现GATE CLAMP位置不佳，又拉进middle位置，需要设置车型",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "需要设置车型时，控制办公室电脑一号机突然死机，监控界面不能使用，电脑重新启动。",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "重启过程中，至现确认GATE状态后，现场连接PLC设置GATE车型，清除报警",
+				"lostMin": 5,
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复自动",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060 MR2 E15 GATE移动至STORAGE位置出错"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么GATE停止动作？因为MR2 STORAGE停止位误触发"
+		],
+		[
+			"为什么MR2 STORAGE停止位误触发？因为接近式感应开关信号抖动一次造成"
+		],
+		[
+			"为什么拉进STORAGE后又重新推进MIDLLE位置"
+		],
+		[
+			"为什么手动切换到位后，设置车型较慢"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.右侧GATE STORAGE STOP位置传感器误触发；\n2.程序监控电脑死机；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "现场连接PLC设置车型",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "12\/5\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换STORAGE STOP传感器",
+				"resp": "丁伟",
+				"supp": "",
+				"compDate": "12\/5\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改SFI060 GATE位置的HMI显示，取消置位信号（按钮显示绿框）",
+				"resp": "谢诚侃",
+				"supp": "张少峰",
+				"compDate": "12\/15\/2015",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "控制组PLC监控台式电脑更新",
+				"resp": "张少峰",
+				"supp": "尹伟文",
+				"compDate": "1\/15\/2016",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "手动拉GATE至STORAGE位置"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "设置车型"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:丁伟",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

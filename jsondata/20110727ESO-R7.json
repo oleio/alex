@@ -1,0 +1,222 @@
+{
+	"fileName": "20110727ESO-R7.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110727ESO-R7.json",
+	"score": 659,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月28日2时30分",
+	"fileNameDate": "20110727",
+	"equipName": "设备名称:ESO R7",
+	"breakdownTime": "停机时间：20",
+	"areaLocation": "停机区域\/点: ESO",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 周志辉\/2011.7.28\nOringinator 2011.",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查Watersaver，发现Watersaver电源不亮；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查Watersaver电源线，发现20#模块也无电源；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "从机器人控制柜飞线，依然没有电源；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换电源T头，故障依旧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "检查控制柜，发现DeviceNet电源跳闸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "检查J3轴DeviceNet电源出口，发现被飞溅堵塞；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "清理飞溅，故障排除",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO R7机器人报警，WaterSaver无输入"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么Watersaver无输入报警？因为DeviceNet电源开关跳闸；"
+		],
+		[
+			"为什么DeviceNet电源开关跳闸？因为DeviceNet电路短路；"
+		],
+		[
+			"为什么DeviceNet电路短路？因为J3轴DeviceNet闲置电源接头短路；"
+		],
+		[
+			"为什么J3轴DeviceNet闲置电源接头短路？因为闲置接头闷盖缺失；"
+		],
+		[
+			"为什么闷盖缺失？因为塑料闷盖老化掉落"
+		]
+	],
+	"rootCause": "闷盖缺失，J3轴DeviceNet电源接头被飞溅堵塞",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "清理接头处飞溅，恢复生产",
+				"resp": "李颖琛",
+				"supp": "谢鲲",
+				"compDate": "7\/28",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "将闲置接头内部线缆断路，防止再次短路",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "7\/28",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换带螺纹的金属盖保护所有闲置接头，防止飞溅进入",
+				"resp": "黄俊宇",
+				"supp": "胡滨",
+				"compDate": "9\/31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "非生产日更换故障的接头",
+				"resp": "李颖琛",
+				"supp": "陈文佳",
+				"compDate": "8\/7",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:谢鲲（代）",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

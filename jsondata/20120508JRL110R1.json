@@ -1,0 +1,222 @@
+{
+	"fileName": "20120508JRL110R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120508JRL110R1.json",
+	"score": 854,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年5月8日10时15分",
+	"fileNameDate": "20120508",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：累计29",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "29",
+	"lostProductNum": "18",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 刘少杰         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查示教板程序执行状态，发现机器人在等待BACKUP OPEN信号但焊枪处于关闭状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "怀疑焊枪电磁阀故障，用螺丝刀强制阀动作正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "判断电磁阀没有收到DC24V信号，怀疑19芯信号电缆故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "用备件替代法发现焊枪上的19芯短电缆故障，进一步检查发现19芯电缆外皮磨破短路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换电缆后焊枪能够动作但焊枪打开关闭检测信号不正确（信号有变化）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "根据问题现象分析判断，换上的备件电缆和故障电缆不一致；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "修改机器人程序中焊枪闭合打开信号状态后设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"工位超时报警后停止自动运行，R1机器人焊枪BACKUP无法OPEN。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪BACKUP无法OPEN？因为焊枪控制19芯短电缆芯线短路"
+		],
+		[
+			"为什么焊枪控制19芯短电缆芯线短路？因为电缆外皮在生产过程中磨破"
+		],
+		[
+			"为什么电缆外皮在生产过程中磨破？因为机器人19芯短电缆与白车身摩擦"
+		],
+		[
+			"为什么更换备件信号电缆后需要修改机器人程序才能正常运行？因为备件电缆和故障电缆内部接线不一致"
+		],
+		[
+			"为什么备件电缆和故障电缆内部接线不一致？因为现场部分老焊枪使用了不规范接线的19芯电缆"
+		]
+	],
+	"rootCause": "焊枪19芯短电缆与工件摩擦问题未能在维修巡检中及时发现；故障焊枪使用的不规范接线19芯电缆导致更换备件电缆后需要修改机器人程序才能正常运行。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换备件信号电缆，同时修改机器人程序恢复设备运行。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "5\/8\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "示教不同车型机器人焊接轨迹，找出擦碰点并予以解决。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "5\/9\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调查统计车间内不规范接线的机器人焊枪数量，准备备件安排整改。",
+				"resp": "孙杰",
+				"supp": "胡滨",
+				"compDate": "7\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "该焊枪预防性维修责任人绩效扣分处理",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "5\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:程超",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

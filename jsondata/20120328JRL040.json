@@ -1,0 +1,222 @@
+{
+	"fileName": "20120328JRL040.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120328JRL040.json",
+	"score": 626,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 3月29日 2时 20分",
+	"fileNameDate": "20120328",
+	"equipName": "设备名称:升降滚床",
+	"breakdownTime": "停机时间：累积23min",
+	"areaLocation": "停机区域\/点:JRL040",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "23",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 尹熠俊         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL机运线报警030工位升降滚床下降不到位，手动进行下降操作，滚床下降运行正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查030工位下降传感器，已经到位，但故障报警未消除，通知控制确认状态；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查报警代码发现是040滚床下降不到位，手动操作，没有动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "打开控制柜检查主回路状态，发现热保护器跳，复位后恢复正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "运行一段时间后相同报警又出现，热保护器复位后检查接触器状态，发现并联端子有些松；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "紧固端子后跟踪运行状态。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL机运线报警030工位升降滚床下降不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位报警？因为040工位升降滚床下降不到位；"
+		],
+		[
+			"为什么下降不到位？因为热保护器跳掉；"
+		],
+		[
+			"为什么热保护器动作？因为三相电源缺相；"
+		],
+		[
+			"为什么三相电源缺相？因为并联端子松动；"
+		],
+		[
+			"为什么并联端子松动？因为接触器每次吸合振动导致并联端子松动；"
+		]
+	],
+	"rootCause": "",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "复位热保护器，紧固接触器并联端子",
+				"resp": "尹熠俊",
+				"supp": "滕征",
+				"compDate": "2012.3.29",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更改HMI报警信息",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": "2012.3.29",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对主线接触器端子进行检查紧固",
+				"resp": "各班组",
+				"supp": "控制组",
+				"compDate": "2012.4.15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对主线报警信息进行核对",
+				"resp": "控制组",
+				"supp": "",
+				"compDate": "2012.4.29",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

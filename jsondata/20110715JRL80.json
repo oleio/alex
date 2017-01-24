@@ -1,0 +1,222 @@
+{
+	"fileName": "20110715JRL80.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110715JRL80.json",
+	"score": 473,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月15日  时  分",
+	"fileNameDate": "20110715",
+	"equipName": "设备名称:机器人工位",
+	"breakdownTime": "停机时间：10min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "10",
+	"lostProductNum": "5",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator丁伟 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "再次出现并无法复位时检查传感器、信号电缆但未发现明显异常现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "尝试替换传感器信号电缆后设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL80工位有一夹头经常打开不到位报警（初始能复位）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么夹头平凡出现打开不到位报警（初始能复位）？因为PLC没有收到传感器信号"
+		],
+		[
+			"为什么PLC没有收到传感器信号？因为传感器信号接线回路接触不良"
+		],
+		[
+			"为什么传感器信号接线回路接触不良？因为信号电缆内部接触不良"
+		],
+		[
+			""
+		],
+		[
+			"为什么信号电缆内部接触不良？确切原因需拆下信号电缆解剖分析"
+		]
+	],
+	"rootCause": "信号电缆内部接触不良（确切原因需拆下信号电缆解剖分析）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用备件信号电缆替换故障电缆",
+				"resp": "丁伟",
+				"supp": "",
+				"compDate": "11-7-15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拆下故障信号电缆解剖分析，根据分析原因更新长期措施。",
+				"resp": "丁伟",
+				"supp": "马晓洲",
+				"compDate": "11-7-15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:谢成侃",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

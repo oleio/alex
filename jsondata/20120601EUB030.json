@@ -1,0 +1,222 @@
+{
+	"fileName": "20120601EUB030.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120601EUB030.json",
+	"score": 642,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年  6月  1日  时  分",
+	"fileNameDate": "20120601",
+	"equipName": "设备名称:EUB030",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:   EUB",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "30",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:    刘丰      \nOringinator20120601",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查工位状态，发现安全无法复位",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查HMI报警，发现有RUN BAR E-SOTP报警",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查 RUN BAR 发现没有急停按钮被按下",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查EUB030 J1控制箱，发现安全模块输入输出点有故障",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "对安全模块进行断电后，故障消除",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "工作一段时间后，安全模块再次故障",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "将输出点短接后暂时恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB030 急停报警 无法复位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位安全无法复位 ？ 因为EUB030急停报警。"
+		],
+		[
+			"为什么EUB030急停报警？ 因为安全模块有故障。"
+		],
+		[
+			"为什么安全模块有故障？ 因为安全模块对电压比较敏感，外部电压降引起模块故障。"
+		],
+		[
+			"为什么会有外部电压降？ 因为左前RUNBAR 指示灯内有金属粉尘堆积。"
+		],
+		[
+			"为什么左前RUNBAR 指示灯内有金属粉尘堆积？指示灯顶盖缺失。"
+		]
+	],
+	"rootCause": "指示灯顶盖缺失，金属粉尘进入灯塔.",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1 将输出点临时短接，减少模块报警",
+				"resp": "刘丰",
+				"supp": "",
+				"compDate": 20120601,
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2 对相关RUN BAR在线进行测试，确认是否有短路",
+				"resp": "刘丰",
+				"supp": "",
+				"compDate": 20120601,
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3 调整电源电压，确认是否由电源电压低引起故障",
+				"resp": "刘丰",
+				"supp": "",
+				"compDate": 20120601,
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.生产DTPM中将此项目添加到runbar检查上去。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": 20120610,
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

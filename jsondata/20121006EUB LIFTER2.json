@@ -1,0 +1,222 @@
+{
+	"fileName": "20121006EUB LIFTER2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121006EUB LIFTER2.json",
+	"score": 931,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月7日1时51分",
+	"fileNameDate": "20121006",
+	"equipName": "设备名称:LIFTER2",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:EUB SHUTTLE",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "45",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄波         \nOringinator　2012.10.7",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "查看故障现场，发现LIFTER1前部支撑架连接件脱焊；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "烧焊损坏的连接件，更换误触发的上升位置传感器，将传感器支架后移远离可能造成误触发的LIFTER框架；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "将受损底板零件搬运下线；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "调整30#工位后部受撞击的两个底部勾销的基准位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUBshuttle线LIFTER2在上升不到位情况下向前水平移动，造成LIFTER2"
+		],
+		[
+			"上的底板与30#工位工装干涉。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么LIFTER1撞击30#工位工装？因为LIFTER2未到高位，SHUTTLE线前进；"
+		],
+		[
+			"为什么LIFTER2未到高位？因为LIFTER上升到位信号误触发，气缸上升没有到位就开始水平向前。"
+		],
+		[
+			"为什么LIFTER上升到位信号误触发，气缸上升没有到位就开始水平向前。？因为上升位传感器被焊接飞溅包裹，引起传感器被周围钢结构误感应。"
+		],
+		[
+			"上升位传感器被焊接飞溅包裹，引起传感器被周围钢结构误感应？因为传感器安装位置离焊点位置过近，导致焊接飞溅影响。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "传感器安装位置离焊点位置过近，飞溅影响导致LIFTER2上升到位信号误触发，气缸上升一半位置上升到位传感器已经感应，升降托架在中间位置SHUTTLE线向前移动，造成LIFTER2上的底板与30#工位工装干涉。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将传感器支架后移远离可能造成误触发的LIFTER框架",
+				"resp": "孙伟",
+				"supp": "刘丰",
+				"compDate": "10\/7\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "LIFTER上升到位信号加1.5秒过滤，降低传感器误触发风险",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "10\/7\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "另行选择新的上升到位传感器安装位置（后底板下）将其中一个上升到位传感器安装到新的位置，彻底避免误触发。（EUB\/EMC）",
+				"resp": "刘丰",
+				"supp": "陈文佳",
+				"compDate": "10\/14\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修改PLC程序，当检测到2个到位传感器状态不一样是停止设备自动运行。（EUB\/EMC）",
+				"resp": "黄轶佳",
+				"supp": "刘丰",
+				"compDate": "10\/14\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:孙伟（代）",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

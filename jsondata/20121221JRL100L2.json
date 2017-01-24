@@ -1,0 +1,222 @@
+{
+	"fileName": "20121221JRL100L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121221JRL100L2.json",
+	"score": 635,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年12月21日14时  分",
+	"fileNameDate": "20121221",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "停机区域\/点: JRL",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  李颖琛        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "设备运行过程中出现WATERSAVER报警，而且无法在控制屏上复位；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "现场维修发现焊枪冷却水没有接通检修，检查发现冷却水电磁阀没有得电动作；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拉动维修班长支持共同检查电磁阀没有动作原因，检查发现机器人示教板显示有对应输出；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "直观检查电磁阀连接电缆，未发现异常；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "发现机器人现场模块对应输出的信号灯没有点亮，重起机器人（热启动）后恢复正常；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "后机器人控制柜又出现“死机”，现场维修重启机器人（冷启动）后恢复正常；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL100L2机器人WETERSAVER电磁水阀不动作，后又出现机器人死机现象。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪WATERSAVER报警无法复位"
+		],
+		[
+			"为什么焊枪冷却水流量传感器没有动作"
+		],
+		[
+			"为什么焊枪冷却水没有流动"
+		],
+		[
+			"为什么焊枪冷却水控制电磁阀没有动作"
+		],
+		[
+			"为什么电磁阀控制模块没有输出(机器人控制柜有输出指令)"
+		]
+	],
+	"rootCause": "机器人控制系统死机,怀疑机器人控制柜CPU单元老化、性能差。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "机器人控制热启动、冷启动恢复设备运行。",
+				"resp": "李颖琛",
+				"supp": "黄俊宇",
+				"compDate": "12\/21\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "准备机器人CPU单元更换并跟踪解决机器人死机问题。",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "12\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

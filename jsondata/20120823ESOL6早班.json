@@ -1,0 +1,222 @@
+{
+	"fileName": "20120823ESOL6早班.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120823ESOL6早班.json",
+	"score": 665,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月23日16时30分",
+	"fileNameDate": "20120823",
+	"equipName": "设备名称:换枪盘模块",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点: ESOL1",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  何文泽        \nOringinator 2012.8.23",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "工位HMI复位，无效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "为54#模块断电后重新上电，但恢复一段时间后再次报警，怀疑通讯电缆与模块接触不良；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查连接54#模块的通讯电缆，发现电缆受其他线缆压迫，通讯电缆与插头之间拉力较大；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "拔下通讯电缆后重新插上，依旧是工作一段时间后再次报警，判断通讯电缆损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "从东昌现场仓库领用新电缆，更换电缆后恢复设备正常运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO L6机器人在接近停枪支架的位置停止，报警信息显示换枪盘上的54#模"
+		],
+		[
+			"块通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么ESO L1机器人无法动作？因为换枪盘上54#模块通讯故障；"
+		],
+		[
+			"为什么54#模块通讯故障？因为54#模块上通讯电缆损坏；"
+		],
+		[
+			"为什么通讯电缆损坏？因为该电缆与插头之间拉力大，致插头内接线接触不良；"
+		],
+		[
+			"为什么电缆与插头之间拉力大？该电缆受其它线缆压迫；"
+		],
+		[
+			"为什么该电缆受其他线缆压迫？因为其它线缆固定位置不佳。"
+		]
+	],
+	"rootCause": "Dress线缆固定位置不佳，压迫54#模块通讯电缆致该电缆受损",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换受损电缆，并调整其它线缆固定位置，恢复设备运行",
+				"resp": "黄光耀",
+				"supp": "何文泽",
+				"compDate": "8\/23\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查并修正其他工位相同位置通讯电缆，消除类似故障隐患",
+				"resp": "各班组",
+				"supp": "徐啸顺",
+				"compDate": "9\/5\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

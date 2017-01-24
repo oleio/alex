@@ -1,0 +1,222 @@
+{
+	"fileName": "20120805JRL050R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120805JRL050R1.json",
+	"score": 1084,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月5日9时30分",
+	"fileNameDate": "20120805",
+	"equipName": "",
+	"breakdownTime": "停机时间：累计70min",
+	"areaLocation": "停机区域\/点: JRL",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  刘少杰        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "通知生产检查焊接质量；更换因WATERSAVER没有动作而打坏的上下电极杆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "协调生产BACKUP方案维持生产，同时将机器人开到在工位外可维修转动换枪盘的位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆卸转动换枪盘并用压缩空气清理内部水滴，更换已经短路的主电源电刷模块；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "转动换枪盘侧面和上部盖板涂密封胶后用螺栓拧紧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL50R1焊枪修磨电极帽时电极帽脱落WATERSAVER没有报警停止设备运行，"
+		],
+		[
+			"焊枪打坏上下握杆；更换上下握杆，调整WATERSAVER灵敏度；"
+		],
+		[
+			"焊车一辆后转动换枪盘内部短路，更换短路的主电源电刷模块；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么转动换枪盘内部主电源电刷模块拉弧短路？因为转动换枪盘内部有水滴存在"
+		],
+		[
+			"为什么转动换枪盘内部有水滴存在？因为焊枪修磨电极帽时电极帽脱落，而且WATERSAVER没有动作断水，喷出的水侵入转动换枪盘内部；"
+		],
+		[
+			"为什么WATERSAVER没有动作断水？因为WATERSAVER灵敏度调得过低导致无法动作断水"
+		],
+		[
+			"为什么焊枪修磨电极帽时电极帽脱落？因为焊枪修磨电极帽位置（轨迹）不理想"
+		],
+		[
+			"为什么喷出的水侵入转动换枪盘内部？因为转动换枪盘盖板无密封条密封（产品缺陷），安装盖板时也没有用密封胶填充密封；"
+		]
+	],
+	"rootCause": "1）焊枪修磨电极帽位置（轨迹）不理想；                                         2）WATERSAVER灵敏度调得过低导致无法动作断水；                                   3）转动换枪盘盖板无密封条密封（产品缺陷），安装盖板时也没有用密封胶填充密封",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整焊枪电极帽修磨位置；  调整WATERSAVER灵敏度并验证；用密封胶填充密封转动换枪盘盖板，避免喷出的焊枪冷却水侵入转动换枪盘内部；",
+				"resp": "谢诚侃 李颖琛",
+				"supp": "卞德勇 黄智君 ",
+				"compDate": "8\/6\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查补焊线设备，用密封胶填充密封转动接头及转动换枪盘盖板，避免喷出的焊枪冷却水侵入转动接头和转动换枪盘内部；",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "8\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查主线机器人修磨电极帽位置，必要时调整；",
+				"resp": "陈烨华李颖琛黄光耀",
+				"supp": "",
+				"compDate": "8\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查主线机器人焊枪WATERSAVER灵敏度，必要时调整；",
+				"resp": "陈烨华李颖琛黄光耀",
+				"supp": "",
+				"compDate": "8\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:郑旭俊 徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:"
+}

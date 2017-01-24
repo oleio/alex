@@ -1,0 +1,222 @@
+{
+	"fileName": "20120322JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120322JFM090.json",
+	"score": 706,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 3月22日 6时30分",
+	"fileNameDate": "20120322",
+	"equipName": "设备名称:GATE锁紧缸",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JFM090",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "20",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄光耀         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "将GATE移出工作位置，打开GATE锁紧缸维修窗口，发现锁紧缸漏气；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "恢复锁紧气缸工作状态，通过调整气缸节流阀和减小气缸阻尼，恢复气缸夹紧状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "3\/21夜班尝试更换气缸密封件，拆卸锁紧气缸连接件，由于工作区域狭小，无法及时拆卸并更换锁紧缸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "3\/22日制定具体维修方案，3\/24日夜班完成作业计划。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"3\/21中班JFM090左侧GATE锁紧不到位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM090左侧GATE锁紧不到位？因为GATE锁紧气缸漏气；"
+		],
+		[
+			"为什么GATE锁紧气缸漏气？因为气缸内部密封件损坏；"
+		],
+		[
+			"为什么气缸内部密封件损坏？因为气缸活塞杆和衬套磨损；"
+		],
+		[
+			"为什么气缸活塞杆和衬套磨损？因为气缸动作时没有摆动，使得导向衬套单边受力；"
+		],
+		[
+			"为什么气缸动作时没有摆动？气缸安装方式设计存在缺陷。"
+		]
+	],
+	"rootCause": "气缸安装方式设计存在缺陷，气缸动作时导向衬套单边受力。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时加大节流阀流量，并调整气缸阻尼，维持生产。",
+				"resp": "黄光耀",
+				"supp": "黄波",
+				"compDate": "2012.3.22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换磨损的气缸缸盖和活塞杆。",
+				"resp": "黄光耀",
+				"supp": "夏伟",
+				"compDate": "2012.3.24",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "在活塞杆和缸盖连接处增加皮老虎，避免缸盖处铁屑堆积。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2012.4.1",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "汇同COMAU对锁紧缸的安装结构进行改进，减少衬套的单边受力，并且便于拆装。",
+				"resp": "沈建伟",
+				"supp": "COMAU",
+				"compDate": "2012.4.15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

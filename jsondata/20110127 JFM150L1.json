@@ -1,0 +1,222 @@
+{
+	"fileName": "20110127 JFM150L1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110127 JFM150L1.json",
+	"score": 570,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年1月27日14时20分",
+	"fileNameDate": "20110127",
+	"equipName": "设备名称:JFM150L1焊枪",
+	"breakdownTime": "停机时间：18min",
+	"areaLocation": "停机区域\/点:JFM150",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "18",
+	"lostProductNum": "12",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期          \nOringinator张兆\n",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查白车身车顶焊缝发现焊接至一半时表面有水迹",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "机器人开至REPAIR位置检修焊枪，检查结果发现激光焊枪枪头压轮水冷单元漏水",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "结扎冷却水管、拆开激光焊枪压轮水冷单元发现密封圈漏水",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "将L1焊枪BYPASS用R侧机器人焊枪焊接左右两边并准备密封圈备件",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换L1激光焊枪压轮冷却水密封单元",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复左侧激光焊枪焊接",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM150L1激光焊焊接时半途焊接终止"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么激光焊枪焊接终止？ 因为车顶焊缝有水迹摄像头无法准确找到焊缝"
+		],
+		[
+			"为什么焊缝有水迹摄像头无法准确找到焊缝？ 因为钣金表面有水迹"
+		],
+		[
+			"为什么钣金表面有水迹？ 因为焊枪冷却单元漏水"
+		],
+		[
+			"为什么焊枪冷却单元漏水？ 因为冷却单元内部连接件密封圈漏水"
+		],
+		[
+			"为什么冷却单元内部连接件密封圈漏水？因为维修过程中使用了替代密封圈"
+		]
+	],
+	"rootCause": "因为密封圈老化破损",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "BYPASS该焊枪更换损坏的密封圈",
+				"resp": "张兆",
+				"supp": "徐啸顺",
+				"compDate": "2011.1.27",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "采购原配进口密封圈延长使用寿命",
+				"resp": "徐啸顺",
+				"supp": "徐律",
+				"compDate": "2011.2.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

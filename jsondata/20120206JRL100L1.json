@@ -1,0 +1,222 @@
+{
+	"fileName": "20120206JRL100L1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120206JRL100L1.json",
+	"score": 623,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年  2月 6 日    时     分",
+	"fileNameDate": "20120206",
+	"equipName": "设备名称:L1机器人",
+	"breakdownTime": "停机时间：20MIN",
+	"areaLocation": "停机区域\/点: JRL100L1",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "20",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  徐啸顺          \nOringinator   ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "工位外手动操作运行并复位，但随后每车都发生。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查，未发现轨迹有碰撞干涉。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "怀疑可能与周日加油有关，单独松开J6轴油孔释放压力，无效。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "随后在此轨迹点发生多轴同时报警，发现轨迹模式从L方式突然切换到J。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "调整运行过渡点轨迹，将轨迹速度变缓并示教使其顺滑。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL100L1焊接E11运行到B柱附近一点时，发生J6轴伺服报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么伺服报警？因为运行此轨迹点时机器人负载过大"
+		],
+		[
+			"为什么负载过大？因为机器人过渡轨迹不够合理，并且转动接头加重负荷"
+		],
+		[
+			"为什么过渡轨迹不合理？因为轨迹运行模式中有不合理的反复变化。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人过渡轨迹不够合理，加上使用转动接头导致机器人在此点负载过大。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "松开各轴油孔，确保减速机腔内压力释放",
+				"resp": "A班",
+				"supp": "",
+				"compDate": "2012-2-7",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整此处轨迹，使其缓和自然",
+				"resp": "周志辉",
+				"supp": "",
+				"compDate": "2012-2-7",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "评估此台机器人的轨迹，拆除转动接头降低机器人各轴负荷",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012-2-28",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "精调机器人轨迹，避免机器人轨迹不合理造成机器人负载过大。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012-2-28",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

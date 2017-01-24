@@ -1,0 +1,222 @@
+{
+	"fileName": "20120427EMC SHUTTLE.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120427EMC SHUTTLE.json",
+	"score": 600,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年  04月27日   03 时00     分",
+	"fileNameDate": "20120427",
+	"equipName": "设备名称:EMC SHUTTLE",
+	"breakdownTime": "停机时间：15",
+	"areaLocation": "停机区域\/点:   EMC",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期            \nOringinator   陈文佳2012。04。27",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "控制柜无电源（插接箱断电引起）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "重新上电后D7网段通讯无法建立。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "D7 DNB模块插头重新插拔后通讯仍无法建立，模块指示灯通讯无电源。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "对此网段设备进行检查并多次插拔后发现通讯恢复。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "工位恢复自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC SHUTTLE 控制柜上电后，D7段通讯无法建立。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么shuttle线运行中停止？因为控制柜无电源"
+		],
+		[
+			"为什么控制柜无电源？因为维修照明灯短路跳闸引起"
+		],
+		[
+			"为什么维修照明灯短路跳闸引起？因为控制电源和照明电源共用"
+		],
+		[
+			"为什么重新上电后D7网络无电源？因为第一次插拔时将dnb模块插头电源线拉坏造成虚接触（之后检查发现）。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "模块通讯上电插拔时将电源线头拉松造成接触不良。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "对模块多次重新上电恢复模块通讯",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2012。04.27",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对该控制柜内通讯模块电源插头虚接触接头重新制作",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2012。04.27",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "电风扇电源和控制电源插接箱分开",
+				"resp": "黄波",
+				"supp": "马晓洲",
+				"compDate": "2012.5.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "1，2，3，4，5"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

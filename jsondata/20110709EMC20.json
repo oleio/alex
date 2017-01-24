@@ -1,0 +1,222 @@
+{
+	"fileName": "20110709EMC20.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110709EMC20.json",
+	"score": 638,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月7日6时0分",
+	"fileNameDate": "20110709",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:EMC",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator曹明晓 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "设法取出断裂的R顶销（3个）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "安装3个新的R钉销并紧固螺栓；（其中一处因R钉销孔变形，无法安装新的R钉销）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "工程确认销子基座状态，试做车一辆并安装弹性支架确认状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "临时电焊电焊，固定缺少R钉销的销子基座；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"生产人员开班设备检查时发现EMC50工位弹性支架相关的定位销支架R钉销断裂，"
+		],
+		[
+			"固定螺栓松动（2处）。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么生产停线保修定位销基座？因为定位销基座固定R钉销断裂，固定螺栓松动。"
+		],
+		[
+			"为什么定位销基座固定R钉销断裂，固定螺栓松动？因为销子基座在上料时受冲击力超过机械结构强度"
+		],
+		[
+			"为什么销子基座在上料时受冲击力超过机械结构强度？因为销子基座与底座之间安装了过多的调整垫片（总厚度超过10mm）"
+		],
+		[
+			"为什么销子基座与底座之间安装了过多的调整垫片（总厚度超过10mm）？因为工装设计不合理但工艺尺寸调整需要"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "工装设计不合理，工艺尺寸调整需要导致销子基座与安装座之间装了过多的调整垫片。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "生产结束后定位销安装孔用绞刀修整，恢复R钉销正常安装。",
+				"resp": "尹熠俊",
+				"supp": "殷致平",
+				"compDate": "11-07-10",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "重新设计定位销安装座，保证受力在合理范围内。",
+				"resp": "沈建伟",
+				"supp": "胡滨",
+				"compDate": "待确定",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "马晓洲",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:顾晓君"
+}

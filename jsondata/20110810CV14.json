@@ -1,0 +1,222 @@
+{
+	"fileName": "20110810CV14.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110810CV14.json",
+	"score": 539,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年8月10日15时15分",
+	"fileNameDate": "20110810",
+	"equipName": "设备名称:EMS空中机运线",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:CV14",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 尹熠俊         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查PLC程序相关输出条件，信号状态正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查相关导轨信号供电熔断器，发现有熔断器熔断；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换熔断器后下车能够运行并通过升降段导轨；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "观察小车运行状态，发现小车电刷运行中不正常晃动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "强制信号将升降段下降到低位进行检修调整；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备自动运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV14空中机运线下线升降机处小车无法通过"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么小车无法通过升降段？因为小车没有得到控制信号"
+		],
+		[
+			"为什么小车没有得到控制信号？因为对应电排控制回路的熔断器熔断"
+		],
+		[
+			"为什么对应电排控制回路的熔断器熔断？因为电刷与电排不正常接触"
+		],
+		[
+			"为什么电刷与电排不正常接触？因为端口电排固定销断裂"
+		],
+		[
+			"为什么端口电排固定销断裂？怀疑升降段与固定段电排水平度不理想"
+		]
+	],
+	"rootCause": "怀疑升降段与固定段电排水平度不理想",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整电排位置并更换断裂的电排固定销",
+				"resp": "尹熠俊 黄波",
+				"supp": "",
+				"compDate": "11-8-12",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调整升降段导轨、电排水平度。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-9-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

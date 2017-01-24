@@ -1,0 +1,222 @@
+{
+	"fileName": "20121008ESOL5.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121008ESOL5.json",
+	"score": 559,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月8日17时55分",
+	"fileNameDate": "20121008",
+	"equipName": "设备名称:ESO L5",
+	"breakdownTime": "停机时间：35min",
+	"areaLocation": "停机区域\/点:  ESO",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "35",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 王俊杰         \nOringinator 2012\/10\/8",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "L5在焊接过程中出现G2碰撞报警，故障复位无效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进工位手动操作，使伺服马达丝杆上下伸缩，并用WD40润滑，过程中仍然有碰撞报警，判断1.伺服马达编码线接触不良；2.伺服马达机械卡死；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "现场临时飞编码线，同时准备该型号伺服马达及拆装工具；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "飞线后故障依旧，更换伺服马达；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "示教零位及标定压力；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO L5伺服焊枪在焊接过程中碰撞报警，"
+		],
+		[
+			"伺服马达卡死，无法继续焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么L5无法继续焊接"
+		],
+		[
+			"为什么G2出现碰撞报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"为什么会超出设定值"
+		]
+	],
+	"rootCause": "伺服马达接近使用寿命,马达内部核心组件有磨损,造成机械卡死",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换伺服马达",
+				"resp": "佘佳安",
+				"supp": "李颖琛",
+				"compDate": "10\/8\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "推进车间即将到寿命的伺服马达更换计划（备件准备）",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "10\/14\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制定伺服马达更换的SOS，并在班组中进行培训演练",
+				"resp": "王俊杰",
+				"supp": "",
+				"compDate": "10\/14\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程1、2、4、5、6"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 李颖琛",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

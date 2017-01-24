@@ -1,0 +1,222 @@
+{
+	"fileName": "20120221JRL050R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120221JRL050R2.json",
+	"score": 511,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年2月21日9时30分",
+	"fileNameDate": "20120221",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JRL线",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 刘少杰         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产过程中机器人焊枪无法关枪焊接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "用示教板操作机器人焊枪关闭，发现电磁阀没有信号电压；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "怀疑焊枪控制线路断路，检查相关接插件未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "怀疑焊枪控制19芯电缆有问题，同生产联系后BYPASS该焊枪，生产BACKUP补焊；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "用备件19芯电缆飞线捆扎到机器人DRESS套管外部；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "试焊确认焊枪功能正常，调整电缆捆扎位置并检查2种机器人轨迹后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"生产过程中JRL050R2焊枪无法关枪焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊枪19芯控制电缆内部断线（确切断线位置需要在非生产日拆卸接插件或拆下电缆检查）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用备件19芯电缆飞线恢复机器人焊枪正常功能",
+				"resp": "黄光耀",
+				"supp": "程超",
+				"compDate": "2\/21\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日拆卸接插件或拆下电缆检查确切原因，根据确切断路原因实施长期整改措施。",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "3\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "",
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:程超",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

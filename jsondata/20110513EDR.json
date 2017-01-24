@@ -1,0 +1,222 @@
+{
+	"fileName": "20110513EDR.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110513EDR.json",
+	"score": 555,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年5月13日  时  分",
+	"fileNameDate": "20110513",
+	"equipName": "设备名称:机器人涂胶",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:EDR",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：\nPlant南厂车身",
+	"originator": "填表人\/日期          \nOringinator樊超杰 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查机器人涂胶枪阀，用示教板操作没有反应；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "用临时气管接通空气压力直接动作涂胶枪阀动作，判断P-FLOW胶量控制系统故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "因解决P-FLOW涂胶系统问题需要的时间无法确定，决定采用临时涂胶控制方法维持生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "临时接线通过输出模块直接控制电磁涂胶驱动阀；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "修改机器人程序，调整涂胶量后恢复生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EDR涂胶机器人无法涂胶"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人涂胶系统不出胶？因为涂胶枪阀不动作"
+		],
+		[
+			"为什么涂胶枪阀不动作？因为涂胶枪控制阀没有动作"
+		],
+		[
+			"为什么涂胶枪控制阀没有动作？因为涂胶枪控制阀没有得到电压信号"
+		],
+		[
+			"为什么涂胶枪控制阀没有得到电压信号？因为涂胶胶量控制系统故障"
+		],
+		[
+			"为什么涂胶胶量控制系统故障？确切故障原因待非生产时间继续检查"
+		]
+	],
+	"rootCause": "涂胶胶量控制系统故障，确切故障原因待查。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用临时涂胶胶量控制方法维持生产",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011-5-13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "根据涂胶胶量控制系统确切故障原因临时确定",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011-5-20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

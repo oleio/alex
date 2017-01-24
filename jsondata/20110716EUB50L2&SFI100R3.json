@@ -1,0 +1,222 @@
+{
+	"fileName": "20110716EUB50L2&SFI100R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110716EUB50L2&SFI100R3.json",
+	"score": 620,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月16日  时  分",
+	"fileNameDate": "20110716",
+	"equipName": "设备名称:机器人伺服焊枪",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:EUB50",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "45",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  仇卫忠        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "根据报警信息，维修对伺服焊枪做零位后尝试焊接，故障依旧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将机器人焊枪开出焊接区域，去除焊枪保护外套；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "清理焊枪伺服电机丝杆表面并用WD40润滑，尝试空焊2点后再次报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "确定更换焊枪伺服电机；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换伺服电机，焊枪做零位，调整部分焊点位置后恢复正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB50L2机器人焊枪报警停止，维修到现场试图用示教板手动操作焊接，示教板"
+		],
+		[
+			"出现MOVE ERROR报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人伺服焊枪报警停止？因为伺服焊枪伺服报警MOVE ERROR"
+		],
+		[
+			"为什么伺服焊枪伺服报警MOVE ERROR？因为焊枪机械有卡阻"
+		],
+		[
+			"为什么焊枪机械有卡阻？因为焊枪驱动伺服电机内部卡阻"
+		],
+		[
+			"为什么焊枪驱动伺服电机内部卡阻？确切卡阻原因待电机解体检查后确认（问题在不同的伺服焊枪上重复出现）"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊枪驱动伺服电机内部卡阻（确切卡阻原因待电机解体检查后确认）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换伺服电机",
+				"resp": "陈烨华",
+				"supp": "陈超",
+				"compDate": "11-7-16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "评估伺服焊枪上使用的同型号102电机的状态，发觉状态不正常情况提前更换。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "11-7-30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "协同ME拉动供应商分析确定整改措施",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "待定",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:陈超"
+}

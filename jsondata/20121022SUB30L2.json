@@ -1,0 +1,222 @@
+{
+	"fileName": "20121022SUB30L2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121022SUB30L2.json",
+	"score": 678,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月22日11时05分",
+	"fileNameDate": "20121022",
+	"equipName": "设备名称:L2焊枪",
+	"breakdownTime": "停机时间： 180min",
+	"areaLocation": "停机区域\/点:SUB030",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "150",
+	"lostProductNum": "7",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 王俊杰\nOringinator\/2012.10.23",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查焊接参数，正常，检查板材表面，无垃圾油污；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "关闭焊接，手动关枪，发现上下电极帽能闭合；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "焊机重启，同时让生产更换新的电极帽，故障依旧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查焊枪，发现静电极臂开裂；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "查找备件，东昌仓库紧急调货到现场；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换焊枪静电极臂，调试后恢复正常生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"焊接时炸电极帽。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪在焊接时炸电极帽？因为焊枪焊接时压力不足；"
+		],
+		[
+			"为什么焊接时压力不足？因为焊枪静电极臂开裂，关枪后压力被释放，无法达到正常焊接所需压力；"
+		],
+		[
+			"为什么电极臂开裂？因为此焊枪压力较大，此处受力大，开裂后未及时发现。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊枪静电极臂开裂，关枪后压力被释放，无法达到正常焊接所需压力。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换断裂的电极臂",
+				"resp": "王昀",
+				"supp": "李颖琛",
+				"compDate": "10\/23\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "测试此处压力输出，并进行优化，减少电极臂受力。",
+				"resp": "王俊杰",
+				"supp": "",
+				"compDate": "10\/25\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "评估是否将焊枪电极臂的检查标准加入到生产日常TPM点检要求中，按要求检查。",
+				"resp": "韩冰\/钱俊",
+				"supp": "",
+				"compDate": "10\/31\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "相应变更：   TPM       PM       CM       图纸       备件清单       参数        程序        标书      ",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "TPM是否可以预防：",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "工段长\/ GL:沈建伟",
+	"person_ENG": "技术经理\/Tech.Manager.:邱正东",
+	"person_GL": "验证方法Verification Method：在线跟踪生产情况2个班次",
+	"person_Manager": ""
+}

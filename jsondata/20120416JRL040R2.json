@@ -1,0 +1,222 @@
+{
+	"fileName": "20120416JRL040R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120416JRL040R2.json",
+	"score": 631,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年04月16 日22 时00  分",
+	"fileNameDate": "20120416",
+	"equipName": "设备名称:机器人本体",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JRL040R2",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  黄波\/        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "停止机器人工作，手动示教机器人J2轴往复运动监听变速箱机械异响来源初步判断为变速箱内部轴承滚珠摩擦增大发出异响",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将该机器人减速30%运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "立刻准备机器人加油设备及机器人专用润滑油脂将机器人J2轴变速箱内润滑油全部更换",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复自动运行后在线监测机器人各轴伺服电机运行电流波动范围",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			" JRL040R2机器人轨迹运行中J2 AXIS 变速箱发出机械异响"
+		],
+		[
+			" E11车型焊接时有一次J2轴电机电流超极限报警（G1 A2）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人停止工作？因为机器人J2轴伺服电机电流超限报警；"
+		],
+		[
+			"为什么机器人J2轴伺服电机电流超限报警？因为机器人J2轴电机输出齿轮受较大阻力；"
+		],
+		[
+			"为什么机器人J2轴电机输出齿轮受较大阻力？因为机器人变速箱内机械磨损；"
+		],
+		[
+			""
+		],
+		[
+			"为什么变速箱内机械磨损？因为使用负荷较大。"
+		]
+	],
+	"rootCause": "机器人使用负荷较大导致变速箱（2#轴）内机械磨损",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换机器人J2变速箱润滑油脂",
+				"resp": "黄光耀",
+				"supp": "A班",
+				"compDate": "2012\/04\/16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.将机器人运行速度下降30%",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "2012\/04\/16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换JRL040R2机器人",
+				"resp": "黄光耀",
+				"supp": "徐啸顺",
+				"compDate": "2012.4.22",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀",
+	"person_Manager": "工程师\/ENG.:黄波(代）"
+}

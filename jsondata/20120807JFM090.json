@@ -1,0 +1,222 @@
+{
+	"fileName": "20120807JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120807JFM090.json",
+	"score": 723,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月7日18时42分",
+	"fileNameDate": "20120807",
+	"equipName": "设备名称:GATE锁紧",
+	"breakdownTime": "停机时间：18min",
+	"areaLocation": "停机区域\/点: JFM090",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "18",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马安颹 \nOringinator 2012.8.7",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090R2焊接985完成后修磨电极帽时电极帽掉落；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进入工位重新安装电极帽；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "复位后报警OPENGATE右侧锁紧销不到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "手动示教所有机器人回HOME，关闭OPENGATE及夹头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "重新打开锁紧销，仍然报警不到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "进工位手动强制GATE夹紧气缸，退出锁紧销，复位后恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090 R2第一辆985焊接完成后修磨电极帽，电极帽掉落；"
+		],
+		[
+			"进工位安装电极帽后，右侧GATE锁紧销不到位；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么锁紧销动作？因为R2电极帽掉落，拉门进工位锁紧销进行保护动作；"
+		],
+		[
+			"为什么报警锁紧销不到位？因为复位后锁紧销会自动退回，但与GATE夹紧装置干涉退不出；"
+		],
+		[
+			"为什么锁紧销与GATE夹紧装置干涉？因为锁紧销与夹紧装置有干涉；"
+		],
+		[
+			"为什么锁紧销与夹紧装置有干涉？GATE锁紧横销气缸控制电磁阀为单向阀，在外部故障工位气源断开后锁紧销无法保持原位置，锁紧销弹出后与GATE夹紧装置干涉；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "GATE锁紧横销气缸控制电磁阀为单向阀，在外部故障工位气源断开后锁紧销无法保持原位置，锁紧销弹出后与GATE夹紧装置干涉；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "手动戳阀夹紧GATE，退出锁紧销",
+				"resp": "马安颹",
+				"supp": "陈烨华",
+				"compDate": "8\/7\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "改进 GATE锁紧横销气缸电磁阀控制方式为两位五通阀，使该气缸在外部故障时保持原位；",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "8\/19\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

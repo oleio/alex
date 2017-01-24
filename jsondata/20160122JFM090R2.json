@@ -1,0 +1,222 @@
+{
+	"fileName": "20160122JFM090R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160122JFM090R2.json",
+	"score": 779,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016-01-23",
+	"fileNameDate": "20160122",
+	"equipName": "设备名称:韦弗伺服焊枪",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "45",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:孙伟 费望德 马晓洲 ",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位检查机器人焊枪工作状态,未发现焊枪与车身碰撞迹象；",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动操作机器人伺服焊枪关闭、开启，机械状态“未发现异常”，无报警；",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查过程中发现伺服焊枪水管漏水，控制电缆有拉扯现象且电缆护套有磨损，怀疑电缆受损。修理漏水的焊枪水管，焊枪控制电缆用绝缘胶带处理并用扎带重新捆扎，试运行后问题相同；",
+				"lostMin": 20,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "手动操作过程中发现伺服焊枪碰撞报警时焊枪总是处于打开过程，怀疑焊枪打开过程中动态受阻，尝试修改报警点焊枪打开状态（36mm改为20mm），修改后报警消除；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "机器人伺服焊枪修磨时同样出现碰撞报警，再次修改焊枪打开状态；（36mm改为20mm）",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90R2机器人E15车型时伺服焊枪碰撞报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM90做E15车型时工位停止自动运行"
+		],
+		[
+			"为什么R2机器人发生碰撞报警"
+		],
+		[
+			"为什么机器人伺服焊枪打开时发生碰撞报警"
+		],
+		[
+			"为什么机器人伺服焊枪打开时存在动态阻滞"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊枪敏感机械结构表面焊接飞溅堆积引起焊枪动作卡滞。（韦弗焊枪结构紧凑，机械结构处焊接飞溅堆积更容易造成焊枪动作卡滞。）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修改伺服焊枪打开程度（36mm改为20mm）",
+				"resp": "顾念仁",
+				"supp": "费望德",
+				"compDate": "1\/23\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "生产结束后检修焊枪机械结构，找到故障根本原因并清理焊枪动作机构上的焊接飞溅。",
+				"resp": "费望德",
+				"supp": "总拼维修",
+				"compDate": "1\/24\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "清理韦弗焊枪敏感机械结构处焊接飞溅并喷涂防飞溅涂料减缓焊接飞溅堆积。",
+				"resp": "费望德黄伟杰",
+				"supp": "维修班组",
+				"compDate": "1\/25\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "检查焊枪动作状态，找到焊枪动作卡滞原因，清理焊枪敏感机械结构处飞溅。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL孙伟（代）",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

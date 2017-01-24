@@ -1,0 +1,222 @@
+{
+	"fileName": "20140816CV4.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140816CV4.json",
+	"score": 677,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年8月16日6时30分",
+	"fileNameDate": "20140816",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点:CV4",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "50",
+	"lostProductNum": "33",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 曹鸣晓        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "CV4横移机无法自动移动，手动驱动失效；",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查横移机驱动马达电源接线，发现电源线脱落，坦克链碎裂；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "对坦克链进行修复，电机电源线接线；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "操作横移机往复运动，确认没有干涉点，恢复生产。",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV4横移机不动作，手动模式驱动无效。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV4横移机不动作？因为横移机驱动马达没有动作；"
+		],
+		[
+			"为什么横移机驱动马达没有动作？因为马达驱动电机电源线脱落；"
+		],
+		[
+			"为什么马达驱动电机电源线脱落？因为电源线防护作用的坦克链碎裂，横移机运动时电源线受拉扯；"
+		],
+		[
+			"为什么横移机电源线坦克链碎裂？因为人员走动时踩到坦克链上；"
+		],
+		[
+			"为什么人员走动时踩到坦克链上？1.人员培训不到位，二楼平台行走的SOP缺少对坦克链的注意事项；2.人员踩踏坦克链后未及时反馈维修。"
+		]
+	],
+	"rootCause": "1.人员培训不到位，二楼平台行走的SOP缺少对坦克链的注意事项；2.人员踩踏坦克链后未及时反馈维修。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换碎裂的坦克链",
+				"resp": "张少峰",
+				"supp": "",
+				"compDate": "8\/16\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.更换马达电源线",
+				"resp": "张少峰",
+				"supp": "",
+				"compDate": "8\/17\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.相关工段班组进行谈话记录",
+				"resp": "潘慧韬\n陆伟刚\n林彬",
+				"supp": "",
+				"compDate": "8\/19\/2014",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.细化二楼平台行走的SOP内容，并开展培训考核",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "8\/25\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "横移机驱动马达电源线脱落，进行恢复；"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:李颖琛 谢诚侃",
+	"person_GL": "工段长\/ GL:黄波 马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

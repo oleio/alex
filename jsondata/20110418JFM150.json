@@ -1,0 +1,222 @@
+{
+	"fileName": "20110418JFM150.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110418JFM150.json",
+	"score": 474,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 4 月18  日  时  分",
+	"fileNameDate": "20110418",
+	"equipName": "设备名称:水冷机",
+	"breakdownTime": "停机时间：25",
+	"areaLocation": "停机区域\/点:JFM150",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "25",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 徐啸顺\n2011-4-18",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "手动操作不能启动激光",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查WINLAS界面中报警信息，发现水温高",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查二楼水冷机，发现报警停止工作",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "根据手册中信息，怀疑是压力过大导致传感器触发",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "复位此压力传感器，可复位，但仍有报警",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "切换备用系统，临时支持生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"L1激光不能启动激光"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么不能启动激光焊？因为水温过高。"
+		],
+		[
+			"为什么水温过高？因为水冷机停止工作。"
+		],
+		[
+			"为什么水冷机停止工作？因为报警压力过大。"
+		],
+		[
+			"为什么压力过大？原因需要继续分析。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "待调查",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "使用备用方案，并对R1程序进行优化，E11的CT达到74s",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011.4.18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系供应商，调查根本原因",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011.4.19",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "根据根本原因制定长期措施",
+				"resp": "三班组",
+				"supp": "",
+				"compDate": "2011.5.1",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

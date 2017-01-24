@@ -1,0 +1,222 @@
+{
+	"fileName": "20160302JRL040R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160302JRL040R2.json",
+	"score": 559,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016.3.2.22",
+	"fileNameDate": "20160302",
+	"equipName": "设备名称:JRL040R2",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "5",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:费望德\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL040R2焊接故障，进工位查看发现电极杆断裂；",
+				"lostMin": 3,
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拆除损坏的电极杆，更换新电极杆和新电极帽后重新校正焊枪零位后恢复生产；",
+				"lostMin": 12,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "跟踪各车型焊接质量，发现E15 B柱位置焊点略有偏差，其余车型ok。中班结束后留E15示教轨迹；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL040R2焊枪电极杆断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL040R2焊接故障？因为JRL040R2 watersaver报警？"
+		],
+		[
+			"为什么JRL040R2 watersaver报警？因为焊枪电极杆断；"
+		],
+		[
+			"为什么焊接电极杆断？具体原因需供应商带回损坏的电极杆做进一步分析；"
+		],
+		[
+			"为什么"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "待供应商带回损坏的电极杆后做进一步分析；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换静臂电极杆",
+				"resp": "黄光耀",
+				"supp": "费望德",
+				"compDate": "3\/2\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "示教E15车型焊接轨迹",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "3\/3\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "梳理JRL焊枪焊接压力，对3000N以上的压力进行适当优化调整，减轻电极杆受力",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "3\/15\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系供应商取回损坏的电极杆并出具分析报告",
+				"resp": "黄伟杰",
+				"supp": "",
+				"compDate": "3\/15\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：黄光耀",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20121030JFM110.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121030JFM110.json",
+	"score": 819,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月30日10时50分",
+	"fileNameDate": "20121030",
+	"equipName": "设备名称:L1",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "停机区域\/点: JFM110",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄光耀         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM110L1机器人涂胶时报警，HMI复位，机器人运行了一段距离后再次报警，再复位，恢复自动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "第二辆车进来后，L1涂胶时再次报警，手动将机器人运行完，进工位查看发现紫胶没涂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "通知工程师现场查看，同时进工位检查，手动发信号，白胶出紫胶不出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "手动戳阀，紫胶出来，检查外部线缆无明显破损，检查模块发现有短路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "尝试先BYPASS紫胶运行，修改程序较复杂；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "在DRESS外临时飞了1根40M的信号线，发信号，紫胶出胶正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "工位恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM110L1涂胶机器人涂胶报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM110L1机器人报警？因为L1机器人紫胶没有出来"
+		],
+		[
+			"为什么L1机器人紫胶没有出来？因为控制紫胶出胶的电磁阀没有动作"
+		],
+		[
+			"为什么控制紫胶出胶的电磁阀没有动作？因为电磁阀信号没收到"
+		],
+		[
+			"为什么电磁阀信号没收到？因为从模块到电磁阀的信号线有短路"
+		],
+		[
+			"为什么从模块到电磁阀的信号线有短路？从模块到电磁阀上的第4根信号线临时对接过，长期使用外部绝缘胶布磨损短路"
+		]
+	],
+	"rootCause": "模块到电磁阀上的第4根信号线临时对接过，长期使用外部绝缘胶布磨损短路",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "L1机器人临时飞信号线",
+				"resp": "黄光耀",
+				"supp": "黄俊宇",
+				"compDate": "10\/30\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对短路的信号线拆下来进行解剖分析",
+				"resp": "何文泽",
+				"supp": "黄光耀",
+				"compDate": "11\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "整理JFM110L1上的线缆布局，拆除多余的线缆",
+				"resp": "何文泽",
+				"supp": "黄光耀",
+				"compDate": "11\/11\/2012",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查其余信号线的接线状态，使用整根信号线代替对接硬接线。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11\/11\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "在线槽盖板中排一根15米的备用线，并做好标记",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11\/11\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 黄光耀",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

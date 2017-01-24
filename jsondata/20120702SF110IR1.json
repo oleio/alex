@@ -1,0 +1,222 @@
+{
+	"fileName": "20120702SF110IR1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120702SF110IR1.json",
+	"score": 698,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月2日12时10分",
+	"fileNameDate": "20120702",
+	"equipName": "设备名称:机器人伺服寒气",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点: SFI110",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 丁伟 郑旭俊         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修领取 RB300624s型号电极杆准备更换，发现东昌领出相同型号电极杆尺寸与现场不一致",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "尝试修理损坏的握杆安装电极帽锥面，同时从中心调取该型号电极杆",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "中心调取的电极杆与现场尺寸一致,更换尺寸正确的电极杆",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "示教轨迹后恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI110R1炸电极造成静握杆电极帽安装锥面损坏"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么要更换握杆？ 因为握杆电极帽安装锥面损坏。"
+		],
+		[
+			"为什么握杆电极帽安装锥面损坏？因为焊枪在焊接时炸电极帽。"
+		],
+		[
+			"为什么焊枪点焊接时炸电极帽？ 因为焊接过程中焊枪静臂与板材干涉。"
+		],
+		[
+			"为什么焊接过程中焊枪与板材干涉？因为伺服焊枪开口过小，焊点处焊枪姿态不理想。"
+		],
+		[
+			"为什么电极杆更换时间长？因为供应商提供的备件和现场不一致，东昌紧急送货。"
+		]
+	],
+	"rootCause": "伺服焊枪开口过小，焊点处焊枪姿态不理想，供应商提供备件与现场不一致",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换受损的握杆后在线调整焊接轨迹",
+				"resp": "陈烨华",
+				"supp": "仇卫忠",
+				"compDate": "7\/2\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "供应商紧急根据图纸紧急加工正确的电极杆备件。",
+				"resp": "孙杰",
+				"supp": "郑旭俊",
+				"compDate": "7\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "开展全车间自动工位焊枪易损件核对工作，确保东昌领出备件与现场实际使用一致",
+				"resp": "孙杰",
+				"supp": "王烨",
+				"compDate": "7\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "要求小原调查此备件差异的原因，并出具调查报告和整改计划，确保今后备件正确性",
+				"resp": "孙杰",
+				"supp": "郑旭俊",
+				"compDate": "7\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

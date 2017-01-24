@@ -1,0 +1,222 @@
+{
+	"fileName": "2011ESI20.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\2011ESI20.json",
+	"score": 438,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "20110620",
+	"fileNameDate": "2011ESI2",
+	"equipName": "设备名称:ESI020RH",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:ESI",
+	"maintainTeam": "维修班组：",
+	"lostTime": "20",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  谢诚侃        \nOringinator \n",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查停止传感器 发现损坏传感器损坏，信号线损坏",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "更换信号线和传感器，恢复生产，切换时仍然会冲过头",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "强制信号恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "继续检查发现减速传感器T头接触不良，造成减速失效",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换T头后恢复正常",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESI020RH 转台冲过头"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么转台冲过头  因为停止传感器和信号线损坏"
+		],
+		[
+			"为什么停止传感器和信号线损坏  因为减速信号失效"
+		],
+		[
+			"为什么减速信号失效  因为T投接触不良"
+		],
+		[
+			"为什么T头接触不良 因为生产有时工作时会碰到"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "T头在生产过程中发生碰撞，导致损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换传感器和信号线",
+				"resp": "谢诚侃    ",
+				"supp": "",
+				"compDate": "0620",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将T头换成不容易碰到的Y型线，防止生产碰擦",
+				"resp": "谢诚侃    ",
+				"supp": "",
+				"compDate": "0621",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:谢诚侃",
+	"person_Manager": "工程师\/ENG.:刘丰"
+}

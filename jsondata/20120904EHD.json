@@ -1,0 +1,222 @@
+{
+	"fileName": "20120904EHD.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120904EHD.json",
+	"score": 713,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年09月4日14时00分",
+	"fileNameDate": "20120904",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：累计25min",
+	"areaLocation": "停机区域\/点:JRL020",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  \nOringinator 陈烨华",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "生产发现EHD双组份胶泵出胶异常，涂胶位置不正确，且配比不对；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查双组份胶的比例缸，发现缸没有动作（戳阀也无效）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "发现白胶压力感应器数值异常（标准240-280，实际2000-3000）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查机器人后台程序，并强制白胶胶泵启动信号，但发现白胶胶泵继续工作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "重启机器人后无效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "检查EHD双组份胶泵启动阀，将启动阀手动置位按钮重新置位，恢复正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EHD双组份胶泵（白胶）压力异常超标，配比失调"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么EHD双组份胶轨迹出现偏差？因为胶泵压力异常；"
+		],
+		[
+			"为什么EHD双组份胶泵压力异常？因为白胶胶泵不断加压（机器人无法控制）；"
+		],
+		[
+			"为什么白胶胶泵不断加压？胶泵启动阀状态错误；"
+		],
+		[
+			"为什么胶泵启动阀状态错误？启动阀手动置位按钮被误操作后没有完全复位，造成状态不对；"
+		],
+		[
+			"为什么启动阀手动置位按钮被误操作后没有完全复位？维修人员对此阀工作原理不清楚，缺乏培训。"
+		]
+	],
+	"rootCause": "启动阀手动置位按钮被误操作后没有完全复位，造成状态不对，维修人员对此阀工作原理不清楚",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.将启动阀手动置位按钮重新置位，恢复胶泵正常动作",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012\/09\/4",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.调整黑白胶配比，达到标准要求",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012\/09\/8",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.一点课程介绍此阀的工作原理",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "2012\/09\/16",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.联系SMC供应商对维修进行基础培训",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2012\/09\/16",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:刘丰"
+}

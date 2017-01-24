@@ -1,0 +1,222 @@
+{
+	"fileName": "20110915 CV7.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110915 CV7.json",
+	"score": 570,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年09月15日",
+	"fileNameDate": "20110915",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：35分钟",
+	"areaLocation": "停机区域\/点:CV7",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "35",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 尹熠俊\n",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "手动操作HMI使LIFT13上升，电机转动时受阻力且电机温度较高;",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查电机刹车，发觉刹车未释放；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查电机刹车继电器，未吸合；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查变频器，无输出信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "临时改用PLC直接控制刹车继电器，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV7 LIFT13上升时没有动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么LIFT13无上升动作？马达刹车未释放；"
+		],
+		[
+			"为什么马达刹车未释放？刹车继电器未吸合；"
+		],
+		[
+			"为什么继电器未吸合？变频器输出端无输出信号；"
+		],
+		[
+			"为什么变频器输出端无信号？输出端触点坏。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "变频器触点损坏，导致马达刹车没有释放。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时将该升降机刹车改成直接用PLC控制",
+				"resp": "尹熠俊",
+				"supp": "刘丰",
+				"compDate": "2011.09.15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "周末更换该变频器",
+				"resp": "陈烨华",
+				"supp": "刘丰",
+				"compDate": "2011.9.18",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "尝试分析更换下的变频器故障原因",
+				"resp": "刘丰",
+				"supp": "尹伟文",
+				"compDate": "2011.9.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "手动操作HMI使LIFT13上升，电机转动时受阻力且电机温度较高;"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查电机刹车，发觉刹车未释放；"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查电机刹车继电器，未吸合；"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查变频器，无输出信号；"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "临时改用PLC直接控制刹车继电器，恢复生产。"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:刘丰"
+}

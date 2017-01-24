@@ -1,0 +1,222 @@
+{
+	"fileName": "20160105_EUB.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160105_EUB.json",
+	"score": 703,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016.1.5  22",
+	"fileNameDate": "20160105",
+	"equipName": "设备名称:  Lifter",
+	"breakdownTime": "停机时间：20",
+	"areaLocation": "停机区域\/点: EUBShuttle",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "12",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    陈志剑\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "EUBSuttle线上手动模式，使Lifter4下降再上升，但Lifter4依然上升不到位。",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "通知控制工程师强制上升到位信号，使Shuttle线临时向前运动，并继续观察后续情况。",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "后续依然出现Lifter4上升不到位，观察发现Lifter4前侧的传感器未亮，且Lifter4前后不平，前方较后方更低。",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "待EUB040出现空当时，进入工位调整Lifter4前部支架，使前后高度一致。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "工位上自动，Lifter4可上升到位。",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB Shuttle线Lifter4上升不到位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么EUBShuttle线的Lifter4上升不到位？因为Lifter4前部上升到位传感器未点亮。"
+		],
+		[
+			"为什么Lifter4前部上升位传感器没亮？因为Lifter4前后高低不一致，前部较低。"
+		],
+		[
+			"为什么Lifter4前后高低不一致，前部较低？目前原因尚不明确，需进一步观察分析。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "Lifter4前后高低不一致，原因有待进一步分析。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整Lifter4前部支架，使Lifter4前后高低一致。",
+				"resp": "陈志剑",
+				"supp": "陈烨华",
+				"compDate": "1\/5\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查EUB及EMC Shuttle线的所有Lifter的水平度。",
+				"resp": "曹鸣晓\n黄光耀",
+				"supp": "",
+				"compDate": "1\/15\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "待分析有结果后,制定相应的对策.",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": "1\/10\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 陈烨华",
+	"person_ENG": "工程师\/ENG.: 陈志剑",
+	"person_GL": "工段长\/ GL: 滕征",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

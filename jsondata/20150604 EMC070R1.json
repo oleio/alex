@@ -1,0 +1,222 @@
+{
+	"fileName": "20150604 EMC070R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150604 EMC070R1.json",
+	"score": 615,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年06月04日7时40分",
+	"fileNameDate": "20150604",
+	"equipName": "设备名称:中频焊机",
+	"breakdownTime": "停机时间：70min",
+	"areaLocation": "停机区域\/点: EMC070R1",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "70",
+	"lostProductNum": "35",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   张文华  \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "备份程序，并尝试调整焊接姿态，效果依旧不佳",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查焊枪支轴松动，临时检修调整焊枪对中性",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "恢复备份程序，但调用别车型的程序，导致焊枪与车体干涉",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "寻求机器人组支持恢复程序存档，并再次示教验证轨迹",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"焊枪支轴松导致焊点扭曲；程序调用错误导致焊枪与车体干涉。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊点扭曲"
+		],
+		[
+			"为什么调整焊接姿态后焊点质量依旧不佳？因为焊枪支轴松动；"
+		],
+		[
+			"为什么在程序恢复后，焊接轨迹与车体干涉？因为恢复的程序调用错误；"
+		],
+		[
+			"为什么程序调用错误？因为人为失误，导致原始程序被覆盖，调用其他车型的程序；"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "1.支轴衬套磨损较快，（3.15和5.9非生产日已更换两次支轴衬套），导致焊枪支轴松动,焊枪轨迹不佳\n2.维修对程序备份不熟练",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时检修焊枪支轴，调整对中性。",
+				"resp": "张文华",
+				"supp": "黄波",
+				"compDate": "6\/4\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "机器人组恢复备份程序。",
+				"resp": "吴梦杰",
+				"supp": "",
+				"compDate": "6\/4\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对维修进行备份程序一点课程再学习培训，待考核通过再允许操作。",
+				"resp": "机器人组",
+				"supp": "",
+				"compDate": "6\/4\/2015",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "非生产日安排检修焊枪以及优化焊接轨迹。",
+				"resp": "瞿淼晋",
+				"supp": "",
+				"compDate": "6\/7\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "正确操作备份程序"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.何文泽 张文华",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

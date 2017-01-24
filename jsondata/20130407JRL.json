@@ -1,0 +1,222 @@
+{
+	"fileName": "20130407JRL.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130407JRL.json",
+	"score": 845,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年4月7日14时40分",
+	"fileNameDate": "20130407",
+	"equipName": "设备名称:滚床机运线",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点:  总拼补焊线",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马晓洲黄轶佳         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "总拼补焊线机运线控制柜直流电源空开跳闸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "尝试直流电源空开重新合闸，再次跳闸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆除控制柜所有外接插头，空开仍然无法合上，确定短路点在柜内接线排接线中；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "拆除接线排连接线，将接线排供电线路分成数段，逐段测量缩小故障范围；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "故障段接线端子排所有电源线分离，逐根测量电流，确定故障线并临时拆除；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "重合空开后恢复设备自动生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "进一步检查确定JRL120升降超程开关信号线被线槽割破短路",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼补焊线控制回路直流电源开关跳闸"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么补焊线直流电源总开关跳闸？因为空开中流过的电流过大"
+		],
+		[
+			"为什么空开中流过的电流过大？因为空开下接线中有线路对地短路"
+		],
+		[
+			"为什么空开下接线中有线路对地短路？因为JRL120工位升降滚床终端限位信号线对线槽短路"
+		],
+		[
+			"为什么升降滚床终端限位信号线对线槽短路？因为信号线随升降动作运动，信号线与线槽开口摩擦。"
+		],
+		[
+			"为什么信号线与线槽开口摩擦？因为信号线捆扎放置位置不理想，而且项目施工人员活动使线缆原来的位置发生了变化。"
+		]
+	],
+	"rootCause": "信号线捆扎放置位置不理想，而且项目施工人员活动使线缆原来的位置发生了变化。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修确定故障点并更换信号线",
+				"resp": "黄光耀",
+				"supp": "陈烨华",
+				"compDate": "4\/7\/2013",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "排查车间内所有随升降滚床动作的信号线，适当捆扎保证活动的信号线与线槽开口不干涉而且相对固定。",
+				"resp": "黄光耀陈烨华曹鸣晓",
+				"supp": "",
+				"compDate": "4\/20\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "总拼及总拼补焊线控制柜中增加直流分路开关，避免短路故障时需要拆卸大量接线才能确定故障范围，缩短排故时间。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "4\/30\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查项目实施控制设备设计，避免出现控制电源回路不设分路空气开关情况。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "4\/20\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障检修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

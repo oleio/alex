@@ -1,0 +1,222 @@
+{
+	"fileName": "20111019SFI110R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111019SFI110R1.json",
+	"score": 628,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年10月19日21时 10分",
+	"fileNameDate": "20111019",
+	"equipName": "设备名称:焊枪",
+	"breakdownTime": "停机时间：1H",
+	"areaLocation": "停机区域\/点: SFI110",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "1",
+	"lostProductNum": "20",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator郑旭俊",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "SFI110R1在焊接过程中固定几处焊点有虚焊发生，修磨电极帽，并调整焊接参数，效果不明显。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "维修尝试调整该处焊点轨迹，使电极杆与板材保持垂直。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "进工位检查焊枪电缆和软连接状态，检查发现焊枪导轨和滑块的连接处有导电分流的痕迹。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "此导轨和滑块为上周PM安装的改进型导轨、滑块组件，确认为滑块内绝缘层破损。（没有备件）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "将改进型导轨滑块和配套的底座拆除，恢复改进前的导轨、滑块和底座。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复原始焊接参数，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI110R1焊接时有间歇性虚焊发生。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SFI110R1在固定几点会发生虚焊？因为焊枪滑块与导轨有分流。"
+		],
+		[
+			"为什么焊枪滑块与导轨有导电分流？因为导轨与滑块的绝缘层磨损。"
+		],
+		[
+			"为什么导轨与滑块的绝缘层会磨损？因为改进型滑块的绝缘层比较薄。"
+		],
+		[
+			"为什么改进型的滑块绝缘层薄？因为供应商在设计时没有考虑车间内焊枪的使用情况。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换常规导轨滑块和配套的底座",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-10-20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "恢复焊接参数",
+				"resp": "郑旭俊",
+				"supp": "",
+				"compDate": "11-10-20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "向供应商反馈此情况并更改其设计。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "11-11-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG:郑旭俊",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20121205EMC010R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121205EMC010R2.json",
+	"score": 749,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年12月5日4时40分",
+	"fileNameDate": "20121205",
+	"equipName": "设备名称:手工焊机",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点:  EMC",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "50",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马晓洲         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产人员在完成焊接收回焊枪时听到有“短路放电声响”；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "维修人员到现场处理故障，检查发现焊机电源电缆绝缘层被外力损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "分析电缆绝缘层损坏原因，现场模拟后确定焊枪双层导轨的下层导轨滑动碰撞导致焊接电源电缆绝缘层损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "对绝缘层进行包缠修理，焊机合闸后发现显示屏没有点亮；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "进一步检查发现焊机的两相电源中有一相没有正常电压，确定插接箱熔断器损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "登高更换插接箱中烧坏的熔断器；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "更换因短路故障损坏的焊机主板并设置参数后恢复焊机正常使用；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC10工位手工焊机电源电缆绝缘层被外力碰坏，电源对地断路后导致插接"
+		],
+		[
+			"箱内熔断器熔断。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊机电源电缆对金属导轨短路放电"
+		],
+		[
+			"为什么焊机电源电缆绝缘层被碰坏"
+		],
+		[
+			"为什么下层导轨在焊枪退回时碰到焊机电源电缆"
+		],
+		[
+			"为什么下层导轨活动范围过大(后退时)"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "下层导轨悬挂滑车(后)安装位置不当,导致下层导轨活动范围过大（后退时）。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整出现问题的下层导轨悬挂滑车,保证下层导轨活动时不会碰到焊机电源电缆",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "12\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换保险丝，恢复插接箱，电缆包裹绝缘层，恢复生产",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "12\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "车间范围内检查调整焊枪双层导轨的滑动范围，保证下层导轨滑动时不会碰坏焊枪电源电缆和其他线缆、管路",
+				"resp": "马晓洲",
+				"supp": "沈建伟",
+				"compDate": "12\/9\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "将导轨干涉加入高空设备检查项,进行高空设备普查",
+				"resp": "沈建伟",
+				"supp": "胡滨",
+				"compDate": "12\/6\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

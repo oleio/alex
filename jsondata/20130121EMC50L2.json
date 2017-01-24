@@ -1,0 +1,222 @@
+{
+	"fileName": "20130121EMC50L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130121EMC50L2.json",
+	"score": 597,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1月19日21时30分",
+	"fileNameDate": "20130121",
+	"equipName": "设备名称:手工焊枪",
+	"breakdownTime": "停机时间：30MIN",
+	"areaLocation": "停机区域\/点:  EMC50L2",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   瞿淼晋    \nOringinator  2013.1.21",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产反映焊枪无法关闭焊接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查焊机发现比例阀无压力读数，怀疑比例阀故障，更换比例阀后故障依旧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "用万用表测量比例阀控制信号线，信号线OK。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "根据故障产生的控制关联，首先替换焊机I\\O板，无效，更换后故障依然存在；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "准备焊机主板更换至故障焊机，尝试焊接正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "调试焊接参数，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC50L2焊枪无法焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪无法关闭焊接？因为焊枪比例阀不工作，没有焊接压力；"
+		],
+		[
+			"为什么焊枪比例阀不工作，没有焊接压力？因为比例阀无信号输入；"
+		],
+		[
+			"为什么比例阀无信号输入？因为焊机主板故障无信号输出；"
+		],
+		[
+			"为什么焊机主板故障无信号输出？因为焊机主板上电感元件击穿，造成主板故障失效；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊机主板电感元件击穿，造成主板故障失效",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换故障的焊机主板",
+				"resp": "瞿淼晋",
+				"supp": "陈烨华",
+				"compDate": "1\/21\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系焊机供应商解析该主板上电感元件损坏的根本原因",
+				"resp": "孙杰",
+				"supp": "梅达",
+				"compDate": "1\/31\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系供应商梅达对问题主板进行索赔",
+				"resp": "孙杰",
+				"supp": "梅达",
+				"compDate": "1\/31\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除第4步以外路径"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:瞿淼晋",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

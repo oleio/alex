@@ -1,0 +1,222 @@
+{
+	"fileName": "20110307JFM150R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110307JFM150R1.json",
+	"score": 627,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年 03月 07日9时30分",
+	"fileNameDate": "20110307",
+	"equipName": "设备名称:R1机器人",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "停机区域\/点:  JFM150",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "14",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期 马安颹     \nOringinator  2011.3.7 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM150激光焊L1烧焊右侧时焊缝找不到，手动开回HOME，示校R1烧焊，焊接时发现R1的线缆支架弹簧断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将R1手动开回HOME，BYPASS R1，用L1烧焊两边；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "查找备件未备，决定对断裂的弹簧进行烧焊；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "进入工位拆下支架",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "对断裂处进行电焊烧焊并加固后，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM150R1线缆支架弹簧断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM150R1故障？因为R1线缆支架弹簧断裂；"
+		],
+		[
+			"为什么R1线缆支架弹簧断裂？因为支架弹簧对线缆起到缓冲的作用，怀疑材质问题导致断裂；"
+		],
+		[
+			"为什么怀疑材质问题？因为此弹簧为KUKA(激光焊供应商）自制件，且R1的使用频次低于L1；（夜班停产期间再对其结构进行分析）"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: 弹簧材质问题导致疲劳断裂",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将支架拆下进行烧焊加固",
+				"resp": "黄波",
+				"supp": "杨志荣",
+				"compDate": "2011.3.7",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "确认轨迹对弹簧支架的受力影响，优化轨迹及启停加速，减小弹簧支架的受力",
+				"resp": "徐啸顺",
+				"supp": "机器人组",
+				"compDate": "2011.3.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对弹簧支架的结构及材质进行分析，制作并改善备件",
+				"resp": "徐啸顺",
+				"supp": "胡滨",
+				"compDate": "2011.3.10",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄波",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

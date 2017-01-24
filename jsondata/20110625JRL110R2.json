@@ -1,0 +1,222 @@
+{
+	"fileName": "20110625JRL110R2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110625JRL110R2.json",
+	"score": 494,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月25日10时0分",
+	"fileNameDate": "20110625",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 王昀",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位检查焊枪，发现焊枪支架加强板中间有裂纹（加强板本体，非焊接部分）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "维持生产的同时同生产协调维修时间并将焊机拉到工位旁待用；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "修理焊接焊枪支架加强板；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"补焊线生产人员抱怨JRL110R2焊枪所焊的焊点发生偏移"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL110R2焊点偏移？因为JRL110R2焊枪位置发生变化"
+		],
+		[
+			"为什么JRL110R2焊枪位置发生变化？因为焊枪支架加强板断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"为什么焊枪支架加强板断裂（加强板本体，非焊接部分）？因为焊枪支架设计强度过低，焊枪水平焊接受力大。"
+		]
+	],
+	"rootCause": "焊枪水平焊接受力大，焊枪支架设计强度过低。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "焊接断裂的焊枪支架加强板",
+				"resp": "王昀",
+				"supp": "杨志荣",
+				"compDate": "11-6-26",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系小原修改焊枪支架设计，订购备件更换JRL110L2\/R2焊枪支架更换。",
+				"resp": "孙杰",
+				"supp": "胡滨",
+				"compDate": "11-9-30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:陈超"
+}

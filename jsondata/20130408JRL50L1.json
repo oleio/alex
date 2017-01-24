@@ -1,0 +1,222 @@
+{
+	"fileName": "20130408JRL50L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130408JRL50L1.json",
+	"score": 801,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年4月7日14时40分",
+	"fileNameDate": "20130408",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:  补焊线",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 郑旭俊         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产反应焊枪粘电极帽，影响焊点质量；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "重新更换电极帽后,焊接时炸电极帽,电极帽与车身粘连，电极杆TAB在无电极帽情况下焊接一次，造成电极杆Tab损坏",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "焊接工程师到现场检查焊枪及焊接控制器状态均无异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换动静电极杆并调整焊接参数；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复工位自动过程中工位Unit302勾销气缸报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "进工位检查发现勾销气缸传感器信号线破损，受到焊枪电极帽脱落后的滴水导致短路，控制工程师临时强制信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL50L1焊枪粘电极帽造成电极杆损坏"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么会炸电极帽？因为该枪焊接的615门槛处有受到压力外溢的胶水；"
+		],
+		[
+			"为什么电极杆Tab会损坏？因为Watersave断水延时，焊枪已经开始下一次焊接；"
+		],
+		[
+			"为什么工位的Unit302勾销气缸报警？因为勾销气缸传感器感应信号无；"
+		],
+		[
+			"为什么勾销气缸传感器感应信号无？因为勾销气缸传感器信号线破损，受到焊枪电极帽脱落后的滴水导致短路"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.因为Watersave断水延时，焊枪电极帽脱落情况下已经开始下一次焊接导致电极杆TAB损坏；2.Unit302气缸传感器信号线破损，进水后导致短路；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换损坏的电极杆",
+				"resp": "丁伟",
+				"supp": "郑旭俊",
+				"compDate": "4\/8\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.夜班更换Unit302气缸传感器信号线",
+				"resp": "",
+				"supp": "",
+				"compDate": "4\/8\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.计划性检查焊枪Watersave工作灵敏度，设表跟踪状态",
+				"resp": "孙杰",
+				"supp": "郑旭俊",
+				"compDate": "4\/21\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.维修班组在非生产时间PM工作中检查工位中外露的信号线，破损处及时更换；",
+				"resp": "A\/B\/C班组",
+				"supp": "",
+				"compDate": "4\/21\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障检修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳、郑旭俊",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

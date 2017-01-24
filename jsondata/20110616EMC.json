@@ -1,0 +1,222 @@
+{
+	"fileName": "20110616EMC.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110616EMC.json",
+	"score": 419,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年 6 月 16 日14 时 15 分",
+	"fileNameDate": "20110616",
+	"equipName": "设备名称:EMC30\/40",
+	"breakdownTime": "停机时间：25min&20min",
+	"areaLocation": "停机区域\/点: EMC",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 宋浩亮      \nOringinator 2011.6.16",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "发现吊具夹头位置偏差，无法夹到板材。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查吊具，发现烧焊处开裂。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "对开裂处进行烧焊",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC030\/40两个吊具焊缝处开裂。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么吊具夹头夹紧位置偏差？因为吊具支架开裂。"
+		],
+		[
+			"为什么吊具支架开裂？此处反复烧焊，可焊性差，容易开裂。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "支架开裂处反复烧焊，可焊性差。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.将开裂处烧焊，恢复生产。",
+				"resp": "王昀",
+				"supp": "尹熠俊",
+				"compDate": "2011.6.16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.夜班加固此处焊缝。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.6.16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.推动采购完成EMC吊具采购，并批量更换。",
+				"resp": "胡滨",
+				"supp": "钱俊",
+				"compDate": "2011.7.15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

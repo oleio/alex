@@ -1,0 +1,222 @@
+{
+	"fileName": "20151110_SFI060.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151110_SFI060.json",
+	"score": 729,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.11.10",
+	"fileNameDate": "20151110",
+	"equipName": "设备名称:Opengate",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:SFI060",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "45",
+	"lostProductNum": "28",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  滕征 \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修进入现场查看，GATE关闭到位，发现锁紧机构确实不到位；排除传感器的问题。 ",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "强制信号完成当前CYCLE,空出工位进行深度检查。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "首先对运动机构进行润滑，清除内部可能存在的杂质，没有改善。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "对气缸进行检查，发现气缸端盖处存在漏气现象。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "通知工程评估GATE锁紧力不够可能带来的尺寸变化风险。",
+				"lostMin": 10,
+				"success": "x"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "试生产车辆送三坐标测量 。",
+				"lostMin": 5,
+				"success": "x"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "改进气路控制，对漏气回路进行补充压缩空气，使夹头关闭到位，恢复正式生产。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060 左前Gate 锁紧机构不到位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么左前Gate 锁紧机构不到位？因为锁紧机构的驱动气缸损坏。"
+		],
+		[
+			"为什么锁紧机构的驱动气缸损坏。？因为气缸端盖漏气。"
+		],
+		[
+			"为什么气缸端盖漏气？因为气缸工作时侧向单边受力，端盖密封圈磨损。"
+		],
+		[
+			"为什么气缸侧向单边受力？因为该气缸位于工装底部，需要摆动才能工作，转轴卡死，使气缸单边受力。"
+		],
+		[
+			"为什么？因为"
+		]
+	],
+	"rootCause": "气缸位于工装底部，需要摆动才能工作;转轴卡死，使气缸单边受力，端盖密封圈磨损泄露。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "改进气路，维持关闭压力。",
+				"resp": "陈志剑",
+				"supp": "",
+				"compDate": "11\/10\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产时间更换问题气缸。",
+				"resp": "夏伟",
+				"supp": "",
+				"compDate": "11\/22\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对内外总拼相同位置的气缸进行排查和保养.",
+				"resp": "黄光耀\n曹鸣晓",
+				"supp": "",
+				"compDate": "11\/22\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "将该项检修工作加入PM清单，进行周期性维护。",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "11\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "通过气路改进，补充压缩空气是夹头关闭到位。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/ TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

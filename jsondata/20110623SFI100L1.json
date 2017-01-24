@@ -1,0 +1,222 @@
+{
+	"fileName": "20110623SFI100L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110623SFI100L1.json",
+	"score": 451,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年06月 04日22时30 分",
+	"fileNameDate": "20110623",
+	"equipName": "设备名称:SFI100L1",
+	"breakdownTime": "停机时间：30",
+	"areaLocation": "停机区域\/点:  EMC60L2",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:王烨\/6.4 \nOringinator   ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修发现机器人在焊接时无动作打开焊机发现焊机跳闸",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "发现逆变器中有烟冒出",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换逆变器",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "手动操作机器人焊接能焊接，上自动恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI100L1焊机跳闸"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位报警？因为焊枪报焊接故障"
+		],
+		[
+			"为什么焊枪报焊接故障？因为焊机跳闸"
+		],
+		[
+			"为什么焊机跳闸？因为焊机逆变器短路"
+		],
+		[
+			"为什么逆变器短路？因为逆变器内部可控硅被击穿"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊机内部逆变器损坏，备件质量",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换焊机逆变器",
+				"resp": "孙杰",
+				"supp": "陈文佳",
+				"compDate": "2011.6.4",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1、联机供应商给出逆变器调查报告",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2011.06.30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2、联系供应商索赔逆变器",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2011.06.30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3、准备逆变器备件在现场",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2011.6.5",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:孙杰",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

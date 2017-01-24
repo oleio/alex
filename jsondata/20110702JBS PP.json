@@ -1,0 +1,222 @@
+{
+	"fileName": "20110702JBS PP.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110702JBS PP.json",
+	"score": 802,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月2日14时20分",
+	"fileNameDate": "20110702",
+	"equipName": "设备名称:P&P",
+	"breakdownTime": "停机时间：30MIN",
+	"areaLocation": "停机区域\/点:JBS",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "30",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 佘佳安\n2011-5-5",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修到现场检查HMI报警信息，确定故障为系统通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "维修人员检查现场通讯电缆的同时拉动控制工程师到现场联机PLC检查通讯状态位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "确定硬件地址11,13,15,20,31的模块通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "强制PLC及硬件信号将出现模块报警相关的P&P下降并检查通讯电缆接插件连接情况，未见异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "根据报警模块安装位置推断J3接口箱关联的通讯模块报警（5米高空），用登高车到空中检查接口箱内部、外部通讯电缆接线，未见异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "检查上一级J2接口箱通讯电缆接线（5米高空），发现接线至J3接口箱的通讯电缆接头内部接线断；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "重新接线后恢复控制系统正常运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JBS 右侧P&P抓手控制系统通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JBS右侧P&P紧急停止？因为控制系统通讯故障"
+		],
+		[
+			"为什么控制系统通讯故障？因为硬件地址11,13,15,20,31的模块通讯故障"
+		],
+		[
+			"为什么硬件地址11,13,15,20,31的模块通讯故障？因为J2至J3接口箱的通讯电缆断线"
+		],
+		[
+			"为什么J2至J3接口箱的通讯电缆断线？因为J2接口箱上接至J3接口箱的通讯电缆接头内部断线"
+		],
+		[
+			"为什么J2接口箱上接至J3接口箱的通讯电缆接头内部断线？因为电缆捆扎松脱，导致P&P运动时接头上的电缆晃动"
+		]
+	],
+	"rootCause": "电缆捆扎松脱，导致P&P运动时接头上的电缆晃动并引起接头内部电缆断裂。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "电缆接头内部电缆重新接线并正确捆扎J2接口箱上的电缆",
+				"resp": "佘佳安",
+				"supp": "",
+				"compDate": "11-7-2",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查车间内所有P&P接口箱(随P&P运动）外部电缆的捆扎情况，必要时重新捆扎。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-7-12",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:谢鲲",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

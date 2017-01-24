@@ -1,0 +1,222 @@
+{
+	"fileName": "20151102JRL030L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151102JRL030L2.json",
+	"score": 507,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年10月14日22时00分",
+	"fileNameDate": "20151102",
+	"equipName": "设备名称:伺服焊枪",
+	"breakdownTime": "停机时间：12分钟",
+	"areaLocation": "停机区域\/点:JRL030",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "12",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  费望德\n2015\/10\/14   \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL030L2焊接报警，观察发现报警时有焊穿现象，进工位查看电极帽因焊穿状态较差，拉动生产更换电极帽后递增清零并完成后续焊点，继续跟踪后续车辆",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "后续车辆仍有非固定焊点焊穿现象，进工位示教发现静臂未贴和板材，将所有焊点轨迹调整至静臂贴合后故障修复，跟踪一批车状态均OK",
+				"lostMin": 7,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL030L2 E16左侧下门槛非固定焊点焊穿"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接故障"
+		],
+		[
+			"为什么焊点焊穿"
+		],
+		[
+			"为什么焊接时板材间压力建立不足"
+		],
+		[
+			"为什么焊接时静电极未贴和板材"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "直接原因是焊接时静电极未贴和板材，根本原因待分析",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整焊接轨迹,使静臂贴合板材",
+				"resp": "陆强",
+				"supp": "",
+				"compDate": "10\/14\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制定计划，利用中班结束和PM时间逐步对4个车型在JRL的焊接轨迹进行优化调整，降低发生此类故障的概率",
+				"resp": "费望德",
+				"supp": "何文泽",
+				"compDate": "12\/31\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL.:陈烨华",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20140404_JFM120.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140404_JFM120.json",
+	"score": 900,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年4月4日20时05分",
+	"fileNameDate": "20140404",
+	"equipName": "设备名称:升降滚床",
+	"breakdownTime": "停机时间：150min",
+	"areaLocation": "停机区域\/点:   JFM120",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "150",
+	"lostProductNum": "115",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  张少峰       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动上升无动作,打开控制柜发现接触器跳热保护开关,复位之后仍无动作.",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "通过万用表发现接触器相间电压正常、上下触点间无电阻，排除控制柜内问题.",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查测量电机相间电阻、电压发现相等，排除电机自身缺相或短路问题.",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "拆卸电机刹车罩壳，释放刹车制动力，点动运行电机使电机轴可以重新转动，同时怀疑到电机内部出现机械问题，将备用电机调运到现场。",
+				"lostMin": "20min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "生产1小时后工位又无法上升，重复实施上次操作方法，结果失败，决定立即更换电机。",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "做好安全防范措施后，更换问题电机。",
+				"lostMin": "120min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "更换完电机后点动操作工位正常升降，恢复生产。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120工位Cycle完成后不上升."
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位JFM120不上升？因为电机工作电流过大导致跳热保护；"
+		],
+		[
+			"为什么控制柜跳热保护？因为电机转子机械卡死；"
+		],
+		[
+			"为什么电机转子机械卡死？轴上的滚珠轴承保持架碎裂；"
+		],
+		[
+			"为什么滚珠轴承保持架碎裂？因为轴承内缺少油脂润滑；"
+		],
+		[
+			"为什么轴承内缺少油脂润滑？1.轴承制造缺陷（设计寿命2万小时，实际使用1万小时,且为免维护）"
+		]
+	],
+	"rootCause": "1.轴承制造缺陷（设计寿命2万小时，实际使用1万小时，且为免维护）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换升降滚床的电机，恢复生产。",
+				"resp": "曹鸣晓",
+				"supp": "滕征",
+				"compDate": "4\/4\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查同期使用的滚床电机运行状态。",
+				"resp": "黄光耀\n陈烨华\n曹鸣晓",
+				"supp": "",
+				"compDate": "4\/16\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "分析同期轴承使用的状态，制定后续措施。（检查同期轴承未发现损坏，确定损坏的轴承为single case）",
+				"resp": "腾征",
+				"supp": "",
+				"compDate": "4\/16\/2014",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拉动ME研究使用振动监测来监控电机轴承运行状态。（升降滚床电机无法通过震动检测来监控轴承状态）。",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "4\/9\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "细化升降滚床电机更换的MTS。",
+				"resp": "张少峰",
+				"supp": "",
+				"compDate": "4\/20\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:张少峰",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110605EUB50R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110605EUB50R2.json",
+	"score": 565,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 6 月 5 日 10 时 00 分",
+	"fileNameDate": "20110605",
+	"equipName": "设备名称:机器人伺服焊枪",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:  EUB50R2",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 王俊杰         \nOringinator 2011.6.5",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进工位检查板材配合及焊枪静臂与板材贴合度，发现正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "更换电极帽，修磨，重新做零位，依旧爆电极帽；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "尝试调节焊接压力，无效，判断焊枪伺服电机无法按照要求建立压力；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换焊枪伺服电机后爆电极帽现象消除。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"该枪在焊接时频繁炸电极帽，并将板材焊穿。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么出现伺服焊枪爆电极帽？因为焊接压力低于设定压力"
+		],
+		[
+			"为什么焊接压力低于设定压力？因为焊枪无法按照程序要求建立正确焊接压力"
+		],
+		[
+			"为什么焊枪无法按照要求建立正确焊接压力？因为焊枪伺服电机老化，性能变差.(拆开伺服马达证明了事先的判断，内部丝杆磨损）"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊枪伺服电机老化，性能变差，内部丝杆磨损(拆开伺服马达证明了事先的判断，内部丝杆磨损）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换伺服马达",
+				"resp": "黄光耀",
+				"supp": "尹熠俊",
+				"compDate": "6.5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "开发焊枪伺服电机性能评估方法，结合预防性维修检查伺服电机性能状态，提前更换存在潜在问题的伺服电机。",
+				"resp": "孙杰",
+				"supp": "王俊杰",
+				"compDate": "6.30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

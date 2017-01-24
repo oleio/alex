@@ -1,0 +1,222 @@
+{
+	"fileName": "20160225FO140.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160225FO140.json",
+	"score": 879,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "20156.2.25   13",
+	"fileNameDate": "20160225",
+	"equipName": "设备名称: 机器人",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点: FO140",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "40",
+	"lostProductNum": "30",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    钱毅吉   2015.11.8",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "工位故障,发现机器人未完成焊接即已停止出光，进入剪断粘连的焊丝，机器人回HOME",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "机器人示教板显示与激光发生器通讯故障，机器人DEVICENET 24V断电及机器人控制柜断电重启，无效",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查FO150发现IPG1的其余通道也有通讯故障。检查监控的电脑发现IPG1存在IO ERROR。",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进入楼上激光房断电重启激光发生器。恢复机器人通讯",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "此时工位已将A10bypass。控制手动放车",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "下一批A10焊接后发现左边焊接质量不佳，检查监控电脑发现2个发光模块被锁，最多只可提供3000W功率，而实际焊接使用功率为3300W",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "重新刷入激光发生器配置文件解锁发光模块",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"FO140激光钎焊故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人停止出光？因为机器人与激光发生器通讯中断"
+		],
+		[
+			"为什么机器人与激光发生器通讯中断？因为激光发生器IPG1发生故障"
+		],
+		[
+			"为什么激光发生器IPG1发生故障？因为在焊接过程中IPG1有2个发光模块被锁"
+		],
+		[
+			"为什么机器人与激光发生器恢复通讯后激光焊质量不佳？因为2个发光模块被锁后功率不足"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "1)焊接过程中IPG1有2个发光模块被锁\n2)2个发光模块被锁后功率不足导致激光焊质量不佳",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "激光发生器断电",
+				"resp": "钱毅吉",
+				"supp": "",
+				"compDate": "2\/25\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "重新刷入FO140L激光发生器的配置文件",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "2\/25\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系IPG调查发光模块被锁问题",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "3\/5\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "工位故障,发现机器人未完成焊接即已停止出光，进入剪断粘连的焊丝，机器人回HOME"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查FO150发现IPG1的其余通道也有通讯故障。检查监控的电脑发现IPG1存在IO ERROR。"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进入楼上激光房断电重启激光发生器。恢复机器人通讯"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查监控电脑发现2个发光模块被锁"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "重新刷入激光发生器配置文件解锁发光模块"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：曹鸣晓",
+	"person_ENG": "工程师\/ENG.:钱毅吉",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120418JRL130.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120418JRL130.json",
+	"score": 764,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 4月 18日 11时20 分",
+	"fileNameDate": "20120418",
+	"equipName": "设备名称:Runbar操作台",
+	"breakdownTime": "停机时间：17min",
+	"areaLocation": "停机区域\/点: JRL130",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "17",
+	"lostProductNum": "13",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 樊超杰         \nOringinator 2012.4.18",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL160至170工位雪橇运行中停止，HMI自动模式丢失；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "报警显示160工位光幕故障，查看光幕发现无电源；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查控制柜内发现有3个24V空气开关跳闸，推上空开复位，E09-08CB仍跳闸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "拆下空开输出电缆，HMI报警JRL170 LH E-STOP，查看170工位无急停报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "通知控制工程师查看程序，发现JRL130右侧RUNBAR有急停报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "检查RUNBAR内接线，发现急停按钮上24V电源线脱落碰外壳；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "重新接线后系统恢复正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL000机运线（C3) ZONE3 HMI报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL160至170雪橇停止运行？因为机运线急停报警，模式丢失；"
+		],
+		[
+			"为什么机运线急停报警？因为C3柜内E09-08CB开关跳闸；"
+		],
+		[
+			"为什么C3柜内开关跳闸？因为JRL130右侧RUNBAR内有短路；"
+		],
+		[
+			"为什么RNBAR内有短路？因为RUNBAR内急停按钮24V电源线头脱落碰到外壳；"
+		],
+		[
+			"为什么电源线头脱落？因为固定该按钮的锁紧螺母松脱，按钮转动后引起线缆松脱。"
+		]
+	],
+	"rootCause": "按钮锁紧螺母松动导致24V电源线缆松脱短路",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新接线并紧固按钮螺母",
+				"resp": "尹熠俊",
+				"supp": "C班",
+				"compDate": "2012.4.18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更改错误的报警信息",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": "2012.4.19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "现场TPM中加入检查按钮是否松动的内容",
+				"resp": "沈建伟",
+				"supp": "生产各班次",
+				"compDate": "2012.4.22",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更新现场改进过的设备图纸",
+				"resp": "尹伟文",
+				"supp": "控制组",
+				"compDate": "2012.5.13",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

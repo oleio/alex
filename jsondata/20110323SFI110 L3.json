@@ -1,0 +1,222 @@
+{
+	"fileName": "20110323SFI110 L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110323SFI110 L3.json",
+	"score": 540,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年3 月23日22时18分",
+	"fileNameDate": "20110323",
+	"equipName": "设备名称:SFI110",
+	"breakdownTime": "停机时间：28",
+	"areaLocation": "停机区域\/点:        28",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 2011.3.23卞德勇",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "SFI110L3在焊接时漏水，焊点质量不佳",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "发现SFI110L3静电极杆无电极帽",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "将L3开到repair位置，检查电极杆",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "电极杆变形，准备备件，更换电极杆",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换电极杆，恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI110 L3焊接故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接时漏水？因为L3在没有电极帽的情况下焊接"
+		],
+		[
+			"为什么L3在没有电极帽的情况下能焊接？因为修磨时电极帽被拉掉没有报警　"
+		],
+		[
+			"为什么L3修磨时电极帽被拉掉没有报警？因为流量传感器失效"
+		],
+		[
+			"为什么流量传感器失效？因为watersave中流量传感器被卡住"
+		],
+		[
+			"为什么watersave中流量传感器被卡住？因为末端水质比较差"
+		]
+	],
+	"rootCause": "因为末端水质比较差",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修复Watersave流量开关",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.3.22",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "SHOUTDOWN放水",
+				"resp": "生产",
+				"supp": "钱俊",
+				"compDate": "11.04.7",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "采用GLOBLE型号的watersave",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11.4.20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:腾征"
+}

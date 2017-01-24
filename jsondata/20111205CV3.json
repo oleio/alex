@@ -1,0 +1,222 @@
+{
+	"fileName": "20111205CV3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111205CV3.json",
+	"score": 659,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年12月5日6时30分",
+	"fileNameDate": "20111205",
+	"equipName": "设备名称:链式BUFFER",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点:CV3",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "50",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  黄轶佳        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修到现场手动操作摆渡车，发现摆渡车没有运动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "控制工程师联机PLC检查输出状态，发现驱动电机有输出信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "维修两人配合，手动操作的同时检查电机状态，发现电机有电磁声；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查摆渡车机械状态，松电机刹车摆渡车能够正常推动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "怀疑电机刹车有问题，松电机刹车的情况下能够正常手动操作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "进一步检查发现变频器控制刹车的触点损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "降低电机低速速度，松电机刹车后恢复设备自动运行；（平移机构，不存在安全风险）",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV3链式BUFFER摆渡车停止运行"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么摆渡车停止运行？因为摆渡车电机无法转动"
+		],
+		[
+			"为什么摆渡车电机无法转动？因为电机刹车没有松开"
+		],
+		[
+			"为什么电机刹车没有松开？因为刹车控制继电器没有动作"
+		],
+		[
+			"为什么刹车控制继电器没有动作？因为变频器控制刹车继电器的触点损坏"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "变频器控制刹车继电器的触点损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "评估风险，松电机刹车并降低变频器低速速度后恢复设备自动运行。",
+				"resp": "黄轶佳",
+				"supp": "陈烨华",
+				"compDate": "11-12-5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换控制触点损坏的变频器",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "11-12-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调查车间内不同类型设备，根据设备运行情况制订变频器控制触点损坏后快速恢复设备运行的预案，缩短设备抢修时间。",
+				"resp": "黄轶佳",
+				"supp": "马晓洲",
+				"compDate": "11-12-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华 尹熠俊",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

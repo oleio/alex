@@ -1,0 +1,222 @@
+{
+	"fileName": "20120813JRL120L1.xls.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120813JRL120L1.xls.json",
+	"score": 696,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月13日12时50分",
+	"fileNameDate": "20120813",
+	"equipName": "设备名称:L1",
+	"breakdownTime": "停机时间：27min",
+	"areaLocation": "停机区域\/点: JRL120",
+	"maintainTeam": "维修班组：c",
+	"lostTime": "27",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李颖琛          \nOringinator\/2012.8.13",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "示教板将backup open 的Do置“ON”，电磁阀伐头信号等未亮；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "19芯电缆飞线替代，故障现象仍旧如此；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "将L1示教离开白车身至安全位置，并将其bypass，让工位保持生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "打开焊枪接线盒，万用表对0V测量接线排上电源（A），open（K）上有24V电压，电磁阀阀头上无24V电压；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "查看发现接线盒内open信号的0V线表皮破损内部断开，将其剥线接好，信号正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "工位恢复自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL120L1 L—car时backup不能打开"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么L1焊枪backup open不动作？ 因为L1焊枪backup电磁阀未动作；"
+		],
+		[
+			"为什么未动作？                  因为阀头线圈电源不正常；"
+		],
+		[
+			"为什么电源不正常？              因为电源线的0V断路"
+		],
+		[
+			"为什么0V线会断路"
+		],
+		[
+			"为什么电线被磨破"
+		]
+	],
+	"rootCause": "小原(供应商)新保养的整枪,出厂时盒内接线排未固定。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "bypassL1,将焊枪接线盒内磨破的0V电源线对接好",
+				"resp": "袁炜",
+				"supp": "李颖琛",
+				"compDate": "8\/13\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班维修更换此电源线,并将电线固定",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "8\/13\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对车间内近期更换的新整枪进行检查,确保接线盒内接线排",
+				"resp": "王俊杰",
+				"supp": "",
+				"compDate": "8\/19\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "固定牢固，接线没有破损。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

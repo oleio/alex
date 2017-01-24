@@ -1,0 +1,222 @@
+{
+	"fileName": "20120805SFI110L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120805SFI110L2.json",
+	"score": 620,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月5日7时45分",
+	"fileNameDate": "20120805",
+	"equipName": "设备名称:机器人换枪盘",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:张文杰          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场检查并拉动焊接工程师、机器人工程师支持；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查焊枪时发现换枪盘结合处有间隙，进一步检查发现焊枪状态检测信号也不正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "判断机器人侧换枪盘和工具侧换枪盘没有正常锁紧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查气路，发现气源没有打开，控制气阀已经拆除；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "改接气路，用常压压缩空气使机器人工具侧换枪盘和机器人侧换枪盘锁紧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI110L2出现焊接故障，低电流\/无电流报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接低电流报警？因为焊接初级回路没有可靠闭合"
+		],
+		[
+			"为什么焊接初级回路没有可靠闭合？因为换枪盘电源模块没有可靠接触"
+		],
+		[
+			"为什么换枪盘电源模块没有可靠接触？因为机器人侧换枪盘和工具侧换枪盘机械结构没有锁紧"
+		],
+		[
+			"为什么机器人侧换枪盘和工具侧换枪盘机械结构没有锁紧？因为锁紧电磁气阀组件已经被拆除用于其它工位，换枪盘锁紧气缸没有通气。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "锁紧电磁气阀组件已经被拆除用于其它工位，换枪盘锁紧气缸没有通气。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修改换枪盘锁紧控制气路，用常压控制换枪盘锁紧。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "8\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "下一非生产日拆除已经没有切换功能的换枪盘",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "8\/5\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

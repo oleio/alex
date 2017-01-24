@@ -1,0 +1,222 @@
+{
+	"fileName": "20121113JFM150L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121113JFM150L1.json",
+	"score": 715,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年11月13 日10时30分",
+	"fileNameDate": "20121113",
+	"equipName": "设备名称:机器人激光焊",
+	"breakdownTime": "停机时间：28min",
+	"areaLocation": "停机区域\/点: JFM150",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "28",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:     徐啸顺     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM150左侧激光焊光缆支架断裂。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼激光焊工位左侧机器人DRESS弹簧缓冲支架断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么弹簧断裂？因为长期工作晃动受力疲劳导致断裂。"
+		],
+		[
+			"为什么弹簧不更换而是烧焊？因为尝试制作改良备件，制造周期较长。"
+		],
+		[
+			"为什么右侧机器人焊左侧失败？因为车顶位置与以前编程时有所变化。"
+		],
+		[
+			"为什么车顶位置变化？因为早上由于工程需要调整过JFM130放车顶位置。"
+		],
+		[
+			"为什么机器人轨迹不能容纳变化点？因为右侧机器人焊接轨迹容错性不够"
+		]
+	],
+	"rootCause": "弹簧原有设计强度不够，改进支架备件还在制作过程中；右侧机器人焊接轨迹容错性不够，未能补偿车顶调整造成的影响。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "焊接修理损坏的弹簧缓冲支架",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "11\/13\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整右侧机器人焊缝轨迹",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11\/13\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "改进弹簧支架提高其强度并加快采购流程。",
+				"resp": "尹熠俊 胡滨",
+				"supp": "",
+				"compDate": "11\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "优化焊缝跟踪参数和焊接轨迹，提高容错性。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "维修检查工位内设备运行情况，发现激光焊光缆固定支架断裂。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动操作移出机器人。"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆下损坏支架并Bypass左侧机器人，损坏的支架送维修区烧焊修理。"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "现场右侧机器人焊接两边车顶焊缝，但焊到E10左侧不能继续。"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "进入工位微调机器人参数，继续焊接成功。"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "烧焊完成后利用L-car放车时安装左侧机器人光缆支架，恢复生产"
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

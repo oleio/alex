@@ -1,0 +1,222 @@
+{
+	"fileName": "20121005JRL050L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121005JRL050L2.json",
+	"score": 559,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月6日1时30分",
+	"fileNameDate": "20121005",
+	"equipName": "设备名称  机器人焊枪",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: JRL050L2",
+	"maintainTeam": "维修班组：",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   2012\/10\/6    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位检查焊枪发现对中心有偏差。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "关闭气源调整对中心，发现握杆压板螺丝中有一个断裂；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进入工位取出断裂的螺丝后，重新调整对中性；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复工位自动运行；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL50L2对中心不佳焊点扭曲"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊点发生扭曲？因为焊枪电极杆错位；"
+		],
+		[
+			"为什么焊枪电极杆错位？下电极杆压板螺丝中有一个断裂，不能很好的固定好电极杆；"
+		],
+		[
+			"为什么压板螺丝断裂？因为该焊枪焊接车身板材并非平面，造成电极杆焊接时左右方向长时间受力造成压板固定螺丝受剪切力断裂；"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因为该焊枪焊接车身板材并非平面，造成电极杆焊接时左右方向长时间受力造成压板固定螺丝受剪切力断裂。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修复螺丝，调整对中性。",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "10\/6\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.焊接组采购新ARM更换现场旧件",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "11\/5\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.机器人组优化焊枪焊接轨迹，保正焊枪焊接时与车身钣金垂直度，避免压板固定螺丝受剪切力断裂。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012\/10\/14",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:程超",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

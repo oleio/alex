@@ -1,0 +1,222 @@
+{
+	"fileName": "20120703ESO010R.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120703ESO010R.json",
+	"score": 600,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月3日8时25分",
+	"fileNameDate": "20120703",
+	"equipName": "设备名称:工装夹头",
+	"breakdownTime": "停机时间：35min",
+	"areaLocation": "停机区域\/点:ESO010R",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:樊超杰       \nOringinator 2012.7.3",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产报修ESO010R尾灯支架断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "维修到现场准备焊机烧焊；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "烧焊后夹头有形变，与焊枪干涉，通知工装工程师调整夹头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "拆除干涉部分后临时恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO010R尾灯处夹头断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么ESO010R夹头断裂？因为此处原本烧焊的地方强度不够，受冲击后较易断裂；"
+		],
+		[
+			"为什么原本有烧焊？因为此夹头摆臂较长，受冲击力较大，且在焊接过程中会与焊枪干涉，断裂；"
+		],
+		[
+			"为什么受冲击力较大？因为原节流阀调整进气量较大，运行速度较快；"
+		],
+		[
+			"为什么运行速度较快？因为节拍要求较高，夹头调整的速度较快；"
+		],
+		[
+			"为什么断裂后未及时修复？因为备件准备不足，没及时加工备件。"
+		]
+	],
+	"rootCause": "夹头多次烧焊后强度降低，断裂",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时烧焊恢复正常生产",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "2012.7.3",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班更换夹头支架并进行调整",
+				"resp": "陈烨华",
+				"supp": "马登辉",
+				"compDate": "2012.7.3",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "统计现场烧焊多次的夹头，制作备件后及时更换",
+				"resp": "工程",
+				"supp": "沈建伟",
+				"compDate": "2012.8.3",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换现场损坏的节流阀，检查夹头的运行速度并进行调整",
+				"resp": "沈建伟",
+				"supp": "各班组",
+				"compDate": "2012.8.3",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

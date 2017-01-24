@@ -1,0 +1,222 @@
+{
+	"fileName": "20110916FM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110916FM090.json",
+	"score": 617,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年9月16日6 时30分",
+	"fileNameDate": "20110916",
+	"equipName": "设备名称:GATE",
+	"breakdownTime": "停机时间：累计60min",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "40",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  钱俊\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "GATE移动过程中拖动小车出现停顿，变频器报警，手动操作HMI无效。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查变频器输出和马达电源线，正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "进工位检查小车驱动电机机械结构，没有异常，松掉马达刹车，GATE可以移动，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "生产一段时间后，故障再次出现，GATE在移动过程中停顿。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "怀疑马达刹车异常，检查马达刹车线圈和电刷，发现电刷支架有轻微变形。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "拆除马达刹车电刷支架，对支架整形。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "恢复生产。",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90 GATE “X”方向移动故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM90 GATE “X”方向移动故障？因为拖动小车马达刹车失效。"
+		],
+		[
+			"为什么马达刹车失效？因为马达刹车线圈失电。"
+		],
+		[
+			"为什么马达刹车线圈失电？因为刹车电刷和电排接触不好。"
+		],
+		[
+			"为什么刹车电刷和电排接触不好？因为电刷支架变形。"
+		],
+		[
+			"为什么电刷支架变形？因为支架长期使用，出现变形。"
+		]
+	],
+	"rootCause": "电刷支架变形，电刷和电排接触不好，造成间歇性GATE移动故障。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.对变形的支架进行整形，使电刷和电排更好配合。",
+				"resp": "陈文佳",
+				"supp": "尹伟文",
+				"compDate": "2011.9.16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.检查其余GATE拖动小车电刷支架，改进支架结构。",
+				"resp": "尹熠俊",
+				"supp": "钱俊",
+				"compDate": "2011.10.5",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:刘丰"
+}

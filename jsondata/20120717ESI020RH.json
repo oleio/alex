@@ -1,0 +1,222 @@
+{
+	"fileName": "20120717ESI020RH.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120717ESI020RH.json",
+	"score": 626,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 7 月 17 日08 时20 分",
+	"fileNameDate": "20120717",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点:     ESIRH20",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:     陈文佳    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "ESOSLOT8 通讯故障 BUSOFF.所有站点通讯故障。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "断电无法消除故障，从控制柜D8飞线至M1控制柜及工装，故障仍存在。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换工装处第一个分线盒，故障仍再。将分线盒出线处安装终端电阻，部份站点恢复",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换另一个分线盒，故障消除。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "工位恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESIRH SLOT8 BUS OFF "
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么通讯故障busoff？因为通讯总线存在问题造成整个回路故障。"
+		],
+		[
+			"为什么通讯总线存在故障？因为第二个分线盒损坏影响整个slot回路。"
+		],
+		[
+			"为什么分线盒损坏会影响整个slot回路？因为分线盒接头处1,2针脚短路影响整个网络。"
+		],
+		[
+			"为什么分线盒针脚会发生短路？因为不用的分接头1，2针脚处飞溅堆积造成短路。"
+		],
+		[
+			"为什么此处飞溅堆积会发生短路？因为此处不用分接头未加装防尘保护盖。"
+		]
+	],
+	"rootCause": "分线盒不用接头飞溅堆积发生短路",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换短路分线盒",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2012.07.17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "此处网络布线重新优化分布方便故障时能逐步排查",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2012.07.23",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "车间不用分线盒加装防尘盖防止此类故障再次发生",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2012.08.17",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

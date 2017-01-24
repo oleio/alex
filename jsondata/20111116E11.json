@@ -1,0 +1,222 @@
+{
+	"fileName": "20111116E11.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111116E11.json",
+	"score": 639,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年11月17日2时 0分",
+	"fileNameDate": "20111116",
+	"equipName": "设备名称:压机",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点:门盖",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "60",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 黄光耀\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "关断液压泵冷却主管道水阀门；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "拆下断裂的水管；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "寻找各种接头，用胶管跨接断裂的冷却水硬管后恢复生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "后又出现高压油管接头喷油问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "紧固油管接头无效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "拆下漏油的高压油管接头，发现密封圈损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "更换密封圈后恢复设备运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E11前门压机液压泵冷却水硬管接头断裂；"
+		],
+		[
+			"E11前门压机液压油管接头喷油；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么液压泵冷却水硬管接头断裂？因为备用泵高压油管压到冷却水管上"
+		],
+		[
+			"为什么备用泵高压油油管压到冷却水管上？因为备用泵高压油管在加压时有抖动引起固定卡箍固定螺栓松脱"
+		],
+		[
+			""
+		],
+		[
+			"为什么高压油管密封圈损坏，油管喷油？因为备用泵液压油油温过高"
+		],
+		[
+			"为什么备用泵液压油油温过高？待拉动供应商资源分析根本原因"
+		]
+	],
+	"rootCause": "1)备用泵连接软管在压机加压时有振动与冷却回路硬管干涉。2)备用液压泵油温偏高",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "备用液压油泵连接管临时用吊带固定防止抖动后与其他管路干涉",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11-11-17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "安排外包维修服务紧固所有压机备用泵油管固定卡箍",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "11-11-17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系备用油泵供应商整改备用油泵管路，适当固定油管。",
+				"resp": "马晓洲",
+				"supp": "邱正东",
+				"compDate": "待定",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系备用油泵供应商分析油温过高原因，解决问题。",
+				"resp": "马晓洲",
+				"supp": "邱正东",
+				"compDate": "待定",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:马晓洲（代）"
+}

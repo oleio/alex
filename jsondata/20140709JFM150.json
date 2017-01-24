@@ -1,0 +1,222 @@
+{
+	"fileName": "20140709JFM150.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140709JFM150.json",
+	"score": 916,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年7月9日14时15分",
+	"fileNameDate": "20140709",
+	"equipName": "设备名称:激光发生器",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点: JFM150L1",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "45",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:钱毅吉    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动执行程序，机器人仍然不出激光",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "程序中显示没有LASER READY信号，检查IPG软件界面，发现并无水冷机报警。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进入工位检查引导光，引导光可正常发出",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "用笔记本连接激光发生器，检查事件记录，发现有FFBD报警",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "调整FFBD参数，手动出激光成功。用一辆E15进行试验，左边机器人仍然不出激光。",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "进入工位检查引导光，激光头无法发出引导光。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "启用BACKUP方案,使用JFM150R1焊接两边焊缝。",
+				"lostMin": 15,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM150L1机器人运行时不发射激光"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人不发射激光"
+		],
+		[
+			"为什么激光发生器未发出LASER READY信号"
+		],
+		[
+			"为什么激光发生器出现FFBD报警？因为聚焦镜片附近的散光过多，探测器输出过高电压；"
+		],
+		[
+			"为什么聚焦镜片附近的散光过多？因为光缆有损伤点；"
+		],
+		[
+			"为什么光缆有损伤点？1.光缆备件质量无法满足现场生产需要；2.机器人运行轨迹时光缆受外力损坏。"
+		]
+	],
+	"rootCause": "1.光缆备件质量无法满足现场生产需要；2.机器人运行轨迹时光缆受外力损坏（PM内容中有对光缆静态的检查，但缺少对机器人运行轨迹时光缆受力状态的检查）。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.bypass左边机器人，由R1焊接两边车顶",
+				"resp": "何文泽",
+				"supp": "章逸楠",
+				"compDate": "7\/9\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.更换JFM150L1光缆",
+				"resp": "何文泽",
+				"supp": "IPG",
+				"compDate": "7\/14\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "1.PM中增加对机器人运行轨迹是光缆受力状态的检查，每月一次。",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "7\/20\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.高品质光缆更换（使用通快光缆代替目前使用的IPG光缆）",
+				"resp": "何文泽",
+				"supp": "郑磊",
+				"compDate": "7\/20\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.提高单边机器人BACKUP方案的焊接速度，确保BACKUP焊接时不影响工位CT",
+				"resp": "何文泽",
+				"supp": "黄俊宇",
+				"compDate": "11\/20\/2014",
+				"status": "2\/4"
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:孙伟(代)",
+	"person_Manager": "工程师\/ENG.:何文泽"
+}

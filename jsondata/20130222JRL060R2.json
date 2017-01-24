@@ -1,0 +1,222 @@
+{
+	"fileName": "20130222JRL060R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130222JRL060R2.json",
+	"score": 650,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年2月22日19时05分",
+	"fileNameDate": "20130222",
+	"equipName": "设备名称:R2机器人焊枪",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: JRL070",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:程超          \nOringinator\/2013.2.22",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位手动示教机器人，重新安装新的电极帽并用维修工具锉刀对电极帽进行修磨",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "工位恢复自动放入第二辆车进入工位，焊接车身时电极帽再次粘落",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "再次安装掉落的电极帽并焊接电流递增器清零，优化预压时间及焊接电流和焊点位置",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "工位恢复自动",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL060R2焊接车身时焊接故障，电极帽粘落"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R2焊接报警？因为R3机器人焊枪焊接时电极帽掉落，机器人Watersave系统报警；"
+		],
+		[
+			"为什么因为R2机器人焊枪电极帽掉落？因为焊枪焊接时电极与车身钣金上的油污接触后导致焊机变压器电流输出瞬间增大，导致电极帽与车身粘连后掉落；"
+		],
+		[
+			"为什么第二辆车再次发生电极帽粘落的停机？因为重新安装电极帽后焊机的电流递增寄存未清除，继续保持寄存器内寄存的大电流焊接，导致电极帽再次粘落；"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因为焊枪焊接时电极与车身钣金上的油污接触后导致焊机变压器电流输出瞬间增大，造成极帽与车身钣金粘连后掉落；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换60R2电极帽，焊机电流递增器清零",
+				"resp": "程超",
+				"supp": "",
+				"compDate": "2\/22\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "一点课程培训每位维修工关于焊机的电流递增寄存的原理，统一解决方法，缩短维修时间",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2013\/2\/31",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:程超",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

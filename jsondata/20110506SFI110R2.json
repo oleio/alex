@@ -1,0 +1,222 @@
+{
+	"fileName": "20110506SFI110R2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110506SFI110R2.json",
+	"score": 656,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年5月6日21时30分",
+	"fileNameDate": "20110506",
+	"equipName": "设备名称:机器人控制器",
+	"breakdownTime": "停机时间：累计68MIN",
+	"areaLocation": "停机区域\/点SFI10R2",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "68",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 黄波\n2011-5-06",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "SFI110R2机器人与焊接控制箱之间以太网通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "通讯故障重新上电后能够清除，运行一段时间后重复出现；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "尝试更换焊接控制器控制主板，问题仍然重复出现；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查机器人控制柜、焊接控制箱上的以太网电缆接插件，未见异常，重新上电后恢复设备运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "一段时间后故障再次重复出现，尝试将以太网SWITCH上的焊机以太网电缆接头接到另外的端口上；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "重新上电后恢复设备正常运行，跟踪当班生产至结束以太网通讯稳定；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI110R2机器人与焊接控制器以太网通讯故障，重复出现。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位R2机器人故障停止？因为工位机器人故障无法焊接"
+		],
+		[
+			"为什么工位机器人故障无法焊接？因为机器人与焊接控制器以太网通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"为什么机器人与焊接控制器以太网通讯故障？根据故障现象及排故过程判断（怀疑）以太网SWITCH出口处接插件接触不良"
+		]
+	],
+	"rootCause": "根据故障现象及排故过程判断（怀疑）以太网SWITCH出口处接插件接触不良",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将R2机器人焊接控制器以太网电缆接到SWITCH的另外接口",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "11-5-06",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "跟踪工位以太网通讯情况，使问题根本原因得到解决",
+				"resp": "黄波",
+				"supp": "黄轶佳",
+				"compDate": "11-5-15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "黄轶佳",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:黄俊宇 黄轶佳"
+}

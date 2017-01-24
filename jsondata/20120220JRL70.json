@@ -1,0 +1,222 @@
+{
+	"fileName": "20120220JRL70.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120220JRL70.json",
+	"score": 696,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 2 月 20日6 时 30分",
+	"fileNameDate": "20120220",
+	"equipName": "设备名称:升降滚床",
+	"breakdownTime": "停机时间：累计30min",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 刘少杰      \nOringinator 2012.2.20  ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JRL70工位超时报警，到工位检修，发现升降滚床停止在上升到一半位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "机运线手动操作将升降滚床操作到位后能够恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "后故障重复出现，拉动控制工程师检查易发生信号抖动的DUMP打开信号，跟踪未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "后故障发生频次增加，信号跟踪过程中发现信号抖动的是勾销打开不到位信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "进入工位检查勾销传感器，发现勾销检测传感器歪斜，重新正确安装紧固后恢复设备正常",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL70工位车身完成焊接后升降滚床上升过程中有时停止,复位故障后设备能够,"
+		],
+		[
+			"恢复运行."
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL70升降滚床频繁报警停止？因为升降滚床上升过程中上升条件丢失"
+		],
+		[
+			"为什么升降滚床上升过程中上升条件丢失？因为上升条件信号抖动"
+		],
+		[
+			"为什么上升条件信号抖动？因为勾销打开信号不稳定，随滚床运动抖动。"
+		],
+		[
+			"为什么勾销打开信号不稳定，随滚床运动抖动？因为勾销检测传感器歪斜，唯一个固定螺丝松动。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "勾销检测传感器歪斜，唯一个固定螺丝松动。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新安装固定勾销检测传感器",
+				"resp": "刘少杰",
+				"supp": "黄轶佳",
+				"compDate": "12-02-20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日安排时间检查紧固该工位夹头气缸传感器",
+				"resp": "刘少杰",
+				"supp": "",
+				"compDate": "12-03-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "生产DTPM现场培训生产员工如何在工位清洁时避免改变传感器位置。",
+				"resp": "殷致平夏伟 谢琨",
+				"supp": "",
+				"compDate": "12-03-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

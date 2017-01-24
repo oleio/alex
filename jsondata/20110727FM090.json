@@ -1,0 +1,222 @@
+{
+	"fileName": "20110727FM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110727FM090.json",
+	"score": 584,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月27日 12 时 20 分",
+	"fileNameDate": "20110727",
+	"equipName": "设备名称:通讯电缆",
+	"breakdownTime": "停机时间：25MIN",
+	"areaLocation": "停机区域\/点:     JFM",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "NONE",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  刘少杰        \nOringinator 2011.7.27",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM90故障报警，HMI显示RO故障，复位无效。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "示教板查看，发现RO Devicenet 45号模块报警",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "进工位查看，将通讯电缆插拔后复位，通讯无法建立。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "准备通讯电缆，并将RO放到合适位置，现场飞线，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90 R0 Devicenet通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM90工位故障？因为RO无法继续焊接。"
+		],
+		[
+			"为什么R0无法继续焊接？因为R0 Devicenet45号模块通讯无法建立。"
+		],
+		[
+			"为什么R0 Devicenet45号模块通讯无法建立？通讯模块线缆受损。"
+		],
+		[
+			"为什么通讯模块线缆受损？RO在运行轨迹时该通讯线受力。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "通讯线受损，机器人通讯无法建立。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.对机器人R0进行临时飞线。",
+				"resp": "刘少杰",
+				"supp": "A班",
+				"compDate": "2011.7.27",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.夜班将飞线穿到DRESS套管里面。",
+				"resp": "刘少杰",
+				"supp": "A班",
+				"compDate": "2011.7.28",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.检查R0运行四种车型轨迹时通讯电缆的受力情况，并做调整。",
+				"resp": "刘少杰",
+				"supp": "A班",
+				"compDate": "2011.7.31",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀（代）",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

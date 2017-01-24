@@ -1,0 +1,222 @@
+{
+	"fileName": "20120723CV7.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120723CV7.json",
+	"score": 775,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月23日6时30分",
+	"fileNameDate": "20120723",
+	"equipName": "设备名称:EMS空中机运线",
+	"breakdownTime": "停机时间：累计30min",
+	"areaLocation": "停机区域\/点:  CV7",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  谢诚侃        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "早晨开班前设备验证发现CV7升降段处小车运行时震动大，电刷容易损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查升降段电排导轨，发现升降导轨出口端磨损严重，造成动静导轨结合处不平滑；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "调整动静导轨结合处相对高度，改善过车状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将导轨出口处加速开关向小车运行方向调整30cm，避免小车承重轮高速通过动静导轨结合处，避免电刷损坏；（此调整影响下侧围工位CT时间5秒）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼40工位上方的CV7升降段小车运行震动大，电刷易损坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么总拼下侧围工位CT延长5秒？因为升降段出口加速传感器向小车运行方向调整30CM，小车加速延迟。"
+		],
+		[
+			"为什么升降段出口加速传感器向小车运行方向调整30CM，小车加速延迟？因为小车承重轮通过动静导轨结合处震动大，小车电刷容易损坏。"
+		],
+		[
+			"为什么小车承重轮通过动静导轨结合处震动大，小车电刷容易损坏？因为小车承重轮通过动静导轨结合处震动大，小车电刷容易损坏。"
+		],
+		[
+			"为什么小车承重轮通过动静导轨结合处震动大，小车电刷容易损坏？因为升降段导轨出口端磨损严重，导轨承重处变形。"
+		],
+		[
+			"为什么升降段导轨出口端磨损严重，导轨承重处变形？因为铝合金型材长期使用，老化磨损。"
+		]
+	],
+	"rootCause": "铝合金型材长期使用老化磨损，升降段导轨出口段磨损严重，导轨承重处变形。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "升降段导轨严重磨损处氩弧铝堆焊并打磨修正，改善动静导轨过渡状态",
+				"resp": "沈建伟",
+				"supp": "谢鲲",
+				"compDate": "7\/24\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换已经严重磨损的升降段导轨并调整升降导轨安装状态",
+				"resp": "黄光耀",
+				"supp": "班组",
+				"compDate": "8\/7\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

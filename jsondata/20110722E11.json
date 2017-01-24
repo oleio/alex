@@ -1,0 +1,222 @@
+{
+	"fileName": "20110722E11.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110722E11.json",
+	"score": 506,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月22日  时  分",
+	"fileNameDate": "20110722",
+	"equipName": "设备名称:压机",
+	"breakdownTime": "停机时间：累计60min、",
+	"areaLocation": "停机区域\/点:前门",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  陈文佳马晓洲        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "打开工位安全门到空中平台检查液压油冷却器（水冷）工作情况，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "压机工位手动，开启油泵（不工作）利用油泵自循环冷却液压油；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "油温降低到报警值以下后恢复设备自动运行；（重复2次）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "生产结束后抽出部分过热液压油，补充新液压油；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E11前门压机油温超高报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么压机停止自动运行？因为压机液压油温超高报警"
+		],
+		[
+			"为什么压机液压油温超高报警？因为压机油泵工作效率低"
+		],
+		[
+			"为什么压机油泵工作效率低？因为压机油泵老化（北厂WCAR项目老压机）"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "压机油泵老化，油泵工作效率低导致液压油温超高。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "停止压机运行，利用油泵自循环冷却液压油。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-07-22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "生产结束后抽出部分过热液压油，补充新液压油。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-7-22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换老化磨损的旧液压油泵",
+				"resp": "殷致平",
+				"supp": "夏伟",
+				"compDate": "11-7-24",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同问题处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:"
+}

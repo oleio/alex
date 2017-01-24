@@ -1,0 +1,222 @@
+{
+	"fileName": "20121020ESOR6.xls.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121020ESOR6.xls.json",
+	"score": 841,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月21日03时50分",
+	"fileNameDate": "20121020",
+	"equipName": "设备名称: R6",
+	"breakdownTime": "停机时间： 累计60min",
+	"areaLocation": "停机区域\/点:ESO",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "40",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 李颖琛\nOringinator\/2012.10.21",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "到现场看到ESO R6 伺服焊枪编码器报警CRCERR Alarm，重新启动机器人，手动示教机器人完成cycle后恢复自动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "焊接两辆车后再次报警，重启机器人后走换枪程序脱开换枪盘，使用电子清洁剂对伺服模块上的插针进行清洁；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "恢复自动运行后再次报警，使用飞线替换Dress中的伺服编码器电缆，重启机器人后恢复自动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复生产后的第一辆车再次报警，于是更换机器人R侧和T侧的私服模块；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换后恢复生产，无再次报警。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO R6 报警 CRCERR Alarm"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么报R6报警CRCERR Alarm？因为R6未收到伺服编码器反馈的信号；"
+		],
+		[
+			"为什么未收到编码器信号？因为R6从焊枪侧到机器人侧的通讯回路发生故障；"
+		],
+		[
+			"为什么通讯回路故障？因为伺服模块连接处接触不良；"
+		],
+		[
+			"为什么伺服模块连接处接触不良？因为模块雌针接口处的橡胶块倒角损坏，导致雌针插不到位引起接触不良；"
+		],
+		[
+			"为什么橡胶块倒角损坏？因为长期使用磨损导致倒角变形损坏；"
+		]
+	],
+	"rootCause": "R6伺服模块雌针橡胶块倒角磨损变形导致接触不良，伺服报警",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换R侧和T侧的模块，恢复生产",
+				"resp": "佘佳安",
+				"supp": "李颖琛",
+				"compDate": "10\/21\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "各班组检查责任区机器人换枪盘模块磨损情况并进行更换",
+				"resp": "各班组长",
+				"supp": "",
+				"compDate": "10\/28\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将模块检查的标准加入日常PM点检要求中，按要求检查",
+				"resp": "黄俊宇",
+				"supp": "沈建伟",
+				"compDate": "10\/28\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "相应变更：   TPM       PM       CM       图纸       备件清单       参数        程序        标书      ",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "TPM是否可以预防：",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "工段长\/ GL:沈建伟",
+	"person_ENG": "技术经理\/Tech.Manager.:邱正东",
+	"person_GL": "验证方法Verification Method：在线跟踪生产情况2个班次",
+	"person_Manager": ""
+}

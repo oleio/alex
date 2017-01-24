@@ -1,0 +1,222 @@
+{
+	"fileName": "20130407CV2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130407CV2.json",
+	"score": 532,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年4月8日2 时30 分",
+	"fileNameDate": "20130407",
+	"equipName": "设备名称:横移小车",
+	"breakdownTime": "停机时间：10min",
+	"areaLocation": "停机区域\/点:   CV2",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "10",
+	"lostProductNum": "6",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:    黄波    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场检修，检查电机无启动信号的原因，由于无报警信息故通知控制工程师连接PLC监控；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查横移小车各部件状态时发现横移小车两个停止感应器中的一个常亮",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "清理TURCK传感器表面后故障清除",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "在后续TC01工作时再次出现上述故障，立即准备相同型号的TURCK传感器更换",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV2TC01摆渡车电机无法驱动"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV2TC01未动作"
+		],
+		[
+			"为什么TC01电机无输出"
+		],
+		[
+			"为什么PLC程序连锁限制了变频器输出驱动指令"
+		],
+		[
+			"为什么TC01停止感应器中的一个常亮"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "TURCK传感器内部元件损坏导致信号常ON（传感器外部无损坏痕迹）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "东昌领用相同型号的TURCK传感器更换",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "4\/8\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "增加CV2、CV3相类似的TC横移机返回到位后停止位传感器常亮检测、报警，便于现场维修快速排故。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "4\/15\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:王昀",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

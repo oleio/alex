@@ -1,0 +1,222 @@
+{
+	"fileName": "20150511JFM090R4 R1-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150511JFM090R4 R1-Y.json",
+	"score": 676,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年5月11日8时30分",
+	"fileNameDate": "20150511",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:   JFM",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "45",
+	"lostProductNum": "38",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   钱毅吉      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "R1机器人报警轨迹点不可达.怀疑机器人的工具坐标系或用户坐标系发生变化",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查询备份程序,发现用户坐标系的数据被修改.询问供应商得知该用户坐标系写入了E2的数据",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "根据备份程序恢复A10车型的用户坐标系数据",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "工位恢复自动运行后,R4与工装发生碰撞",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查机器人程序,发现R4正在执行E2的焊接程序.A10的主程序中调用的子程序被改成了E2的子程序.",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复R4 A10主程序中的子程序.",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090 A10车型时R1无法达到轨迹点，R4与工装发生碰撞"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R4在A10车型时会与工装碰撞"
+		],
+		[
+			"为什么R4机器人调用了E2的焊接程序"
+		],
+		[
+			"为什么R1在A10车型时轨迹点不可达"
+		],
+		[
+			"为什么A10车型使用的用户坐标系的数据发生变化"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.R4:调试过程中临时修改了A10主程序中的子程序,但调试后未恢复\n2.R1:编程不规范,E2和A10使用了同一个用户坐标系",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "恢复R1 UFRAME4的数据",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2015.5.11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "恢复R4 A10主程序中的子程序",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2015.5.11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "重新对供应商编程人员培训操作规范,通过考核后进行现场施工",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2015.5.16",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对供应商机器人编程作业的区域安排所有车型验证",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2015.5.16",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

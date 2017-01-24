@@ -1,0 +1,222 @@
+{
+	"fileName": "20150110 SUR50 R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150110 SUR50 R1.json",
+	"score": 600,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年1月15日",
+	"fileNameDate": "20150110",
+	"equipName": "设备名称:焊接机器人",
+	"breakdownTime": "停机时间：累计20 min",
+	"areaLocation": "停机区域\/点: SUR",
+	"maintainTeam": "维修班组：c",
+	"lostTime": "20",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:佘佳安        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "夜班生产结束后因解决焊接质量问题更换伺服焊枪滑块，未能及时开线；",
+				"lostMin": 8,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "过A car时，SUR50 R1 7号轴，在过渡点碰撞报警。首先检查滑块状态，对滑块两侧螺丝微调，使滑块两侧尽量平行并润滑导向杆。",
+				"lostMin": 12,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "报警频次明显下降但仍然存在，将该过渡点7号轴打开行程减小；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "之后再无报警，正常生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR50 R1更换伺服焊枪滑块， 后出现伺服焊枪电机碰撞报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么会有碰撞报警？  因为焊枪打开行程受到异常阻力。"
+		],
+		[
+			"为什么焊枪打开行程受到异常阻力？  因为焊枪滑块在运动过程有卡顿现象。"
+		],
+		[
+			"为什么会有卡顿现象？ 因为该滑块为新换,滑块滑轨安装与导向杆平行状态不佳。"
+		],
+		[
+			"为什么"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "该滑块为新换,滑块滑轨安装与导向杆平行状态不佳。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换滑块，对过渡点轨迹调整",
+				"resp": "佘佳安",
+				"supp": "王昀",
+				"compDate": "2015.1.10",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "根据焊枪实际工作状况,减小过渡点处伺服焊枪打开行程",
+				"resp": "佘佳安",
+				"supp": "",
+				"compDate": "2015.1.10",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "三班分享此停机经验教训，保证更换滑块质量并交流问题快速解决方法",
+				"resp": "佘佳安",
+				"supp": "",
+				"compDate": "2015.1.12",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:佘佳安",
+	"person_ENG": "工程师\/ENG.费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

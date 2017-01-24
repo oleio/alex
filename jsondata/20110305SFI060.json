@@ -1,0 +1,222 @@
+{
+	"fileName": "20110305SFI060.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110305SFI060.json",
+	"score": 686,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年 03月 05日9时 15分",
+	"fileNameDate": "20110305",
+	"equipName": "设备名称:GATE",
+	"breakdownTime": "停机时间：15",
+	"areaLocation": "停机区域\/点:  SFI060",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "15",
+	"lostProductNum": "11",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator  黄波 2011.3.5 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "变频器故障复位后切换Gate，电机变频器再次报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查X方向导轨，手动释放电机刹车无法推动Gate；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "临时拆除Gate高低方向压板两个后再次推动Gate可移开；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "空出导轨后仔细检查导轨，发现有一根4mm的金属定位销卡在导轨上；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "清除导轨上异物后推动Gate至Work位置恢复生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060工位Gate切换时右侧X方向主导轨横移电机变频器过载报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SFI060工位Gate切换时右侧Gate无法移至Work位置？因为横移电机变频器过载报警；"
+		],
+		[
+			"为什么SFI060工位Gate切换时右侧X方向主导轨横移电机变频器过载报警？因为Gate在导轨上移动时卡死引起电机过载；"
+		],
+		[
+			"为什么Gate在导轨上移动时卡死引起电机过载？因为导轨上有一根掉落的金属定位销；"
+		],
+		[
+			""
+		],
+		[
+			"为什么导轨上有金属定位销？可能GATE接插件掉落（查找确认定位销原安装位置）；"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: 导轨上有异物导致GATE切换过程中卡住",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时拆除Gate高低方向压板拉开Gate清除导轨上的异物",
+				"resp": "黄波",
+				"supp": "B班",
+				"compDate": "3\/5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查GATE上易跌落部件状态，进行风险辨识，更新点检保养要求",
+				"resp": "尹熠俊、陈文佳",
+				"supp": "沈建伟",
+				"compDate": "2011.3.12",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄波",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20111228JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111228JFM090.json",
+	"score": 644,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年12月28日 6时40分",
+	"fileNameDate": "20111228",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：累计45min",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "45",
+	"lostProductNum": "32",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  \nOringinator 张海涛",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "早班发现总拼90工位618车型落车不到位多次检查发现右后定位销钩销套件损坏。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位拆下该钩销套件的气缸组件离线更换损坏的销钩套件并暂停618生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "离线检修完毕进入工位重新安装气缸组件，并验证618落车与钩销的匹配度",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "通过现场分析，钩销相对与618底板销孔前后方向干涉，因此采用微调雪橇停止位方式保证落车顺畅。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "经过3轮调整使落车到位正确，并通过vision检测，后部尺寸稳定，恢复618正常生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼90右后钩销套件断裂。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么618车型落车不到位？因为钩销套件断裂。"
+		],
+		[
+			"为什么钩销断？因为钩销套件与定位孔干涉，长期受冲击后断裂。"
+		],
+		[
+			"为什么钩销套件与定位孔干涉？因为在高低方向钩销套件高于定位销，容易和定位孔干涉。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "在高低方向，钩销套件高于定位销，造成落车时钩销套件受冲击。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.底板落车位置调整",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2011\/12\/28",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.跟踪该钩销前后方向位置两周。",
+				"resp": "张海涛",
+				"supp": "",
+				"compDate": "2012\/01\/11",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.最近一次非生产日对JFM90 618 定位销进行标定。",
+				"resp": "沈建伟",
+				"supp": "",
+				"compDate": "2012\/1\/8",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.修改钩销套件高低向尺寸，减少定位孔对销套的冲击。",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "2012\/1\/30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:张海涛"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120816ESOR2.xls.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120816ESOR2.xls.json",
+	"score": 716,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月16日9时45分",
+	"fileNameDate": "20120816",
+	"equipName": "设备名称: R2",
+	"breakdownTime": "停机时间：  20min",
+	"areaLocation": "停机区域\/点:  ESOR",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李颖琛          \nOringinator\/2012.08.16  ",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "断开R2机器人J3轴处D-NET通讯电缆，发现除J3后的模块以外其它模块通讯正常了；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "从J3飞线至换枪盘，手动尝试换枪，所有模块再次通讯报警，拆除飞线并清理换枪盘插针；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "恢复自动工作几个cycle后再次通讯报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查其它通讯电缆及接插件，更换55#模块处的T型头并整理该处通讯电缆后报警消除；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复工位自动生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOR20工位R2机器人D—NET通讯故障报警，所有模块error。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人D-NET网络通讯报警？ 因为通讯电缆回路连接不稳定"
+		],
+		[
+			"为什么通讯电缆回路连接不稳定？ 因为通讯电缆回路接触不良"
+		],
+		[
+			"为什么通讯电缆回路接触不良？ 因为55#模块处连接的通讯电缆接头内部接触不良"
+		],
+		[
+			"为什么55#模块处连接的通讯电缆接头内部接触不良"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": " 1）通讯电缆为现场手工制作电缆，电缆制作工艺不佳 2）55#模块处通讯电缆敷设位置不理想，人员在工位活动时容易碰到通讯电缆接头。    ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换55#模块处的通讯电缆T型头并整理捆扎该处通讯电缆",
+				"resp": "陈佳文 ",
+				"supp": "李颖琛",
+				"compDate": "8\/16\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将55#模块处连接的通讯电缆更换成工艺质量稳定的标准预制通讯电缆",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "8\/17\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "改变55#模块固定位置，避免人员活动碰到通讯电缆接头。",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "8\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20121025JFM120.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121025JFM120.json",
+	"score": 526,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月25日10 时  分",
+	"fileNameDate": "20121025",
+	"equipName": "设备名称:断水保护装置",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:  JFM120",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 何文泽         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查Weldsaver的流量，发现无流量，怀疑断水阀未打开；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "尝试Bypass该Weldsaver，仍无流量，怀疑断水阀不受电气控制；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "锁定断水阀长通按钮，尝试强制打开断水阀，仍无流量，怀疑断水阀密封圈被卡死；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "松开断水阀外壳上的紧固螺丝，释放内部水压，再次复位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "断水阀打开，工位恢复运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120更换电极帽后焊枪的断水保护装置Weldsaver无法复位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"因为水管内无水流，"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "出厂时先导水路的初始状态不合理，先导未动作。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "释放断水阀内部水压，恢复设备运行",
+				"resp": "黄光耀",
+				"supp": "何文泽",
+				"compDate": "10\/25\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "以后安装Weldsaver后加强在各个工位实际应用的验证",
+				"resp": "何文泽",
+				"supp": "徐啸顺",
+				"compDate": "11\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "要求供应商提供断水阀的控制原理图和具体参数设置",
+				"resp": "何文泽",
+				"supp": "徐啸顺",
+				"compDate": "10\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

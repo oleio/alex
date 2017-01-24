@@ -1,0 +1,222 @@
+{
+	"fileName": "20110723ESO16.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110723ESO16.json",
+	"score": 603,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月23日22时30分",
+	"fileNameDate": "20110723",
+	"equipName": "设备名称:工装滑台",
+	"breakdownTime": "停机时间：26min",
+	"areaLocation": "停机区域\/点:ESOL",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "26",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 陈烨华         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查机器人程序，发现机器人等待来自工装的DI20信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查工装夹头，发现夹头均没有打开；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "手动操作试图打开工装夹头，夹头不动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查夹头打开电磁阀状态，工作正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "进一步检查发现工装滑台坦克链被夹在滑台和固定挡块之间；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "手动操作滑台控制阀使滑台动作，处理夹坏的坦克链并重新捆扎气管后恢复设备正常工作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO16工位机器人等待抓料，滑台工装夹头打开不到位报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么滑台工装夹头打不开报警？因为工装夹头没有动作"
+		],
+		[
+			"为什么工装夹头没有动作？因为没有供给电磁气阀的气源"
+		],
+		[
+			"为什么没有供给电磁气阀的气源？因为阀岛供气管被压扁"
+		],
+		[
+			"为什么阀岛供气管被压扁？因为安装气管的坦克链歪到一边被滑台和死挡块挤压"
+		],
+		[
+			"为什么坦克链歪？因为坦克链在滑台上的固定端断裂脱落没有被及时发现"
+		]
+	],
+	"rootCause": "坦克链在滑台上的固定端断裂脱落没有被及时发现",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时用扎带捆扎坦克链固定端并修复挤压损坏的坦克链节，生产结束后修复坦克链固定结构",
+				"resp": "陈烨华 尹熠俊",
+				"supp": "",
+				"compDate": "11-7-24",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换长期使用后脆化的坦克链接头",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "11-8-25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:"
+}

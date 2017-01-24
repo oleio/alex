@@ -1,0 +1,222 @@
+{
+	"fileName": "20130109JRL060R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130109JRL060R1.json",
+	"score": 458,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1月9日23时30分",
+	"fileNameDate": "20130109",
+	"equipName": "设备名称:R1焊枪",
+	"breakdownTime": "停机时间： 15 min",
+	"areaLocation": "停机区域\/点:  JRL060",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  郑旭俊 \nOringinator  2013.1.9",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "平台凿检发现６１８车型有零星虚焊、A柱处有批量半点焊；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "调整焊接参数后，依旧有虚焊发生，进工位检查焊枪；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "焊枪检查正常，调整A柱处焊点轨迹，检查发现电极帽修磨状态差；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换修磨刀片，并调整修磨轨迹和修磨压力；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "确认状态后恢复正常生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL60R1　618调整焊点位置，电极帽修磨状态不佳造成虚焊"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么有半点焊"
+		],
+		[
+			"为什么虚焊"
+		],
+		[
+			"为什么电极帽修磨不干净"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "修磨刀片老化磨损，修磨时焊枪姿态不佳电极杆不垂直；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1、更换修磨刀片，调整修磨轨迹",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "1\/9\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.焊接组推动执行机器人焊枪电极帽更换前先修磨再回收目视检查的试运行；",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "1\/20\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

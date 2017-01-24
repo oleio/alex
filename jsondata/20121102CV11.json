@@ -1,0 +1,222 @@
+{
+	"fileName": "20121102CV11.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121102CV11.json",
+	"score": 791,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年11月1日12时0分",
+	"fileNameDate": "20121102",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点: CV11",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "68",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:刘丰         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "发现CV11雪橇返回线故障报警，维修到现场检查发现滚床电机保护空开跳闸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拉动控制工程师支持，进一步检查发现空开跳闸原因为MOVESWITCH电机控制器内部短路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "根据MOVESWITCH电机控制器型号到东昌仓库查找备件，东昌仓库从中心仓库调拨备件至现场；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "松开电机刹车，人力推雪橇维持生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "生产结束后更换损坏的控制器，工作过程中发现备件内部接线与损坏控制器不一致；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "改接线恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV11雪橇返回线解垛机前的滚床无法运行，故障停止。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么滚床电机无法运行？因为滚床电机空开跳闸"
+		],
+		[
+			"为什么滚床电机空开跳闸？因为滚床电机MOVESWITCH控制器短路"
+		],
+		[
+			"为什么滚床电机MOVESWITCH控制器短路？因为滚床电机控制器内部印刷电路板相间击穿短路（控制器外壳密封良好，内部电路板干燥无受潮迹象，判断为产品质量问题。）"
+		],
+		[
+			"为什么滚床电机控制器内部印刷电路板相间击穿短路？原控制器已经使用3年以上，备件质量问题导致早期损坏失效。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "产品质量问题，滚床电机控制器内部印刷电路板相间击穿短路。新版本备件与老版本备件接线不一致导致修复时间延长。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "从东昌中心仓库调拨类似控制器改接线后恢复设备正常运行",
+				"resp": "刘丰",
+				"supp": "黄波",
+				"compDate": "11\/2\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调查统计车间内新老版本控制器使用情况，制订备件更换预案并检查备件安全库存。",
+				"resp": "尹伟文",
+				"supp": "刘丰",
+				"compDate": "11\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "用2台新版本控制器替代旧控制器，修改接线后使用，拆下的完好控制器作为维修备件。",
+				"resp": "尹伟文",
+				"supp": "刘丰",
+				"compDate": "11\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

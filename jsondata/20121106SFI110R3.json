@@ -1,0 +1,222 @@
+{
+	"fileName": "20121106SFI110R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121106SFI110R3.json",
+	"score": 617,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年 11月 6日  11时 10 分",
+	"fileNameDate": "20121106",
+	"equipName": "设备名称:110R3",
+	"breakdownTime": "停机时间：25  min",
+	"areaLocation": "停机区域\/点:SFI",
+	"maintainTeam": "维修班组：c",
+	"lostTime": "25",
+	"lostProductNum": "17",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 李颖琛\nOringinator\/2012.10。19",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "将R3机器人示教抬高，取出卡住的伺服编码器线。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "将R3（未抓枪）示教回HOME，重新选程序换枪。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "出现DTERR伺服报警后，检查编码器连接线缆及插头，重新连接编码器线后还是DTERR报警。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "临时程序中DISABLE掉伺服焊枪，手动执行抓取伺服焊枪。",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "重做伺服枪零位，验证换枪轨迹。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复自动生产      ",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"1.SFI110R3换枪时伺服编码器线卡在换枪盘内"
+		],
+		[
+			"2.R3伺服焊枪 DTERR伺服报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.零时跨接线固定方式不牢靠，机器人轨迹多次运行后线缆固定位置变动，在执行换枪程序时荡下卡在换钱盘内。2.维修人员对Global2系统的换枪程序不熟悉延长了维修时间",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "示教R3抓取焊枪后做零位。固定临时的飞线",
+				"resp": "张培民",
+				"supp": "李颖琛",
+				"compDate": "11\/6\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": " ",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对临时线缆使用流程细化落实，规定在两个班次必须修复，现场变化点管理每班专人交接跟踪；",
+				"resp": "沈建伟\/马晓洲\/黄波",
+				"supp": "",
+				"compDate": "11\/7\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对维修人员进行机器人新老系统的换枪程序的培训；",
+				"resp": "徐啸顺",
+				"supp": "黄波",
+				"compDate": "12\/6\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "1，4，5，6"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

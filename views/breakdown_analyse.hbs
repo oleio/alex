@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .panel-body {
+            padding:0px;
+        }
+    </style>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+    <script src="/js/charts.js"></script>
+
+    <script type="text/javascript">
+
+        var data = {
+                '通讯故障': {
+                    'reasons': [{
+                        'content': 'EMC区域设备因PLC系统SLOT7通讯故障紧急停止',
+                        'processMethod' : ['检查PLC控制系统触摸屏通讯状态，确定SLOT7网段通讯故障，尝试网络断电重启，未恢复通讯；','巡视检查EMC','分段检查网段通讯系统，缩小故障范围至空中BUFFER的通讯网络；' , '用电缆替代法进一步缩小故障范围时发现空中BUFFER区域使用的通讯电缆未按常规布置，现场制作的电缆为MALE接插件-MALE接插件，无法使用标准预注电缆替代；' , '东昌现场库领用通讯电缆接插件，现场制作一根非标准电缆，替代后确定EMC70工位至EMC' , '恢复EMC']},{
+                        'content': '内总拼工位紧急停止，现场维修拉动控制工程师检查PLC程序，确定故障原因,为右侧GATE上所有模块通讯故障。',
+                        'processMethod' : ['根据通信故障情况PLC尝试断电重启，检查机架模块状态，发现CPU模块OK灯（模块自检）闪烁，确定CPU模块失效；','更换CPU模块后右侧GATE所有模块通讯故障问题仍然没有解决；' , '用万用表检查通讯电缆连接情况，确定右侧GATE通讯接插组件中通讯信号接插件断路；' , '更换GATE通讯接插组件后GATE上通讯模块恢复正常通讯；' , '发现工位PLC与机运线PLC通讯故障，连锁信号没有传递；' , '检修通讯电缆，发现主控柜接插件插座中芯线脱落，重新接线后故障消除；' , '工位复位，设置工位车型及GATE位置参数后恢复设备正常运行；']},
+                        {
+                            'content' : '总拼机运线因通讯不稳定导致紧急停止',
+                            'processMethod' : ['检查设备HMI操作显示屏，确定设备因通讯故障导致紧急停止，检查PLC程序，确定JFM120工位SLAVE与机运线通讯状态位异常；' , '检查JFM120工位PLC机架SLAVE通讯模块，模块固定架开裂引起模块固定状态不佳，东昌现场库领用备件后更换；' , '完成JFM120工位模块更换后检查机运线通讯状态位，发现MASTER5通讯模块与SLAVE通讯仍然存在不稳定情况，怀疑网络终端D形接头状态不佳导致通讯不稳定，更换JFM150通讯D形接头；',
+                            'JFM150D形接头更换后，除JFM130SLAVE模块通讯状态位以外所有其他子站通讯状态位恢复稳定。尝试检查JFM130的D形接头内接线、更换D形通讯插头、SST' , '通过切换各通讯子站D形通讯接头终端电阻试图锁定故障点，操作到JFM130工位后通讯网络所有子站通讯异常；（网络电缆接线不当引起）' ,
+                            '整理排故思路，梳理排故方案。拆卸各子站D形通讯插头，通过切换终端电阻，用万用表逐段检查通讯线路。JFM130之前未发现明显信号电缆断路或短路现象。但接上JFM130' , '150之间的通讯电缆后通讯网络瘫痪，用临时通讯电缆替换疑问信号电缆后设备通讯恢复正常。' ,
+                            '各工位复位并手动操作将雪橇开到正常停止位置后设备恢复正常运行。']
+                        },{
+                            'content' : '后门压机80#工位，28#模块通讯故障',
+                            'processMethod' : ['维修到现场，发现工位无模式。通讯报警' , '通过HMI报警信息显示28#模块故障' , '查看程序，仅28#模块报警。28#模块是SLOT5的最后一节' , '由于27#模块通讯正常，先更换27到28号模块的通讯线和Y型头后，通讯依旧不稳定。' , '考虑到压机可以更换模具，怀疑压机快速插头不好，重新触阀插拔航空快速插头，清洁HARTING插针，通讯未恢复' , '左门和右门的28#阀岛模块互换，通讯恢复（领用通讯模块离线更换）']
+                        },{
+                            'content' : 'JFM120#R1通讯故障',
+                            'processMethod' : ['R1机器人报警，HMI复位无效；' , '查看R1机器人示教板，发现机器人MASTER网段PROFIBUS故障；' , '重启机器人后，机器人控制柜-焊机-LUMBUG模块通讯回路恢复正常；机器人控制柜-机器人本体TURCK模块通讯故障依旧；' ,
+                            '检查机器人控制柜内MASTER模块通讯线接头，状态OK；' , '检查机器人本体TURCK模块通讯线接头，发现内部有一根红色线缆脱开；' , '修复该接头，并重启机器人验证通讯状态OK，恢复生产。']
+                        },{
+                            'content' : 'JFM090通讯故障',
+                            'processMethod' : ['GATE切换至E2LB时,GATE右侧通讯故障；' , '检查右侧GATE的SATBLI，及坦克链中的通讯线，发现通讯异常；' , '用从主控柜过来的通讯线直接接至GATE上，通讯正常。所以判断坦克链中的通讯线或者STABLI有故障；' ,
+                            '准备好STABLI备件及通讯线进行更换；通讯插头及电源插头需要重新制作；' , '整理线缆，恢复自动；']
+                        }],
+                    'conclusion': '通讯线路物理连接出现问题，修复即可恢复正常'
+                }
+        };
+        $().ready(function(){
+            $('#search_button').click(function(){
+                var searchWords = $('#searchwords').val();
+                var result = data[searchWords];
+                if (typeof result == 'undefined' || result == null) {
+                    alert('未检索到数据');
+                    return;
+                }
+                $('.dataContainer').empty();
+                for (var i=0;i<result.reasons.length;i++) {
+                    var newReason = $('<div class="panel panel-primary"><div class="panel-heading"><h3 class="panel-title">问题原因:'+ (i + 1) +'</h3></div><div class="panel-body reason_content"><br></p></div></div>');
+                    $('.dataContainer').append(newReason);
+                    var contentContainer = $('.reason_content' , newReason);
+                    if (result.reasons[i].processMethod.length > 0) {
+                        contentContainer.append('<div class="col-md-offset-1" style="padding: 0;"><div>' + result.reasons[i].content +'</div></div>');
+                        contentContainer.append('<div style="padding-left:5px;padding-top:5px;padding-bottom:5px">处理方法:</div>');
+                        var msContainer = $('<div class="col-md-10"></div>');
+                        for (var j=0;j<result.reasons[i].processMethod.length;j++) {
+                            var ms = result.reasons[i].processMethod[j];
+                            msContainer.append('<form class="form-horizontal" role="form"><div class="form-group"><div class="col-sm-1"><label for="inputEmail3" class="control-label">'+ (j+1) +'</label></div><div class="col-sm-11"><input type="text" class="form-control"  value="'+ ms +'"></div></div></form>');
+                        }
+                        contentContainer.append(msContainer);
+                    }
+                }
+                var conclusion = $('<div class="panel panel-success"><div class="panel-heading"><div class="panel-title">故障结论:</div></div><div class="panel-body reason_content col-md-offset-1"><br></p></div></div>');
+                $('.dataContainer').append(conclusion);
+                $('.reason_content' , conclusion).append(result.conclusion);
+
+            });
+        });
+
+
+    </script>
+
+    <title>故障诊断</title>
+</head>
+<body>
+
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <!--<div class="col-md-2">-->
+            <!--<img src="/images/logo.png" class="img-responsive">-->
+            <!--</div>-->
+            <div class="col-md-12 text-center">
+                <h1>故障诊断</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+                <form role="form">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="" id="searchwords" value="通讯故障">
+                            <span class="input-group-btn">
+                                <a class="btn btn-primary"  id="search_button">检索</a>
+                  </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-12 dataContainer">
+
+            </div>
+    </div>
+</div>
+
+</body>
+</html>

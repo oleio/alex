@@ -1,0 +1,222 @@
+{
+	"fileName": "20140325E15HDR03.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140325E15HDR03.json",
+	"score": 872,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年03月25日06时30分",
+	"fileNameDate": "20140325",
+	"equipName": "设备名称:SCA涂胶机",
+	"breakdownTime": "停机时间： 120 min",
+	"areaLocation": "停机区域\/点: E15DL",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "120",
+	"lostProductNum": "60",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 尹熠俊     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动操作控制器填充胶水，状态显示“metal filling...”,但定量机没有填充动作，出现超时故障报警；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查胶水正常，填充阀信号正常，手动触发GUN OPEN阀，出胶正常，排除胶路堵塞问题；",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "根据故障排查步骤检测的结果，初步确定定量机丝杆损坏，现场无法立即修复；",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换定量机整机备件，完成新定量机的标定、参数设置；",
+				"lostMin": 90,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "利用重复放胶的方法将定量机备机内部残留的旧胶水排空，保证胶水恢复正常状态；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "对更换定量机后，生产的成品件质量进行确认。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"早班开班时，SCA涂胶机控制器上显示“not in purge pistion”。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"异物卡住位置"
+		],
+		[
+			"上图为胶桶封口处的固定用扎带"
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么定量机一直处于填充状态？因为喷胶活塞无法返回到填充要求的目标位置。"
+		],
+		[
+			"为什么喷胶活塞无法返回到填充要求的目标位置？因为丝杆螺纹损坏，运动部件卡死。"
+		],
+		[
+			"为什么丝杆会损坏？因为丝杆所推动的定量缸活塞处被异物卡住（扎带）。"
+		],
+		[
+			"为什么丝杆所推动的定量缸活塞存在扎带？更换胶桶时包装上的扎带掉落在胶桶中。"
+		],
+		[
+			"为什么扎带掉落在胶桶中？1.生产人员更换胶桶时未能辨识出扎带掉落在胶桶的风险；2.涂胶设备缺少过滤装置，造成杂质混入胶管。"
+		]
+	],
+	"rootCause": "1.生产人员更换胶桶时未能辨识出扎带掉落在胶桶的风险；2.涂胶设备缺少过滤装置，造成杂质混入胶管。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的定量机",
+				"resp": "黄俊宇",
+				"supp": "陈烨华",
+				"compDate": "3\/25\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "验证出胶质量",
+				"resp": "向东华",
+				"supp": "",
+				"compDate": "3\/25\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更新胶桶更换的MTS，新增“新胶桶打开时避免杂质掉落到胶桶中”",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "4\/10\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "在胶路的起始端增加过滤器，防止异物进入定量机内部,并开发与之对应的TPM",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "4\/20\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上述路径"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.: 尹熠俊",
+	"person_GL": "工段长\/ GL：黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

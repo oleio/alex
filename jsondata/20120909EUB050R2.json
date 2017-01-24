@@ -1,0 +1,222 @@
+{
+	"fileName": "20120909EUB050R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120909EUB050R2.json",
+	"score": 526,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月9日11时  0分",
+	"fileNameDate": "20120909",
+	"equipName": "设备名称:机器人夹具",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:  EUB",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:仇卫忠          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "机器人频繁出现D-NET通讯故障，直观检查发现DRESS套管喇叭口拉出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "修理损坏的喇叭口，恢复设备运行，后故障再次出现；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换D-NET通讯电缆T形连接头，恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB050R2DRESS喇叭口拉出，机器人D-NET通讯故障。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人D-NET网络通讯故障"
+		],
+		[
+			"为什么通讯电缆回路接触不良"
+		],
+		[
+			"为什么通讯电缆T形连接头与电缆接头接触不良"
+		],
+		[
+			"为什么T形连接头接插件存在问题"
+		],
+		[
+			"为什么T形连接头与电缆连接处受异常外力影响"
+		]
+	],
+	"rootCause": "R侧换枪盘处DRESS工作状态受拉，抱箍喇叭口损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修理损坏的DRESS喇叭口，更换已经损坏的Ｔ形连接头并用扎带捆扎电缆",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "9\/5\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产时间安排人员整理EUB050R2机器人通讯电缆并调整验证机器人运动时DRESS套管状态。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "9\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

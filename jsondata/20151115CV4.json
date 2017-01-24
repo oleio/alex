@@ -1,0 +1,222 @@
+{
+	"fileName": "20151115CV4.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151115CV4.json",
+	"score": 556,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年11月15日16点30分",
+	"fileNameDate": "20151115",
+	"equipName": "设备名称:CV4",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:CV4",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区： SPBS\nPlant",
+	"originator": "填表人\/日期:  张少峰     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "现场维修根据报警检查滚床发现维修开关状态正常",
+				"lostMin": "3min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "打开控制柜检查空开状态正常，手动复位无效报警依旧",
+				"lostMin": "5min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查模块状态发现BF灯红色，判断为通讯故障",
+				"lostMin": "3min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "查看通讯LAYOUT图，尝试重新拔插Harting，通讯恢复",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "工位复位，恢复生产",
+				"lostMin": "4min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV4报警RB112维修开关未打开"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV4无法自动运行"
+		],
+		[
+			"为什么CV4区域有报警"
+		],
+		[
+			"为什么维修开关状态点位丢失"
+		],
+		[
+			"为什么模块通讯故障"
+		],
+		[
+			"为什么模块通讯故障会报警维修开关"
+		]
+	],
+	"rootCause": "1.程序漏洞，报警信息未考虑优先级 2.初步怀疑Harting内线路松动引起通讯故障",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "拔插Harting头，恢复生产",
+				"resp": "张少峰",
+				"supp": "",
+				"compDate": "2015.11.15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班检查插头接线",
+				"resp": "陈志剑",
+				"supp": "",
+				"compDate": "2015.11.16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "梳理CV4报警信息优先级",
+				"resp": "张少峰",
+				"supp": "",
+				"compDate": "2015.11.21",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "停产日检查CV4网络通讯状态",
+				"resp": "张少峰",
+				"supp": "",
+				"compDate": "2015.11.23",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "第二步应直接检查工位模块状态判断故障"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 陈烨华",
+	"person_ENG": "工程师\/ENG.: 张少峰",
+	"person_GL": "工段长\/ GL: 马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

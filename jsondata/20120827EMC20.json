@@ -1,0 +1,222 @@
+{
+	"fileName": "20120827EMC20.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120827EMC20.json",
+	"score": 668,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月27日12时10分",
+	"fileNameDate": "20120827",
+	"equipName": "设备名称:PLC工装",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:张兆          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "底板区域维修到现场修理，未解决问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拉动控制工程师联机PLC检查故障原因，发现多个传感器没有动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "控制工程师到现场支持解决硬件问题，测试检查后发现工装气阀没有动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查发现气阀没有动作的原因是阀岛没有使能电源；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "进一步检查发现给阀岛供电的安全模块故障报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "安全模块断电重启后设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC20工位工装夹具报警停止"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工装夹具报警停止？因为工装夹头上的传感器没有按照程序要求感应到位"
+		],
+		[
+			"为什么工装夹头上的传感器没有感应到位？因为工装控制气阀没有动作，夹具没有动作。"
+		],
+		[
+			"为什么工装控制气阀没有动作？因为工装阀岛没有使能电源"
+		],
+		[
+			"为什么工装阀岛没有使能电源？因为给阀岛供电的安全模块输出发生故障"
+		],
+		[
+			"为什么给阀岛供电的安全模块输出发生故障？因为阀岛供电电流接近安全模块输出电流能力，长期运行导致模块性能变差，设计不合理。"
+		]
+	],
+	"rootCause": "阀岛供电电流接近安全模块输出电流能力，长期运行导致模块性能变差，设计不合理。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "断电重启恢复运行，非生产时间更换性能变差的安全模块。",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": "9\/2\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改E-CAR前围工装控制线路设计，安全模块输出驱动继电器为阀岛供电。",
+				"resp": "滕征",
+				"supp": "黄轶佳",
+				"compDate": "9\/2\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃（代）",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

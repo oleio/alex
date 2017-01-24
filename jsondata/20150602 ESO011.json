@@ -1,0 +1,222 @@
+{
+	"fileName": "20150602 ESO011.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150602 ESO011.json",
+	"score": 720,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年6月2日",
+	"fileNameDate": "20150602",
+	"equipName": "设备名称:ESO",
+	"breakdownTime": "停机时间：累计30min",
+	"areaLocation": "停机区域\/点: ESO011",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  滕  征   \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "拆除阻滞气缸的节流阀，扩大进、排气通道，无明显改善。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "根据滑台工作原理分析，优先检查气路情况。气管无明显弯折。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "为排除外部气路对气缸的干扰，在气缸侧加装快排阀。在安装的过程中，发现原本不应该出气的气管有压力气持续泄漏。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "根据该现象可以断定是因为并联的另一个气缸存在内泄漏使停滞现象的气缸排气不畅，安装快排阀可以临时降低该故障的影响。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "安装完毕，可以自动运行，并达到标准节拍。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO 011 左侧滑台返回慢，且有时会停滞，严重影响产量。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么左侧滑台返回慢，且有时会停滞？因为该气缸排气不顺畅。"
+		],
+		[
+			"为什么该气缸排气不顺畅？因为气缸的排气口存在另外一股压力气源。"
+		],
+		[
+			"为什么气缸的排气口存在另外一股压力气源？因为气路上并联的一个气缸内部存在内泄漏。"
+		],
+		[
+			"为什么并联的一个气缸内部存在内泄漏？因为气缸使用时间长，密封圈产生了磨损，生产TPM仅能事后发现问题，而维修PM目前不包含对人工工位的事先检查和更换。"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "气路上并联的一个气缸内部存在内泄漏，气缸使用时间长，密封圈产生了磨损，未及时更换，PM未覆盖。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时增加快排阀，改进气路。",
+				"resp": "陈烨华",
+				"supp": "滕征",
+				"compDate": "6\/2\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日更换内泄漏的活塞密封圈。",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "6\/7\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "评估后继续保持原PM策略，对快速处理方案进行维修内部培训。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "6\/7\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈志剑",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

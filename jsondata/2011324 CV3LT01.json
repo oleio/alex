@@ -1,0 +1,222 @@
+{
+	"fileName": "2011324 CV3LT01.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\2011324 CV3LT01.json",
+	"score": 588,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年03月24 日01时29分",
+	"fileNameDate": "2011324 ",
+	"equipName": "设备名称:机运线",
+	"breakdownTime": "停机时间：33min",
+	"areaLocation": "停机区域\/点:   CV3RB01",
+	"maintainTeam": "维修班组C",
+	"lostTime": "33",
+	"lostProductNum": "28",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期   陈文佳2011.03.23     \nOringinator 2010.",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "CV3RB01雪橇行至一半停止且无法动作，检查传动部分，发现第三根传动轴断裂。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将雪橇拉到位并TAKEOUT下线。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换传动轴",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "工位恢复自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"cv3LT01升降滚床，滚床传动轴断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么雪橇行至一半无动作？因为雪橇被断裂驱动轴卡住"
+		],
+		[
+			"为什么驱动轴会断裂？因为驱动轴断裂在轴直径变更处"
+		],
+		[
+			"为什么驱动轴断裂在轴直径变更处？因为轴材质不佳及加工工艺原因                  "
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause：",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "短期\/Short Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换驱动轴",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.03.23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系供应商尝试提高材料质量",
+				"resp": "胡滨",
+				"supp": "夏伟",
+				"compDate": "11.03.23",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更改驱动轴加工图纸，在直径变更处增加R倒角",
+				"resp": "胡滨",
+				"supp": "马晓洲",
+				"compDate": "11.03-23",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:滕征"
+}

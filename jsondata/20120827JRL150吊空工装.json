@@ -1,0 +1,222 @@
+{
+	"fileName": "20120827JRL150吊空工装.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120827JRL150吊空工装.json",
+	"score": 649,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月27日13时10分",
+	"fileNameDate": "20120827",
+	"equipName": "设备名称:吊空工装",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:JRL150",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "16",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 谢诚侃         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修人员响应ANDON到现场抢修，发现钢结构下方快插气管接头被拉脱；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "使用人字梯登高拆下损坏的气管接头，从东昌现场库领用备件失败；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "领用备件维修人员对讲机同现场抢修人员沟通，确定用其他种类的气管接头变径后替代；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复吊空工装供气；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL150吊空工装弹簧供气管与空中供气塑料管连接快插气管接头被拉坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么补焊线吊空工装无法使用"
+		],
+		[
+			"为什么吊空工装供气管快插接头被拉脱损坏"
+		],
+		[
+			"为什么吊空工装前后平移时气管接头受拉力"
+		],
+		[
+			"为什么多根气管接头处没有设法固定，导致气管快插接头受拉力"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因工艺变化,此处气管多次变更施工,供气管布置不合理。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "使用人字梯作业，用其它种类的气管接头变径后替代原来供气管接头恢复设备运行。",
+				"resp": "丁伟",
+				"supp": "谢诚侃",
+				"compDate": "8\/27\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "当日夜班生产结束后安排人员捆扎整理气管",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "8\/28\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调查确定车间内使用的快插气管接头种类，在东昌现场仓库设库位保证抢修需求。",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "9\/5\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "重新规划布置补焊吊空工装供气管，减少快插气管接头数量并将必须的气管接头置于空中维修走道旁便于设备抢修。",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "9\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同抢修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃（代）",
+	"person_ENG": "工程师\/ENG.:马晓洲（代）",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

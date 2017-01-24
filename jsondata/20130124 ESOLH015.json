@@ -1,0 +1,222 @@
+{
+	"fileName": "20130124 ESOLH015.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130124 ESOLH015.json",
+	"score": 746,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1月24日16时50分",
+	"fileNameDate": "20130124",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点: ESO15L",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "30",
+	"lostProductNum": "17",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 谢诚侃         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "15#工位切换车型时HMI报警工装气源故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查工装气源，发现气源输入正常，通知控制工程师临时强制气源控制信号，恢复工装供气；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "气源供给工装后，发现转台的旋转到位与锁紧销锁定到位信号也丢失；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查转台到位传感器，发现传感器都无法点亮，怀疑可能模块有故障或有短路现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "排查到关联模块，发现模块所有信号都丢失，模块电源灯不亮；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "万用表测量电源线插头，无电源，从相邻模块电源接头处并联电源线后，模块功能恢复，所有信号正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO15L工装气源报警，工装不动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位气源报警？因为气源检测信号丢失；"
+		],
+		[
+			"为什么工装气源检测信号丢失？因为工位上BK01模块未收到相应信号；"
+		],
+		[
+			"为什么工位上BK01模块未收到相应信号？因为工装上的BK01模块输入24V电源断路；"
+		],
+		[
+			"为什么工装上的BK01模块输入24V电源断路？因为BK01模块安装位置与物料料架STOP邻近，料架撞击STOP时模块电源插头内部线缆抖动断开；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因为BK01模块安装位置与物料料架STOP邻近，料架撞击STOP时模块电源插头内部线缆长期抖动后断路；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.从相邻模块并联电源线至BK01模块，恢复生产",
+				"resp": "谢诚侃",
+				"supp": "刘丰",
+				"compDate": "1\/24\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.夜班更换损坏的模块电源接线",
+				"resp": "曹鸣晓",
+				"supp": "黄轶佳",
+				"compDate": "1\/25\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将该工位的通讯模块安装位置移位，避免受到料架小车的撞击震动影响",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "1\/26\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120305JUB000.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120305JUB000.json",
+	"score": 605,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 3月 6日 2 时 30 分",
+	"fileNameDate": "20120305",
+	"equipName": "设备名称:JUB P&P",
+	"breakdownTime": "停机时间：46min",
+	"areaLocation": "停机区域\/点: JUB",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "46",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期            \nOringinator   仇卫忠2012.3.6",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JUB P&P LIFT1 下降与CV1前围碰撞，拉动控制工程师现场支持，手动操作P&P抓手上升；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "协调生产将变形的前围抬出CV1；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "CV1拖板变形调整；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "调整LIFT1 1#抓手夹头与定位销；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动抓试前围，并观察拖板位置状态；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "确认正常运行后恢复生产。",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JUB P&P LIFT1 与CV1 前围撞击(左侧），导致前围变形，LIFT1支架位置"
+		],
+		[
+			"偏移"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么LIFT1抓手故障？因为LIFT1与CV1上的前围碰撞变形；"
+		],
+		[
+			"为什么LIFT1与CV1上的前围碰撞？因为前围在拖板上的位置偏移；"
+		],
+		[
+			"为什么前围在拖板上位置偏移？因为拖板定位有问题；"
+		],
+		[
+			"为什么拖板定位有问题？因为拖板导向及挡块前倾变形；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "拖板导向及挡块变形导致前围定位偏差，与P&P干涉",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整P&P抓手位置和拖板导向",
+				"resp": "谢诚侃",
+				"supp": "B班",
+				"compDate": "2012.3.6",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拖板导向机构调整并跟踪状态,位置状态良好后用油漆笔标定,保证设备巡视中能提前发现位置变化。",
+				"resp": "黄光耀",
+				"supp": "A班",
+				"compDate": "2012.3.18",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃（代）",
+	"person_ENG": "工程师\/ENG.:陈文佳（代）",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

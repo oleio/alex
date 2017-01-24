@@ -1,0 +1,222 @@
+{
+	"fileName": "20150527_JRL120.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150527_JRL120.json",
+	"score": 537,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年5月27日",
+	"fileNameDate": "20150527",
+	"equipName": "设备名称:机运线",
+	"breakdownTime": "停机时间：35min",
+	"areaLocation": "停机区域\/点: JRL120",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "35",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   滕 征  \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL120 615 落车不到位，检查发现车头向左偏。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查定位销，部分有松动。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "紧固定位销，恢复生产。",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL120 615 落车不到位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么615车型落车不好？因为工装定位销和车体有干涉。"
+		],
+		[
+			"为什么工装定位销和车体有干涉？因为定位销安装位置存在偏差。"
+		],
+		[
+			"为什么定位销安装位置存在偏差？因为未对回用设备进行检查，使用两周后底板定位工装出现松动，造成落车不到位。"
+		],
+		[
+			"为什么底板定位工装出现松动？回用设备状态不明，未及时检查确认。"
+		],
+		[
+			"为什么未及时检查确认？因为此工位未移位拆装，在检查时未作为回用设备检查。"
+		]
+	],
+	"rootCause": "未对回用设备进行检查，使用两周后底板定位工装出现松动，造成落车不到位。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "检查底板定位销，并紧固。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "5\/25\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "验证落车状态。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "5\/25\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "供应商对回用设备进行排查，并更换损坏设备",
+				"resp": "沈建伟",
+				"supp": "夏伟",
+				"compDate": "6\/5\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:陈志剑",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

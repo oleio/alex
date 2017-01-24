@@ -1,0 +1,222 @@
+{
+	"fileName": "20110305EMC020.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110305EMC020.json",
+	"score": 692,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年 03月 05日12时30 分",
+	"fileNameDate": "20110305",
+	"equipName": "设备名称:RUNBAR",
+	"breakdownTime": "停机时间：22",
+	"areaLocation": "停机区域\/点:  EMC020",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "NONE",
+	"lostProductNum": "13",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期  黄波         \nOringinator  2011.3.5  ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "查看EMC020工位的4个Runbar操作盒的急停按钮，正常",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "查看EMC020工位的安全回路控制箱，安全继电器输入故障灯亮红灯，24V空气保护开关跳闸",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查该工位4个Runbar操作盒的外部连接线插头及接线盒内部接线，发现一处接线盒内部连接线由于Runbar操作盒旋转盒旋转而缠绕在一起磨破的导线并与金属外壳接触对地短路",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "控制工程师临时屏蔽该Runbar 生产用3个Runbar工作",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "释放操作盒内部导线，绝缘带包扎损坏的导线，保证导线与与金属外壳端口的绝缘",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复24V空气开关，安全继电器故障复位",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC020工位Runbar安全回路急停报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么EMC020工位Runbar安全回路急停报警？因为安全继电器没有动作。"
+		],
+		[
+			"为什么安全继电器没有动作？因为安全继电器没有电源。"
+		],
+		[
+			"为什么安全继电器没有电源？因为24V空气开关跳闸。"
+		],
+		[
+			"为什么24V空气开关跳闸？因为安全回路外部接线有短路。"
+		],
+		[
+			"为什么安全回路外部接线有短路？因为Runbar接线盒内部接线缠绕破损与外壳对地短路"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "恢复缠绕裸露的电线",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "3\/5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "加装固定Runbar操作盒支架避免操作人员旋转操作盒",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "3\/5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄波",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

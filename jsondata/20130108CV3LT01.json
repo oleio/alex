@@ -1,0 +1,222 @@
+{
+	"fileName": "20130108CV3LT01.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130108CV3LT01.json",
+	"score": 563,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1月8日9时48分",
+	"fileNameDate": "20130108",
+	"equipName": "设备名称 CV3LT01",
+	"breakdownTime": "停机时间：23min",
+	"areaLocation": "停机区域\/点:   CV3",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "23",
+	"lostProductNum": "16",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  刘丰             \nOringinator 20130108",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动操作LT01升降机，发现升降机不动作",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看程序发现变频器有输出",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查电机刹车，发现刹车继电器不动作",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查刹车继电器回路，发现变频器输出触点损坏",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "临时将刹车继电器改由PLC控制，恢复生产",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV3 LT01升降机不动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV3 LT01升降机不动作 因为升降电机堵转"
+		],
+		[
+			"为什么升降电机堵转 因为升降电机刹车没有打开"
+		],
+		[
+			"为什么升降电机刹车没有打开 因为升降电机刹车没有电源"
+		],
+		[
+			"为什么升降电机刹车没有电源 因为刹车继电器没有吸合"
+		],
+		[
+			"为什么刹车继电器没有吸合 因为变频器输出触点损坏（动作300万次以上）"
+		]
+	],
+	"rootCause": " 变频器内部输出触点老化损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1 临时使用PLC控制刹车继电器，恢复生产",
+				"resp": "刘丰",
+				"supp": "陈烨华",
+				"compDate": "1\/8\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2 夜班更换损坏的变频器",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "1\/8\/2113",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1 控制组统计车间该批次变频器的使用频次，优先更换已经使用250万次的变频器；",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "2\/28\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

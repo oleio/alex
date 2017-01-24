@@ -1,0 +1,222 @@
+{
+	"fileName": "20120904JRL020.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120904JRL020.json",
+	"score": 500,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年09月4日14时00分",
+	"fileNameDate": "20120904",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：累计25min",
+	"areaLocation": "停机区域\/点:JRL020",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  \nOringinator 陈烨华",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "根据JRL机运线HMI显示报警，雪橇没有到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查检查马达输出情况，发现主动轮没有动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "拆除机运线盖板，发现传动轴断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "无法快速更换传动轴，采用BACKUP方案。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL020滚床传动轴断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么HMI显示报警，雪橇没有到位？因为主动轮没有动作；"
+		],
+		[
+			"为什么主动轮没有动作？因为马达传动轴断裂；"
+		],
+		[
+			"为什么马达传动轴断裂？传动轴受到链式传动启动和停止时的冲击。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "　因为传动轴长期受到链式传动启动和停止时的冲击，造成断裂。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换断裂的传动轴",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012\/09\/4",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.调整此传动轴相关的链条松紧，减少冲击，并跟踪两周",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012\/09\/8",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.控制工程师评估此处的启动电流，并根据实际情况调整，减少链式传动启动和停止时的冲击",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "2012\/09\/16",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:刘丰"
+}

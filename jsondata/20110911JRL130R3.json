@@ -1,0 +1,222 @@
+{
+	"fileName": "20110911JRL130R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110911JRL130R3.json",
+	"score": 598,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年  9月 11日16时30 分",
+	"fileNameDate": "20110911",
+	"equipName": "设备名称: JRL130R3",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点:  JRL130R3",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:王烨 \/9.11\nOringinator   ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JRL130R3焊机失电，生产使用BACKUP方案，维修检查故障",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查发现焊机一个上桩头失电，焊机内部保险丝正常",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "维修检查上面插接箱，发现其中一个300A保险丝断了",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换新的400A保险丝，恢复焊机上电",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复生产",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL130R3焊机失电"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊机失电？因为电缆一根上桩头失电"
+		],
+		[
+			"为什么焊机上桩头失电？因为上面插接箱一根300A保险丝断"
+		],
+		[
+			"为什么300A保险丝断？因为标准是用400A保险丝，300A不符合规格，使用中出问题"
+		],
+		[
+			"为什么会用300A保险丝？因为此焊机和插接箱是工位改造时从L-CAR检测平台迁过来。供应商在最初安装时用错保险丝，由于JUR80返修工位较少使用，故未曾出现问题"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "供应商保险丝装错",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换400A保险丝",
+				"resp": "王烨",
+				"supp": "尹熠俊",
+				"compDate": "2011.9.11",
+				"status": "100％"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1、让供应商检查全车间保险丝",
+				"resp": "孙杰",
+				"supp": "王烨",
+				"compDate": "2011.10.15",
+				"status": "25％"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2、制作一点课程介绍插接箱保险丝",
+				"resp": "王烨",
+				"supp": "",
+				"compDate": "2011.9.30",
+				"status": "25％"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3、更新新装焊机插接箱标签",
+				"resp": "孙杰",
+				"supp": "程超",
+				"compDate": "2011.9.30",
+				"status": "25％"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:王烨",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

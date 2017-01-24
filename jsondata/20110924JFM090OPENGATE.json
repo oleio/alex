@@ -1,0 +1,222 @@
+{
+	"fileName": "20110924JFM090OPENGATE.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110924JFM090OPENGATE.json",
+	"score": 884,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年9月24日18时0分",
+	"fileNameDate": "20110924",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：150min",
+	"areaLocation": "停机区域\/点:总拼",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "150",
+	"lostProductNum": "100",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator顾乐斌 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "复位变频器故障，手动操作打开右侧GATE，变频器再次报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "复位变频器故障，同时进入工位检查GATE闭合导轨，导轨上没有发现异物；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "手动松电机刹车，人力转动电机打开（关闭）右侧GATE,无法转动电机；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "用手拉葫芦助力试图再次转动电机、点动操作电机打开GATE,失败；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "检修过程中发现并确定右侧GATE前方的GATE闭合\/关闭承载轮卡死；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "拆卸（拉出）右侧GATE前方闭合\/打开承载轮后GATE松动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "恢复安装承载轮后设备恢复自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90工位618车型完成焊接后右侧GATE打开途中变频器过流报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么GATE打开\/闭合驱动变频器过流报警？因为GATE打开时机械卡死"
+		],
+		[
+			"为什么GATE打开时机械卡死？因为GATE闭合\/打开承载轮卡死（轮子圆平面碰导轨垂直面，参考照片及示意图）"
+		],
+		[
+			"为什么轮子圆平面碰导轨凹立面？因为GATE闭合\/打开时没有平行推进"
+		],
+		[
+			"为什么GATE闭合\/打开时没有平行推进？因为右侧GATE的2个驱动摇臂角度不一致（相差5度以上）"
+		],
+		[
+			"为什么GATE的2个摇臂角度不一致？因为历史上此GATE承载轮与导轨之间曾经卡飞溅，故障处理过程中涨套松动，长期使用后摇臂角度误差增加。"
+		]
+	],
+	"rootCause": "历史故障导致涨套松动，长期使用后摇臂角度误差增加。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用油压千斤顶顶住GATE后拆下GATE闭合承载轮，解除卡死状态后用润滑剂润滑导轨，恢复生产。",
+				"resp": "黄光耀",
+				"supp": "夏伟",
+				"compDate": "11-09-24",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "松开问题摇臂涨套，重新按涨套涨紧工艺涨紧。",
+				"resp": "夏伟",
+				"supp": "黄波",
+				"compDate": "11-09-25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "摇臂和摇臂轴相对位置用油漆笔做标记，便于预防性维修检查摇臂位置。",
+				"resp": "黄光耀",
+				"supp": "黄波",
+				"compDate": "11-09-25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制订计划更换曾经出现过问题的OPENGATE摇臂涨套",
+				"resp": "殷致平",
+				"supp": "马晓洲",
+				"compDate": "11-11-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀（代）",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

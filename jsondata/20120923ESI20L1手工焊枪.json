@@ -1,0 +1,222 @@
+{
+	"fileName": "20120923ESI20L1手工焊枪.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120923ESI20L1手工焊枪.json",
+	"score": 920,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月23日7时0分",
+	"fileNameDate": "20120923",
+	"equipName": "设备名称:人工焊机",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点:  ESI",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 瞿淼晋         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "根据实际焊接电流小的故障现象更换焊接水冷电缆；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "再次焊接时焊接变压器出现异常震动而且无法正常焊接（焊接变压器通过半波整流电流-脉动直流），根据故障现象首先更换触发电路板，更换后故障现象依旧（5分钟）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进一步更换焊接控制箱中的可控硅，故障现象相同，故障原因仍然没有找到；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "尝试更换焊接控制器主板，没有解决问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "同厂外工程师讨论沟通后认为故障判断方向应没有问题，从C-CAR区域完好焊机上拆卸触发电路板、主板、连接电缆更换，问题没有解决；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "拆卸完好焊机上的可控硅再次更换故障焊机抢修更换的可控硅后，焊接变压器异常震动声消除；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复正常焊接参数后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESI20L1手工焊枪焊接电流小，更换焊接水冷电缆。后又出现焊接变压器"
+		],
+		[
+			"异常震动。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么手工焊机无法正常焊接而且焊接变压器有异常震动声？因为焊接变压器初级回路中通过半波整流电流"
+		],
+		[
+			"为什么焊接变压器初级回路中通过半波整流电流？因为焊接控制器整流电路工作不正常"
+		],
+		[
+			"为什么焊接控制器整流电路工作不正常？因为反并联的双向可控硅其中一个没有触发工作，电子元件损坏。"
+		],
+		[
+			"为什么更换2次可控硅？因为从东昌仓库领用的全新可控硅备件有问题"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "反并联的双向可控硅其中一个没有触发工作，电子元件损坏。首次更换的可控硅有问题导致排故时间增加。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "从正常运行设备上拆卸可控硅修复故障焊机",
+				"resp": "李颖琛",
+				"supp": "瞿淼晋",
+				"compDate": "9\/23\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拉动供应商梅达分析可控硅损坏原因并解决全新备件失效问题。实施工作改进，确保备件供货质量。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "9\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "领用可控硅备件在培训区焊机上验证并重新标记后以新物料号移交东昌管理，保证抢修领用有效备件。",
+				"resp": "孙杰",
+				"supp": "焊接组",
+				"compDate": "10\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "移交东昌的可控硅备件增加连接水管，减少抢修安装时间。",
+				"resp": "孙杰",
+				"supp": "焊接组",
+				"compDate": "10\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤1以外的维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:瞿淼晋",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20150609 JFM150.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150609 JFM150.json",
+	"score": 653,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年6月9日23 时00 分",
+	"fileNameDate": "20150609",
+	"equipName": "设备名称:激光焊",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点: JFM150",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "50",
+	"lostProductNum": "35",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:马晓洲        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM150激光焊工位超时报警，维修顾念仁发现激光焊未烧焊",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "未确认落车状态，直接示教机器人进行烧焊",
+				"lostMin": "5min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "发现车身和焊枪干涉，将机器人开回HOME位置",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进工位检查焊枪，找到碰撞点，未发现明显变形",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动操作机运线使车身下降，发现轨迹有微量偏移，调整烧焊轨迹",
+				"lostMin": "20min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复生产",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM150激光焊枪和车身干涉"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么激光焊枪和车身干涉？1.白车身未自动下降到位；2.维修人员操作时未确认工位状态。"
+		],
+		[
+			"为什么白车身未自动下降到位？该工位前一辆车为激光焊返修车，手动操作过机运线。"
+		],
+		[
+			"为什么手动操作过机运线后工位不能自动下降？待跟踪（当班试验过两次，未出现）"
+		],
+		[
+			"为什么"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "1.白车身未自动下降到位（原因待查）；2.维修人员操作时未确认工位状态。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "模拟当时操作情况，找到车辆未下降到位的原因，并解决。",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "6\/12\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "人员谈话记录，当月绩效处理，并通报批评。",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "6\/10\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改PLC程序设置，在升降滚床未下降到位的情况下所有机器人HOLD（无法手动操作）。",
+				"resp": "李颖琛",
+				"supp": "尹伟文\/黄俊宇",
+				"compDate": "6\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "车身需要下降到位"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120311JFM090R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120311JFM090R2.json",
+	"score": 648,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年03月11日17时57分",
+	"fileNameDate": "20120311",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：75MIN",
+	"areaLocation": "停机区域\/点:JFM090",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "75",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:佘佳安          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090R2焊枪焊接故障，低电流报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "复位后继续焊接，仍有报警发生；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "断开R2焊接控制器断路器，安全锁定后进入工位检查；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "发现变压器次级和硬连接端面处异常发热,拆开发现焊接变压器和硬连接接触面严重拉弧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "从东昌现场仓库领用焊接变压器进行更换,并同时更换可控硅；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090R2焊枪焊接故障，低电流报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM090R2焊枪焊接故障"
+		],
+		[
+			"为什么焊枪输出电流底于设定值"
+		],
+		[
+			"为什么变压器次级回路电阻增大"
+		],
+		[
+			"为什么焊接变压器次级端面和硬连接端面拉弧"
+		],
+		[
+			"为什么焊接变压器次级端面端接触电阻变大？1.硬连接固定螺柱松；2.变压器长期使用导电面氧化接触电阻增大。"
+		]
+	],
+	"rootCause": "1.变压器与硬连接固定螺柱变松；2.变压器长期使用导电面氧化接触电阻增大。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换新的变压器和硬连接。",
+				"resp": "马晓洲",
+				"supp": "B班",
+				"compDate": "3\/11\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "紧固其余变压器和硬连接的固定螺柱。",
+				"resp": "马晓洲",
+				"supp": "ABC班",
+				"compDate": "3\/18\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制定一点课程，培训变压器检查使用注意事项。",
+				"resp": "王俊杰",
+				"supp": "",
+				"compDate": "3\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "评估变压器使用寿命，在今后的整枪更换中加入变压器更换要求。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "4\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:程超",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

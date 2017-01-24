@@ -1,0 +1,222 @@
+{
+	"fileName": "20130117JRL080L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130117JRL080L1.json",
+	"score": 954,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年01月17日",
+	"fileNameDate": "20130117",
+	"equipName": "设备名称:L1辊边",
+	"breakdownTime": "停机时间：min",
+	"areaLocation": "停机区域\/点:  JRL080",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "NONE",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄俊宇     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": "维修过程:(记录维修的步骤)\/Trouble-Shooting(Describe the repaire step)",
+				"descr": "",
+				"lostMin": "",
+				"success": "O\/X"
+			}
+		],
+		[
+			{
+				"step": "修理步骤 \/ Trouble-Shooting steps (记下维修过程中的实际步骤,不正确的打\"X\".)",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "根据内外板配合状态调整胎膜位置,尽量使其与侧围贴合，同时通知工程配合寻找问题原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "根据棍边状态不断调整棍边轨迹偏移量，尽量消除双眼皮现象；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "对于测量超差的车身，通过跟线比较测量值，调整报警值，减少下线数量。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "确定机器人滚边造成轮罩“双眼皮”痕迹原因并通知工程调整；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "发现机器人滚边造成钣金件外翻原因为E10车型左前定位孔变形，生产维修共同确定发生定位孔变形JFM090工位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL080L1机器人E10车型滚边后轮罩上出现“双眼皮”痕迹及轮罩钣金件"
+		],
+		[
+			"外翻"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么出现双眼皮现象？因为胎膜与零件之间存在局部间隙；"
+		],
+		[
+			"为什么胎膜与零件之间存在局部间隙？因为胎膜与侧围贴合不佳；"
+		],
+		[
+			"为什么胎膜与侧围贴合不佳？因为内外板错位，外板受应力影响后形面发生变化；"
+		],
+		[
+			"为什么出现外翻？因为棍边轨迹偏离正确位置；"
+		],
+		[
+			"为什么棍边轨迹偏离正确位置？因为车身Z向变化超过程序补偿范围；"
+		]
+	],
+	"rootCause": "7.为什么 \/Why?　为什么车身左纵梁定位孔变形？原因待夜班跟线查明。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "对策  \/ Countermeasure:",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "短期\/Short Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "拉动工程跟踪调整零件配合状态",
+				"resp": "马晓洲",
+				"supp": "工程",
+				"compDate": "2013.1.17",
+				"status": "3\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "排查主线工位勾销套状态",
+				"resp": "黄光耀陈烨华曹鸣晓",
+				"supp": "",
+				"compDate": "2013.1.21",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "滚边轮罩“双眼皮”现象及钣金件翻边现象问题分析解决过程编写PPT供维修、生产、工程共享经验教训。",
+				"resp": "尹熠俊",
+				"supp": "黄俊宇",
+				"compDate": "2013.1.25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "拉动工程帮助解决车身定位孔与销套偏差过大问题",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "2013.1.21",
+				"status": "2\/4"
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 7,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "相应变更：   TPM       PM       CM       图纸       备件清单       参数        程序        标书      ",
+	"person_ENG": "",
+	"person_GL": "签名及日期 \/Signature & Date:",
+	"person_Manager": ""
+}

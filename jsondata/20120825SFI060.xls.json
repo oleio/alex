@@ -1,0 +1,222 @@
+{
+	"fileName": "20120825SFI060.xls.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120825SFI060.xls.json",
+	"score": 707,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月25日13时45分",
+	"fileNameDate": "20120825",
+	"equipName": "设备名称:气缸",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点:SFI060",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "40",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李颖琛          \nOringinator\/2012.8.25",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "工位报警UN233 ADV 不到位，进入工位查看气缸，发现气缸缸体连接处有漏气现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "将气缸敲到位，出工位上自动完成cycle，并且将后一辆车hold，空出工位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "工位空出后进入，拆下气缸，发现气缸密封圈被吹出，决定临时维修气缸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "维修时发现固定缸体的四个长螺丝中两个无法拧紧螺丝孔滑牙，造成气缸漏气夹紧力不够；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "将四个螺丝拧紧到最佳状态，装上气缸试生产，同时东昌寻找备件；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "同型号气缸在中心，紧急调货，继续寻找,找到一个型号类似气缸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "比对气缸发现气缸能用,改造后更换气缸，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI60 E11 左侧GATE UN233气缸故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么夹头不到位？ 因为气缸夹紧力不够；"
+		],
+		[
+			"为什么气缸夹紧力不够？ 因为气缸漏气,密封圈被吹出；"
+		],
+		[
+			"为什么气缸会漏气,密封圈被吹出？因为固定缸体的螺丝滑牙,螺丝孔损坏；"
+		],
+		[
+			"为什么螺丝孔会滑牙"
+		],
+		[
+			"为什么气缸运动长期受力较大？因为气缸关闭打开节流阀调整速度比较快"
+		]
+	],
+	"rootCause": "气缸打开关闭节流阀调整速度过快，导致气缸固定螺栓松动，松动螺栓将螺纹孔拉坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换气缸,调整节流阀减缓气缸夹头速度，恢复生产。",
+				"resp": "陈佳文",
+				"supp": "李颖琛",
+				"compDate": "8\/25\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": " ",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "安排人员检查调整内外总拼OPENGATE气缸工作速度",
+				"resp": "李颖琛 黄光耀",
+				"supp": "",
+				"compDate": "9\/3\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上 "
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

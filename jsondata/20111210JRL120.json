@@ -1,0 +1,222 @@
+{
+	"fileName": "20111210JRL120.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111210JRL120.json",
+	"score": 707,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011  年 12 月10日   15 时30     分",
+	"fileNameDate": "20111210",
+	"equipName": "设备名称:升降滚床",
+	"breakdownTime": "停机时间：60",
+	"areaLocation": "停机区域\/点: JRL120",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "60",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期            \nOringinator   章义南2011。12.10",
+	"troubleShooting": [
+		[
+			{
+				"step": "修理步骤 \/ Trouble-Shooting steps (记下维修过程中的实际步骤,不正确的打\"X\".)",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "1",
+				"descr": "JRL120工位升降滚床传动轴连接螺丝断造成滚床前部下坠后部翘起。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "千斤顶支撑后部，将传动轴完全脱开。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "升降机上升将前半部分升起至正常高度。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "安装安全保护顶杆，盘动传动轴将前后摆臂调整至同一垂直度。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "安装传动轴及法兰。手动升降并调整传感器位置。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "工位恢复自动。",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL120升降滚床传动轴连接法兰固定螺栓断，滚床倾斜"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么升降滚床倾斜？因为传动轴连接部分断开"
+		],
+		[
+			"为什么连接部分断开？因为法兰固定螺栓断裂"
+		],
+		[
+			"为什么法兰固定螺栓断裂？因为螺栓径向受力、受冲击"
+		],
+		[
+			"为什么螺栓径向受冲击？因为螺栓与法兰连接片有间隙"
+		],
+		[
+			"为什么螺栓与连接片有间隙？螺栓台阶部分过短，与法兰连接部分无台阶填实"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause:",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "短期\/Short Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "重新连接传动轴，并紧固",
+				"resp": "",
+				"supp": "",
+				"compDate": "2011。12.5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查车间内其他升降滚床机械部分",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "根据图纸加工台阶螺栓，更换JRL120传动轴螺栓",
+				"resp": "殷致平",
+				"supp": "",
+				"compDate": "2011.12.11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "1",
+				"descr": "12345"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:章义南",
+	"person_Manager": "工程师\/ENG.:尹伟文"
+}

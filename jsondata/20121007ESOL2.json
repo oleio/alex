@@ -1,0 +1,222 @@
+{
+	"fileName": "20121007ESOL2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121007ESOL2.json",
+	"score": 792,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月7日11时  分",
+	"fileNameDate": "20121007",
+	"equipName": "设备名称:机器人GRIPPER",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点: ESO",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:马鞍伟          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "总拼维修人员到现场检修，观察设备故障情况后汇报当班班长获得支持；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "首先在GRIPPER上方用吊带悬挂到钢结构立柱上进行安全保险；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拉紧保险吊带的情况下将GRIPPER搬到正确停放位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "手动操作机器人试抓GRIPPER发现有信号电缆已经拉坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换损坏的信号电缆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "微调抓放GRIPPER姿态后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO L2机器人在放GRIPPER时将GRIPPER带出，GRIPPER脱离正常位置非正常"
+		],
+		[
+			"挂在停放支架上。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人放置GRIPPER后将GRIPPER拉离正常停放位置"
+		],
+		[
+			"为什么机器人放置GRIPPER后机器人DRESS线缆挂住了机器人GRIPPER横梁"
+		],
+		[
+			"为什么机器人5轴处DRESS线缆外露"
+		],
+		[
+			"为什么机器人DRESS线缆挂住GREIPPER横梁时停放支架保护夹头没有达到预期效果避免GRIPPER被拉出停放位置"
+		],
+		[
+			"为什么机器人程序只是在放置GRIPPER后检测保护夹头关闭状态"
+		]
+	],
+	"rootCause": "预防性维修没有及时发现并修复DRESS套管断裂；机器人放GRIPPER程序保护条件不完善导致GRIPPER脱离正常停放位置。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修理损坏的DRESS套管、线缆，微调GRIPPER放置状态。",
+				"resp": "马鞍伟",
+				"supp": "陈烨华",
+				"compDate": "10\/7\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改ESO区域L2\/R2机器人放置GRIPPER程序，放置GRIPPER阶段连续检测停放支架保险夹头关闭状态，检测到夹头关闭信号消失马上停止机器人动作，减小故障后果。",
+				"resp": "黄俊宇",
+				"supp": "徐啸顺",
+				"compDate": "10\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备抢修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.黄俊宇",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

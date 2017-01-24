@@ -1,0 +1,222 @@
+{
+	"fileName": "20140704CV3CL11.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140704CV3CL11.json",
+	"score": 695,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年7月3日23时05分",
+	"fileNameDate": "20140704",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点: CV3",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  滕 征        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "现场检查，上升位置停止不住，传感器未点亮；调整传感器仍旧无法稳定工作。",
+				"lostMin": 7,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查传动机构，发现升降摆臂不同步；左前滚轮挡板变形；拆开挡板发现滚轮脱落卡住挡板。",
+				"lostMin": 8,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "通知生产启动BACKUP方案维持生产。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检修润滑轴承后，重新安装滚轮，并调整前后升降摆臂的同步。",
+				"lostMin": 25,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "测试正常后，取消BACKUP，恢复正常运行。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"机运线CV3CL11凸轮升降台上升位置丢失报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CL11凸轮升降台上升位置丢失报警"
+		],
+		[
+			"为什么上升位置停止不住，造成位置丢失"
+		],
+		[
+			"为什么凸轮升降台升降摆臂不同步"
+		],
+		[
+			"为什么滚轮会脱落"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "轴承卡死，连续运行后滚轮带动螺纹旋转直至脱开；升降台车头部位的升降滚轮脱落、卡死，驱动的同步皮带受到冲击生跳齿造成摆臂不同步。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "检修润滑轴承后，重新安装滚轮，并调整前后升降摆臂的同步。",
+				"resp": "佘佳安",
+				"supp": "",
+				"compDate": "7\/4\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "在夜间停产时间更换轴承。",
+				"resp": "佘佳安",
+				"supp": "",
+				"compDate": "7\/5\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": " 1.专项排查车间内相同结构的驱动装置，保持凸轮同步运行，确认轴承运行顺畅。",
+				"resp": "黄光耀\n陈烨华                                  ",
+				"supp": "",
+				"compDate": "7\/5\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": " 2.更新机械设备润滑表，将此处轴承的润滑工作添加到加油润滑计划中。",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "7\/20\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:佘家安代",
+	"person_ENG": "工程师\/ENG.:滕 征 ",
+	"person_GL": "工段长\/ GL:滕 征代",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

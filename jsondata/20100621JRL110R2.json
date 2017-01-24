@@ -1,0 +1,222 @@
+{
+	"fileName": "20100621JRL110R2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2010\\20100621JRL110R2.json",
+	"score": 614,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月21日13时16分",
+	"fileNameDate": "20100621",
+	"equipName": "设备名称:焊接机器人",
+	"breakdownTime": "停机时间：13MIN",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "13",
+	"lostProductNum": "5",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 樊超杰\n2011-6-21",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "发现工位机器人焊接故障，复位上自动后机器人仍然没有动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "使用示教板操作跳焊点后恢复自动，仍然无法恢复焊枪运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "手动操作机器人焊枪，发现焊枪没有关闭动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查焊枪电磁阀控制，发现驱动电磁阀的TURCK模块通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "模块断电重起后设备恢复正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL110工位R2机器人通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为R2焊机焊接报警"
+		],
+		[
+			"为什么R2焊机焊接报警？因为R2焊枪没有关枪动作"
+		],
+		[
+			"为什么R2焊枪没有关枪动作？因为关枪电磁阀没有电压"
+		],
+		[
+			"为什么关枪电磁阀没有电压？因为TURCK模块通讯故障没有输出"
+		],
+		[
+			"为什么TURCK模块通讯故障没有输出？怀疑TURCK模块性能不稳定，待跟踪确认（同时需排除因通讯电缆引起模块故障问题）"
+		]
+	],
+	"rootCause": "怀疑TURCK模块性能不稳定，待跟踪确认",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "TURCK通讯模块上电复位",
+				"resp": "樊超杰",
+				"supp": "",
+				"compDate": "11-6-21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "跟踪模块使用情况一周，如出现重复问题予以更换。",
+				"resp": "陈文佳",
+				"supp": "黄波尹熠俊",
+				"compDate": "11-6-26",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检修机器人DRESS，排除可能的因电缆引起模块故障。",
+				"resp": "尹熠俊",
+				"supp": "尹熠俊",
+				"compDate": "11-6-26",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

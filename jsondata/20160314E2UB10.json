@@ -1,0 +1,222 @@
+{
+	"fileName": "20160314E2UB10.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160314E2UB10.json",
+	"score": 1146,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016-3-14",
+	"fileNameDate": "20160314",
+	"equipName": "设备名称:机器人涂胶",
+	"breakdownTime": "停机时间：180MIN",
+	"areaLocation": "停机区域\/点:E2UB",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "180",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马晓洲     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "处理R1R2涂胶故障造成机器人碰撞报警",
+				"lostMin": 25,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查R2抓手损坏情况，前纵梁夹头明显变形，校正夹头，检查调整R2机器人涂胶轨迹，示教检查R2机器人抓放前围轨迹；",
+				"lostMin": 45,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查R1机器人GRIPPER未发现明显夹头损坏，示教R1机器人涂胶轨迹，未发现涂胶轨迹干涉，恢复设备自动运行，涂胶头被碰断，更换涂胶头并再次检查；",
+				"lostMin": 20,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "再次示教检查R1机器人涂胶轨迹，发现部分轨迹点过于靠近板材，调整；",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复设备自动运行，工作中发现R1机器人抓前围时夹头报警多，微调R1机器人抓前围轨迹；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "跟踪观察运行中造成涂胶报警停止原因，发现后围料架处安全扫描器表面有灰尘，清理；",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "故障处理过程中解决多个后围低配料架不一致造成的料架夹头夹不到位、料架感应传感器感应不到问题；",
+				"lostMin": 25,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"供应商机器人工程师配合处理涂胶问题时手动操作，机器人抓手带前围碰撞"
+		],
+		[
+			"过渡工位上的前围（手动操作时未仔细观察状态）；"
+		],
+		[
+			"维修处理R2涂胶问题时，手动操作走HOME到POUNCE轨迹，机器人抓手上前"
+		],
+		[
+			"围与机器人自身本体碰撞（正常运行状态此时机器人抓手上无前围）；"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么涂胶头碰断，机器人轨迹需要调整？因为机器人GRIPPER运动轨迹发生变化"
+		],
+		[
+			"为什么机器人GRIPPER运动轨迹发生变化？因为处理涂胶故障时手动操作失误造成GRIPPER上前围碰撞"
+		],
+		[
+			"为什么涂胶故障处理需要手动操作机器人？因为涂胶故障复位后需要机器人重新走程序恢复涂胶，目前机器人设置不方便问题快速解决（待解决问题）"
+		],
+		[
+			"为什么GRIPPER低速碰撞会造成夹头损坏，夹紧点位置发生较大变化？因为（1）夹头L形连接块强度过低，易变形。（2）左侧前围纵梁夹紧位置不当（夹头夹在斜面位置旁）"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因：涂胶控制受外部因素影响故障多，故障处理不方便，处理失误造成问题扩大。             间接原因：（1）夹头L形连接块强度过低，易变形。（2）左侧前围纵梁夹紧位置不当（夹头夹在斜面位置旁）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "找到造成涂胶故障频繁的原因予以解决并通报接班维修（安全扫描器表面灰尘造成紧急停止）",
+				"resp": "曹鸣晓",
+				"supp": "马晓洲",
+				"compDate": "3\/14\/2016",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整上料工位夹头及检测传感器消除低配料架不一致造成的故障",
+				"resp": "曹鸣晓",
+				"supp": "马晓洲",
+				"compDate": "3\/14\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "推动供应商更改GRIPPER夹紧位置并改进夹头连接L形连接块强度",
+				"resp": "马晓洲",
+				"supp": "钱俊",
+				"compDate": "TBD",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "推动机器人“涂胶报警后需重新走程序恢复涂胶”问题解决",
+				"resp": "何文泽",
+				"supp": "黄俊宇",
+				"compDate": "TBD",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "详见问题处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL曹鸣晓",
+	"person_ENG": "工程师\/ENG.:钱毅吉",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

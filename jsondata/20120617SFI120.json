@@ -1,0 +1,222 @@
+{
+	"fileName": "20120617SFI120.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120617SFI120.json",
+	"score": 616,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年6月18日2时10分",
+	"fileNameDate": "20120617",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:   SFI120",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:    张文杰      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "发现JFM120工位带车雪橇无法运动到CV12升降机滚床；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查滚床驱动变频器没有报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "控制工程师联机检查PLC发现有滚床变频器驱动输出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查滚床电机动作情况时发现滚床驱动皮带同步齿损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换损坏的同步皮带；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120滚床驱动同步皮带同步齿损坏，更换皮带时由于无法很快拆除滚床"
+		],
+		[
+			"盖板及模块位置占用修理空间导致皮带更换时间超过预期。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM120的带车雪橇无法运动到CV12升降机滚床上"
+		],
+		[
+			"为什么JFM120滚床滚子没有转动"
+		],
+		[
+			"为什么电机上的同步轮没有带动滚床驱动同步皮带"
+		],
+		[
+			"为什么更换同步皮带时间超过预期"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "滚床驱动同步皮带损坏,滚床盖板无法快速拆除 & 输入模块安装位置占用维修空间导致皮带更换时间超过预期。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用非常规方式拆除滚床盖板后更换同步皮带",
+				"resp": "张文杰",
+				"supp": "李颖琛",
+				"compDate": "6\/18\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改滚床盖板形状，在满足安全要求前提下使其易于拆卸。",
+				"resp": "马晓洲",
+				"supp": "谢琨",
+				"compDate": "7\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "将占用维修空间的输入模块移位安装",
+				"resp": "尹伟文 马晓洲",
+				"supp": "谢琨",
+				"compDate": "7\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备抢修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

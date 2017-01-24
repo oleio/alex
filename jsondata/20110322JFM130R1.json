@@ -1,0 +1,222 @@
+{
+	"fileName": "20110322JFM130R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110322JFM130R1.json",
+	"score": 578,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年03 月22 日23时50分",
+	"fileNameDate": "20110322",
+	"equipName": "设备名称:焊机",
+	"breakdownTime": "停机时间：45",
+	"areaLocation": "停机区域\/点:   JFM130",
+	"maintainTeam": "维修班组C",
+	"lostTime": "45",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期   佘佳安2011.3.22     \nOringinator 2010.",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM130R1焊机跳闸",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查电缆外表面无异常，重新上电后再次跳闸且焊机控制柜逆变器有弧光。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换焊接控制柜内逆变器。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "手动焊接正常后工位恢复。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM130R1焊机跳闸"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接故障报警？因为机器人焊接控制柜跳闸。"
+		],
+		[
+			"为什么焊接控制柜跳闸？因为焊接回路有短路现象。"
+		],
+		[
+			"为什么焊接回路有短路现象？因为逆变器损坏造成焊接初级侧短路。"
+		],
+		[
+			"为什么逆变器损坏拉弧？可能内部功率元件击穿，待送回供应商处解体作进一步分析。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause:",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "短期\/Short Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换逆变器",
+				"resp": "陈文佳",
+				"supp": "佘佳安",
+				"compDate": "2011.3.22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "分析逆变器损怀原因",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "11.04.10",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "逆变器单个备件的准备",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "11.004.11",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.王烨"
+}

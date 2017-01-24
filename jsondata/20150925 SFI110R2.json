@@ -1,0 +1,222 @@
+{
+	"fileName": "20150925 SFI110R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150925 SFI110R2.json",
+	"score": 1012,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.9.25",
+	"fileNameDate": "20150925",
+	"equipName": "设备名称:  焊接机器人",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点:SFI110R2",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "120",
+	"lostProductNum": "90",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:  滕征\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查示教板上的信息，重启后故障无法消除；\n参照相同的机器人控制柜进行对比，发现故障机器人伺服放大器指示灯不亮。 ",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "断电检查伺服放大器，无明显异常；\n更换伺服放大器后指示灯有显示，但依然无法正常工作。",
+				"lostMin": "15min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "通过断开放大器外部负载逐项排除，最终确定故障来源于机器人本体电缆。",
+				"lostMin": "40min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "由于现场更换本体电缆缺少相关技术支持，修复时间和修复效果难以保证，因此立刻联系供应商。\n现场决定先用吊具将机器人调整到安全位置，人工继续生产。",
+				"lostMin": "40min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "采取临时调整分配焊点、手工补焊措施继续进行生产。\n但是生产节拍降低，且焊接质量存在不稳定因素。",
+				"lostMin": "15min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "向上级汇报，协调替换机器人本体电缆的维修时间。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI110 R2 机器人焊接时发生故障无法动作。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SFI110L2 机器人焊接时发生故障无法动作？因为机器人伺服放大器无法工作。"
+		],
+		[
+			"为什么更换伺服放大器后状态不正常？因为机器人伺服电路回路中存在短路。"
+		],
+		[
+			"为什么机器人伺服电路回路中存在短路？因为机器人本体电缆存在问题。"
+		],
+		[
+			"为什么机器人本体电缆存在问题？因为机器人长时间大角度运动造成其内部电缆疲劳损坏，且本体电缆封装在机器人内部，日常维护无法检查该电缆状态。"
+		],
+		[
+			"为什么本体电缆出现疲劳性损伤？协同供应商对换下的电缆做进一步分析。（外观未发现表皮破损和线缆严重扭曲的现象）"
+		]
+	],
+	"rootCause": "本体电缆内部受损,对换下的电缆需做进一步分析（经测试确认电缆内编码器芯线磨损后与屏蔽层发生短路）；未掌握机器人本体电缆更换的关键步骤，造成电缆未能及时更换。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换六轴伺服放大器",
+				"resp": "黄光耀",
+				"supp": "吴梦杰",
+				"compDate": "9\/25\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换机器人本体电缆",
+				"resp": "黄俊宇",
+				"supp": "Fanuc",
+				"compDate": "9\/25\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系Fanuc对电缆损坏的原因进行分析。（电缆内部磨损，造成短路）",
+				"resp": "黄俊宇",
+				"supp": "Fanuc",
+				"compDate": "10\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "咨询Fanuc本体电缆更换的关键操作步骤（获取相关资料）；相关工程师开展更换机器人本体电缆的培训和实操，提高响应速度。",
+				"resp": "黄波",
+				"supp": "Fanuc",
+				"compDate": "10\/30\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "将机器人保持原姿态，直接更换机器人本体电缆。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：黄光耀",
+	"person_ENG": "工程师\/ENG.:吴梦杰",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

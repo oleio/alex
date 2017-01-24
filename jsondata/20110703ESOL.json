@@ -1,0 +1,222 @@
+{
+	"fileName": "20110703ESOL.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110703ESOL.json",
+	"score": 497,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月3日13时  分",
+	"fileNameDate": "20110703",
+	"equipName": "设备名称:自动工位",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:ESOL",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "15",
+	"lostProductNum": "7",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 张兆         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查工位通讯状态位显示图；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "发现地址#33号模块通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "进入工位检查模块状态灯，发现所有模块通讯状态灯均绿色；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "对照通讯线缆模块布置图，现场找到故障模块，再次检查通讯状态灯“正常”；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "模块断电重起后通讯恢复；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOL工位11工位停止运行，维修相应到现场检查发现工位通讯报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么11工位停止运行？因为工位夹头状态没有满足要求"
+		],
+		[
+			"为什么工位夹头状态没有满足要求？因为工位中有现场模块通讯故障"
+		],
+		[
+			"为什么工位中有现场模块通讯故障？根据维修过程推测：模块有可能性能不稳定"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根据维修过程推测：模块有可能性能不稳定",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "模块断电重起恢复设备正常通讯",
+				"resp": "张兆",
+				"supp": "黄轶佳",
+				"compDate": "11-7-3",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "跟踪模块通讯情况一周，如出现重复问题更换模块。",
+				"resp": "黄轶佳",
+				"supp": "尹伟文",
+				"compDate": "11-7-11",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

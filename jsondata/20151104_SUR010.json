@@ -1,0 +1,222 @@
+{
+	"fileName": "20151104_SUR010.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151104_SUR010.json",
+	"score": 791,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.11.4     22",
+	"fileNameDate": "20151104",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点: SUR010",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    陈志剑 \nOringinator   2015.11.04",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "E212无法由CV9进入CV11，查看程序发现逻辑有问题，强制信号使E212进CV11",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "E212到CV11后无法进SUR，维修现场查看后发现没有车型,通知控制工程师设车型。",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "控制工程师要求现场维修查看车型配置，但是由于没有条码，现场维修和供应商都无法识别。",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "通知DEMC相关供应商王玉武确认车型，王玉武根据计划将车型认定为高配可躺型。",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "设完车型后车子进入SUR010，机器人开始焊接后与底板发生碰撞。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "通知供应商进入工位检查，发现车型配置有误。",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "手动将机器人开出干涉区，并将该E212下线。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E212无法从CV11进SUR"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么进CV11后车子停在升降机上无法进SUR？因为当时E212没有车型。"
+		],
+		[
+			"为什么E212会没有车型？因为E212没有贴条码。"
+		],
+		[
+			"为什么E212在SUR010与机器人干涉？因为设置的车型与实际配置不符。"
+		],
+		[
+			"为什么E212设置的车型与实际配置不符？因为车上没有条码，无法直观的判断出车型配置，供应商查阅造车安排后设置车型，但事实上这辆车实际配置与计划不符。"
+		],
+		[
+			"为什么E212过车车型与计划不符？因为信息传递不清晰，原计划过的E212车在线下，不是CV11上这辆。"
+		]
+	],
+	"rootCause": "信息传递不清晰，原计划过的E212车在线下，不是CV11上这辆。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将车型配置错误的E212下线",
+				"resp": "DEMC",
+				"supp": "陈志剑",
+				"compDate": "2015.11.5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "改进管理办法，过E212调试车之前，项目组专人负责对车型的再次确认，并实时跟踪。",
+				"resp": "沈建伟",
+				"supp": "",
+				"compDate": "2015.11.10",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：曹鸣晓",
+	"person_ENG": "工程师\/ENG.:陈志剑",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

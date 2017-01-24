@@ -1,0 +1,222 @@
+{
+	"fileName": "20110808JFM160.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110808JFM160.json",
+	"score": 684,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年8月08日0时30分",
+	"fileNameDate": "20110808",
+	"equipName": "设备名称:钢印机",
+	"breakdownTime": "停机时间：累计",
+	"areaLocation": "停机区域\/点: JFM",
+	"maintainTeam": "维修班组：",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator    2011.8.8",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "生产反映有一辆才C-CAR打印时数字出错，0变成了8。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "初步坏疑调用字库出错，由于没有C-CAR，重启了钢印机，并整理了相关插头，然后使用E-CAR和J-CAR条码扫描，数据显示一切正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "第一轮C-CAR，生产反映第一次扫描控制器会出现0变8的情况，第二次扫描恢复正常。后到现场测试多次，数据显示一切正常。重新检查接线插头，并无明显异常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "第二轮C-CAR，生产共扫描了5辆车，每辆都出现了0变8的情况。保持现场的多次测试，数据显示正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "为了找到潜在问题，逐个拆开插头检查，发现RS232插头内有一根接地线虚接，重新焊接该线。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"C-CAR 钢印机控制器0字打印成了8字。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么钢印机控制器0字打印成了8字？因为控制器错误收到数字8。"
+		],
+		[
+			"为什么控制器收到数字8？可能是由于接地线虚接，易造成数据传送错误。"
+		],
+		[
+			"为什么数据传送错误，只有0变成了8，其它数据正确？有待继续观察。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新焊接好接地线。",
+				"resp": "滕征",
+				"supp": "滕 征",
+				"compDate": "2011.08.08",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查相关插头内部的接线状态。",
+				"resp": "尹伟文",
+				"supp": "滕 征",
+				"compDate": "2011-8-28",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "做好C-CAR钢印机控制器的备份工作。",
+				"resp": "尹伟文",
+				"supp": "滕 征",
+				"compDate": "2011-8-28",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:",
+	"person_ENG": "工程师\/ENG.:滕 征",
+	"person_GL": "工段长\/ GL:钱 俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

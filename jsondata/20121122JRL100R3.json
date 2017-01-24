@@ -1,0 +1,222 @@
+{
+	"fileName": "20121122JRL100R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121122JRL100R3.json",
+	"score": 790,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年11月22日7时50分",
+	"fileNameDate": "20121122",
+	"equipName": "设备名称:R3焊枪",
+	"breakdownTime": "停机时间：100min",
+	"areaLocation": "停机区域\/点:JRL100",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "100",
+	"lostProductNum": "70",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:沈建伟     \nOringinator2012.11.22",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL100工位R3碰撞报警，进工位查看发现电极杆与白车身焊死；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "敲击电极杆使焊枪与白车身分离（板材被撕裂）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换损坏的电极杆（电极杆与握杆咬死，拆卸困难），对中心后进行电极帽修磨轨迹校验；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "电极帽修磨位置偏差，调整焊枪支架位置无法恢复初始状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "在线调整E10\/618\/E11车型轨迹，恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL100R3焊接时电极杆与白车身焊死"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R3电极杆与白车身焊死？因为R3电极杆在电极帽掉落后再次直接与白车身焊接；"
+		],
+		[
+			"为什么R3在电极帽掉落后直接与白车身焊接？因为R3的WATERSAVE未起作用；"
+		],
+		[
+			"为什么R3的WATERSAVE未起作用？因为WATERSAVE的灵敏度调的较低（在一半左右）；"
+		],
+		[
+			"为什么WATERSAVE的灵敏度调整较低？因为灵敏度调的较高报警频繁；"
+		],
+		[
+			"为什么灵敏度调的较高报警频繁？因为工艺冷却水状态不稳定；"
+		]
+	],
+	"rootCause": "WATERSAVE灵敏度较低导致电极帽粘落后再焊接，电极杆与白车身焊死",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的电极杆，示教各车型轨迹",
+				"resp": "陈烨华",
+				"supp": "尹熠俊",
+				"compDate": "11\/22\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换电机臂（内部与电极杆阻滞）",
+				"resp": "黄光耀",
+				"supp": "A班",
+				"compDate": "11\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "责任区WATERSAVE根据要求调整（电极帽掉落后1秒断水）",
+				"resp": "各班组长",
+				"supp": "",
+				"compDate": "11\/23\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "推进新型WATERSAVE更换计划，主线工位批量更换",
+				"resp": "各班组长",
+				"supp": "黄俊宇",
+				"compDate": "12\/23\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "协调B&U进行冷却水水质优化工作，定期检测与反馈",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "11\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

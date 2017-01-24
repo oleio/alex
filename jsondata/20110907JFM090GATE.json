@@ -1,0 +1,222 @@
+{
+	"fileName": "20110907JFM090GATE.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110907JFM090GATE.json",
+	"score": 685,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年9月7日7时  0分",
+	"fileNameDate": "20110907",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：累计影响20min",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator顾乐斌 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "拆下传感器感应片整形，重新安装后恢复运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "故障重复后再次拆下感应片整形安装，同时模拟动作检查感应片变形原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "重复动作后发现感应片在GATE锁动作时擦碰结构下方的飞溅；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "清理飞溅后恢复设备运行，跟踪运行故障没有再次出现；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"OPENGATE右前GATE锁打开不到位报警，维修进入工位检查GATE锁打开感应片"
+		],
+		[
+			"变形。完成整修后设备恢复运行，半小时后故障重复出现。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么GATE锁打开不到位报警？因为GATE锁打开动作感应片变形"
+		],
+		[
+			"为什么GATE锁打开动作感应片变形？因为感应片擦碰感应器"
+		],
+		[
+			"为什么感应片擦碰感应器？因为感应片固定螺丝松动而且其中一个断裂"
+		],
+		[
+			"为什么感应片固定螺丝松动？因为感应片动作过程中擦碰结构下方的飞溅堆积物"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "感应片动作过程中擦碰结构下方的飞溅堆积物",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "清理出现问题GATE锁下方的飞溅堆积物",
+				"resp": "顾乐斌",
+				"supp": "尹熠俊",
+				"compDate": "11-9-7",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "取出断裂的固定螺丝，恢复感应片正常安装。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "11-9-8",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "清理OPENGATE所有GATE锁下方的飞溅堆积物并成为班组非生产日例行工作",
+				"resp": "尹熠俊陈文佳",
+				"supp": "",
+				"compDate": "11-9-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "停机情况和原因一点课程培训全体维修员工",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "11-9-25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "传感器感应片整形安装后如果能发现故障原因，故障就不会再次出现。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:尹伟文"
+}

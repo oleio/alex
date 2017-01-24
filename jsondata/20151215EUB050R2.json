@@ -1,0 +1,222 @@
+{
+	"fileName": "20151215EUB050R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151215EUB050R2.json",
+	"score": 577,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.12.15",
+	"fileNameDate": "20151215",
+	"equipName": "设备名称:  机器人",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点: EUB050R2",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "45",
+	"lostProductNum": "25",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查示教板信息,换枪盘释放信号没有到位.",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进工位检查线路,发现换枪盘释放安全回路外观无破损，检查54#模块发现有输出点短路",
+				"lostMin": "15min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆除短路的线缆（换枪盘开合输出信号），消除模块故障，跨接短路的安全回路，重新接通换枪盘释放电磁阀24V",
+				"lostMin": "25min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复工位自动运行",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB050R2机器人没有释放抓手"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R2机器人没有释放抓手？因为电磁阀没有得到电信号,无法切换。"
+		],
+		[
+			"为什么电磁阀没有得到电信号？因为54#模块发现有输出点短路"
+		],
+		[
+			"为什么54#模块发现有输出点短路？因为控制换枪盘释放的电磁阀供电线路中存在短路"
+		],
+		[
+			"为什么控制换枪盘释放的电磁阀供电线路中存在短路？因为此安全回路中有多处自制线接头，增加了短路故障点"
+		],
+		[
+			"为什么？"
+		]
+	],
+	"rootCause": "机器人54#模块中控制换枪盘释放的电磁阀24V线路中存在短路",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时屏蔽该信号维持生产.",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "12\/15\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "停产时间改用感应式安全开关（标准接插件）替代现有连接方法",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "12\/19\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 陈烨华",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL: 黄波",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110610SFI060L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110610SFI060L3.json",
+	"score": 797,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年06月10日13时50分",
+	"fileNameDate": "20110610",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：45MIN",
+	"areaLocation": "停机区域\/点:SFI",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "45",
+	"lostProductNum": "25",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期          \nOringinator 尹熠俊",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修到现场复位失败后进入工位检查焊枪状态；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "发现换枪盘机器人侧MC电源模块接入端接插件底座开裂，进一步检查发现固定电缆的“乒乓拍”松动；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "紧固固定DRESS的“乒乓拍”，临时紧固开裂的MC插座，检查电缆接头损坏情况（未见明显异常）；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "用示教板操作机器人焊接车身，焊接低电流报警；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "再次检查机器人DRESS焊接电缆、MC接插件、焊枪软连接，未找到故障原因；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "尝试更换焊接控制器触发电路板后焊机恢复正常工作电流；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060机器人L3焊接报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为机器人焊枪低电流报警"
+		],
+		[
+			"为什么机器人焊枪低电流报警？因为焊接主回路电流没有达到设定值"
+		],
+		[
+			"为说什么焊接主回路电流没有达到设定值？因为焊接控制器触发电路没有正确触发可控硅"
+		],
+		[
+			"为什么焊接控制器触发电路没有正确触发可控硅？因为焊接控制器触发电路板失效"
+		],
+		[
+			"为什么换枪盘机器人侧MC电源模块接入端接插件底座开裂？因为固定机器人DRESS的“乒乓拍”安装螺栓松动（非导致停机的直接原因）"
+		]
+	],
+	"rootCause": "焊接控制器触发电路板失效，故障检查方向错误导致排故时间长。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换焊接控制器触发电路板",
+				"resp": "陈超",
+				"supp": "孙杰",
+				"compDate": "11-6-8",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "重新固定“乒乓拍”，更换损坏的MC插座，检查机器人运动时DRESS的工作状态必要时作调整。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-6-9",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "结合自制焊接电缆诊断器，开发自动焊接故障判断方法一点课程培训维修员工",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "11-6-20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "紧固固定DRESS的“乒乓拍”，临时紧固开裂的MC插座；（非故障直接原因但损坏扩大会造成长时间停机）"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "更换焊接控制器触发电路板"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:孙杰 陈超"
+}

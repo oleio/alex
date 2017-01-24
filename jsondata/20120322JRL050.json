@@ -1,0 +1,222 @@
+{
+	"fileName": "20120322JRL050.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120322JRL050.json",
+	"score": 588,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 3月 22日 6时 40分",
+	"fileNameDate": "20120322",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: JRL050",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "20",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄光耀         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL050工位被BYPASS，共有9台车未进行焊接，CV4下线；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "确认返修方案，未装轮罩盖板的车直接从CV3上线补焊；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "已安装轮罩盖板的车手动进行JRL050工位的焊接（焊不到的点进行人工补焊）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL050工位被BYPASS，共有9台车未进行焊接（其中两台未装轮罩盖板）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么9台车未焊接？因为JRL050工位被BYPASS；"
+		],
+		[
+			"为什么JRL050工位被BYPASS"
+		],
+		[
+			"为什么BYPASS按钮被触发？因为MAINT按钮和BYPASS按钮位置相同，翻页较慢时同时触发BYPASS按钮；"
+		],
+		[
+			""
+		],
+		[
+			"为什么触发MAINT按钮？因为前一次故障传感器不到位,需要到MAINT界面查看；"
+		]
+	],
+	"rootCause": "工位被BYPASS，9台车未焊接",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "确认返修方案进行返修",
+				"resp": "傅晓翔",
+				"supp": "",
+				"compDate": "2012.3.22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "工位BYPASS按钮改进触发条件，长按5s后触发",
+				"resp": "陈文佳",
+				"supp": "控制组",
+				"compDate": "2012.4.1",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "相关责任人书面认识，工段内通报批评并进行绩效处理",
+				"resp": "沈建伟",
+				"supp": "",
+				"compDate": "2012.2.23",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

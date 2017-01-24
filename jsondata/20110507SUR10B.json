@@ -1,0 +1,222 @@
+{
+	"fileName": "20110507SUR10B.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110507SUR10B.json",
+	"score": 868,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 5月 7 日  时  分",
+	"fileNameDate": "20110507",
+	"equipName": "设备名称:R2",
+	"breakdownTime": "停机时间：             60min＋60min",
+	"areaLocation": "停机区域\/点:SUR10",
+	"maintainTeam": "维修班组：A＋B",
+	"lostTime": "60",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 马晓洲\n2011-5-7",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位查看电磁阀阀头信号显示有电，怀疑电磁阀芯卡；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "润滑电磁阀阀芯后，无效。更换电磁阀并增加关枪延时后恢复生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "3小时后故障再次出现，生产采用后备方案，维修将R2焊枪开出工位润滑焊枪气缸内壁后恢复生产；(准备焊枪气缸备件待换）",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "中班生产问题再次出现，生产BACKUP生产，更换焊枪气缸后恢复正常生产45分钟后故障再次出现；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "检查电磁阀信号电压（怀疑电磁阀供电不稳定），尝试更换转动接头控制电刷片无效；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "检查焊枪控制气路压力状态后判断电磁阀没有完全切换，更换电磁阀后恢复正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR10R2机器人焊枪频繁不关闭或延迟关闭造成焊接报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R2焊枪频繁报焊接故障？因为焊枪收到关闭焊枪信号后无动作或延迟动作"
+		],
+		[
+			"为什么焊枪收到关闭焊枪信号后无动作或延迟动作？因为焊枪关闭电磁阀没有切换或延迟切换"
+		],
+		[
+			"为什么焊枪关闭电磁阀没有切换或延迟切换？因为焊枪控制气路中存在水（电磁阀损坏）"
+		],
+		[
+			"为什么焊枪控制气路中存在水？因为机器人转动接头中水“串”到气路中"
+		],
+		[
+			"为什么机器人转动接头中水“串”到气路中？因为SHUT DOWN停气期间没有关掉带转动接头焊枪冷却循环水（同时存在转动接头内部密封圈老化现象）"
+		]
+	],
+	"rootCause": "SHUT DOWN停气期间没有关掉带转动接头焊枪冷却循环水（同时存在转动接头内部密封圈老化现象）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "当班生产结束后关闭焊枪循环冷却水然后排气清除焊枪控制气路中的“水”（共22台)",
+				"resp": "陈文佳",
+				"supp": "马晓洲",
+				"compDate": "11-5-9",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制订“转动接头关气标准流程”并实施",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11-5-12",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "编写一点课程培训维修人员“转动接头关气操作”",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11-2-12",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊 谢诚侃",
+	"person_Manager": "工程师\/ENG.:徐啸顺 黄俊宇"
+}

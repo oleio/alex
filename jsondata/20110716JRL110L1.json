@@ -1,0 +1,222 @@
+{
+	"fileName": "20110716JRL110L1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110716JRL110L1.json",
+	"score": 511,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7 月17日  3时00  分",
+	"fileNameDate": "20110716",
+	"equipName": "设备名称:焊枪",
+	"breakdownTime": "停机时间：15",
+	"areaLocation": "停机区域\/点:JRL110",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 樊超杰\n2011-7-16",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JRL11OL1 WATERSAVER报警，电极帽脱落。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将焊枪开出车身，安装电极帽，上自动焊接，电极帽再次脱落。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查车身板材，发现E-11 A柱内板变形，机器人运行过程中，电极帽和板材干涉。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "直接跳过这段轨迹，生产下线返修。（JRL90跟踪20辆E-11，此处没有变形，都能正常焊接）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL110L1电极帽脱落"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL11OL1 WATERSAVER报警？焊枪电极帽脱落。"
+		],
+		[
+			"为什么焊枪电极帽脱落？机器人运行过程中电极帽和板材干涉。"
+		],
+		[
+			"为什么焊枪和车身干涉？因为E-11 A柱内板板材变形。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "E-11 A柱内板变形（应该是个案，其余车辆跟踪到下班状态OK）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新安装电极帽，恢复生产。",
+				"resp": "樊超杰",
+				"supp": "",
+				"compDate": "",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班检查焊枪以及机器人运行轨迹，是否有气管别住。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "无设备问题",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:"
+}

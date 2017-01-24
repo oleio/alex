@@ -1,0 +1,222 @@
+{
+	"fileName": "20151123JFM040.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151123JFM040.json",
+	"score": 626,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.11.23 23",
+	"fileNameDate": "20151123",
+	"equipName": "设备名称:机运线",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:JFM040",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:       谢诚侃\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "现场维修发现R2\/L2用A10的抓手抓E16的侧围，机器人与工件碰撞，碰撞报警",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动把机器人开回HOME位置；受损的侧围下线；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "A10手动操作开到平台，人工安装侧围；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "确认抓手正常，修正程序漏洞",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM040工位是A10车型,JFM40L2,R2用A10的抓手抓取了CV7 EMS UNLOAD段的"
+		],
+		[
+			"E16侧围。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人抓手与侧围相撞，碰撞报警？因为机器人抓手与侧围车型不匹配；"
+		],
+		[
+			"为车型什么不匹配？因为前一轮A10侧围中有辆带A10侧围的Bypass小车，在没有取消Byapss时，FM040L2\/R2提前调用A10抓料程序，后续悬挂E16的侧围小车停在FM40，造成碰撞"
+		],
+		[
+			"为什么机器人会继续执行抓取侧围？因为PLC程序漏洞，没用考虑CV7小车带侧围Bypass的状态"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "CV7带侧围小车Bypass车型未取消,L2,R2机器人抓件的PLC程序有漏洞",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "手动操作机器人抓手释放侧围",
+				"resp": "顾念仁",
+				"supp": "陈烨华",
+				"compDate": "2015.11.23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改JFM040 PLC程序,修改R2,L2抓件条件",
+				"resp": "谢诚侃",
+				"supp": "尹伟文",
+				"compDate": "2015.11.23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

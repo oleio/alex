@@ -1,0 +1,222 @@
+{
+	"fileName": "20110409JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110409JFM090.json",
+	"score": 678,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年4月9日 时 分",
+	"fileNameDate": "20110409",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间： 15min",
+	"areaLocation": "停机区域\/点: JFM090",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "7",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator顾乐斌     2011.4.10",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "根据报警信息对照夹头位置示意图进入工位检查，发现左侧UN219夹头打开信号正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "找到对应的模块输入端子，模拟夹头动作发现信号输入正常；（UN219信号没有问题）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查C-CAR所有切换夹头，发现右侧UN220-CO1 OPEN没有到位信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "发现UN220-C01对应气缸杆外表面状态差，反复捅阀动作后夹头切换到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼JFM090工位过C-CAR时工装切换故障，左侧UN219-C01 OPEN不到位报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为左侧UN219-C01OPEN不到位故障"
+		],
+		[
+			"为什么左侧UN219-C01OPEN不到位故障？因为右侧UN220-C01 OPEN不到位"
+		],
+		[
+			"为什么右侧UN220-C01 OPEN不到位？因为气缸杆表面飞溅导致气缸动作卡阻"
+		],
+		[
+			"为什么没有很快找到出现问题的气缸？因为PLC报警信息描写位置错误"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "初步清理气缸杆表面",
+				"resp": "顾乐斌",
+				"supp": "黄光耀",
+				"compDate": "11-04-9",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "安排夜班生产结束后时间彻底清理底板车型切换夹头",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "11-04-12",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修改PLC及触摸屏程序，保证显示报警信息正确",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "11-04-20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

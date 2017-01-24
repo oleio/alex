@@ -1,0 +1,222 @@
+{
+	"fileName": "20120312JFM120.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120312JFM120.json",
+	"score": 568,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年3月13日4 时0分",
+	"fileNameDate": "20120312",
+	"equipName": "设备名称:自动工位夹头",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:   JFM120",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 顾乐宾         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位检查切换不到位的升降勾销组件，发现升降组件上升过程中卡住；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动动作气阀使升降组件动作，观察后怀疑升降滑轨防护罩与机械结构干涉；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆除防护罩固定螺丝，使用工具将卡住的防护罩敲出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120工位切换E-CAR时右后升降勾销切换不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么切换ECAR时工位停止自动运行？因为升降勾销组件上升不到位报警"
+		],
+		[
+			"为什么升降勾销组件上升不到位报警？因为升降勾销组件上升过程中被卡住"
+		],
+		[
+			"为什么升降勾销组件上升过程中被卡住？因为升降组件防护板与机械结构件摩擦干涉"
+		],
+		[
+			"为什么升降组件防护板与机械结构件摩擦干涉？因为防护挡板上有一层均匀的焊接飞溅"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "防护挡板上有一层均匀的焊接飞溅",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时拆除升降导向滑块保护盖",
+				"resp": "章逸楠",
+				"supp": "",
+				"compDate": "3\/13\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "用工具清理防护挡板上的焊接飞溅",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "3\/13\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "升降机构滑块防护板（飞溅方向）加装防飞溅挡板",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "3\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

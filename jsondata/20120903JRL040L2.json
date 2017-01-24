@@ -1,0 +1,222 @@
+{
+	"fileName": "20120903JRL040L2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120903JRL040L2.json",
+	"score": 811,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月18日8时10分",
+	"fileNameDate": "20120903",
+	"equipName": "设备名称:L2",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点: JRL040",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "22",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:何文泽          \nOringinator\/2012.9.3",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL040L2焊接L-CAR时停在一位置无法焊接",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动示教发现在该位置焊枪无法关闭",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "将机器人开回HOME位置，并从HMI将其Bypass，保持工位运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "再次手动关闭焊枪，成功，怀疑转动接头汇电环接触不良",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "保持焊枪关闭状态，同时转动机器人6号轴，发现转到某角度时焊枪自动打开",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "在此位置取出信号电刷，发现汇电环绝缘道有褶皱状突起部分，引起此处电刷接触不良",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "装上电刷，拟在程序中跳过故障位置焊点，此时发现焊枪在原故障位置可以关闭",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL040L2焊接L-CAR时停在一位置无法焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么L2机器人无法焊接？因为L2焊枪无法关闭；"
+		],
+		[
+			"为什么L2焊枪无法关闭？因为电磁阀未收到关枪信号；"
+		],
+		[
+			"为什么电磁阀未收到关枪信号？因为传递信号的电刷与汇电环接触不良；"
+		],
+		[
+			"为什么电刷与汇电环接触不良？因为汇电环绝缘道有褶皱状突起部分,致电刷与导电环道有时无法接触；"
+		],
+		[
+			"为什么汇电环绝缘道有褶皱状突起部分？因为产品质量不过关。"
+		]
+	],
+	"rootCause": "新换的转动接头质量不过关,汇电环绝缘道有褶皱状突起部分致接触不良",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用润滑脂润滑汇电环,使电刷不被褶皱卡住",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "9\/3\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更改转动接头内部接线,确保关枪信号不会中断",
+				"resp": "陈烨华",
+				"supp": "何文泽",
+				"compDate": "9\/8\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "与供应商沟通,请对方对故障备件进行保修,并要求其在提供备件时全面检查汇电环,确保无类似质量问题",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "9\/4\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "编制更换转动接头的MTS,其中明确对汇电环的检查要求,确保更换新转动接头后不因类似问题引起故障",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "10\/15\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

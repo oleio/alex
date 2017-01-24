@@ -1,0 +1,222 @@
+{
+	"fileName": "20110712JRL100R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110712JRL100R1.json",
+	"score": 674,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月13日 2 时 06分",
+	"fileNameDate": "20110712",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20min＋25min backup生产",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 孙伟        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修到现场检查机器人R1焊枪故障原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "手动操作机器人发现焊枪没有动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "进入工位检查发现焊枪控制气管漏气（机器人DRESS内部）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "尝试修理漏气气管；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "BACKUP生产补焊，维修人员在安全监护下进入工位修理断裂漏气的气管；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL100工位因R1机器人焊枪故障停止自动运行"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为机器人R1焊枪故障"
+		],
+		[
+			"为什么机器人R1焊枪故障？因为机器人焊枪气管断裂漏气"
+		],
+		[
+			"为什么机器人焊枪气管断裂漏气？因为焊枪气管在DRESS套管中有接头，气管接头脱落"
+		],
+		[
+			"为什么DRESS套管中焊枪气管有接头？因为当初安装转动接头时气管口径不对，配的非标准大小头，长期使用后接头“逃入”套管中。"
+		],
+		[
+			"为什么安装转动接头时配的非标准大小头？因为安装转动接头时工作不规范，使用临时方法完成永久安装。"
+		]
+	],
+	"rootCause": "安装转动接头时工作不规范，使用临时方法完成永久安装。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整气管，修复断裂处并将气管对接头移到可维修处。",
+				"resp": "孙伟",
+				"supp": "尹熠俊",
+				"compDate": "11-7-12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查车间内类似应用场合，发现用对接头予以拆除并进行正规安装。",
+				"resp": "尹熠俊 陈文佳 黄波",
+				"supp": "",
+				"compDate": "11-7-30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "规范供应商设备安装，加强项目工作质量监督。",
+				"resp": "维修管理团队",
+				"supp": "",
+				"compDate": "长期",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:陈超"
+}

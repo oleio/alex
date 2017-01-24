@@ -1,0 +1,222 @@
+{
+	"fileName": "20110524JFM140.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110524JFM140.json",
+	"score": 539,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年5月24日  时  分",
+	"fileNameDate": "20110524",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：累计18min",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：B\/C",
+	"lostTime": "18",
+	"lostProductNum": "5",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期          \nOringinator 陈文佳",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位将车推到位并同时观察分析落车不正原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查雪橇停止位传感器状态，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查定位销状态，发现定位销基座松动，紧固后落车正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM40工位618车型落车偏数次"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么618车型落车偏多次？因为左前转台上的618定位销位置变化"
+		],
+		[
+			"为什么左前转台上的618定位销位置变化？因为定位销基座固定螺栓松"
+		],
+		[
+			"为什么定位销基座固定螺栓松？因为基座固定螺栓在落车时受不正常力"
+		],
+		[
+			"为什么基座固定螺栓在落车时受不正常力？因为定位销过度磨损，有台阶"
+		],
+		[
+			"为什么定位销过度磨损，有台阶？因为TMP工作对定位销状态关注力欠缺"
+		]
+	],
+	"rootCause": "TMP工作对定位销状态关注力欠缺，定位销过度磨损出现台阶。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换工装上出现台阶的618车型左前右前定位销",
+				"resp": "黄波",
+				"supp": "沈振豪",
+				"compDate": "11-5-28",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "维修交接班会议上停机报告情况专题介绍，督促维修重视落车定位销状态检查。",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "11-5-26",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊 黄波",
+	"person_Manager": "工程师\/ENG.:沈振豪"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20111205EMC60L1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111205EMC60L1.json",
+	"score": 453,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 12月5日7时15分",
+	"fileNameDate": "20111205",
+	"equipName": "设备名称:机器人控制箱",
+	"breakdownTime": "停机时间：15MIN",
+	"areaLocation": "停机区域\/点:EMC",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "7",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  张文杰        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修到现场检查，发现示教板上有伺服模块风扇停转报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "拉动机器人工程师到维修现场支持；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "配合机器人工程师领用风扇电机更换；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC060机器人报警停止"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人停止运行？因为机器人控制箱示教板报警"
+		],
+		[
+			"为什么机器人控制器示教板报警？因为机器人控制器“伺服模块电风扇停转”报警？"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"为什么机器人控制器“伺服模块电风扇停转”报警？因为伺服模块冷却电风扇损坏"
+		]
+	],
+	"rootCause": "伺服模块冷却电风扇损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的伺服模块冷却电风扇",
+				"resp": "张文杰",
+				"supp": "周志辉",
+				"compDate": "11-12-5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "安排现场操作课程培训全体维修并登记备案，提高维修员工问题处理能力,提高抢修速度。",
+				"resp": "徐啸顺",
+				"supp": "孙杰",
+				"compDate": "11-12-20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:周志辉"
+}

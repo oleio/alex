@@ -1,0 +1,222 @@
+{
+	"fileName": "20110421SUR045.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110421SUR045.json",
+	"score": 742,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 4 月20  日 18 时 20 分",
+	"fileNameDate": "20110421",
+	"equipName": "设备名称:螺柱焊机",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点:sur045",
+	"maintainTeam": "维修班组：c",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：spbs\nPlant",
+	"originator": "填表人\/日期          \nOringinator 陈文佳",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "SUR045 螺柱焊机焊接低电流报警，电极无动作隔离接触器无动作，DEP清故障无效",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查焊接控制柜内输入输出模块，并断电重启控制柜。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "上电后发现输出模块输出信号灯有，但实际输出电压无。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查输出模块工作电源进线，发现无电压。查找图纸发现工作电压由JPL焊接控制箱内引出有短路现象。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "查图纸发现与实际不符，且较多线头无线号。（期间采用backup生产）",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "临时外接整流板供给输出模块工作电源，将电极头动作电磁阀接入隔离接触器线圈处。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "恢复自动",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR045 螺柱焊机焊接低电流报警，电极无动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接报警无电流？因为焊接电极无动作。且隔离接触器未吸合。"
+		],
+		[
+			"为什么焊机电极无动作？因为焊接电磁阀未吸合"
+		],
+		[
+			"为什么隔离接触器无动作？因为固态继电器未吸合"
+		],
+		[
+			"为什么电磁阀及固态继电器未吸合？因为输出模块实际工作电压无"
+		],
+		[
+			"为什么输出模块无工作电压？输出电源外围有短路造成模块工作电压无"
+		]
+	],
+	"rootCause": "输出模块工作电压无，控制柜线束混乱线号无。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时安装整流板接入工作电压",
+				"resp": "程超",
+				"supp": "陈文佳",
+				"compDate": "2011.4.20",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "临时焊机电磁阀接至隔离接触器线圈确保能正常焊接",
+				"resp": "程超",
+				"supp": "陈文佳",
+				"compDate": "2011.4.20",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "整理临时接线线束",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011.4.21",
+				"status": "1\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查工作电源查明无电压原因",
+				"resp": "陈文佳",
+				"supp": "孙杰",
+				"compDate": "2011.4.22",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "焊机内线束整理，线号写明",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2011.5.23",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "backup方案确定",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2011.5.23",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:程超"
+}

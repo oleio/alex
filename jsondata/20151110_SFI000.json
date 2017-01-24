@@ -1,0 +1,222 @@
+{
+	"fileName": "20151110_SFI000.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151110_SFI000.json",
+	"score": 704,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.11.10",
+	"fileNameDate": "20151110",
+	"equipName": "设备名称:  Repeater",
+	"breakdownTime": "停机时间：25",
+	"areaLocation": "停机区域\/点: SFI000",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "25",
+	"lostProductNum": "14",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    陈志剑\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修去机运线操作台复位，发现急停报警无法复位。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看SFI000程序发现SFI机运线有多个模块通讯丢失，查看电气网络图后发现这些通讯丢失的站点均挂载于C2柜的Repeater下。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "SFI机运线断电分别测量Repeater的A1B1和A2B2的网络，发现线路电阻正常。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "重启，发现通讯恢复正常。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "机运线各工位复位上自动，恢复正常生产。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI机运线跳急停。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SFI机运线跳急停？因为SFI机运线出现通讯报警。"
+		],
+		[
+			"为什么SFI机运线中出现通讯报警？因为SFI C2柜的Repeater模块A2B2侧的所有站点通讯丢失。"
+		],
+		[
+			"为什么C2柜Repeater下站点通讯丢失？因为SFI000的C2柜内的Repeater工作状态不佳。"
+		],
+		[
+			"为什么C2柜内的Repeater工作状态不佳？可能原因有以下2种：1.Repeater的电气回路中存在接线不良；  2 Repeater功能性老化。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "可能原因有以下2种：1.Repeater电气回路中存在接线不良；  2 Repeater功能性老化。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "Repeater断电重启",
+				"resp": "陈志剑",
+				"supp": "",
+				"compDate": "11\/10\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换Repeater。",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "11\/10\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "利用非生产日系统检查SFI000的通讯网络。",
+				"resp": "陈志剑",
+				"supp": "滕征",
+				"compDate": "11\/22\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 曹鸣晓",
+	"person_ENG": "工程师\/ENG.: 陈志剑",
+	"person_GL": "工段长\/ GL: 滕征",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

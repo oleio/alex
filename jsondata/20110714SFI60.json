@@ -1,0 +1,222 @@
+{
+	"fileName": "20110714SFI60.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110714SFI60.json",
+	"score": 607,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7 月14日  15时00  分",
+	"fileNameDate": "20110714",
+	"equipName": "设备名称:输入模块",
+	"breakdownTime": "停机时间：20",
+	"areaLocation": "停机区域\/点:SFI60",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 袁伟\n2011-7-14",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "SFI060 工位通讯故障，DUMPER无法动作。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "通知控制工程师到现场，锁定报警模块为71号输入模块。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "找到报警模块（在右侧GATE正上方），并逐个排查该模块的所有输入信号。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "找到短路的输入点，为一个物料感应器的输入信号，并证实该物料感应器损坏。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "评估风险后，屏蔽信号，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位通讯故障？因为71号输入模块报警。"
+		],
+		[
+			"为什么71号输入模块报警？因为该模块的某个输入点有短路发生。"
+		],
+		[
+			"为什么模块有短路发生？因为模块上对应的某个物料感应器损坏。"
+		],
+		[
+			""
+		],
+		[
+			"为什么物料传感器损坏？推测物料传感器与物料有碰擦，待跟踪使用情况确认。"
+		]
+	],
+	"rootCause": "物料感应器损坏，导致模块输入信号短路，通讯报警。（确切原因待跟踪确认）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "评估风险，强制该感应器信号恢复生产。",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": "2011\/7\/14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换损坏的物料感应器，并适当调整感应距离，使之与工件不直接接触。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011\/7\/14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "跟踪该物料感应器状态两周，解决物料传感器损坏原因。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011\/7\/31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:滕征"
+}

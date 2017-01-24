@@ -1,0 +1,222 @@
+{
+	"fileName": "20120504JRL80L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120504JRL80L1.json",
+	"score": 608,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年5月4日  时  分",
+	"fileNameDate": "20120504",
+	"equipName": "设备名称:机器人滚边工位",
+	"breakdownTime": "停机时间：累计10min",
+	"areaLocation": "停机区域\/点: 累计10min",
+	"maintainTeam": "维修班组：C\/A",
+	"lostTime": "10",
+	"lostProductNum": "6",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄轶佳         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "现场维修根据故障报警信息打开机器人控制柜检查安全模块状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "发现安全模块MS信号灯常亮，用对讲机与控制工程师沟通后将模块断电重起恢复生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "控制工程师根据报警信息查阅模块说明书，确定对应故障为“watch dog time out\"；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "准备备件，当班生产结束后更换问题安全模块并刷新模块设置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "告知次日早班控制工程师跟踪模块工作状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL80工位紧急停止，现场维修根据报警信息将机器人L1控制柜内的安全"
+		],
+		[
+			"模块断电重起，此故障当班发生三次。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行"
+		],
+		[
+			"为什么机器人L1紧急停止"
+		],
+		[
+			"为什么机器人柜内的安全模块故障报警"
+		],
+		[
+			"为什么安全模块\"watch dog time out\"报警？怀疑模块早期损坏，性能不稳定。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "怀疑模块早期损坏，性能不稳定。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "断电重启恢复设备运行，生产结束后更换安全模块。",
+				"resp": "冯文杰",
+				"supp": "黄轶佳",
+				"compDate": "5\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "换下的模块安装到试验设备上长时间观察，问题现象同",
+				"resp": "黄轶件",
+				"supp": "尹伟文",
+				"compDate": "5\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "ROCKWELL交流反馈。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同问题处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

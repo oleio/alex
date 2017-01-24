@@ -1,0 +1,222 @@
+{
+	"fileName": "20160402E2UB.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160402E2UB.json",
+	"score": 508,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016-4-2",
+	"fileNameDate": "20160402",
+	"equipName": "",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点:E2UB",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "45",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李颖琛      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查分析E2UB60工位机器人碰撞原因；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "PLC程序重选车型维持生产；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "分析造成车型错误传递的PLC程序原因；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"做第二批轮罩PTR件时发生问题"
+		],
+		[
+			"PTR高配底板切换低配底板时，E2UB040工位机器人选择高配程序。"
+		],
+		[
+			"问题还影响了E2UB060工位，其中第一次造成了E2UB060L1机器人碰撞。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么E2UB060机器人放料时发生碰撞报警"
+		],
+		[
+			"为什么E2UB60低配车型机器人错误调用高配程序"
+		],
+		[
+			"为什么E2UB线程序传递错误"
+		],
+		[
+			"为什么E2UB40PLC程序存在缺陷"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "非生产日设备供应商调试PTR程序时连续验证高配车型，未发现PLC程序存在的缺陷。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "现场设置车型维持生产并分析确定问题原因",
+				"resp": "设备供应商",
+				"supp": "李颖琛",
+				"compDate": "4\/2\/2016",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产时间修改PLC程序并验证不同车型切换排序，保证车型可靠传递。",
+				"resp": "设备供应商",
+				"supp": "尹伟文",
+				"compDate": "4\/4\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同问题处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL黄光耀",
+	"person_ENG": "工程师\/ENG.:李颖琛 何文泽",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

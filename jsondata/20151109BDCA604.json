@@ -1,0 +1,222 @@
+{
+	"fileName": "20151109BDCA604.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151109BDCA604.json",
+	"score": 711,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.11.9  2",
+	"fileNameDate": "20151109",
+	"equipName": "设备名称:A605",
+	"breakdownTime": "停机时间：20",
+	"areaLocation": "停机区域\/点:BDC",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:    李颖琛   \nOringinator  2015.11.9",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查发现解垛机未上升，将雪橇向前拉一点。",
+				"lostMin": "3min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动操作升起解垛机，发现下位检查雪橇的光电信号不稳定，调整光电传感器。",
+				"lostMin": "5min",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "上自动后解垛机叉子与雪橇干涉。手动操作，打开叉子，将雪橇向回拉到适当位置，上自动解垛。",
+				"lostMin": "4min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "A602的雪橇不向A603走，手动拉到位后，A603恢复，A601不向A602走。",
+				"lostMin": "3min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "PLC程序内将变量复位，恢复自动生产。",
+				"lostMin": "5min",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"A604解垛机雪撬到位后不上升"
+		],
+		[
+			"A602上的雪橇不往A603滚床走"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么A602上的雪橇不往A603走？因为PLC程序内A603的占位信号未复位。"
+		],
+		[
+			"为什么PLC程序内A603的占位信号未复位？因为A604下位检查雪橇的光电信号不稳定，错过了复位脉冲。"
+		],
+		[
+			"为什么A604下位检查雪橇的光电信号不稳定？因为该光电处于临界状态，A604运行时，震动使其不稳定。"
+		],
+		[
+			"为什么光电处于临界状态？因为安装位置不好，容错率低。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "光电传感器安装位置不好，信号不稳定造成程序无法置位A604占位信号。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "手动操作解垛机",
+				"resp": "马骁骁",
+				"supp": "黄光耀",
+				"compDate": "11\/9\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "将PLC程序内的信号恢复",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "11\/9\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "生产时间观察检查解垛机光电传感器工作状态并在非生产时间进行优化调整，避免光电传感器工作与临界状态。",
+				"resp": "陈烨华",
+				"supp": "李颖琛",
+				"compDate": "11\/15\/2015",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "步骤2,5"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL黄光耀",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

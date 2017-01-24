@@ -1,0 +1,222 @@
+{
+	"fileName": "20110702JRL030L2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110702JRL030L2.json",
+	"score": 840,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月2日6时30分",
+	"fileNameDate": "20110702",
+	"equipName": "设备名称:机器人气动焊枪",
+	"breakdownTime": "停机时间：累计60MIN＋20min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "60",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 陈超\n2011-5-5",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查焊枪的平衡情况，发现焊枪在不焊接时有平衡状态正常，焊枪焊接时焊枪没有平衡作用；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "怀疑焊枪平衡气压调整不佳，对平衡气压进行调整，调整过程中发现调压器（后确认调压器有问题但能够勉强使用）时好时坏，更换后问题仍然存在；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "因开班前换过平衡气缸，为隔离问题换回旧平衡气缸，试焊一辆E10后生产无法接受焊点状态；（30min）",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "调整焊点位置保证生产；（10min）",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "后又调整E11及618焊点位置维持正常生产；（两种车型各花时间10min*2）",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "次日早晨更换问题调压阀，平衡缸工作正常，并恢复焊点轨迹",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"早晨开班生产抱怨焊点严重扭曲（当时为E10车型）"
+		],
+		[
+			"（开班前更换了问题焊枪的平衡气缸）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪更换新平衡缸后焊枪闭合时平衡状态更差？因为新换的气缸没有泄漏，原来的气缸有内泄漏，在同等条件下旧气缸有一定的（较差平衡作用）平衡作用。"
+		],
+		[
+			"为什么焊枪闭枪时平衡作用差？因为闭枪时平衡气缸没有适当的压力"
+		],
+		[
+			"为什么闭枪时平衡气缸没有适当的压力？因为平衡缸控制气路存在问题"
+		],
+		[
+			""
+		],
+		[
+			"为什么平衡缸控制气路存在问题？因为平衡缸压力调节器损坏，没有调节效果。"
+		]
+	],
+	"rootCause": "平衡缸压力调节器损坏，没有调节效果。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "换回原来的旧气缸并配合调整焊点维持生产",
+				"resp": "黄智君",
+				"supp": "黄波",
+				"compDate": "11-7-2",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换损坏调压阀",
+				"resp": "程超",
+				"supp": "孙杰",
+				"compDate": "11-7-3",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "编写焊枪平衡控制气路工作一点课程培训维修员工",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "11-7-10",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "针对气路复杂工位焊枪，制作气路检查指导书放于工位旁",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "11-7-15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "解决焊枪闭合时没有平衡作用问题；"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "相应调整焊点；"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "（实际维修时由于无法快速解决问题，不得不通过调整焊点恢复生产.)"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:王烨 程超 "
+}

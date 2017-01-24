@@ -1,0 +1,222 @@
+{
+	"fileName": "20110329JRL080.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110329JRL080.json",
+	"score": 541,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年  月  日  时  分",
+	"fileNameDate": "20110329",
+	"equipName": "设备名称:伺服编码器",
+	"breakdownTime": "停机时间：36",
+	"areaLocation": "停机区域\/点:emc020",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "36",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 2011.3.26 马安颹",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "生产反映JRL80辊边不良，到现场观察4辆车后发现胎模突然下坠，人工按急停",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位发现夹头没有夹紧，将胎模推到位，手动控制机器人将胎模放到机器人上",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "领取新的气缸将损坏的气缸换掉",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "工装工程师调整工装后恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL080胎模无法夹紧，导致胎模脱离车体"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么人工按急停？因为胎模突然脱离车体。"
+		],
+		[
+			"为什么胎模突然脱离车体？因为前部有一个夹头没有夹紧。"
+		],
+		[
+			"为什么前部一个夹头没有夹紧？因为夹头断裂。"
+		],
+		[
+			"为什么夹头会断裂？因为夹头受损伤。"
+		],
+		[
+			"为什么夹头受损伤？夹头转轴受累积损伤。"
+		]
+	],
+	"rootCause": "夹头转轴受累积损伤",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换新气缸恢复生产",
+				"resp": "曹鸣晓",
+				"supp": "樊超杰",
+				"compDate": "2011.3.29",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "规范夹头故障排故方法，制作一点课程",
+				"resp": "曹鸣晓",
+				"supp": "蒋兆君",
+				"compDate": "2011.4.5",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "针对特定工位，评估风险，制定PM计划",
+				"resp": "陈文佳",
+				"supp": "蒋兆君",
+				"compDate": "2011.4.5",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "尝试更换大气缸",
+				"resp": "陈文佳",
+				"supp": "蒋兆君",
+				"compDate": "2011.4.5",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "其他同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:袁伟",
+	"person_Manager": "工程师\/ENG.:"
+}

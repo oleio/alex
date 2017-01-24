@@ -1,0 +1,222 @@
+{
+	"fileName": "20130102SFI060.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130102SFI060.json",
+	"score": 642,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年1月02日15时00分",
+	"fileNameDate": "20130102",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: SFI060",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "16",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 陈文佳        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "SFI060 GATE关闭（LH）无动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "程序查看发现PLC输出信号正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查变频器发现使能信号正常，此时手动盘了一次开关马达后能正常开动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "当再次发生故障时检查变频器发现启动信号无，此信号来自LH超程；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查超程发现点亮，调整传感器发现支架变形松动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "临时紧固调整合适位置，工位恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060GATE 关闭无动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么GATE无法关闭？因为变频器未启动；"
+		],
+		[
+			"为什么变频器未启动？因为变频器 DI03端子启动信号24V无；"
+		],
+		[
+			"为什么DI03 24V启动信号无？因为GATE超程信号触发造成此信号无；"
+		],
+		[
+			"为什么GATE打开超程信号触发？因为传感器支架变形造成感应位置发生变化；"
+		],
+		[
+			"为什么传感器支架位置发生变化？因为支架无防护措施，人为进入工位易踩踏到。"
+		]
+	],
+	"rootCause": "感应支架损坏造成超程传感器误触发",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时固定传感器支架并调整传感器位置",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "1\/2\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修复损坏的传感器支架",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "1\/6\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "增加传感器支架的保护措施",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "1\/6\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "增加GATE 关闭时打开超程的报警",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "1\/6\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

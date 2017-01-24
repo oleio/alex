@@ -1,0 +1,222 @@
+{
+	"fileName": "20120518ESOR2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120518ESOR2.json",
+	"score": 822,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 5月18日 22时15分",
+	"fileNameDate": "20120518",
+	"equipName": "设备名称:R2机器人",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:ESO",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "30",
+	"lostProductNum": "13",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马安颹         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "ESOR2 54#模块通讯报警频繁，怀疑BUS通讯线缆问题，准备备件进行抢修；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "BUFFER堆料后进入工位进行飞线，因工位改造后采用WALTHER换枪盘，DRESS内信号电缆",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "为自制件，通过19芯短电缆进行转换，维修准备的备件为PROFIBUS五芯电源线，接线方式",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "有差异，故飞线后通讯问题依旧；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "恢复原接线并再次找寻五芯通讯电缆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "再次利用生产间隙进行飞线，通讯恢复，正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "夜班将此线缆拆下，测试后发现其中白色信号线内部接触不良。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOR2 54#模块通讯报警频繁（无固定位置），维修边复位维持生产，边"
+		],
+		[
+			"准备备件预备抢修（和生产协调堆料后进行飞线）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么ESO工位报警？因为ESOR2 54#模块通讯不稳定（频繁报警，但可断电复位恢复）；"
+		],
+		[
+			"为什么通讯不稳定？因为通讯线缆内部有断裂，运行中接触不良；"
+		],
+		[
+			"为什么通讯线缆断裂接触不良？因为此通讯线缆为换枪盘改造用非标电缆，非柔性标准线缆；"
+		],
+		[
+			"为什么排故时间较长？因为设备使用了非标准接线通讯电缆，维修过程中没有在第一时间发现问题"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1）通讯线缆为非柔性通讯线缆断裂导致接触不良 2）维修过程中使用了错误的备件电缆（接插件相同但内部接线定义不同）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换此通讯线缆为标准线缆",
+				"resp": "王昀",
+				"supp": "C班",
+				"compDate": "2012.5.19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对ESO换枪盘改造时DRESS中采用的通讯线缆进行排查更换，将非标线缆更换为标准柔性线缆",
+				"resp": "徐啸顺",
+				"supp": "陈烨华 黄光耀",
+				"compDate": "2012.5.27",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "现场使用信号电缆接线进行维修内部培训",
+				"resp": "滕征",
+				"supp": "徐啸顺",
+				"compDate": "2012.5.25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "发生问题后准备正确的备件进行飞线，恢复正常生产"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

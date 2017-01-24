@@ -1,0 +1,222 @@
+{
+	"fileName": "20110307SUR010L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110307SUR010L2.json",
+	"score": 661,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年 03月 07日13时40分",
+	"fileNameDate": "20110307",
+	"equipName": "设备名称:L2机器人",
+	"breakdownTime": "停机时间：24min",
+	"areaLocation": "停机区域\/点:  SUR010",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "24",
+	"lostProductNum": "15",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期 王昀     \nOringinator  2011.3.7 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "SUR010L2电极杆断裂，将L2机器人开出，更换电极杆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查电极杆碰撞原因，发现开枪信号常亮，导致焊枪未打开就开始移动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查信号常亮原因，发现转动接头内部信号短路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "临时将19芯电缆短接到焊枪端，测试信号正常后校验轨迹，确认轨迹后恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR010L2电极杆断裂（电极杆撞在985门槛板上）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SUR010L2电极杆断裂？因为L2碰撞985门槛板；"
+		],
+		[
+			"为什么L2碰撞985门槛板？因为焊枪未打开即移动；"
+		],
+		[
+			"为什么焊枪未打开即移动？因为焊枪打开信号常亮；"
+		],
+		[
+			"为什么焊枪打开信号常亮？因为转动接头内部短路；"
+		],
+		[
+			"为什么转动接头内部短路？因为转动接头内部有垃圾（非生产日对转动接头汇电环进行了保养，可能垃圾积聚影响了信号端）；"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: 转动接头内部有垃圾造成信号短路",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时短接信号电缆",
+				"resp": "王昀",
+				"supp": "黄波",
+				"compDate": "2011.3.7",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查转动接头内部状态，如和汇电环保养有关，改进转动接头保养方法和要求",
+				"resp": "徐啸顺",
+				"supp": "NITTA",
+				"compDate": "2011.3.8",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对车间转动接头信号环及电刷的状态进行检查，查看垃圾堆积情况并进行清除",
+				"resp": "徐啸顺",
+				"supp": "各班组",
+				"compDate": "2011.3.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄波",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

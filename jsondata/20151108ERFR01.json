@@ -1,0 +1,222 @@
+{
+	"fileName": "20151108ERFR01.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151108ERFR01.json",
+	"score": 511,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.10.8   16",
+	"fileNameDate": "20151108",
+	"equipName": "设备名称: 机器人",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点: ERF",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "60",
+	"lostProductNum": "35",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    钱毅吉   2015.11.8\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位发现涂胶枪头弯曲,抓手上的料变形",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拆除损坏的涂胶枪,同时准备备件",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "安装新涂胶枪",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查抓手,并调整抓手夹头",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "验证各车型的抓料轨迹和涂胶轨迹",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ERF R1涂胶时板材碰撞枪头导致涂胶枪损坏"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人涂胶时涂胶枪枪头与车顶碰撞"
+		],
+		[
+			"为什么枪头离车顶板材过近"
+		],
+		[
+			"为什么要调整涂胶轨迹和夹头垫片"
+		],
+		[
+			"为什么调整夹头和涂胶轨迹会导致撞枪"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "调整夹头和轨迹后导致枪头距板材距离更近，轨迹验证不充分",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的涂胶枪",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "11\/8\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整抓手夹头",
+				"resp": "李斌",
+				"supp": "黄波",
+				"compDate": "11\/8\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "恢复原始涂胶轨迹",
+				"resp": "钱毅吉",
+				"supp": "",
+				"compDate": "11\/8\/2015",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.停产日精调机器人抓手及涂胶轨迹",
+				"resp": "钱毅吉",
+				"supp": "",
+				"compDate": "11\/22\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.抓手增加零件定位销，确保抓料精确性",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "12\/6\/2015",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "2、3、4、5"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：黄光耀",
+	"person_ENG": "工程师\/ENG.:钱毅吉",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

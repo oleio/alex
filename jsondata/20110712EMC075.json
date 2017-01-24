@@ -1,0 +1,222 @@
+{
+	"fileName": "20110712EMC075.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110712EMC075.json",
+	"score": 551,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 7 月12日  14时30  分",
+	"fileNameDate": "20110712",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：25MIN",
+	"areaLocation": "停机区域\/点:   EMC075",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 陈烨华 \nOringinator 2011.7.12",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "EMC075涂胶接头断裂，胶管漏胶。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "使用断螺丝取出器取断在胶枪里的接头，断裂的接头咬紧力太大，无法取出。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换胶枪，并重新固定涂胶管，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "将换下的涂胶枪上台虎钳，取出断裂的螺纹，保养后入库。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC075涂胶枪与胶管处接头断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止生产？涂胶枪与胶管处接头断裂。"
+		],
+		[
+			"为什么涂胶枪与胶管处接头断裂？和以前相比接头受力增大。"
+		],
+		[
+			"为什么接头受力增大？涂胶管固定方式发生变化。"
+		],
+		[
+			"为什么涂胶管固定方式变化？非生产日涂胶管外加装了套管，弯曲半径变大。"
+		],
+		[
+			"为什么涂胶管加装套管？为保护胶管，避免胶管被钣金割破。"
+		]
+	],
+	"rootCause": "涂胶管弯曲半径增大，造成接头受力断裂。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换胶枪并用扎带临时固定胶管。",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2011.7.12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "将此问题反馈给施工供应商，吸取教训。",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "2011.7.12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制作支架，固定胶管，减少此接头受力。",
+				"resp": "A班",
+				"supp": "",
+				"compDate": "2011.7.15",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华（代）",
+	"person_ENG": "工程师\/ENG.:",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110806JRL090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110806JRL090.json",
+	"score": 716,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年8月6日 6时30分",
+	"fileNameDate": "20110806",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：累计60min",
+	"areaLocation": "停机区域\/点:JRL90",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "42",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  钱俊\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "联机PLC检查相关逻辑条件并检查变频器，PLC有控制输出，变频器有输出频率显示",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "怀疑雪橇下有异物卡住，松刹车人力将带车雪橇推到JRL100工位，未发现异物；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查电机三相绕阻，三相绕阻阻值不均，推断电机内部有短路，更换电机；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换电机后，雪橇仍然出现不运行的情况，调整变频器参数无效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "检查电机至变频器的各段接线，发现电机至维修开关段有一相断路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "重新接线，恢复滚床运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL90工位滚床上的雪橇不向前运行"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL90雪橇无法RUN OUT?因为电机收到变频器输出后无转动动作。"
+		],
+		[
+			"为什么电机无转动动作？因为电机三相绕阻阻值不均，输出力矩无法驱动负载。"
+		],
+		[
+			"为什么电机三相绕阻不均？电机发热，内部漆包线绝缘损坏，有短路。"
+		],
+		[
+			"为什么电机发热？因为电机至维修开关段电源线有一路断裂，电机缺相。"
+		],
+		[
+			"为什么电机电源线一路断开？电源线在滚床上升下降过程中和胶管存在干涉。"
+		]
+	],
+	"rootCause": "在滚床上升下降过程中电机电源线和胶管存在干涉，长期受力出现部分断裂。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换损坏的电机，更换损坏的电源线。",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "2011.8.6",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.恢复电机启动模式和变频器参数设置。",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": "2011.8.6",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.维修三班检查车间所有滚床电机电源线是否存在干涉区。",
+				"resp": "三班维修",
+				"supp": "",
+				"compDate": "2011.8.7",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.检查马达接线盒处是否有电缆套夹，并补全。",
+				"resp": "三班维修",
+				"supp": "",
+				"compDate": "2011.8.7",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:滕征"
+}

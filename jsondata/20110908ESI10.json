@@ -1,0 +1,222 @@
+{
+	"fileName": "20110908ESI10.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110908ESI10.json",
+	"score": 572,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 9月8日  17时  0分",
+	"fileNameDate": "20110908",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:ESI",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator张文杰 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修检查夹头无法动作原因，发现所有夹头无法动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查电磁阀岛阀输出信号灯，发现阀岛无电源；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查电磁阀岛电源线，确定阀岛没有DC24V供电；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "逐点检查阀岛供电线缆，发现阀岛处接插件内部接线脱落；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "重新接线后设备恢复正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESI010工位夹头无法动作，维修到现场检修后发现工装所有夹头无法动作。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工装夹头没有动作？因为夹头控制电磁阀没有动作"
+		],
+		[
+			"为什么夹头控制电磁阀没有动作？因为电磁阀没有输出电源"
+		],
+		[
+			"为什么电磁阀没有输出电源？因为DC24V供电电缆线缆断路"
+		],
+		[
+			"为什么DC24V供电电缆线缆断路？阀岛电源插头内部接线脱落"
+		],
+		[
+			"为什么电源插头内部接线脱落？因为阀岛从固定处脱落导致电缆被拉"
+		]
+	],
+	"rootCause": "工装控制阀岛脱落没有及时发现处理",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "DV24V电源插头内部接线重新连接",
+				"resp": "张文杰",
+				"supp": "尹熠俊",
+				"compDate": "11-9-8",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "生产结束后恢复阀岛安装并整理接线",
+				"resp": "黄波",
+				"supp": "陈文佳",
+				"compDate": "11-9-11",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "工段长例会上协调生产及时保修设备潜在故障",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "11-9-12",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:尹伟文"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20121206SUR040R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121206SUR040R1.json",
+	"score": 625,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年12月6日08时00分",
+	"fileNameDate": "20121206",
+	"equipName": "设备名称:R1",
+	"breakdownTime": "停机时间：累计25min",
+	"areaLocation": "停机区域\/点: SUR040",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "25",
+	"lostProductNum": "17",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄光耀               2012.12.6      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "SUR040R1大钉没有出钉；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "示教机器人运行至合理位置，检查送钉导管正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "将螺柱焊枪拆开取出被卡的螺钉时发现内夹头活塞杆断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换活塞杆，工位恢复自动生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "待做了几辆车后大钉仍旧没有打出，报警引弧距离不够；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "进工位调整顶杆，检查板材贴合面，发现顶杆顶在板材斜面上；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "微调焊点位置，工位恢复自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR040R1大钉螺柱焊枪故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SUR040R1大钉焊不出？因为螺钉没出来；"
+		],
+		[
+			"为什么螺钉没有出来？因为螺钉卡在焊枪内；"
+		],
+		[
+			"为什么螺钉卡在焊枪内？因为螺柱焊枪活塞杆断；"
+		],
+		[
+			"为什么更换好新的活塞杆后还是打不出？因为位置有偏差，焊点位置打在斜面上造成引弧距离不够；"
+		],
+		[
+			"为什么焊点位置打在斜面上，位置有偏差？因为更换活塞杆后调整位置有偏差；"
+		]
+	],
+	"rootCause": "焊枪内夹头活塞杆断裂造成无法送钉",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换断裂的活塞杆",
+				"resp": "黄光耀",
+				"supp": "郑旭俊",
+				"compDate": "12\/6\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整焊点位置",
+				"resp": "黄光耀",
+				"supp": "郑旭俊",
+				"compDate": "12\/6\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "每季度对螺柱焊枪的活塞杆状态进行检修",
+				"resp": "陈烨华",
+				"supp": "郑旭俊",
+				"compDate": "12\/9\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 黄光耀",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

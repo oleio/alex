@@ -1,0 +1,222 @@
+{
+	"fileName": "20110616SFI100R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110616SFI100R2.json",
+	"score": 594,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 6 月16  日9  时40  分",
+	"fileNameDate": "20110616",
+	"equipName": "设备名称:SFI100",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:   SFI100R2",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 黄光耀       \nOringinator 2011.6",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "工位WATERSAVE报警，进工位发现电极帽掉落；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "安装新的电极帽，同时计数清零后，手动焊接，电极帽还是粘落；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "再次安装电极帽，并查看焊点位置，发现正常，检查电极杆TAB，发现TAB到底；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "敲紧电极帽后，配合临时参数修改，手动走完剩下的两点焊点，将该辆C-CAR焊完；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "下一辆车HOLD后，进工位更换电极杆，同时通知生产检查故障C-CAR的焊点焊接质量；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "上自动，恢复生产，同时恢复原先参数。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"焊接C-CAR时，电极帽粘落。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位WATERSAVE报警？因为电极帽被粘落；"
+		],
+		[
+			"为什么电极帽被粘落？因为动电极杆的TAB到底，无法将电极帽敲牢。"
+		],
+		[
+			"为什么动电极杆TAB到底？因为电极杆长期使用导致TAB磨损，锥度变小。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "电极杆TAB磨损，锥度变小。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时参数调整，配合故障C-CAR完成焊接，并跟踪焊接质量。",
+				"resp": "王俊杰",
+				"supp": "",
+				"compDate": "11.06.16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换电极杆，并跟踪两个班次。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11.06.16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

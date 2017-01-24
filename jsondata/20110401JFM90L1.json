@@ -1,0 +1,222 @@
+{
+	"fileName": "20110401JFM90L1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110401JFM90L1.json",
+	"score": 770,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年 4  月 1 日时 分",
+	"fileNameDate": "20110401",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：55",
+	"areaLocation": "停机区域\/点:     JFM90L1",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "30",
+	"lostProductNum": "24",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期   尹熠俊\/2011.4.1\nOringinator   ",
+	"troubleShooting": [
+		[
+			{
+				"step": "维修过程:(记录维修的步骤)\/Trouble-Shooting(Describe the repaire step)",
+				"descr": "",
+				"lostMin": "",
+				"success": "O\/X"
+			}
+		],
+		[
+			{
+				"step": "修理步骤 \/ Trouble-Shooting steps (记下维修过程中的实际步骤,不正确的打\"X\".)",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "1",
+				"descr": "JFM90L1焊接故障，手动复位后临时恢复",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "下一辆车再次报警,进入工位检查发现BACKUP没有关上,此时电磁阀关枪信号正确,开关几次均正常恢复上自动",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "过了几辆车后,故障重现,进入工位再次发现BACKUP没有关上",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "怀疑电磁阀阀芯不畅,润滑电磁阀阀芯,恢复上自动",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "20分钟后,再次故障,更换电磁阀,恢复上自动",
+				"lostMin": "",
+				"success": "x"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90L1在作E10时BACKUP无动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么报焊接故障？因为焊枪没有合拢"
+		],
+		[
+			"为什么焊枪没有合拢？因为BACKUP没有关闭"
+		],
+		[
+			"为什么BACKUP没有关闭？因为电磁阀在焊接特定焊点时关闭信号没有收到"
+		],
+		[
+			"为什么关闭信号没有收到？因为Backupclose24伏DO信号在焊枪转动时不稳定"
+		],
+		[
+			"为什么该信号不稳定？因为19芯插头中U号线雌头变形孔径变大"
+		]
+	],
+	"rootCause": "7.为什么 \/Why?",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "对策  \/ Countermeasure:",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "短期\/Short Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "19芯电缆更换插头，重新做头",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "2011.4.1",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "编写针对电信号正常情况下，根据实际故障状态，进行故障判断正确分类并快速解决的一点课程，全员培训",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011.4.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "7",
+				"descr": "生产结束后检查发现19芯插头中U号线雌头变形造成信号不稳定"
+			}
+		],
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "1",
+				"descr": "暂缓更换电磁阀,先查信号线"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "相应变更",
+	"person_ENG": "",
+	"person_GL": "签名及日期 \/Signature & Date:",
+	"person_Manager": ""
+}

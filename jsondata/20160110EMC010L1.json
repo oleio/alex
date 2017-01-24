@@ -1,0 +1,222 @@
+{
+	"fileName": "20160110EMC010L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160110EMC010L1.json",
+	"score": 498,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "20160110 6",
+	"fileNameDate": "20160110",
+	"equipName": "设备名称:  L1焊枪",
+	"breakdownTime": "停机时间：35min",
+	"areaLocation": "停机区域\/点: EMC010",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "35",
+	"lostProductNum": "15",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:   \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查导轨损坏程度，导轨中段下端部分开裂变形；开始准备导轨备件",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查导轨过程中发现导轨滑车滚轮损坏，准备滑车备件",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆卸损坏导轨，由于导轨变形无法正常方法拆卸，使用切割工具直接割断",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "安装新导轨，同时检查导轨内部滑车，对滚轮损坏的滑车同时更换",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "将导轨调试至实际使用位置，恢复焊枪焊接",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC010L1焊枪导轨变形，内部滑车无法移动"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"因为焊枪导轨中断开裂变形"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊枪负载重，滑动行程长，长期使用导轨变形",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "替换焊枪悬挂导轨",
+				"resp": "曹明晓",
+				"supp": "",
+				"compDate": "1\/10\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换导轨内部滑车",
+				"resp": "曹明晓",
+				"supp": "",
+				"compDate": "1\/10\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "统计现场焊枪导轨长距离滑动的使用工位，制定替换周期，EMC L\/R1焊枪导轨设定为8M的替换周期",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "1\/12\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "采购加强型导轨，延长导轨使用寿命",
+				"resp": "黄伟杰",
+				"supp": "",
+				"compDate": "1\/30\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：曹明晓",
+	"person_ENG": "工程师\/ENG.:葛逸飞",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

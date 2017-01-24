@@ -1,0 +1,222 @@
+{
+	"fileName": "20151117_CV11.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151117_CV11.json",
+	"score": 798,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年11月17日21点30分",
+	"fileNameDate": "20151117",
+	"equipName": "设备名称:电机链条",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点:CV11",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "60",
+	"lostProductNum": "35",
+	"plantName": "厂区： SPBS\nPlant",
+	"originator": "填表人\/日期: 陈志剑     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到场，报警复位后，尝试手动操作滑叉TF21，发现不动作。",
+				"lostMin": "3min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "通知控制工程师到场，查看程序发现程序中TF21有输出，但机械上没有动作。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "断电重启MOVIMOT驱动器,仍然无效.",
+				"lostMin": "5min",
+				"success": "x"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将SHUTTLE上产品车人工搬走,手动将LT21下降到低位进行检修.",
+				"lostMin": "10min",
+				"success": "x "
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动操作TF21，观察发现TF21的电机旋转而滑叉不动，链条断裂;去仓库找链条备件，备件在中心需要调拨过来。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "采取临时措施,将损坏的链条截短,重新拼接用螺丝连接;调整电机底座固定位置.",
+				"lostMin": "30min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "工位复位后，恢复正常生产.",
+				"lostMin": "2min",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV11的LT21升降机停在高位，HMI显示TF21超时报警，产品车无法移动到雪橇上方。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么LT21上升到位后HMI报警？因为滑叉TF21没有动作。"
+		],
+		[
+			"为什么LT21升降机上升到位后，滑叉不动作？因为TF21失去驱动力，驱动电机在空转。"
+		],
+		[
+			"为什么TF21叉子失去电机驱动？因为TF21电机的链条断裂。"
+		],
+		[
+			"为什么TF21电机链条断裂？因为TF21驱动链条磨损严重。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "TF21驱动链条磨损严重。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "剪去断裂的电机链条用螺丝连接，调整电机定位，使链条松紧适度。",
+				"resp": "陈烨华",
+				"supp": "滕征",
+				"compDate": "2015.11.17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将TF21电机的断螺丝取出，并重新安装电机，更换新链条。",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "2015.11.22",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对相同类型的设备EMC BUFFER、CV6驱动链条进行检查更换。",
+				"resp": "黄光耀\n曹鸣晓",
+				"supp": "",
+				"compDate": "2015.11.22",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "将LT21下降到低位进行检修，点动操作检查机械传动情况。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 陈烨华",
+	"person_ENG": "工程师\/ENG.: 陈志剑",
+	"person_GL": "工段长\/ GL: 滕征",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

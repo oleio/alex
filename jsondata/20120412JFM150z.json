@@ -1,0 +1,222 @@
+{
+	"fileName": "20120412JFM150z.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120412JFM150z.json",
+	"score": 728,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年4月12日  时  分",
+	"fileNameDate": "20120412",
+	"equipName": "设备名称:机器人激光焊",
+	"breakdownTime": "停机时间：累计影响20min",
+	"areaLocation": "停机区域\/点:   JFM",
+	"maintainTeam": "维修班组：C\/A",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 尹熠俊         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "出现问题的E10白车身下线分析；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查激光焊枪测量系统无法找到焊缝原因，目视发现车顶位置有偏移可能；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拉动工程支持利用激光测量工位检查车顶位置状态，发现车顶偏右；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "在工程指导下微调机器人放车顶位置并在生产支持下跟踪调整效果；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "完成调整后机器人激光焊状态改善，至当班生产结束工作正常；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "夜班结束后的停产时间重新标定BAUMA SENSOR测量系统，改善BAUMA测量系统容错性；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼JFM150工位机器人激光焊枪视频系统、BAUMA SENSOR系统均找不到焊缝"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么激光焊工位焊接出现中断？因为激光焊枪视频系统、BAUMA SENSOR系统均找不到焊缝"
+		],
+		[
+			"为什么激光焊枪视频系统、BAUMA SENSOR系统均找不到焊缝？因为（1）车顶位置存在偏差并且波动（次要原因） （2）BAUMA SENSOR容错性偏小（主要原因）"
+		],
+		[
+			"为什么BAUMA SENSOR容错性偏小？怀疑BAUMA SENSOR传感器长期使用后性能变化"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "怀疑BAUMA SENSOR传感器长期使用后性能变化",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "配合工程调整JFM130机器人抓手车顶放料位置，减小车顶位置偏差，提高焊缝可识别性。",
+				"resp": "周志辉",
+				"supp": "",
+				"compDate": "4\/12\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "重新标定BAUMASENSOR测量系统，提高测量系统容错性。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "4\/14\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同问题处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊 ",
+	"person_ENG": "工程师\/ENG.:周志辉 徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

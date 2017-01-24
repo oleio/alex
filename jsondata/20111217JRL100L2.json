@@ -1,0 +1,222 @@
+{
+	"fileName": "20111217JRL100L2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111217JRL100L2.json",
+	"score": 671,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年12月17日11时16分",
+	"fileNameDate": "20111217",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20MIN",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 张培明樊超杰\n2011-12-17",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "机器人L2焊枪出现焊接故障，维修到现场首先处理，故障再次出现；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查板材配合状态，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "常规检查机器人焊枪状态，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "拉动维修班长和焊接工程师支持，手动操作示教板焊接检查问题原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "发现焊接故障原因是机器人没有收到焊接控制器发出的焊接完成信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "焊接控制器和机器人控制箱关机重起；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "机器人控制箱再次关机重起后工位恢复自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL100工位L2机器人焊接故障，跳点后问题重复出现。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为机器人L2焊接故障"
+		],
+		[
+			"为什么机器人L2焊接故障？因为机器人控制器没有收到焊接控制器发出的焊接完成信号"
+		],
+		[
+			"为什么机器人控制器没有收到焊接控制器发出的焊接完成信号？因为机器人控制器和焊接控制器之间无法交换信号"
+		],
+		[
+			"为什么机器人控制器和焊接控制器之间无法交换信号？因为机器人控制器或焊接控制器“死机”"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人控制器或焊接控制器“死机”",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "焊接控制器和机器人控制器断电重起",
+				"resp": "张培明",
+				"supp": "尹熠俊",
+				"compDate": "11-12-17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "设备故障情况描述及故障处理过程，包括机器人控制器及焊接控制器上电顺序填写一点课程培训维修工，减少故障判断时间。",
+				"resp": "尹熠俊",
+				"supp": "黄俊宇",
+				"compDate": "11-12-27",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修现场处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

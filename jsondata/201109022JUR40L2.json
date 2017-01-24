@@ -1,0 +1,222 @@
+{
+	"fileName": "201109022JUR40L2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\201109022JUR40L2.json",
+	"score": 474,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 9月22日19时  0分",
+	"fileNameDate": "20110902",
+	"equipName": "设备名称:焊枪",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点:JUR",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "22",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator尹熠俊",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JUR40L2焊枪焊接无电流。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查焊机输出正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "发现机器人DRESS插头与插座之间拉弧。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换拉弧的MC插头电极。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JUR40L2焊枪焊接无电流。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JUR40L2焊枪焊接无电流？因为DRESS插头与插座之间拉弧。"
+		],
+		[
+			"为什么机器人DRESS插头与插座之间拉弧？DRESS受力拉伸，造成插头拉弧。"
+		],
+		[
+			"为什么DRESS受力拉伸？机器人轨迹存在不合理地方。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "DRESS插头与插座之间拉弧，无焊接电流。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换损坏的电缆插头。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011.9.20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.优化轨迹，减少DRESS受力。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011.9.20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.检查618区域的机器人运行过程中的DRESS状态，减少DRESS受力。",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.10.4",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:"
+}

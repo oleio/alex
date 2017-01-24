@@ -1,0 +1,222 @@
+{
+	"fileName": "20120529SFI100R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120529SFI100R2.json",
+	"score": 853,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年5月29日09时00分",
+	"fileNameDate": "20120529",
+	"equipName": "设备名称:R2",
+	"breakdownTime": "停机时间：  min",
+	"areaLocation": "停机区域\/点:  SFI100",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  黄俊宇  \nOringinator  2012.5.29",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "插拔机器人控制柜内主板上网络接口多次，并在示教板的以太网界面中反复复位，无效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查交换机上相应端口工作状态，OK，初步确定故障点在控制柜内部网络线；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "找来短线飞过机器人控制柜内部网络线后，在示教板的以太网界面中反复复位，无效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "再次检查之前复位110R2焊机的两个端口，发现其中有一个端口工作指示灯指示没有连接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "用交换机控制箱里面冗余的内部短线替换此接口上的网络线后工作指示灯仍指示没有连接，确定为机器人控制柜到交换机控制柜之间连接的长网络线故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "找来长网络线飞线后100R2以太网通讯恢复。 ",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI100R2焊机以太网报警通过交换交换机上端口复位后，SFI100R2机器人"
+		],
+		[
+			"和焊机以太网通讯报警，且不能复位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么100R2以太网通讯报警？因为没有和交换机端建立连接；"
+		],
+		[
+			"为什么没有和交换机端建立连接？因为网络线路没有正常连接；"
+		],
+		[
+			"为什么网络线路没有正常连接？因为机器人控制柜和交换机控制柜之间的长网络线段有故障；"
+		],
+		[
+			"为什么机器人控制柜和交换机控制柜之间的长网络线段有故障？因为插拔网络线时把接口内部芯线拉断；"
+		],
+		[
+			"为什么插拔网络线时把接口内部线缆拉断？因为此线缆是自制的网络接口，长时间使用后螺纹松动，线缆不能被充分抱紧。"
+		]
+	],
+	"rootCause": "自制网络线的接口，长时间使用后螺纹松动，线缆不能被充分抱紧。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换故障的网络长线",
+				"resp": "张文杰",
+				"supp": "尹熠俊",
+				"compDate": "5\/30\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "上紧所有E-car区域的自制网络接口",
+				"resp": "各班组",
+				"supp": "",
+				"compDate": "6\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "把使用预制网络线缆作为强制规定写入项目要求中，在以后的项目中要求系统集成商只能使用预制网络线缆",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "6\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "",
+				"descr": "跳过2、3步，其他同维修过程"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

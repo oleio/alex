@@ -1,0 +1,222 @@
+{
+	"fileName": "20151211SUR040R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151211SUR040R1.json",
+	"score": 657,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年11月12日11时10分",
+	"fileNameDate": "20151211",
+	"equipName": "设备名称:送钉器",
+	"breakdownTime": "停机时间：12分钟",
+	"areaLocation": "停机区域\/点:SUR040R",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "12",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 费望德    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "SUR040R1小钉NO SOW报警，进工位查看枪头发现枪头没有钉子，重新手动喷钉无效",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拆开送钉器盖板，手动喷钉发现分离闸刀不能回退到位让小钉从滑轨内滑落(如图1所示），进一步检查发现闸刀运行的轨道内有大量飞溅卡阻，致使闸刀在运行时受力导致其与气缸的锁紧螺栓松动",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "先手动喷钉维持生产，待A10过线时调整缩紧螺栓，并优化调整节流阀后恢复生产",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "利用后续A10过线间隙将送钉器内残留的飞溅和螺柱全部取出（如图2所示)，清理送定器内部后重新将清洁的钉子装入送定器内",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR040R1小钉送钉器卡钉"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SUR040R1 NO SOW报警"
+		],
+		[
+			"为什么焊接时枪头无钉"
+		],
+		[
+			"为什么钉子未从送钉器内送至枪头"
+		],
+		[
+			"为什么分离闸刀未回退到位"
+		],
+		[
+			"为什么闸刀和气缸的缩紧螺栓松动"
+		]
+	],
+	"rootCause": "闸刀运行轨道内有飞溅,闸刀运行时受到较大阻力和震动导致闸刀和气缸的缩紧螺栓松动,造成送钉失效",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "微调闸刀和气缸锁紧位置",
+				"resp": "唐萃众",
+				"supp": "",
+				"compDate": "11\/12\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "微调闸刀气缸节流阀",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "11\/12\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "清理送钉器后重新装钉",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "11\/12\/2015",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "编写培训材料,培训生产员工加料的标准化操作流程和注意事项",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "11\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL.:陈烨华",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

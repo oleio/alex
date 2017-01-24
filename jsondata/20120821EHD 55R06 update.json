@@ -1,0 +1,222 @@
+{
+	"fileName": "20120821EHD 55R06 update.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120821EHD 55R06 update.json",
+	"score": 663,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月21日15时00分",
+	"fileNameDate": "20120821",
+	"equipName": "设备名称:55R06",
+	"breakdownTime": "停机时间：累计40min",
+	"areaLocation": "停机区域\/点: 前盖",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄光耀          \nOringinator\/2012.8.21",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "怀疑机器人轨迹跑偏，进入工位检查机器人底座地脚螺栓和烧焊焊缝，没有松动和开裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查两个Gripper停放支架和E11新增滚边胎膜工装地脚螺栓，没有明显松动，但是地脚和底座连接处使用螺栓连接，未烧焊，螺栓明显偏小，怀疑此处有滑动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拧紧所有螺栓，分别调整E10\/E11抓放Gripper轨迹，E11新增滚边胎膜放料轨迹；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"前盖55R06抓放Gripper时碰撞报警，E11新增滚边胎膜放料表面碰伤"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么前盖55R06抓放Gripper时碰撞报警，放E11料时表面碰伤？因为机器人轨迹跑偏；"
+		],
+		[
+			"为什么机器人轨迹跑偏？因为Gripper停放支架和E11新增滚边胎膜工装有相对偏移；"
+		],
+		[
+			"为什么Gripper停放支架和E11新增滚边胎膜工装有相对偏移？因为地脚与底座连接处有滑动；"
+		],
+		[
+			"为什么地脚与底座连接处有滑动？地脚和底座连接处使用螺栓连接，螺栓明显偏小，未烧焊；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "拧紧地脚与底座的连接螺栓；",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "8\/21\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整55R06抓手轨迹。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "8\/21\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "PM时将EHD所有停放支架和工装的地脚与底座连接处烧焊固定",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "9\/3\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

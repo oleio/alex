@@ -1,0 +1,222 @@
+{
+	"fileName": "20120822ESOR2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120822ESOR2.json",
+	"score": 590,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年 8月21日9时  0分",
+	"fileNameDate": "20120822",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator陈烨华",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "8.20夜班ESO R2机器人从11号滑台抓取料时工装上的传感器没有检测到料，临时强制信号维持生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "生产结束后维修进入工位调整R2抓料轨迹。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "6：20维修完成轨迹调整，并通知生产班组长跟踪状态。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOR2 抓取E-11 外板时碰出凹陷"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么ESOR2 抓取E-11 外板时碰出凹陷？因为机器人轨迹发生变化。"
+		],
+		[
+			"为什么机器人轨迹发生变化？因为R2机器人从11号滑台抓取料时工装上的传感器没有检测到。"
+		],
+		[
+			"为什么11号滑台抓取料时工装上的传感器没有检测到？抓手动作时板材被向上提，传感器信号丢失。"
+		],
+		[
+			"为什么抓手动作时板材被向上提，传感器信号丢失？传感器位置安装不合理，有优化的空间。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "传感器安装位置不合理；信息传递有缺失，未能全面跟踪表面质量。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.调整机器人抓料轨迹，恢复PLC强制。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2012.8.22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.维修人员在完成工作后需要及时通知生产调整内容。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2012.8.25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.更改现有的传感器安装位置，使其固定在尾灯的侧面。",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012.9.15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:"
+}

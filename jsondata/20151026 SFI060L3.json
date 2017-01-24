@@ -1,0 +1,222 @@
+{
+	"fileName": "20151026 SFI060L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151026 SFI060L3.json",
+	"score": 820,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年10月26日19时30分",
+	"fileNameDate": "20151026",
+	"equipName": "设备名称:伺服焊枪",
+	"breakdownTime": "停机时间：90分钟",
+	"areaLocation": "停机区域\/点:SFI060L3",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "90",
+	"lostProductNum": "50",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 费望德    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "SFI060L3焊枪静臂处漏水，进工位查看发现漏水处位于ARM和硬连接之间，外部被枪体覆盖，无法确定具体漏水点和漏水原因，尝试采取外部短接水管的方式",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "在准备备件过程中生产反映该焊枪的焊点有虚焊现象，且频次很高。查看焊接编程器发现反馈电流远低于设定值，怀疑焊枪内部有拉弧，准备相关备件",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆开焊枪ARM与硬连接发现连接处有拉弧的痕迹，如图1所示。拆开后发现内部密封圈因拉弧产生的高温而变形,如图2所示。",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "打磨拉弧的硬连接并更换内部密封圈、更换焊枪铝制ARM。如图3",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "全部安装好后焊接时发现铜管静电极杆一侧也有漏水现象，拆下后更换内部密封圈后漏水消除",
+				"lostMin": 15,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "重做焊枪零位，手动焊接正常，检查反馈电流正常，恢复生产",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060L3焊枪静臂处漏水。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪静臂处漏水"
+		],
+		[
+			"为什么焊枪硬连接内密封圈损坏"
+		],
+		[
+			"为什么焊接过程中此处产生大量热量？因为焊枪硬连接和铝制ARM拉弧"
+		],
+		[
+			"为什么焊枪硬连接和铝制ARM拉弧"
+		],
+		[
+			"为什么导电面螺柱松动？供应商到现场调查，给出报告和整改方案"
+		]
+	],
+	"rootCause": "焊枪制造质量缺陷，螺栓松动，导电面发热、拉弧，密封件损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "打磨焊枪硬连接并更换内部密封圈",
+				"resp": "丁伟",
+				"supp": "费望德",
+				"compDate": "10\/27\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换焊枪铝制ARM及接头内密封圈",
+				"resp": "黄光耀",
+				"supp": "钱俊",
+				"compDate": "10\/27\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "当晚要求供应商紧急准备备件，次日现场响应",
+				"resp": "韦孚",
+				"supp": "",
+				"compDate": "10\/28\/2015",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "要求供应商进行原因分析调查并出具报告",
+				"resp": "瞿淼晋",
+				"supp": "钱俊",
+				"compDate": "11\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对其他焊枪进行检查并整改",
+				"resp": "龚伟杰",
+				"supp": "",
+				"compDate": "11\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "电极臂拉弧,需要更换电极臂和导电块；"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "第4步应更换全部密封圈"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL.:黄光耀",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

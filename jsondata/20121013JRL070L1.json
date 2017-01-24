@@ -1,0 +1,222 @@
+{
+	"fileName": "20121013JRL070L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121013JRL070L1.json",
+	"score": 780,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月13日06时30分",
+	"fileNameDate": "20121013",
+	"equipName": "设备名称 中频焊机",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:   JRL070",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  王俊杰      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL070工位HMI报警,发现L1焊机处于断电状态,手动上电后焊机立即跳闸;",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "松开跳闸线圈处的108号线头,上电,依然跳闸,判断为焊机内部故障;",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查隔离接触器及辅助触点,发现隔离接触器处于半吸合状态,手动戳接触器上的吸合开关,发现无法自由伸缩,怀疑接触器内部卡住或者拉弧;",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "拆开隔离接触器盖,发现左侧电缆桩头拉弧,尝试拧松拉弧处电缆螺丝,同时准备新备件;",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "由于拉弧严重,该螺丝无法取出,准备更换备用整机,同时生产启动BACKUP方案;",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换备用整机,上电测试焊接,OK;",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复生产.",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL070L1焊机跳闸,无法上电."
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL70工位HMI报警"
+		],
+		[
+			"为什么L1焊机跳闸"
+		],
+		[
+			"为什么焊机接收到跳闸信号"
+		],
+		[
+			"为什么辅助触点常开"
+		],
+		[
+			"为什么隔离接触器下桩头严重拉弧？因为电缆与隔离接触器桩头直接用螺丝拧紧，容易引起拉弧。"
+		]
+	],
+	"rootCause": "隔离接触器下桩头与电缆直接用螺丝拧紧，造成严重拉弧,致使接触器处于吸合状态,辅助触点常开,反馈跳闸信号给CIOM板,造成焊机上电就跳闸.",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.启用BACKUP焊机，临时维持生产；",
+				"resp": "黄光耀",
+				"supp": "刘少杰",
+				"compDate": "2012\/10\/13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.周末PM时更换隔离接触器，恢复故障焊机。",
+				"resp": "王俊杰",
+				"supp": "",
+				"compDate": "2012\/10\/14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.改进主线区域中频焊机隔离接触器桩头与电缆的连接方式：电缆使用羊眼圈夹紧后与隔离接触器紧固；",
+				"resp": "孙杰",
+				"supp": "焊接组",
+				"compDate": "2012\/11\/20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.评估隔离接触器的使用寿命，如有必要进行批量更换。",
+				"resp": "孙杰",
+				"supp": "焊接组",
+				"compDate": "2012\/11\/20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

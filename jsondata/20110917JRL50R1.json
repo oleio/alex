@@ -1,0 +1,222 @@
+{
+	"fileName": "20110917JRL50R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110917JRL50R1.json",
+	"score": 657,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年9月17日7时0分",
+	"fileNameDate": "20110917",
+	"equipName": "设备名称:机器人焊机",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 谢成侃         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "将机器人开到HOME位置，然后将焊枪放到停枪支架上；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "联系生产实施BACKUP生产并将焊枪般出工位，BYPASS R1机器人后维持生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换焊枪变压器；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "将焊枪放回停枪支架，验证焊枪后恢复生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "跟踪焊枪变压器发热情况，发现变压器温升不正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "拆下硬连接，清理水路后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL50R1机器人E-CAR焊枪变压器低压出线端处硬连接漏水，观察跟踪使用时发生"
+		],
+		[
+			"跳空开现象，联系生产BACKUP生产后更换焊接变压器。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接控制器跳空开？因为焊接变压器初级回路存在短路现象"
+		],
+		[
+			"为什么焊接变压器初级回路存在短路现象？因为焊接变压器初级端子排潮湿"
+		],
+		[
+			"为什么焊接变压器初级端子排潮湿？因为焊接变压器次级端子漏水"
+		],
+		[
+			"为什么焊接变压器次级端子漏水？因为次级硬连接电磁振动"
+		],
+		[
+			"为什么次级硬连接电磁振动？因为次级硬连接较长而且没有直接固定"
+		]
+	],
+	"rootCause": "次级硬连接较长且没有直接固定，导致电磁振动大，引起焊接变压器次级端子冷却管开裂。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换焊接变压器",
+				"resp": "谢成侃",
+				"supp": "陈烨华李颖琛",
+				"compDate": "11-09-17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调查机器人焊接变压器次级硬连接较长情况，拉动供应商资源设计制作硬连接固定支架并实施改进安装。",
+				"resp": "孙杰",
+				"supp": "胡滨",
+				"compDate": "11-12-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华（代）",
+	"person_Manager": "工程师\/ENG.:程超"
+}

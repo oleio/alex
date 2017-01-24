@@ -1,0 +1,222 @@
+{
+	"fileName": "20140106EUB050R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140106EUB050R2.json",
+	"score": 828,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年01月06日09时30分",
+	"fileNameDate": "20140106",
+	"equipName": "设备名称:机器人抓手",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点: EUB050",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "60",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 尹熠俊     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查抓手处D-NET 24V电源线，发现有一T型接头处状态不稳定，更换T型接头和抓手处24V短线,并观察状态；",
+				"lostMin": "10min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "故障重现，再次分段检查判断故障点在新更换的换枪盘R侧DNET24V电源接头处，清洁接头后，故障发生频次减少,恢复自动后发现,抓手抓放料的位置发生偏差;",
+				"lostMin": "30min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "调整E15\/E16三个位置的机器人抓放料姿态，并再次清洁D-NET 24V接头；",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "半小时后跳闸故障重现，更换换枪盘24V电源接头(见上图)。",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "故障清除，恢复工位自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"故障:EUB050R2机器人抓手轨迹不佳，抓放料位置发生偏差。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么24V空开跳闸"
+		],
+		[
+			"为什么24V电源回路中有短路"
+		],
+		[
+			"为什么抓手抓放料位置会不好"
+		],
+		[
+			"为什么机器人抓放料的姿态不理想"
+		],
+		[
+			"为什么机器人抓放料位置J5轴会在死点附近"
+		]
+	],
+	"rootCause": "一、换枪盘24V接头内部针脚脱落触碰外壳导致24V空开跳闸；二、机器人安装位置过低，导致机器人抓放料位置长期处于机器人活动半径的外缘极限位置，直接影响抓放料轨迹的稳定性。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换换枪盘D-Net接头备件",
+				"resp": "陈烨华",
+				"supp": "尹熠俊",
+				"compDate": "2014.01.06",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整机器人抓放料的位置，并备份。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2014.01.06",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "TPM中增加检查机器人抓放GRIPPER时是否顺畅，无明显干涉。检查信号线插针无松动",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2014.1.31",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系ME支持机器人离线仿真，将EUB050R2机器人的底座安装位置适当调整，满足E15\/E16的抓放料的需求",
+				"resp": "黄波",
+				"supp": "ME",
+				"compDate": "2014.5.28",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "调整E15\/E16三个位置的机器人抓放料姿态"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "更换换枪盘24V电源接插件"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL 黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

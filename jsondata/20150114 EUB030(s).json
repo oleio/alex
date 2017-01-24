@@ -1,0 +1,222 @@
+{
+	"fileName": "20150114 EUB030(s).xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150114 EUB030(s).json",
+	"score": 688,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年1月14日",
+	"fileNameDate": "20150114",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：累计60min",
+	"areaLocation": "停机区域\/点: EUB030",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   滕征    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查滑台移动方向是否有异物卡住导致无法移动。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "确认没有异物卡住，检查气路是否工作正常。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "怀疑电磁阀和节流阀存在问题，使用新备件进行替换。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "替换备件后发现滑台还是无法正常打开，搭建测试气路进行试验，发现拔下进气气管再重新接上方能动作。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "造成故障的原因存在于气缸内部，评估更换气缸费时更多，临时手动干预维持生产。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "通过气路改进，降低人工干预的频次，恢复生产节拍。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB030左侧滑台无法打开。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么左侧滑台无法打开？因为气缸工作不正常。"
+		],
+		[
+			"为什么气缸工作不正常？因为气缸刹车单元漏气（导轨和直线轴承状态正常），更换时间长。"
+		],
+		[
+			"为什么排除故障时间长？因为人工操作平台与故障部位重叠，导致维修工作难以开展。"
+		],
+		[
+			"为什么人工操作平台与故障部位重叠？因为项目设计时，对设备的维修需求考虑不全面。"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "1.气缸刹车单元漏气（导轨和直线轴承状态正常）\n2.人工操作平台与故障部位重叠，导致维修工作难以开展,停机时间较长。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时手动干预维持生产；通过气路改进，降低人工干预的频次，恢复生产节拍。",
+				"resp": "王昀",
+				"supp": "夏伟",
+				"compDate": "2015.1.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "非生产日更换气缸。",
+				"resp": "黄光耀",
+				"supp": "夏伟",
+				"compDate": "2015.1.18",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "改进人工平台，方便维修并能保持安全生产。",
+				"resp": "黄光耀\/袁炜",
+				"supp": "",
+				"compDate": "2015.1.18",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹明晓",
+	"person_ENG": "工程师\/ENG.:陈志剑",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20151203JUB0020L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151203JUB0020L1.json",
+	"score": 653,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.12.3.19",
+	"fileNameDate": "20151203",
+	"equipName": "设备名称:JUB020L1",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点:JUB",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "5",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:费望德\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查焊枪硬件无干涉卡阻，气管无漏气、折弯",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "将焊枪调至调整模式后关枪检查，发现气缸有内泄漏现象。调整常压数值后故障仍未消除",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "查找气缸备件发现备件无货，查找整枪备件有货，立即要求东昌紧急拉动至现场",
+				"lostMin": 4,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "等待备件同时尝试开缸更换内部密封圈，更换密封圈后接气管试验，状态OK。恢复生产",
+				"lostMin": 32,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"焊枪焊接完成后打开速度较慢。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接时焊枪打开慢？因为焊枪打开时气缸回退力较小；"
+		],
+		[
+			"为什么焊枪打开时气缸回退力较小？因为气缸内部串气；"
+		],
+		[
+			"为什么气缸内部串气？因为气缸密封圈磨损；"
+		],
+		[
+			"为什么气缸密封圈磨损？因为1.这把枪焊接底板，焊接压力较大，密封圈容易磨损；2.气温较低，气缸内部润滑效果逐渐变差，加速了密封圈的老化磨损；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.该焊枪焊接底板，焊接压力较大，密封圈容易磨损；\n2.温度较低，气缸内部润滑效果逐渐变差，加速了密封圈的老化磨损；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换气缸内磨损的密封圈",
+				"resp": "费望德",
+				"supp": "黄光耀",
+				"compDate": "12\/3\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "举一反三，利用中班结束和停产日对人工焊枪气缸进行专项检查",
+				"resp": "费望德",
+				"supp": "焊接组",
+				"compDate": "12\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "梳理目前东昌无气缸备件的焊枪，分批次进行开缸保养。并根据领用记录优化调整安全库存",
+				"resp": "费望德",
+				"supp": "焊接组",
+				"compDate": "12\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：黄光耀",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

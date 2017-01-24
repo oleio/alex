@@ -1,0 +1,222 @@
+{
+	"fileName": "20110220E11.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110220E11.json",
+	"score": 769,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 2 月 20日10 时30 分",
+	"fileNameDate": "20110220",
+	"equipName": "设备名称:压机",
+	"breakdownTime": "停机时间：80min",
+	"areaLocation": "停机区域\/点:E11RD",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "80",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 黄轶佳      \nOringinator 2012.2.20 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "联机PLC查看输出信号，发觉有输出。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查电磁阀，发觉未接收到输出信号，尝试手动戳阀，阀有动作。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查阀岛模块，发觉24v电源无，更换从前级电源T头至阀岛的电源线，无效。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "尝试从50#工位模块处使用T头飞线至阀岛，依然无电。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "从70#工位阀岛飞线至60#阀岛，阀岛电源有，但是发觉40#和50#阀岛及输出模块无电源。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "检查F3控制柜，发觉电源接触器F454CR未吸合。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "检查线圈24V，正常。手动使接触器吸合后恢复正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E11后门压机报警SAFETY HOOK打开不到位报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SAFETY HOOK打开不到位？因为电磁阀未收到输出信号。"
+		],
+		[
+			"为什么电磁阀未收到输出信号？因为阀岛24V电源无。"
+		],
+		[
+			"为什么阀岛24V电源无？因为F3柜内电源接触器未吸合。"
+		],
+		[
+			"为什么F3柜内电源接触器未吸合？因为接触器卡滞导致未吸合。"
+		],
+		[
+			"为什么排故时间较长？因为现场无24V电源线走向图且F3柜内各电缆标识不清导致对电缆走向排摸时间较长。"
+		]
+	],
+	"rootCause": "接触器机械结构卡滞导致未吸合",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "手动触发接触器使其吸合恢复工作,更换存在问题的接触器.",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "2012.2.22",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "F3柜内各电缆接口粘贴功能说明标识",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "2012.2.22",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "增加接触器状态监控信号，在HMI上增加接触器故障报警。",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "2012.3.1",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "绘制24V走向LAYOUT，以便于快速排故.",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "2012.3.1",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "1、2、6、7"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶佳 尹伟文",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

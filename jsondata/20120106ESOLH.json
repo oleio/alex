@@ -1,0 +1,222 @@
+{
+	"fileName": "20120106ESOLH.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120106ESOLH.json",
+	"score": 543,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年1 月6日14时00分",
+	"fileNameDate": "20120106",
+	"equipName": "设备名称:ESOLH",
+	"breakdownTime": "停机时间：累计25min",
+	"areaLocation": "停机区域\/点: ESOLH 11#滑台",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "25",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期   滕征        \nOringinator    ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修手动操作，不能使滑台返回到位。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "通知控制人员检查程序运行状态，程序输出状态正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "通过工位内的现场实地观察，发现执行电磁阀可以得到正常输出信号，LED灯亮。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "进入工位手动戳阀，滑台可以正常移动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "怀疑电磁阀有问题，更换电磁阀。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复正常运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOLH 11#滑台，在自动工位内无法返回到位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么11#滑台，在自动工位内无法返回到位？因为气缸不动作。"
+		],
+		[
+			"为什么气缸没有动作？因为气路没有切换。"
+		],
+		[
+			"为什么气缸气路没有切换？因为电磁阀没有动作。"
+		],
+		[
+			"为什么电磁阀没有动作？因为电磁阀内部电路故障。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换电磁阀",
+				"resp": "张逸楠",
+				"supp": "陈文佳",
+				"compDate": "2012\/1\/4",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "通过一点课程方式，培训全体维修熟悉各类电磁阀发生类似故障的排故，缩短排故时间。",
+				"resp": "陈文佳",
+				"supp": "陈文佳",
+				"compDate": "2012\/1\/15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：张逸楠（代）",
+	"person_ENG": "工程师\/ENG:滕征（代）",
+	"person_GL": "工段长\/ GL:滕征（代）",
+	"person_Manager": "技术经理\/Tech.Manager:邱正东"
+}

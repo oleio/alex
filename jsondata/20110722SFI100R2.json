@@ -1,0 +1,222 @@
+{
+	"fileName": "20110722SFI100R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110722SFI100R2.json",
+	"score": 570,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年 7月 22日 时  分",
+	"fileNameDate": "20110722",
+	"equipName": "设备名称: 伺服焊枪",
+	"breakdownTime": "停机时间：40",
+	"areaLocation": "停机区域\/点:  SFI100R2",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  王烨 \/7.22       \nOringinator   ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "SFI100R2机器人报警，报碰撞故障，维修进入工位检查发现电极帽粘在板材上",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "用TP手动开枪失效，马达卡死，焊枪打不开",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "打开马达上的闷头，机械调节丝杆后，马达恢复运动",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复生产，上自动，下一辆车又出现相同故障",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "将枪开出工位，更换伺服马达，同时生产使用BACKUP方案",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "更换马达后，恢复生产",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI100R2机器人报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人报警？因为电极帽粘在板材上使机器人无法运动"
+		],
+		[
+			"为什么电极帽粘在板材上？因为焊接时压力不足，造成焊接时接触电阻过大"
+		],
+		[
+			"为什么出现焊接压力不足？因为伺服马达损坏，"
+		],
+		[
+			"为什么伺服马达坏？因为马达内丝杆磨损，造成压力增加出现问题"
+		],
+		[
+			"为什么伺服马达丝杆磨损？因为焊接时飞溅等杂质粘附在丝杆上，丝杆伸缩将其带入内部磨损丝杆内部"
+		]
+	],
+	"rootCause": "伺服马达内部损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换伺服马达",
+				"resp": "王烨",
+				"supp": "",
+				"compDate": "2011.07.22",
+				"status": "100％"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "在马达丝杆伸出端安装防飞溅罩，供应商制作中",
+				"resp": "孙杰",
+				"supp": "王烨",
+				"compDate": "2011.07.31",
+				"status": "50％"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:王烨",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

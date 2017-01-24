@@ -1,0 +1,222 @@
+{
+	"fileName": "20130130ESOL16.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130130ESOL16.json",
+	"score": 583,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1 月30日3时30分",
+	"fileNameDate": "20130130",
+	"equipName": "设备名称:ESOLH",
+	"breakdownTime": "停机时间：累计15min",
+	"areaLocation": "停机区域\/点: ESOLH 16#滑台",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "5",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期  黄波       \nOringinator    ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修手动操作，不能使滑台返回到位。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "查看故障记录信息，发现Devicenet通讯网络中36#模块通讯故障。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "通过工位内的现场实地排查，断开该通讯模块与连接T型接头的线缆后，模块通讯恢复。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "依次重新连接故障发生点T型接头下的通讯分支，恢复37# 41#两个模块的通讯。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOLH 16#滑台，在自动工位内无法返回到位；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么16#滑台在自动工位内无法返回到位？因为推动气缸不动作。"
+		],
+		[
+			"为什么推动气缸没有动作？因为推动气缸控制回路通讯中断。"
+		],
+		[
+			"为什么动气缸控制回路通讯中断？因为通讯电缆插头与T型接头间的插针接触电阻增大，导致通讯传输失败。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.重新插拔通讯电缆接插件，恢复通讯。",
+				"resp": "顾念仁",
+				"supp": "",
+				"compDate": "2013\/1\/30",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.夜班更换通讯T型接头。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "购买通讯网络专用测量工具，通过检测并采集网络终端的电阻数据，提前探测出通讯不良点；",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "2013\/3\/15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：陈烨华",
+	"person_ENG": "工程师\/ENG:刘丰",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager:邱正东"
+}

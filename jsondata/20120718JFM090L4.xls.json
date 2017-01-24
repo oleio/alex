@@ -1,0 +1,222 @@
+{
+	"fileName": "20120718JFM090L4.xls.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120718JFM090L4.xls.json",
+	"score": 928,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月18日6时30分",
+	"fileNameDate": "20120718",
+	"equipName": "设备名称:L4",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: JFM090",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄光耀          \nOringinator\/2012.7.18",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090L4机器人修磨时报警",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看示教板，发现L4停在程序GUN ON ROBOT中等待一个变量信号",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进工位检查停枪支架上的传感器信号和模块,信号正常",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "示教将程序结束,机器人回HOME,再次运行修磨程序,L4仍停留在相同的程序位置",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动示教机器人将换枪盘脱开,检查换枪盘无异常,",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "抓取另一把枪后机器人运行至HOME位置,L4修磨电极帽成功",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "工位恢复自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090L4修磨电极帽时机器人故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么L4机器人报警？因为L4机器人在等待$SGCFG$变量信号为1；"
+		],
+		[
+			"为什么L4机器人在等待$SGCFG$变量信号为0？因为该变量值与实际值不符；"
+		],
+		[
+			"为什么该变量值与实际不符？因为引导程序进入该判断分支的换抢选择寄存器值有误；"
+		],
+		[
+			"为什么换抢选择寄存器值有误？因为停枪支架上的传感器状态在程序进行检测时有误；"
+		],
+		[
+			"为什么停枪支架上传感器状态在程序进行检测时有误？停枪支架上有较多的水和金属灰尘，推测传感器被误触发（更换电极帽时喷出的水）。"
+		]
+	],
+	"rootCause": "停枪支架上有较多的水和金属灰尘，推测传感器被误触发（更换电极帽时喷出的水）。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "手动运行换枪程序通过执行完整程序使寄存器值复位",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "7\/18\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "编写一点课程使每一位成员了解如何判断和处理此故障",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "7\/31\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修改L4机器人的REPAIR位置使其在更换电极帽时水不会溅在停枪支架上",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "7\/31\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090L4机器人修磨时报警"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看示教板，发现L4停在程序GUN ON ROBOT中等待一个变量信号"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进工位检查停枪支架上的传感器信号和模块,信号正常"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查换枪选择寄存器值和枪号变量值是否与实际相符"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "如换枪选择寄存器值有误，更改到实际值后重新重头开始运行当前程序，如果是枪号变量值有误重新Attach该枪"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "示教运行完该修磨程序后工位恢复自动"
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110331JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110331JFM090.json",
+	"score": 871,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年3月31日 18时30 分",
+	"fileNameDate": "20110331",
+	"equipName": "设备名称:GATE",
+	"breakdownTime": "停机时间： 30min",
+	"areaLocation": "停机区域\/点: JFM090",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "30",
+	"lostProductNum": "24",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator顾乐宾     2011.3.31",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位查看GATE锁紧缸状态，发现该气缸未动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "查看锁紧缸感应小铁片状态，无法快速确定其感应状态（空间狭小，无法看清）",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "尝试手动戳阀，锁紧缸仍无动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "查看相关气管走向OK，怀疑控制锁紧缸的电磁阀阀芯卡死，同时东昌寻找备件；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "拆开锁紧缸控制电磁阀，查看阀芯处发现有一颗粒装异物卡在阀芯处，导致阀芯卡死；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "更换新的电磁阀后，手动戳阀动作OK，但左后方感应铁片信号未到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "调整铁片位置，恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090GATE打开时报警 ，“LH GATE CLAMP 1 OPEN NOT MADE”。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么LH GATE CLAMP 1不到位？该锁紧夹头未动作；"
+		],
+		[
+			"为什么该锁紧夹头未动作？控制该锁紧夹头的电磁阀未动作；"
+		],
+		[
+			"为什么电磁阀无动作？电磁阀阀芯处有飞溅卡死；"
+		],
+		[
+			"为什么阀芯处会有异物？气路管道内的飞溅随气流运行至阀芯处，导致卡死阀芯。"
+		],
+		[
+			"为什么气路管道内有异物（飞溅）？怀疑staubli脱开时开放性的接口进入了异物"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换控制电磁阀",
+				"resp": "顾乐宾",
+				"supp": "尹熠俊",
+				"compDate": "2011.3.31",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "查找主线工位内气路消音器及密封件损坏情况",
+				"resp": "TL",
+				"supp": "",
+				"compDate": "2011.5.1",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "系统清洁内外总拼气路杂物。",
+				"resp": "",
+				"supp": "",
+				"compDate": "4月停产期间",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "在该位置加装挡板",
+				"resp": "",
+				"supp": "",
+				"compDate": "5月停产期间",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位查看GATE锁紧缸状态，发现该气缸未动作；"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "尝试手动戳阀，锁紧缸仍无动作；"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "查看相关气管走向OK，怀疑控制锁紧缸的电磁阀阀芯卡死，同时东昌寻找备件；"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "拆开锁紧缸控制电磁阀，查看阀芯处发现有一颗粒装异物卡在阀芯处，导致阀芯卡死；"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换新的电磁阀后，手动戳阀动作OK，但左后方感应铁片信号未到位；"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "调整铁片位置，恢复自动。"
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

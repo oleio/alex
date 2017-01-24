@@ -1,0 +1,222 @@
+{
+	"fileName": "20150331 JFM90GATE(s).xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150331 JFM90GATE(s).json",
+	"score": 1019,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年03月31日",
+	"fileNameDate": "20150331",
+	"equipName": "设备名称:底板工装",
+	"breakdownTime": "停机时间：150min",
+	"areaLocation": "停机区域\/点:JFM090",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "150",
+	"lostProductNum": "95",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  曹鸣晓\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090工位车型切换时UN209-C02 SLID Lockpin不到位，评估设备风险后临时强制Lockpin关闭到位",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "后续该工位工作时，在工位外听到工位内有明显漏气声，协调生产，决定利用更换电极帽时间进入工位检修",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "在后续继续工作时，A10车型多个夹头信号不到位，人工干预后将车放走",
+				"lostMin": 20,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "切换到E-CAR后又发生多个DUMP和夹头动作慢或者不动作，人工干预或强制信号将车放走",
+				"lostMin": 20,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "当滚床上升到位后进入滚床底部查看漏气处，发现一处断头气管，在未知该气管走向及功能的状态下临时将改气管闷住，恢复自动",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "下午工位内发生615车型后部Pinclamp不到位，工位内再次漏气，GATE Y向运行时打开关闭都有卡阻现象，电机变频器报警",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "检查GATE承重轮C型导轨，发现气管漏气后将工位下方的焊渣吹入了C型导轨，导致承重轮在导轨内运行受阻，电机超载变频器报警",
+				"lostMin": 40,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"GATE Y向运行时，打开关闭都有卡阻现象"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么GATE Y向运行时，打开关闭都有卡阻现象？因为C型导轨中有焊渣进入，产生卡滞；"
+		],
+		[
+			"为什么C型导轨中有焊渣进入？因为工位中存在漏气点，将焊渣吹入导轨；"
+		],
+		[
+			"为什么工位中存在漏气点？因为控制工程师评估可以通过强制信号维持生产，但在检查漏气点时触碰了其他气管，导致气管走向变化，与滚床升降动作干涉，被拉脱；"
+		],
+		[
+			"为什么气管走向变化，与滚床升降动作干涉？滚床下部气管过多，容易误触碰。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.滚床下部气管过多，容易误触碰；2.C型导轨容易被焊渣卡滞。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.修复UN209-C02 SLID Lockpin气缸进气管",
+				"resp": "陈佳文",
+				"supp": "佘佳安",
+				"compDate": "4\/1\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.修复615车型后部Pinclamp进气管",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "4\/1\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.清理GATE Y向运行C型导轨内部焊渣",
+				"resp": "黄光耀",
+				"supp": "夏伟",
+				"compDate": "4\/1\/2015",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.简化工装气管线路，避免人员干涉。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "4\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.对GATE C型轨进行防护，避免焊渣进入。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "6\/1\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "检修JFM090工位车型切换时UN209-C02 SLID Lockpin不到位的起因，并彻底恢复"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL 黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

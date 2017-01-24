@@ -1,0 +1,222 @@
+{
+	"fileName": "20140327EUB SHUTTLE.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140327EUB SHUTTLE.json",
+	"score": 879,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年3月27日19时30分",
+	"fileNameDate": "20140327",
+	"equipName": "设备名称:SHUTTLE",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点: EUB",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  曹鸣晓        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动操作SHUTLLE往复，观察发现SHUTTLE导向压轮有纵向窜动现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进一步检查观察，发现电机变速箱组件基座的8个固定螺栓松动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "安全锁定后临时拆除阻碍维修作业的安全围栏，地面盖板；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "狭窄空间中紧固松动的8个M14螺栓；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复安装临时拆除的地面盖板及安全围栏；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"开班生产后EUB SHUTTLE出现多次后退不到位故障。"
+		],
+		[
+			"利用生产轮换吃饭时间"
+		],
+		[
+			"1）修理BYPASS的滑台到位检测传感器（修复）"
+		],
+		[
+			"2）检查滑台后退不到位问题重复发生原因"
+		],
+		[
+			"检修过程中发现往复驱动电机变速箱组件基座8个M14固定螺栓松动"
+		],
+		[
+			"为了防止故障扩大，损坏齿轮齿条驱动机构，马上实施抢修。"
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SHUTTLE多次出现后退不到位故障？因为SHUTTLE后退阻力变大"
+		],
+		[
+			"为什么SHUTTLE后退阻力变大？因为SHUTTLE导向压轮位置在变化"
+		],
+		[
+			"为什么SHUTTLE导向压轮位置在变化？因为安装压轮支架的电机变速箱组件位置在变化"
+		],
+		[
+			"为什么电机变速箱组件位置在变化？因为电机变速箱组件基座的8个M14固定螺栓松动"
+		],
+		[
+			"为什么电机变速箱组件基座的8个M14固定螺栓松动？因为固定电机变速箱组件基座的8个M14螺栓未按规范使用螺纹胶防松"
+		]
+	],
+	"rootCause": "固定电机变速箱组件基座的8个M14螺栓未按规范使用螺纹胶防松，维修缺少紧固件安装规范的培训。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修紧固发生松动的电机变速箱固定螺栓",
+				"resp": "王昀",
+				"supp": "曹鸣晓",
+				"compDate": "3\/28\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "安排非生产时间重新固定电机变速箱并用螺纹胶防止螺栓松动",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "3\/30\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对EMC SHUTTLELINE进行检查。",
+				"resp": "",
+				"supp": "",
+				"compDate": "3\/30\/2014",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更新紧固件安装要求的培训内容，并开展培训考核。",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "4\/10\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:马晓洲（代）",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

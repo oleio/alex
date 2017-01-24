@@ -1,0 +1,222 @@
+{
+	"fileName": "20110820JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110820JFM090.json",
+	"score": 934,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年8月20日 9时00分",
+	"fileNameDate": "20110820",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：累计100min",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "100",
+	"lostProductNum": "70",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  钱俊\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "8.19（周五）早班发现总拼90工位618右后定位销钩销套件损坏，评估风险后，在线跟踪618后部尺寸，数据稳定，暂定周末更换备件。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "但中班visio工位发现后部尺寸出现不稳定情况，为确保产品质量，决定夜班更换该损坏的销套。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "由于系统内车身系统较满，更换销套后，用于验证的车身未能及时下线测量，等到618过visio工位时，部分车辆尺寸报警。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "进总拼90工位检查，发现落车时钩销销套偏前，和底板定位孔有干涉，造成底板没有落到位，底板尺寸偏高，决定暂停618生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "通过分析讨论，这个损坏的钩销主要决定车身高低方向尺寸，因此采用微调定位销的方式借正销子位置。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "采用0.5mm的调整量进行小批量实验，经过3轮调整使落车到位，并通过vision检测，后部尺寸稳定，恢复618正常生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"618后部尺寸波动，调整总拼90工位定位工装。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么618车身尺寸波动？因为底板钩销套件断裂，造成底板高低向波动。"
+		],
+		[
+			"为什么更换套件后尺寸仍不稳定？因为底板和钩销套有干涉,底板没有完全落到底。"
+		],
+		[
+			"为什么底板和钩销套有干涉？因为该定位销前后方向位置发生偏移。"
+		],
+		[
+			"为什么定位销前后方向位置发生偏移？因为雪橇下落对基座冲击不垂直水平面，造成定位基准变形。"
+		],
+		[
+			"为什么雪橇下落对基准冲击不垂直水平面？部分雪橇定位不精准。"
+		]
+	],
+	"rootCause": "定位基准变形，定位销向前偏移1.5mm左右，造成销套和底板孔干涉。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换损坏的钩销套件。",
+				"resp": "黄波",
+				"supp": "夏伟",
+				"compDate": "2011.8.20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.标定该钩销的位置，并恢复到零位。",
+				"resp": "顾晓君",
+				"supp": "",
+				"compDate": "2011.8.21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.跟踪该钩销前后方向位置两周。",
+				"resp": "吴丁磊",
+				"supp": "",
+				"compDate": "2011.9.6",
+				"status": "2\/4\/2011"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.对车间所有雪橇进行标定。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2011.9.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.重新制定总拼90等GEO工位定位销标定计划并实施。",
+				"resp": "沈建伟",
+				"supp": "",
+				"compDate": "2011.9.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.落实定位销以及销套点检责任人。",
+				"resp": "邱正东",
+				"supp": "",
+				"compDate": "2011.9.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:顾晓君"
+}

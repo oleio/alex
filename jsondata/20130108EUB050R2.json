@@ -1,0 +1,222 @@
+{
+	"fileName": "20130108EUB050R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130108EUB050R2.json",
+	"score": 607,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年01月08日22时30分",
+	"fileNameDate": "20130108",
+	"equipName": "设备名称:R2焊枪连接板",
+	"breakdownTime": "停机时间：5H",
+	"areaLocation": "停机区域\/点:EUB",
+	"maintainTeam": "维修班组：C\/A班",
+	"lostTime": "5",
+	"lostProductNum": "150",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 沈建伟        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "EUB050R2焊枪连接板断裂，将焊枪吊起移出工位；（1H)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拆卸焊枪支架和机器人6轴处连接板，氩弧焊烧焊连接板；（1.5H)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "安装焊枪支架，更换受损信号线；（1H)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "示教焊枪轨迹，抓GRIPPER时发现烧焊处还有裂缝（冷却后产生），重新加固烧焊；（1H)",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "安装后示教E-CAR抓料和焊接轨迹；（0.5H)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "确认状态正常后恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB050R2焊枪连接板断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么EUB050工位停止运行？因为R2焊枪连接板断裂；"
+		],
+		[
+			"为什么R2焊枪连接板断裂？因为支架受力较大，铝板焊接处撕裂；"
+		],
+		[
+			"为什么铝板焊接处撕裂？因为铝板焊接处单面烧焊，长期运行受力撕裂；"
+		],
+		[
+			"为什么铝板焊接处单面烧焊？因为支架设计不合理；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "R2焊枪支架设计不合理导致长期运行后断裂",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "氩弧焊烧焊焊枪支架，调整焊点",
+				"resp": "黄光耀",
+				"supp": "A班",
+				"compDate": "2013.1.9",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "重新制作焊枪支架并改进连接方式，进行更换",
+				"resp": "沈建伟",
+				"supp": "",
+				"compDate": "2013.1.20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查自动工位焊枪支架状态并进行改进",
+				"resp": "孙杰",
+				"supp": "沈建伟",
+				"compDate": "2013.2.17",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上1、2、3、5步骤。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

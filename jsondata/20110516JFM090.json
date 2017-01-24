@@ -1,0 +1,222 @@
+{
+	"fileName": "20110516JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110516JFM090.json",
+	"score": 579,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年5月16日17时 10分",
+	"fileNameDate": "20110516",
+	"equipName": "设备名称:GATE",
+	"breakdownTime": "停机时间：20 min",
+	"areaLocation": "停机区域\/点: JFM090",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator顾乐宾     2011.05.16",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "工位HMI报警GATE变频器故障，变频器故障复位后尝试手动将GATE开到L20，变频器再次报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位放掉马达刹车，手动盘马达仍无法动作，确认机械有卡滞；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "寻找GATE下方滚轮缝隙出异物，发现在GATE前部导向轮下方有一8MM*25MM的螺柱；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "尝试用凿子将螺丝取出，未能成功",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "将GATE下方的保护HALF松开，用翘棒将GATE顶起，将异物取出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "手动将GATE开到位后恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090GATE切换时报警停止：work位置－>L20"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么变频器报警？变频器有过载；"
+		],
+		[
+			"为什么会有过载？GATE导轨下方有异物；"
+		],
+		[
+			"为什么会有异物？8mm螺拴卡死"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "GATE下方滚轮处有异物卡住（8MM螺栓）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "取出卡住的螺柱",
+				"resp": "A班",
+				"supp": "",
+				"compDate": "20110516",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查所有Gate工装紧固螺栓",
+				"resp": "A班",
+				"supp": "工程",
+				"compDate": "2011\/5\/27",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "尝试在导轨凹槽处加装简易清灰装置（PM验证可行性）",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "20110527",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "1-2-3-5-6"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:刘丰"
+}

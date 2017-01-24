@@ -1,0 +1,222 @@
+{
+	"fileName": "20150518ESOR6-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150518ESOR6-Y.json",
+	"score": 657,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年5月18日7时30分",
+	"fileNameDate": "20150518",
+	"equipName": "设备名称: ESOR6",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点: ESO",
+	"maintainTeam": "维修班组： B",
+	"lostTime": "60",
+	"lostProductNum": "35",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 吴梦杰 15\/5\/18\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "R6抓枪过程中发生报警，进入工位检查发现工具侧换枪盘上的模块支架断裂，导致模块移位；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "现场拆卸已经损坏的工具侧换枪盘，东昌现场库领用备件；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换Walther 工具侧换枪盘整盘；",
+				"lostMin": 25,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "初步调整机器人DRESS套管工作状态。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOR6 工具侧换枪盘模块支架断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人抓枪过程中发生报警？ 因为机器人换枪盘接插件没有结合"
+		],
+		[
+			"为什么机器人换枪盘接插件没有结合？ 因为换枪盘上接插件模块脱落"
+		],
+		[
+			"为什么换枪盘上接插件模块脱落"
+		],
+		[
+			"为什么换枪盘上的接插件安装卡槽断裂？因为换枪盘切换110万次，超过使用寿命，未能及时更换（换枪盘使用寿命为100万次）"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因为换枪盘切换110万次，超过使用寿命，未能及时更换（换枪盘使用寿命为100万次）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "捆扎调整DRESS套管，避免套管擦碰接插件模块。",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "5\/18\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "当日生产结束后调整DRESS套管长度与姿态",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "5\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换同批次的换枪盘(回用项目改造多余换枪盘)",
+				"resp": "吴梦杰\n何文泽",
+				"supp": "陈烨华 黄光耀 曹鸣晓",
+				"compDate": "5\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "新项目避免机器人单个CT切换工具的工艺规划",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "5\/25\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:吴梦杰",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

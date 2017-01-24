@@ -1,0 +1,380 @@
+
+
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="/js/jquery2.03.min.js"></script>
+        <link href="/stylesheets/report.css" rel="stylesheet" type="text/css">
+
+
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <!--<div class="col-md-2">-->
+                        <!--<img src="/images/logo.png" class="img-responsive">-->
+                    <!--</div>-->
+                    <div class="col-md-12 text-center">
+                        <h1>故障报告</h1>
+                        <!--<h1>SPBS设备停机报告</h1>-->
+                        <!--<h4>SPBS EQUIPMENT BREAK DOWN REPORT</h4>-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="col-md-12">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">装备编号:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" type="text" value={{codeNo}}>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">发生日期和时间:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1"  type="text" value={{downtimeDate}}>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="col-md-12">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">装备名称:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" placeholder="机运线滚床" type="text" id="equipName" value={{equipName}}>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">维修班组:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" value={{maintainTeam}} type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="col-md-11">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">单位:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" value={{areaLocation}} type="text">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">责任人:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" value={{originator}} type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+                        <div class="col-md-12">
+                            <h4 contenteditable="true">故障现象和故障问题的描述:
+                            </h4>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" value={{faultDescription.[0].[0]}} >
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control" id="inputEmail3"
+ value={{faultDescription.[1].[0]}}     >
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" value={{faultDescription.[2].[0]}} >
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" value={{faultDescription.[3].[0]}} >
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" value={{faultDescription.[4].[0]}} >
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" value={{faultDescription.[5].[0]}} >
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" value={{faultDescription.[6].[0]}} >
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" value={{faultDescription.[7].[0]}} >
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" value={{faultDescription.[8].[0]}} >
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="col-md-10">
+                    <h4 contenteditable="true">修理步骤 (记下维修过程中的实际步骤):</h4>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-1">
+                                <label for="inputEmail3" class="control-label">1</label>
+                            </div>
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" id="inputEmail3" value={{troubleShooting.[0].[0].descr}}>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-1">
+                                <label for="inputEmail3" class="control-label">2</label>
+                            </div>
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" id="inputEmail3" value={{troubleShooting.[1].[0].descr}}>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-1">
+                                <label for="inputEmail3" class="control-label">3</label>
+                            </div>
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" id="inputEmail3" value={{troubleShooting.[2].[0].descr}}>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-1">
+                                <label for="inputEmail3" class="control-label">4</label>
+                            </div>
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" id="inputEmail3" value={{troubleShooting.[3].[0].descr}}>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-1">
+                                <label for="inputEmail3" class="control-label">5</label>
+                            </div>
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" id="inputEmail3" value={{troubleShooting.[4].[0].descr}}>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-1">
+                                <label for="inputEmail3" class="control-label">6</label>
+                            </div>
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" id="inputEmail3" value={{troubleShooting.[5].[0].descr}}>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-1">
+                                <label for="inputEmail3" class="control-label">7</label>
+                            </div>
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" id="inputEmail3" value={{troubleShooting.[6].[0].descr}}>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <h4 contenteditable="true">正确路径:</h4>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" value={{correctPath.[0].[0].descr}}>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" value={{correctPath.[1].[0].descr}}>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" value={{correctPath.[2].[0].descr}}>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" value={{correctPath.[3].[0].descr}}>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" value={{correctPath.[4].[0].descr}}>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" value={{correctPath.[5].[0].descr}}>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" value={{correctPath.[6].[0].descr}}>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" value={{correctPath.[7].[0].descr}}>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" value={{correctPath.[8].[0].descr}}>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 contenteditable="true">故障原因评估</h4>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">操作失误</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">程序漏洞</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">老化磨损</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">备件质量</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">设计缺陷</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">使用不当</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">维修不当</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">TPM/PM缺陷</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">公用动力</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">经验教训报告</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>

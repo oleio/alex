@@ -1,0 +1,222 @@
+{
+	"fileName": "20120425JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120425JFM090.json",
+	"score": 564,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年04月25日17时  分",
+	"fileNameDate": "20120425",
+	"equipName": "设备名称:OPENGATE\/GRIPPER",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点:  JFM090",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  佘佳安        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "发现GRIPPER安装到位限位开关没有动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进入工位检查限位开关没有动作原因，发现摆球位置变化，无法使限位开关可靠动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "反复调整摆球位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90工位过618车型时后围板不到位，手动操作机器人GRIPPER后退，后围"
+		],
+		[
+			"板重新安装后设备无法运行，发现GRIPPER安装到OPENGATE上的检测开关没"
+		],
+		[
+			"有动作。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么后围板重新安装后工位无法恢复自动运行"
+		],
+		[
+			"为什么OPENGATE上的限位开关没有检测到GRIPPER锁紧到位"
+		],
+		[
+			"为什么限位开关没有被摆球可靠压到动作"
+		],
+		[
+			"为什么摆球位置无法一次调整到位"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "摆球,限位开关，锁紧动作块三者配合动作余量过小。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "反复调整摆球位置使限位开关可靠动作",
+				"resp": "佘佳安",
+				"supp": "",
+				"compDate": "4\/25\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制作新“摆球”并改进外形，使“摆球”位置有一定的容错",
+				"resp": "黄光耀",
+				"supp": "胡滨",
+				"compDate": "5\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "，提高限位开关动作的可靠性。",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

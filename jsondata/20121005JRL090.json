@@ -1,0 +1,222 @@
+{
+	"fileName": "20121005JRL090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121005JRL090.json",
+	"score": 528,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月5日  时  分",
+	"fileNameDate": "20121005",
+	"equipName": "设备名称:机械滑台",
+	"breakdownTime": "停机时间：22min",
+	"areaLocation": "停机区域\/点:  JRL",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "22",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:曹鸣晓          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场检查滑台卡住原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "维修2人配合，一人在平台下观察，一人在平台上尝试推动滑台运动找到故障点；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "发现滑台后退死挡块固定螺栓断裂，平台花纹板部分固定螺栓松动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将位置变化的后退死挡块恢复到正确位置，紧固花纹板固定螺栓；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "将后退死挡块焊接固定；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼补焊线JRL90工位右侧滑台机械结构卡住，无法前后滑动。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么手动滑台前后无法推动"
+		],
+		[
+			"为什么滑台花纹板与滑轨基座相摩擦"
+		],
+		[
+			"为什么滑台花纹板向下塌陷"
+		],
+		[
+			"为什么滑台后退死挡块位置变化"
+		],
+		[
+			"滑台后退死挡块固定螺栓全部断裂"
+		]
+	],
+	"rootCause": "人力拉动滑台后退时冲击较大,后退死挡块无缓冲结构。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将滑台后退死挡块焊死，平台花纹板反面加固。",
+				"resp": "曹鸣晓",
+				"supp": "陈烨华",
+				"compDate": "10\/6\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "JRL090滑台后退死挡块增加缓冲尼龙块",
+				"resp": "曹鸣晓",
+				"supp": "马晓洲",
+				"compDate": "10\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓（代）",
+	"person_ENG": "工程师\/ENG.:马晓洲（代）",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager:邱正东"
+}

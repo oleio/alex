@@ -1,0 +1,222 @@
+{
+	"fileName": "20130125EHDR10.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130125EHDR10.json",
+	"score": 1115,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年01月25日06时20分",
+	"fileNameDate": "20130125",
+	"equipName": "设备名称:R06机器人",
+	"breakdownTime": "停机时间：累计120min",
+	"areaLocation": "停机区域\/点:EHD050",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "120",
+	"lostProductNum": "80",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  尹熠俊        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "早早班维修人员将机器人开至安全位置更换破损的主气管，关闭气源操作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "更换气管后，未打开气源，手动操作机器人将E11抓手抓起回HOME；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "打开机器人主气源后E11抓手掉落至地面，抓手支架断裂、真空阀损坏；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "用机器人重新将GRIPPER抓起，将断裂的支架烧焊恢复，更换损坏的真空阀；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "示教E10 GRIPPER抓放轨迹，调整感应加热位置的损坏支架；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "示教E11两个胎膜和感应加热位置的GRIPPER抓放轨迹；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "验证完毕后恢复自动生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"前盖R6机器人更换主气管，更换后气源未打开；手动示教机器人去抓E11"
+		],
+		[
+			"GRIPPER，因NITTA换枪盘具有弹簧复位能力，抓好GRIPPER后信号都正常，"
+		],
+		[
+			"随后将机器人开到HOME位置，发现气源未打开，打开气源后换枪盘切换到"
+		],
+		[
+			"UNLOCK状态，GRIPPER跌落"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么要对E11 GRIPPER整形、示教轨迹？因为E11 GRIPPER掉落损坏，造成支架变形；"
+		],
+		[
+			"为什么E11 GRIPPER掉落？因为E11 GRIPPER在HOME位置开气，但电磁阀在UNLOCK位置；"
+		],
+		[
+			"为什么电磁阀在UNLOCK位置？因为机器人取GRIPPER时气源未打开，虽然有LOCK信号，但先导阀没气源，电磁阀阀芯仍处于UNLOCK状态；"
+		],
+		[
+			"为什么气源未打开机器人能取GRIPPER？因为NITTA换枪盘带有弹簧复位，无气源的状态下处于LOCK状态，可以取GRIPPER，且信号正常；在HOME位置开气时，24V LOCK信号处于失电状态，此时阀芯在UNLOCK状态，开气后换枪盘切换到UNLOCK，GRIPPER掉落；"
+		],
+		[
+			"为什么气源未打开？操作人员操作失误，且没能评估到设备风险；"
+		]
+	],
+	"rootCause": "设备修复后未及时打开气源，且设备安全系统存在漏洞导致GRIPPER掉落损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "恢复抓手上损坏部件并调整变形支架，验证抓放料轨迹",
+				"resp": "黄光耀",
+				"supp": "尹熠俊",
+				"compDate": "2013.01.25",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "通报三班维修必须在安全位置（抓放位置）开关NITTA换枪盘气源",
+				"resp": "沈建伟",
+				"supp": "黄光耀、陈烨华、曹鸣晓",
+				"compDate": "2013.01.25",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "在机器人换枪盘处增加换枪气源的单向阀，确保换枪盘锁紧状态的可靠性",
+				"resp": "尹熠俊",
+				"supp": "黄俊宇",
+				"compDate": "2013.02.13",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "关闭R10机器人气源，将机器人开至安全位置更换破损的主气管；"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "打开机器人主气源，并将机器人开回至HOME位置。"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:尹熠俊",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

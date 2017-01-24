@@ -1,0 +1,222 @@
+{
+	"fileName": "20120805JRL050L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120805JRL050L1.json",
+	"score": 687,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月5日18时50分",
+	"fileNameDate": "20120805",
+	"equipName": "设备名称:L1焊枪",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:JRL050",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "15",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄智君        \nOringinator 2012.8.5",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL050L1无电极帽焊接，关水进工位查看，发现电极帽在修磨器上；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看电极杆，电极杆锥度损坏，电极帽不能正常安装；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换电极杆并检查WATERSAVE状态，发现WATERSAVE单向阀关不断；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "安装电极帽后恢复生产，生产结束后更换单向阀。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL050L1电极帽修磨时掉落，WATERSAVE未起作用，焊枪无电极帽焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪无电极帽焊接？因为电极帽在修磨时脱落；"
+		],
+		[
+			"为什么电极帽在修磨时脱落？因为电极杆锥度不好导致电极帽安装不牢固；"
+		],
+		[
+			"为什么电极杆锥度不好？因为电极杆长期使用后磨损导致锥度不好；"
+		],
+		[
+			"为什么电极帽脱落WATERSAVE未报警？因为WATERSAVE失效，单向阀无法关断；"
+		],
+		[
+			"为什么单向阀无法关断？因为单向阀卡住导致无法关断（循环水有杂质）；"
+		]
+	],
+	"rootCause": "1、电极杆锥度不好导致电极帽修磨时脱落；                                       2、WATERSAVE单向阀无法关断造成焊枪无电极帽焊接；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更坏损坏的电极杆",
+				"resp": "黄智君",
+				"supp": "",
+				"compDate": "8\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换单向阀",
+				"resp": "王昀",
+				"supp": "",
+				"compDate": "8\/6\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "每周非生产日定期对主线工位进行循环水放水并检查水质",
+				"resp": "孙杰",
+				"supp": "B&U",
+				"compDate": "8\/19\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃",
+	"person_ENG": "工程师\/ENG.:王烨",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

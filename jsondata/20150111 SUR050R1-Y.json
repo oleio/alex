@@ -1,0 +1,222 @@
+{
+	"fileName": "20150111 SUR050R1-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150111 SUR050R1-Y.json",
+	"score": 1038,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年1月11日14时0分",
+	"fileNameDate": "20150111",
+	"equipName": "设备名称:焊接机器人",
+	"breakdownTime": "停机时间：47min",
+	"areaLocation": "停机区域\/点: SUR",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "75",
+	"lostProductNum": "50",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:钱毅吉        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动操作机器人，试图解脱电机对DRESS套管的勾拉，失败；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查示教板显示信息，G2A1 DTERR报警，拉动机器人工程师支持共同对当前编码器数据拍照，机器人断电重启；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "修改 TEST CYCLE设置，DISABLE机器人#7轴，将机器人开到可维修位置，拆除#7轴伺服电机编码线、电源线，然后使电机解脱对机器人DRESS套管的勾拉；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "配合生产开始BACKUP生产，BYPASS R1机器人后恢复设备运行；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "修理机器人DRESS，更换套管球头、抱箍，整修接长DRESS套管，恢复#7轴伺服编码器电缆及电源接线后重启机器人，发现SRVO 359 DCS报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换伺服编码器电缆及伺服电源电缆后重启机器人，多个SRVO （359-365）DCS报警依次出现，查对维修手册并寻求支持，现场多次断电重启后故障消失，",
+				"lostMin": 22,
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "示教检查机器人DRESS工作状态后恢复设备正常运行；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR50工位故障停止，维修到现场检修时发现机器人DRESS套管球头从"
+		],
+		[
+			"DRESS抱箍拉出，松脱的DRESS套管钩住机器人2#轴电机。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人R1停止焊接"
+		],
+		[
+			"为什么机器人G2 A1 DTERR报警"
+		],
+		[
+			"为什么机器人伺服编码器电缆\/电源电缆被拉坏"
+		],
+		[
+			"为什么机器人DRESS套管勾在#2轴电机上"
+		],
+		[
+			"为什么机器人DRESS套管球头从DRESS抱箍中拉出"
+		]
+	],
+	"rootCause": "（1）DRESS套管经多次修理，套管长度变短，导致球头抱箍连接处受拉过度。（2）套管修理完成后机器人出现多个SRVO DCS报警，无法复掉故障报警导致停机时间加长。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修理DRESS套管，恢复设备正常运行。",
+				"resp": "黄智君",
+				"supp": "",
+				"compDate": "1\/11\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查车间内带弹簧管机器人DRESS套管可拉伸长度并根据机器人工作情况判断是否状态正常",
+				"resp": "陈烨华曹鸣晓黄光耀",
+				"supp": "",
+				"compDate": "1\/18\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制订DRESS套管修理MTS，指导规范现场维修人员DRESS套管修理工作",
+				"resp": "钱毅吉",
+				"supp": "黄俊宇",
+				"compDate": "1\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "研究SRVO DCS报警原因并确定快速复位方法",
+				"resp": "钱毅吉",
+				"supp": "黄俊宇",
+				"compDate": "6\/1\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "步骤4\/步骤5，DRESS套管修理完成后应马上完成复位，恢复机器人正常运行"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄智君（代）",
+	"person_ENG": "工程师\/ENG.钱毅吉",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120908ESOL010.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120908ESOL010.json",
+	"score": 545,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年  09月08  日15  时 22 分",
+	"fileNameDate": "20120908",
+	"equipName": "设备名称:气缸夹头",
+	"breakdownTime": "停机时间：14min",
+	"areaLocation": "停机区域\/点:  ESOL10",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "14",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马安椲         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "ESOL010在做E11时手动夹头无法关闭",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "将料重新取出并REST cycle，且通知控制工程师",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "重新上料后仍无法关闭，检查打开信号无，打开气源无，手动翻动夹头发现卡死。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "松动夹头关节处，并敲击到位。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "故障消除工位回复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOL010 E11 UNIT215 C02 手动夹头打开卡死"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工装无法动作？因为un215夹头无法关闭动作。"
+		],
+		[
+			"为什么夹头无法关闭？因为夹头与气缸连接处卡死。"
+		],
+		[
+			"为什么夹头卡死？因为夹头打开速度过快导致夹头冲击过大产生间隙与气缸干涉。"
+		],
+		[
+			"为什么夹头打开速度过快？因为气缸节流阀碰撞损坏,气缸速度处于最大状态。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "节流阀碰撞损坏，夹头打开速度快冲击过大。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "松动夹头关节处，并敲击到位。",
+				"resp": "马安伟",
+				"supp": "陈烨华",
+				"compDate": "12.09.08",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换节流阀后，加装保护盖防止再次碰撞损坏。",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "12.09.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

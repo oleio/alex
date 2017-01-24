@@ -1,0 +1,222 @@
+{
+	"fileName": "20110512JFM120.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110512JFM120.json",
+	"score": 513,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年5月12日 时 分",
+	"fileNameDate": "20110512",
+	"equipName": "设备名称:工装夹具",
+	"breakdownTime": "停机时间：11MIN",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "11",
+	"lostProductNum": "5",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 顾乐宾\n2011-5-12",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位检查发现UNIT204C03钩销打开信号常亮；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "拆下气缸传感器，发现传感器在没有感应金属的情况下OPEN信号常ON；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换传感器，调整打开关闭信号动作点；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120工位故障，进入工位检查发现UNIT204C03钩销打开信号常亮。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为UNIT204C03钩销打开信号常ON报警"
+		],
+		[
+			"为什么UNIT204C03钩销打开信号常ON报警？因为气缸磁感应器打开传感器没有感应金属也会ON"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"为什么气缸磁感应器打开传感器没有感应金属也会ON？因为传感器损坏（电气损坏，外观无损伤，应为器件质量问题）"
+		]
+	],
+	"rootCause": "传感器器件质量问题造成的电气失效",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换失效的气缸磁感应器",
+				"resp": "顾乐宾",
+				"supp": "章逸楠",
+				"compDate": "11-05-12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "无（个别传感器器件质量问题造成的电气失效）",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "通故障处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

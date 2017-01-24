@@ -1,0 +1,222 @@
+{
+	"fileName": "20130207JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130207JFM090.json",
+	"score": 839,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年2月7日 16时30分",
+	"fileNameDate": "20130207",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：累计60min",
+	"areaLocation": "停机区域\/点: JFM090",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄光耀                   \nOringinator 2013.2.7",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090 618车型UN238C01定位销关闭不到位，进工位敲击；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "待工序完成后，UN238C01定位销打开再次报警，进工位敲击；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "连续3辆车子出现同类问题后，通知工程到现场查看；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进工位查看此定位销气缸，发现此DUMP STOP定位块未完全贴合；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "怀疑仪表板总成开档与DUMP上定位块干涉，手动戳阀并人为下压将此DUMP关闭到位，定位销戳阀关闭到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "UN238C01再次报警，进工位手动将此DUMP上的夹头打开，手动将DUMP打开，用力摇动此DUMP；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "发现DUMP方钢有图示开裂，将GATE移至BUFFER位置，进行烧焊，工程调整此DUMP。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090 618 仪表板UN238C01定位销关闭和打开不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM090工位停止工作？因为618仪表板U238报警关闭不到位；"
+		],
+		[
+			"为什么U238关闭不到位？因为摆臂位置偏差导致关闭时与仪表板干涉；"
+		],
+		[
+			"为什么摆臂位置偏差？因为摆臂方管连接处开裂；"
+		],
+		[
+			"为什么摆臂方管连接处开裂？因为摆臂本体负荷较大，与仪表板配合的位置受力大，长期工作后疲劳导致开裂；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "摆臂本体负荷大，长期工作后疲劳导致开裂",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "在线烧焊并进行调整",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2\/7\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班检查摆臂状态，并对其它GATE进行检查",
+				"resp": "陈烨华",
+				"supp": "马安颹",
+				"compDate": "2\/8\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对GATE摆臂连接处进行加固处理",
+				"resp": "黄光耀",
+				"supp": "A\/D班",
+				"compDate": "3\/3\/2013",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "优化JFM090 GATE切换状态，制定GATE安全检修区域，可以在线进行GATE的检查(完善检查要求）",
+				"resp": "沈建伟",
+				"supp": "尹伟文",
+				"compDate": "3\/3\/2013",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "维修过程同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 黄光耀",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

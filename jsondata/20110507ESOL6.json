@@ -1,0 +1,222 @@
+{
+	"fileName": "20110507ESOL6.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110507ESOL6.json",
+	"score": 696,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 4月7日  时  分",
+	"fileNameDate": "20110507",
+	"equipName": "设备名称:换枪盘",
+	"breakdownTime": "停机时间：60",
+	"areaLocation": "停机区域\/点:ESO",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "60",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 黄光耀\n2011-5-7",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "ESOL6 D-NET通讯故障，断电复位后再次报警",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进工位检查外部电缆，未发现异常状况，整理后恢复设备运行，故障仍然出现；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查换枪盘D-NET针头，发现T侧有一根针头有拉弧迹象，更换后仍然有通讯故障出现；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查换枪盘机械结构，发现机器人侧和工具侧结合状态不理想；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换换枪盘结合机构的3根横销后设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "当日生产结束后另行更换换枪盘结合卡爪和通讯插针；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOL6　DEVICENET通讯故障（33#34#36#)"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人L6故障？因为D-NET通讯报警（33,34,36)"
+		],
+		[
+			"为什么D-NET通讯报警?因为换枪盘通讯接插件接触不良"
+		],
+		[
+			"为什么换枪盘通讯接插件接触不良？因为换枪盘机器人侧和工具侧结合不稳固"
+		],
+		[
+			"为什么换枪盘机器人侧和工具侧结合不稳固？因为换枪盘抓紧结构机械磨损"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "换枪盘抓紧结构机械磨损",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换换枪盘结合机构的3根横销",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2011.5.7",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换换枪盘结合卡爪和通讯插针",
+				"resp": "袁伟",
+				"supp": "",
+				"compDate": "2011.5.8",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "ABC维修班组检查PM承包区域NITTA换枪盘结合状态，更换",
+				"resp": "黄波",
+				"supp": "胡滨",
+				"compDate": "2011.5.15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "结合机构过度磨损的卡爪和横销",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "定期抽查班组换枪盘PM检查工作质量",
+				"resp": "徐啸顺",
+				"supp": "马晓洲",
+				"compDate": "长期工作",
+				"status": "1\/4"
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "更换换枪盘结合机构的3根横销"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "更换换枪盘结合卡爪"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

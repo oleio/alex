@@ -1,0 +1,222 @@
+{
+	"fileName": "20150117_JRL070R3-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150117_JRL070R3-Y.json",
+	"score": 780,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年1月17日",
+	"fileNameDate": "20150117",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：累计90min",
+	"areaLocation": "停机区域\/点: JRL070",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "90",
+	"lostProductNum": "60",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   滕征    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "复位无效，断电重启后，显示故障点在2#轴。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查现场情况，根据2#轴伺服电机插头现象判断 ，电机存在问题。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "由于机器人所处位置特殊，直接更换电机存在很大安全风险；手动示教异常困难，费时较多。",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "经过多次努力设法将机器人从车体内移出，固定住机器人的本体，防止意外安全事故发生。启动生产BACKUP方案。",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换故障伺服电机。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "做零位，确认焊点位置，恢复生产。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"R3机器人焊接车身时有碰撞报警，后又出现SRVO18 brake abnormal报警信息。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R3机器人焊接车身时有碰撞报警？因为2#轴电机刹车没有释放。"
+		],
+		[
+			"为什么2#轴电机刹车没有释放？因为伺服电机内部出现问题。"
+		],
+		[
+			"为什么伺服电机内部出现问题？因为伺服电机刹车回路短路。"
+		],
+		[
+			"为什么？为什么伺服电机刹车回路短路？电机进水腐蚀接头。"
+		],
+		[
+			"为什么？为什么电机进水腐蚀接头？1.电机热胀冷缩内部形成负压；\n                                               2.电机的IP（IP65）等级不够，未考虑对此接头防护。"
+		]
+	],
+	"rootCause": "1.电机热胀冷缩内部形成负压；\n2.电机的（IP65）等级不够，未考虑对此电机接头防护。（IP65：完全防止灰尘进入，用水冲洗无任何伤害）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "移到安全位置，更换电机。",
+				"resp": "王昀",
+				"supp": "夏伟",
+				"compDate": "2015.1.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制作2#轴防护盖板的图纸。",
+				"resp": "何文泽",
+				"supp": "胡滨",
+				"compDate": "2015.1.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "采购备件，并制定更换计划实施。",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "2015.1.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄智君代",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

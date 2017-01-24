@@ -1,0 +1,222 @@
+{
+	"fileName": "201400709_JFM020.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\201400709_JFM020.json",
+	"score": 754,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年7月9日14时10分",
+	"fileNameDate": "20140070",
+	"equipName": "设备名称:机器人工位",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点: JFM020",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "28",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  滕征      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查安全回路发现所有输出指示灯不亮，HMI也不能工作。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "打开控制柜，发现CPU 的运行指示灯熄灭，OK灯红色闪烁。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "尝试用PC连接到PLC，不能成功建立连接，无法看到内部故障信息。断电重启数次CPU，无法恢复正常。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换CPU，用现场其它工位正在使用的相同版本CPU直接替换，指示灯立即出错报警。 ",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "使用仓库内的老版本备件，刷新成新版本固件，下载程序。",
+				"lostMin": 15,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "下载成功后，PARTNER 模块有安全运行灯闪烁，未找出原因，可恢复正常运行。",
+				"lostMin": 5,
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM020 突然急停，输出全无。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM020 突然急停，输出全无"
+		],
+		[
+			"为什么需要更换CPU"
+		],
+		[
+			"为什么更换CPU时间长？因为CPU固件版本众多，使用时需要根据现场情况刷新成对应固件版本。"
+		],
+		[
+			"为什么CPU固件版本众多？因为AB固件更新速度快，频次高，现场无法更新所有的固件。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "AB固件更新速度快，频次高，现场无法更新所有的固件，未能辨识出存在的风险，缺少相应的管理。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换CPU，并下载程序，复位运行。",
+				"resp": "陈志剑 ",
+				"supp": "",
+				"compDate": "7\/9\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1 做好备件的固件版本标识，便于更换。",
+				"resp": "张少峰",
+				"supp": "",
+				"compDate": "8\/9\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2 将备件管理工作细化，增加硬件的固件版本管理，定期梳理。",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "8\/30\/2014",
+				"status": "2\/4 "
+			}
+		],
+		[
+			{
+				"counterMeasure": "3 寻求外部支持将车间内系统升级，减少软件版本数量 ，便于硬件匹配。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "10\/30\/2014",
+				"status": "2\/4 "
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "使用新固件版本的CPU，直接更换。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:孙伟代",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL 滕征代",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

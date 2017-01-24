@@ -1,0 +1,222 @@
+{
+	"fileName": "20130225EMC020.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130225EMC020.json",
+	"score": 577,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年2月25日16时45分",
+	"fileNameDate": "20130225",
+	"equipName": "设备名称:气动吊具",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点:  EMC020",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "120",
+	"lostProductNum": "50",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 唐萃众\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产报修气动吊具移动困难，维修人员检查发现移动导轨弯道处开裂。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "经过仔细检查判定存在安全风险，于是停线维修。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "系统内的弯道备件一时难以到位，于是采取外部紧急调拨备件和现场应急方案同时进行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "紧急制作了承托支架，将开裂部分托住，支架承受吊具的重力，在监护状态下临时恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "弯道备件送抵工位后，立即停产更换，更换完毕，恢复正常生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC020 气动吊具移动困难，检查发现导轨开裂。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么气动吊具移动困难？因为移动导轨弯道开裂。"
+		],
+		[
+			"为什么移动导轨弯道开裂"
+		],
+		[
+			"为什么弯道长期受力不均匀"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因为弯道长期受力不均匀，轨道内侧磨损严重，造成了开裂。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "紧急制作承托支架恢复临时生产。",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2\/25\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换开裂弯道。",
+				"resp": "滕征",
+				"supp": "陈烨华",
+				"compDate": "2\/25\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "培训生产人员在使用时注意降低速度，减小晃动幅度。",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": "2\/28\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "安排计划对车间气动吊具的悬空轨道磨损情况进行检查。",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": "3\/28\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

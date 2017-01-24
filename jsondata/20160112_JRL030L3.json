@@ -1,0 +1,222 @@
+{
+	"fileName": "20160112_JRL030L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160112_JRL030L3.json",
+	"score": 612,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016.1.12",
+	"fileNameDate": "20160112",
+	"equipName": "设备名称: 机器人",
+	"breakdownTime": "停机时间：65",
+	"areaLocation": "停机区域\/点: JRL030",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "50",
+	"lostProductNum": "38",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    吴梦杰\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "断电重启后可以恢复自动生产。",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "在相同位置重复出现相同报警，怀疑DRESS内电缆受损，先后飞线编码器线、和电源线，故障还是重复出现。",
+				"lostMin": 25,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "观察到机器人在不同位置也会出现相同报警，可以排除外部电缆问题。",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "跟踪故障，在故障发生时对机器人控制柜实施分步检修。（清除粉尘和紧固电气接点）",
+				"lostMin": 25,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "经过两次对控制柜的检修，机器人保持稳定工作。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL030L3 SERVO 297 报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人SERVO 297 报警？因为伺服放大器不正常。"
+		],
+		[
+			"为什么伺服放大器不正常？因为伺服放大器供电不正常。"
+		],
+		[
+			"为什么为伺服放大器供电不正常？因为供电端子接线有松动。"
+		],
+		[
+			"为什么供电端子接线有松动？因为更改线路时，没有拧紧端子。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "初步怀疑控制柜更改线路时，没有拧紧端子，造成现时段供电异常。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "拧紧接线端子，跟踪观察。",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "1\/12\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "准备好后续排查可能需要的伺服放大器、主板、电缆等备件",
+				"resp": "陈志剑",
+				"supp": "",
+				"compDate": "1\/12\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "跟踪一段时间，确认问题原因后制定长期对策。",
+				"resp": "吴梦杰",
+				"supp": "",
+				"compDate": "1\/20\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "根据维修手册提示对机器人控制柜进行检修。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.: 吴梦杰",
+	"person_GL": "工段长\/ GL: 滕征",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20150805 AMC005-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150805 AMC005-Y.json",
+	"score": 772,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.8.5     10",
+	"fileNameDate": "20150805",
+	"equipName": "设备名称:  AMC005TT",
+	"breakdownTime": "停机时间：240min",
+	"areaLocation": "停机区域\/点: AMC005",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "240",
+	"lostProductNum": "30",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:   李颖琛\n2015.8.6\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "尝试用SEW软件，用Extended Positioning via Bus功能无法设置零位",
+				"lostMin": 30,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "尝试将备份程序载入变频器，仍旧无法运行",
+				"lostMin": 30,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "联系供应商，多次尝试设置零位不成功。",
+				"lostMin": 40,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "重新初始化变频器，设置过程中碰到多种变频器故障。",
+				"lostMin": 80,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "联系供应商，排除变频器故障。",
+				"lostMin": 25,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "设置参数，调试变频器，调整传感器位置。",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "验证转台位置，恢复正常生产",
+				"lostMin": 15,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"AMC005TT,编码器位置值丢失，无法转动"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么转台无法转动？因为变频器零位丢失；"
+		],
+		[
+			"为什么变频器零位丢失？因为变频器初始化后变频器报错；"
+		],
+		[
+			"为什么变频器初始化后变频器报错？因为变频器内Ipos程序出错；"
+		],
+		[
+			"为什么变频器内Ipos程序出错？因为维修人员在查看变频器参数时使用了错误的功能块。"
+		],
+		[
+			"为什么维修人员在查看变频器参数时使用了错误的功能块？因为该工位当初集成的时候供应商使用了特殊的功能块编写IPOS，与现场其他的变频器应用不同，维修人员缺乏培训对此功能块不了解。"
+		]
+	],
+	"rootCause": "1.该工位当初集成的时候供应商使用了特殊的功能块编写IPOS，与现场其他的变频器应用不同\n2.维修人员缺乏培训",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "初始化变频器，重新制作IPOS程序",
+				"resp": "李颖琛",
+				"supp": "尹伟文",
+				"compDate": "2015.8.6",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修理调试时撞坏的传感器",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "2015.8.6",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系SEW供应商，对61B变频器重新编写",
+				"resp": "尹伟文",
+				"supp": "供应商",
+				"compDate": "2015.8.6",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对该变频器的零位及IPOS设置制作操作手册",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "2015.8.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "5,6,7"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：曹鸣晓",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

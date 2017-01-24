@@ -1,0 +1,222 @@
+{
+	"fileName": "20110516EMC035.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110516EMC035.json",
+	"score": 381,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年5月17日  时  分",
+	"fileNameDate": "20110516",
+	"equipName": "设备名称:NUT焊机",
+	"breakdownTime": "停机时间：20",
+	"areaLocation": "停机区域\/点:EMC035",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：\nPlant南厂车身",
+	"originator": "填表人\/日期          \nOringinator 孙杰\n2011-5-17",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "发现螺母焊机下电极熔化",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将熔化电极头取下",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "安装新电极头",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "调整上电极杆位置",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"螺母焊机下电极熔化"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么下电极头熔化？因为焊接过程中炸电极"
+		],
+		[
+			"为什么焊接过程中炸电极？因为焊接压力不足"
+		],
+		[
+			"为什么焊接压力不足？因为上电极杆松动"
+		],
+		[
+			"为什么电极杆松动？因为紧固螺丝松"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "电极杆向上窜动最终导致焊接压力不足炸电极",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换熔化电极头",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2011-5-17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "电极杆做好标识并写入生产TPM中每班进行检查",
+				"resp": "陈锡涛",
+				"supp": "",
+				"compDate": "2011-5-25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:孙杰"
+}

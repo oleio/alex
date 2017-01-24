@@ -1,0 +1,222 @@
+{
+	"fileName": "20121011JRL080.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121011JRL080.json",
+	"score": 958,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月11日12时30分",
+	"fileNameDate": "20121011",
+	"equipName": "设备名称 升降滚床",
+	"breakdownTime": "停机时间:30min",
+	"areaLocation": "停机区域\/点:    JRL080",
+	"maintainTeam": "维修班组:B",
+	"lostTime": "NONE",
+	"lostProductNum": "21",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:    黄波    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位检查工位设备状态；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "故障点1.雪橇托架与80#工位左后Unit205气缸基座干涉，雪橇托架损坏、Unit205基座变形 2.升降滚床右后方向摇臂倾斜了60度",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "根据维修预案准备升降滚床检修工具和滚床修理中的安全保护设施；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "修复步骤：1.将升降滚床右后向摇臂涨紧套松开后扶正，更换涨紧套紧固螺丝后紧固摇臂；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "修复步骤：2.将变形的Unit205基座整形烧焊后调整到正确位置；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "修复1.2项后手动升降滚床验证运行良好后恢复生产；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL080工位升降机在提升过程中平台倾斜，引起工位故障停止；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL080工位升降机停止工作？因为升降机右后摇臂倾斜了60度导致升降平台无法提升；"
+		],
+		[
+			"为什么升降机右后摇臂倾斜了60度导致升降平台无法提升到位？因为升降平台上升中受到外部干涉，当阻力大于摇臂涨紧套设定的抱紧力时摇臂发生轴向旋转；"
+		],
+		[
+			"为什么升降平台上升中受到外部干涉，摇臂发生轴向旋转？因为升降平台上升时平台上的车身雪橇托架与该工位Unit205工装基座干涉；"
+		],
+		[
+			"为什么升降平台上升时平台上的车身雪橇托架与该工位Unit205工装基座干涉？因为JRL080工位Unit205工装基座钢结构金属疲劳开裂引起整个基座位置向升降平台方向倾斜；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因为JRL080工位Unit205工装基座钢结构金属疲劳开裂引起整个基座位置向升降平台方向倾斜，导致升降平台上升中受到工装基座干涉，当阻力大于摇臂涨紧套设定的抱紧力时摇臂发生轴向旋转；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.将升降滚床右后向摇臂涨紧套松开后扶正，更换涨紧套紧固螺丝后紧固摇臂；",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012\/10\/11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.将Unit205基座整形烧焊后调整到正常工作位置",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012\/10\/11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.制作E-car工装平台基准轻便型检测工具，车间范围内检",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "10\/31\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": " 测自动工位工装定位精准度从而改善工位落车对工装UNIT",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": " 基座的冲击力。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

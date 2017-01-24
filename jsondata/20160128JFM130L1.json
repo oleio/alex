@@ -1,0 +1,222 @@
+{
+	"fileName": "20160128JFM130L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160128JFM130L1.json",
+	"score": 665,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016-01-28",
+	"fileNameDate": "20160128",
+	"equipName": "设备名称:抓料机器人",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：\nPlant",
+	"originator": "填表人\/日期: 马晓洲黄伟杰      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "总拼维修处理故障,确定机器人以太网通讯故障,无法同PLC通讯，紧固相关接插件后重启机器人无效；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "打开机器人控制箱，发现CPU模块上有2个以太网插口，将以太网电缆更换插口；",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "机器人再次重启，仍然没有恢复机器人通讯；",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "用备件以太网电缆飞线至SWITCH，机器人断电重启，无效；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "将机器人控制器上以太网插口恢复原来接线，机器人控制器再次重启，恢复机器人正常以太网通讯；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM130L1抓车顶机器人以太网报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行"
+		],
+		[
+			"为什么机器人控制器以太网报警"
+		],
+		[
+			"为什么机器人以太网通讯电缆回路接触不良"
+		],
+		[
+			"为什么维修人员会更换机器人控制柜CPU上以太网插口？因为第一现场排故维修人员不知道这两个接口的IP地址不同，不能直接更换接口使用。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1）现场使用的非预制以太网电缆质量差   2）第一现场排故维修人员不知道这两个接口的IP地址不同，不能直接更换接口使用。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换备件以太网电缆后机器人重启",
+				"resp": "陈烨华",
+				"supp": "李颖琛",
+				"compDate": "1\/28\/2016",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "统计车间现场非预制以太网电缆数量，制定计划更换。",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "TBD",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "准备培训资料，对现场维修人员进行专题培训，避免误操作造成排故困难！",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "2\/10\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤2，3以外的维修过程。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL陈烨华",
+	"person_ENG": "工程师\/ENG.:黄伟杰",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

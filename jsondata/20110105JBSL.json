@@ -1,0 +1,222 @@
+{
+	"fileName": "20110105JBSL.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110105JBSL.json",
+	"score": 911,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年01月5日23时45分",
+	"fileNameDate": "20110105",
+	"equipName": "设备名称:4#升降臂",
+	"breakdownTime": "停机时间：120MIN",
+	"areaLocation": "停机区域\/点:JBSL",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "120",
+	"lostProductNum": "60",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期 沈建伟         \nOringinator  \n2011-12-17",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JBSL 4#升降臂在回HOME途中下沉，与60#工位护栏碰撞；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查4#P&P传动系统，发现传动皮带脱出，传动同步轮边缘受损；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "调整传动轴水平位置，更换皮带，设置伺服零位，恢复生产；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "生产几件侧围后，4#升降臂异响，检查升降臂发现丝杆内部下沉，传动同步轮与外壳摩擦；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换4#升降臂，调整抓料位置，设置伺服零位，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JBSL 4#升降臂在回HOME途中下沉，与60#工位护栏碰撞"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么4#升降臂下沉与护栏干涉？因为传动皮带脱出"
+		],
+		[
+			"为什么传动皮带脱出？因为伺服电机与丝杆的传动同步轮水平度有高低"
+		],
+		[
+			"为什么传动同步轮水平度有高低？因为升降臂丝杆下沉"
+		],
+		[
+			"为什么升降臂丝杆下沉？因为丝杆固定螺母松脱"
+		],
+		[
+			"为什么丝杆固定螺母松脱？因为丝杆固定螺母为特殊防松螺母，应该一次性使用。丝杆保养后回用原来的旧螺母，备件修理供应商拧紧时没有按照规定使用扭力扳手定扭矩拧紧。"
+		]
+	],
+	"rootCause": "丝杆固定螺母为特殊防松螺母，应该一次性使用。丝杆保养后回用原来的旧螺母，备件修理供应商拧紧时没有按照规定使用扭力扳手定扭矩拧紧。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换升降臂，调整抓料位置，设置伺服零位，恢复生产",
+				"resp": "陈文佳",
+				"supp": "C",
+				"compDate": "11.1.5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对新更换的升降臂跟踪一周，每日确认状态",
+				"resp": "尹熠俊",
+				"supp": "尹熠俊",
+				"compDate": "11.1.12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "供应商制定丝杆保养标准化作业书（丝杆固定螺母保证一次性使用，保证定扭矩拧紧170N），车身维修审阅确定并监督供应商确定执行。",
+				"resp": "",
+				"supp": "马晓州",
+				"compDate": "11.1.7",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "供应商制定丝杆保养质量跟踪表，车身维修审阅确定并监督供应商保证全程跟踪质量。质量跟踪表复印件随修复备件保存跟踪。",
+				"resp": "",
+				"supp": "马晓州",
+				"compDate": "11.1.7",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "已完成保养的丝杆根据标准化作业书进行解体检查，更换新锁紧螺母并扭矩拧紧",
+				"resp": "",
+				"supp": "马晓州",
+				"compDate": "11.1.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "4#升降臂损坏更换，调整抓料位置，设置伺服零位，恢复生产。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:腾征"
+}

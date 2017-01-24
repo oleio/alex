@@ -1,0 +1,222 @@
+{
+	"fileName": "20110728ESOR6&STA20.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110728ESOR6&STA20.json",
+	"score": 620,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月28日 11 时  分",
+	"fileNameDate": "20110728",
+	"equipName": "设备名称:自动工装",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:ESO",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "7",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 顾乐斌",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修到现场根据报警信息检查夹头，夹紧情况，未找到夹不到位的夹头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "关闭安全门后手动操作发生报警的夹头组，确定故障夹头的范围；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "再次进入工位检查发现有一DUMP关闭不到位并发现关闭不到位原因为气缸与机械机构连接松动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "紧固气缸杆与机械机构连接处后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO右侧20#工位有一DUMP关闭不到位（报警夹头夹不到位）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么DUMP关闭不到位报警？因为DUMP机械结构关闭不到位"
+		],
+		[
+			"为什么DUMP机械结构关闭不到位？因为气缸杆与DUMP连接处螺母松动"
+		],
+		[
+			"为什么气缸杆与DUMP连接处螺母松动？因为气缸杆与DUMP球头连接处没有防松螺母"
+		],
+		[
+			""
+		],
+		[
+			"为什么气缸杆与DUMP连接处螺母松动？因为气缸杆与DUMP球头连接处没有防松螺母"
+		]
+	],
+	"rootCause": "气缸杆与DUMP连接处只有一个固定螺母（缺少一个防松螺母）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "紧固气缸杆与DUMP球头上的螺母",
+				"resp": "顾乐斌",
+				"supp": "",
+				"compDate": "11-7-28",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "出现问题的气缸与DUMP连接增加防松螺母",
+				"resp": "黄波",
+				"supp": "陈文佳",
+				"compDate": "11-7-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查PM包干区DUMP连接，发现缺少防松螺母整改增加。",
+				"resp": "黄波 陈文佳 尹熠俊",
+				"supp": "胡滨",
+				"compDate": "11-8-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:"
+}

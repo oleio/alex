@@ -1,0 +1,222 @@
+{
+	"fileName": "20130130JRL030.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130130JRL030.json",
+	"score": 775,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年01月30 日2 时 05 分",
+	"fileNameDate": "20130130",
+	"equipName": "设备名称:E-CAR工装",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:JRL030",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "15",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂\nPlant",
+	"originator": "填表人\/日期          \nOringinator 黄波",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "根据现场工装分布图进入工位检查该气缸状态发现该PINCLAMP气缸关闭气源已输出但气缸机械未动作",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "关闭工位气源后手动拉动气缸夹头无法动作，判断为TUNKERS气缸勾销销套损坏，引起勾销与销套卡死",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "由于不是定位气缸决定临时拆下损坏的气缸的关闭气管，通知控制工程师屏蔽该气缸信号",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复工位自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL030工位E-CAR工装UN216夹头关闭不到位报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL030工位自动停止？因为E-CAR工装UN216气缸关闭信号报警"
+		],
+		[
+			"为什么E-CAR工装UN216气缸关闭信号报警？因为PLC指令发出后UN216气缸关闭动作未执行"
+		],
+		[
+			"为什么PLC指令发出后UN216气缸关闭气源已输出但气缸机械未动作？因为TUNKERS气缸销套损坏变形后造成勾销与销套间卡死；"
+		],
+		[
+			"为什么TUNKERS气缸销套损坏变形后造成勾销与销套间卡死？因为工位落车时与工装定位装置的匹配度差，落车时车身钣金撞击勾销套加速其损坏；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "工位落车时与工装定位装置的匹配度差，落车时车身钣金撞击勾销套导致TUNKERS气缸销套损坏变形后勾销与销套间卡死；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "夜班更换损坏的TUNKERS气缸勾销套件并恢复控制信号",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2013\/01\/30",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "周末工作计划检查调整工位E11\/E10落车状态",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2013-2-3",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "通过解析勾销套的损坏原因，现场整改工位落车时与工装定位装置的匹配度，避免落车对销套的冲击损伤；",
+				"resp": "A\/B\/C三个班组",
+				"supp": "",
+				"compDate": "2013\/02\/15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:黄波"
+}

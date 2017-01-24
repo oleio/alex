@@ -1,0 +1,222 @@
+{
+	"fileName": "20120521JRL040R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120521JRL040R1.json",
+	"score": 645,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年5月21日22时45分",
+	"fileNameDate": "20120521",
+	"equipName": "设备名称:R1",
+	"breakdownTime": "停机时间：160min",
+	"areaLocation": "停机区域\/点:  JRL040",
+	"maintainTeam": "维修班组：A+B",
+	"lostTime": "40",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  陈烨华  \nOringinator  2012.5.21",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL040R1焊机跳闸，复位焊接后仍跳闸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进工位查看焊枪，发现转动接头内部有焦味，怀疑汇电环击穿；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "打开转动接头并准备备件（东昌仅有一个保养备件），发现汇电环上有过电流痕迹，并有焦味；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "拔出焊接回路电缆接头，测量汇电环三相阻值，通路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "协调生产启动BACKUP，围好安全区域更换转动接头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换后测试焊接，确认TIPDRESS位置后恢复正常生产。 ",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL040R1焊接控制柜跳闸,复位焊接后仍跳闸。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL040R1焊机跳闸？因为转动接头内部短路；"
+		],
+		[
+			"为什么转动接头内部短路？因为转动接头内部有积水；"
+		],
+		[
+			"为什么转动接头内部有积水？ 因为转动接头密封失效导致内部积水；"
+		],
+		[
+			"为什么密封失效？因为长期使用老化磨损；"
+		],
+		[
+			"为什么老化磨损而未进行及时更换保养？因为转动接头备件短缺，保养周期长。"
+		]
+	],
+	"rootCause": "转动接头密封失效导致内部积水短路，焊机跳闸。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换转动接头",
+				"resp": "袁炜",
+				"supp": "陈烨华",
+				"compDate": "5\/21\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "主线机器人转动接头强电汇流排进行进行专项保养",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "5\/27\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "缩短转动接头强电汇流排维护保养周期至每季度1次",
+				"resp": "徐啸顺",
+				"supp": "胡滨",
+				"compDate": "5\/27\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

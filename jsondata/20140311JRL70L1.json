@@ -1,0 +1,222 @@
+{
+	"fileName": "20140311JRL70L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140311JRL70L1.json",
+	"score": 505,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年3月11日1时30分",
+	"fileNameDate": "20140311",
+	"equipName": "设备名称:JRL70L1",
+	"breakdownTime": "停机时间：32min",
+	"areaLocation": "停机区域\/点: JRL",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "32",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄伟杰",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "L1机器人停止焊接,进工位查看发现软连接断裂；",
+				"lostMin": "2min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "按照图纸物料号找软连接发现备件现场已无，东昌紧急送货；",
+				"lostMin": " 15min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "备件到现场后举行安装，调试焊接后恢复正常",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL70L1伺服焊枪软连接断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么L1机器人停止运行？因为焊枪焊接时无电流；"
+		],
+		[
+			"为什么焊枪无电流？因为软连接断裂；"
+		],
+		[
+			"为什么软连接断裂未提前发现？TPM检查未有效执行；"
+		],
+		[
+			"为什么软连接无法及时更换？因为按照图纸物料号在中心需要紧急送货，期间未及时有效寻找替代品"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "（1）现场无此软连接库位。（2）维修班组TPM检查未有效执行",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换焊枪软连接",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "3\/11\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.与TPM责任人进行交流，作谈话记录。",
+				"resp": "钱俊 ",
+				"supp": "",
+				"compDate": "3\/15\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.现场增设此软连接库位，确保能够快速获取。",
+				"resp": "黄伟杰",
+				"supp": "",
+				"compDate": "3\/16\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "寻找替代品,快速恢复"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：陈烨华",
+	"person_ENG": "工程师\/ENG.:黄伟杰",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

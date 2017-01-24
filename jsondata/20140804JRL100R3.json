@@ -1,0 +1,222 @@
+{
+	"fileName": "20140804JRL100R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140804JRL100R3.json",
+	"score": 582,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年08月04日17时00分",
+	"fileNameDate": "20140804",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: JRL100",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 张文华     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "重启机器人，运行修磨程序后修磨器转数秒后机器人依旧跳空开",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "判断为修磨器故障后焊接工程师将备件拿至现场，同时通知生产使用Backup方案",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "确定更换方案后更换新修磨器",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "示教机器人修磨轨迹",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL100R3修磨器故障导致机器人控制柜空气开关跳闸无法工作。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL100工位有急停"
+		],
+		[
+			"为什么R3机器人停止工作"
+		],
+		[
+			"为什么空气开关会跳闸"
+		],
+		[
+			"为什么机器人下挂设备（修磨器电机）内部短路"
+		],
+		[
+			"为什么修磨器电气部分进水"
+		]
+	],
+	"rootCause": "1.修磨器罩壳密封件老化，防水失效,缺少对修磨器罩壳的检查计划；\n2.焊枪REPAIR位置在修磨器上方，换电极帽时水滴落在修模器上，造成积水。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换故障修磨器",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "8\/4\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对故障修磨器进行解刨分析",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "8\/4\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修改焊枪REPAIR位置,避免电极帽时水滴落在修模器上，造成积水。",
+				"resp": "张文华",
+				"supp": "钱毅吉",
+				"compDate": "8\/4\/2014",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制定对修磨器罩壳密封件的PM计划,一年一次。",
+				"resp": "黄伟杰",
+				"supp": "",
+				"compDate": "8\/10\/2014",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:张文华",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

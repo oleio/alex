@@ -1,0 +1,222 @@
+{
+	"fileName": "20110318JFM120.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110318JFM120.json",
+	"score": 747,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 3月 18日 9时 20分",
+	"fileNameDate": "20110318",
+	"equipName": "设备名称:JFM120",
+	"breakdownTime": "停机时间：累计50min",
+	"areaLocation": "停机区域\/点:   JFM120",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "50",
+	"lostProductNum": "35",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期　尹熠俊          \nOringinator 2011.3.18",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM120 L1 L1机器人执行车型匹配故障报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "查看L1机器人程序和JFM120内车型不一致；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查HMI,显示工位夹头打开和关闭都不到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "通过程序检查，发现滚床下降不到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "进入工位检查升降状态，位置确实不正确；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "强制信号，完成工序后，恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120报警，L1机器人执行车型匹配不正确。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么L1机器人执行车型匹配不正确？因为工位夹头状态不对；"
+		],
+		[
+			"为什么工位夹头状态不对？因为滚床下降不到位；"
+		],
+		[
+			"为什么滚床下降不到位？因为滚床下降到位后又开始上升。"
+		],
+		[
+			"为什么滚床下降到位后又开始上升？收到机器人工艺完成信号，所以上升。"
+		],
+		[
+			"为什么机器人会发出工艺完成信号？因为工位生产J-CAR所需的四台机器人在换枪过程中发出了机器人工艺完成信号，并且工位夹头处于HOME状态，产生了工位完成信号，使滚床下降后又上升。"
+		]
+	],
+	"rootCause": "因为工位生产J-CAR所需的四台机器人在换枪过程中发出了机器人工艺完成信号，并且工位夹头处于HOME状态，产生了工位完成信号，使滚床下降后又上升，滚床位置不正确使机器人报警。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "强制信号，完成工位后道工序。",
+				"resp": "章逸楠",
+				"supp": "滕征",
+				"compDate": "2011.3.18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改机器人工艺完成信号DO[20]发出的时序。",
+				"resp": "徐啸顺",
+				"supp": "黄波",
+				"compDate": "2011.3.20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "机器人和控制程序的标准化改进",
+				"resp": "徐啸顺\/尹伟文",
+				"supp": "",
+				"compDate": "2011.5.10",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

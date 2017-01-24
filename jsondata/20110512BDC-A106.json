@@ -1,0 +1,222 @@
+{
+	"fileName": "20110512BDC-A106.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110512BDC-A106.json",
+	"score": 704,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年5 月13日  3时00  分",
+	"fileNameDate": "20110512",
+	"equipName": "设备名称:R3J2电机",
+	"breakdownTime": "停机时间：40",
+	"areaLocation": "停机区域\/点:JRL070",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "40",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 李成\n2011-5-12",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "手动操作上升按钮，电机变频器报警，检查机械部分未发现卡死",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查剪式升降机上升下降移动部分电机电源辫子线并用两根备用线换上，上升时变频器还是报警",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "查看电机控制图纸查看变频器报警原因万用表测量发现超程限位常开硬接线回路断开，引起电机变频器输出故障",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "根据图纸，临时短接超程限位硬接线回路，待生产结束检修线路",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"BDCA106剪式升降机无法上升"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么BDCA106升降机无法上升？因为变频器报警"
+		],
+		[
+			"为什么BDCA106变频器报警？因为BDCA106变频器X13.2 X13.3端子无输入信号"
+		],
+		[
+			"为什么BDCA106变频器无输入信号？因为BDCA106超程保护无24V电源"
+		],
+		[
+			"为什么BDCA106超程保护无24V电源？因为升降超程限位硬接线回路有断点"
+		],
+		[
+			"为什么升降超程限位硬接线回路有断点？夜班结束后检查发现超程限位信号线接头内部接线脱落（根本原因手工接头接线质量差，长期升降震动导致接线脱落）"
+		]
+	],
+	"rootCause": "手工接头接线质量差，长期升降震动导致接线脱落。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时短接损坏的升降超程限位硬接线",
+				"resp": "黄波",
+				"supp": "刘丰",
+				"compDate": "2011\/5\/12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "生产结束后检修恢复信号线",
+				"resp": "黄波",
+				"supp": "刘丰",
+				"compDate": "2011\/5\/12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对车间内升降机超程限位硬接线连接端进行检查，并更换BDC2台剪式升降机超程信号线。",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "2011\/5\/31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:刘丰"
+}

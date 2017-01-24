@@ -1,0 +1,222 @@
+{
+	"fileName": "20151228SUR70R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151228SUR70R2.json",
+	"score": 692,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015-12-28",
+	"fileNameDate": "20151228",
+	"equipName": "设备名称:机器人焊接工位",
+	"breakdownTime": "停机时间：累计15min",
+	"areaLocation": "停机区域\/点:SUR070",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 曹鸣晓      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "SUR070机器人SRVO046报警，现场机器人重启并有人员查找资料，确定问题解决对策；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动操作完成当前CYCLE，恢复设备自动运行；",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "跟踪观察机器人A10车型轨迹，发现部分轨迹运动机器人震动大，而且焊枪及机器人底座晃动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "根据现场情况判断，机器人轨迹程序不合理是问题原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "原机器人程序备份，在线优化机器人轨迹，降低部分轨迹点速度（未影响CT）；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "生产间隙时间进入工位紧固机器人底座固定螺栓；",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR070R2机器人#5轴 SRVO046报警（A10车型）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SUR70R2机器人#5轴 SRVO046报警"
+		],
+		[
+			"为什么机器人部分过渡轨迹#5轴电机电流大"
+		],
+		[
+			"为什么部分特殊点机器人运动轨迹不合理"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "项目实施编制轨迹程序时考虑不周,维修未辨识出机器人轨迹缺陷，造成A10车型部分特殊点机器人运动轨迹不合理。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "在线优化机器人轨迹，降低部分轨迹点速度（未影响CT）",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "12\/28\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "机器人底座用化学螺栓加固",
+				"resp": "何文泽",
+				"supp": "袁伟",
+				"compDate": "12\/30\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "优化A10车型机器人轨迹，避免机器人手臂不合理运动。",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "12\/30\/2015",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "排查车间内机器人轨迹状态，避免机器人手臂不合理运动。",
+				"resp": "何文泽",
+				"supp": "黄光耀陈烨华曹鸣晓",
+				"compDate": "1\/10\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同问题处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL 曹鸣晓",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120619JRL030R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120619JRL030R1.json",
+	"score": 553,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 6月19日15时00分",
+	"fileNameDate": "20120619",
+	"equipName": "设备名称:R1WATERSAVE",
+	"breakdownTime": "停机时间：返修耗时30min",
+	"areaLocation": "停机区域\/点: JRL030",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "30",
+	"lostProductNum": "23",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:沈建伟       \nOringinator 2012.6.19",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL检查平台发现焊点虚焊，追溯问题车辆共计18辆，表调下线返修（CO2补焊）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL030R1电极帽修穿导致618\/985焊点虚焊，表调下线返修影响生产时间"
+		],
+		[
+			"共计30分钟"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL030R1焊点虚焊？因为R1电极帽修模修穿；"
+		],
+		[
+			"为什么R1电极帽修模修穿？因为R1在焊接时冷却无效，温度高，电极帽损耗偏大；"
+		],
+		[
+			"为什么R1焊接温度高？因为R1下电极杆已经被堵塞，造成冷却回路不畅；"
+		],
+		[
+			"为什么下电极杆被堵塞？因为前期在更换电极帽时电极帽已脱落并嵌入电极杆中；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "电极杆堵塞造成冷却不良，电极帽修穿，产生虚焊",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "对缺陷车辆进行返修",
+				"resp": "傅晓翔",
+				"supp": "",
+				"compDate": "2012.6.19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换JRL030R1损坏的下电极杆",
+				"resp": "黄智君",
+				"supp": "",
+				"compDate": "2012.6.19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对电极帽更换时的检查内容进行细化和培训",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2012.6.22",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "返修过程同上（JRL030R1电极杆已更换）"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:袁炜",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

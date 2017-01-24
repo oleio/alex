@@ -1,0 +1,222 @@
+{
+	"fileName": "20120215JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120215JFM090.json",
+	"score": 840,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 2 月 16日2 时 30分",
+	"fileNameDate": "20120215",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：累计50min",
+	"areaLocation": "停机区域\/点:     总拼",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "50",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 尹熠俊      \nOringinator 2012.2.15  ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "总拼JFM90工位左侧GATE切换时X方向超程，机械硬挡块断裂脱落；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查发现左后GATE驱动齿轮箱单元机械结构断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "确定设备问题后讨论确定维持生产方案以及设备维修方案；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "切换车型时人力干预推动左侧GATE到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "东昌仓库紧急调运备件驱动电机齿轮箱单元；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "生产结束后更换机械机构断裂的驱动电机齿轮箱单元并恢复机械硬挡块安装；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "检查确定造成电机齿轮箱机械机构断裂的根本原因并相应更换内部接触不良的信号电缆；",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090左后侧GATE驱动单元驱动齿轮箱机械机构断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么左侧GATE切换时超程，硬挡块断裂脱落，电机齿轮箱机械结构断裂？因为电机拖动GATE运动后停止时机械冲击大"
+		],
+		[
+			"为什么电机拖动GATE运动后停止时机械冲击大？因为GATE切换运动停止过程中有时没有减速过程"
+		],
+		[
+			"为什么GATE切换运动过程中有时没有减速过程？因为减速信号有时没有发出"
+		],
+		[
+			"为什么减速信号有时没有发出？因为减速传感器信号电缆内部接触不良"
+		],
+		[
+			"为什么减速传感器信号电缆内部接触不良？因为信号电缆捆扎不佳，容易被人员行走擦碰"
+		]
+	],
+	"rootCause": "信号电缆捆扎不佳，容易被人员行走擦碰。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换信号电缆后重新捆扎信号电缆，减小人员干涉的可能性。",
+				"resp": "张培民",
+				"supp": "",
+				"compDate": "12-02-15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "加长模块防护罩，避免信号电缆被人员干涉。",
+				"resp": "尹熠俊",
+				"supp": "马晓洲",
+				"compDate": "12-02-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修改内外总拼PLC程序，出现减速传感器没有动作情况GATE报警停止（信号置位，需要控制工程师程序中复位）",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "12-02-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "改进硬限位块的间隙，避免驱动部分碰撞",
+				"resp": "殷致平",
+				"supp": "",
+				"compDate": "12-03-04",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

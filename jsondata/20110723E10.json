@@ -1,0 +1,222 @@
+{
+	"fileName": "20110723E10.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110723E10.json",
+	"score": 630,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月24日3时0分",
+	"fileNameDate": "20110723",
+	"equipName": "设备名称:压机输送台",
+	"breakdownTime": "停机时间：累计影响30MIN",
+	"areaLocation": "停机区域\/点:E10后门",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "30",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 樊超杰\n2011-7-24",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "现场目视检查传感器状态未发现异常",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "拉动控制工程师联机检查逻辑条件，发现相关置位条件状态不正确，处理置位条件后输送台动作",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "故障间断性重复出现，跟踪逻辑条件后发现部分传感器信号不正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查模块输入端状态，发现模块输入点其中一输入有短路现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "为保证主线正常生产，通过HMI置ON置OFF信号维持正常线速生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "生产结束后检修发现有一信号电缆短路，更换后设备恢复正常；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E10后门压机70工位输送台不动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么输送台间断性不动作？因为相关逻辑置位信号不正常"
+		],
+		[
+			"为什么相关逻辑置位信号不正常？因为对应输入信号不正常"
+		],
+		[
+			"为什么对应输入信号不正常？因为模块输入点其中1点有短路现象"
+		],
+		[
+			"为什么输入点有短路现象？因为信号电缆损坏（无干涉点但捆扎处损坏）"
+		],
+		[
+			"为什么传感器信号电缆损坏？推测升降气缸刹车磨损导致每一工作循环升降台上下震动"
+		]
+	],
+	"rootCause": "推测升降气缸刹车磨损导致每一工作循环升降台上下震动",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的传感器信号电缆",
+				"resp": "樊超杰",
+				"supp": "黄亦佳",
+				"compDate": "11-7-24",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "安排备件和PM班组人员修复或更换升降气缸刹车",
+				"resp": "马晓洲",
+				"supp": "湖滨",
+				"compDate": "11-8-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

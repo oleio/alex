@@ -1,0 +1,222 @@
+{
+	"fileName": "20110701ESI.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110701ESI.json",
+	"score": 703,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年7月01日06时30分",
+	"fileNameDate": "20110701",
+	"equipName": "设备名称:ESI011L",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "停机区域\/点: ESI",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "180",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator滕征    2011.6.30",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "开班时HMI报警，ESI011LH 工位6个模块通讯故障，属于D5网络末端；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "通过现场图纸找到该工位接入点36#模块，检查该模块通讯插头接线正常，但通讯连接不上。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "通过飞线，直连到前级T头，通讯还是连接不上。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "怀疑有电压衰减引起通讯不好，主控制箱电源升压1.2V,通讯连接不上。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "再次飞线，直接连接到更前一级T头，6个模块通讯恢复正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "检查两次飞线T头之间通讯接线，发现其中31#插头虚接，重新连接。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "恢复初始的接线状态，通讯正常。",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESI011LH 工位35、36、37、38、39、42模块通讯报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么ESI011LH 工位模块通讯报警？因为通讯连接出现问题。"
+		],
+		[
+			"为什么通讯连接出现问题？因为前级通讯插头虚接，使网络末端的ESI011LH 工位通讯信号衰减。"
+		],
+		[
+			"为什么前级通讯插头虚接？因为人工工位操作干涉较多，使通讯插头松动造成虚接。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.紧固虚接的插头。",
+				"resp": "黄 波",
+				"supp": "滕 征",
+				"compDate": "11-7-1",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2. 提高通讯电压值",
+				"resp": "黄 波",
+				"supp": "滕 征",
+				"compDate": "11-7-1",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "优化网络布局，尽可能避开操作人员干扰。",
+				"resp": "滕 征",
+				"supp": "",
+				"compDate": "11-7-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "在通讯干线电缆上做好标识，有利于线路快速排查",
+				"resp": "滕 征",
+				"supp": "",
+				"compDate": "11-7-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄 波",
+	"person_ENG": "工程师\/ENG.:滕 征",
+	"person_GL": "工段长\/ GL:钱 俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120918JFM120.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120918JFM120.json",
+	"score": 601,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月18 日 6 时30分",
+	"fileNameDate": "20120918",
+	"equipName": "设备名称: R1",
+	"breakdownTime": "停机时间： 30min",
+	"areaLocation": "停机区域\/点:   JFM120",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李颖琛          \nOringinator\/201 . .  ",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "更换JFM120R1换枪盘（返修的换枪盘）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "更换完成后发现换枪盘unlock动作无；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "示教板发出unlock信号，万用表量电磁阀上24v不稳定，将换枪盘至电磁阀的信号线换了；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "24v稳定后仍不动作，将示教板放开（切断24v），手动戳电磁阀，不动作；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换此电磁阀；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复自动生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"1.JFM120 R1,焊枪没有GUN动作，更换R侧换枪盘"
+		],
+		[
+			"2.换上的返修换枪盘unlock不动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"因为在使用的换枪盘GUN信号不稳定；"
+		],
+		[
+			"因为此换枪盘是紧急返修的,可能质量不过关；"
+		],
+		[
+			"因为24v电源线接触不良；"
+		],
+		[
+			"因为电磁阀阀芯卡；"
+		],
+		[
+			"因为此换枪盘是返修件,当初换下前有同样故障未查明；"
+		]
+	],
+	"rootCause": "电磁阀卡,旧电磁阀未正确修理",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换换枪盘",
+				"resp": " 佘佳安",
+				"supp": "袁炜",
+				"compDate": "9\/18\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换电磁阀",
+				"resp": " 佘佳安",
+				"supp": "袁炜",
+				"compDate": "9\/18\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "测试换下的换枪盘",
+				"resp": "机器人",
+				"supp": "",
+				"compDate": "10\/1\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "明确旧件返修流程,需查明旧件故障点,正确修理并测试后方",
+				"resp": "工程师",
+				"supp": "",
+				"compDate": "10\/1\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "可使用",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110516JFM120.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110516JFM120.json",
+	"score": 552,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年5月17日  时  分",
+	"fileNameDate": "20110516",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：27",
+	"areaLocation": "停机区域\/点:JFM120R2",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "27",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：\nPlant南厂车身",
+	"originator": "填表人\/日期          \nOringinator 孙杰\n2011-5-17",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "电极杆接杆处漏水严重",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位更换电极杆，接杆螺纹断裂在握杆中",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "取断螺纹并通知东昌将握杆备件紧急送货",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "取出断螺纹，安装上新的电极杆",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "上自动恢复",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"电极杆接杆断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪接杆处断裂？因为接杆处螺纹出现裂缝"
+		],
+		[
+			"为什么接杆处出现裂缝？因为接杆处长期受到切向作用力"
+		],
+		[
+			"为什么接杆长期受到切向作用力？因为电极杆与板材干涉"
+		],
+		[
+			"为什么电极杆与板材干涉？因为板材孔径较小，板材波动或更换电极杆后的"
+		],
+		[
+			"　　　　　　　　　　　　位置尺寸变化的容差性较小。　　　　"
+		]
+	],
+	"rootCause": "机器人轨迹不佳导致焊枪与板材存在干涉点",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "取出断裂接杆螺纹，更换电机杆",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "2011-5-17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "机器人轨迹校验修正",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "2011-5-17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "统计生产无Backup的焊枪，将其握杆备件调放至现场料架",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2011-6-10",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对于该工位L2\/R2的焊枪定期检查其磨损情况，加入PM",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011-5-17",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:孙杰"
+}

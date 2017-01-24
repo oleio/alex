@@ -1,0 +1,222 @@
+{
+	"fileName": "20120620JRL40R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120620JRL40R1.json",
+	"score": 560,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年6月21 日2时10分",
+	"fileNameDate": "20120620",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: JRL40",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:曹鸣晓          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查焊枪相关信号电缆，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "用备件19芯电缆替代法寻找故障原因，发现故障点在机器人转动接头内部；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "用备件19芯电缆直接将焊枪反馈信号接到TURCK模块；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "调整并捆扎19芯信号电缆，示教机器人轨迹同时不断调整,使19芯电缆不会异常磨损；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL40R1焊枪反馈信号消失，机器人停止焊接。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪停止焊接？因为各种焊枪反馈信号丢失"
+		],
+		[
+			"为什么各种焊枪反馈信号丢失？因为19芯电缆信号回路断路"
+		],
+		[
+			"为什么19芯电缆信号回路断路？因为焊枪转动接头内部信号回路断路"
+		],
+		[
+			"为什么焊枪转动接头内部信号回路断路"
+		],
+		[
+			"为什么内部接插件焊接的接线脱落"
+		]
+	],
+	"rootCause": "焊枪转动接头内部接插件焊接的接线受渗水影响脱落,信号回路断路。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用19芯信号电缆跨接转动接头内部信号回路恢复设备运行",
+				"resp": "曹鸣晓",
+				"supp": "李颖琛",
+				"compDate": "6\/20\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "准备备件更换内部渗水的转动接头",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "7\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

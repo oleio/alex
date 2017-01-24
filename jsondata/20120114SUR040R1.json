@@ -1,0 +1,222 @@
+{
+	"fileName": "20120114SUR040R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120114SUR040R1.json",
+	"score": 663,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年1月14日13时 0分",
+	"fileNameDate": "20120114",
+	"equipName": "设备名称:机器人螺柱焊枪",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:SUR",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "30",
+	"lostProductNum": "18",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 章逸楠\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "根据螺柱焊机报警信息，检查螺柱焊枪滑板活动性能，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查螺柱焊枪撑杆与螺钉前端相对位置，正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "手动示教机器人尝试焊接螺钉，发现所有螺钉均无法焊接，报警信息相同；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "怀疑机器人螺柱焊DRESS总成有问题，现场仓库领用备件DRESS总成飞线替换原使用DRESS,问题相同",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "怀疑机器人螺柱焊枪问题，现场仓库借用备件螺柱焊枪替换可疑焊枪，正常焊接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复工位正常自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR040R1机器人小钉螺柱焊枪无法焊接，螺柱焊枪提升距离不够报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位焊接报警，停止自动运行？因为R1机器人螺柱焊枪无法焊接"
+		],
+		[
+			"为什么机器人螺柱焊枪无法焊接？因为螺柱焊枪提升距离不够报警"
+		],
+		[
+			"为什么螺柱焊枪提升距离不够报警？因为螺柱焊枪内部测量系统故障"
+		],
+		[
+			"为什么螺柱焊枪内部测量系统故障？怀疑螺柱焊枪内部测量卡上有较多积累灰尘（待修复焊枪后利用非生产时间验证）"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "怀疑螺柱焊枪内部测量卡上有较多积累灰尘导致螺柱焊枪提升距离测量系统故障（待修复焊枪后利用非生产时间验证）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用备件焊枪换下问题焊枪进行清洁保养",
+				"resp": "程超",
+				"supp": "",
+				"compDate": "12-01-22",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "焊接组缩短螺柱焊枪例行保养周期，避免灰尘积累导致螺柱焊枪测量故障。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "12-01-22",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:章逸楠（代）",
+	"person_Manager": "工程师\/ENG.:程超"
+}

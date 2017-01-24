@@ -1,0 +1,222 @@
+{
+	"fileName": "20150617 JFM110.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150617 JFM110.json",
+	"score": 757,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.6.17 8",
+	"fileNameDate": "20150617",
+	"equipName": "设备名称:JFM110",
+	"breakdownTime": "停机时间：累计60min",
+	"areaLocation": "停机区域\/点: 总拼",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "45",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   张少峰\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "110工位升降过程中雪橇停止位传感器丢失，进入工位调整停止位传感器位置",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "调整传感器后发现E-CAR落车故障多，在线观察落车情况",
+				"lostMin": "累计30",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查发现工位定位叉背面与滚床传动轴有明显接触摩擦现象，导致滚床在升降时滚床传动轴旋转，带动雪橇位移",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "调整定位叉位置并验证落车状态，恢复工位自动",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM110滚床E-CAR落车故障，在滚床上升下降过程雪橇停止位丢失"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位不能自动上升？因为工位雪橇停止位传感器信号丢失；"
+		],
+		[
+			"为什么调整停止位传感器安装位置失效？因为调整后E-car与A10车型落车不能兼容；"
+		],
+		[
+			"为什么工位雪橇停止位传感器丢失？因为雪橇在滚床下降过程中出现前后向移动；"
+		],
+		[
+			"为什么雪橇会出现前后向移动？因为工位雪橇定位叉背面与机运线传动轴干涉；"
+		],
+		[
+			"为什么工位雪橇定位叉背面与雪橇传动轴干涉？为解决A10落车定位问题，停产时间对雪橇定位叉的调整没有辨识出与机运线传动轴干涉。"
+		]
+	],
+	"rootCause": "直接原因：JFM110雪橇定位叉背面与机运线传动轴干涉导致雪橇前后向移动\n根本原因：设计时未考虑此处间距，容易产生干涉；调整时也未辨识出干涉问题。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整滚床雪橇定位叉,恢复生产",
+				"resp": "曹鸣晓",
+				"supp": "夏伟",
+				"compDate": "2015.6.17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "在线跟踪JFM110工位所有车型落车状态并做相应调整",
+				"resp": "曹明晓",
+				"supp": "",
+				"compDate": "2015.6.17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系供应商，确认设计图纸，排查车间其余滚床是否有相同情况。",
+				"resp": "夏伟",
+				"supp": "尹伟文",
+				"compDate": "2015.6.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "鱼叉和滚床轴干涉，造成传感器位置丢失。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL 黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

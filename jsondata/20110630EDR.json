@@ -1,0 +1,222 @@
+{
+	"fileName": "20110630EDR.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110630EDR.json",
+	"score": 626,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年6月30日17时50分",
+	"fileNameDate": "20110630",
+	"equipName": "设备名称:EDR",
+	"breakdownTime": "停机时间：累计90min",
+	"areaLocation": "停机区域\/点: EDR",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "90",
+	"lostProductNum": "0",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator尹伟文    2011.6.30",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "生产时HMI报警，EFD020和030通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "先切断020与030间的通讯连接，单独检测020通讯状态，仅第一个模块通讯正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换T头及模块电缆，无果。怀疑前一级来的电缆有问题，更换后020通讯恢复。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复020与030间的通讯，030依然通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换T头、连接的通讯电缆、分线盒、模块，故障依旧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "更换时注意到5个模块的通讯曾时好时坏，030是通讯网络的最后一个工位，信号可能衰减。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "测量电缆中的电压，为22.4V，偏低。在控制柜中将电压调高1V，然后重新连接后恢复。",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E-CAR前门EFD020 030通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么EFD020、030通讯故障？因为通讯信号衰减；"
+		],
+		[
+			"为什么通讯信号衰减？因为通讯网络过长，信号衰减较大，引起最后2个工位"
+		],
+		[
+			"    的通讯状态不稳。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1. 更换电缆；",
+				"resp": "尹熠俊",
+				"supp": "尹伟文",
+				"compDate": "11-6-30",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2. 提高电压值",
+				"resp": "尹熠俊",
+				"supp": "尹伟文",
+				"compDate": "11-6-30",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "重新调整网络布局，改善网络结构，提高稳定性",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "11-7-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:尹伟文",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

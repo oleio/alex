@@ -1,0 +1,222 @@
+{
+	"fileName": "20120507CV4.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120507CV4.json",
+	"score": 587,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年5月7日10时15分",
+	"fileNameDate": "20120507",
+	"equipName": "设备名称:滚床线",
+	"breakdownTime": "停机时间：21MIN",
+	"areaLocation": "停机区域\/点:   CV4",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "21",
+	"lostProductNum": "13",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:刘少杰          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场尝试再次复位，雪橇仍然无法运动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查控制柜内安全继电器，发现安全继电器两个通道信号灯只有1个亮；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "安全继电器断电重启后故障状态仍然相同；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "同生产班长沟通后BYPASS安全继电器控制端；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复设备运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "检查造成安全继电器无法复位原因，确定故障原因后协调时间修复；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV4滚床线RB106滚床上的雪橇无法运动到RB107滚床"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么RB106滚床上的雪橇无法运动到RB107滚床"
+		],
+		[
+			"为什么对应工位的安全继电器无法复位"
+		],
+		[
+			"为什么安全继电器的复位控制端常通"
+		],
+		[
+			"为什么按钮操作站复位控制按钮触点损坏？因为按钮触点上方的按键损坏，飞溅粉尘进入触点。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "按钮触点上方的按键损坏，飞溅粉尘进入触点。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "BYPASS安全继电器控制端,恢复设备运行后找到故障原因并修复.",
+				"resp": "刘少杰",
+				"supp": "黄轶佳",
+				"compDate": "5\/7\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换同一按钮操作站其它状态不佳的按钮按键",
+				"resp": "陈烨华",
+				"supp": "胡滨 黄轶佳",
+				"compDate": "5\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "按钮站增加防飞溅防护罩",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "5\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

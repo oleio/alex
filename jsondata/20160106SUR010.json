@@ -1,0 +1,222 @@
+{
+	"fileName": "20160106SUR010.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160106SUR010.json",
+	"score": 771,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016年1月6日13时00分",
+	"fileNameDate": "20160106",
+	"equipName": "设备名称:SUR010 PLC",
+	"breakdownTime": "停机时间：30MIN",
+	"areaLocation": "停机区域\/点:  SUR010\/020\/030",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:马晓洲\nOringinator：2016-1-6",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修人员去SUR010 HMI看报警信息，无法在SUR010 HMI上复位急停报警。",
+				"lostMin": 2,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "控制工程师现场支持，发现PLC系统D-NET网络通讯故障，检查工位硬件排故。",
+				"lostMin": 8,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检修过程中发现PLC CPU显示异常信息，怀疑CPU程序发生变化；",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "与宇方控制工程师沟通，获悉故障前修改E2LB设备控制程序并下载，确定PLC程序被意外更改；",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "找到SUR010PLC最新程序，重新下载；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "工位重新上自动，恢复生产。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR010、SUR020、SUR030工位急停，无法复位，导致SUR线全线停止。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"因为SUR10\/SUR20\/SUR30工位急停，通过互锁信号使CV11机运线急停。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"因为宇方电气调试人员操作失误，下载E2UB010程序时选错路径，误将E2UB010程序下载到SUR010 PLC中。"
+		],
+		[
+			"因为宇方电气调试人员未按照规范操作,下载程序前没有核对IP地址。"
+		]
+	],
+	"rootCause": "宇方电气调试人员未按照规范操作,下载程序前没有核对IP地址。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "召集供应商相关人员现场会议,责成供应商严格按照规范进行调试操作",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "1\/6\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "供应商电气调试人员重新学习相关规程并会签,调试时必须使用通用分配的IP网段。",
+				"resp": "刘超",
+				"supp": "曹进",
+				"compDate": "1\/6\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "梳理车身项目控制专业管理流程,重新培训供应商调试人员并对供应商执行情况进行管理监督",
+				"resp": "尹伟文",
+				"supp": "钱俊",
+				"compDate": "2016.1.7",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤1，2以外的抢修过程。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:章逸楠(代)",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

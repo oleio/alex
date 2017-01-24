@@ -1,0 +1,222 @@
+{
+	"fileName": "20130118EUB.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130118EUB.json",
+	"score": 753,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1月18日16时  分",
+	"fileNameDate": "20130118",
+	"equipName": "设备名称:SHUTTLE",
+	"breakdownTime": "停机时间：20MIN",
+	"areaLocation": "停机区域\/点:  EU8",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   黄轶佳       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查触摸屏显示信息，无报警显示，无法将设备上自动模式；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拉动控制工程师支持检查PLC程序条件，发现区域有紧急停止条件触发；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "因程序中无说明描述，无法确定故障工位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "根据相关输入信号地址对照控制系统图纸，确定EUB50上料工位隔离光栅和安全区域扫描器同时动作导致区域紧急停止；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查安全扫描器和隔离光栅，发现安全扫描器误动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "扫描器镜面用清洁剂清理，扫描器镜面后恢复正常工作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "设备恢复自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB区域所有工位无法上自动模式"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么设备无法自动运行？因为控制系统紧急停止"
+		],
+		[
+			"为什么控制系统紧急停止？因为隔离光栅与安全区域扫描器同时动作"
+		],
+		[
+			"为什么隔离光栅与安全区域扫描器同时动作？因为安全区域扫描器镜面有污物覆盖"
+		],
+		[
+			"为什么故障处理时间超过正常时间？因为无法使用触摸屏及PLC逻辑帮助确定故障位置"
+		],
+		[
+			"为什么无法使用触摸屏及PLC逻辑帮助确定故障位置？因为现场触摸屏没有故障显示，相关PLC程序行没有逻辑条件说明。需要查阅电气图纸确定故障点位置"
+		]
+	],
+	"rootCause": "现场触摸屏没有故障显示，相关PLC程序行没有逻辑条件说明。需要查阅电气图纸确定故障点位置",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "检查相关PLC控制程序，补全必要的程序条件说明。",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "1\/28\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "现场触摸屏增加缺少的紧急停止报警",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "1\/29\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "新项目实施抽查供应商控制程序，保证程序完善方便快速抢修。",
+				"resp": "尹伟文",
+				"supp": "滕征",
+				"compDate": "",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

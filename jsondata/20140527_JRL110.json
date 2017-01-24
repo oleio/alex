@@ -1,0 +1,222 @@
+{
+	"fileName": "20140527_JRL110.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140527_JRL110.json",
+	"score": 690,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年5月27日2时25分",
+	"fileNameDate": "20140527",
+	"equipName": "设备名称:升降滚床",
+	"breakdownTime": "停机时间：140min",
+	"areaLocation": "停机区域\/点:   JRL110",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "140",
+	"lostProductNum": "95",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  张少峰       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "现场维修复位，无法消除报警。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "控制工程师将超程信号强制清除后，报警消失，但无法手动将滚床升起。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查测量电机相间电阻、电压状态正常，排除电机自身缺相或短路问题。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进工位查看电机实际运行状态，发现电机旋转但升降摆臂无动作，判断减速电机内部存在机械故障，决定更换减速电机。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "通知东昌紧急调运备件到现场，同时拆卸故障电机。",
+				"lostMin": "50min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "故障电机和减速箱分离后发现电机输出轴断裂，决定只更换电机减少修理时间。",
+				"lostMin": "65min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "更换完电机后点动操作工位正常升降，恢复生产。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL110工位Cycle完成后不上升，有超程报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位JRL110不上升？因为电机无法带动摆臂旋转使工位上升。"
+		],
+		[
+			"为什么电机无法带动摆臂旋转使工位上升？因为电机主轴断裂；"
+		],
+		[
+			"为什么电机主轴断裂？1.电机使用时间超过10年，存在疲劳损伤；2.当前PM无法及时发现减速箱中的电极输出轴状态。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.电机使用时间超过10年，存在疲劳损伤；2.当前PM无法发现减速箱中的电机输出轴状态。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换升降滚床的电机，恢复生产。",
+				"resp": "曹鸣晓",
+				"supp": "滕征",
+				"compDate": "5\/27\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对同批次启用的电机制定整体更换计划 。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "6\/10\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:张少峰",
+	"person_GL": "工段长\/ GL:滕征代",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

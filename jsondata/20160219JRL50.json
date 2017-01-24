@@ -1,0 +1,222 @@
+{
+	"fileName": "20160219JRL50.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160219JRL50.json",
+	"score": 447,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016-2-19",
+	"fileNameDate": "20160219",
+	"equipName": "设备名称:升降滚床",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区:SPBS\nPlant",
+	"originator": "填表人\/日期: 马晓洲      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "临时拆下超程限位开关并使之无效；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "点动操作升降滚床试运行，发现上升到位传感器失效；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "确定传感器信号电缆损坏，更换信号电缆；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "当日生产结束更换修理损坏的超程限位；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL50工位升降滚床上升超程导致超程限位开关损坏"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么升降滚床上升到位超程后无法动作"
+		],
+		[
+			"为什么上升超程限位开关动作"
+		],
+		[
+			"为什么上升到位传感器没有动作"
+		],
+		[
+			"为什么上升超程限位开关损坏"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "(1)传感器信号电缆损坏(外观无外力损坏痕迹) (2)升超程限位安装调整位置不当",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的信号电缆并修理更换超程限位开关",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "2\/20\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查补焊线升降滚床超程限位开关的有效性",
+				"resp": "陈烨华黄光耀曹鸣晓",
+				"supp": "",
+				"compDate": "2016-2-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL陈烨华",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

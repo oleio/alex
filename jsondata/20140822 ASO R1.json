@@ -1,0 +1,222 @@
+{
+	"fileName": "20140822 ASO R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140822 ASO R1.json",
+	"score": 921,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年08月22日19时05分",
+	"fileNameDate": "20140822",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：150min",
+	"areaLocation": "停机区域\/点: ASOLH R1",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "150",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  滕征        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "使用飞线替代损坏的19芯电缆。 ",
+				"lostMin": "15 min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动示教换枪程序，发现抓手传感器不亮，寻找原因。",
+				"lostMin": "8 min",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "TURKER 模块出现短路，逐点排查发现电磁阀连接后出现短路。",
+				"lostMin": "10 min ",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换新电磁阀，短路现象依旧。测量损坏的19芯电缆与飞线电缆插针定义一致。",
+				"lostMin": "35 min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "替换分线器和TURKER，故障现象依旧。使用同一类型的电磁阀替换；短路现象消失，但电磁阀收到信号不动作。",
+				"lostMin": "40 min",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "判定换枪盘内接线存在问题，测量分线器端子输出状态，检测出有一路24V 持续输出，切换此路输出。抓手信号和电磁阀工作状态+A10正常。",
+				"lostMin": "25min",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": " 验证轨迹后恢复正常工作。",
+				"lostMin": "17min",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ASOLH R1 抓手切换出现DRESS内19芯电缆接头拉断。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么19芯电缆接头拉断？因为原有示教的机器人轨迹差，电缆捆扎不好。"
+		],
+		[
+			"为什么飞线电缆使用后会出现模块短路故障？因为拉坏电缆的同时，换枪盘内线路也出现了问题。"
+		],
+		[
+			"为什么排故过程用时多？因为换枪盘的内部接线没有图纸可以参考，故障现象出现在电磁阀接入系统，是非车间标准的接线，增加了排故时间。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因为原有示教的机器人轨迹差，电缆捆扎不好；换枪盘的内部接线没有图纸可以参考，故障现象出现在电磁阀接入系统，是非车间标准的接线，增加了排故时间。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时飞线替代损坏19芯电缆，切断电磁阀接线多余的一路24V供电。",
+				"resp": "陈烨华  ",
+				"supp": "滕征",
+				"compDate": "8\/22\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "安排周末计划替换损害的电缆恢复到正常状态。",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "8\/31\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "责令供应商SYL，替换掉不符合车间接线标准的电磁阀，并且提供换枪盘接线图。",
+				"resp": "滕征    ",
+				"supp": " ",
+				"compDate": "8\/31\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "要求在今后项目阶段对零部件使用作出更详细的规定，机器人、焊接和控制部分做好内部交流，统一写入项目标书中。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "8\/30\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上述过程。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL 滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

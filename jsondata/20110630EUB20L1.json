@@ -1,0 +1,222 @@
+{
+	"fileName": "20110630EUB20L1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110630EUB20L1.json",
+	"score": 684,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年7月1日2时 20分",
+	"fileNameDate": "20110630",
+	"equipName": "设备名称:机器人焊抢",
+	"breakdownTime": "停机时间：25 min",
+	"areaLocation": "停机区域\/点: EUB020  L1",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator仇卫忠    2011.6.30",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "机器人L1故障工位报警停止，L1 机器人watersave报警",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "水复位，机器人快插式冷却水管接头处喷水",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "手动操作机器人至维修位置，检查快插式冷却水管接头发现接头螺纹拉掉",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "比对该金属快插接头（10×14）与我们现场备件不符合，寻找替代接头",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "选用现场仓库SMC（10×10）接头将现场使用的两个快插接头更换、修复螺纹、安装10毫米气管替代",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备正常运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB020L1伺服焊抢焊接时焊抢快插式冷却水管接头损坏"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么伺服焊抢焊接时Watersave报警？因为伺服焊抢焊接时焊抢快插式冷却水管接头损坏"
+		],
+		[
+			"为什么伺服焊抢焊接时焊抢快插式冷却水管接头损坏？因为X型伺服焊抢焊接时水管往复运动，长时间拉伸后快插式接头损坏、螺纹拉掉"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"为什么X型伺服焊抢焊接时水管往复运动，长时间拉伸后快插式接头损坏、螺纹拉掉？因为原水管偏短又是非标型金属快插头易拉坏"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换SMC标准10毫米备件两个",
+				"resp": "仇卫忠",
+				"supp": "黄波",
+				"compDate": "11-07-01",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": " "
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换加长水气管改变走向避免焊抢运动中拉伸",
+				"resp": "仇卫忠",
+				"supp": "",
+				"compDate": "11-07-01",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "各班组下一轮PM排查责任区非标准快插接头并更换",
+				"resp": "TL",
+				"supp": "",
+				"compDate": "11-07-10",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄波",
+	"person_ENG": "工程师\/ENG.:王晔",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

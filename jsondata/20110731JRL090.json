@@ -1,0 +1,222 @@
+{
+	"fileName": "20110731JRL090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110731JRL090.json",
+	"score": 601,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月31日 6时30分",
+	"fileNameDate": "20110731",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：15minm",
+	"areaLocation": "停机区域\/点:JRL90",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  马晓洲黄轶佳        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "联机PLC检查相关逻辑条件并检查变频器，PLC有控制输出，变频器有输出频率显示",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "怀疑雪橇下有异物卡住，松刹车人力将带车雪橇推到JRL100工位，未发现异物；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "恢复机运线运行，JRL80工位雪橇能够进入JRL90工位，但JRL90工位雪橇无法运行到JRL100工位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查变频器输出电压，检查电机端电压，有合理电压数值；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "变频器断电后重新上电，恢复设备正常运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL90工位滚床上的雪橇不向前运行"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL90雪橇无法RUN OUT?因为电机收到变频器输出电压后无转动动作（有电磁振动声）"
+		],
+		[
+			"为什么电机收到变频器输出电压后无转动动作？怀疑变频器输出电压有问题"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "怀疑变频器输出电压有问题",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将备件变频器及电机调到现场仓库待用",
+				"resp": "黄轶佳",
+				"supp": "马晓洲",
+				"compDate": "11-7-31",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "咨询变频器生产厂家可能的故障原因并从供应商处获得技术支持",
+				"resp": "黄轶佳",
+				"supp": "尹伟文 马晓洲",
+				"compDate": "11-8-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "跟踪变频器使用情况一周，出现同样问题尝试更换变频器解决问题。",
+				"resp": "黄轶佳刘丰    滕征",
+				"supp": "尹伟文",
+				"compDate": "11-8-10",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

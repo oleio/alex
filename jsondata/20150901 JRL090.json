@@ -1,0 +1,222 @@
+{
+	"fileName": "20150901 JRL090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150901 JRL090.json",
+	"score": 613,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.9.1",
+	"fileNameDate": "20150901",
+	"equipName": "设备名称:  滚床皮带",
+	"breakdownTime": "停机时间：18min",
+	"areaLocation": "停机区域\/点: JRL090",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "18",
+	"lostProductNum": "14",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:   陈志剑\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位，松开电机刹车，手动将雪橇推回正确位置。",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "上自动，待车子完成工艺离开工位后，重新进入工位检查滚床上的传感器以及机械传动设备。",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查后发现电机驱动皮带磨损严重，立即去仓库找同型号备件，准备更换。",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "掀开滚床盖板，将磨损皮带拆下，换上新皮带。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "工位上自动，进车停止位置恢复正常。",
+				"lostMin": 1,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL090雪橇停止位置不稳定，冲过头两次。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL090雪橇容易冲过头？因为滚床电机与驱动皮带之间打滑，制动能力不足。"
+		],
+		[
+			"为什么滚床电机与驱动皮带间会打滑？因为驱动皮带磨损严重，带齿脱落。"
+		],
+		[
+			"为什么驱动皮带的锯齿会脱落？滚床和皮带是4月份停产时新换的，目前使用尚不足5个月，皮带的质量或者选型存在问题，根本原因有待供应商进一步分析。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "皮带存在质量或选型问题，根本原因与供应商进一步分析。(供应商皮带选型错误，使用橡胶皮带，造成使用寿命缩短)",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换皮带",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "9\/1\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "安排维修对补焊线其他工位的驱动皮带进行检查.",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": "9\/2\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对选型错误的皮带进行批量更换",
+				"resp": "尹伟文",
+				"supp": "顾雪峰",
+				"compDate": "9\/30\/2015",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：陈烨华",
+	"person_ENG": "工程师\/ENG.:陈志剑",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

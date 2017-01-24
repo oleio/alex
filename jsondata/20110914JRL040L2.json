@@ -1,0 +1,222 @@
+{
+	"fileName": "20110914JRL040L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110914JRL040L2.json",
+	"score": 631,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年09月14日 11时030分",
+	"fileNameDate": "20110914",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点: JRL40L2",
+	"maintainTeam": "维修班组：c",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  陈文佳        \nOringinator 2011.09.14",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JUR40L2焊接故障无法焊接焊枪无动做。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查焊接电磁阀无信号，检查19芯信号线正常。检查机器人j1处TURCK模块bus灯红灯常亮。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "TURCK模块断电，通讯接头重新插拔无效。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "bypass此焊枪，并更换turck模块。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换模块后故障仍在，机器人断电重启。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "故障消除工位恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JUR040L2焊接故障无法焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接故障报警？因为焊接无法完成。"
+		],
+		[
+			"为什么焊接无法完成？因为焊枪无动做。"
+		],
+		[
+			"为什么焊枪无动做？因为焊枪电磁阀未收到信号。"
+		],
+		[
+			"为什么焊枪电磁阀未收到信号？因为TURCK模块出现过短路引起bus fault故障。"
+		],
+		[
+			"为什么模块bus fault故障？待拆下模块安装至分拼区域测试状态。"
+		]
+	],
+	"rootCause": "",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换新TURCK模块,",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.09.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "旧模块拆下后安装至分拼区域查明故障原因",
+				"resp": "陈文佳",
+				"supp": "徐啸顺",
+				"compDate": "2011.010.14",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "JUR40L2焊接故障无法焊接焊枪无动做。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查焊接电磁阀无信号，检查19芯信号线正常。检查机器人j1处TURCK模块bus灯红灯常亮。"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "机器人断电重启检查状态"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:周志辉",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

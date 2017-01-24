@@ -1,0 +1,222 @@
+{
+	"fileName": "20151104 EUB050L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151104 EUB050L2.json",
+	"score": 526,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.11.4     14",
+	"fileNameDate": "20151104",
+	"equipName": "设备名称:  伺服焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: EUB050",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "12",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    葛逸飞   2015.11.4 \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位检查焊枪",
+				"lostMin": 5,
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "发现软连接与硬连接接触面有拉弧痕迹",
+				"lostMin": 5,
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆卸软连接，打磨硬连接表面",
+				"lostMin": 10,
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "回复生产",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB050 L2 焊接故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人停止工作？因为伺服焊枪焊接报警。"
+		],
+		[
+			"为什么因为伺服焊枪焊接报警？因为焊枪焊接无电流。"
+		],
+		[
+			"为什么焊枪焊接无电流？因为焊枪软连接与硬连接拉弧，导致焊接电流回路中断。"
+		],
+		[
+			"为什么焊枪软连接与硬连接拉弧？因为软连接与硬连接贴合面有间隙，接触电阻变大。"
+		],
+		[
+			"为什么软连接与硬连接贴合面有间隙？因为软连接设计缺陷,安装后表面无法与硬连接完全贴合"
+		]
+	],
+	"rootCause": "软连接设计缺陷,安装后表面无法与硬连接完全贴合",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时打磨硬连接使表面,更换软连接",
+				"resp": "曹鸣晓",
+				"supp": "葛逸飞",
+				"compDate": "11\/4\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "非生产日更换硬连接",
+				"resp": "黄伟杰",
+				"supp": "小原",
+				"compDate": "11\/8\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系供应商对伺服焊枪软连接进行改进",
+				"resp": "黄伟杰",
+				"supp": "瞿淼晋",
+				"compDate": "12\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:葛逸飞",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

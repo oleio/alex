@@ -1,0 +1,222 @@
+{
+	"fileName": "20111214JFM090R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111214JFM090R3.json",
+	"score": 794,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年12月14日13时30分",
+	"fileNameDate": "20111214",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 李颖琛",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "焊机焊接故障复位后连续多辆E-10同位置焊接故障",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "维修在焊接故障点示教板手动操作机器人焊枪焊接，发现焊枪焊接动作无，电磁阀无24v电信号",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "怀疑19芯焊枪控制电缆失效，紧固换枪盘侧插头及TURCK模块侧线缆侧插头 故障仍然存在",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "继续跟踪一轮车型发现在车型切换时抓放停枪支架上的E-10焊枪时Dress拉动造成控制电缆受力内部折伤。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "利用生产更换电极帽时间在Dress外跨接一根新的19芯电缆恢复焊枪功能",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090工位机器人R3焊枪E-10车型焊接故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊枪无法焊接？因为焊枪未收到关枪指令"
+		],
+		[
+			"为什么焊枪关枪信号没有收到？因为开关信号输入连接线路断路"
+		],
+		[
+			"为什么开关信号输入连接线路断路？因为焊枪控制信号19芯电缆在机器人轨迹运行时Dress外露部分扯动损坏"
+		],
+		[
+			""
+		],
+		[
+			"为什么焊枪控制19芯电缆在机器人轨迹运行时Dress外露部分扯动损坏？因为机器人手臂伸展至最远端时J6处Dress外露部分19芯信号电缆预留拉伸余量不够"
+		]
+	],
+	"rootCause": "机器人手臂伸展至远端时J6处Dress外露部分19芯信号电缆拉伸余量不够引起线缆弯折损伤",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "分析焊接故障原因，临时跨接焊枪信号控制电缆",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "11-12-14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "停产时间更换原电缆并验证机器人运行轨迹充分预留线缆长度",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11-12-16",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "在线巡检车身区域内其他机器人动态情况下J6处Dress外露部分19芯信号电缆是否受到拉扯力，各班组按班组责任区域落实整改。",
+				"resp": "A\/B\/C三个班组",
+				"supp": "徐啸顺",
+				"compDate": "11-12-25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:李颖琛",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20130126SFI060U1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130126SFI060U1.json",
+	"score": 744,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1月27日7时",
+	"fileNameDate": "20130126",
+	"equipName": "设备名称 中频焊机",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点: SFI060U1",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "60",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  郑旭俊      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产反映SFI60 U1机器人无法焊接，工程师到场后发现焊机有报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检测发现焊机内焊接控制器报警、隔离接触器未吸合；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "万用表检测隔离接触器输入端，有电压，隔离接触器故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "东昌现场隔离接触器无备件，紧急调货需要45分钟，启用快速处置方案，更换BACKUP焊机；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "焊机更换后依旧有报警，检查发现ICOM板CSTOP指示灯异常，与机器人控制柜连接的24V电源无输入；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "使用短接排短接，消除报警，焊机可正常焊接；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "确认焊接状态正常后恢复自动生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI60 U1机器人无法焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SFI60U1工位HMI报警"
+		],
+		[
+			"为什么U1焊接报警"
+		],
+		[
+			"为什么隔离接触器未吸合？因为隔离接触器线圈断裂；"
+		],
+		[
+			"为什么备用焊机无法正常工作"
+		],
+		[
+			"为什么无24V电源输入？因为机器人控制柜24V电源线输出接线存在差异。"
+		]
+	],
+	"rootCause": "隔离接触器故障，东昌现场无备件；机器人控制柜24V电源线接线差异，ICOM板CSTOP报警，造成备用焊机隔离接触也无法吸合",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.启用BACKUP焊机，使用短接排清除报警，临时维持生产",
+				"resp": "郑旭俊",
+				"supp": "黄光耀",
+				"compDate": "2013\/01\/27",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.早早班更换故障的隔离接触器",
+				"resp": "郑旭俊",
+				"supp": "曹鸣晓",
+				"compDate": "2013\/01\/28",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "焊接组整理发布备用焊机的操作流程及接线标准",
+				"resp": "郑旭俊",
+				"supp": "孙杰",
+				"compDate": "2013\/01\/30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "常用焊接备件现场仓库调用状态梳理",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2013\/02\/03",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上（备用焊机使用中存在接线标准问题）"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

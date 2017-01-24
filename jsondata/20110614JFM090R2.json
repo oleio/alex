@@ -1,0 +1,222 @@
+{
+	"fileName": "20110614JFM090R2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110614JFM090R2.json",
+	"score": 578,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月15日5时 0 分",
+	"fileNameDate": "20110614",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:JFM090",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "6",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期          \nOringinator李颍琛 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM90工位焊枪粘电极帽，在焊接位置更换电极帽复位STEEP后再次粘掉；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "再次更换电极帽后用示教板操作机器人焊枪焊接，再次粘掉电极帽；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "操作机器人走完全部轨迹并将机器人开到维修位置，更换电极帽并修磨后手动操作机器人完成焊接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "第二辆车进入工位时焊枪正常工作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90工位R2焊枪粘电极帽，在焊接位置附近更换电极帽后再次粘掉。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人R2焊枪粘电极帽？因为在焊接过程中夹头报警引起焊接故障。"
+		],
+		[
+			"为什么夹头不到位报警？因为夹头动作过程中被飞溅卡住。"
+		],
+		[
+			"为什么焊枪重复更换电极帽后再次粘电极帽？因为更换电极帽后发生重复粘电极帽没有马上进行修磨"
+		],
+		[
+			"为什么没有马上进行修磨？因为焊枪此时处于焊接轨迹中，如开出修磨会与其他焊枪发生干涉，只能用do信号steep复位。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "飞溅卡住夹头引起夹头不到位，导致机器人焊接故障。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "清除卡住夹头的飞溅",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "11-6-15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日对工位夹头做全面清理",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "11-6-16",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "维修步骤1,3,4"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:陈超"
+}

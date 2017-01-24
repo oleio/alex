@@ -1,0 +1,222 @@
+{
+	"fileName": "20120805ESOL010.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120805ESOL010.json",
+	"score": 628,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月5日20时00分",
+	"fileNameDate": "20120805",
+	"equipName": "设备名称:工装气缸",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:ESO010L",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 谢诚侃        \nOringinator 2012.8.5",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "ESO010L CLAMP4打开不到位报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查气路发现打开气路中没有气压，怀疑电磁阀未动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "查找到电磁阀，发现电磁阀打开信号不稳定；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换此电磁阀故障依旧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "临时将气管接至其它相同动作的电磁阀维持生产（生产结束后检查线路）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO010L报警CLAMP4动作不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CLAMP4打开不到位报警？因为CLAMP4气路中没有气压；"
+		],
+		[
+			"为什么CLAMP4气路中没有气压？因为电磁阀没有动作；"
+		],
+		[
+			"为什么电磁阀没有动作？生产结束检查电磁阀发现此电磁阀控制的DUMP程序正常；"
+		],
+		[
+			"为什么电磁阀控制程序正常但有CLAMP4报警？因为CLAMP4气缸传感器不稳定，没到位；"
+		],
+		[
+			"为什么后续生产中报警消除？因为重新开关夹头后传感器恢复状态；"
+		]
+	],
+	"rootCause": "气缸传感器状态不稳定未到位（发生故障时总拼同时有问题，维修响应较慢）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时将气路接到相同动作的电磁阀上维持生产（此方法与故障根本原因无关）",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "8\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "维修内部交流故障原因，并对现场类似故障进行一点课程学习",
+				"resp": "陈文佳",
+				"supp": "沈建伟",
+				"compDate": "8\/6\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

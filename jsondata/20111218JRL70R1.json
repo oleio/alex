@@ -1,0 +1,222 @@
+{
+	"fileName": "20111218JRL70R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111218JRL70R1.json",
+	"score": 620,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年12月18日  时  分",
+	"fileNameDate": "20111218",
+	"equipName": "设备名称:机器人\/焊机",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JRL线",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 黄智君",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "用示教板手动操作机器人焊接，确定焊枪无焊接电流；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进一步检查发现中频焊机紧急停止报警，判断中频焊机损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "根据维修预案用备用焊机替换“问题焊机”，设置参数并重起机器人控制器\/焊接控制器后问题依旧",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "联系生产启动生产BACKUP方案维持补焊线生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "检查焊机控制信号发现来自机器人DC24V控制信号缺失，检查机器人控制箱判断紧急停止模板没有发出焊机需要的DC24V信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "评估可能存在的风险后用其它信号电压替代机器人DC24V控制信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "恢复设备正常自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL70R1中频焊机无法焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人中频焊枪无法焊接？因为中频焊机故障报警"
+		],
+		[
+			"为什么中频焊机故障报警？因为中频焊机紧急停止"
+		],
+		[
+			"为什么中频焊机紧急停止？因为中频焊机缺少来自机器人的DC24V控制信号"
+		],
+		[
+			"为什么中频焊机缺少来自机器人的DC24V控制信号？因为机器人安全控制板损坏"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人安全控制板损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的机器人安全控制板",
+				"resp": "黄俊宇",
+				"supp": "马晓洲",
+				"compDate": "11-12-25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "此故障判断与处理一点课程培训维修成员",
+				"resp": "黄俊宇 程超",
+				"supp": "马晓洲",
+				"compDate": "11-12-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:程超黄俊宇"
+}

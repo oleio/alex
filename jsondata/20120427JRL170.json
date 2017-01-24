@@ -1,0 +1,222 @@
+{
+	"fileName": "20120427JRL170.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120427JRL170.json",
+	"score": 544,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年04月17日16时  分",
+	"fileNameDate": "20120427",
+	"equipName": "设备名称:升降滚床",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:  JRL",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 曹鸣晓         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场处理故障，同时拉动控制工程师并汇报班长和主管；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "控制工程师强制相关信号后将升降滚床开到高位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "重新安装位置偏转的滚床停止位传感器；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "口头申请BYPASS激光测量工位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复生产线运行后填写BYPASS激光测量工位表格并报批备案；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL170工位升降滚床工位在白车身完成工序离开工位时突然下降导致带车"
+		],
+		[
+			"雪橇搁在工位间的隔离围栏上。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么带车雪橇搁在工位之间的隔离围栏上"
+		],
+		[
+			"为什么雪橇RUN OUT过程中升降滚床下降"
+		],
+		[
+			"为什么升降滚床刹车摩擦力不足"
+		],
+		[
+			"为什么电机刹车摩擦片过度磨损"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "皮带式升降滚床使用的电机余量过小,电机刹车摩擦片过度磨损。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时屏蔽激光测量工位，当日生产结束后更换电机刹车",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "4\/28\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "摩擦片；",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改JFM170工位升降滚床PM工作计划，每6个月更换",
+				"resp": "胡滨",
+				"supp": "马晓洲",
+				"compDate": "5\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "电机刹车片。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

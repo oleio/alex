@@ -1,0 +1,222 @@
+{
+	"fileName": "20120224JFM090R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120224JFM090R3.json",
+	"score": 588,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年  2月 24 日 6 时  30分",
+	"fileNameDate": "20120224",
+	"equipName": "设备名称:R3",
+	"breakdownTime": "停机时间：20MIN",
+	"areaLocation": "停机区域\/点:  JFM090",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  黄光耀        \nOringinator  2012-2-24",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090 R3早早班检修后影响开线5分钟；",
+				"lostMin": "",
+				"success": "N\/A"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "E-car焊枪修磨时机器人碰撞报警，J6轴抱箍与机器人本体干涉；",
+				"lostMin": "",
+				"success": "N\/A"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进工位尝试示教R3轨迹（无效）；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将抱箍位置调整，使抱箍在焊枪修磨时不会碰的太厉害；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "工位回复自动（夜班继续进行轨迹调整）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090 R3 E-CAR焊枪修磨时J6轴抱箍与机器人本体干涉"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R3修磨时碰撞报警？因为R3 J6轴抱箍与机器人本体干涉；"
+		],
+		[
+			"为什么R3抱箍与机器人本体干涉 ？因为R3J6抱箍位置不好；"
+		],
+		[
+			"为什么R3J6抱箍位置不好？因为原抱箍损坏后位置调整过；"
+		],
+		[
+			"为什么抱箍位置变化？因为更换后的抱箍经常断裂，位置进行了调整；"
+		],
+		[
+			"为什么经常断裂？因为抱箍材质变化，原铁质的换成了工程塑料；"
+		]
+	],
+	"rootCause": "",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整J6抱箍位置",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2\/24\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整R3修磨轨迹",
+				"resp": "黄光耀",
+				"supp": "尹熠俊",
+				"compDate": "2\/29\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "轨迹优化后做好标示，便于确认运行后的状态",
+				"resp": "黄光耀",
+				"supp": "尹熠俊",
+				"compDate": "2\/29\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

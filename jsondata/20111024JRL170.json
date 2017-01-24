@@ -1,0 +1,222 @@
+{
+	"fileName": "20111024JRL170.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111024JRL170.json",
+	"score": 779,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011.10.20 01",
+	"fileNameDate": "20111024",
+	"equipName": "设备名称:升降滚床",
+	"breakdownTime": "停机时间：90min",
+	"areaLocation": "停机区域\/点:JRL170",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "80",
+	"lostProductNum": "60",
+	"plantName": "厂区：spbs\nPlant",
+	"originator": "填表人\/日期          \nOringinator 李成\n",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "工位自动情况下，滚床下降过程中报警停止",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "维修工在工位外发现车辆未下降到位，判断车身与工装干涉",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "维修工尝试手动将滚床升起，发现滚床右后无法升起，导致倾斜",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "进入工位发现雪橇位置移位，雪橇左后及右前卡死在导向轮与工装间，且左后摇臂打滑空转失位",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "用千斤顶、枕木、撬棒将雪橇从干涉位置顶回滚床正确位置",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "尝试恢复滚床摇臂失败，评估风险后，用千斤顶、撑铁将滚床保持高位，Bypass该工位",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL170升降滚床倾斜"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么升降滚床倾斜？因为滚床左后摇臂空转失位"
+		],
+		[
+			"为什么滚床左后摇臂空转失位？因为左后侧滚床与雪橇及工装干涉，无法顶升"
+		],
+		[
+			"为什么滚床与工装干涉？因为维修工发现落车不到位，判断失误错误升起滚床"
+		],
+		[
+			"为什么落车不到位？因为雪橇与拨叉干涉，顶起后发生移位"
+		],
+		[
+			"为什么雪橇与拨叉干涉？因为拨叉开挡小于雪橇定位横梁与传感器宽度之和"
+		]
+	],
+	"rootCause": "该拨叉开挡小于雪橇定位横梁与传感器宽度和，滚床极端停止位置时拨叉将雪橇顶起",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整传感器位置，减少拨叉与定位杆干涉可能性",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "2011.10.24",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修复滚床摇臂，恢复升降",
+				"resp": "夏伟",
+				"supp": "",
+				"compDate": "2011.10.24",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "打磨拨叉（导向），使导向开挡大于横梁与传感器宽度和",
+				"resp": "殷致平",
+				"supp": "",
+				"compDate": "2011.10.31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "一点课程将维修过程及故障模式全员培训",
+				"resp": "黄智君",
+				"supp": "",
+				"compDate": "2011.10.31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "车间内检查确保拨叉导向部分开挡满足要求",
+				"resp": "TL",
+				"supp": "",
+				"compDate": "2011.10.31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "工位自动情况下，滚床下降过程中报警停止"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位发现雪橇位置移位，人工干预调整雪橇位置"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "恢复生产"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:谢诚侃(代)",
+	"person_Manager": "工程师\/ENG.:尹伟文"
+}

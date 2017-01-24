@@ -1,0 +1,222 @@
+{
+	"fileName": "20151128.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151128.json",
+	"score": 650,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015-11-28",
+	"fileNameDate": "20151128",
+	"equipName": "设备名称:机器人涂胶",
+	"breakdownTime": "停机时间：累计40min",
+	"areaLocation": "停机区域\/点:后门",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄光耀      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产抱怨机器人涂胶部分胶段不完整，手动操作机器人检查，发现涂胶控制气压有间断；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查涂胶控制气路，发现涂胶控制气管被拉、气管变形通气不畅，重新捆扎，恢复设备自动运行并跟踪机器人涂胶数辆；",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "数小时后该涂胶机器人再次故障，涂胶控制气管被拉断，东昌仓库领用气管及气管接头，连接断裂的气管，手动操作机器人检查涂胶阀控制功能；",
+				"lostMin": 25,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复设备正常涂胶，恢复设备自动运行",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"后门压机机器人涂胶部分胶段不完整，检修涂胶控制气管；"
+		],
+		[
+			"数小时后该涂胶机器人再次故障，涂胶控制气管被拉断。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人涂胶枪无法涂胶"
+		],
+		[
+			"为什么机器人涂胶控制阀没有动作"
+		],
+		[
+			"为什么涂胶控制气路工作不正常"
+		],
+		[
+			"为什么涂胶控制气管变形通气不畅\/涂胶控制气管被拉断"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "涂胶控制气管捆扎状态长期工作后发生变化,导致控制气管受拉力.",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用气管对接头接通修理涂胶控制气路",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11\/28\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换受损严重的涂胶控制气管,检查机器人涂胶工作轨迹并合理捆扎。",
+				"resp": "陆强",
+				"supp": "孙伟",
+				"compDate": "11\/29\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "跟踪检查机器人涂胶控制气管工作状态",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "11\/30\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "步骤（2）工作完成后因连续跟踪机器人涂胶控制气管工作状态，避免再次"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "出现涂胶控制气管故障。"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL黄光耀",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

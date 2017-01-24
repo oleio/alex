@@ -1,0 +1,222 @@
+{
+	"fileName": "20120606JRL030R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120606JRL030R1.json",
+	"score": 626,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年6月6日3时40分",
+	"fileNameDate": "20120606",
+	"equipName": "设备名称:R1焊枪",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: JRL030",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄光耀         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL30R1焊接时报警，复位无效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进工位发现焊枪没有打开，手动示教机器人执行下一步程序，焊枪仍然不打开；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "关气检查焊枪机械结构，无明显卡住迹象，检查气缸，无漏气现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "手动戳阀，焊枪动作；发送DO开枪信号，焊枪无动作；换另一把焊枪仍然无动作；怀疑19芯电缆问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "飞线机器人3#轴到换枪盘侧，焊枪仍无动作；怀疑换枪盘内信号接触不良；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "脱开换枪盘，检查并清洁信号插针，焊枪信号正常，恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL030R1焊枪焊接618时故障，焊枪打开无动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL30R1焊接时报警？因为JRL30R1焊接完成后焊枪未打开；"
+		],
+		[
+			"为什么JRL30R1焊接完成后焊枪未打开？因为电磁阀阀芯没有切换；"
+		],
+		[
+			"为什么电磁阀阀芯没有及时切换？因为换枪盘插针接触不良；"
+		],
+		[
+			"为什么换枪盘插针接触不良？因为换枪盘插针有水渍导致接触不良；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "换枪盘插针有水渍导致接触不良",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "夜班对此换枪盘进行检查保养（更换了电磁阀和比例阀）",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2012.6.6",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更新PM计划，加强对换枪盘插针的检查及保养（每周进行）",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012.6.9",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

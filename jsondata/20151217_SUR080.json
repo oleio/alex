@@ -1,0 +1,222 @@
+{
+	"fileName": "20151217_SUR080.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151217_SUR080.json",
+	"score": 794,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.12.17",
+	"fileNameDate": "20151217",
+	"equipName": "设备名称:  阀岛",
+	"breakdownTime": "停机时间：50",
+	"areaLocation": "停机区域\/点: SUR080",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "50",
+	"lostProductNum": "38",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    陈志剑\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "观察报警信息发现SUR080Pin销不动作，尝试手动操作HMI关闭Pin4，发现无效。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "通过戳阀使Pin销关闭，随后上自动使机器人焊接，但是机器人焊接报警。",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "通知焊接工程师到场，调整焊接相关参数，并手动完成机器人焊接。",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "SUR070焊接工艺完成后，底板工装Pin销未打开，进入工位发现阀岛没电。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查发现阀岛电源线没电，再查J箱，发现阀岛供电使能接触器未吸合。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "查看程序，发现SUR060未复位，导致SUR080的阀岛使能接触器未吸合。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "将SUR060复位，阀岛供电恢复，底板Pin销可正常动作。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR080底板Pin销不动作，机器人焊机报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SUR080Pin销不动作？因为阀岛缺乏24V直流供电。"
+		],
+		[
+			"为什么阀岛缺乏24V直流电？因为SUR060J箱内控制阀岛电源的使能接触器未吸合。"
+		],
+		[
+			"为什么SUR060的J箱有使能接触器未吸合？因为SUR060的安全门未复位。"
+		],
+		[
+			"为什么SUR060安全门不复位会导致SUR080阀岛没电？因为上周PM时对SUR060,070,080改造，硬件改进出不彻底,现遗漏。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "上周PM时对SUR060,070,080改造，硬件改进出不彻底,现遗漏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "对SUR060复位，使阀岛供电恢复。",
+				"resp": "陈志剑",
+				"supp": "",
+				"compDate": "12\/17\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "告知维修，SUR080阀岛供电的条件。",
+				"resp": "陈志剑",
+				"supp": "",
+				"compDate": "12\/17\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改SUR060,SUR070,SUR080的电气网络接线及相关程序。",
+				"resp": "陈志剑",
+				"supp": "滕征",
+				"compDate": "2015\/12.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "直接检查SUR060J箱"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 佘家安 (代)",
+	"person_ENG": "工程师\/ENG.: 陈志剑",
+	"person_GL": "工段长\/ GL: 滕征",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

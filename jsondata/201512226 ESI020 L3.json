@@ -1,0 +1,222 @@
+{
+	"fileName": "201512226 ESI020 L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\201512226 ESI020 L3.json",
+	"score": 488,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年12月26日9时50分",
+	"fileNameDate": "20151222",
+	"equipName": "设备名称:手工焊机",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:ESI020L3",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 葛逸飞\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查焊枪手柄，发现焊枪手柄接触不良，更换手柄",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "发现焊机1#枪柄端口无反应，检查阀岛工作正常",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换枪柄端口，更换气管接口",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复生产",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"手工焊枪BACKUP无反应"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么手工焊枪BACKUP无反应？因为I\/O板无输入信号；"
+		],
+		[
+			"为什么I\/O板无输入信号？因为焊机内部1#端口线缆短路；"
+		],
+		[
+			"为什么焊机内部1#端口线缆短路？因为焊枪枪柄内部短路；"
+		],
+		[
+			"为什么焊枪枪柄内部短路？因为返修枪柄质量存在问题"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "1. 焊枪手柄返修质量存在问题\n2. 焊机内部I\/O板接线老化",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换焊枪阀岛",
+				"resp": "葛逸飞",
+				"supp": "",
+				"compDate": "12\/26\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换焊枪端口",
+				"resp": "葛逸飞",
+				"supp": "",
+				"compDate": "12\/26\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查焊机内部接线",
+				"resp": "黄伟杰",
+				"supp": "",
+				"compDate": "1\/4\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "培训供应商提高备件返修质量",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "1\/20\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:葛逸飞",
+	"person_GL": "工段长\/ GL 黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

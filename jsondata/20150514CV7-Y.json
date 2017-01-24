@@ -1,0 +1,222 @@
+{
+	"fileName": "20150514CV7-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150514CV7-Y.json",
+	"score": 591,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年5月14日",
+	"fileNameDate": "20150514",
+	"equipName": "设备名称:CV7",
+	"breakdownTime": "停机时间：累计120min",
+	"areaLocation": "停机区域\/点: CV7",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "120",
+	"lostProductNum": "90",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   陈志剑    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "尝试更换SVK通讯模块，断电重启，发现通讯状态依然不稳定。",
+				"lostMin": 50,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "根据对故障现象判断，怀疑在岔道TS06处存在问题，对该岔道进行检查。",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "依次检测SVK电排接线发现有断路现象。",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换SVK到接线盒间的通讯线后恢复正常。",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV7出现小车通讯报警，系统无法正常工作。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV7小车通讯报警？因为通讯网络异常。"
+		],
+		[
+			"为什么通讯网络异常？因为从SVK模块到现场接线盒的通讯电缆存在短路。"
+		],
+		[
+			"为什么通讯电缆内部存在短路？因为整改施工过程中，通讯电缆松开下垂，未及时发现。"
+		],
+		[
+			"为什么通讯电缆松开下垂，未及时发现？因为现场施工后，供应商和SGM未有效验证确认。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "供应商改造现场施工后，供应商和SGM未有效验证确认，导致电缆走向变化被挤压。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换破损的通讯电缆。",
+				"resp": "DEMC",
+				"supp": "",
+				"compDate": "2015.5.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对责任供应商索赔两小时停产损失。",
+				"resp": "邱正东",
+				"supp": "",
+				"compDate": "2015.5.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "由责任区域维修在指定时间内对供应商整改项目进行初步验收，之后由工程师进行终验收。",
+				"resp": "邱正东",
+				"supp": "",
+				"compDate": "2015.5.16",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹明晓",
+	"person_ENG": "工程师\/ENG.:陈志剑",
+	"person_GL": "工段长\/ GL:滕征代",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

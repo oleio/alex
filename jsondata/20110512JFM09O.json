@@ -1,0 +1,222 @@
+{
+	"fileName": "20110512JFM09O.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110512JFM09O.json",
+	"score": 565,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年5月12日17时16分",
+	"fileNameDate": "20110512",
+	"equipName": "设备名称:SHUTTLE",
+	"breakdownTime": "停机时间：11MIN",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "11",
+	"lostProductNum": "5",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 顾乐宾\n2011-5-12",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "根据故障现象检查示教板信息，发现DO信号已经发出但没有发生机械动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查安全插销防坠落开关，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查UNLOCK电磁阀状态，发现阀头处接线头松脱；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "重新接线后设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"工位618车型时U1机器人放GRIPPER失败，无法UNLOCK。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位618车型时U1机器人放GRIPPER失败？因为GRIPPER无法解锁"
+		],
+		[
+			"为什么GRIPPER无法解锁？因为解锁电磁阀没有动作"
+		],
+		[
+			"为什么解锁电磁阀没有动作？因为解锁电磁阀线圈没有电"
+		],
+		[
+			"为什么解锁电磁阀线圈没有电？因为阀头接线端线脱脱落"
+		],
+		[
+			"为什么阀头接线端线脱脱落？因为阀头接线端盖破碎（变化点及端盖损坏原因待跟踪确定）"
+		]
+	],
+	"rootCause": "阀头接线端盖破碎（变化点及端盖损坏原因待跟踪确定）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新接线并更换损坏的阀头端盖",
+				"resp": "顾乐宾",
+				"supp": "尹熠俊",
+				"compDate": "11-5-14",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "跟踪机器人运行情况，发现阀头端盖损坏原因并解决问题",
+				"resp": "黄光耀",
+				"supp": "尹熠俊",
+				"compDate": "11-5-20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120914CV4.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120914CV4.json",
+	"score": 726,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月14日20时52分",
+	"fileNameDate": "20120914",
+	"equipName": "",
+	"breakdownTime": "停机时间累计25min",
+	"areaLocation": "",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "25",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "TC105 横移皮带运行过程中发生较大偏移；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动开动TC105皮带运行，并手动将雪橇搬正；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "恢复相邻工位RB101等滚床运行，PLC程序中清理雪橇位置信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "CV4工位恢复自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV4 TC105 运行到位后发生偏移，报警，并引起同区域内其它运行中的机运线工位停止运行；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么横移机会停止运行？因为横移机雪橇感应器状态报错；"
+		],
+		[
+			"为什么雪橇感应器状态出错？因为雪橇位置发生偏移无法感应到位；"
+		],
+		[
+			"为什么雪橇位置发生偏移？因为皮带运行中雪橇发生抖动两边运行速度不一致；"
+		],
+		[
+			"为什么雪橇运行中发生抖动？因为皮带承重后摩擦力不一致；"
+		],
+		[
+			"为什么承重后摩擦力不一致？因为横移机同步皮带涨紧轮机构位置偏移，皮带涨紧度不一致造成两根皮带未同步运行；"
+		]
+	],
+	"rootCause": "因为横移机同步皮带涨紧轮机构位置偏移，皮带涨紧度不一致造成两根皮带未同步运行，最终导致雪橇无法准确停止到位；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.人工推动雪橇到位，手动操作整个输送工序；",
+				"resp": "",
+				"supp": "",
+				"compDate": "9\/14\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.对皮带做标记，采集皮带长距离运行后皮带不同步偏差量，便于周日PM调整；",
+				"resp": "",
+				"supp": "",
+				"compDate": "9\/14\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.横移机皮带定期清理并检查两侧皮带涨紧度，根据在线采集的皮带长距离运行后皮带不同步偏差量做出相应调整；",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "9\/16\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.更换磨损严重的横移机皮带，对涨紧轮机构拆卸维护保证皮带准确同步定位；",
+				"resp": "陈烨华",
+				"supp": "夏伟",
+				"compDate": "9\/16\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

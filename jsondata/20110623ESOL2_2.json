@@ -1,0 +1,222 @@
+{
+	"fileName": "20110623ESOL2_2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110623ESOL2_2.json",
+	"score": 613,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 6月 23日 18时 00分",
+	"fileNameDate": "20110623",
+	"equipName": "设备名称:ESO L2",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:   ESO",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期　张兆\nOringinator 2011.6.23",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "查看ESOL HMI，发现L2机器人报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "查看L2示教板，是CRC　ERROR报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "紧固编码器线接头，重启L2，手动完成此CYCLE；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复生产后，又多次在同一位置时报警（翻枪动作过猛，抓钩老化）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "调整L2翻枪轨迹，使之更平衡柔和；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO机器人停止工作。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位故障报警？因为L2CRC ERROR故障报警；"
+		],
+		[
+			"为什么L2　CRC ERROR故障报警？因为L2伺服编码器校验出错；"
+		],
+		[
+			"为什么L2伺服编码器校验出错？因为L2换枪盘在翻转轨迹过程中面与面之间贴合不够紧密；"
+		],
+		[
+			"为什么L2换枪盘在翻枪时面与面之间贴合不够紧密？因为换枪盘抓钩与圆销之间存在磨损。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "换枪盘抓钩与圆销之间磨损，机器人翻转轨迹较多，造成信号不稳定。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整轨迹，维持生产。",
+				"resp": "张兆",
+				"supp": "黄波",
+				"compDate": "2011.6.23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换磨损的换枪盘抓钩与圆销。",
+				"resp": "张兆",
+				"supp": "黄波",
+				"compDate": "2011.6.23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "跟踪换好L2枪盘抓钩和圆销的状态，并评估ESO区域其他换枪盘是否需要更换相关备件",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011.6.28",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：黄波",
+	"person_ENG": "工程师\/ENG.:",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20150512CV7.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150512CV7.json",
+	"score": 703,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年5月12日18时0分",
+	"fileNameDate": "20150512",
+	"equipName": "设备名称:EMS机运线",
+	"breakdownTime": "停机时间：90min",
+	"areaLocation": "停机区域\/点: CV7",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  李颖琛 马晓洲      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查机器人程序，发现机器人在等待信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拉动控制工程师支持检查工位PLC对应信号，发现问题由CV7连锁信号引起；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查CV7小车状态，发现升降段附近区域所有小车ERROR26，确定小车通讯报警，进一步检查发现电排信号控制组件刷新状态不正常，多次断电重启后恢复设备运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "设备工作一段时间后故障再次出现，检查电排信号控制组件状态，故障现象相同，重复断电重启无效。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查PLC程序相关信号，未发现异常",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "怀疑通讯组件失效，临时从E2LB施工生产线上拆卸备件更换",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "设置模块ID地址，更换后设备恢复正常",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM040L1\/R1机器人无法抓取CV7升降段小车侧围"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM040机器人L1\/R1无法从CV7升降段小车上抓取侧围"
+		],
+		[
+			"为什么PLC检测到小车信号不正常"
+		],
+		[
+			"为什么升降段区域所有小车 ERROR26 故障"
+		],
+		[
+			"为什么电排上没有小车控制信号"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "小车控制通讯组件刷新状态不正常,组件失效。（组件损坏确切原因待查）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换故障失效的小车控制通讯组件",
+				"resp": "李颖琛马晓洲",
+				"supp": "",
+				"compDate": "5\/12\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拉动产品供应商支持分析模块损坏原因并确定预防措施",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "5\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "梳理新项目电器备件到货状态，采取措施尽快使备件到位",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "5\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同步骤5以外的抢修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL 马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20150811 SUR080-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150811 SUR080-Y.json",
+	"score": 718,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.8.11",
+	"fileNameDate": "20150811",
+	"equipName": "设备名称:  升降滚床",
+	"breakdownTime": "停机时间：75min",
+	"areaLocation": "停机区域\/点: SUR060",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "75",
+	"lostProductNum": "57",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期: 陈烨华  \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进工位发现滚床倾斜侧翻，滚床上升时滚床侧面线槽与工装基座卡住",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "根据维修预案，千斤顶顶起滚床，安装支撑柱，拆除干涉点（侧面线槽）",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆卸摆臂过程中发现左侧涨紧器与摆臂轴卡死，右侧摇臂沉重轮松动",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "修复涨紧器，将摇臂承重轮安装到位",
+				"lostMin": 25,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "根据角度仪调整摆臂位置，恢复生产。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR080滚床上升降过程中与工装基座干涉，摆臂倾斜、滚床倾斜。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机运线报警？因为升降滚床没有上升到位；"
+		],
+		[
+			"为什么升降滚床没有上升到位？因为滚床上升降过程中，滚床侧面线槽与工装基座干涉；"
+		],
+		[
+			"为什么床上升降过程中，滚床侧面线槽与工装基座干涉？因为1. E2LB工装基座延伸部分与滚床台面之间预留间隙不够；2.滚床侧面线槽支架凸出"
+		],
+		[
+			"为什么E2LB工装基座延伸部分与滚床台面之间没有预留运动间隙？因为1.项目供应商设计缺陷，改造不到位 2.维修班组对滚床信号线改进后的闲置线槽没有拆除"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.E2LB工装基座延伸部分与滚床台面之间预留间隙不够。\n2.滚床侧面线槽支架凸出",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整滚床摆臂，将承重轮安装到位",
+				"resp": "陈烨华",
+				"supp": "夏伟",
+				"compDate": "8\/11\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "清除滚床侧面线槽",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "8\/11\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制定E2LB工装基座改进方案,制定实施计划表；",
+				"resp": "夏伟",
+				"supp": "",
+				"compDate": "9\/13\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "维修责任区内检查升降滚床台面左右预留间隙，清除闲置部件",
+				"resp": "黄光耀\n陈烨华\n佘家安",
+				"supp": "",
+				"compDate": "8\/30\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：陈烨华",
+	"person_ENG": "工程师\/ENG.:夏伟",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

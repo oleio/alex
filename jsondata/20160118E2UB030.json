@@ -1,0 +1,222 @@
+{
+	"fileName": "20160118E2UB030.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160118E2UB030.json",
+	"score": 601,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016年1月18日11时00分",
+	"fileNameDate": "20160118",
+	"equipName": "设备名称:焊接机器人",
+	"breakdownTime": "停机时间：30分钟",
+	"areaLocation": "停机区域\/点:  E2UB030",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:王新宇\nOringinator：2016-1-18",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "UB030工位急停，检查急停原因发现机器人报警。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查机器人状态发现机器人焊枪编码器数据丢失。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查机器人焊枪编码器状态，发现伺服编码器电缆接头被撞坏。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换伺服编码器电缆缆，重新进行安装。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "验证机器人轨迹，检查新安装的编码器线缆是否存在干涉。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "工位重新上自动，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"1月18日E2造车过程中，E2 UB030L2机器人修磨过程中与运动中的底板干涉，"
+		],
+		[
+			"机器人焊枪电机编码器接头损坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"因为验证机器人焊枪修磨轨迹时未验证带车行进时是否有干涉。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "验证机器人焊枪修磨轨迹时未验证带车行进时是否有干涉。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换编码器线缆，验证机器人轨迹是否存在干涉。",
+				"resp": "王新宇",
+				"supp": "曹进",
+				"compDate": "2016.1.18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.调整UB030L2修磨器位置，修改修磨轨迹，验证有无干涉。",
+				"resp": "王新宇",
+				"supp": "曹进",
+				"compDate": "2016.1.18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对E2LB项目的所有机器人进行安全位置自查，检查机器人轨迹和工装等是否有足够的安全距离。",
+				"resp": "赵义方",
+				"supp": "蔡忠锋",
+				"compDate": "2016.1.18",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 曹进（供应商现场负责人）",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

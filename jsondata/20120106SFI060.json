@@ -1,0 +1,222 @@
+{
+	"fileName": "20120106SFI060.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120106SFI060.json",
+	"score": 612,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年1 月6日17时20分",
+	"fileNameDate": "20120106",
+	"equipName": "设备名称:自动工装",
+	"breakdownTime": "停机时间：累计 40min",
+	"areaLocation": "停机区域\/点: SFI060",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "40",
+	"lostProductNum": "30",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期   滕征        \nOringinator    ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修对变频器进行复位后仍旧无法正常使移载机移动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查移载机的状态，通过几次推拉测试，发现卡死点在GATE导向滚轮上。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "由于卡死严重，先拆松GATE压板，反复推拉移载机使其松动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "重新使用手动模式操作使移载机脱离E11的GATE 。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换卡死的X向导向轮，紧固松动的拖钩轴承，恢复现场其它装置。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "手动操作，验证机构运行正常，恢复自动。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"切换E-11左侧Gate时，Y向移载机变频器过载报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么切换E-11左侧Gate时，Y向移载机变频器过载报警？因为GATE卡住了。"
+		],
+		[
+			"为什么GATE卡住了？因为GATE上的导向轮松动，位置发生偏移，造成GATE松动。"
+		],
+		[
+			"为什么导向轮松动？因为原有的固定螺母防松失效。"
+		],
+		[
+			"为什么固定螺母防松失效？因为导向滚轮安装时不合理，易造成松动。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换卡死的X向导向轮，紧固松动的拖钩轴承。",
+				"resp": "陈烨华",
+				"supp": "维修B班",
+				"compDate": "2012\/1\/4",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "改进导向滚轮防松装置。",
+				"resp": "李颖琛",
+				"supp": "尹熠俊",
+				"compDate": "2012\/1\/30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：陈烨华",
+	"person_ENG": "工程师\/ENG:滕征（代）",
+	"person_GL": "工段长\/ GL:滕征（代）",
+	"person_Manager": "技术经理\/Tech.Manager:邱正东"
+}

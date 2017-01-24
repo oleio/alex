@@ -1,0 +1,222 @@
+{
+	"fileName": "20110415ESOL4.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110415ESOL4.json",
+	"score": 696,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年4月11日8时05分",
+	"fileNameDate": "20110415",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：35 min",
+	"areaLocation": "停机区域\/点: ESO",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "35",
+	"lostProductNum": "18",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator马晓洲     2011.4.15",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查L4机器人示教板报警信息，确定为DEVICE NET通讯报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "DC24V电源断电重起，无法复位故障报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "进入工位检查发现抓手上所有模块无电源；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查电源线未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "脱开换枪盘发现T侧换枪盘上的通讯接头损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "更换T侧换枪盘；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "恢复正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO L4机器人DEVICE NET通讯报警停止，进一步检查发现T侧换枪盘接插件损坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么ESO L4通讯报警？因为机器人通讯线路断路"
+		],
+		[
+			"为什么机器人通讯线路断路？因为T侧换枪盘接插件损坏"
+		],
+		[
+			"为什么T侧换枪盘接插件损坏？因为换枪盘保护盖碰接插件"
+		],
+		[
+			"为什么换枪盘保护盖碰接插件？因为换枪盘盖变形"
+		],
+		[
+			"为什么换枪盘盖变形？因为机器人程序不检测换枪盘盖打开信号，换枪盘盖被机器人DRESS或机器人臂擦碰。"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "拆除换枪盘保护盖，更换T侧换枪盘恢复生产。",
+				"resp": "陈烨华",
+				"supp": "黄波",
+				"compDate": "11-4-15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改机器人程序检测换枪盘盖打开信号，恢复换枪盘盖。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "11-4-18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更改换枪盘盖可调固定孔设计（将长腰孔改为一排圆孔）",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "11-4-30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "提高换枪盘盖强度",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "车间范围内检查机器人程序，保证检测换枪盘打开信号。",
+				"resp": "陈文佳黄波尹熠俊",
+				"supp": "",
+				"compDate": "11-4-30",
+				"status": "1\/4"
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲 ",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

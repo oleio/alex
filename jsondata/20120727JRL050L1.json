@@ -1,0 +1,222 @@
+{
+	"fileName": "20120727JRL050L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120727JRL050L1.json",
+	"score": 749,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年07月27 日06 时50分",
+	"fileNameDate": "20120727",
+	"equipName": "设备名称: 焊枪",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:JRL050",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 2012\/07\/27         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "打开焊接控制柜检修，发现MEDAR控制回路I\/O模块温控信号无24V电信号；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查焊枪实际温度发现焊枪点式握杆及硬连接实际温度偏高20℃；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "拆下电极帽后发现点式握杆冷却进水无，进一步检查进水水管，水流正常；判断为点式握杆内部水回路堵塞；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "生产启动Backup方案开动流水线，维修在线更换堵塞的点式握杆，测试焊枪冷却正常后恢复生产；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL050L1焊枪焊接时焊机温控报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL050L1焊枪焊接时焊接故障？因为焊接控制柜MEDAR控制回路I\/O模块温控信号无24V电信号；"
+		],
+		[
+			"为什么JRL050L1焊接控制柜内MEDAR控制回路I\/O模块温控信号无24V电信号？因为焊枪温控双金属片在外部原件持续升温后断开了常闭触点；"
+		],
+		[
+			"为什么焊枪温控双金属片在外部原件持续升温后断开了常闭触点？因为焊枪冷却回路中点式握杆这一段内部工艺孔堵塞，影响了焊枪冷却；"
+		],
+		[
+			"为什么焊枪冷却回路中点式握杆这一段内部工艺孔堵塞，影响了焊枪冷却？因为车间冷却水主回路内有杂质堵塞了焊枪部件内部工艺孔；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因为车间冷却水主回路内有杂质堵塞了焊枪部件点式握杆的内部工艺孔；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "疏通焊枪冷却水回路，更换堵塞的点式握杆；",
+				"resp": "黄光耀",
+				"supp": "陈烨华",
+				"compDate": "2012\/07\/27",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.拉动公共动力部门共同分析水质变化根本原因 2.制定计划在Shutdown期间循环清理车间冷却水回路；",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2012\/08\/4",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀",
+	"person_Manager": "工程师\/ENG.:程超"
+}

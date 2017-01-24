@@ -1,0 +1,222 @@
+{
+	"fileName": "20120621JRL40R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120621JRL40R1.json",
+	"score": 745,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年6月21 日13时15分",
+	"fileNameDate": "20120621",
+	"equipName": "设备名称:R1转动接头",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点: JRL40",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "40",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄光耀         \nOringinator 2012..6.21",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL040R1故障报警，R1焊机跳闸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查JRL040R1焊枪，发现转动接头处滴水，立即通知生产启动BACKUP生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "BACKUP正常启动后标示安全区域进行转动接头检修,打开端盖发现汇电环拉弧损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "在线更换此转动接头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "转动接头更换后验证焊点状态正常，恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL040故障报警，HMI显示R1 WATERSAVE故障，检查发现R1焊机跳闸"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL040工位故障报警？因为R1焊机跳闸；"
+		],
+		[
+			"为什么R1焊机跳闸？因为转动接头内部汇电环拉弧过载；"
+		],
+		[
+			"为什么转动接头汇电环拉弧？因为转动接头内部有积水，短路导致拉弧；"
+		],
+		[
+			"为什么转动接头内部有积水？因为转动接头盖板密封件老化失效，且外部水管破损漏水；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "转动接头盖板密封件老化失效，且外部水管破损漏水。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "在线更换转动接头并验证焊点",
+				"resp": "黄光耀",
+				"supp": "A班",
+				"compDate": "2012.6.21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查其余焊枪水管，并修复漏水的水管",
+				"resp": "黄光耀",
+				"supp": "A班",
+				"compDate": "2012.6.21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对TPM未发现漏水的维修人员进行处理。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2012.6.25",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "转动接头盖板上使用密封胶，避免冷却水渗入。",
+				"resp": "陈烨华",
+				"supp": "机器人组\/B班",
+				"compDate": "2012.6.25",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "要求供应商保养转动接头时更换所有密封件",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2012.7.5",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "工位间平衡焊点，在现有基础上拆除在线使用的转动接头",
+				"resp": "黄俊宇",
+				"supp": "机器人组\/B班",
+				"compDate": "2012.8.3",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20140731CV11RB26.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140731CV11RB26.json",
+	"score": 488,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年7月31日23时20分",
+	"fileNameDate": "20140731",
+	"equipName": "设备名称:滚床机运线",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: EUB",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  曹鸣晓黄光耀",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动操作，将RB26滚床上的雪橇开到解垛机滚床上，恢复设备自动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "问题跟踪观察中故障重复出现，发现堆垛雪橇运行时稳定状态不佳；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进一步观察发现雪橇运行不稳定原因是RB26滚床有两个包胶轮开裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "准备备件，同生产工段协调后停线更换；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV11雪橇返回线多次出现故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么雪橇返回线多次出现故障报警"
+		],
+		[
+			"为什么RB26滚床传送堆垛雪橇时故障报警"
+		],
+		[
+			"为什么堆垛雪橇前进过程中传感器信号丢失"
+		],
+		[
+			"为什么堆垛雪橇前进过程中晃动较大"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "RB26滚床两个包胶滚轮老化开裂未提前发现更换",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修更换开裂的包胶滚轮",
+				"resp": "曹鸣晓黄光耀",
+				"supp": "",
+				"compDate": "7\/31\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "梳理检查CV11\/CV12\/BDC滚床包胶轮状态，准备备件批量更换老化的包胶滚轮",
+				"resp": "黄光耀陈烨华",
+				"supp": "胡滨",
+				"compDate": "9\/30\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓\/黄光耀",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

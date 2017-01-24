@@ -1,0 +1,222 @@
+{
+	"fileName": "20111210JFM090L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111210JFM090L1.json",
+	"score": 785,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年12月11日2时  分",
+	"fileNameDate": "20111210",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：累计60min",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "60",
+	"lostProductNum": "40",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 陈烨华         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查机器人焊点状态和轨迹，未发现“粘”电极帽现象，未发现有板材干涉状态；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "怀疑机器人#4,#6轴齿轮箱内部传动机构间歇大，采取降低机器人轨迹速度维持生产；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "降速后机器人基本不出现碰撞报警；由于难以在线更换内部传动轴，停产后更换机器人本体",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换后1轴有碰撞报警，断电检查控制柜内部主板和保险丝；检查无异常，重起后不能上电",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "测量伺服放大器电缆桩头电压，发现变压器供电电压不到50V，检查发现变压器老化过热",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "清理、冷却变压器，能够开机，但高速运行时电压仍不足200V,且时有170伏的低值。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "由于单独更换变压器风险较大，直接更换机器人控制柜。",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90L1机器人全速运行时#4,#6轴频繁碰撞报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位频繁报警停止？因为机器人L1 4、6#轴碰撞报警"
+		],
+		[
+			"为什么机器人L1 6#轴碰撞报警？按常规经验，初步怀疑机器人6#轴机械部件老化磨损，内部传动机构间歇大"
+		],
+		[
+			"为什么更换机器人本体后仍然报警？因为机器人控制柜变压器输出电压过低"
+		],
+		[
+			"为什么电压过低？因为变压器长期过热，提前老化。"
+		],
+		[
+			"为什么变压器会长期过热？因为现场飞溅较多，阻碍变压器散热。"
+		]
+	],
+	"rootCause": "机器人控制柜内的变压器被粉尘覆盖，长期过热提前老化，导致输出电压不足",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整机器人速度及轨迹维持生产至停线",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "11-12-11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换机器人并调整验证各种机器人轨迹",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11-12-12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制订控制柜保养清理策略",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "12-1-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "采购控制柜变压器，安排供应商培训单独更换变压器",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "12-01-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

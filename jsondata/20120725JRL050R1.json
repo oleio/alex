@@ -1,0 +1,222 @@
+{
+	"fileName": "20120725JRL050R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120725JRL050R1.json",
+	"score": 548,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月25日9时15分",
+	"fileNameDate": "20120725",
+	"equipName": "设备名称:R1",
+	"breakdownTime": "停机时间：90min",
+	"areaLocation": "停机区域\/点:  JRL050",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "40",
+	"lostProductNum": "28",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 黄波\nOringinator  2012.7.25",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL050R1焊机跳闸，复位后测试通电焊接无电流；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进工位查看焊枪，发现转动接头内部有焦味，怀疑汇电环损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "打开转动接头接线端用万用表测量焊接供电侧与输出侧两端电阻，确定一相已经断路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "协调生产启动BACKUP，围好安全区域更换转动接头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换后测试焊接，确认TIPDRESS位置后恢复正常生产。 ",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL050R1焊接控制柜跳闸,复位后焊接无电流；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL050R1焊机跳闸？因为转动接头内部短路；"
+		],
+		[
+			"为什么转动接头内部短路？因为转动接头内部绝缘层损坏；"
+		],
+		[
+			"为什么转动接头内部绝缘层损坏？ 因为转动接头返修件质量差无原厂质量保证；（7.15日更换）"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "转动接头返修件质量差，使用一周后内部绝缘层损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换转动换枪盘。",
+				"resp": "黄智君",
+				"supp": "谢诚侃",
+				"compDate": "7\/25\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系兄弟车间寻找备件。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "评估焊点工艺，拆除转动部分，提高可靠性。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "8\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

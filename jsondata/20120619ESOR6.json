@@ -1,0 +1,222 @@
+{
+	"fileName": "20120619ESOR6.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120619ESOR6.json",
+	"score": 584,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年6月20日4时01分",
+	"fileNameDate": "20120619",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：35min",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "35",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 佘佳安         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "根据故障现象判断伺服焊枪电源回路断路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "用备件电源电缆分段检查故障点，逐段判断；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "确认换枪盘接插件插针（机器人侧及工具侧）接触不良；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "同时更换机器人侧和工具侧换枪盘接插件模块；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO L6机器人伺服焊枪MOVE ERROR报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为机器人焊枪报警停止；"
+		],
+		[
+			"为什么机器人焊枪报警停止？因为机器人伺服焊枪MOVE ERROR故障报警；"
+		],
+		[
+			"为什么机器人伺服焊枪MOVE ERROR故障报警？因为机器人焊枪没有执行运动指令动作；"
+		],
+		[
+			"为什么机器人焊枪没有执行运动指令动作？因为伺服电机电源回路故障；"
+		],
+		[
+			"为什么伺服电机电源回路故障？因为换枪盘接插件模块损坏，接触不良。"
+		]
+	],
+	"rootCause": "换枪盘接插件模块损坏，接触不良。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修更换损坏的机器人换枪盘接插件模块，工具侧模块和机器人侧模块同时更换。",
+				"resp": "佘佳安",
+				"supp": "李颖琛",
+				"compDate": "6\/20\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "结合维修周期性工作计划，缩短换枪盘维护周期至1次\/2周",
+				"resp": "马晓洲",
+				"supp": "钱俊",
+				"compDate": "6\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

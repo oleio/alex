@@ -1,0 +1,222 @@
+{
+	"fileName": "20120909CV12TT04.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120909CV12TT04.json",
+	"score": 599,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月9日14时  分",
+	"fileNameDate": "20120909",
+	"equipName": "设备名称:滚床机运线",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点: CV12\/TT04",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "25",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:仇卫忠          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "CV12\/TT04转台后2个滚床上雪橇发生碰撞，维修到现场检查松刹车将雪橇推到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查到位传感器状态，未发现明显问题，恢复设备运行后问题再次发生；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "监控设备运行程序状态位发现该区域PROFIBUS通讯不稳定；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查通讯电缆并监控各模块通讯状态位，根据故障现象判断TT04转台中的通讯电缆损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "从东昌现场库领用PROFIBUS通讯电缆更换，恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"TT04转台以后的滚床上2个雪橇发生碰撞"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么TT04以后的滚床上2个雪橇发生碰撞"
+		],
+		[
+			"为什么后面的滚床上雪橇到位没有停止"
+		],
+		[
+			"为什么雪橇到位传感器感应后PLC没有响应"
+		],
+		[
+			"为什么PLC系统PROFIBUS通讯故障"
+		],
+		[
+			"为什么转台转轴中的PROFIBUS通讯电缆损坏失效"
+		]
+	],
+	"rootCause": "转台转轴中的通讯电缆长期使用,反复扭转疲劳损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修更换疲劳损坏的PROFIBUS通讯电缆",
+				"resp": "孙伟",
+				"supp": "黄轶佳",
+				"compDate": "9\/10\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "车间范围内制订转台电缆更换计划，准备备件予以更换。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "10\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:孙伟（代）",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

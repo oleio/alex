@@ -1,0 +1,222 @@
+{
+	"fileName": "20160128JRL150.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160128JRL150.json",
+	"score": 487,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016-01-28",
+	"fileNameDate": "20160128",
+	"equipName": "设备名称:吊具工装导轨",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  马晓洲     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "现场观察监护并确定维修方案；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "维修工具到现场后停线抢修，恢复吊装螺栓安装；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "问题原因调查",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL150吊具工装导轨倾斜,靠铝合金导轨安全钢丝绳维持吊装状态。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"                             吊架螺栓松脱"
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么铝合金导轨倾斜,靠铝合金导轨安全钢丝绳维持吊装状态"
+		],
+		[
+			"为什么铝合金导轨的3个吊装螺栓中2个松脱"
+		],
+		[
+			"为什么吊具工装的日常工作震动导致吊装螺栓松动"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "吊装螺栓上的防松销缺失(未安装或运行过程中自行脱落)",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "巡视检查车间内铝合金导轨安装状态,发现的问题在本次非生产日完成整改。",
+				"resp": "马晓洲",
+				"supp": "袁伟",
+				"compDate": "1\/30\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "推动供应商整改，更换非“英格索兰”原装吊架螺栓。（永前擅自使用自制吊装附件替代原装吊装附件）",
+				"resp": "马晓洲钱俊",
+				"supp": "",
+				"compDate": "TBD",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同抢修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL 陈烨华",
+	"person_ENG": "工程师\/ENG.:胡滨",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

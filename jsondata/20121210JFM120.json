@@ -1,0 +1,222 @@
+{
+	"fileName": "20121210JFM120.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121210JFM120.json",
+	"score": 580,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年12月10日 7时05分",
+	"fileNameDate": "20121210",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "停机区域\/点: JFM120",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "16",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄光耀",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM120工装夹头报警，进工位检查后发现有多个夹头传感器信号指示灯不正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "找到故障模块，逐个将模块上信号线拔掉确定故障电缆(拔去第8根信号电缆时确定问题）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "找到模块上已经断裂的信号信号电缆（un203 E-CAR的底板勾销）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "替代确认短路的信号电缆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "工位恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120工位底板工装夹头不到位报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM120工位报警停止？因为多个工装夹头信号不到位"
+		],
+		[
+			"为什么多个工装夹头信号不到位？因为通讯模块工作电压不正常"
+		],
+		[
+			"为什么通讯模块工作电压不正常？因为此模块上的UN203信号线有短路"
+		],
+		[
+			"为什么UN203信号线有短路？因为UN203信号线表皮磨损"
+		],
+		[
+			"为什么UN203信号线表皮磨损"
+		]
+	],
+	"rootCause": "电缆走向不合理导致气缸动作过程中电缆与回转机构擦碰。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "改变信号电缆走向并捆扎到气管上，避免被擦碰。",
+				"resp": "顾乐宾",
+				"supp": "",
+				"compDate": "12\/11\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "清理JFM120工位废除的信号线，检查捆扎信号电缆，避免类似潜在的电缆损坏。",
+				"resp": "章逸楠",
+				"supp": "黄光耀",
+				"compDate": "12\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 黄光耀",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110616ESO.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110616ESO.json",
+	"score": 511,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 6 月16  日9  时40  分",
+	"fileNameDate": "20110616",
+	"equipName": "设备名称:ESOR6",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "停机区域\/点:   ESO",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 章逸楠      \nOringinator 2011.6",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "发现ESOR6经常有停止焊接，延时一段时间报警（报警内容焊接超时）。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查焊机和机器人通讯，正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "蹲点等待故障出现，发现焊机隔离接触器辅助触点状态不稳定。",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "准备备件，再次故障后将焊机断电，更换辅助触点。",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换后故障没有再发生。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO　R6焊接超时报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么ESO R6焊接超时报警？焊机主板等待隔离接触器辅助触点信号。"
+		],
+		[
+			"为什么焊机主板等待触点信号？隔离接触器辅助触点状态不稳定。"
+		],
+		[
+			"为什么隔离接触器辅助触点状态不稳定？因为触点内复位弹簧略有变形。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "辅助触点状态不稳定，造成焊机停止焊接，超时报警。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换该辅助触点，恢复生产，并跟踪两个班次。",
+				"resp": "章逸楠",
+				"supp": "王俊杰",
+				"compDate": "11.06.16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "评估批量更换辅助触点的必要性。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "11.06.20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

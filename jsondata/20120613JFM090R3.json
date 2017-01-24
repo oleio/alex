@@ -1,0 +1,222 @@
+{
+	"fileName": "20120613JFM090R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120613JFM090R3.json",
+	"score": 568,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年6月13日16时58分",
+	"fileNameDate": "20120613",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: 总拼",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  樊超杰        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "复位故障后现场观察发现机器人本体上的TURCK模块上信号灯故障时红色闪烁；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "根据故障现象判断焊枪状态检测回路有短路现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进入工位检查焊枪电缆状态，发现19芯电缆接插件在焊枪工作时受拉；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "调整19芯电缆在焊枪端电缆长度，用扎带临时捆扎；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90工位R3机器人停止运行，维修到现场复位后故障重复发生。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊枪停止焊接"
+		],
+		[
+			"为什么焊枪输入信号间隙异常"
+		],
+		[
+			"为什么焊枪输入模块输入线路间歇性短路"
+		],
+		[
+			"为什么焊枪19芯电缆接头处内部接线与金属外壳擦碰"
+		],
+		[
+			"为什么焊枪处电缆长度发生变化？因为985车型数个焊点焊枪电缆受拉变化未得到处理"
+		]
+	],
+	"rootCause": "焊枪处19芯电缆受拉导致电缆接插件损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "夜班生产结束后重新制作电缆接头，调整电缆长度后重新捆扎。",
+				"resp": "顾乐宾",
+				"supp": "黄光耀",
+				"compDate": "6\/13\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "协调时间检查调整985车型时的机器人DRESS状态，减小电缆受拉状态。",
+				"resp": "顾乐宾",
+				"supp": "黄光耀",
+				"compDate": "6\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110529EUB50R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110529EUB50R2.json",
+	"score": 580,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年　5月 29日   时   分",
+	"fileNameDate": "20110529",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点:EUB050",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "120",
+	"lostProductNum": "60",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 徐啸顺\n2011-5-29",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "手动操作抓手并检查，发现抓手上的承重铝棒开裂",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "脱开抓手，移出工位准备焊接开裂处",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "拆除开裂处附近模块和线缆，进行焊接",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "焊接完成并冷却后安装模块和线缆",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "安装抓手并微调轨迹",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB050R2抓手放横梁时倾斜"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么抓手倾斜？因为抓手铝棒开裂"
+		],
+		[
+			"为什么开裂？因为铝棒长期受到不均匀的压力"
+		],
+		[
+			"为什么不均匀受力？1.因为设计结构不合理，换枪盘边缘成为压力突变点"
+		],
+		[
+			"2.因为抓放枪时，抓手销孔进出的机器人轨迹受限无法编写到完全顺滑"
+		],
+		[
+			"为什么机器人轨迹受限？因为抓放位置4轴和6轴接近水平一直线，自由度降低"
+		]
+	],
+	"rootCause": "抓手设计结构不合理，机器人抓放时4,6轴受限导致轨迹不能完全顺滑",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "烧焊抓手后重新调整机器人轨迹",
+				"resp": "徐啸顺",
+				"supp": "谢鲲",
+				"compDate": "2011.5.29",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "改进抓手承重结构，分担铝棒受力",
+				"resp": "徐啸顺",
+				"supp": "机械组",
+				"compDate": "2011.6.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制定方案优化机器人抓放轨迹受限情况",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011.7.1",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制作Gripper备件，以备更换",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "2011.7.31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "如上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

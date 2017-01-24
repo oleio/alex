@@ -1,0 +1,222 @@
+{
+	"fileName": "20110303JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110303JFM090.json",
+	"score": 843,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年3月3日 15时05分",
+	"fileNameDate": "20110303",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：30",
+	"areaLocation": "停机区域\/点: JFM90",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "25",
+	"lostProductNum": "23",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 佘佳安        \nOringinator 2011.3.3",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "第一辆618坐下后底板夹头不动作，进入工位根据LAYOUT检查传感器状态,发现两个传感器都亮，但HMI及程序中看下来有一个未点亮，PLC临时强制。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "第二辆车落车不到位，进入工位将车搬到位。到位后检查传感器状态发现L-CAR有三个传感器点亮，维修人员怀疑有一传感器被误点亮并将传感器信号线拔除。复位后仍无动作，PLC程序中检查发现618应有3个传感器，进入工位将传感器恢复。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "第三辆车落车不到位，后端钩销顶住，人工抬到位。打开时勾销打开不到位手动敲击到位。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "第四辆车618后围板夹头打开时卡住，手动敲击到位。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090 618四辆车连续故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"1、为什么夹头无动作？因为有一传感器未点亮；"
+		],
+		[
+			"为什么维修人员未找到此传感器？因为1，工位LAYOUT上标示的618传感器只有两个，维修人员盲目按照此LAYOUT去查找传感器；2 HMI显示的传感器也只有两个维修人员未检查第三个传感器；"
+		],
+		[
+			"为什么维修人员要将第三个传感器拔除？因为维修人员未及时通过与工程师沟通确定实际感应器数目；"
+		],
+		[
+			"2、为什么618落车两次不到位？因为怀疑销孔变形引起。或其他尺寸问题；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "判故障原因",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "强制感应器",
+				"resp": "佘佳安",
+				"supp": "C班",
+				"compDate": "2011.3.3",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "人工将车搬到位",
+				"resp": "佘佳安",
+				"supp": "C班",
+				"compDate": "2011.3.3",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更改工位LAYOUT,以及HMI程序使其与实际传感器数目一至",
+				"resp": "陈文佳",
+				"supp": "藤征",
+				"compDate": "2011.3.20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "跟踪落车不到位618状态，反馈工程人员。解决落车干涉问题。",
+				"resp": "佘佳安",
+				"supp": "工程",
+				"compDate": "2011.3.8",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "连续四辆618在JFM090发生故障，累计抢修时间较长，对618物料传感器的掌握"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "不足，其余排故参照维修过程。"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:藤征",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

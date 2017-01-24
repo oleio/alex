@@ -1,0 +1,222 @@
+{
+	"fileName": "20121224CV11LIFT21.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121224CV11LIFT21.json",
+	"score": 716,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年12月24日7时15分",
+	"fileNameDate": "20121224",
+	"equipName": "设备名称:升降机",
+	"breakdownTime": "停机时间：累计130min",
+	"areaLocation": "停机区域\/点:CV11",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "130",
+	"lostProductNum": "50",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马晓洲         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "升降机停止，维修到现场试图手动操作升降机，无效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拉动控制工程师支持联机PLC检查问题原因，确定PLC有对应控制输出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "打开控制柜检查电机驱动变频器，发现变频器故障报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "变频器断电复位后升降机能够下降动作但上升时再次报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查电机工作电压、电流,排除电机缺相故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "切换升降驱动单元电机&减速箱(排除法）后升降机有时报警但能够维持运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "当日生产结束后检查升降机升降导向轮及驱动皮带传动机构上所有承载轮；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV11入口升降机升降电机驱动变频器F8报警（缺相，过流、过载）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么升降机带负载上升时停止运行？因为升降机上升时F8故障报警"
+		],
+		[
+			"为什么升降机上升时F8故障报警？因为电机驱动变频器过流、过载"
+		],
+		[
+			"为什么电机驱动变频器过流、过载？因为升降机上升时电机负载电流超过变频器设定电流"
+		],
+		[
+			"为什么升降机上升时电机负载电流超过变频器设定电流？因为升降机皮带承载轮轴上的轴承损坏，机械设备疲劳损坏。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "升降机皮带承载轮轴上的轴承损坏，机械设备疲劳损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "生产结束后检查升降机升降导向轮及驱动皮带传动机构上所有承载轮，更换出现问题的轴承。",
+				"resp": "沈建伟",
+				"supp": "殷致平",
+				"compDate": "1\/5\/2013",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "黄光耀",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更新CV11LIFT21升降机PM计划，每9个月更换全部皮带承载轮轴承。",
+				"resp": "胡滨",
+				"supp": "黄光耀",
+				"compDate": "12\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:黄轶件",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

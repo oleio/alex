@@ -1,0 +1,222 @@
+{
+	"fileName": "20121005 JFM150R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121005 JFM150R1.json",
+	"score": 772,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月7日3时30分",
+	"fileNameDate": "20121005",
+	"equipName": "设备名称:JFM150R1",
+	"breakdownTime": "停机时间：累计  25min",
+	"areaLocation": "停机区域\/点: JFM",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄俊宇   \nOringinator\/2012.8.21",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "Bypass问题车，并下线；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看下线问题车，发现右前小耳朵变形，并且右侧中间位置车顶拱起；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "根据发现的信息验证R1状态，发现R1使用Vision定位车顶的失败率比较高，当使用Baumer测量系统定位车顶后，焊接轨迹中压轮位置不理想，造成焊缝无法跟踪；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "在线调整测量程序补偿量以后焊缝跟踪保持稳定运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM150做E11时R1焊缝跟踪失败，使用L1焊接右侧焊缝时焊接到超过一半时停止焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R1焊缝跟踪失败？因为R1焊接轨迹中压轮位置不理想；"
+		],
+		[
+			"为什么R1压轮位置不理想？因为车顶右侧小耳朵变形(Vision测量失败，使用了Baumer测量)"
+		],
+		[
+			"为什么使用Baumer测量会使焊接轨迹中压轮位置不理想？因为Baumer系统给出的车顶偏差值和实际偏差值差异比较大；"
+		],
+		[
+			"为什么Baumer系统给出的车顶偏差值和实际偏差值差异比较大？因为车顶左右方向波动过于频繁，Baumer系统的校验频次低，无法覆盖车顶变化问题。"
+		],
+		[
+			"另：为什么L1焊接右侧焊缝有时焊接到一半时中断？因为车顶中间有拱起，产品尺寸问题。"
+		]
+	],
+	"rootCause": "Baumer系统的校验频次低，无法覆盖车顶变化问题。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整测量程序中的补偿值，让焊接轨迹中的压轮位置趋于理想位置",
+				"resp": "黄俊宇",
+				"supp": "C班",
+				"compDate": "10\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "Baumer传感器校验定期进行（原来非周期性检验校正），校验记录存档分析。（维修长期措施）",
+				"resp": "黄俊宇",
+				"supp": "陈烨华",
+				"compDate": "10\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓（代）",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

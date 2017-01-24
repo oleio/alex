@@ -1,0 +1,222 @@
+{
+	"fileName": "20111105SFI060.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111105SFI060.json",
+	"score": 481,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年11月8日7时 0分",
+	"fileNameDate": "20111105",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:SFI",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 宋浩亮谢成侃         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位检查，发现销子气缸松动，",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进一步检查发现气缸4个固定螺栓中1根断裂，3根螺纹孔滑牙；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换销子气缸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "工程配合调整垫片；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060E11车型左侧衣帽板销子无法入孔。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么衣帽板销子无法入孔？因为销子和钣金件孔有偏差"
+		],
+		[
+			"为什么销子和钣金件孔有偏差？因为销子气缸固定板松脱"
+		],
+		[
+			"为什么销子气缸固定板松脱？因为4根紧固螺栓中一根断裂，3根无法拧紧。"
+		],
+		[
+			"为什么4根紧固螺栓中一根断裂，3根无法拧紧。因为固定螺纹孔烂牙"
+		],
+		[
+			"为什么固定螺纹孔烂牙？因为销子气缸安装时选用的螺栓过短"
+		]
+	],
+	"rootCause": "销子气缸安装时选用的螺栓过短",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换销子气缸",
+				"resp": "章轶楠",
+				"supp": "宋浩亮",
+				"compDate": "11-11-16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "使用足够长度的螺栓固定销子气缸",
+				"resp": "尹熠俊",
+				"supp": "黄光耀",
+				"compDate": "11-11-16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:马晓洲（代）"
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+    <script src="/js/charts.js"></script>
+
+    <script type="text/javascript">
+        $().ready(function(){
+
+            var myChart = echarts.init(document.getElementById('chart1'));
+
+var option = {
+    tooltip : {
+        formatter: "{a} <br/>{b} : {c}%"
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            restore : null,
+            saveAsImage : null
+        }
+    },
+    series : [
+        {
+            name:'运行强度',
+            type:'gauge',
+            detail : {formatter:'{value}%'},
+            data:[{value: 50, name: '运行强度'}]
+        }
+    ]
+};
+    myChart.setOption(option, true);              
+	
+
+		myChart = echarts.init(document.getElementById('chart2'));
+
+var option = {
+    tooltip : {
+        formatter: "{a} <br/>{b} : {c}%"
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            restore : null,
+            saveAsImage : null
+        }
+    },
+    series : [
+        {
+            name:'声音异常度',
+            type:'gauge',
+            detail : {formatter:'{value}%'},
+            data:[{value: 41, name: '声音异常度'}]
+        }
+    ]
+};
+    myChart.setOption(option, true);                    
+           
+			myChart = echarts.init(document.getElementById('chart3'));
+
+var option = {
+    tooltip : {
+        formatter: "{a} <br/>{b} : {c}%"
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            restore : null,
+            saveAsImage : null
+        }
+    },
+    series : [
+        {
+            name:'温度异常度',
+            type:'gauge',
+            detail : {formatter:'{value}%'},
+            data:[{value: 27, name: '温度异常度'}]
+        }
+    ]
+};
+    myChart.setOption(option, true);            
+	
+	myChart = echarts.init(document.getElementById('chart4'));
+
+var option = {
+    tooltip : {
+        formatter: "{a} <br/>{b} : {c}%"
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            restore : null,
+            saveAsImage : null
+        }
+    },
+    series : [
+        {
+            name:'湿度异常度',
+            type:'gauge',
+            detail : {formatter:'{value}%'},
+            data:[{value: 31, name: '湿度异常度'}]
+        }
+    ]
+};
+    myChart.setOption(option, true);                    
+           
+
+		   	myChart = echarts.init(document.getElementById('chart5'));
+
+var option = {
+    tooltip : {
+        formatter: "{a} <br/>{b} : {c}%"
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            restore : null,
+            saveAsImage : null
+        }
+    },
+    series : [
+        {
+            name:'ZB健康度',
+            type:'gauge',
+            detail : {formatter:'{value}%'},
+            data:[{value: 87, name: 'ZB健康度'}]
+        }
+    ]
+};
+    myChart.setOption(option, true); 
+	
+			  	myChart = echarts.init(document.getElementById('chart6'));
+
+var option = {
+    tooltip : {
+        formatter: "{a} <br/>{b} : {c}%"
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            restore : null,
+            saveAsImage : null
+        }
+    },
+    series : [
+        {
+            name:'评估结论',
+            type:'gauge',
+            detail : {formatter:'{value}%'},
+            data:[{value: 79, name: '正常'}]
+        }
+    ]
+};
+    myChart.setOption(option, true); 
+           
+           
+        });
+
+
+    </script>
+
+    <title>损耗报告</title>
+</head>
+<body>
+
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <!--<div class="col-md-2">-->
+            <!--<img src="/images/logo.png" class="img-responsive">-->
+            <!--</div>-->
+            <div class="col-md-12 text-center">
+                <h1>损耗报告</h1>
+            </div>
+        </div>
+
+		<div class="row">
+                    <div class="col-md-12">
+                        <div class="section">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="col-md-12">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">动用总时间:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" type="text" value="10天">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">动用期间起始油位:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1"  type="text" value="90%">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="col-md-12">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">动用起始时间:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1"  type="text" id="equipName" value="2014-01-07">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">动用后结束油位:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" value="35%" type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="col-md-11">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">动用结束时间:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" value="2014-01-17" type="text">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">油耗:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" value="30L" type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+								<div class="row">
+                                    <div class="col-md-4">
+                                        <div class="col-md-12">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">行驶距离:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" type="text" value="300公里">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">声音变化幅度:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1"  type="text" value="90%">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="col-md-12">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">活动范围面积:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1"  type="text" id="equipName" value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">车体震动幅度:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" value="35%" type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="col-md-11">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">温度变化幅度:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" value="40%" type="text">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">湿度变化幅度:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" value="30%" type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+                        <div class="col-md-12">
+                            <h4 contenteditable="true">评估报告:
+                            </h4>
+															<div class="row">
+
+                            <div class="col-md-2">
+								  <div id="chart1" style="width: 270px; height: 300px;"></div>
+							</div>
+							                            <div class="col-md-2">
+								  <div id="chart2" style="width: 270px; height: 300px;"></div>
+							</div>
+							                            <div class="col-md-2">
+								  <div id="chart3" style="width: 270px; height: 300px;"></div>
+							</div>
+							                            <div class="col-md-2">
+								  <div id="chart4" style="width: 270px; height: 300px;"></div>
+							</div>
+							                            <div class="col-md-3">
+								  <div id="chart5" style="width: 270px; height: 300px;"></div>
+							</div>
+                        </div>
+						</div>
+
+						 <div class="col-md-12">
+                            <h4 contenteditable="true">评估结论
+                            </h4>
+							<div class="row">
+								<div class=" col-sm-offset-1 col-md-11"><b>正常</b>
+								</div>
+							</div>
+
+                        </div>
+
+						    <div class="col-md-12">
+                            <h4 contenteditable="true">健康量化值
+                            </h4>
+															<div class="row">
+
+                            <div class="col-md-2">
+								  <div id="chart6" style="width: 270px; height: 300px;"></div>
+							</div>
+                        </div>
+						</div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+     
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110813JFM090U1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110813JFM090U1.json",
+	"score": 845,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年8月13日6时45分",
+	"fileNameDate": "20110813",
+	"equipName": "设备名称:机器人GRIPPER",
+	"breakdownTime": "停机时间：80min",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：B\/C",
+	"lostTime": "80",
+	"lostProductNum": "50",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  马安伟        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "将脱落的GRIPPER人力搬到适当位置，同时拉动工装工程师支持；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "解体机器人侧换枪盘，拆下损坏的结合部件，更换备件；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "因原来使用的618GRIPPER夹头有部分变形，更换备用GRIPPER；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "机器人L4轨迹与备用GRIPPER有碰擦，调整L4机器人部分轨迹；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "发现机器人换枪盘LOCK信号不稳定，反复调整；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "多次调整抓放GRIPPER轨迹；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"618车型将机器人GRIPPER放到车身上后设备故障停止（固定夹头还没有夹紧），"
+		],
+		[
+			"维修进入工位检查发现GRIPPER倾斜靠在后围板上。进一步检查发现机器人侧"
+		],
+		[
+			"换枪盘损坏，"
+		],
+		[
+			"GRIPPER脱落。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人GRIPPER倾斜靠在后围板上？因为换枪盘结合机构脱开"
+		],
+		[
+			"为什么换枪盘结合机构脱开？因为R侧换枪盘结合机构环形滚珠固定架断裂，滚珠掉落。"
+		],
+		[
+			"为什么R侧换枪盘结合机构环形滚珠固定架断裂，滚珠掉落？环形滚珠固定架长期受力疲劳断裂损坏（损坏处为应力集中点，换枪盘插拔已超过80万次使用寿命）"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "环形滚珠固定架长期受力疲劳断裂损坏（损坏处为应力集中点，换枪盘插拔已超过80万次使用寿命）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "检查所有WALTHER换枪盘滚珠固定架是否有开裂现象  （22套）",
+				"resp": "尹熠俊黄波    陈文佳",
+				"supp": "",
+				"compDate": "11-8-17",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拉动换枪盘生产商服务人员到现场共同分析换枪盘损坏原因，针对损坏原因确定进一步的整改措施。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11-8-22",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调查车间内WALTHER换枪盘插拔总次数并与供应商推荐产品寿命比较，对超过使用寿命的WALTHER换枪盘制定计划更换。换下的换枪盘维修保养后作为备件。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11-9-10",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华 陈文佳",
+	"person_Manager": "工程师\/ENG.:周志辉"
+}

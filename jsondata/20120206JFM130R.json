@@ -1,0 +1,222 @@
+{
+	"fileName": "20120206JFM130R.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120206JFM130R.json",
+	"score": 675,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年02月06 日10 时 10 分",
+	"fileNameDate": "20120206",
+	"equipName": "设备名称:JFM130R1焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JFM130工位",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "NONE",
+	"lostProductNum": "14",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期  黄波        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "手动运行伺服焊枪补偿校验程序完成后自动运行下一辆车",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "第二辆车焊接完成后运行伺服焊枪补偿校验程序时再次发生同样故障",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "通知生产更换电极帽并准备对该焊枪gan master进行重新标定 ",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "gan master标定时发现焊枪关闭到位时电极杆对中心错位",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "安排夜班停产时间更换伺服电机",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM130R1焊枪报警 SVGN-082 PAUSE Gun mastering is failed."
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM130R1焊枪Gun mastering is failed？因为焊枪补偿超出设定值"
+		],
+		[
+			"为什么伺服焊枪补偿值超出设定值？因为伺服焊枪电机运行行程比设定距离长"
+		],
+		[
+			"为寿命伺服焊枪电机运行行程比设定距离长？因为伺服电机丝杆螺母之间间歇过大"
+		],
+		[
+			""
+		],
+		[
+			"为寿命伺服电机丝杆螺母之间间歇过大？因为伺服电机机械机构老化"
+		]
+	],
+	"rootCause": "伺服电机机械结构老化，丝杆螺母之间间歇变大。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换电极杆并抱紧ARM锁紧螺丝 优化修磨轨迹防止修磨时损坏电极杆",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012-02-06",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产时间更换伺服电机并作标定",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "12-02-08",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整伺服电机和焊枪的连接状态，减少电机机械机构受的非正常力。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "23-02-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:徐啸顺 孙杰"
+}

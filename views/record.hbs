@@ -1,0 +1,1083 @@
+
+
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="/js/jquery2.03.min.js"></script>
+        <link href="/stylesheets/report.css" rel="stylesheet" type="text/css">
+
+
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/images/logo.png" class="img-responsive">
+                    </div>
+                    <div class="col-md-4">
+                        <h1>SPBS设备停机报告</h1>
+                        <h4>SPBS EQUIPMENT BREAK DOWN REPORT</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">文件号l</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control input-sm" id="inputEmail3" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">版本号</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control input-sm" id="inputEmail3" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">发布日期</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control input-sm" id="inputEmail3" placeholder="">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="col-md-12">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">存档编号 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code
+                                                        No.</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" type="text">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">发生日期和时间Donwtime date:</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" placeholder="" type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="col-md-12">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">设备名称 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Equip. Name</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" placeholder="" type="text" id="equipName" >
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">停机时间 &nbsp; &nbsp; &nbsp; Breakdown Time&nbsp;</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" placeholder="" type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="col-md-11">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">停机区域/点 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                        Area &amp; Location</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" placeholder="" type="text">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">维修班组 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Maint.Team</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" placeholder="" type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="col-md-12">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">损失生产时间 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                        &nbsp; &nbsp; &nbsp; &nbsp;Lost Prod. Time</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" placeholder="" type="text">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">损失产量 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lost Prod. No</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" placeholder="" type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="col-md-12">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">厂区 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Plant</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" placeholder="" type="text">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label" for="exampleInputEmail1">损填表人/日期 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Originator</label>
+                                                    <input class="form-control input-sm" id="exampleInputEmail1" placeholder="" type="text">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+                        <div class="col-md-12">
+                            <h4 contenteditable="true">故障现象和故障问题的描述：(详细描述设备出现了什么现象和故障点)&nbsp;
+                                <div>Fault Description and Fault Definition： (Describe what happened in detail
+                                    and Real Fault Location)</div>
+                            </h4>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="col-md-7">
+                    <h4 contenteditable="true">修理步骤 (记下维修过程中的实际步骤,不正确的打"X".) / Trouble-Shooting steps</h4>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <label for="inputEmail3" class="control-label">1</label>
+                            </div>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <label for="inputEmail3" class="control-label">2</label>
+                            </div>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <label for="inputEmail3" class="control-label">3</label>
+                            </div>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <label for="inputEmail3" class="control-label">4</label>
+                            </div>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <label for="inputEmail3" class="control-label">5</label>
+                            </div>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <label for="inputEmail3" class="control-label">6</label>
+                            </div>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <label for="inputEmail3" class="control-label">7</label>
+                            </div>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2">
+                    <h4 contenteditable="true">停机时间min</h4>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                            </div>
+                        </div>
+                    </form>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                            </div>
+                        </div>
+                    </form>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                            </div>
+                        </div>
+                    </form>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                    </form>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                    </form>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                    </form>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-1">
+                    <h4>正确</h4>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <h4 contenteditable="true">正确路径 / Correct Path:</h4>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 contenteditable="true">故障原因评估</h4>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">操作失误</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">程序漏洞</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">老化磨损</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">备件质量</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">设计缺陷</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">使用不当</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">维修不当</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">TPM/PM缺陷</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">公用动力</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">经验教训报告</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-11">
+                        <h4 contenteditable="true">停机原因分析</h4>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">1 为什么 Why ?</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">2 为什么 Why ?</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">3 为什么 Why ?</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">4 为什么 Why ?</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">5 为什么 Why ?</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>TPM 是否可以预防： 操作工</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">是&nbsp;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-1">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>否&nbsp;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-1">
+                        <form class="form-horizontal" role="form" draggable="true">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">NA&nbsp;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>TPM 是否可以预防： 维修工</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">是&nbsp;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-1">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>否&nbsp;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-1">
+                        <form class="form-horizontal" role="form" draggable="true">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">NA&nbsp;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>现有PM可以预防：&nbsp;</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">是&nbsp;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-1">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>否&nbsp;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-1">
+                        <form class="form-horizontal" role="form" draggable="true">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">NA&nbsp;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>根本原因 /Root Cause:</h4>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="col-md-12">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="exampleInputEmail1">短期对策 Short Term CounterMeasure&nbsp;</label>
+                                        <input class="form-control" id="exampleInputEmail1" type="text" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-md-12">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="exampleInputEmail1">负责人
+                                            <br>
+                                        </label>
+                                        <input class="form-control" id="exampleInputEmail1" placeholder="" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-md-12">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="exampleInputEmail1">支持人
+                                            <br>
+                                        </label>
+                                        <input class="form-control" id="exampleInputEmail1" placeholder="" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-md-12">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="exampleInputEmail1">完成日期
+                                            <br>
+                                        </label>
+                                        <input class="form-control" id="exampleInputEmail1" placeholder="" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-md-12">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="exampleInputEmail1">状态
+                                            <br>
+                                        </label>
+                                        <input class="form-control" id="exampleInputEmail1" placeholder="" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="col-md-12">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="exampleInputEmail1">长对策 Short Term CounterMeasure&nbsp;</label>
+                                        <input class="form-control" id="exampleInputEmail1" type="text" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-md-12">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="exampleInputEmail1">负责人
+                                            <br>
+                                        </label>
+                                        <input class="form-control" id="exampleInputEmail1" placeholder="" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-md-12">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="exampleInputEmail1">支持人
+                                            <br>
+                                        </label>
+                                        <input class="form-control" id="exampleInputEmail1" placeholder="" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-md-12">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="exampleInputEmail1">完成日期
+                                            <br>
+                                        </label>
+                                        <input class="form-control" id="exampleInputEmail1" placeholder="" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-md-12">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="exampleInputEmail1">状态
+                                            <br>
+                                        </label>
+                                        <input class="form-control" id="exampleInputEmail1" placeholder="" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="exampleInputEmail1" type="text">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section"><div class="container"><div class="row"><div class="col-md-12"><div class="col-md-8">
+                        <h1></h1>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">签名及日期</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">班组长/TL</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">工段长/GL</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">工程师/ENG</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label for="inputEmail3" class="control-label">技术经理</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                </div>
+                            </div>
+                        </form>
+                    </div></div></div></div></div><div class="section"><div class="container"><div class="row"><div class="col-md-10"><div class="col-md-10"><form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-2">
+                                        <label for="inputEmail3" class="control-label">验证方法</label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-2">
+                                        <label for="inputEmail3" class="control-label">验证结论</label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-2">
+                                        <label for="inputEmail3" class="control-label">结案日期</label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-2">
+                                        <label for="inputEmail3" class="control-label">签名</label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="text">
+                                    </div>
+                                </div>
+                            </form></div></div></div></div></div><div class="section">
+            <div class="container">
+                <div class="row">
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-5">
+                        <div class="col-md-12">
+                            <h1></h1>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1">
+            <a class="btn btn-primary">重新录入</a>
+          </div>
+          <div class="col-md-11">
+            <a class="btn btn-primary">提交<br></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+

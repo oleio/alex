@@ -1,0 +1,222 @@
+{
+	"fileName": "20130119EUB40R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130119EUB40R1.json",
+	"score": 675,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1月19日21时30分",
+	"fileNameDate": "20130119",
+	"equipName": "设备名称:R1手工焊枪",
+	"breakdownTime": "停机时间：150MIN",
+	"areaLocation": "停机区域\/点:  EUB040",
+	"maintainTeam": "维修班组：B+C",
+	"lostTime": "150",
+	"lostProductNum": "50",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   郑旭俊       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产反映焊枪无法关闭焊接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "维修更换枪柄无效，焊接工程师到场检查焊枪气路正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换焊机触发板和比例阀无效，检查发现15芯插口有接线脱焊；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "对15芯接线插口进行修复，用万用表测量发现I\\O板无信号输出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换焊机I\\O板无效，尝试更换焊机主板和通信网线，信号输出正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "重新设置焊接参数尝试焊接正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "设备恢复生产运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB040R1手工焊枪无法焊接操作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么设备无法焊接？因为焊枪无法gun close；"
+		],
+		[
+			"为什么焊枪无法gun close？因为焊机气阀不工作；"
+		],
+		[
+			"为什么焊机气阀不工作？因为焊机I\\O板无信号输出；"
+		],
+		[
+			"为什么焊机I\\O板无信号输出？因为焊机主板主板给I\/O板供电源模块损坏，电压不足24V导致I\/O板虽亮灯（比较暗）但继电器无法吸合无法启动程序；"
+		],
+		[
+			"为什么焊机主板主板电源模块损坏"
+		]
+	],
+	"rootCause": "焊机内气阀接头线脱落与周边针脚接触导致短路引起主板损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换焊机主板",
+				"resp": "郑旭俊",
+				"supp": "陈烨华",
+				"compDate": "1\/19\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系供应商梅达对问题主板进行索赔",
+				"resp": "孙杰",
+				"supp": "供应商",
+				"compDate": "",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对车间内手工焊机接头进行专项检查",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "编写一点课程针对此类故障对全体维修进行培训",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "1\/23\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华\/曹鸣晓",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

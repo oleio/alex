@@ -1,0 +1,222 @@
+{
+	"fileName": "20120830JRL060L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120830JRL060L2.json",
+	"score": 788,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年08月30日15时45分",
+	"fileNameDate": "20120830",
+	"equipName": "设备名称:机器人焊机",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: 总拼补焊线",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "13",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 李颖琛         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到工位检修，发现焊接电缆已经明显短路；协调生产BYPASS故障机器人BACKUP生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "尝试将故障短路点拉出，临时用绝缘胶带缠绕修理，失败；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "从东昌现场库领用备件焊接电源电缆，用扎带捆扎到机器人DRESS套管外部；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "试验焊接，发现焊枪闭合后失控放电；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "推断焊机可控硅击穿短路，更换可控硅后试验焊接，无焊接电流；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "检查触发电路接线，触发电路接线与焊机主回路接线匹配后设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼补焊线JRL060L2机器人6轴处焊接电源电缆短路，焊机空开跳闸。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人自动工位停止自动运行"
+		],
+		[
+			"为什么L2焊机控制柜空开跳闸"
+		],
+		[
+			"为什么焊接变压器初级电源电缆之间短路"
+		],
+		[
+			"为什么机器人J6轴处电源电缆绝缘层损坏？因为此处焊接电源电缆实际截面减小，电缆发热。"
+		],
+		[
+			"为什么焊接电源电缆实际截面减小，电缆发热？因为故障点处焊接电源电缆频繁扭动，疲劳损坏。"
+		]
+	],
+	"rootCause": "焊接电源电缆频繁扭动，疲劳损坏。故障点焊接电缆截面减少异常发热，导致电缆绝缘层损坏引起短路故障；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时用备件焊接电源电缆捆扎在机器人DRESS套管外恢复设备运行。",
+				"resp": "李颖琛",
+				"supp": "樊超杰",
+				"compDate": "8\/30\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "9月2日非生产日安排维修人员检查评估其它主线机器人类似电缆扭曲处，发现电缆严重损坏的予以主动更换。",
+				"resp": "李颖琛黄光耀陈烨华",
+				"supp": "",
+				"compDate": "9\/3\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "根据焊接电源电缆更换记录及调查评估情况更新焊接电缆更换更换计划，在电缆疲劳损坏前予以更换，避免停线抢修。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "9\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:郑旭俊 徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

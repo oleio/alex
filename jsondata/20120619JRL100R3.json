@@ -1,0 +1,222 @@
+{
+	"fileName": "20120619JRL100R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120619JRL100R3.json",
+	"score": 499,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年6月19日17时20分",
+	"fileNameDate": "20120619",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：16min",
+	"areaLocation": "停机区域\/点: JRL100",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "16",
+	"lostProductNum": "9",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   黄智君       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL100R3焊枪粘电极帽，重新安装电极帽后手工焊接，焊接过程中出现炸电极帽；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查焊枪，发现焊枪动作速度慢，进一步检查发现焊枪控制气管漏气；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "处理气管漏气后再次安装电极帽时发现电极杆电极帽安装锥面损坏，无法牢固安装电极帽；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换焊枪电极杆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL100R3机器人焊枪静电极杆电极帽安装锥面打坏，更换电极杆。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么需要抢修更换电极杆"
+		],
+		[
+			"为什么电极杆安装电极帽的锥面损坏"
+		],
+		[
+			"为什么焊枪炸电极帽"
+		],
+		[
+			"为什么焊枪动作速度变慢"
+		],
+		[
+			"为什么焊枪工作气压不足"
+		]
+	],
+	"rootCause": "焊枪控制气管磨损漏气,导致焊枪动作变慢。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用气管对接头修理气管使之不漏气，更换电极杆。",
+				"resp": "黄智君",
+				"supp": "陈烨华",
+				"compDate": "6\/19\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换焊枪上老化磨损的气管并验证焊枪工作时不干涉",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "6\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.郑旭俊",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

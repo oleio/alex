@@ -1,0 +1,222 @@
+{
+	"fileName": "20120703JRL040.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120703JRL040.json",
+	"score": 756,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月3日7时35分",
+	"fileNameDate": "20120703",
+	"equipName": "设备名称:工装勾销",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JRL040",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:曹鸣晓       \nOringinator 2012.7.3",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL040工位报警工件未感应到，进入工位检查发现UN219 PIN CLAMP支架固定螺丝断，气缸倾斜，车辆搁置在气缸上；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "出工位通知控制工程师打开工位感应器BYPASS功能，临时强制感应器完成焊接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "焊接完成后将工位空出，进工位拆下气缸支架；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将下一辆车放入工位确认焊点状态，发现焊点位置偏移较大，无法正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "将断裂的气缸支架安装回原位，并进行临时点焊固定；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "再次放车验证焊点状态，确认正常后恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL040工位UN219 PIN CLAMP支架紧固螺丝断"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL040工位报警？因为工件感应器不到位；"
+		],
+		[
+			"为什么工件感应器不到位？因为车辆搁置在倾斜的勾销气缸上；"
+		],
+		[
+			"为什么车辆搁置在倾斜的勾销上？因为气缸支架的螺母断裂，气缸倾斜；"
+		],
+		[
+			"为什么气缸支架的螺母断裂？因为支架受力较大断裂（一个螺母已断裂，一个螺纹拉坏）；"
+		],
+		[
+			"为什么支架受力较大断裂？因为落车状态不好，振动后螺母松动后容易断裂。"
+		]
+	],
+	"rootCause": "落车受力较大导致勾销气缸支架断裂",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时点焊恢复生产，夜班进行检修安装（取断螺丝，恢复）",
+				"resp": "曹鸣晓",
+				"supp": "陈烨华",
+				"compDate": "2012.7.3",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "利用周末非生产日检查主线工装紧固状态并加以整改",
+				"resp": "各班组长",
+				"supp": "",
+				"compDate": "2012.7.8",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "改进TPM要求，加入检查升降滚床落车情况",
+				"resp": "钱俊",
+				"supp": "各班组长",
+				"compDate": "2012.7.8",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "协调工程定期对主线定位工装进行标定",
+				"resp": "沈建伟",
+				"supp": "吴丁磊",
+				"compDate": "2012.7.8",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

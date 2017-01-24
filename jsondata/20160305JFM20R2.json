@@ -1,0 +1,222 @@
+{
+	"fileName": "20160305JFM20R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160305JFM20R2.json",
+	"score": 946,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016.3.5 9：15",
+	"fileNameDate": "20160305",
+	"equipName": "设备名称: JFM20R2",
+	"breakdownTime": "停机时间：110min",
+	"areaLocation": "停机区域\/点: JFM",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "110",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期: 吴梦杰 16\/03\/05  \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": "修理步骤 \/ Trouble-Shooting steps (记下维修过程中的实际步骤,不正确的打\"X\".)",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "维修发现R2充胶时漏胶,进一步检查发现填充雌头接口螺丝断裂。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "更换接口备件，修正充胶轨迹，充胶恢复正常。",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "验证放胶时出现压力报警，拆下喷嘴能正常出胶，出胶流量偏低；\n定量缸内部压力过高，怀疑喷嘴被堵死，更换涂胶喷嘴，无效。",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查定量机控制盒接线插座，发现喷嘴及定量缸加热线都被拔出未恢复加热，怀疑是胶水温度偏低引起压力报警。",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "修复喷嘴及定量缸加热线。",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "测试出胶成功，恢复生产。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM020R2填充接头损坏，更换备件后涂胶压力报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么涂胶压力报警？因为定量机丝杆运动阻力过大，马达电流过载造成报警。"
+		],
+		[
+			"为什么定量机丝杆运动受阻？因为故障时胶水温度偏低（25度），低于正常温度范围（35度-40度）。\n低于标准温度时胶水黏度增大，导致丝杆运动受阻。"
+		],
+		[
+			"为什么胶水温度偏低？因为之前喷胶枪加热线被拔出，加热系统没有完整运转。加热仅依靠胶管和填充站，无法维持胶水温度。"
+		],
+		[
+			"为什么将加热线拔出？因为喷嘴加热线短路造成涂胶控制柜跳空开，需要临时将加热线拔出。"
+		],
+		[
+			"为什么拔出加热线后压力报警？1、现场沟通不畅，定量缸加热线被误拔 2、现场工程师经验不足，造成误判。"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause:",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "短期\/Short Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换受损的填充接口",
+				"resp": "曹鸣晓",
+				"supp": "吴梦杰",
+				"compDate": "3\/5\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "恢复JFM20R2的定量缸加热线",
+				"resp": "曹鸣晓",
+				"supp": "吴梦杰",
+				"compDate": "3\/5\/2016",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "完善定量机加热系统维修流程，以文件形式明确不可以采取屏蔽措施的加热区域和加热线。",
+				"resp": "吴梦杰",
+				"supp": "何文泽",
+				"compDate": "3\/15\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "针对涂胶加热系统在维修班组中开展培训。",
+				"resp": "吴梦杰",
+				"supp": "何文泽",
+				"compDate": "3\/15\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL：曹鸣晓",
+	"person_Manager": "工程师\/ENG.:吴梦杰"
+}

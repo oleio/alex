@@ -1,0 +1,222 @@
+{
+	"fileName": "20121025CV13.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121025CV13.json",
+	"score": 634,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月25日22时0分",
+	"fileNameDate": "20121025",
+	"equipName": "设备名称:CV13",
+	"breakdownTime": "停机时间：13min",
+	"areaLocation": "停机区域\/点: CV13",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "13",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 顾念仁         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "CV13机运线小车停止运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "维修检修，发现所有小车没有没有前进信号并进而发现机运线无法上自动模式；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拉动控制工程师支持检查PLC程序条件，发现原因是没有来自C-CAR外板工装的连锁信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查C-CAR外板工装，发现工装紧急停止；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查安全继电器状态，安全继电器继电器没有吸合；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "发现DC24V电压过低，确定外部短路拉低DC24V电压；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "拆除造成短路的无用废线，恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV13机运线停止运行，机运线无法恢复自动。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV13停止运行"
+		],
+		[
+			"为什么CV13机运线丢失自动状态"
+		],
+		[
+			"为什么来自C-CAR侧围外板的连锁信号没有满足条件"
+		],
+		[
+			"为什么C-CAR外板工装安全继电器没有吸合"
+		],
+		[
+			"为什么DC24V直流控制电源电压过低"
+		]
+	],
+	"rootCause": "已经停用的产品胶块加热用DC24V供电线路短路",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "关闭给胶块加热DC24V电源供电的空气开关",
+				"resp": "顾念仁",
+				"supp": "",
+				"compDate": "10\/25\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拆除已经废除的胶块加热电源线路",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "10\/25\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "评估CV13与C-CAR侧围外板的连锁条件,修改PLC程序避免故障范围扩大。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "10\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

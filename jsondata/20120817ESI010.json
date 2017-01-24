@@ -1,0 +1,222 @@
+{
+	"fileName": "20120817ESI010.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120817ESI010.json",
+	"score": 681,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月17日01时00分",
+	"fileNameDate": "20120817",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:ESI010L",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 唐萃众        \nOringinator 2012.8.17",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "ESI010L closeclamp1关闭不到位报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查发现夹头无动作，电磁阀无电源；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查safty i\/o 模块无输出故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "怀疑电源线损坏，飞J-BOX至阀岛电源线，故障存在；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "再次检查safty i\/o状态发现输出点及输入点有闪烁；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "怀疑safty i\/o所接runbar存在短路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "断开E1 RUNBAR 故障消除，临时强制runbar。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESI010L 气缸夹头不动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么夹头关闭不到位报警？因为夹头关闭无动作；"
+		],
+		[
+			"为什么夹头关闭无动作？因为阀岛无输出；"
+		],
+		[
+			"为什么阀岛无输出？因为阀岛24v电源无；"
+		],
+		[
+			"为什么阀岛24v电源无？因为SAFTY I\/O 24v输出无；"
+		],
+		[
+			"为什么safty i\/o 24V输出无？因为SAFTY I\/O 所接runbar有短路；"
+		]
+	],
+	"rootCause": "RUNBAR内部短路造成safty i\/o状态异常24v输出无",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "断开存在短路的runbar，程序临时旁路",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "8\/17\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "损坏runbar查找故障点，并恢复（短路部份已查到）",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "8\/17\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "runbar固定支架修复加固，防止runbar旋转过度导致损坏内部线路",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "8\/19\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

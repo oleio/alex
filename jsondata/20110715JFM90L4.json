@@ -1,0 +1,222 @@
+{
+	"fileName": "20110715JFM90L4.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110715JFM90L4.json",
+	"score": 622,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年  7月 15日18时05 分",
+	"fileNameDate": "20110715",
+	"equipName": "设备名称: 伺服焊枪",
+	"breakdownTime": "停机时间：18MIN",
+	"areaLocation": "停机区域\/点:  JFM90L4",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "18",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李成\/7.15 \nOringinator   ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM90L4做E11时电极帽掉落找不到，维修准备安装新电极帽",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "发现电极帽槽中无电极帽，拉动生产去拿电极帽，安装后复位",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "电极帽再次粘落，生产再次进入工位安装电极帽，复位上自动",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "电极帽再次粘落，维修主管及焊接工程师进入工位察看",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "经过检查发现电极杆TAB上沾满胶水，擦干净胶水，安装好电极帽",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "复位上自动，恢复生产",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90L4粘电极帽"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM90L4报警？因为电极帽脱落"
+		],
+		[
+			"为什么电极帽脱落？因为电极杆Tab上沾满胶水"
+		],
+		[
+			"为什么电极杆Tab上沾满胶水？因为整根电极杆前半部分有大量胶水"
+		],
+		[
+			"为什么电极杆上有大量胶水？因为L4、R4焊接轮罩位置时，该位置大量溢胶"
+		],
+		[
+			"为什么用时长？因为1，电极帽槽内无任何电极帽 2，重复安装多次均未擦胶水"
+		]
+	],
+	"rootCause": "轮罩胶水覆盖与电极杆前部，更换电极帽时胶水覆盖Tab",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "维修焊枪每日生产间隙清除R4、L4电极杆前部胶水",
+				"resp": "TL",
+				"supp": "",
+				"compDate": "TBD",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "通知生产更换电极帽时检查Tab上是否有胶水，并清理再后安装",
+				"resp": "王烨",
+				"supp": "",
+				"compDate": "2011.7.15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "拉动工程解决轮罩胶水大量外溢问题",
+				"resp": "李成",
+				"supp": "",
+				"compDate": "TBD",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢鲲（代）",
+	"person_ENG": "工程师\/ENG.:王烨",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

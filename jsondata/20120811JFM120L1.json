@@ -1,0 +1,222 @@
+{
+	"fileName": "20120811JFM120L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120811JFM120L1.json",
+	"score": 659,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月11日09时00分",
+	"fileNameDate": "20120811",
+	"equipName": "设备名称:L1机器人",
+	"breakdownTime": "停机时间：累积20min",
+	"areaLocation": "停机区域\/点:JFM120",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:孙伟         \nOringinator 2012.8.11",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM120L1焊接故障报警，GUN CLOSE未关闭；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进工位检查发现GUN CLOSE信号没有，整理电缆后信号恢复；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "工作一段时间后报警重复出现，因仅在618焊接时发生问题，故怀疑故障点在T侧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "飞线T侧的19芯电缆，故障报警未消除；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "清洁换枪盘T侧的插针，更换A\/B\/U插针，故障未消除；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换GUN CLOSE电磁阀和信号线，故障未消除；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "飞线R侧19芯电缆，故障暂时消除，跟踪在线状态。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120L1焊接618时GUN CLOSE未关闭，焊接报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM120L1焊接报警？因为L1 GUN CLOSE未关闭；"
+		],
+		[
+			"为什么GUN CLOSE未关闭？因为GUN CLOSE信号未收到；"
+		],
+		[
+			"为什么GUN CLOSE信号未收到？因为R侧19芯电缆接触不良；"
+		],
+		[
+			"为什么R侧19芯电缆接触不良？因为618焊接门槛时轨迹拉伸较大，DRESS受力接触不良；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "618焊接门槛时轨迹拉伸较大，DRESS受力接触不良",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时飞线维持现场生产",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2012.8.12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换19芯电缆并加长，使轨迹拉升时电缆受力较小",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012.8.19",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修抢修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:孙伟",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

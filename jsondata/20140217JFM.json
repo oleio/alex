@@ -1,0 +1,222 @@
+{
+	"fileName": "20140217JFM.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140217JFM.json",
+	"score": 1407,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年2月17日21时15分",
+	"fileNameDate": "20140217",
+	"equipName": "设备名称:总拼机运线",
+	"breakdownTime": "停机时间：130min",
+	"areaLocation": "停机区域\/点: JFM00",
+	"maintainTeam": "维修班组：C\/A",
+	"lostTime": "130",
+	"lostProductNum": "65",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  谢诚侃       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查设备HMI操作显示屏，确定设备因通讯故障导致紧急停止，检查PLC程序，确定JFM120工位SLAVE与机运线通讯状态位异常；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查JFM120工位PLC机架SLAVE通讯模块，模块固定架开裂引起模块固定状态不佳，东昌现场库领用备件后更换；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "完成JFM120工位模块更换后检查机运线通讯状态位，发现MASTER5通讯模块与SLAVE通讯仍然存在不稳定情况，怀疑网络终端D形接头状态不佳导致通讯不稳定，更换JFM150通讯D形接头；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "JFM150D形接头更换后，除JFM130SLAVE模块通讯状态位以外所有其他子站通讯状态位恢复稳定。尝试检查JFM130的D形接头内接线、更换D形通讯插头、SST SLAVE通讯模块、无效，而且后又出现其它网络子站通讯不稳定情况；（维修方向错误）",
+				"lostMin": 20,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "通过切换各通讯子站D形通讯接头终端电阻试图锁定故障点，操作到JFM130工位后通讯网络所有子站通讯异常；（网络电缆接线不当引起）",
+				"lostMin": 30,
+				"success": "X "
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "整理排故思路，梳理排故方案。拆卸各子站D形通讯插头，通过切换终端电阻，用万用表逐段检查通讯线路。JFM130之前未发现明显信号电缆断路或短路现象。但接上JFM130-150之间的通讯电缆后通讯网络瘫痪，用临时通讯电缆替换疑问信号电缆后设备通讯恢复正常。",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "各工位复位并手动操作将雪橇开到正常停止位置后设备恢复正常运行。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼机运线因通讯不稳定导致紧急停止"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么总拼机运线紧急停止"
+		],
+		[
+			"为什么总拼机运线与JFM120\/JFM130\/JFM150工位的通讯状态不稳定"
+		],
+		[
+			"为什么JFM130-JFM150工位之间的PROFIBUS通讯通讯电缆接触不良"
+		],
+		[
+			"为什么维修步骤4操作到JFM130通讯接头时导致网络所有子站通讯异常？因为现场技术人员排除通讯故障的经验不足。"
+		],
+		[
+			"为什么维修排故经验不足？因为培训存在盲区，维修人员排故过程中采用分段切换终端电阻时，未意识到原来通讯电缆进出线有错位，终端电阻未有效接入。"
+		]
+	],
+	"rootCause": "1）项目实施中使用了旧通讯电缆对接，接触不良，系统抗干扰能力下降。   \n2）现场技术人员经验不足，培训存在盲区。未意识到原来通讯电缆进出线有错位，测试时终端电阻未有效接入，导致排故时间长。 （耽误1小时）            ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用临时信号电缆替换问题信号电缆恢复设备稳定通讯.",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "2\/17\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "总结停机过程中排故失误，并在交接班时三班培训。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "2\/20\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "梳理A10项目实施设备通讯电缆使用情况，对旧通讯电缆对接等非正规接法进行整改。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "3\/5\/2014",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "梳理车间各种通讯方式的排故方式，并对开展专题培训。",
+				"resp": "尹伟文 ",
+				"supp": "",
+				"compDate": "3\/15\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "就REUSE设备进行专题梳理，规范项目实施。（拉动ME资源）",
+				"resp": "邱正东",
+				"supp": "",
+				"compDate": "3\/15\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "除步骤4、步骤5以外的排故过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:曹鸣晓（代理）",
+	"person_Manager": "工程师\/ENG.:谢诚侃（代理）"
+}

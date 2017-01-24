@@ -1,0 +1,222 @@
+{
+	"fileName": "20130122JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130122JFM090.json",
+	"score": 645,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年 01月22日 3时 00分",
+	"fileNameDate": "20130122",
+	"equipName": "设备名称:左前锁紧缸传感器",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:曹鸣晓          \nOringinator2013.1.22",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090报警左前锁紧缸打开不到位，进工位查看，发现感应铁片处于临界状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "调整感应铁片，工作一辆车后仍报警不到位；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进工位查看发现固定感应铁片的连杆有些攒动，导致感应铁片位置不稳定；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "尝试调试铁片位置，状态仍不稳定，暂时采用其它感应器信号维持现场生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090报警GATE左前锁紧缸打开不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM090故障报警？因为左前锁紧缸打开不到位；"
+		],
+		[
+			"为什么左前锁紧缸打开不到位？因为打开到位感应器未被点亮；"
+		],
+		[
+			"为什么感应器未被点亮？因为感应铁片位置偏差（略高）；"
+		],
+		[
+			"为什么感应铁片位置偏差？因为固定感应铁片的连杆有些松动，且感应铁片本身形状不合理；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.感应铁片位置偏差导致左前锁紧缸打开不到位 2.进一步检查锁紧缸输出连杆部件",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "采用临时调整感应位置维持生产",
+				"resp": "曹鸣晓",
+				"supp": "陈文佳",
+				"compDate": "2013.1.23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "加大感应铁片面积，使感应器可靠感应",
+				"resp": "陈佳文",
+				"supp": "",
+				"compDate": "2013.1.23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日检修感应铁片固定连杆",
+				"resp": "黄光耀",
+				"supp": "A班",
+				"compDate": "2013.2.2",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "改进JFM全部锁紧缸感应铁片，保证感应信号稳定",
+				"resp": "黄光耀",
+				"supp": "A班",
+				"compDate": "2013.1.24",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

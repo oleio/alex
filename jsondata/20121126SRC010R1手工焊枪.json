@@ -1,0 +1,222 @@
+{
+	"fileName": "20121126SRC010R1手工焊枪.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121126SRC010R1手工焊枪.json",
+	"score": 768,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年11月26日6时45分",
+	"fileNameDate": "20121126",
+	"equipName": "设备名称:手工焊枪",
+	"breakdownTime": "停机时间：4H",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "4",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:丁伟 瞿淼晋          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产反映SRC10R1焊枪故障，焊枪动作慢。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "维修到现场检查发现焊枪气缸内泄漏。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "东昌领取该型号气缸更换，由于气缸铸件存在缺陷，安装过程中气缸臂开裂。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "拆取新气缸的内缸及活塞，试图利用旧气缸外缸进行恢复。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "完成拼装的气缸安装到焊枪上试动作数次后内部卡死，焊枪无法动作。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "东昌中心仓库紧急调用气缸到现场更换。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "安装测试正常，恢复生产。",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SRC10R1手工焊枪动作速度慢导致焊接故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪焊接故障？因为手工焊枪关闭速度慢而且闭合压力不足"
+		],
+		[
+			"为什么焊枪关闭速度慢而且闭合压力不足？因为焊枪气缸内杠\/活塞内部泄漏"
+		],
+		[
+			"为什么焊枪气缸内杠\/活塞内部泄漏？因为焊枪气缸内壁及密封件老化磨损"
+		],
+		[
+			"为什么用旧气缸外缸和新气缸活塞及内缸拼出的气缸无法使用？因为气缸内壁磨损严重，新活塞与旧气缸内壁有卡阻。"
+		],
+		[
+			"为什么首次更换备件气缸后焊枪仍然无法使用？因为首次更换的气缸铸件存在缺陷，安装过程中气缸臂开裂。"
+		]
+	],
+	"rootCause": "原使用的焊枪气缸老化磨损，现场仓库备件气缸存在缺陷导致第一次更换失败。拼装焊枪气缸无法使用、备件紧急送货、维修人员忙于解决主线故障延长了修复时间。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "新备件气缸东昌紧急送货，再次更换气缸。",
+				"resp": "陈烨华",
+				"supp": "瞿淼晋",
+				"compDate": "11\/26\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "车间内手工焊枪使用的气缸状态进行一次普查，评估状态差的气缸安排更换。",
+				"resp": "瞿淼晋",
+				"supp": "郑旭俊",
+				"compDate": "12\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "备件质量问题同小原交涉，要求小原保证备件质量。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "12\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "正确步骤同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:瞿淼晋 ",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

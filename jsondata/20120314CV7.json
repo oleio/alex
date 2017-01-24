@@ -1,0 +1,222 @@
+{
+	"fileName": "20120314CV7.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120314CV7.json",
+	"score": 564,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年2月14日10时  分",
+	"fileNameDate": "20120314",
+	"equipName": "设备名称:EMS小车电排",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:CV7",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS南厂车身\nPlant",
+	"originator": "填表人\/日期:  李颖琛        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "发现CV7侧围下线升降段后小车停止，维修到现场检修发现小车电刷损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查升降段与固定段接口处电排，发现电排没有对准；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查修理电排，恢复电排直线度，更换电排定位弹簧销；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "跟踪升降段小车电刷工作情况，检查所有运行中小车电刷；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV7侧围下线升降段电排错位，导致小车电刷拉坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么从升降段开出的小车停止运行？因为小车供电电刷损坏"
+		],
+		[
+			"为什么小车供电电刷损坏？因为升降段电排与固定段电排没有对准"
+		],
+		[
+			"为什么升降段电排与固定段电排没有对准？因为固定电排的弹簧定位销变形"
+		],
+		[
+			""
+		],
+		[
+			"为什么固定电排的弹簧定位销变形？因为过车时升降段电排导轨上下窜动过大"
+		]
+	],
+	"rootCause": "过车时升降段电排导轨上下窜动过大",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "检修电排直线度,更换变形的电排定位弹簧销。",
+				"resp": "李颖琛",
+				"supp": "佘佳安",
+				"compDate": "4\/14\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日检修升降段电排，检查调整升降电排导轨固定及",
+				"resp": "尹熠俊",
+				"supp": "李颖琛",
+				"compDate": "4\/22\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "上升停止位置。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

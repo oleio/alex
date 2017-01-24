@@ -1,0 +1,222 @@
+{
+	"fileName": "20150401 ESOR4.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150401 ESOR4.json",
+	"score": 543,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年4月1日9时30分",
+	"fileNameDate": "20150401",
+	"equipName": "设备名称:机器人搬运",
+	"breakdownTime": "停机时间：10min",
+	"areaLocation": "停机区域\/点: ESOR4",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "10",
+	"lostProductNum": "5",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 曹鸣晓   \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "ESOR4放置抓手时故障报警，现场维修进入工位检查发现停放支架上的M12传感器信号不稳定。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "示教板手动操作移走抓手，更换M12传感器。传感器更换后，确认信号正常",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "分析传感器表面受损原因，发现Gripper停放位置偏移，铝管与传感器干涉",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进一步检查发现换枪盘T侧定位销套磨损，导致Gripper停放位置偏移",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "临时旋转销套，校验R4抓手的抓放轨迹，恢复自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOR4放置抓手时故障报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"因为R4抓手释放轨迹不好碰坏了传感器。"
+		],
+		[
+			"为什么因为R4抓手释放轨迹不好碰坏了传感器"
+		],
+		[
+			"为什么Gripper停放位置偏移？换枪盘T侧定位销套磨损"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "换枪盘T侧定位销套磨损，导致Gripper停放位置偏移",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的传感器，旋转销套，校验抓手的抓放轨迹。",
+				"resp": "佘佳安",
+				"supp": "曹鸣晓",
+				"compDate": "4\/1\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "改进Gripper停放支架，避免换枪盘定位销套单边磨损",
+				"resp": "何文泽",
+				"supp": "黄波",
+				"compDate": "4\/10\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.: 何文泽",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

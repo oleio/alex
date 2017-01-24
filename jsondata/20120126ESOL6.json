@@ -1,0 +1,222 @@
+{
+	"fileName": "20120126ESOL6.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120126ESOL6.json",
+	"score": 732,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年01月26日9时45分",
+	"fileNameDate": "20120126",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:ESO",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 李颖琛\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "ESO L6机器人抓枪时碰撞报警，维修到现场处理时无法将焊枪放下；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "手动示教机器人变换放枪姿态，在外力帮助下将焊枪放到停机支架上；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "分析检查出现问题原因，发现焊枪放在停枪支架上有倾斜现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "手动示教机器人将焊枪抓起后调整2个支撑螺栓使停枪姿态水平；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "重新示教机器人调整机器人抓放枪轨迹；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "重复验证数次抓放枪轨迹后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO L6机器人抓枪时碰撞报警，而且处理问题时无法放枪。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人抓枪时碰撞报警？因为机器人抓枪后换枪盘与停枪支架定位销有干涉"
+		],
+		[
+			"为什么机器人抓枪后换枪盘与停枪支架定位销有干涉？因为焊枪在停枪支架上的摆放位置有倾斜"
+		],
+		[
+			"为什么焊枪在停枪支架上的摆放位置有倾斜？因为停枪支架支撑螺栓与停枪支架定位销位置不匹配，不能使焊枪工具侧换枪盘水平"
+		],
+		[
+			"为什么停枪支架支撑螺栓与停枪支架定位销位置不匹配？因为更换WALTHER换枪盘后没有精调停枪水平位置，工作一段时间后停枪支架位置微变化使换枪状态恶化"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1)安装新换枪盘调试时没有调整停枪姿态 2)停枪支架固定不佳导致换枪状态恶化",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整焊枪支撑螺栓使焊枪工具侧换枪盘水平",
+				"resp": "李颖琛",
+				"supp": "尹熠俊",
+				"compDate": "12-01-26",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查并紧固停枪支架地脚固定螺栓，必要时增加地脚膨胀螺栓固定。",
+				"resp": "马晓洲",
+				"supp": "黄光耀 滕征",
+				"compDate": "12-02-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查并精调机器人L6抓放枪（GRIPPER)轨迹",
+				"resp": "徐啸顺",
+				"supp": "黄光耀 尹熠俊",
+				"compDate": "12-02-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

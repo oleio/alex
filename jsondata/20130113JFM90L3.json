@@ -1,0 +1,222 @@
+{
+	"fileName": "20130113JFM90L3.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130113JFM90L3.json",
+	"score": 933,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年 01月13日 16时 30分",
+	"fileNameDate": "20130113",
+	"equipName": "设备名称:机器人L3",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "45",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:马安颹          \nOringinator2013。1。13",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090L3故障等待DI信号，进入工位查看，发现R侧换枪盘的19芯电缆接头被撞坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "由于该19芯电缆为飞线，直接拆下更换飞线；（13min)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "L3在焊接过程中等待backup关闭信号，检查该传感器发现接触不良，程序中跳转该信号；（16min)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "在焊接E11车型时，L3焊接第一个焊点时焊机跳闸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查dress时发现dress断开处的焊接电缆与机器人手臂上的支架干涉；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "应急处理破损的电缆与干涉区，恢复生产；（16min)",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090L3 backup关闭信号不到位；19芯电缆接头拉坏；"
+		],
+		[
+			"焊接电缆磨损短路系列故障问题"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么19芯电缆接头会撞坏？因为在飞线时使用了直插式接头，应使用L型插头；"
+		],
+		[
+			"为什么backup关闭信号不到位？因为该backup关闭传感器磨损，接触不良；"
+		],
+		[
+			"为什么L3在焊接E11时焊机会跳闸？因为焊接电缆有短路；"
+		],
+		[
+			"为什么焊接电缆会有短路？因为焊接电缆破损，电缆与机器人本体发生短路；"
+		],
+		[
+			"为什么焊接电缆破损？因为L3的DRESS套管破损，焊接电缆与机器人手臂上的支架干涉磨擦；"
+		]
+	],
+	"rootCause": "飞线选择接头类型不对；backup传感器磨损；L3 DRESS套管破损造成短路跳闸",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换L3的19芯电缆飞线",
+				"resp": "顾念仁",
+				"supp": "陈烨华",
+				"compDate": "2013.1.13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "程序中跳转backup关闭信号",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2013.1.13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "包裹破损的电缆（中班跳闸后暂用接地线代替36min）",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2013.1.13",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换L3焊接电缆并修复DRESS套管",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "2013.1.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "TPM检查关注主线DRESS干涉状态，发现问题当天修复",
+				"resp": "黄光耀、陈烨华、曹鸣晓",
+				"supp": "",
+				"compDate": "2013.1.14",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "评估维修责任区主线设备DRESS老化状态，批量更换老化严重的DRESS套管",
+				"resp": "黄光耀、陈烨华、曹鸣晓",
+				"supp": "黄俊宇胡滨",
+				"compDate": "2013.2.10",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟 马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

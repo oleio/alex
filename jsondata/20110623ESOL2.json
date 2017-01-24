@@ -1,0 +1,222 @@
+{
+	"fileName": "20110623ESOL2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110623ESOL2.json",
+	"score": 521,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2010   年  6 月 23 日     时     分",
+	"fileNameDate": "20110623",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点: ESO",
+	"maintainTeam": "维修班组：",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：spbs\nPlant",
+	"originator": "填表人\/日期  徐啸顺          \nOringinator   ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "重启机器人，手动中断程序，将机器人操作移动到修理位置。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "伺服报警全部关于编码信息，故检查伺服编码线、伺服通信模块等，检查正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "利用生产吃饭时间对焊枪上的伺服编码器进行更换。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换编码器后标定焊枪零位，手动完成焊接程序。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOL2机器人多次伺服报警CRCERR，伴有SPHAL。重启后不久再次发生。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么会有伺服编码故障？伺服编码信号回路中受到干扰。"
+		],
+		[
+			"为什么回路会受到干扰？回路中某处存在屏蔽层变差。"
+		],
+		[
+			"为什么屏蔽层变差？检查其他线缆回路完好后，认定编码器屏蔽缺陷。"
+		],
+		[
+			"为什么编码器屏蔽有缺陷？外表检查无明显损伤，待其他工位测试验证。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "伺服焊枪编码器屏蔽效果不良",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换伺服焊枪编码器",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011-6-23",
+				"status": "4\\4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "离线测试此编码器以确定屏蔽缺陷的根源",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011-7-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

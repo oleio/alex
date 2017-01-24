@@ -1,0 +1,222 @@
+{
+	"fileName": "20121210SFI120.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121210SFI120.json",
+	"score": 642,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年12月10日6时45分",
+	"fileNameDate": "20121210",
+	"equipName": "设备名称:滚床线",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点: SFI",
+	"maintainTeam": "维修班组：C\/A",
+	"lostTime": "25",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄轶佳          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "根据故障现象首先检查滚床皮带及机械结构，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查滚床刹车，发现滚床刹车继电器出现问题时没有动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "强制动作滚床刹车继电器，人员监控状态下维持运行并检查刹车继电器没有动作原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "后又继续发生滚床无法启动问题，检查发现电机维修开关处有一相电压不正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "进一步检查确定，控制电机转动接触器主触点接触不良；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换问题接触器后设备恢复正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI120工位滚床无法运行，时好时坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么滚床皮带驱动电机时常无法启动"
+		],
+		[
+			"为什么滚床皮带控制电机缺相运行"
+		],
+		[
+			"为什么滚床皮带电机控制接触器其中一个主触点接触不良？因为接触器电磁铁有时无法完全吸合"
+		],
+		[
+			"为什么接触器电磁铁有时无法完全吸合？因为接触器长期使用，机械结构老化磨损。"
+		],
+		[
+			"为什么刹车继电器有时不动作？因为刹车继电器受电机主接触器控制，主接触器工作不正常导致刹车继电器不动作。"
+		]
+	],
+	"rootCause": "接触器长期使用，机械结构老化磨损。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修更换滚床控制接触器",
+				"resp": "黄轶件",
+				"supp": "冯文杰",
+				"compDate": "12\/10\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调查统计车间内滚床控制接触器使用寿命，制订计划预防性更换。（实施中）",
+				"resp": "尹伟文",
+				"supp": "黄轶佳",
+				"compDate": "12\/30\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛 黄光耀",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110316JFM150.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110316JFM150.json",
+	"score": 603,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 3月 16日 9时 20分",
+	"fileNameDate": "20110316",
+	"equipName": "设备名称:激光焊接",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:   JFM150",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期　尹熠俊          \nOringinator 2011.3.16",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位查看车顶状态，发现车顶向右旋转；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入JFM130工位查看车顶放料位置，有偏移；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "手动调整130工位机器人放料位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查确认车顶摆放位置正常后恢复自动，跟踪激光焊状态可正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM150左侧激光焊连续多辆车焊接出错"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么激光焊焊接出错？因为激光焊焊接到一半时焊缝检测出错；"
+		],
+		[
+			"为什么焊缝检测出错？因为车顶位置偏移；"
+		],
+		[
+			"为什么车顶位置偏移？因为130车顶上料位置偏移，且工装定位不能满足尺寸要求；"
+		],
+		[
+			""
+		],
+		[
+			"为什么上料位置偏移？侧围位置偏差、机器人轨迹偏移、车顶尺寸偏差都可能造成车顶偏移，非生产时间检查B柱定位工装及机器人轨迹；"
+		]
+	],
+	"rootCause": "",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整车顶上料位置",
+				"resp": "黄光耀",
+				"supp": "尹熠俊",
+				"compDate": "2011.3.16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "确定标准化操作方案（调整上料位置），缩短调试时间",
+				"resp": "周志辉",
+				"supp": "徐啸顺",
+				"compDate": "2011.3.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查B柱定位工装及机器人状态，查找根本原因后制定措施",
+				"resp": "夏伟、周志辉",
+				"supp": "",
+				"compDate": "2011.3.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "非生产时间精调车顶上料位置",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011.3.17",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:周志辉",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

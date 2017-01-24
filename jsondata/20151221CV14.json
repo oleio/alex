@@ -1,0 +1,222 @@
+{
+	"fileName": "20151221CV14.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151221CV14.json",
+	"score": 543,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.12.21 22",
+	"fileNameDate": "20151221",
+	"equipName": "设备名称:机运线",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:CV14",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "10",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:       谢诚侃\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "CV14报警,现场维修上去排查故障发现两辆小车在导轨切换处相撞",
+				"lostMin": 5,
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动把小车拉动至安全位置",
+				"lostMin": 5,
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查小车,修复损坏的小车,生产人员人工搬侧围维持生产",
+				"lostMin": 10,
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "小车修复后可运行,核对车型队列后恢复自动生产",
+				"lostMin": 2,
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E16,E15小车在接近SW42处撞击"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么小车不运行？因为两部不同车型的小车在导轨切换处相撞；"
+		],
+		[
+			"为什么小车会相撞？因为正好在车型切换时同时运行至岔道处"
+		],
+		[
+			"为什么车型切换时发生两种车型同时运行至岔道处？因为E15小车冲出了40#停止位，程序上未能识别出小车当前位置，当E16正常运行时，两辆小车发生撞击"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "E15小车冲过停止位，PLC程序有不完善，车型切换时小车撞击",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "手动把相撞的小车置位到安全位置",
+				"resp": "佘佳安",
+				"supp": "",
+				"compDate": "2015.12.21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修复损坏的小车",
+				"resp": "佘佳安",
+				"supp": "",
+				"compDate": "2015.12.21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改程序，使40，41两段导轨的出车互锁，保证干涉区有效性",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "2015.12.25",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

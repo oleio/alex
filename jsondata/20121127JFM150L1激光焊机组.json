@@ -1,0 +1,222 @@
+{
+	"fileName": "20121127JFM150L1激光焊机组.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121127JFM150L1激光焊机组.json",
+	"score": 719,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年11月27日9时45分",
+	"fileNameDate": "20121127",
+	"equipName": "设备名称:激光焊机组",
+	"breakdownTime": "",
+	"areaLocation": "停机区域\/点: 总拼",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马晓洲         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "总拼左侧激光焊工位报警停止，维修BYPASS左侧机组，用右侧机组焊接两边车顶焊缝；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "过E10车型时微调右侧焊枪焊接左侧焊缝的机器人轨迹程序；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "维持正常生产同时修理左侧内循环水系统故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查发现内循环水系统变频器水泵单元故障报警，复位后再次出现；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查变频器水泵单元三相电压，检查主回路接线未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "人力转动电机轴，发现转动困难，拆开联轴器后确认电机转子机械阻滞；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "拆卸电机，更换电机冷却风扇端轴承，恢复安装后设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼激光焊左侧机组内循环水流量低报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"                    变频器电机单元             电机转子             "
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么左侧激光焊机组报警停止"
+		],
+		[
+			"为什么机组内循环水流量过低报警"
+		],
+		[
+			"为什么变频器电机单元上变频器过流报警"
+		],
+		[
+			"为什么电机轴负载过大,轴转动困难"
+		],
+		[
+			"为什么电机转子转动阻力过大"
+		]
+	],
+	"rootCause": "电机（冷却风扇侧）轴承老化卡滞,过热损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "在线抢修更换损坏的电机轴承",
+				"resp": "黄智君",
+				"supp": "陈烨华",
+				"compDate": "11\/27\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "下一非生产日检查激光焊工位所有水泵轴的转动阻力，发现问题安排处理。",
+				"resp": "陈烨华",
+				"supp": "徐啸顺",
+				"compDate": "12\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换电机中另一状态不佳的轴承",
+				"resp": "陈烨华",
+				"supp": "胡滨",
+				"compDate": "12\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "激光焊工位水泵转动阻力每半年检查一次列入维修PM计划",
+				"resp": "徐啸顺",
+				"supp": "胡滨",
+				"compDate": "12\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同检修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

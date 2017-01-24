@@ -1,0 +1,222 @@
+{
+	"fileName": "20120529JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120529JFM090.json",
+	"score": 613,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年05月29 日12 时 55 分",
+	"fileNameDate": "20120529",
+	"equipName": "设备名称:E-10工装",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:JFM090",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "15",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂\nPlant",
+	"originator": "填表人\/日期          \nOringinator 黄波",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "根据现场工装分布图进入工位检查该气缸状态发现该气缸打开气源已输出但气缸机械未动作",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "关闭工位气源后手动拉动气缸夹头无法动作，判断为TUNKERS气缸内部卡死",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "由于不是定位气缸决定临时拆下损坏的气缸通知控制工程师屏蔽该气缸信号",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复工位自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090工位E-10工装UN245C02夹头打开报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM090工位自动停止？因为E-10工装UN245C02报警"
+		],
+		[
+			"为什么E-10工装UN245C02打开报警？因为PLC指令发出后UN245C02气缸打开信号无"
+		],
+		[
+			"为什么PLC指令发出后UN245C02气缸打开信号无？因为气缸打开气源已输出但气缸机械未动作"
+		],
+		[
+			"为什么气缸机械未动作？因为TUNKERS气缸内部机械部分损坏卡死"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "TUNKERS气缸内部机械部分损坏卡死",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "夜班更换损坏的TUNKERS气缸并恢复控制信号",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012\/05\/29",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拆解损坏的TUNKERS气缸分析损坏的原因并统计该气缸使用寿命举一反三评估同周期的气缸状态及时更换",
+				"resp": "A\/B\/C三个班组",
+				"supp": "",
+				"compDate": "2012\/06\/30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:黄波"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110728JRL100.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110728JRL100.json",
+	"score": 656,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年07月29日02时分",
+	"fileNameDate": "20110728",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：15",
+	"areaLocation": "停机区域\/点:      JRL100  =R1",
+	"maintainTeam": "维修班组C",
+	"lostTime": "15",
+	"lostProductNum": "11",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期   樊超杰     \nOringinator 2011.07。29",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JRL100R1机器人焊枪无动作",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "察看机器人程序等待BACKUP关闭。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "手动再次发DO信号察看焊接阀未收到信号。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查19芯电缆发现接头处接触不良，临时包扎紧固尝试使用。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "焊枪有几处位置仍然无动作，临时BYPASS机器人飞19芯电缆。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "机器人BYPASS取消工位恢复",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL100R1机器人焊枪无动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人无动作？因为机器人程序等待BACKUP关闭信号。"
+		],
+		[
+			"为什么机器人等待BACKUP信号？因为焊枪BACKUP无动作"
+		],
+		[
+			"为什么焊枪BACKUP无动作？因为BACKUP气阀无信号输入"
+		],
+		[
+			"为什么焊接阀无信号？因为19芯电缆接触不良导致信号无法正常发出。"
+		],
+		[
+			"为什么19芯电缆接触不良？因为此处接头受拉造成接头变形接触不良。"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause:",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时飞线确保正常生产",
+				"resp": "樊超杰",
+				"supp": "",
+				"compDate": "2011.07.29",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修复接触不良的19芯电缆",
+				"resp": "樊超杰",
+				"supp": "",
+				"compDate": "2011.07.29",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "批量更换总拼、补焊主线19芯电缆",
+				"resp": "TL",
+				"supp": "徐啸顺",
+				"compDate": "2011.8.31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对于主线易受拉扯的19芯电缆，改用直角弯头，减小受力，延长接头处电缆使用寿命",
+				"resp": "TL",
+				"supp": "徐啸顺",
+				"compDate": "2011.8.31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:周志辉",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

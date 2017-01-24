@@ -1,0 +1,222 @@
+{
+	"fileName": "20110526JFMLINE.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110526JFMLINE.json",
+	"score": 854,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年  月  日  时  分",
+	"fileNameDate": "20110526",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：35",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "35",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 2011.5.26 顾乐宾",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM机运线跳急停，检查发现ZONE1~ZONE3中控制柜内变频器全部报Error",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "变频器复位，工位复位上自动，OK（怀疑主控开关被碰触）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "正常生产3辆车后再次整线报急停，检查主控柜发现24V电源模块灯闪烁，但空开都没有跳闸",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "怀疑电源损坏，更换电源后24V电源灯仍在闪烁，关闭24V电源空开后灯不闪",
+				"lostMin": "",
+				"success": "x"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "怀疑24V电源外部线路短路，检查JFM040工位RUNBAR发现线路破损",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "临时用电工胶布包裹后，打开24V电源空开后，24V电源灯不闪",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "各工位复位上自动，恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM机运线全线急停"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM机运线跳急停？因为JFM机运线主控柜24V电源电压不稳定。"
+		],
+		[
+			"为什么JFM机运线主控柜24V电源电压不稳定？因为24V电源外部线路短路。"
+		],
+		[
+			"为什么24V电源外部线路短路？因为40#工位新装RUNBAR中的电线破损。"
+		],
+		[
+			"为什么RUNBAR中的电线破损？因为此RUNBAR非标准RUNBAR（塑料盒），长时间按压后外壳破损，导致内部接线压坏。"
+		],
+		[
+			"为什么维修时间长？因为直流电源主开关下不完全短路造成输出电压降低但未跳空开，寻找短路点花费了较多的时间。"
+		]
+	],
+	"rootCause": "按钮盒质量差损坏后导致内部电线受损，直流电源主开关下不完全短路造成输出电压降低但未跳空开，寻找短路点花费了较多的时间。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将破损的线用电工胶布包好，RUNBAR重新固定",
+				"resp": "顾乐宾",
+				"supp": "",
+				"compDate": "2011.5.26",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将非标的RUNBAR用标准RUNBAR代替，禁止使用该RUNBAR",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011.6.27",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "将RUNBAR上的24V线改接到143#接线排（分路空开，开关容量小，短路情况下容易跳闸）",
+				"resp": "腾征",
+				"supp": "",
+				"compDate": "2011.5.27",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "除更换电源模块以外的维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:腾征"
+}

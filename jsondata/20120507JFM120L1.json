@@ -1,0 +1,222 @@
+{
+	"fileName": "20120507JFM120L1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120507JFM120L1.json",
+	"score": 622,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年05 月7 日 20 时30分",
+	"fileNameDate": "20120507",
+	"equipName": "设备名称:换枪盘",
+	"breakdownTime": "停机时间：16min",
+	"areaLocation": "停机区域\/点:JFM120L1",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "16",
+	"lostProductNum": "11",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:谢诚侃        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM120工位超时报警，发现L1在放Ecar焊枪处停止；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看程序在等待枪脱开的信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "先短接安全插销，无效，采取边强制阀边查找故障的办法查询原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "飞换枪盘的19芯信号线，还是释放不了焊枪；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "查找到换枪阀处，发现信号线有接触不良的现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "最后在换枪盘处找到接触不良的破损线，修复后恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120 L1换枪时放不掉焊枪"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位超时？因为L1换枪发生故障；"
+		],
+		[
+			"为什么L1换枪故障？因为L1焊枪释放不了；"
+		],
+		[
+			"为什么L1焊枪释放不了？因为换枪阀没有动作；"
+		],
+		[
+			"为什么换枪阀没有动作？因为换枪电磁阀线损坏；"
+		],
+		[
+			"为什么换枪阀线缆损坏？因为线缆受飞溅影响破损断裂；"
+		]
+	],
+	"rootCause": "换枪电磁阀信号线受飞溅影响破损断裂（此线缆为换枪盘自带线缆，可维修性较差）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时短接信号线缆恢复生产",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "5\/8\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班恢复损坏的信号线缆",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "5\/8\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "整理换枪盘处信号线，进行包扎防护，防止发生损坏",
+				"resp": "黄光耀",
+				"supp": "黄光耀",
+				"compDate": "5\/12\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查车间内换枪盘线缆情况，及时更换防护",
+				"resp": "各班组长",
+				"supp": "",
+				"compDate": "5\/12\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

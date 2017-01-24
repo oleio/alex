@@ -1,0 +1,222 @@
+{
+	"fileName": "20120331JUB P&P.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120331JUB P&P.json",
+	"score": 719,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年03月31日  时  分",
+	"fileNameDate": "20120331",
+	"equipName": "设备名称:P&P输送设备",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点:   JUB",
+	"maintainTeam": "维修班组：ABC",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马晓洲         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "根据偏差量反复调整，恢复设备运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "设备运行一段时间后问题反复，检查抓手夹具定位销未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查P&P平移运动驱动皮带未见异常；检查P&P升降臂，出现问题时未发现结构开裂问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "反复调整中发现偏差始终与P&P前进方向相反，分析偏差规律怀疑电机传动机构有间隙；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "非生产日拆卸P&P平移传动机构，确认问题确切原因为：平移驱动机构同步皮带盘与轴之间的键销磨损，焊缝开裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换损坏的键销，更换损坏的同步皮带盘、驱动轴；皮带盘与驱动轴结合处满焊加固；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "调整各升降臂抓放料位置后恢复设备正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JUB P&P输送设备抓放料位置不正确，反复调整后位置再次变化。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么各升降臂抓放料位置反复发生变化"
+		],
+		[
+			"为什么平移机械实际运动位置与编码器确定位置不一致"
+		],
+		[
+			"为什么机械执行机构的移动量与驱动电机确定的移动量不一致"
+		],
+		[
+			"为什么与电机刚性连接的传动轴、驱动皮带盘之间相对转动"
+		],
+		[
+			"为什么皮带盘与传动轴之间的键销磨损,加固焊缝开裂"
+		]
+	],
+	"rootCause": "机械平移机构速度变化时冲击过大",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的键销，更换损坏的同步皮带盘、驱动轴，皮带盘",
+				"resp": "殷致平",
+				"supp": "夏伟",
+				"compDate": "4\/1\/2021",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "和驱动轴结合处满焊",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调整伺服放大器参数,减小电机启动和速度变化时的加速度",
+				"resp": "黄轶佳",
+				"supp": "尹伟文",
+				"compDate": "4\/2\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "(比原来数值降低40%)",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊 黄光耀 陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

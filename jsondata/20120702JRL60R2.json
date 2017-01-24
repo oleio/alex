@@ -1,0 +1,222 @@
+{
+	"fileName": "20120702JRL60R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120702JRL60R2.json",
+	"score": 502,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月2日7时30分",
+	"fileNameDate": "20120702",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：累计停机20min",
+	"areaLocation": "停机区域\/点:  JRL",
+	"maintainTeam": "维修班组：A\/B",
+	"lostTime": "20",
+	"lostProductNum": "13",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  孙伟        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "板材表面有杂质，焊接时炸电极帽，更换新电极帽后恢复生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "恢复生产后焊接过程中掉电极帽数次；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换握杆后设备恢复正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL60R2炸电极帽造成静握杆电极帽安装锥面状态变差，恢复后掉电极帽数"
+		],
+		[
+			"次，后更换新握杆。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么更换握杆？ 因为握杆电极帽安装锥面状态变差"
+		],
+		[
+			"为什么握杆电极帽安装锥面状态变差？ 因为焊枪炸电极帽导致握杆锥面变差"
+		],
+		[
+			"为什么为什么焊枪炸电极帽？因为焊接板材之间有胶状杂质"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊接板材之间有胶状杂质,造成焊接时炸电极帽。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "通知生产工段控制涂胶状态",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "7\/2\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拉动生产支持控制涂胶状态",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "7\/2\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修改焊接参数,在满足CT条件下增加预热时间,减小工艺状态对焊枪正常焊接的影响.",
+				"resp": "郑旭俊",
+				"supp": "",
+				"compDate": "7\/3\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

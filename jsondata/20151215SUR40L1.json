@@ -1,0 +1,222 @@
+{
+	"fileName": "20151215SUR40L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151215SUR40L1.json",
+	"score": 433,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.12.15 10：00",
+	"fileNameDate": "20151215",
+	"equipName": "设备名称：大钉送钉器",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:陈烨华\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "SUR40 L1焊接大钉时发生故障",
+				"lostMin": "1min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看螺柱焊机操作面板，报警NO SOW",
+				"lostMin": "2min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进入工位检查，螺柱枪头的确没有钉子",
+				"lostMin": "3min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查送钉器，发现送钉器送钉时有卡钉现象",
+				"lostMin": "3min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "找到故障点，拆开送钉器导轨挡板，整形并进行微调",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "故障修复",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR40 L1焊接时不出钉"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "刀片在运动时与挡板干涉导致挡板扭曲变形卡主螺柱",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将导轨卡钉出疏通",
+				"resp": "陈烨华",
+				"supp": "葛毅飞",
+				"compDate": "2015.12.15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "将变形的挡板拆下整形，安装并微调至最佳位置",
+				"resp": "陈烨华",
+				"supp": "葛毅飞",
+				"compDate": "2015.12.15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "设定螺柱送钉盘与导轨之间的间隙及导轨倾斜角度，明确标示，便于调整",
+				"resp": "葛逸飞",
+				"supp": "",
+				"compDate": "2015.12.30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：陈烨华",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20151108CV4.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151108CV4.json",
+	"score": 431,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "20151108 14",
+	"fileNameDate": "20151108",
+	"equipName": "设备名称:转台",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:CV4",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  谢诚侃     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "TT109转台报警,不转动；",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "有变频器报警，复位后转动继续报警；",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查转台，发现PM时刚换的包胶轮已经损坏；",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换损坏的包胶轮；",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "工位复位后，恢复自动。",
+				"lostMin": 1,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV4 TT109转台卡住"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么转台不动？因为变频器报警；"
+		],
+		[
+			"为什么变频器报警？因为转台转动中受阻，电机负载大；"
+		],
+		[
+			"为什么转台转动受阻？因为包胶轮包胶脱落；"
+		],
+		[
+			"为什么包胶轮包胶脱落？因为备件质量问题，存放时间长胶水失效；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "包胶轮备件质量问题",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "换回原包胶轮，临时恢复运行",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "11\/8\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "清除现有可疑备件，更新包胶轮供应商，确保备件质量",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "12\/6\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "1、3、4、5"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：孙伟",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

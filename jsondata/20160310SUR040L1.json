@@ -1,0 +1,222 @@
+{
+	"fileName": "20160310SUR040L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160310SUR040L1.json",
+	"score": 791,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016.3.10",
+	"fileNameDate": "20160310",
+	"equipName": "设备名称:螺柱焊枪",
+	"breakdownTime": "停机时间：累计30min",
+	"areaLocation": "停机区域\/点:SUR040L1",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    费望德  2016.3.10",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "SUR040L1焊枪NO SOW报警，检查送钉器发现钉盘卡钉，清除卡钉；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动送钉，重焊时报“insufficent room for lift”，进工位检查发现螺柱未焊接，手动发信号送钉时发现活塞杆未回退",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆除接收器总成及法兰后发现法兰内密封圈已损坏，立即领取密封圈备件更换。更换时发现活塞杆螺纹也有损坏，但内夹头仍可以安装，且喷钉正常，临时恢复生产。领取活塞杆备件后伺机更换",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "正常生产一段时间后再次卡钉，确认问题系活塞杆引起，立即更换活塞杆备件，恢复生产",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR040L1焊枪卡钉"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SUR040L1 “NO SOW”报警"
+		],
+		[
+			"为什么枪头无钉？因为送钉器钉盘被钉子卡住；"
+		],
+		[
+			"为什么修复送钉盘后仍然无法正常送钉？因为焊枪内夹头回退后无法正常伸出；"
+		],
+		[
+			"为什么焊枪内夹头回退后无法正常伸出？因为1.法兰密封圈损坏活塞杆对中性偏；2.活塞杆螺纹损坏，与内夹头脱开；"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "活塞杆螺纹损坏后，内夹头和活塞杆脱开，活塞杆回退后内部气压将密封圈吹出，活塞杆伸出时缺乏密封圈导向，造成活塞杆卡在焊枪内部无法正常伸出，导致卡钉。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换法兰密封圈、活塞杆",
+				"resp": "费望德",
+				"supp": "陈烨华",
+				"compDate": "3\/10\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "优化调整送钉器转盘间隙，降低卡钉频次",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "3\/10\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将螺柱焊枪润滑检查加入每日CHECKLIST中",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "3\/12\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "编写一点课程，培训班组新员工快速处理卡钉故障",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "3\/15\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "第三步应仔细观察,辨识出活塞杆损坏,和法兰密封圈一起更换可减少停机时间"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：陈烨华",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

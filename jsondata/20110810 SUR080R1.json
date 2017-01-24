@@ -1,0 +1,222 @@
+{
+	"fileName": "20110810 SUR080R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110810 SUR080R1.json",
+	"score": 972,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "20110810",
+	"fileNameDate": "20110810",
+	"equipName": "设备名称:R1逆变器",
+	"breakdownTime": "停机时间：60",
+	"areaLocation": "停机区域\/点:SUR80",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "60",
+	"lostProductNum": "35",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期   刘丰\nOringinator \n20110810",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查焊机DEP发现 低电流报警",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "重新启动焊机后正常，焊接几辆车后再次报警，重启无效，联系Medar半小时内到场",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查焊机隔离接触器、焊接电缆、焊枪等未发现异常，判断逆变器故障，准备更换备用焊机",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "在拆除焊机逆变器冷却水管过程中，冷却水流入焊机主空气开关（冷却水开关不能完全关闭，焊机电源线防水接头失效），立即停止将备用焊机电源接入SUR080L1焊机空气开关的工作。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "修复冷却水开关，接入备用焊机冷却水",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "由于SUR080L1 焊机母线开关位置在工位上方且布置在CV14区域内，升降机无法进入，短时不能关闭，所以将备用焊机电源线接入SUR070L1焊机，暂时恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "考虑到安全问题(SUR080L1焊机进水后可能带强电或短路）以及SU070L1焊机主空气开关同时带两台焊机可能容量不够，所以在生产过程中安排维修工攀爬CV14钢结构至焊接母线排，分阶段寻找安全带悬挂点并在母线排上前进至开关位置，关断SUR080L1焊机母线开关，然后更换了SUR080L1焊机进水的主空气开关并恢复电源",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR080R1 机器人焊接报警 "
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SUR080工位报警？因为SUR080L1机器人焊接报警"
+		],
+		[
+			"为什么SUR080L1机器人焊接报警？因为焊机低电流报警"
+		],
+		[
+			"为什么焊机低电流报警？因为逆变器损坏"
+		],
+		[
+			"为什么逆变器损坏？故障原因待分析"
+		],
+		[
+			"为什么更换备用焊机耗时较长 因为冷却水开关不能完全关闭，焊机电源线防水接头失效，导致空气开关进水，可能带强电，有严重安全风险，且焊机母线开关位置关闭困难"
+		]
+	],
+	"rootCause": "1，中频焊机逆变器故障 2，焊机密封失效导致严重安全风险",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换备用焊机",
+				"resp": "A班",
+				"supp": "王烨",
+				"compDate": "20110810",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.联系供应商查找根本原因",
+				"resp": "孙杰",
+				"supp": "王烨",
+				"compDate": "2011831",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.要求供应商更换中频焊机电源线防水接头",
+				"resp": "孙杰",
+				"supp": "王烨",
+				"compDate": "2011831",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.优化备机接头，再次安排演练备机更换",
+				"resp": "孙杰",
+				"supp": "王烨",
+				"compDate": "2011831",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "4，采购云梯类型登高工具，便于在升降机无法达到位置进行抢修",
+				"resp": "胡滨",
+				"supp": "马晓洲",
+				"compDate": "TBD",
+				"status": "NA"
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:刘丰"
+}

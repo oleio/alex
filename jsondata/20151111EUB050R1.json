@@ -1,0 +1,222 @@
+{
+	"fileName": "20151111EUB050R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151111EUB050R1.json",
+	"score": 443,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.11.11",
+	"fileNameDate": "20151111",
+	"equipName": "设备名称: 伺服焊枪",
+	"breakdownTime": "停机时间：24min",
+	"areaLocation": "停机区域\/点: EUB050",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "24",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    葛逸飞\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位内手动示教轨迹，检查机器人轨迹无异常",
+				"lostMin": 15,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "调整上下电极杆对中性",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "恢复生产",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB050R1焊点扭曲变形、炸电极帽"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么EUB050R1炸电极帽"
+		],
+		[
+			"为什么焊枪对中性偏"
+		],
+		[
+			"为什么焊枪在运行过程中与中底板碰擦？因为中底板被抬高；"
+		],
+		[
+			"为什么中底板被抬高？怀疑中底板下勾销锁紧机构与定位孔偏"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "焊枪动臂在运行轨迹中与零件距离太近，未能考虑到零件波动",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整焊枪对中性",
+				"resp": "葛逸飞",
+				"supp": "",
+				"compDate": "11\/11\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "手动示教机器人轨迹",
+				"resp": "葛逸飞",
+				"supp": "",
+				"compDate": "11\/11\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对EMC、EUB、SUR线焊枪轨迹进行检查",
+				"resp": "陈烨华\n曹鸣晓\n黄光耀",
+				"supp": "黄伟杰",
+				"compDate": "12\/30\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "手动示教机器人时直接倒退出来"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:葛逸飞",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

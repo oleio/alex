@@ -1,0 +1,222 @@
+{
+	"fileName": "20120816JRL070R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120816JRL070R3.json",
+	"score": 903,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月16日16时30分",
+	"fileNameDate": "20120816",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：累计45min",
+	"areaLocation": "停机区域\/点:  JRL",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "45",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 郑旭俊         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修至现场抢修，恢复安装HOLDER，由于螺纹损坏未能恢复安装；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "从现场料架领用ADAPTER再次尝试安装，失败；（15min）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "将R3机器人开到围栏外维修位置，同时联系生产BACKUP维持生产，东昌紧急送货将备件HODER从中心仓库送到维修现场（不常用备件存放东昌中心仓库）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "尝试修理损坏的ADAPTER内螺纹（失败），同时等待备件到现场；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "备件送到现场后更换ADAPTER及HOLDER；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "检查调整焊枪对中性，检查调整电极帽修磨位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复正常生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL070R3焊枪更换电极帽后修磨时电极杆HOLDER从ADAPTER中旋转松动脱落"
+		],
+		[
+			"，抢修恢复安装时发现HOLDER内螺纹和ADAPTER外螺纹均已经损坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"内外螺纹已经损坏的备件    故障时已经完成修磨的电极帽状态"
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么电极杆ADAPTER从HOLDER中松动脱落"
+		],
+		[
+			"为什么焊枪更换电极帽后修磨时ADAPTER从HOLDER中旋出？ 因为HOLDER与ADAPTER螺纹连接松动"
+		],
+		[
+			"为什么HOLDER与ADAPTER螺纹连接松动？ 因为生产人员故障前更换了电极帽"
+		],
+		[
+			"为什么更换电极帽会引起HOLDER与ADAPTER螺纹连接松动？ 因为生产人员拆卸电极帽时按松动ADAPTER方向拆卸电极帽"
+		],
+		[
+			"为什么生产人员拆卸电极帽时按松动ADAPTER方向拆卸电极帽？ 因为电极帽更换人员培训欠佳，未按正确方法拆卸电极帽。"
+		]
+	],
+	"rootCause": "电极帽更换人员培训欠佳，未按正确方法拆卸电极帽。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "当日夜班生产结束后维修人员检查主线焊枪HOLDER与ADAPTER螺纹连接紧固程度。",
+				"resp": "沈建伟",
+				"supp": "",
+				"compDate": "8\/17\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "应用“自动工位电极帽更换操作规定”对生产更换电极帽人员进行再次培训。",
+				"resp": "韩冰 沈海春 李成",
+				"supp": "孙杰",
+				"compDate": "8\/18\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备抢修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

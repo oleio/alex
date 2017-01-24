@@ -1,0 +1,222 @@
+{
+	"fileName": "20110717ESOL2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110717ESOL2.json",
+	"score": 484,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月`7日6时45分",
+	"fileNameDate": "20110717",
+	"equipName": "设备名称:机器人抓具",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:ESO",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "7",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 顾乐斌         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查机器人GRIPPER铝型材结构件，未发现松动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查机器人GRIPPER同换枪盘的连接情况，未见异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查GRIPPER夹头夹紧侧围情况，发觉可拉动侧围；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "判断GRIPPER夹头夹紧度不够导致运动时侧围窜动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "夹头处增加垫片改善夹头夹紧度；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO L2机器人放料位置不正，重复出现。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么ESO20L工位侧围落料不正？因为机器人放料不正"
+		],
+		[
+			"为什么机器人放料位置不正？因为机器人抓放料中间的运动过程中板材窜动"
+		],
+		[
+			"为什么机器人运动过程中板材窜动？因为GRIPPER夹头夹紧度不够"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "GRIPPER夹头夹紧度不够",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整GRIPPER夹头夹紧度",
+				"resp": "顾乐斌",
+				"supp": "黄光耀",
+				"compDate": "11-07-17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调整GRIPPER夹头夹紧度",
+				"resp": "顾乐斌",
+				"supp": "黄光耀",
+				"compDate": "11-7-17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀（代）",
+	"person_Manager": "工程师\/ENG.:"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20121011SFI060.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121011SFI060.json",
+	"score": 899,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月12日1时30分",
+	"fileNameDate": "20121011",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点: SFI060",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "120",
+	"lostProductNum": "50",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  黄轶佳        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "根据通信故障情况PLC尝试断电重启，检查机架模块状态，发现CPU模块OK灯（模块自检）闪烁，确定CPU模块失效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "更换CPU模块后右侧GATE所有模块通讯故障问题仍然没有解决；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "用万用表检查通讯电缆连接情况，确定右侧GATE通讯接插组件中通讯信号接插件断路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换GATE通讯接插组件后GATE上通讯模块恢复正常通讯；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "发现工位PLC与机运线PLC通讯故障，连锁信号没有传递；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "检修通讯电缆，发现主控柜接插件插座中芯线脱落，重新接线后故障消除；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "工位复位，设置工位车型及GATE位置参数后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"内总拼工位紧急停止，现场维修拉动控制工程师检查PLC程序，确定故障原因"
+		],
+		[
+			"为右侧GATE上所有模块通讯故障。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SFI060工位紧急停止"
+		],
+		[
+			"为什么工位PLC系统通讯故障"
+		],
+		[
+			"为什么右侧GATE通讯网络信号线断路"
+		],
+		[
+			"为什么信号线接插件内部接线断裂脱落"
+		],
+		[
+			"为什么故障修复过程中导致主控柜接插件信号线脱落？因为主控柜内通讯接插件内信号线紧固程度不够，检修过程中对信号电缆的拉动导致信号线脱落。"
+		]
+	],
+	"rootCause": "GATE通讯接插组件内部芯线没有留余量导致接插件内部信号线绷直情况下长期震动受力；主控柜内通讯接插件内信号线紧固程度不够；故障处理过程中CPU意外损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换GATE通讯接插组件，主控柜接插件中发现松脱的信号线重新紧固。",
+				"resp": "黄光耀",
+				"supp": "黄轶佳",
+				"compDate": "10\/12\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产时间检查内外总拼GATE接插组件内部接线是否留缓冲余量",
+				"resp": "黄轶佳",
+				"supp": "黄光耀",
+				"compDate": "10\/14\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "内总拼SFI060工位控制柜通讯接插件内部芯线紧固程度检查",
+				"resp": "黄轶佳",
+				"supp": "李颖琛黄光耀",
+				"compDate": "10\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "换下的CPU模块送供应商检修，确实模块失效的确切原因。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "10\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

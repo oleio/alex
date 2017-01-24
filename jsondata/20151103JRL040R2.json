@@ -1,0 +1,222 @@
+{
+	"fileName": "20151103JRL040R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151103JRL040R2.json",
+	"score": 984,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年11月2日16时05分",
+	"fileNameDate": "20151103",
+	"equipName": "设备名称:伺服焊枪",
+	"breakdownTime": "停机时间：60分钟",
+	"areaLocation": "停机区域\/点:JRL040R2",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "45",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 费望德    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL040R2更换电极帽后焊接时电极帽粘落，进去安装新电极帽后焊接再次粘落，将递增清零、电极帽清零后故障消除",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "跟踪焊接质量过程中发现E16部分焊点焊穿现象较多，进工位示教轨迹发现焊接轨迹静臂未贴和板材，示教问题焊点后故障暂时消除",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "焊接E15过程中发现也有焊穿，进工位查枪，未发现电机杆明显松动或开裂。检查发现焊枪电极补偿量异常，怀疑焊枪零位偏差，故重做零位后再示教E15轨迹",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "后续A10焊接时也有焊穿，因之前重做零位，轨迹均有偏差，重新示教A10、E16轨迹",
+				"lostMin": 20,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "跟踪过程中发现电机杆逐渐开始漏水，再进工位测量R2与对面L2的焊枪开档，对比发现R2的开档比L2大了近5mm，怀疑静电极杆松脱。将R2的静电极杆安装到位后再重做零位，微调所有车型轨迹",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL040R2更换电极帽后粘电极帽，焊点焊穿。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么第一次粘电极帽"
+		],
+		[
+			"为什么焊接时静臂侧焊接热量异常大"
+		],
+		[
+			"为什么焊接时静臂未贴合板材"
+		],
+		[
+			"为什么焊枪零位偏差"
+		],
+		[
+			"为什么静电极杆从ARM中逃出约5mm？因为该焊枪焊接的门框位置均为三层或四层厚板及加强板，焊接压力较大，易造成电极杆缓慢地松脱。"
+		]
+	],
+	"rootCause": "焊接压力较大，静电极杆从ARM中逃出约5mm,未及时辨识出,造成后续粘电极帽、焊穿等次生故障",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新调整静电极杆位置，重做焊枪零位",
+				"resp": "曹鸣晓",
+				"supp": "费望德",
+				"compDate": "11\/2\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "示教所有车型焊接轨迹",
+				"resp": "费望德",
+				"supp": "曹鸣晓",
+				"compDate": "11\/2\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查车间同类型伺服焊枪此处电极杆紧固状态并对电极杆正常位置作目视化标识",
+				"resp": "曹鸣晓\n陈烨华\n黄光耀",
+				"supp": "费望德",
+				"compDate": "11\/17\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "批量更换静臂电极杆压板，增加压紧力",
+				"resp": "曹鸣晓\n陈烨华\n黄光耀",
+				"supp": "",
+				"compDate": "11\/25\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "尝试减小焊接压力、焊接电流和时间，跟踪实际焊点质量，若焊点质量ok则推广至车间所有焊枪",
+				"resp": "费望德",
+				"supp": "黄伟杰",
+				"compDate": "12\/1\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "第一步更换新电极帽后应该清零修磨后再继续焊接"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "第三步重做零位时应使用新电极帽,旧电极帽做零位会影响零位准确性"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "第四步由于第三步的错误操作,造成了多余的停机"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL.:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

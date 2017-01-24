@@ -1,0 +1,222 @@
+{
+	"fileName": "20121105JRL060L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121105JRL060L1.json",
+	"score": 701,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年11月5日18时10分",
+	"fileNameDate": "20121105",
+	"equipName": "设备名称:L1",
+	"breakdownTime": "停机时间：累计25min",
+	"areaLocation": "停机区域\/点: JRL060",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "25",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 张文杰        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "在线复位后，发现L1焊枪不停的开关枪；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "将L1运行至REPAIR位置，检查外部线缆，无明显破损，此位置开关枪动作正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "尝试外部飞一根19芯电缆，同时更换电极帽，做第二辆车时在相同位置焊枪再次不停的开关枪；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进工位检查，发现电磁阀上的信号线接触不良，临时绑扎；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "试运行几辆车子后，焊枪再次故障",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "L1机器人BYPASS，临时将电磁阀上的信号线对接一段",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "工位恢复自动",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL060L1焊枪焊接故障,炸电极帽。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL060L1焊枪焊接故障，炸电极帽？因为L1焊枪关枪动作不正常；"
+		],
+		[
+			"为什么L1焊枪关枪动作不正常？因为焊接电磁阀收到的信号断断续续；"
+		],
+		[
+			"为什么焊接电磁阀收到的信号断断续续？因为电磁阀阀头信号线接触不良；"
+		],
+		[
+			"为什么电磁阀阀头信号线接触不良？因为焊接阀信号线偏短，焊枪气缸动作时信号线受力。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "电磁阀上的信号线偏短，且焊枪动作时拉扯受力。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.L1焊枪电磁阀上的信号线对接一段，临时恢复生产；",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.更换焊接阀到焊枪接线盒上的信号线，并合理安排走向重新固定.",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "11\/6\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.检查车间自动工位焊枪信号线走向，若发现类似问题立即整改。（以不受力为标准）",
+				"resp": "维修A、B、C班组",
+				"supp": "",
+				"compDate": "11\/11\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 黄光耀",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

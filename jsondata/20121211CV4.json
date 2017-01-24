@@ -1,0 +1,222 @@
+{
+	"fileName": "20121211CV4.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121211CV4.json",
+	"score": 552,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年12月11日  时  分",
+	"fileNameDate": "20121211",
+	"equipName": "设备名称:滚床机运线",
+	"breakdownTime": "停机时间：min",
+	"areaLocation": "停机区域\/点: CV4",
+	"maintainTeam": "维修班组：C\/A",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄轶佳马晓洲         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "CV4故障报警后自动模式丢失，维修重复复位后拉动控制工程师支持；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "控制工程师到现场支持，联机检查报警状态后确定机运线丢失模式原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "针对相应的报警信息临时修改PLC报警程序，增加报警触发时间延时过滤误报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "跟踪运行1小时无报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV4机运线多种故障报警导致自动模式丢失，需要人员复位后上自动。"
+		],
+		[
+			"（此问题已经发现，正在设法解决中，故障出现时状态变差。）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV4机运线重复出现自动模式丢失"
+		],
+		[
+			"为什么CV4控制系统出现多种故障报警"
+		],
+		[
+			"为什么PLC控制系统中多个远程机架I\/O信号不稳定"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "PLC系统不稳定问题正在解决中，问题根本原因待确定。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时修改PLC报警程序，增加报警触发时间延时过滤误报警。",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "12\/11\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "下一非生产日安排检修测试找到故障根本原因并予以解决。",
+				"resp": "尹伟文",
+				"supp": "控制组",
+				"compDate": "12\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障应急处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛 黄光耀",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20141022 JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20141022 JFM090.json",
+	"score": 702,
+	"title": "SGM-SPPS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014.10.20",
+	"fileNameDate": "20141022",
+	"equipName": "设备名称：GATE",
+	"breakdownTime": "停机时间： 30分钟",
+	"areaLocation": "停机区域\/点：JFM090",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "23",
+	"plantName": "厂区：金桥整车南厂\nPlant",
+	"originator": "填表人\/日期:陈志剑\nOringinator 2014年10月20日",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位，人为转动马达将SHR2移动到位。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "通知控制工程师，设置MR2的车型，使车型匹配报警消除。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查程序发现，减速位传感器未被点亮触发。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进入MR2Storage位置，检查减速位状态，发现信号线老化严重，立即替换。替换后感应效果依然不佳。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "发现停止位传感器前端有大面积刮痕，即替换传感器。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "工位上自动后可正常工作。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090Gate切换时，SHR2由Work位置移动到Storage位置时未有减速过程，且切换后车型丢失。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SHR2运动到Storage位后，车型丢失？因为运动速度过快，撞到护栏弹回，这使得程序误判。"
+		],
+		[
+			"为什么SHR2在接近停止位时未减速？因为减速传感器磨损，使得Gate运动过程中没有减速过程。"
+		],
+		[
+			"为什么减速位传感器磨损？因为传感器选型未考虑调节余量，现场用的非齐平型感应器的半螺纹特点，使传感器过于贴近GATE。"
+		],
+		[
+			"为什么要选非齐平型传感器？维修人员传感器选型不规范，只考虑到感应距离未考虑安装要求。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "缺乏现场传感器选型标准",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换全螺纹型传感器",
+				"resp": "陈志剑",
+				"supp": "",
+				"compDate": " 2014.10.20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制定传感器选型一点课程。",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": " 2014.10.26",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "维修人员利用非生产日对各自区域不合理传感器整改与替换。",
+				"resp": "陈志剑",
+				"supp": "",
+				"compDate": " 2014.10.23",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "替换减速传感器"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：  陈烨华",
+	"person_ENG": "工程师\/ENG.： 陈志剑",
+	"person_GL": "工段长\/GL：钱俊",
+	"person_Manager": "技术经理\/Tech.Manager：邱正东"
+}

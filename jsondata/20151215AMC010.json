@@ -1,0 +1,222 @@
+{
+	"fileName": "20151215AMC010.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151215AMC010.json",
+	"score": 745,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.12.15",
+	"fileNameDate": "20151215",
+	"equipName": "设备名称:  SPR",
+	"breakdownTime": "停机时间：80min",
+	"areaLocation": "停机区域\/点: AMC010",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "80",
+	"lostProductNum": "20",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    葛逸飞   2015.12.15\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查HMI参数发现实际检测参数超差，进入工位检查焊枪执行机构                                                                                                       ",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动拆除马达盖板手动盘马达，发现有明显卡顿现象",
+				"lostMin": 30,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换焊枪执行机构",
+				"lostMin": 70,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "发现质量检查参数丢失，手动调整参数",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复生产",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SPR GUN1 焊枪检测报警，测量底厚超差"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SPR焊枪故障报警？因为焊枪自动检查反馈系统报警；"
+		],
+		[
+			"为什么焊枪自动检查反馈系统报警？因为焊枪执行机构发现故障造成焊枪铆接输出力不足；"
+		],
+		[
+			"为什么焊枪执行机构发现故障造成焊枪铆接输出力不足"
+		],
+		[
+			"为什么焊枪执行机构与传动机构卡滞？初步怀疑执行机构内锁止销断裂（具体原因待供应商拆解分析）"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "1. 传动机构内部损坏造成执行机构卡滞,具体原因待供应商拆解分析\n2. 现有PM计划未涉及传动执行机构核心部件",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换备枪上的传动机构机执行机构",
+				"resp": "葛逸飞",
+				"supp": "瞿淼晋",
+				"compDate": "12\/15\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "重新设置监控参数",
+				"resp": "葛逸飞",
+				"supp": "瞿淼晋",
+				"compDate": "12\/15\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系供应商非生产日对SPR焊枪进行拆解大保养",
+				"resp": "黄伟杰",
+				"supp": "",
+				"compDate": "12\/19\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "待供应商分析报告后制定维护计划",
+				"resp": "瞿淼晋",
+				"supp": "",
+				"compDate": "12\/30\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "手动盘马达前关闭控制柜电源，避免发生伺服电机零位错误"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：曹鸣晓",
+	"person_ENG": "工程师\/ENG.:葛逸飞",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20150813 JFM090-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150813 JFM090-Y.json",
+	"score": 489,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.8.13  6：30",
+	"fileNameDate": "20150813",
+	"equipName": "设备名称: 勾销气缸",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点: JFM090",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  陈志剑\nOringinator  ",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "根据HMI报警信息，进入工位找到打开不到位的气缸；",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动戳阀打开，无法打开。",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "发现底板孔变形，对钣金整形",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "重新戳阀打开勾销缸",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复自动",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090 E15焊接完成后，底板勾销打开不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么底板气缸勾销无法打开？因为勾销缸钩子和钣金干涉；"
+		],
+		[
+			"为什么勾销缸钩子和钣金干涉"
+		],
+		[
+			"为什么底板钣金变形"
+		],
+		[
+			"为什么升降滚床上升过程中勾销和钣金干涉"
+		],
+		[
+			"为什么钩子打开后露出销套,存在干涉点"
+		]
+	],
+	"rootCause": "勾销钩子设计未考虑周全，钩子打开后露出销套,存在干涉点。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "打磨JFM40勾销钩子的干涉点。",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "2015.8.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "举一反三排查其余勾销关闭时状态。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2015.8.18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拉动供应商修改图纸，更改备件尺寸。",
+				"resp": "滕征",
+				"supp": "",
+				"compDate": "2015.08.31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "发现底板孔变形，对钣金整形"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/ TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈志剑",
+	"person_GL": "工段长\/ GL: 腾征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110928E-11.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110928E-11.json",
+	"score": 679,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年9月28日20时 10分",
+	"fileNameDate": "20110928",
+	"equipName": "设备名称：前门压机",
+	"breakdownTime": "停机时间：10H",
+	"areaLocation": "停机区域\/点: EFDL",
+	"maintainTeam": "维修班组：ABC三班",
+	"lostTime": "10",
+	"lostProductNum": "100",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator 钱俊",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "E-11前门压机油位低报警，压机不工作，进工位发现压机密封件已经外露，压机漏油严重；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "采用不断注入液压油，维持生产，但密封件损坏程度越来越严重，方法失效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "生产调整车型配比，E-11停止生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换液压缸密封件，发现活塞杆端盖螺纹咬死，拆卸过程中拆装工具断裂，更换工作无法继续；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "只能进行油缸更换，更换后发现油缸的增压缸接缝处漏油；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "查看图纸，分析接缝处漏油的原因，判断为增压缸端面上密封件失效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "紧急采购并更换失效的密封件，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E-11前门压机油缸漏油。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么压机油位低报警？因为压机油缸密封件损坏。"
+		],
+		[
+			"为什么压机密封件损坏？该油缸为东岳车身保养的油缸，使用寿命短。"
+		],
+		[
+			"为什么无法更换密封件？因为油缸活塞杆端盖板螺纹咬死。"
+		],
+		[
+			"为什么更换油缸后仍由漏油现象？因为该油缸也为东岳保养的油缸，保养过程中没有更换增压缸端面上的密封件。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换损坏的密封件和油缸。",
+				"resp": "黄波",
+				"supp": "夏伟",
+				"compDate": "2011.10.2",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.对损坏的螺纹处进行修理并对油缸进行保养，作为备件入库。",
+				"resp": "夏伟",
+				"supp": "殷致平",
+				"compDate": "2011.10.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.寻求专业人士评估当前油缸的工作状态，制定维修策略。",
+				"resp": "夏伟",
+				"supp": "钱俊",
+				"compDate": "2011.11.20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG:刘丰",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

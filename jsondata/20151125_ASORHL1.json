@@ -1,0 +1,222 @@
+{
+	"fileName": "20151125_ASORHL1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151125_ASORHL1.json",
+	"score": 750,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年11月25日6点30分",
+	"fileNameDate": "20151125",
+	"equipName": "设备名称:机器人换枪盘",
+	"breakdownTime": "停机时间：210min",
+	"areaLocation": "停机区域\/点:ASORH",
+	"maintainTeam": "维修班组:A",
+	"lostTime": "210",
+	"lostProductNum": "15",
+	"plantName": "厂区： SPBS\nPlant",
+	"originator": "填表人\/日期: 何文泽     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修人员怀疑转台未到位导致焊点位置偏,检查转台未发现异常；",
+				"lostMin": 15,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查焊枪,发现焊枪与机器人连接处松动；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "运行换枪程序使焊枪与机器人分离，检查换枪盘紧固情况，发现有3颗连接螺丝断裂；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "尝试取出断螺丝，但由于螺纹胶的作用，尝试多次后仍无法取出；",
+				"lostMin": 95,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "尝试仅使用剩余3颗螺丝紧固换枪盘，同时领取机器人法兰盘（紧固安装螺丝处）备件；",
+				"lostMin": 30,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "运行程序发现紧固3颗螺丝后轨迹仍偏差较多，更换机器人法兰盘并紧固全部6颗螺丝；",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复机器人程序，恢复生产。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"早班开班后生产人员发现ASO右侧L1机器人焊点位置偏移较多"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊点位置偏移较多？因为焊枪位置偏；"
+		],
+		[
+			"为什么焊枪位置偏？因为焊枪与机器人连接处松动；"
+		],
+		[
+			"为什么焊枪与机器人连接处松动？因为连接处螺丝断裂；"
+		],
+		[
+			"为什么连接处螺丝断裂？因为此处连接板使用锥形沉头螺丝的设计不合理，连接板的加工和安装的存在少量误差时会导致螺丝受力不均匀，易断裂。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "换枪盘连接板使用锥形沉头螺丝的设计不合理，连接板的加工和安装的存在少量误差时会导致螺丝受力不均匀，易断裂",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换ASORHL1机器人法兰盘及连接螺丝",
+				"resp": "黄光耀",
+				"supp": "何文泽",
+				"compDate": "11\/25\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换所有985项目时期的换枪盘连接板(6套)，使用圆柱形沉头螺丝的设计替代现在锥形沉头螺丝的设计。",
+				"resp": "何文泽",
+				"supp": "黄波",
+				"compDate": "12\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上2、3、6、7步，上述第4步操作困难时应及时考虑其他方案。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 黄光耀",
+	"person_ENG": "工程师\/ENG.: 何文泽",
+	"person_GL": "工段长\/ GL: 马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120916JFM120R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120916JFM120R1.json",
+	"score": 704,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月16日18 时40分",
+	"fileNameDate": "20120916",
+	"equipName": "设备名称:换枪盘",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:JFM120",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "18",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:马鞍伟          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修进入工位检修，检查机器人换枪盘上的电缆插头及电缆捆扎情况，未发现明显问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "因停产前发生过换枪盘接插件拉坏故障，怀疑19芯电缆接插件受过拉力；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆开换枪盘上电缆插头检查插头内接线，未发现明显问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "用备件19芯电缆直接连接输入模块与618焊枪，焊枪能够正常动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "判断换枪盘R侧\/T侧之间的接插件接触不良，放下618焊枪目视检查R侧\/T侧接插件，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "根据故障现象怀疑接插件插针问题，拔出T侧相应接插件插针检查并重新插回，故障消除；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "设备恢复正常运行；",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120R1机器人618焊枪BACKUP没有动作，焊枪关闭没有动作。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪BACKUP没有动作"
+		],
+		[
+			"为什么焊枪BACKUP电磁阀没有动作"
+		],
+		[
+			"为什么电磁阀没有收到DC24V信号"
+		],
+		[
+			"为什么控制信号回路接触不良"
+		],
+		[
+			"为什么换枪盘T侧接插件针与针座之间接触不良"
+		]
+	],
+	"rootCause": "T侧换枪盘接插件针长期使用,与针座之间接触点氧化，导致信号回路接触不良。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新插拔换枪盘接插件插针，降低插针与针座之间的接触电阻。",
+				"resp": "谢诚侃",
+				"supp": "徐啸顺",
+				"compDate": "9\/16\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "当班生产结束后更换出现问题的接插件所有插针",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "9\/18\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "举一反三，调查车间内NITTA插针的使用状态，制订计划批量更换插针。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "9\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

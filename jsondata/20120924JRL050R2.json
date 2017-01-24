@@ -1,0 +1,222 @@
+{
+	"fileName": "20120924JRL050R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120924JRL050R2.json",
+	"score": 671,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月24日17时12分",
+	"fileNameDate": "20120924",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "NONE",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:刘少杰         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修工到现场检修，重新合闸后焊接数点再次跳闸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "对讲机拉动支持，人员观察焊枪情况下再次合闸试焊，焊机空开跳闸同时发现机器人6轴靠近DRESS抱箍处焊接电源电缆发热冒烟；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "判断焊接变压器初级电源电缆短路，安排人员从维修区将应急飞线电源电缆送到补焊线；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将焊接电源电缆飞线用扎带捆扎到DRESS套管上；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动操作机器人慢速焊接E-CAR\/及618车型，微调捆扎位置后恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL050R2机器人焊机焊接过程中发生空开跳闸"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊机控制箱主空开跳闸"
+		],
+		[
+			"为什么空开下方线路有短路现象"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"为什么机器人焊机焊接变压器初级电源电缆靠近机器人5\/6轴抱箍处电缆内部芯线之间绝缘击穿"
+		]
+	],
+	"rootCause": "机器人5\/6轴处DRESS套管内电源电缆长期扭动,疲劳导致芯线之间绝缘损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "焊接变压器初级电源电缆用捆扎在DRESS套管外部的飞线临时替代",
+				"resp": "刘少杰",
+				"supp": "黄光耀",
+				"compDate": "9\/24\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "准备备件电源电缆,制订实施计划更换补焊线机器人焊机电源电缆。",
+				"resp": "徐啸顺",
+				"supp": "马晓洲钱俊",
+				"compDate": "2013-2-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "现场维修备件料架上准备一根完整焊接电缆，出现问题时直接捆扎到DRESS套管外面快速恢复生产。",
+				"resp": "马晓洲",
+				"supp": "班组",
+				"compDate": "9\/25\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备抢修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

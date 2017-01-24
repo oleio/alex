@@ -1,0 +1,222 @@
+{
+	"fileName": "20120411JFM90R3.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120411JFM90R3.json",
+	"score": 667,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年  4月 12日2时01分",
+	"fileNameDate": "20120411",
+	"equipName": "设备名称:R3焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: JFM90",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "22",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:谢诚侃          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "HMI复位无效，故障依旧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进工位发现R3 DRESS挤压在GATE和机器人手臂中间，R3碰撞报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "操作示教板把DRESS与GATE干涉分离；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "走程序，等待焊枪关闭信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "焊枪有漏气声音，发现BACKUP CLOSE气管掉落，接头撞断；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "把R3机器人开出，更换接头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"C-CAR过总拼时R3故障不动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM090工位停止运行？因为R3碰撞报警；"
+		],
+		[
+			"为什么R3碰撞报警？因为R3 DRESS与GATE干涉，并导致焊接气缸接头撞断；"
+		],
+		[
+			"为什么R3 DRESS与GATE干涉？因为机器人DRESS发生变化后产生干涉"
+		],
+		[
+			"为什么机器人DRESS发生变化？因为机器人DRESS拉出后无法收回（夜班检查发现）"
+		],
+		[
+			"为什么机器人DRESS拉出后无法收回？因为a）DRESS套管表面磨损造成摩擦阻力增大 b）弹簧弹力变小（不是主要原因）"
+		]
+	],
+	"rootCause": "DRESS套管表面磨损造成摩擦阻力增大 b）弹簧弹力变小（不是主要原因）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "示教R3 985焊接轨迹，优化调整机器人DRESS",
+				"resp": "马安颹",
+				"supp": "机器人工程师",
+				"compDate": "2012.4.12",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "定期在总拼DRESS套管上抹黄油，减小滑动摩擦力。",
+				"resp": "黄光耀",
+				"supp": "黄俊宇",
+				"compDate": "2012.4.15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃",
+	"person_ENG": "工程师\/ENG.:王烨",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

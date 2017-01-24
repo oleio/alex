@@ -1,0 +1,222 @@
+{
+	"fileName": "20160310EHD.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160310EHD.json",
+	"score": 782,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016-3-10  6",
+	"fileNameDate": "20160310",
+	"equipName": "设备名称:机器人涂胶",
+	"breakdownTime": "停机时间：100min",
+	"areaLocation": "停机区域\/点:门盖",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "100",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  黄光耀马晓洲     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查设备损坏情况,寻找备件涂胶枪头,更换碰撞断裂的涂胶枪头；",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "示教E15车型涂胶轨迹，发现涂胶轨迹与与实际要求轨迹严重偏差（错误调用其他车型涂胶轨迹，误判）",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "调用正确车型程序检查涂胶轨迹，偏差较大，试图采用调整TCP方式偏置涂胶轨迹，失败；",
+				"lostMin": 20,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "配合涂胶轨迹检查，松开涂胶枪固定螺栓，临时拆除R销，调整涂胶枪位置；",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "示教调整E15车型涂胶轨迹并拉动生产支持检查确认；",
+				"lostMin": 40,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复E15车型前盖生产；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "当日生产结束后调整E2LB前盖涂胶轨迹；",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"涂胶枪头碰撞断裂,各车型涂胶轨迹严重偏离。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么涂胶枪头碰撞断裂"
+		],
+		[
+			"为什么涂胶轨迹与工装发生干涉"
+		],
+		[
+			"为什么涂胶枪安装位置发生了较大变化"
+		],
+		[
+			"为什么涂胶枪头损坏造成涂胶轨迹严重偏差会引起长时间停机？因为故障处理方法不正确，错误步骤使停机时间延长。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1）夜班TPM检查时发现涂胶枪安装螺栓松动，检查紧固后涂胶枪头位置发生较大变化，早晨生产前未进行轨迹检查验证。2）故障处理方法不正确，错误步骤使停机时间延长。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "示教检查涂胶轨迹，同时调整涂胶枪安装位置，减小涂胶轨迹偏差后调整涂胶轨迹。",
+				"resp": "黄光耀",
+				"supp": "陈烨华",
+				"compDate": "3\/11\/2016",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制作新涂胶枪安装支架更换发生变形的支架",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "4\/10\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "夜班TPM检查维修人员书面检查并绩效考评扣分处理",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "3\/10\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "检查确定设备损坏状态，更换碰撞断裂的涂胶枪头"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "初步示教检查涂胶轨迹，同时调整涂胶枪安装状态，减小涂胶轨迹偏差；"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "调整涂胶轨迹并拉动生产支持检查确认"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL黄光耀",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

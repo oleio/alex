@@ -1,0 +1,222 @@
+{
+	"fileName": "20110810SFI.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110810SFI.json",
+	"score": 669,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年8月10日10时45分",
+	"fileNameDate": "20110810",
+	"equipName": "设备名称:机运线",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:SFI",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "25",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  袁伟        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "处理机运线及SFI60工位紧急停止故障，恢复并完成SFI60当前车焊接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "PLC连机检查SFI30工位雪橇没有RUN OUT动作原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "跟踪2辆车运行后发现雪橇到位传感器（后部）感应不稳定；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查传感器及信号电缆，发现传感器处信号电缆接头接触不良；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "重新插拔旋紧后传感器能够正常感应；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备正常运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI30工位雪橇不动作，维修、生产人员处理故障时遮断隔离光栅导致SFI60工位"
+		],
+		[
+			"及机运线紧急停止。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机运线及SFI60工位紧急停止？因为SFI20\/SFI30安全隔离光栅动作"
+		],
+		[
+			"为什么SFI20\/SFI30安全隔离光栅动作？因为人员不正常活动遮断隔离光栅"
+		],
+		[
+			"为什么人员不正常活动遮断隔离光栅？因为维修生产人员处理SFI30雪橇没有RUN OUT动作"
+		],
+		[
+			"为什么SFI30工位雪橇有时候没有RUN OUT?因为滚床后部到位传感器有时没有感应，传感器电缆接触不良。"
+		],
+		[
+			"为什么传感器电缆接触不良？因为传感器电缆接头受外力损坏，怀疑人员碰电缆接头。"
+		]
+	],
+	"rootCause": "传感器电缆接头受外力损坏，怀疑人员碰电缆接头。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换传感器电缆",
+				"resp": "袁伟",
+				"supp": "",
+				"compDate": "11-8-12",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "传感器端信号电缆采用直角接头并适当捆扎，避免人员干涉损坏。",
+				"resp": "袁伟",
+				"supp": "",
+				"compDate": "11-8-20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

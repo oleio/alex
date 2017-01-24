@@ -1,0 +1,222 @@
+{
+	"fileName": "20120828EUB SHUTTLE.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120828EUB SHUTTLE.json",
+	"score": 801,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月28日  时  分",
+	"fileNameDate": "20120828",
+	"equipName": "设备名称:SHUTTLE",
+	"breakdownTime": "停机时间：累计12min",
+	"areaLocation": "停机区域\/点: EUB",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "12",
+	"lostProductNum": "7",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  谢诚侃        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场手动强制控制气阀使托架上升到位，恢复设备运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB SHUTTLE往前传输白车身过程中LIFT1托架丢失上升位置多次。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么传输白车身过程中LIFT1丢失上升位置"
+		],
+		[
+			"为什么顶升气缸刹车未能刹住带车托架？因为顶升气缸长期使用，刹车机械磨损，刹车力减小。"
+		],
+		[
+			"为什么LIFT1在安全扫描器动作时仅靠顶升气缸刹车力平衡底板总成重量？因为原设计方案采用中泄控制气阀控制托架顶升气缸，安全扫描器动作时气阀失电，阀芯回到中间位置泄压，气缸泄压后托架仅靠气缸刹车力维持托架顶升位置。"
+		],
+		[
+			"为什么原设计方案采用采用中泄气阀控制托架顶升气缸？因为原设计方案未考虑到设备长期使用后机械磨损使顶升气缸刹车力下降，设计方案缺陷。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1）带刹车顶升气缸长期使用，机械机构磨损导致刹车力变小。 2）原气缸采用“中泄气阀”控制，安全扫描器动作时仅靠气缸刹车力平衡底板总成重量。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "故障时维修人员手动强制控制气阀使托架上升到位",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "8\/28\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "当日生产结束后将刹车力减小的LIFT1顶升单元控制气阀改为“中封控制气阀”，增加安全扫描器动作时的顶升力（刹车力+气缸保压力）。（计划中的工作，备件刚到货。）",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "8\/29\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "批量申购的“中封控制气阀”到货后更换EUB\/EMC全部托架顶升控制气阀。（预期10天内申购的备件将全部到货）",
+				"resp": "黄光耀李颖琛",
+				"supp": "",
+				"compDate": "9\/10\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "今后项目设计避免在带刹车气缸控制中采用类似气路结构。",
+				"resp": "冯威廉",
+				"supp": "马晓洲",
+				"compDate": "长期工作",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃（代）",
+	"person_ENG": "工程师\/ENG.:马晓洲（代）",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

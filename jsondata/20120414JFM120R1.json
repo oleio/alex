@@ -1,0 +1,222 @@
+{
+	"fileName": "20120414JFM120R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120414JFM120R1.json",
+	"score": 848,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年4月14日6时45分",
+	"fileNameDate": "20120414",
+	"equipName": "设备名称:机器人焊枪系统",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: JFM120",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "15",
+	"lostProductNum": "6",
+	"plantName": "厂区：SPBS南厂车身\nPlant",
+	"originator": "填表人\/日期:  陈烨华        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动操作机器人脱离碰撞位置，拆除停枪支架保护盖；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查机器人R侧换枪盘信号系统损坏情况，发现接插件插座开裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "用快干胶水粘合开裂的接插件插座；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120工位停止自动运行，维修到现场检查发现R1机器人R侧换枪盘碰撞停枪"
+		],
+		[
+			"支架活动保护盖。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人碰撞报警停止？因为R侧机器人换枪盘碰撞换枪盘停枪支架保护盖"
+		],
+		[
+			"为什么R侧机器人换枪盘碰撞换枪盘停枪支架保护盖？因为出现问题时机器人轨迹与打开的换枪盘盖干涉"
+		],
+		[
+			"为什么出现问题时机器人轨迹与打开的换枪盘盖干涉？因为 可能性1：出现问题时机器人轨迹没有遵循预定轨迹 可能性2：停枪支架打开到位后发生振动，检测信号ON时机器人越过保护程序行"
+		],
+		[
+			"为什么出现可能性1 或 可能性2？可能性1：因为机器人相关轨迹过渡点少，复位重启轨迹发生变异（机器人特性）。出现问题前工位由于其它故障报警引起机器人异常停止，复位后轨迹变异。可能性2：停枪支架保护盖动作气缸节流阀调整不当或气缸机械结构存在问题引起换枪盘盖晃动。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "可能性1：机器人相关轨迹过渡点少，复位重启轨迹发生变异 可能性2：停枪支架保护盖动作气缸节流阀调整不当或气缸机械结构存在问题",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时拆除导致碰撞的停枪支架保护盖",
+				"resp": "马鞍伟",
+				"supp": "",
+				"compDate": "4\/14\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改机器人轨迹程序：增加足够过渡点，减小机器人轨迹变异程度；",
+				"resp": "袁伟",
+				"supp": "",
+				"compDate": "4\/16\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "根据可能性2检查调整机器人轨迹，避免机器人轨迹和保护盖的可能干涉。",
+				"resp": "袁伟",
+				"supp": "",
+				"compDate": "4\/16\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检修或更换停枪支架保护盖驱动气缸，解决可能引起停机的机械问题。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "4\/16\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同现场处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

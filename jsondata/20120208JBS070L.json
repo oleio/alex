@@ -1,0 +1,222 @@
+{
+	"fileName": "20120208JBS070L.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120208JBS070L.json",
+	"score": 675,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 2 月 8日10时 30分",
+	"fileNameDate": "20120208",
+	"equipName": "设备名称:PLC工装",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:    JBS070L",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  张兆     \nOringinator 2012.2.8  ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修到现场检查无法确认问题类型，拉动控制工程师支持解决问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "控制工程师尝试联机PLC检查问题原因，发现无法通过以太网连接PLC；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "对讲机联系现场维修人员检查PLC状态，发现PLC CPU模块OK灯闪，RUN灯灭，PLC死机；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "PLC断电重起后联机PLC清除CPU内部故障，置PLC至运行状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "复位P&P机运线及JBS070L工位，手动完成当前白车身焊接后恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JBS070L工位设备停止运行，触摸屏显示不刷新。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止运行而且触摸屏无显示？因为PLC与工位现场模块及触摸屏没有信号交换"
+		],
+		[
+			"为什么PLC与工位现场模块及触摸屏没有信号交换？因为PLC与子站没有建立通讯"
+		],
+		[
+			"为什么PLC与子站没有建立通讯？因为工位PLC CPU死机"
+		],
+		[
+			"为什么工位PLC CPU死机？因为GE PLC CPU长期使用性能变差"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "GE PLC CPU长期使用性能变差导致运行时死机",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "工位PLC断电重起，清除CPU故障后恢复设备运行",
+				"resp": "黄轶佳",
+				"supp": "张兆",
+				"compDate": "12-02-08",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制定非主线关键设备GE PLC CPU更换计划，更换曾经发生死机故障的CPU模块。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "12-06-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

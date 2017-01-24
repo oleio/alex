@@ -1,0 +1,222 @@
+{
+	"fileName": "20110411CV3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110411CV3.json",
+	"score": 500,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年  月  日  时  分",
+	"fileNameDate": "20110411",
+	"equipName": "设备名称:CV3",
+	"breakdownTime": "停机时间：20",
+	"areaLocation": "停机区域\/点:JRL080",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 2011.4.11 谢城侃",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "发现JRL产生空档，发现CV3没车辆，上去观察发现车子卡在滚床上。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将车子在滚床上推到位。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "手动将车开到下一个工位，并设置车型。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复自动，但不久发生一次相同故障。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "将不到位的条件加入报警条件，使维修能够快速响应。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV3滚床不动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV3滚床不到位?因为CV3滚床停止不到位"
+		],
+		[
+			"为什么CV3滚床停止不到位？1,前后档块位置和停止位感应器相对距离偏差"
+		],
+		[
+			"                    2,前后滚床的直线度平行度偏差"
+		],
+		[
+			"　　　　　　　　　　　3,该滚床的停止故障未加入报警系统，维修响应慢"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "传感器线被门槛处焊点的飞溅损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将滚床停止故障加入补焊的报警暗灯",
+				"resp": "腾征",
+				"supp": "",
+				"compDate": "2011.4.11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调整滚床的停止位和直线度平行度",
+				"resp": "殷志平",
+				"supp": "黄毅",
+				"compDate": "2011.4.17",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:"
+}

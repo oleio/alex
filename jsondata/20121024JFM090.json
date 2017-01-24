@@ -1,0 +1,222 @@
+{
+	"fileName": "20121024JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121024JFM090.json",
+	"score": 610,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月24日19时 0 分",
+	"fileNameDate": "20121024",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: JFM",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  马鞍伟        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "发现信号线明显被飞溅烫坏而且模块信号灯显示有信号线短路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "逐根拆卸模块信号电缆，确定短路电缆后更换；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "重新捆扎信号电缆后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼JFM90工位UNIT222DUMP不到位报警，维修进入工位检查发现传感器信"
+		],
+		[
+			"号电缆被飞溅烫坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位多个UNIT不到位报警？因为模块多个输入点没有输入信号"
+		],
+		[
+			"为什么模块多个输入点没有输入信号？因为对应UNIT222的输入信号电缆短路"
+		],
+		[
+			"为什么对应UNIT222的输入信号电缆短路？因为信号电缆上有胶而且被焊接飞溅直接影响"
+		],
+		[
+			"为什么信号电缆上有胶？因为按工艺过程涂胶的钣金件在侧围被OPENGATE夹紧时挤压掉落，滴落在下方的信号电缆上。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "工艺过程中引起的滴落胶滴在信号电缆上，焊接飞溅共同作用引起信号线烫坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换烫坏的信号电缆，协调生产按能够满足工艺要求的最小胶量涂胶。",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "10\/24\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日清理JFM90工位信号电缆上的滴落胶，完成清理后增加信号线防护。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11\/2\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

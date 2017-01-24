@@ -1,0 +1,222 @@
+{
+	"fileName": "201109022JUR40R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\201109022JUR40R1.json",
+	"score": 403,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 9月22日20时  0分",
+	"fileNameDate": "20110902",
+	"equipName": "设备名称:焊枪",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点:JUR",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "22",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator尹熠俊",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JUR40R1焊枪与车身干涉，电极杆TAB损坏。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "更换动静电极杆和特富龙管，并调整电极杆对中性。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "示教机器人轨迹，避免枪体和底板干涉。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JUR40R1焊枪电极杆损坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪电极杆损坏？因为机器人走轨迹时，电极杆和底板干涉。"
+		],
+		[
+			"为什么电极杆和底板干涉？因为切换的程序后机器人轨迹变化。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人程序切换后轨迹发生变化，造成电极杆损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换电极杆，调整对中性。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011.9.20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.优化轨迹，消除干涉点。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011.9.20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.尽量增加程序切换的验证。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:"
+}

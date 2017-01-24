@@ -1,0 +1,222 @@
+{
+	"fileName": "20110604EHD055.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110604EHD055.json",
+	"score": 617,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月4日8时 30分",
+	"fileNameDate": "20110604",
+	"equipName": "设备名称:机器人抓手",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:EHD",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：\nPlant南厂车身",
+	"originator": "填表人\/日期          \nOringinator钱俊",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "发现E-11抓手吸盘失效。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查真空发生器，输入信号正常，但没有输出。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "寻找真空发生器备件（物料号：SG10855），没有找到，只有一个以前换下的旧发生器。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "将两个损坏的真空发生器拆开，进行组合拼装，并调节气压和灵敏度。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "将真空发生器安装到GRIPPER上，并固定线缆。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备正常自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EHD55 R6机器人抓手真空发生器损坏（型号：ZM31H-K5LZ-E55C）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位报警？因为真空发生器没有收到反馈信号。"
+		],
+		[
+			"为什么真空发生器没有收到反馈信号？因为真空发生器损坏，需要更换。"
+		],
+		[
+			"为什么真空发生器没有及时更换？东昌没有备件，只能临时拼装一个使用。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "真空发生器备件在采购途中，未能及时更换整套备件。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "拼装真空发生器，并将气压和灵敏度调整到合适位置。",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "11-6-4",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "根据实际损坏情况调整真空发生器安全库存（从1\/1调整为3\/2），并督促东昌及时到货。",
+				"resp": "胡滨",
+				"supp": "钱俊",
+				"compDate": "11-6-15",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查并评估安全库存为1\/1的备件，对库存存在问题的备件安全库存作调整。",
+				"resp": "湖滨",
+				"supp": "",
+				"compDate": "11-6-15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同故障判断检修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

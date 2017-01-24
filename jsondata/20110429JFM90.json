@@ -1,0 +1,222 @@
+{
+	"fileName": "20110429JFM90.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110429JFM90.json",
+	"score": 700,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 4 月29日6时30分",
+	"fileNameDate": "20110429",
+	"equipName": "设备名称:水冷机",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：7辆",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 佘佳安\n2011-4-29",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查机器人示教板显示信息未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "拉动控制工程师联机PLC检查机器人动作条件；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "发现机器人反馈到PLC的信号状态不正确；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "机器人回HOME后工位上自动仍然没有解决问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "进一步检查程序条件发现机器人运行条件没有满足；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "判断问题起因，在程序中状态位置ON后恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90工位开班第一辆车机器人没有动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位做第一辆车时机器人不动作？因为机器人动作条件没有满足"
+		],
+		[
+			"为什么机器人动作条件没有满足？因为控制机器人动作的控制信号没有ON"
+		],
+		[
+			"为什么控制机器人动作的控制信号没有ON？因为有关GATE的安全条件没有满足"
+		],
+		[
+			"为什么有关GATE的安全条件没有满足？因为GATE MOVING 信号ON"
+		],
+		[
+			"为什么GATE MOVING 信号ON？因为夜班工作需要手动操作GATE(没有操作到位，工作结束后开回工作位，导致GATE MOVING信号没有OFF）"
+		]
+	],
+	"rootCause": "夜班生产结束后手动操作GATE时没有操作到位，工作结束后直接开回工作位，导致GATE MOVING信号ON(认为GATE正在移动）。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "联机PLC，GATE MOVING信号置OFF",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "11-4-29",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "根据停机原因开发“一点课程”培训全体维修员工。",
+				"resp": "黄衣今年",
+				"supp": "",
+				"compDate": "11-5-10",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20111217JFM090GATE.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111217JFM090GATE.json",
+	"score": 801,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年12月17日时  分",
+	"fileNameDate": "20111217",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：358MIN",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "300",
+	"lostProductNum": "200",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 马晓洲\n2011-12-18",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查刹车电流和机械刹车片正常；进入工位检查GATE闭合导轨，未发现导轨上有明显干涉GATE打开关闭运动的杂物；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查GATE闭合驱动摆臂，未发现两摆臂有明显不同步现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "工位内检查驱动电机刹车机械系统，发现GATE动作时驱动电机的刹车未能完全松开，确定电机刹车动作有问题。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换刹车控制模块和刹车片，更换后恢复正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "对换下的刹车片和控制模块进行测试，发现控制模块验证失效。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90总拼工位右测GATE打开关闭时频繁出现过流报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM90工位GATE打开闭合时报警停止？因为OPENGATE闭合电机驱动变频器过流报警"
+		],
+		[
+			"为什么OPENGATE闭合电机驱动变频器过流报警？因为驱动电机负载电流过大"
+		],
+		[
+			"为什么驱动电机负载电流过大？因为驱动电机刹车在电机转动时未完全脱开"
+		],
+		[
+			"为什么驱动电机刹车在电机转动时未完全脱开？因为电机刹车模块电子性能变差不能提供足够松刹车力"
+		],
+		[
+			"为什么电机刹车模块电子性能变差？待SEW供应商提供测试报告。"
+		]
+	],
+	"rootCause": "电机刹车模块电子性能变差不能提供足够松刹车力。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换失效的刹车模块。",
+				"resp": "李成 ",
+				"supp": "尹伟文",
+				"compDate": "11-12-18",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.更换其余运行超过6年的电机刹车模块。",
+				"resp": "马晓洲",
+				"supp": "ABC三班",
+				"compDate": "2011-12-18",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.检查所有接线盒，确保密封性正常。",
+				"resp": "黄轶佳",
+				"supp": "ABC三班",
+				"compDate": "2011-12-20",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.联系SEW供应商，对失效的刹车模块电子性能进行分析测试，并评估以后是否需要批量更换。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "11-12-25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "详见修理步骤"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊 黄光耀 陈烨华",
+	"person_Manager": "工程师\/ENG.:黄轶佳 尹伟文"
+}

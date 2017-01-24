@@ -1,0 +1,222 @@
+{
+	"fileName": "20150205 JRL070R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150205 JRL070R1.json",
+	"score": 766,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年2月4日9时30分",
+	"fileNameDate": "20150205",
+	"equipName": "设备名称:焊接机器人",
+	"breakdownTime": "停机时间：累计 15min",
+	"areaLocation": "停机区域\/点: JRL",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄光耀 马晓洲        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修响应到现场与生产班组沟通了解情况，协调后进入工位检查焊枪固定状态，快速摇动后未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "恢复设备运行，跟踪观察机器人工作状态，发现机器人工作时基座有晃动迹象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "再次进入工位检查机器人地脚固定螺栓，发现有2个固定螺栓已经断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查拧紧其他地脚固定螺栓，紧固时有4个螺栓断裂，拧紧其余固定螺栓；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复生产，调整E16偏移较大的焊点位置，调整615车型偏移较大的焊点位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "准备加固用带孔钢板，次日早晨生产结束后用膨胀螺栓加固机器人基座地脚；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "利用每日生产结束后的时间用“化学螺栓”替代失效断裂的机器人基座地脚螺栓；",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL70R1机器人E16、615车型焊点偏移"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL70R1机器人E16\\615车型焊点偏移"
+		],
+		[
+			"为什么机器人焊点轨迹位置发生变化"
+		],
+		[
+			"为什么机器人安装基座固定螺栓有6个断裂"
+		],
+		[
+			"为什么"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "机器人安装基座较高,部分焊点机器人手臂伸出幅度大导致机器人安装基座固定螺栓受力较大。（老项目集成机器人固定使用M16化学螺栓）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "使用普通M20膨胀螺栓紧固机器人基座后，用化学螺栓加固出现问题的机器人基座。",
+				"resp": "马晓洲",
+				"supp": "袁伟",
+				"compDate": "2\/7\/2015",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查紧固同期安装的机器人（JRL70工位，JRL100L2\/R2）基座固定螺栓",
+				"resp": "黄光耀",
+				"supp": "何文泽",
+				"compDate": "2\/7\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查新项目机器人基座固定螺栓要求，确认项目中机器人固定使用新标准，使用M20固定螺栓。",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "2\/5\/2015",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.何文泽",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

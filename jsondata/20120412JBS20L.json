@@ -1,0 +1,222 @@
+{
+	"fileName": "20120412JBS20L.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120412JBS20L.json",
+	"score": 579,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年4月12日16时30分",
+	"fileNameDate": "20120412",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: JBS20L",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "7",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 冯文杰         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查焊枪故障原因，发现焊枪电极杆拉弯；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动操作机器人开出工作区到维修位置，更换弯曲变形的电极杆，润滑焊枪控制气阀阀芯；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换电极帽修磨复位STEP后手动操作完成焊接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "手动操作机器人完成当前侧围焊接，恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "将机器人开出工作区时因疏于观察，机器人DRESS抱箍擦碰工位抓料升降臂夹头；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "调整位置发生变化的升降臂抓手夹头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JBS20L工位机器人R2焊枪故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪故障报警"
+		],
+		[
+			"为什么焊枪电极杆被拉弯"
+		],
+		[
+			"为什么焊枪在没有充分打开的情况下移动"
+		],
+		[
+			"为什么焊枪焊接完成后打开速度慢"
+		],
+		[
+			"为什么焊枪控制气阀动作速度慢"
+		]
+	],
+	"rootCause": "焊枪控制气阀老化,阀芯卡阻、动作慢。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用WD40清洁润滑剂临时润滑焊枪控制阀阀芯，生产结束后",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "4\/12\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换焊枪控制气阀。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查618侧围机器人自动焊枪焊接阀工作年限，制定计划",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "5\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "予以提前更换。（主线自动工位此项工作已经实施）",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "步骤1-步骤4"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110213EHD25R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110213EHD25R1.json",
+	"score": 720,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2010 年  2月13  日 13 时 00 分",
+	"fileNameDate": "20110213",
+	"equipName": "设备名称:EHD25R1",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点:  前盖",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "40",
+	"lostProductNum": "0",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 王俊杰         \nOringinator 2010.",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "该枪铆接时有时候出现铆接延时，频繁停止运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "利用吃中饭间隙进工位检查，发现漏气部位，更换漏气接头，但重新生产后仍然有延时现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "查看示教板发现不稳定延时的原因是铆接枪在等待DI283信号，该信号为压力反馈信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "确定压力开关和相关信号线型号及安装位置，并准备好备件；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "同生产协商在15分钟以内对液压缸加油，更换压力开关和信号线，并完成压力设定；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EHD25R1铆接枪在做E10时（该枪只铆接E10）压力反馈信号不稳定，铆接有延时，"
+		],
+		[
+			"频繁停止运行。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位频繁停止自动运行？因为CLINCH机器人等待信号停止"
+		],
+		[
+			"为什么CLINCH机器人等待信号停止？因为机器人等待CLINCH枪压力反馈信号"
+		],
+		[
+			"为什么机器人等待CLINCH枪压力反馈信号？因为输入模块没有收到CLINCH枪压力反馈信号"
+		],
+		[
+			""
+		],
+		[
+			"为什么输入模块没有收到CLINCH枪压力反馈信号？因为压力反馈传感器不稳定，失效。"
+		]
+	],
+	"rootCause": "压力反馈传感器不稳定，失效。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.液压缸补充加油；",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.2.13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.更换压力传感器并设置参数。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2011.2.13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.门盖CLINCH枪压力反馈传感器参数标准化并进行互换性确认，保证可以直接互换，减少出现传感器故障时的判断时间。",
+				"resp": "王俊杰",
+				"supp": "",
+				"compDate": "2011.2.30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

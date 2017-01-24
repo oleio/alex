@@ -1,0 +1,222 @@
+{
+	"fileName": "20120911JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120911JFM090.json",
+	"score": 861,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月11日12时30分",
+	"fileNameDate": "20120911",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: JFM090",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "7",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 顾乐宾         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "根据故障报警信息发现故障原因为OPENGATE机械锁打开不到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "维修人员根据历史经验判断GATE锁机械机构表面有杂物导致GATE锁打开不顺畅；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "使用WD-40清洁润滑GATE锁机械结构，恢复设备运行，问题后来再次出现；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进入工位再次检修，检查GATE锁打开检测传感器状态，发现感应片已经到达正确检测位置（机械动作正常）但传感器没有感应动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "调整传感器位置（使传感器与感应片之间位置缩短）后GATE打开检测信号正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼90工位GATE打开后故障报警，工位停止自动运行。强制控制气阀动作使机械机构往复动作后GATE锁打开到位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为右前GATE锁打开不到位"
+		],
+		[
+			"为什么GATE锁打开不到位？因为GATE锁打开检测传感器没有动作"
+		],
+		[
+			"为什检测传感器没有动作？因为么传感器位置发生变化，感应片与传感器之间的距离变大"
+		],
+		[
+			"为什么传感器位置发生变化？因为传感器固定、调整架锁紧功能变差。"
+		],
+		[
+			"为什么传感器固定、调整架锁紧功能变差？因为历史上曾经发生感应片擦碰传感器问题，传感器固定调整架受异常外力作用后紧固性能变差。"
+		]
+	],
+	"rootCause": "感应片曾经擦碰传感器，传感器固定调整架受异常外力作用后紧固性能变差。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整传感器位置后恢复设备运行",
+				"resp": "黄光耀",
+				"supp": "黄轶佳",
+				"compDate": "9\/11\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产时间修理传感器调整安装架，恢复支架正常固定功能并调整传感器位置使GATE打开检测信号可靠。",
+				"resp": "黄光耀",
+				"supp": "顾乐宾",
+				"compDate": "9\/13\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查总拼工位GATE锁检测感应片与感应器之间距离，必要时调整，保证检测信号稳定但感应片和感应器之间不会擦碰。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "9\/17\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤2、3以外的维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

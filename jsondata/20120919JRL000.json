@@ -1,0 +1,222 @@
+{
+	"fileName": "20120919JRL000.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120919JRL000.json",
+	"score": 706,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 09月19日14时05分",
+	"fileNameDate": "20120919",
+	"equipName": "设备名称:CV4 JRL000",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点:JRL000",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 陈文佳      \nOringinator 2012.09.19",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "CV4 LT01手动自动无动作且无报警，程序查看输出信号正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查变频器状态发现使能信号无，使能接触器未吸合；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查使能信号来源是JRL机运线，发现JRL000 ZONE3急停报警无法复位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查控制柜发现24V电源开关短路，按序拔除RUNBAR查找短路点；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "发现160#RH右侧RUNBAR内接线破损与外壳短路。排除故障点；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "机运线CV4恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV4 LT01无动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV4LT01无动作？因为LT01使能接触器未吸合；"
+		],
+		[
+			"为什么使能接触器未吸合？因为使能接触器吸合条件中有信号来自于JRL机运线；"
+		],
+		[
+			"为什么JRL条件未满足？因为JRL机运线有急停及短路；"
+		],
+		[
+			"为什么JRL有急停及短路？因为JRL160RUNBAR接线盒内接线与外壳短路；"
+		],
+		[
+			"为什么接线盒内线缆短路？因为飞溅烧坏绝缘表皮，RUNBAR表面空按钮孔未封闭。"
+		]
+	],
+	"rootCause": "JRL160右侧RUNBAR内24V线缆短路引起机运线及CV4故障",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "排除短路故障点，拆除短路线缆",
+				"resp": "陈文佳",
+				"supp": "尹伟文",
+				"compDate": "9\/19\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修改CV4与JRL机运线使能条件报警增加过渡继电器",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "9\/29\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "班组机运线RUNBAR检查状态，封闭空孔",
+				"resp": "ABC三班",
+				"supp": "",
+				"compDate": "10\/2\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "维修过程同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:孙伟",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

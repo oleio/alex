@@ -1,0 +1,222 @@
+{
+	"fileName": "20121007JRL170.xls.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121007JRL170.xls.json",
+	"score": 665,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月7日11时45分",
+	"fileNameDate": "20121007",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:JRL170",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "15",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄光耀          \nOringinator 2012.10.7",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位检查发现滚床在下降位置，雪橇和白车身前端与护栏干涉翘起；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "通知控制工程师强制信号，同时检查雪橇、白车身与工装干涉情况；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "确认无干涉后手动升滚床，但上升一半后又下降；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查升降电机状态，发现电机刹车失效；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "略调整电机刹车片后再手动上升，滚床上升到位，手动开出雪橇；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "确认系统正常后恢复自动运行。（暂时BYPASS在线检测，夜班进行调整测试）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL170滚床输送过程中报警（滚床下降，高位感应器信号丢失）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL170故障报警？因为升降滚床上升位置丢失；"
+		],
+		[
+			"为什么升降滚床上升位置丢失？因为在输送过程中滚床受力下降；"
+		],
+		[
+			"为什么滚床受力下降？因为升降电机刹车失效；"
+		],
+		[
+			"为什么升降电机刹车失效？因为刹车片长期工作后磨损，刹车失效。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "升降滚床刹车失效导致输送过程中滚床下降",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整刹车片间隙，上升后恢复自动运行",
+				"resp": "张文杰",
+				"supp": "黄光耀",
+				"compDate": "2012.10.7",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班调整刹车片间隙，测量工作电流",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2012.10.8",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对主线相关类型的升降滚床进行检修，调整刹车状态。",
+				"resp": "责任班组",
+				"supp": "",
+				"compDate": "2012.10.9",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更新PM计划，细化升降滚床电机刹车片检修要求。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "2012.10.9",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

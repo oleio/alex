@@ -1,0 +1,222 @@
+{
+	"fileName": "20140527 JRL030L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140527 JRL030L1.json",
+	"score": 1075,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年05月27日20时45分",
+	"fileNameDate": "20140527",
+	"equipName": "设备名称: L1机器人",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点: JRL030",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "22",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  滕征        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产启动BACKUP方案，维修拆开DRESS找到电缆短路点，剪短损坏的电缆",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "制作焊接电缆后在DRESS外部飞线，焊接正常后恢复生产",
+				"lostMin": "25min",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "在多车型切换后飞线的电缆与车身有干涉，焊接电缆磨破，对电缆进行绝缘处理，并重新捆扎飞线电缆。",
+				"lostMin": "15min ",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "运行一段时间后，出现焊枪BACKUP信号不好，检查发现电缆接头拉扯松动。现场修理失败后，飞线19芯电缆维持生产。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "在自动运行中观察到，机器人轨迹变化较大而飞线电缆由于无法可靠固定，导致电缆在机器人运行中受到不断受到摩擦和挤压。半小时后，故障频次明显增加。",
+				"lostMin": "15min",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "与生产协商，决定采用BACKUP方案；将机器人BYPASS出来，进行系统维护",
+				"lostMin": "5min",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "将整套机器人的DRESS拆下更换其中的焊接电缆和19芯电缆，重新安装到位。 ",
+				"lostMin": "45min",
+				"success": 0
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"1.JRL030L1焊接电缆在DRESS内部短路发热熔断"
+		],
+		[
+			"2.JRL030L1机器人飞线的焊接电缆由于多车型轨迹复杂，电缆表皮磨破短路   "
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL030L1机器人飞线的焊接电缆表皮磨破短路？因为飞线无法固定并缺少必要的保护。"
+		],
+		[
+			"为什么使用外部电缆跨接线？因为DRESS套管内的焊接电缆已经损坏无法使用，采取飞线临时措施。"
+		],
+		[
+			"为什么焊枪19芯电缆会损坏？因为飞线电缆无法有效固定，在运行中发生移动受力，造19芯电缆插头损坏。"
+		],
+		[
+			"为什么采用BACKUP方案进行系统性的维修？根据现场判断，如果不能有效限制电缆的移动，设备将能正常工作，严重影响生产任务的完成。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.焊接电缆在计划更换日期前内部焊接电缆短路发热熔断；2.BACKUP方案运行时电缆和车身有干涉(615&E15 OK,E16 NOK)。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "生产启动BACKUP方案维持生产，维修人员对DRESS进行系统维护。",
+				"resp": "陈烨华 ",
+				"supp": "",
+				"compDate": "5\/27\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "现场在线实验性检测焊接电缆运行时的温度",
+				"resp": "何文泽   ",
+				"supp": "",
+				"compDate": "5\/28\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "根据焊接电缆更换记录，评估高风险易损坏的机器人DRESS，计划性更换DRESS及内部线缆。",
+				"resp": "何文泽   ",
+				"supp": " ",
+				"compDate": "6\/5\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "细化BACKUP工作方案，使机器人轨迹满足各种车型",
+				"resp": "何文泽   ",
+				"supp": "",
+				"compDate": "6\/30\/2014",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上述过程。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL 滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

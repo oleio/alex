@@ -1,0 +1,222 @@
+{
+	"fileName": "20120618CV13.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120618CV13.json",
+	"score": 788,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年6月 18日 14时 00 分",
+	"fileNameDate": "20120618",
+	"equipName": "设备名称:EMS小车",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:CV13",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "10",
+	"lostProductNum": "18",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期   黄波     \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "CV13 小车停止运行，现场测量电排输出的前进电信号显示正常输出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "打开输送小车电刷盒检查供电电刷发现有两片电刷损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "释放小车离合器后手动拉动小车完成侧围释放工作后拖至维修岔道进行检修；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "后续小车在经过17#段时小车也没有前进电信号，检查17#段电排发现有电刷支架塑料残片卡在电排内引起后续小车电刷支架变形；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "清除17#段电排电刷支架塑料残片，更换故障小车损坏的电刷，恢复CV13自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV13 10#输送小车在17#段停止运行；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV13停止运行？因为10#小车在17#段停止运行；"
+		],
+		[
+			"为什么10#小车在17#段停止运行？因为10#小车未收到前进电信号；"
+		],
+		[
+			"为什么10#小车未收到前进电信号？因为小车电刷支架断裂引起电刷无法与供电电排接触；"
+		],
+		[
+			"为什么后续有小车在17#段停止运行？因为CV13输送线17#段有电刷支架塑料残片卡在电排内引起后续小车电刷支架变形损坏；"
+		],
+		[
+			"为什么CV13输送线17#段有电刷支架塑料残片卡在电排内引起后续小车电刷支架变形损坏？因为前辆故障小车落下的塑料残片卡在电排内；"
+		]
+	],
+	"rootCause": "1.小车电刷支架断裂引起电刷无法与供电电排接触；2.前辆故障小车落下的塑料残片卡在电排内引起后续小车电刷支架变形损坏；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "清除17#段电排电刷支架塑料残片，更换故障小车损坏的电刷，恢复CV13自动运行；",
+				"resp": "袁炜",
+				"supp": "",
+				"compDate": "2012\/6\/18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "根据CV13小车电刷磨损现状在PM工作单内加入针对电刷的检查，检查周期三个月；",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "2012\/6\/18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "维修过程同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:袁炜",
+	"person_Manager": "工程师\/ENG.:刘丰"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110827 JRL120.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110827 JRL120.json",
+	"score": 444,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011\/8\/27",
+	"fileNameDate": "20110827",
+	"equipName": "设备名称:JRL120",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期   殷志平       \nOringinator \n",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进工位检查，发现JRL120升降机传动轴连接螺栓断，升降机后侧坠落",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将升降机用千斤顶顶起，将雪橇移除工位",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "拆除变形挡板，修复损坏的传动轴，暂时恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "工作一段时间后，升降机出现超行程现象",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "进工位检查，发现传感器凸轮安装螺丝断裂",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "修复传感器安装凸轮恢复生产，仍然有超程现象",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "调整升降传感器与凸轮距离，恢复正常生产",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL120 升降机倾覆"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么升降机倾覆 因为升降机传动轴螺栓断"
+		],
+		[
+			"为什么升降机修复后超程 因为升降机传动轴断时将传感器凸轮螺栓撞坏"
+		],
+		[
+			"为什么传动轴螺栓断 因为长期受剪切力疲劳断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修复损坏硬件恢复生产",
+				"resp": "A班",
+				"supp": "",
+				"compDate": "2011\/8\/27",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "计划更换其它升降滚床的传动轴螺栓",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:殷志平"
+}

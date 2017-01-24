@@ -1,0 +1,222 @@
+{
+	"fileName": "20121009JRL110R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121009JRL110R1.json",
+	"score": 737,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月9日13时00分",
+	"fileNameDate": "20121009",
+	"equipName": "设备名称:R1",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: JRL110R1",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:程超          \nOringinator\/2012.10.9",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位手动示教机器人，重新安装新的电极帽并用锉刀修磨；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "工位恢复自动焊接，第二辆车进入后电极帽再次粘落；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "焊接工程师用DEP连接焊机调出焊接参数，判断为焊接电流偏大，焊接压力偏小；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "安装掉落的电极帽并调整焊接参数，临时增加预压时间保证焊枪充分加压后通电；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换TAB状态较差的焊枪静电极杆；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "工位恢复自动",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL110R1焊接L-CAR时焊接故障，电极帽与车身粘连脱落两次"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R1焊接报警？因为R3机器人焊枪电极帽与车身粘连后脱落；"
+		],
+		[
+			"为什么因为R1机器人焊枪电极帽掉落？因为1.动电极杆TAB磨损，电极帽无法安装牢固 2.焊枪焊接压力偏小造成炸电极帽；"
+		],
+		[
+			"为什么焊枪焊接压力偏小？因为焊枪气缸内部活塞密封磨损后引起气缸内泄漏，最终导致焊接压力偏小；"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.因为焊枪气缸内部活塞密封磨损后引起气缸内泄漏，最终导致焊接压力偏小炸电极帽；2.静电极杆TAB磨损造成电极帽容易粘落；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换110R1静电极杆",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "10\/9\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.调整焊接参数，临时增加预压时间保证焊枪充分加压后通电",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "10\/9\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.检查车间主线各自动工位电极杆TAB磨损情况，利用非生产日统一更换",
+				"resp": "A\/B\/C班组",
+				"supp": "",
+				"compDate": "2012\/10\/14",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.评估车间主线焊枪气缸密封件状态，制定维护计划。",
+				"resp": "孙杰",
+				"supp": "焊接组",
+				"compDate": "2012\/10\/14",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:程超",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

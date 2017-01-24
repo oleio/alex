@@ -1,0 +1,222 @@
+{
+	"fileName": "20110409EUB050.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110409EUB050.json",
+	"score": 608,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年4月9日 时 分",
+	"fileNameDate": "20110409",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间： 20min",
+	"areaLocation": "停机区域\/点: EUB50",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator张文杰    2011.4.9",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "更换损坏的电极帽并手动操作修磨电极帽；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "手动焊接当前白车身；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "恢复自动后第二辆车L1\/L2\/R1无法调用程序，手动操作L1\/L2\/R1完成焊接工序；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "手动操作工位夹头、DUMP完成工位工序；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"机器人R2焊接过程中爆电极帽，更换电极帽手动修磨后用示教板操作焊接完成。"
+		],
+		[
+			"恢复自动后第二辆车L1\/L2\/R1无法调用程序并自动进入焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人工位故障停止？因为机器人R2焊枪焊接报警"
+		],
+		[
+			"为什么机器人R2焊枪焊接报警？因为钣金件表面状态差导致炸电极帽"
+		],
+		[
+			"为什么故障处理占用时间较多？因为恢复自动后机器人L1\/L2\/R1无法调用程序，手动操作机器人花费较多的时间"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换电极帽后手动修磨电极帽，手动操作机器人完成工序",
+				"resp": "张文杰",
+				"supp": "尹熠俊",
+				"compDate": "11-04-09",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "利用生产结束后的时间培训班组维修人员手动操作EUB50",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "11-04-20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "工位机器人，提高熟练程度。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "步骤同维修过程，工位机器人手动操作速度需提高。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:周志辉",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120814JRL050L2焊枪.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120814JRL050L2焊枪.json",
+	"score": 729,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月14日19时10 分",
+	"fileNameDate": "20120814",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：23min",
+	"areaLocation": "停机区域\/点: JRL",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "23",
+	"lostProductNum": "16",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  黄光耀        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检修焊枪握杆压板断螺丝，尝试现场取出断螺丝未成功；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "实施维修预案，从东昌领用临时代用压板工具，在焊枪ARM外部将焊枪握杆压住；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "运行两小时后电极对中心再次变差，发现临时代用压板工具无法完全压牢焊枪握杆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "通知生产控制室调配E-10车型启动生产BACKUP方案；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "维修在线用电钻打穿损坏的压板螺丝后恢复焊枪握杆压板；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL050L2焊枪握杆压板螺丝断引起电极对中心差，车身焊点扭曲"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL050L2焊枪焊接车身时焊点扭曲？因为焊枪电极对中心差；"
+		],
+		[
+			"为什么焊枪电极对中心差？因为焊枪握杆压板螺丝断导致电极杆转动；"
+		],
+		[
+			"为什么焊枪握杆压板螺丝断？因为该X型焊枪部分焊点在板材斜面上焊接，握杆长期受到旋转向的扭力导致握杆压板固定螺丝长期受力金属疲劳后断裂"
+		],
+		[
+			""
+		],
+		[
+			"为什么备用方案无法完全压住焊枪握杆"
+		]
+	],
+	"rootCause": "该X型焊枪部分焊点在板材斜面上焊接，握杆长期受到旋转向的扭力导致握杆压板固定螺丝长期受力金属疲劳后断裂",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.用压板工具，在焊枪ARM外部将焊枪握杆压住",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "8\/14\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.取出损坏的压板螺丝恢复焊枪握杆压板",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "8\/14\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.在PM工作表内加入此类型焊枪焊枪压板螺丝6个月更换的工序；",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "8\/16\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.改进临时压板工具增加其强度，使其能帮助缩短维修时间；",
+				"resp": "程超",
+				"supp": "",
+				"compDate": "8\/31\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:程超",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

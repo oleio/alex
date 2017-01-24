@@ -1,0 +1,222 @@
+{
+	"fileName": "20121105JFM150door.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121105JFM150door.json",
+	"score": 1180,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年11月5日6时30分",
+	"fileNameDate": "20121105",
+	"equipName": "设备名称: 150出口安全防护门",
+	"breakdownTime": "停机时间：180min",
+	"areaLocation": "停机区域\/点: JFM",
+	"maintainTeam": "维修班组：B\/C班",
+	"lostTime": "180",
+	"lostProductNum": "128",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄俊宇          \nOringinator\/2012.11.5 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "修理步骤 \/ Trouble-Shooting steps (记下维修过程中的实际步骤,不正确的打\"X\".)",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "11\/4中班JFM150报警安全防护门不动作，HMI手动操作无效，门系统操作面板可操作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "将防护门的操作面板从工位内引出后人工操作恢复生产，同时查找接线图寻找故障点；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "确认维修方案，在停产后进行再次维修；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "停产后拆卸导轨挡板检查对射传感器状态，恢复挡板后第一次下降右侧磁性感应块支架与导轨干涉，手动消除干涉点后安全门无法进行上升操作；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动抬起安全门，试图进行零位设置，设置到第三步时系统出错提示重启电源开关；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "多次设置零位均出现相同报警，寻求供应商支持，最终零位传感器受到撞击后信号不稳定，东昌紧急送备件至现场更换；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM150 激光焊工位出口安全防护门内部安全报警，"
+		],
+		[
+			"安全门无法关闭；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么安全防护门内部安全报警？因为防护门两组安全传感器中有一组对射开关出错；"
+		],
+		[
+			"为什么防护门一组对射开关出错？需进一步分析对射安全传感器硬件状态和接线回路；"
+		],
+		[
+			"为什么在后续伺服零位校验中安全门无法上升？因为零位传感器信号不稳定；"
+		],
+		[
+			"为什么零位传感器信号不稳定？因为安全门下降过程中有干涉，导致零位传感器被撞击，有破损；"
+		],
+		[
+			"为什么安全门下降过程中有干涉？因为检查安全传感器时拆卸了导轨挡板，安全门门板在无导轨挡板限制下左右窜动，导轨挡板重新安装后门板升降时与零位传感器干涉，安装导轨挡板时未关注干涉点；"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause:",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "短期\/Short Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换零位传感器，示教零位，调整开关位置后恢复自动",
+				"resp": "陈文佳",
+				"supp": "刘丰",
+				"compDate": "11\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": " ",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "                                                                                            1.重新进行设备风险辨识，对未知元器件的原理进行培训（一点课程）\n",
+				"resp": "黄俊宇",
+				"supp": "徐啸顺",
+				"compDate": "11\/11\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.对维护方法进行更新（PM内容）",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11\/11\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.制定备份方案，加装安全防护门备用门(ATS项目改造实施）",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "8\/31\/2013",
+				"status": "1\/4"
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "更换零位传感器，设置零位，调整后恢复自动"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "（对于零位传感器问题的判断耗时较长）"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀\\李颖琛",
+	"person_Manager": "工程师\/ENG.:黄俊宇 "
+}

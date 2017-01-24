@@ -1,0 +1,222 @@
+{
+	"fileName": "20120415SUR010.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120415SUR010.json",
+	"score": 566,
+	"title": "SGM-车身 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年  4月 15日14 时30 分",
+	"fileNameDate": "20120415",
+	"equipName": "设备名称:L2机器人",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: SUR010",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期　张文杰          \nOringinator        2012.4.16",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查Backup Close限位开关，状态OK；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查焊枪接线盒内接线及线缆，状态OK；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查转动接头机器人侧19芯电缆接头，状态OK；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查转动接头内信号电刷，状态OK。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "在机器人程序中跳转Close Backup信号，临时恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR010 L2机器人 Close Backup信号常亮"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止运行？因为L2报警BACKUP CLOSE信号常亮；"
+		],
+		[
+			"为什么BACKUP CLOSE信号常亮？信号回路中有短路现象；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"为什么信号回路中有短路？转动接头内部汇电环老化，绝缘状态变差，造成短路。"
+		]
+	],
+	"rootCause": "转动接头内部汇电环老化，绝缘状态变差，造成短路",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "评估风险后临时将程序中信号跳转，维持生产",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2012.4.16",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "准备好现场Backup方案，随时准备临时飞线",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2012.4.17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日拆除转动接头",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012.4.22",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:"
+}

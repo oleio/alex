@@ -1,0 +1,222 @@
+{
+	"fileName": "20120127JRL60R2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120127JRL60R2.json",
+	"score": 765,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年01月8日6时30分",
+	"fileNameDate": "20120127",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：B\/C",
+	"lostTime": "30",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 马晓洲\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "更换静电极杆（BADC005686长)；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "更换动电极杆（BADC005686长，应更换BADC005687短)；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "分别调整618\/E11车型机器人轨迹；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "后调整E10车型机器人轨迹（由于维修人员调整机器人轨迹的熟练程度差，使用了较多的时间）",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"前日夜班JRL60R2发生掉电极帽故障，判断静电极杆锥面有问题当时更换；"
+		],
+		[
+			"后发现动电极杆也有问题，夜班生产结束后更换；"
+		],
+		[
+			"早班开班后发生电极杆碰坏后围板问题，调整E10车型轨迹；"
+		],
+		[
+			"后后又调整618车型轨迹，调整E11轨迹。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么需要调整3种车型的机器人轨迹？因为机器人R2焊枪与后围板干涉"
+		],
+		[
+			"为什么机器人R2焊枪与后围板干涉？因为动电极杆过长"
+		],
+		[
+			"为什么动电极杆过长？因为使用了错误的电极杆（过长）"
+		],
+		[
+			"为什么调整E10车型机器人轨迹时间过长？因为调整机器人轨迹的维修人员技术不熟练，工作中出现错误需纠正"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1)更换电极杆时没有确认型号导致使用错误备件 2)维修人员调整机器人轨迹技能不熟练",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整3种车型的机器人轨迹维持生产",
+				"resp": "丁伟 李颖琛",
+				"supp": "",
+				"compDate": "12-01-27",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "恢复焊枪正常电极杆并恢复正常轨迹",
+				"resp": "陈烨华李颖琛",
+				"supp": "",
+				"compDate": "12-01-28",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "此维修案例经验教训在3班维修交接班会议上讨论，全体维修人员吸取经验教训。",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "12-01-28",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "维修人员调整机器人轨迹基本技能考核，通过练习、考核提高维修人员调整轨迹基本技能。",
+				"resp": "马晓洲黄光耀陈烨华尹熠俊",
+				"supp": "徐啸顺",
+				"compDate": "12-02-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "步骤2应更换正确的动电极杆BADC005687短；"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华 李颖琛",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

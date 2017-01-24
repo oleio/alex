@@ -1,0 +1,222 @@
+{
+	"fileName": "20140813.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140813.json",
+	"score": 718,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年8月12日18时0分",
+	"fileNameDate": "20140813",
+	"equipName": "设备名称:激光钎焊",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点:JFM140",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "60",
+	"lostProductNum": "45",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  何文泽",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查激光发生器报警记录,确认由外部触发导致激光停机；",
+				"lostMin": 15,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查送丝机构，发现送丝过程中主从马达工作电流差异较大；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换导丝管，调整送丝轮压力并进行送丝机构的推拉丝校正；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查送丝机构主从马达电流恢复正常；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "进行白车身焊接，恢复正常生产。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM140激光焊焊接过程中激光自动停止。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM140激光焊焊接过程中激光自动停止"
+		],
+		[
+			"为什么机器人后台程序将激光中断"
+		],
+		[
+			"为什么机器人检测到送丝机构报警？送丝机构马达过载；"
+		],
+		[
+			"为什么送丝机构马达过载？1.导丝管内部磨损，造成送丝阻力大；2.送丝轮压力设置不正确，造成送丝阻滞。"
+		],
+		[
+			"为什么导丝管内部磨损？A10产量增加导丝管使用寿命缩短（原计划1个月换一次）\n              为什么送丝轮压力设置不正确？未辨识出送丝压轮压力设置对焊接产生影响，维修人员未得到针对 性培训"
+		]
+	],
+	"rootCause": "A10产量增加导丝管使用寿命缩短（原计划1个月换一次）\n未辨识出送丝压轮压力设置对焊接产生影响，维修人员未得到针对性培训",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换导丝管，调整送丝轮压力并进行送丝机构的推拉丝校正",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "8\/13\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更新导丝管PM周期，2周更换一次",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "8\/15\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "细化送丝机构导丝管的MTS，明确送丝压轮的压力设置要求，并且培训考核。",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "8\/15\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "未能够直接发现送丝机构主从马达电流异常。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:孙伟（代）",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

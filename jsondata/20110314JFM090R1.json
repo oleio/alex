@@ -1,0 +1,222 @@
+{
+	"fileName": "20110314JFM090R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110314JFM090R1.json",
+	"score": 722,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年03月14日07时50分",
+	"fileNameDate": "20110314",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：20分钟",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：",
+	"lostTime": "20",
+	"lostProductNum": "11",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  黄光耀       \nOringinator 2011.03.14",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查发现，机器人信号发出后，电磁阀处未收到信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查19芯电缆状态，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查发现机器人TURCK模块上没电，模块电源线接头松动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "示教机器人时发现，DRESS弹簧管在运行时与该插头干涉，套管在根部处有断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "临时修理损坏DRESS，避免DRESS套管碰TURCK模块电源线接头。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"R1机器人焊抢无动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R1机器人没有动作？电磁阀未收到信号；"
+		],
+		[
+			"为什么电磁阀没有收到信号？TURCK模块失电；"
+		],
+		[
+			"为什么TURCK模块会失电？模块上的电源线插头被DRESS碰坏；"
+		],
+		[
+			"为什么DRESS套管会碰模块上电源头？DRESS开裂弹簧失效，压松电源头"
+		],
+		[
+			"为什么Dress套管开裂？因为JFM90焊枪轨迹复杂，且空间狭小扭转频繁"
+		]
+	],
+	"rootCause": "DRESS根部开裂使弹簧失效，压倒电源头",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "DRESS套管临时修复，夜班更换DRESS套管",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2011.03.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "JFM90\/120改用leoni品牌Dress套管",
+				"resp": "A班",
+				"supp": "",
+				"compDate": "2011.03.15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "检查发现，机器人信号发出后，电磁阀处未收到信号；"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查19芯电缆状态，未发现异常；"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查发现机器人TURCK模块上没电，模块电源线接头松动；"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "示教机器人时发现，DRESS弹簧管在运行时与该插头干涉，套管在根部处有断裂；"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "临时修理损坏DRESS，避免DRESS套管碰TURCK模块电源线接头。"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

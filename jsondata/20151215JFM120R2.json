@@ -1,0 +1,222 @@
+{
+	"fileName": "20151215JFM120R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151215JFM120R2.json",
+	"score": 760,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.12.15.22",
+	"fileNameDate": "20151215",
+	"equipName": "设备名称:换枪盘",
+	"breakdownTime": "停机时间：26min",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "25",
+	"lostProductNum": "18",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:费望德\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM120R2焊接E15时焊接故障报警，进工位检查电极帽表面无明显异常，板材表面无油污垃圾",
+				"lostMin": 4,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动跳过此焊点，焊接后续焊点故障依旧，将电极帽修磨一次后焊接，故障仍未消除",
+				"lostMin": 4,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "将机器人当前抓取的焊枪脱离后检查焊接插针，发现工具侧和机器人侧的两对公母插针有不同程度的拉弧",
+				"lostMin": 4,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "现场人员拆卸损坏的焊接插针，同时东昌现场库领取备件，更换拉弧的插针，验证焊接OK，恢复生产",
+				"lostMin": 14,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120R2焊接故障，低电流报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接E15时焊接故障？因为焊机低电流报警？"
+		],
+		[
+			"为什么焊机低电流报警？因为焊接回路电阻过大，焊机无法输出设定的电流值；"
+		],
+		[
+			"为什么焊接回路电阻过大？因为工具侧插针和机器人侧插针拉弧,接触不良；"
+		],
+		[
+			"为什么工具侧插针和机器人侧插针拉弧？因为机器人换枪频次较高，雌雄插针咬合后的间隙逐渐变大，导致拉弧。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人换枪频次较高，雌雄插针咬合后的间隙逐渐变大，导致拉弧。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "生产结束后更换另一把L-CAR焊枪的工具侧插针",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "12\/15\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "维修三班分别排查PM负责区换枪盘焊枪插针使用状态（当日生产结束后开始排查）",
+				"resp": "黄光耀陈烨华曹鸣晓",
+				"supp": "",
+				"compDate": "12\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "统计换枪盘插针使用更换情况，确定焊接插针期望寿命，安排维修班组预防性定期更换。",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "12\/30\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "针对JFM120R2焊枪停机案例，对全体维修人员进行一次设备预防性维修工作重要性教育。",
+				"resp": "马晓洲黄波滕征钱俊",
+				"supp": "",
+				"compDate": "12\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤2以外的维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：曹鸣晓",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

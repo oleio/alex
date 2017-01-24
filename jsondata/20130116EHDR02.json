@@ -1,0 +1,222 @@
+{
+	"fileName": "20130116EHDR02.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130116EHDR02.json",
+	"score": 563,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1月16日4时25分",
+	"fileNameDate": "20130116",
+	"equipName": "设备名称：机器人涂胶设备",
+	"breakdownTime": "停机时间：1H",
+	"areaLocation": "停机区域\/点:  EHD",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "1",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  曹鸣晓      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动放胶，机器人枪头未能出胶",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查胶管回路，发现白胶胶泵下泵体活塞不动作卡死",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "尝试调整胶泵压力使泵体活塞动作，NOK",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "准备胶泵泵体备件更换损坏的泵体",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "确认双组份胶配比后回复EHD工位自动运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EHDR02机器人双组份胶白胶不出胶"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么EHDR02机器人双组份胶白胶不出胶？因为白胶胶管内没有胶水压力；"
+		],
+		[
+			"为什么白胶胶管内没有胶水压力？因为白胶胶泵未动作；"
+		],
+		[
+			"为什么白胶胶泵未动作？因为胶泵下泵体活塞卡死；"
+		],
+		[
+			"为什么胶泵下泵体活塞卡死？因为胶泵活塞环上的O型圈与活塞间受到白胶含有的特殊纤维组织阻塞后运动阻力变大卡死"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因为胶泵活塞环上的O型圈与活塞间受到白胶含有的特殊纤维组织阻塞，泵体活塞运动阻力变大卡死",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "领用胶泵下泵体备件更换损坏的泵体",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "1\/16\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "统计胶泵活塞环上的O型圈与活塞间特殊纤维组织堆积过程需要的时间，提前准备备件定期更换(1.5月)。",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "1\/20\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:黄波",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

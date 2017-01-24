@@ -1,0 +1,222 @@
+{
+	"fileName": "20120404JRL60L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120404JRL60L1.json",
+	"score": 738,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年4月4日20时36分",
+	"fileNameDate": "20120404",
+	"equipName": "设备名称:R1",
+	"breakdownTime": "停机时间：  4h",
+	"areaLocation": "停机区域\/点:  JRL60",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "90",
+	"lostProductNum": "60",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  陈烨华  \nOringinator  2012-4-4",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL60 L1 WATERSAVE 报警，HMI上无法复位",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查发现是焊接控制柜跳闸导致故障无法复位",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "打开焊机控制柜对内部进行检查，未发现异常",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进入工位检查导致控制柜过电流跳闸的外部原因，用万用表检测发现焊枪转动接头内部可能存在短路",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "进一步用电阻摇表测量焊枪转动接头汇电环相与相、相与地间的绝缘阻值阻值都为0",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "启动维修班组准备的应急预案,焊接电缆跨接转动接头但由于该枪焊接轨迹复杂未能成功 ",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "通知生产调配车型启动backup生产,维修在线更换损坏的转动接头后恢复L1运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL60 L1焊接控制柜跳闸无法复位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么会WATERSAVE报警且无法复位？因为焊接控制柜跳闸后引起WATERSAVE I\/O模块失电导致报警无法复位"
+		],
+		[
+			"为什么焊接控制柜会跳闸？因为焊接控制柜焊接输出回路短路。"
+		],
+		[
+			"为什么焊机会存在焊接输出回路短路？ 因为焊枪转动接头内部焊接供电汇电环相间短路"
+		],
+		[
+			"为什么焊枪转动接头内部焊接供电汇电环相间短路？因为汇电环内存在水气；"
+		],
+		[
+			"为什么汇电环内存在水气？因为转动接头密封失效；"
+		]
+	],
+	"rootCause": "转动接头密封失效导致汇电环短路击穿",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换转动接头",
+				"resp": "陈烨华",
+				"supp": "B班",
+				"compDate": "4\/15\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.统计并立刻设定更换时间表批量更换主线超期工作的转动接头",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "4\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.机器人组制定方案拆除主线安装的机器人焊枪转动接头",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "4\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

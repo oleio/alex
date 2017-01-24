@@ -1,0 +1,222 @@
+{
+	"fileName": "20110619ERFR1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110619ERFR1.json",
+	"score": 650,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月19日14时50分",
+	"fileNameDate": "20110619",
+	"equipName": "设备名称:机器人涂胶",
+	"breakdownTime": "停机时间：20MIN",
+	"areaLocation": "停机区域\/点:ERF",
+	"maintainTeam": "维修班组：C\/A",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 顾乐斌\n2011-6-19",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "调整白胶阀控制压力，无效；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "根据报警发生于刚开始涂胶时的现象，判断涂胶阀动作慢；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "拆卸气控涂胶阀，清理涂胶推杆，清理驱动气管中存在的少量白胶；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "试验涂胶后涂胶枪正常工作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ERF R1机器人白胶高压报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人白胶枪报警停止？因为定量涂胶控制器开始涂胶时高压报警"
+		],
+		[
+			"为什么定量涂胶控制器开始涂胶时高压报警？因为涂胶控制阀打开速度慢"
+		],
+		[
+			"为什么涂胶控制阀打开速度慢？因为涂胶阀控制气管中存在少量白胶"
+		],
+		[
+			""
+		],
+		[
+			"为什么涂胶阀控制气管中存在少量白胶？可能的原因：（1）更换涂胶阀时遗留少量白胶 （2）正在使用的涂胶阀有泄漏"
+		]
+	],
+	"rootCause": "可能的原因：（1）更换涂胶阀时遗留少量白胶(2月份曾经因涂胶控制阀漏胶更换阀） （2）正在使用的涂胶阀有泄漏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "拆卸气控涂胶阀，清理涂胶推杆，清理驱动气管中存在的少量白胶。",
+				"resp": "尹熠俊",
+				"supp": "徐啸顺",
+				"compDate": "11-06-19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "近3天夜班生产结束后检查新换涂胶控制气管中是否有胶，根据是否有胶确定故障起因并确定最终是否拆下（替换）涂胶控制阀修理。",
+				"resp": "徐啸顺马晓洲",
+				"supp": "黄波",
+				"compDate": "11-06-23",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班生产结束后更换涂胶控制气管",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-06-19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "维修步骤2,3,4"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳尹熠俊",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

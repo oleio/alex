@@ -1,0 +1,222 @@
+{
+	"fileName": "20140414ESOR6.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140414ESOR6.json",
+	"score": 773,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年4月14日10时30分",
+	"fileNameDate": "20140414",
+	"equipName": "设备名称:机器人抓手",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点: ESO",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "50",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  孙伟        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查机器人GRIPPER抓的侧围与#20小车碰撞原因，发小车不在正确位置，超程；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "操作机器人抓手脱离干涉并手动操作将发生碰撞的侧围挂到小车上；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "释放出现问题的#20小车并将小车拉至小车维修区；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将后续空小车放到挂右侧围工位并示教E15挂侧围轨迹，微调GRIPPER夹头位置后恢复自动；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "切换车型后示教E16车型挂侧围轨迹，反复微调放侧围轨迹后恢复设备自动；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOR6机器人挂侧围时侧围与#20小车干涉，机器人碰撞报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人挂侧围时侧围与#20小车干涉"
+		],
+		[
+			"为什么小车定位锁销没有插入安装在小车上的定位孔"
+		],
+		[
+			"为什么#20EMS小车超程,小车定位孔偏前"
+		],
+		[
+			"为什么#20小车超程后EMS小车仍然有锁销定位动作？因为2个小车到位传感器小车超程情况下仍然检测小车到位"
+		],
+		[
+			"为什么小车超程情况下仍然检测小车到位？因为2个小车到位传感器之间的距离过近，小车到位检测准确度差。"
+		]
+	],
+	"rootCause": "1）2个小车到位传感器之间的距离过近，无法准确检测小车到位。 2）小车驱动轮老化磨损，压紧力变小后刹车效果差导致小车停止位置超程。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整故障EMS小车驱动轮压紧程度，避免小车超程。",
+				"resp": "曹鸣晓",
+				"supp": "孙伟",
+				"compDate": "4\/15\/2014",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "重新调整小车到位检测传感器之间距离，保证小车到位检测精度。",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "4\/16\/2014",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "增加机械防错装置，避免小车到位偏差情况下小车定位锁销插在定位孔外。",
+				"resp": "曹鸣晓马晓洲",
+				"supp": "",
+				"compDate": "5\/30\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

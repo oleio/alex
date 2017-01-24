@@ -1,0 +1,222 @@
+{
+	"fileName": "20110313JRL060.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110313JRL060.json",
+	"score": 806,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年3月13日15时 20分",
+	"fileNameDate": "20110313",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20 min",
+	"areaLocation": "停机区域\/点:   JRL 060R2",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator黄波     2011.3。13",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "手动开关BACKUP焊抢气缸无动作",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查该焊抢，输出气缸动作信号气缸动作但气缸连接板与焊抢ARM无连接",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查焊抢连接板发现连接板损坏、支轴落下、滚针轴承套断裂",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "由于焊抢处在车身内部不便于安装，尝试两人协作手动将焊抢开至维修位置安装连接板新备件",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复后重新焊接未完成车身，由于焊接至原车辆已被炸洞的焊点时电极帽粘落",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "更换电极帽恢复焊接",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL060R2焊接时BACKOPEN故障报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL060R1焊接时BACKOPEN故障报警？因为BackupOpen打开DI信号未收到"
+		],
+		[
+			"为什么BackupOpen打开DI信号未收到？因为焊抢气缸动作但连接杆未拉动焊抢ARM"
+		],
+		[
+			"为什么焊抢气缸动作但连接杆未拉动焊抢ARM？因为连接板损坏、滚针轴承绝缘套损坏"
+		],
+		[
+			""
+		],
+		[
+			"为什么连接板损坏、滚针轴承绝缘套损坏？因为该焊抢焊点位置复杂连接板支轴受到Z方向（上下方向）的剪切力疲劳损伤"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的连接板部件",
+				"resp": "谢诚侃",
+				"supp": "黄波",
+				"compDate": "2011\/3\/13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "长期改进前，两个月定期更换该焊抢连接板支轴部件",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "NA",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "尝试改进该焊枪连接方式或优化焊接姿态",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2011\/5\/13",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "手动开关BACKUP焊抢气缸无动作"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查该焊抢，输出气缸动作信号气缸动作但气缸连接板与焊抢ARM无连接"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查焊抢连接板发现连接板损坏、支轴落下、滚针轴承套断裂"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "由于焊抢处在车身内部不便于安装，尝试两人协作手动将焊抢开至维修位置安装连接板新备件"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄波",
+	"person_ENG": "工程师\/ENG.:王晔",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

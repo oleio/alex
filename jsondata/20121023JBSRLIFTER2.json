@@ -1,0 +1,222 @@
+{
+	"fileName": "20121023JBSRLIFTER2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121023JBSRLIFTER2.json",
+	"score": 656,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月23日22时50分",
+	"fileNameDate": "20121023",
+	"equipName": "设备名称:LIFTER2",
+	"breakdownTime": "停机时间：80min",
+	"areaLocation": "停机区域\/点:JBSR P&P",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "80",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  陈烨华        \nOringinator2012.10.23",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JBSR P&P LIFTER2工件与工装干涉导致变形，将损坏的工件搬出工位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "将倾斜的LIFTER2支架进行整形；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆除并更换弯曲的抓手支架；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "按照零件位置调整抓手夹头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "设置零位，测试夹头夹紧状态，确认正常后恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JBSR P&P LIFTER2传输过程中工件与工装干涉，导致LIFTER2变形倾斜"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么LIFTER2变形？因为LIFTER2在抓料传输过程中工件与工装干涉；"
+		],
+		[
+			"为什么工件与工装干涉？因为工件后部未被LIFTER2夹紧，传输过程中碰到夹头；"
+		],
+		[
+			"为什么工件后部未被夹紧？因为抓手夹头未夹紧工件；"
+		],
+		[
+			"为什么抓手夹头未夹紧工件？因为夹头位置偏移；"
+		],
+		[
+			"为什么夹头位置偏移？因为长期使用后夹头位置逐步偏移，且未定期校验；"
+		]
+	],
+	"rootCause": "LIFTER2抓手夹头位置偏移，导致工件与工装干涉，LIFTER2变形",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "整形P&P支架，更换受损的抓手支架，调整抓手位置",
+				"resp": "陈烨华",
+				"supp": "B班",
+				"compDate": "2012.10.24",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对P&P支架进行烧焊加固",
+				"resp": "夜班维修",
+				"supp": "",
+				"compDate": "2012.10.24",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "责任班组每月定期校验P&P抓手抓料位置",
+				"resp": "李颖琛",
+				"supp": "C班",
+				"compDate": "2012.10.28",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

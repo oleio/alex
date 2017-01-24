@@ -1,0 +1,222 @@
+{
+	"fileName": "20120830EFDL030L.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120830EFDL030L.json",
+	"score": 447,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月30日18时30分",
+	"fileNameDate": "20120830",
+	"equipName": "设备名称:T2200焊机",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:EFDL30L1",
+	"maintainTeam": "维修班组：c班",
+	"lostTime": "45",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 王烨        \nOringinator 2012.8.30",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "EFDL30L1漏水跳闸,维修人员关闸断电并呼叫工程师到场",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "关掉水阀,同时关掉焊机插接箱",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆开变压器进线端,发现变压器环氧树脂开裂,变压器冷却水从开裂处流出",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换焊机,恢复参数,恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EFDL30L1焊机漏水跳闸"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么EFDL30L1焊机漏水"
+		],
+		[
+			"为什么焊机跳闸"
+		],
+		[
+			"为什么变压器进线端环氧树脂开裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "变压器进线端环氧树脂开裂漏水造成焊机短路",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换焊机",
+				"resp": "王烨",
+				"supp": "李颖琛",
+				"compDate": "8\/30\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查主线上人工焊机变压器进线端环氧树脂",
+				"resp": "孙杰",
+				"supp": "王烨",
+				"compDate": "9\/15\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "反馈供应商拆解分析损坏原因",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "9\/15\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:王烨",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

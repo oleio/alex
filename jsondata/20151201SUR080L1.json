@@ -1,0 +1,222 @@
+{
+	"fileName": "20151201SUR080L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151201SUR080L1.json",
+	"score": 504,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.12.2.1",
+	"fileNameDate": "20151201",
+	"equipName": "设备名称:SUR080L1",
+	"breakdownTime": "停机时间：10min",
+	"areaLocation": "停机区域\/点:SUR",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "10",
+	"lostProductNum": "7",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:费望德\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "SUR080L1焊枪修磨时报“program not exist”，无法完成修磨，手动重新修磨故障仍未消除",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看报警历史记录发现修磨时机器人检测到刀片修磨次数达到上限（10000次），故修磨无法正常进行。修改刀片修磨寄存器数值后故障修复",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR080L1焊枪修磨时报“program not exist”"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪修磨时报警？因为修磨程序无法正常执行；"
+		],
+		[
+			"为什么修磨程序无法正常执行？因为修磨前检测到刀片修磨次数达到上限，程序无法正常执行；"
+		],
+		[
+			"为什么排故时间较长？因为故障时产生了次生报警，影响判断故障根本原因；"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "刀片修磨次数达到设定上限，修磨时报错",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修改刀片修磨寄存器数值",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "12\/2\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "评估此检测项的合理性，若无必要则修改修磨程序，取消此检测项",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "12\/4\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：陈烨华",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

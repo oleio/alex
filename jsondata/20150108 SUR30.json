@@ -1,0 +1,222 @@
+{
+	"fileName": "20150108 SUR30.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150108 SUR30.json",
+	"score": 549,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年1月8日10时30分",
+	"fileNameDate": "20150108",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：累计 25min",
+	"areaLocation": "停机区域\/点: SUR",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:滕征       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查滚床驱动变频器显示状态，未发现报警；",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查滚床台面，未发现异物；",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "松SUR30电机刹车，将雪橇推至SUR40；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查滚床滚轮，发现SUR30滚床后方第一根滚轮断裂；并与滚床加强板干涉。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "拆除第一根轴和皮带。",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"带车雪橇在SUR30停止不到位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么带车雪橇在SUR30中间停止？因为SUR30滚床滚轮和滚床加强板干涉。"
+		],
+		[
+			"为什么SUR30滚床滚轮和滚床加强板干涉？因为SUR30滚床入口第一根滚轮轴断裂"
+		],
+		[
+			"为什么SUR30滚床入口第一根滚轮轴断裂？因为滚床滚轮轴设计加工工艺不合理"
+		],
+		[
+			"为什么"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "滚床滚轮轴设计加工工艺不合理。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "拆除断裂滚轴，维持生产。",
+				"resp": "曹鸣晓",
+				"supp": "设备供应商",
+				"compDate": "1\/8\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "使用现有轮轴备件替换断裂损坏的滚轮轴。",
+				"resp": "沈建伟",
+				"supp": "",
+				"compDate": "1\/10\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "供应商重新设计滚床滚轮轴,批量更换。",
+				"resp": "沈建伟",
+				"supp": "",
+				"compDate": "2\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.滕征",
+	"person_GL": "工段长\/ GL:滕 征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

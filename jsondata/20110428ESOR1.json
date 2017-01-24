@@ -1,0 +1,222 @@
+{
+	"fileName": "20110428ESOR1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110428ESOR1.json",
+	"score": 695,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 4 月28 日 06 时 30 分",
+	"fileNameDate": "20110428",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：80min",
+	"areaLocation": "停机区域\/点:ESOR1",
+	"maintainTeam": "维修班组：c",
+	"lostTime": "80",
+	"lostProductNum": "40",
+	"plantName": "厂区：spbs\nPlant",
+	"originator": "填表人\/日期          \nOringinator 陈文佳",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "ESOR1 33 34 模块通讯报警频繁维修对模块及通讯线进行检查",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查模块地址时发现两个模块地址都调在33，维修人员按照铭牌设置地址号后将通讯短线一起更换",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "上电后两块模块通讯都无法建立，模块单独飞线通讯仍无法建立。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换模块通讯故障仍在，检查模块配置发现两个模块的实际地址与配置信息不符。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "按照配置信息将模块地址重新设置，故障消除。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "工位恢复自动",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOR1模块通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么模块通讯故障频繁？因为模块之间的短线接触不良"
+		],
+		[
+			"为什么维修人员对模块地址调整？因为维修人员按照铭牌检查发现地址不对。"
+		],
+		[
+			"为什么调整好地址后模块通讯无法建立？因为实际地址与配置信息不符机器人无法检测到模块。"
+		],
+		[
+			"为什么更换模块？因为当通讯反复无法建立时维修人员未考虑到地址的不匹配"
+		],
+		[
+			"为什么未考虑到地址的不匹配？排故过程中一味依赖外界信息，未能从模块实际作用及配置信息判断模块地址。"
+		]
+	],
+	"rootCause": "模块地址与铭牌信息不符造成维修人员误设错误地址，使通讯无法建立",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换通讯短线",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.4.28",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "模块更换",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.4.28",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "模块铭牌恢复正确位置",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.5.2",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "同类型抓手机器人检查模块地址铭牌与实际地质是否相符",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "2011.5.28",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": " ",
+				"descr": "检查维修通讯电缆回路"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

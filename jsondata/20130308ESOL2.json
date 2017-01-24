@@ -1,0 +1,222 @@
+{
+	"fileName": "20130308ESOL2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130308ESOL2.json",
+	"score": 652,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年3月8日15时15分",
+	"fileNameDate": "20130308",
+	"equipName": "设备名称:机器人中频焊机",
+	"breakdownTime": "停机时间：10min",
+	"areaLocation": "停机区域\/点:  ESO",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "10",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  顾乐宾        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "发现机器人L2与对应中频焊机以太网通讯故障，机器人L2重启后通讯恢复；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "一个工作循环结束后以太网通讯故障再次出现；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查并插拔以太网SWITCH箱、机器人控制箱、中频焊机控制箱以太网通讯电缆接头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "同时重启机器人与焊接控制器后机器人焊机恢复正常工作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "工位部分机器人手动操作，完成当前焊接工序；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO L2机器人与焊机以太网通讯报警，机器人热启动，焊接一辆车后再次以太网报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人L2焊枪无法动作"
+		],
+		[
+			"为什么机器人L2与对应中频焊机没有建立通讯"
+		],
+		[
+			"为什么机器人L2与对应中频焊机以太网通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "L2机器人与对应中频焊机以太网通讯电缆接触不良（根据故障检修中的现象及处理过程，怀疑机器人控制器、焊接控制器中以太网电缆连接接插件接触不良）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新插拔以太网连接电缆接插件，机器人控制器与焊接控制器同时重启。",
+				"resp": "顾乐宾",
+				"supp": "尹熠俊",
+				"compDate": "3\/8\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "跟踪各3个班次该机器人以太网通讯稳定性",
+				"resp": "马晓洲",
+				"supp": "黄波 滕征",
+				"compDate": "3\/9\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "非生产日用万用表检查以太网通讯电缆连接状态，根据检查情况相应处理。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "3\/11\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:孙伟（代）",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20160329E2SO10L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160329E2SO10L3.json",
+	"score": 633,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016.03.29.15",
+	"fileNameDate": "20160329",
+	"equipName": "设备名称:  E2SO010L3",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点: E2SO",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "60",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期: 吴梦杰 16\/03\/29  \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "自动运行时arplas焊接多次出现pre-force报警，维修进入工位,确认板金状态、dimple状态正常。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "工程师到场通过软件察看报警信息，确认是预压过小导致报警。",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "将机器人手动开出焊接位置，用压力计测试焊接压力，结束实测数据正常，但焊机依旧压力过低报警。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "怀疑传感器信号线故障，工程师准备压力传感器信号线备件。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换信号线，手动慢速验证轨迹。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复生产。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E2SO10L3 arplas焊接故障，pre-force报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么arplas焊接过程中报警？因为arplas焊接前会检查焊接压力，压力不足会报警。"
+		],
+		[
+			"为什么arplas焊接压力不足？用压力计实测焊接压力正常，信号线故障导致压力数据不正确。"
+		],
+		[
+			"为什么压力信号线故障？待联系arplas供应商进一步分析。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "信号线故障原因需待arplas供应商进一步分析。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换故障的压力信号线",
+				"resp": "陈烨华",
+				"supp": "吴梦杰",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "将故障的信号线提交供应商进一步分析",
+				"resp": "瞿淼晋",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL：陈烨华",
+	"person_Manager": "工程师\/ENG.:吴梦杰"
+}

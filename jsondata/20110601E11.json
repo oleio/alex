@@ -1,0 +1,222 @@
+{
+	"fileName": "20110601E11.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110601E11.json",
+	"score": 515,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年  7月 1日  21时0  分",
+	"fileNameDate": "20110601",
+	"equipName": "设备名称:压机",
+	"breakdownTime": "停机时间：150min",
+	"areaLocation": "停机区域\/点:E11前门",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "150",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 李成 马晓洲",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "准备备件及工具，维修人员调整，准备修理压机油缸；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "协调生产调整人员全速生产E11前门，堆满BUFFER并调整车型比例；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换压机主油缸密封圈；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E11前门压机工作速度减慢，主油缸漏油。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么压机工作速度减慢？因为压机下降、上升行程速度减慢"
+		],
+		[
+			"为什么压机下降、上升行程速度减慢？因为压机主油缸内部泄漏"
+		],
+		[
+			"为什么压机主油缸内部泄漏？因为压机主油缸密封损坏"
+		],
+		[
+			"为什么压机主油缸密封损坏（已发生多次）？因为主油缸活塞表面有缺陷"
+		],
+		[
+			"为什么主油缸活塞表面有缺陷？因为压机主油缸活塞已经磨损"
+		]
+	],
+	"rootCause": "压机主油缸活塞已经磨损（该压机为北厂车身车间W-CAR车型使用的压机，整修后用于E11车型。）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换密封圈",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "11-6-01",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换压机主油缸",
+				"resp": "李成 马晓洲",
+				"supp": "胡滨",
+				"compDate": "11-10-15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:胡滨"
+}

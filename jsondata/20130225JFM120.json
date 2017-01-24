@@ -1,0 +1,222 @@
+{
+	"fileName": "20130225JFM120.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130225JFM120.json",
+	"score": 631,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年2月25日10时30分",
+	"fileNameDate": "20130225",
+	"equipName": "设备名称:夹具",
+	"breakdownTime": "停机时间：12min",
+	"areaLocation": "停机区域\/点:  JFM",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "12",
+	"lostProductNum": "6",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 宋浩亮         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场检修，发现控制勾销气缸的电磁气阀已经动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查电磁气阀气路，发现气阀已经正常切换；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查勾销没有动作原因过程中，发现勾销控制气路快插接头漏气比较严重；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "怀疑漏气导致勾销气缸动作无力，拆卸漏气接头，发现气管已经从接头中缩回，仅靠防飞溅护套连接；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换气管与状态不佳的气管接头，勾销夹头恢复正常工作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090右前勾销无法打开"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么勾销夹头无法打开？因为勾销驱动气缸动作力不足"
+		],
+		[
+			"为什么勾销驱动气缸动作力不足？因为勾销驱动气缸供气压力不足"
+		],
+		[
+			"为什么勾销驱动气缸供气压力不足？因为气管接头及气管泄漏"
+		],
+		[
+			"为什么气管接头及气管泄漏？因为防飞溅气管不当使用，安装快插接头时没有剥去防护层，直接用大一号的快插接头配合使用。气管老化后内外层脱开，靠气管防飞溅层连接。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "飞溅气管不当使用，安装快插接头时没有剥去防护层，直接用大一号的快插接头配合使用。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换快插接头和破裂的防飞溅气管",
+				"resp": "顾乐宾",
+				"supp": "孙伟",
+				"compDate": "2\/25\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "结合工装漏气整改，排查总拼区域防飞溅气管不当使用问题并整改。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "3\/15\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备抢修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:孙伟（代）",
+	"person_ENG": "工程师\/ENG.:马晓洲（代）",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

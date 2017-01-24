@@ -1,0 +1,222 @@
+{
+	"fileName": "20150707 EMC036-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150707 EMC036-Y.json",
+	"score": 677,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.7.7 14：30",
+	"fileNameDate": "20150707",
+	"equipName": "设备名称:机器人及焊枪",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点:EMC36",
+	"maintainTeam": "维修班组：B\/C",
+	"lostTime": "110",
+	"lostProductNum": "60",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄伟杰 \/7.7   \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "机器人7号轴碰撞报警，尝试手动盘伺服电机无果；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "现场开始拆卸伺服电机，同时焊接工程师准备电机；",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆卸伺服电机过程中编码线接头由于螺纹不好无法拆下，断电情况下剪断；",
+				"lostMin": 15,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "安装伺服电机；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动尝试将机器人开出做焊枪零位时发现机器人丢失；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "根据机器人零位标签做机器人零位；",
+				"lostMin": 30,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "根据已焊接焊点及修磨位置校准机器人零位数据并验证焊接轨迹后恢复运行。",
+				"lostMin": 25,
+				"success": "X"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"焊枪伺服电机卡死更换后机器人零位丢失"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人7号轴碰撞报警"
+		],
+		[
+			"为什么更换伺服电机后机器人无法在直角坐标系中动作"
+		],
+		[
+			"为什么机器人零位会丢失"
+		],
+		[
+			"为什么编码器失电后数据丢失"
+		],
+		[
+			"为什么电池盒发生短路"
+		]
+	],
+	"rootCause": "因为在未拔掉机器人J3轴哈丁插头的状态下剪断伺服编码线，现场维修人员对编码器工作原理未有效掌握。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换伺服电机",
+				"resp": "唐萃众",
+				"supp": "黄伟杰",
+				"compDate": "7\/7\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制作机器人零位并验证轨迹",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "7\/7\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更新伺服电机更换的MTS,增加注意项，培训维修人员更换编码线时需要注意的要点",
+				"resp": "黄伟杰",
+				"supp": "",
+				"compDate": "7\/7\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对编码器供电原理图的一点课程进行回炉培训。",
+				"resp": "钱毅吉",
+				"supp": "滕征",
+				"compDate": "7\/8\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "机器人7号轴碰撞报警，尝试手动盘伺服电机；"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拆卸伺服电机的同时焊接工程师准备电机；"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "安装伺服电机；"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "做焊枪零位。"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG:黄伟杰",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager:邱正东"
+}

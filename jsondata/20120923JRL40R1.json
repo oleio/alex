@@ -1,0 +1,222 @@
+{
+	"fileName": "20120923JRL40R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120923JRL40R1.json",
+	"score": 655,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 9月23日6时30分",
+	"fileNameDate": "20120923",
+	"equipName": "设备名称: R1",
+	"breakdownTime": "停机时间：累计20  min",
+	"areaLocation": "停机区域\/点:    JRL40",
+	"maintainTeam": "维修班组：c",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李颖琛          \nOringinator\/201 . .  ",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动示教，发现BACKUP气缸控制阀没有电磁阀控制信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进工位检查电缆插头插座状态，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "联系生产进行E-CAR backup生产，同时将机器人手臂开到围栏边检修焊枪控制电路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "因开班前更换过转动接头19芯电缆插座，首先拆开插座检查内部插针与电缆芯线的连接情况；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "发现电缆插座中有2根插针从插座孔中退出，导致插头插座公母插针无法可靠接触；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换止退倒刺损坏的2根插针；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复设备正常生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL40R1夜班生产结束后修理焊枪19芯电缆插座，工作完成开班后焊接车2辆"
+		],
+		[
+			"出现焊枪BACKUP气缸无法CLOSE BACKUP故障。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"因为插座内的一根雄针止退倒刺损坏，缩入插座。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "修理过程中损坏了插针倒刺，安装完成后没有检查出插针固定状态不良。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换插座内插针止退倒刺损坏的2根插针",
+				"resp": " 樊超杰",
+				"supp": "   李颖琛",
+				"compDate": "9\/23\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "准备插针安装实验培训课需要的材料,培训考核维修班组员工。",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "10\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查班组退针器工具完好情况，发现有问题的工具报废、更换",
+				"resp": "李颖琛陈烨华黄光耀",
+				"supp": "胡滨",
+				"compDate": "10\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

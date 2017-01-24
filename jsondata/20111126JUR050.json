@@ -1,0 +1,222 @@
+{
+	"fileName": "20111126JUR050.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111126JUR050.json",
+	"score": 637,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011  年 11  月26日 12  时 30  分",
+	"fileNameDate": "20111126",
+	"equipName": "设备名称:JUR050L1",
+	"breakdownTime": "停机时间：55",
+	"areaLocation": "停机区域\/点:  JUR050",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "55",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期            \nOringinator   尹熠俊2011。11.26",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JUR050L1机器人焊枪无动作，TURCK模块通讯故障。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查通讯各站点，发现其他模块通讯状态正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查机器人MASTER卡D型插头并重新紧固。无效",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查机器人J1轴底座处插座并紧固接头正常，检查TURCK模块处插头正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "怀疑故障点仍为MASTER卡处插头，更换机器人MASTER卡处D型插头，机器人通讯恢复正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JUR050L1 TURCK模块通讯故障通讯报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JUR050L1焊枪无动作？因为机器人模块通讯故障。"
+		],
+		[
+			"为什么机器人模块通讯故障？因为网络回路接触不良造成"
+		],
+		[
+			"为什么网络不稳定？因为机器人控制柜内MASTER卡处D型接头接触不良"
+		],
+		[
+			"为什么D型接头接触不良？因为此型号D型接头质量较差接线后会造成接触不良。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "D型通讯插头为卡线式易接触不良造成通讯状态不稳定",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换D型插头",
+				"resp": "尹熠俊",
+				"supp": "陈文佳",
+				"compDate": "2011。11.26",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "机器人控制柜排查此类D型插头并批量更换(原型号为PHONIEX 替换为SIEMENS 6ES72-B型号）",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011。12.26",
+				"status": "1 \/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

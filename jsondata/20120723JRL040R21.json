@@ -1,0 +1,222 @@
+{
+	"fileName": "20120723JRL040R21.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120723JRL040R21.json",
+	"score": 845,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月24日6时50分",
+	"fileNameDate": "20120723",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：15min+10min+60min",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：C+B",
+	"lostTime": "60",
+	"lostProductNum": "40",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 曹鸣晓         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场检修，发现电极杆前端电极帽安装锥面断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拆卸损坏的电极杆，从现场料架上取用备件更换；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "维修夜班更换电极杆内部的尼龙冷却水管；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "调整焊枪对中性，恢复设备正常运行；（7月23日早中班各发生一次15min+10min）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "2012\/7\/24早班再次发生电极杆断裂，经过分析还是焊枪握杆发烫，塑性变差断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "使用压缩空气检查冷却回路，发现焊枪电极臂冷却水进水水路堵塞；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "更换进水水路堵塞的电极臂，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL40R2机器人焊枪电极杆安装电极帽锥面断裂，更换电极杆。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊枪故障报警停止？因为机器人焊枪WATERWAVER报警"
+		],
+		[
+			"为什么机器人焊枪WATERWAVER报警？因为焊枪下电极帽脱落"
+		],
+		[
+			"为什么焊枪下电极帽脱落？因为机器人焊枪握杆电极帽安装锥面断裂"
+		],
+		[
+			"为什么机器人焊枪握杆电极帽安装锥面断裂？因为焊枪握杆TAB发烫，塑性变差断裂。"
+		],
+		[
+			"为什么焊枪握杆TAB发烫？因为该电极杆内部特氟龙管有两个弯折，造成有效通水面积小；水路长期使用杂质沉淀，影响冷却效果。"
+		]
+	],
+	"rootCause": "该电极杆内部特氟龙管有两个弯折，水路长期使用杂质沉淀，影响冷却效果。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修更换电极帽安装锥面疲劳断裂的焊枪握杆。",
+				"resp": "曹鸣晓",
+				"supp": "李颖琛",
+				"compDate": "7\/23\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班更换内部特氟龙管。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "7\/23\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "周末清洗主线工位的冷却水滤网。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "8\/5\/2012",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "评估此电极杆使用的特氟龙管的弯曲半径，尝试用弯曲半径更小的特氟龙管代替。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "8\/5\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "使用直径为20u的过滤网，减少水路中的杂质对焊枪冷却回路的影响。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "9\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

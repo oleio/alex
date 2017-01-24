@@ -1,0 +1,222 @@
+{
+	"fileName": "20110621JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110621JFM090.json",
+	"score": 523,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月21日10时16分",
+	"fileNameDate": "20110621",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：12MIN",
+	"areaLocation": "停机区域\/点:JFM090",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "12",
+	"lostProductNum": "4",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 李颖琛\n2011-6-27",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位检查UNIT227夹紧状态，发现夹头无法打开原因为焊接飞溅卡住夹头动作机构；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "携带工具清除UNIT227夹头运动机构上的飞溅，WD40润滑夹头转轴；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼JFM90工位E10车型UNIT277夹头打开不到位报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为UNIT227夹头打开不到位"
+		],
+		[
+			"为什么UNIT227夹头打开不到位？因为夹头运动机构上有过多的焊接飞溅未得到及时清理（因生产线其它原因停，花较多时间彻底清理）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "夹头运动机构上有过多的焊接飞溅未得到及时清理",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "清理夹头运动机构上的焊接飞溅",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "11-6-21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "6月26日非生产日安排人员清理夹头飞溅",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "11-6-27",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "同生产工段交流，推动生产DTPM参与定期清理飞溅。",
+				"resp": "马晓洲",
+				"supp": "潘慧韬",
+				"compDate": "11-6-27",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

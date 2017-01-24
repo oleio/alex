@@ -1,0 +1,222 @@
+{
+	"fileName": "20130329SUB025L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130329SUB025L3.json",
+	"score": 687,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年3月29日12时15分",
+	"fileNameDate": "20130329",
+	"equipName": "设备名称:3005焊机",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点:  SFL010L3",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "40",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 瞿淼晋         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "SUB025工位L3机器人焊接报警，维修到场后发现机器人焊机比例阀无输出压力。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "怀疑电子比例阀故障导致无输出压力，利用其它焊机模拟量信号飞线替代判断，确定比例阀没有问题。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查焊机模拟量控制模块上的输出信号，无电压。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "使用编程器连接焊机控制器，发现焊接程序部分丢失、错误。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "判断Medar模块故障，从C-car区域拆用Medar模块进行更换，调整焊接参数后设备恢复正常运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUB025L3机器人3005焊机Medar模块故障,导致机器人焊枪无法焊接。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊枪无法正常焊接？因为机器人焊枪比例控制气阀无压力输出。"
+		],
+		[
+			"为什么机器人焊枪比例控制气阀无压力输出。？因为焊机无法调用相关压力参数。"
+		],
+		[
+			"为什么焊机无法调用相关压力参数。？因为控制器焊接程序错误,部分参数丢失。"
+		],
+		[
+			"为什么控制器焊接程序错误,部分参数丢失。？因为储存焊机设置参数及焊接程序的Medar模块故障失效。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "储存焊机设置参数及焊接程序的Medar模块故障失效",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换Mdear模块，设置焊接参数。",
+				"resp": "陈烨华",
+				"supp": "郑旭俊",
+				"compDate": "3\/29\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系供应商检查分析MEDAR模块焊接程序丢失原因，根据分析情况确定长期措施。",
+				"resp": "瞿淼晋",
+				"supp": "孙杰",
+				"compDate": "4\/4\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:瞿淼晋",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120208E11.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120208E11.json",
+	"score": 730,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年 2 月 8日11时0分",
+	"fileNameDate": "20120208",
+	"equipName": "设备名称:压机",
+	"breakdownTime": "停机时间：150min",
+	"areaLocation": "停机区域\/点: 后门",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "150",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 马晓洲      \nOringinator 2012.2.08 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "E11后门压机无法上升下降，手动操作情况相同；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查油路控制电磁阀工作顺序正确；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查压机油路切换情况，发现压机液压泵声音过轻；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "停止液压泵电机，锁定液压泵电源开关，拆除电机冷却风扇防护罩壳，发现风扇可以用手指轻轻转动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "根据故障现象判断液压泵电机与油泵机械联轴器脱开；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "用登高车在厂房结构上悬挂手动葫芦拆卸电机，修复联轴节后恢复压机正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E11后门压机油缸无法上升下降"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么压机无法油缸无法上升下降？因为压机油缸没有液压油驱动压力"
+		],
+		[
+			"为什么压机油缸没有液压油驱动压力？因为液压油泵没有实际转动"
+		],
+		[
+			"为什么液压油泵没有实际转动？因为电机与油泵的联轴器脱开、下滑"
+		],
+		[
+			"为什么电机与油泵的联轴器脱开、下滑？因为油泵端联轴器顶紧螺丝松动"
+		],
+		[
+			"为什么油泵端联轴器顶紧螺丝松动？因为历史上压机保养油泵，恢复安装键销固定顶紧螺丝时未用螺纹胶防松"
+		]
+	],
+	"rootCause": "历史上压机保养油泵，恢复安装键销固定顶紧螺丝时未用螺纹胶防松。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "现场抢修内部联轴器脱开的油泵",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "12-02-08",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "重新安装油泵端联轴器时使用足量螺纹紧固胶",
+				"resp": "夏伟",
+				"supp": "殷致平",
+				"compDate": "12-02-08",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "门盖压机液压油箱上方加装龙门架，方便压机液压系统维修，提高响应速度。（共四台）",
+				"resp": "马晓洲",
+				"supp": "胡滨",
+				"compDate": "12-05-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "螺纹胶正确使用方法及作用一点课程培训维修工",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "12-02-20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

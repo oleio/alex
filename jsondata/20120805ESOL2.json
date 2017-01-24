@@ -1,0 +1,222 @@
+{
+	"fileName": "20120805ESOL2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120805ESOL2.json",
+	"score": 851,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月5日9时30分",
+	"fileNameDate": "20120805",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:  ESO",
+	"maintainTeam": "维修班组：",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 顾乐宾         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场分析确定故障原因并更换损坏的握杆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查调整机器人放枪轨迹 & 调整机器人停枪支点高度；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "调整机器人轨迹检查放枪成功位置点（将焊枪放下，机器人车换枪盘上升大约100mm后）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "当日生产结束后修改停枪支点位置并再次调整机器人放枪轨迹；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO L2机器人将焊枪放到停枪支架上时将焊枪带出，焊枪坠落到地面导致握杆损坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪坠落地面？因为机器人放枪时将机器人焊枪带离停枪支架"
+		],
+		[
+			"为什么机器人放枪时将机器人焊枪带离停枪支架？因为机器人将焊枪放到停枪支架上脱离时机器人侧换枪盘\/工具侧换枪盘轴线不垂直于水平面"
+		],
+		[
+			"为什么机器人将焊枪放到停枪支架上脱离时机器人侧换枪盘\/工具侧换枪盘轴线不垂直于水平面？因为停枪支架3支点没有平稳托住焊枪"
+		],
+		[
+			"为什么停枪支架3支点没有平稳托住焊枪 因为焊枪重心不在停枪3支点园平面内，支点位置不合理"
+		],
+		[
+			"为什么使用原NITTA换枪盘时没有出现问题？因为原NITTA换枪盘采用3爪结构，对机器人侧换枪盘与工具侧换枪盘分离要求低。（WATHER换枪盘采用环形分布滚珠锁紧，分离时要求机器人侧换枪盘与工具侧换枪盘轴线垂直于水平面）"
+		]
+	],
+	"rootCause": "停枪支架支点分布位置不合理造成焊枪停放位置不佳，导致相应的放枪轨迹无法满足WATHER换枪盘可靠分离条件。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时修改机器人轨迹，通过机器人手臂微微晃动可靠放枪。",
+				"resp": "黄光耀",
+				"supp": "尹熠俊",
+				"compDate": "8\/5\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调整机器人轨迹检查放枪成功位置点，避免分离失败导致焊枪坠落；",
+				"resp": "徐啸顺 黄光耀",
+				"supp": "",
+				"compDate": "8\/5\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整机器人停枪支点位置，保证焊枪在停枪支架上平稳放置并相应调整机器人抓放枪轨迹；",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "8\/6\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

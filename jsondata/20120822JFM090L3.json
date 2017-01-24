@@ -1,0 +1,222 @@
+{
+	"fileName": "20120822JFM090L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120822JFM090L3.json",
+	"score": 569,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年 8月22日9时  0分",
+	"fileNameDate": "20120822",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：14",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "14",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator李颖琛",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM90L3 E-CAR枪换L-CAR枪时故障。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进工位发现L3 E-CAR焊枪的停放臂垫圈丢失，造成停枪时晃动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "临时强制信号，手动换枪。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "上自动后其他机器人完成焊接，L3手动操作完成CYCLE。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90L3 E-CAR枪换L-CAR枪时故障。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM90L3 E-CAR枪换L-CAR枪时故障？因为L3 E-CAR焊枪的停放臂垫圈丢失。"
+		],
+		[
+			"为什么L3 E-CAR焊枪的停放臂垫圈丢失？因为机器人抓枪时垫圈和定位销产生干涉。"
+		],
+		[
+			"为什么机器人抓枪时垫圈和定位销产生干涉？停枪支架长期使用产生形变。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "停枪支架产生形变，机器人抓放枪时垫圈和定位销产生干涉。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "手动完成焊枪切换，临时用铜皮填补间隙，恢复生产。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2012\/8\/22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整机器人抓放枪位置。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2012\/9\/2",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "使用带支头螺柱的停放臂垫圈。",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2012\/9\/2",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "在主线TPM换枪盘检查中增加对机器人抓枪轨迹的检查。",
+				"resp": "钱俊",
+				"supp": "三班维修",
+				"compDate": "2012\/9\/1",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:"
+}

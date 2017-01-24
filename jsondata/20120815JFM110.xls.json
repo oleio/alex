@@ -1,0 +1,222 @@
+{
+	"fileName": "20120815JFM110.xls.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120815JFM110.xls.json",
+	"score": 687,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月15日08时20分",
+	"fileNameDate": "20120815",
+	"equipName": "设备名称:升降滚床",
+	"breakdownTime": "停机时间：累计38min",
+	"areaLocation": "停机区域\/点: JFM110",
+	"maintainTeam": "维修班组：c",
+	"lostTime": "38",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李颖琛          \nOringinator\/2012.8.13",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "控制工程师对JFM110设车型，手动戳阀切换底板夹头，手动操作升降滚床上升到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "几辆车后工位的车型再次丢失，控制工程师PLC程序中设车型时发现滚床上的传感器信号全全部闪烁，由此怀疑输入模块输入端有短路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "检查现场输入模块上外露的信号线,未发现异常,模块指示灯也正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "根据故障情况及电缆走向判断，升降滚床上随滚床升降的3根信号电缆损坏的可能性高；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换怀疑短路损坏的3根传感器电缆并临时捆扎；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "工位恢复自动生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM110滚床上升过程中故障，车型丢失,底板夹头动作次序错乱。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM110滚床上升过程中故障？          因为JFM110工位车型丢失"
+		],
+		[
+			"为什么JFM110工位车型丢失？                因为工位滚床雪橇到位信号丢失"
+		],
+		[
+			"为什么工位滚床雪橇到位信号丢失？          因为对应输入的输入模块接线有短路"
+		],
+		[
+			"为什么对应输入的输入模块接线有短路"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "传感器信号电缆在线槽开口处损坏，电缆线槽敷设不当。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换升降滚床上下运动的3根传感器电缆",
+				"resp": "李颖琛",
+				"supp": "黄轶佳",
+				"compDate": "8\/15\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "整改电缆线槽，避免因线槽问题损坏电缆。",
+				"resp": "李颖琛 陈烨华黄光耀",
+				"supp": "",
+				"compDate": "10\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

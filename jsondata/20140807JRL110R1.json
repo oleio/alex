@@ -1,0 +1,222 @@
+{
+	"fileName": "20140807JRL110R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140807JRL110R1.json",
+	"score": 745,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年8月07日17时50分",
+	"fileNameDate": "20140807",
+	"equipName": "设备名称:机器人气动焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: JRL",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  曹鸣晓        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "生产抱怨机器人R1 A10焊点没有焊接，会同生产人员共同检查焊点缺少状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "发现实际情况是：部分焊点没有焊到，部分焊点位置发生偏移，半点焊；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "怀疑落车位置偏导致焊点漂移，检查底板工装相关定位销、定位基准状态，正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查机器人焊枪平衡缸状态，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查机器人焊枪限位螺栓，完好但锁紧螺母松动，紧固；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复过车，生产人工工位补焊A10缺少的焊点；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "工位过ECAR时焊点无异常，分析焊点缺少原因，过615车型时调整焊枪止动螺栓位置并拧紧锁紧螺母。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"生产抱怨JRL110R1焊枪A10焊点没有焊接"
+		],
+		[
+			"白车身补焊造成影响过车"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么A10车型焊点偏移？因为R1机器人焊枪焊接位置发生变化"
+		],
+		[
+			"为什么R1机器人焊枪焊接位置发生变化？因为焊枪静电极臂与板材碰擦导致焊枪位置偏移"
+		],
+		[
+			"为什么焊枪静电极臂与板材碰擦？因为焊枪在焊枪固定支架上的位置发生了变化"
+		],
+		[
+			"为什么焊枪在焊枪固定支架上的位置发生了变化？因为焊枪止动螺栓位置发生了变化"
+		],
+		[
+			"为什么焊枪止动螺栓位置发生了变化？因为A10项目新装的R1焊枪止动螺栓锁紧螺母未拧死"
+		]
+	],
+	"rootCause": "A10项目新装的R1焊枪止动螺栓锁紧螺母未拧死",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整R1焊枪止动螺栓位置，恢复焊枪正常位置后拧死锁紧螺母。",
+				"resp": "樊超杰",
+				"supp": "",
+				"compDate": "8\/7\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "梳理A10项目新装及发生变更的焊枪清单，安排专项工作检查拧紧。",
+				"resp": "费望德",
+				"supp": "瞿淼晋",
+				"compDate": "8\/20\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

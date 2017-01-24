@@ -1,0 +1,222 @@
+{
+	"fileName": "20130217JRL100L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130217JRL100L3.json",
+	"score": 627,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年2月17日1时45分",
+	"fileNameDate": "20130217",
+	"equipName": "设备名称:L3机器人焊枪",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点: JRL100",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "30",
+	"lostProductNum": "23",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  陆强        \nOringinator 2013.2.17",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL100工位报警，进入工位检查发现L3与车身碰撞，电极杆未打开，手动将焊枪开出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查焊枪，发现焊枪在带气情况下能人工拉动，怀疑气缸内部脱开；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆开气缸检查内部状态，内缸正常；开缸检查气路发现GUN CLOSE常通，确认电磁阀故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "打开焊接电磁阀发现先导阀阀头卡住；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换先导阀，确认气缸状态正常后恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL100L3焊枪与白车身碰撞，焊枪电极杆未打开"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么L3焊枪撞白车身？因为电极杆未打开；"
+		],
+		[
+			"为什么焊枪电极杆未打开？因为焊枪气缸未动作；"
+		],
+		[
+			"为什么焊枪气缸未动作？因为GUN OPEN未导通；"
+		],
+		[
+			"为什么GUN OPEN未导通？因为先导阀卡住；"
+		],
+		[
+			"为什么先导阀卡住？因为此焊枪为新更换的备枪，保养时间较长，可能存在运行问题；"
+		]
+	],
+	"rootCause": "焊枪先导阀卡住导致不动作，与白车身碰撞",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换先导阀",
+				"resp": "陈烨华",
+				"supp": "黄智君",
+				"compDate": "2\/17\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "焊接组对焊枪排故过程进行MTS的整理和培训",
+				"resp": "孙杰",
+				"supp": "沈建伟",
+				"compDate": "2\/24\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对供应商保养后的焊枪在半年内安排上线测试",
+				"resp": "孙杰",
+				"supp": "焊接组",
+				"compDate": "N\/A",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除维修步骤2以外的操作过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

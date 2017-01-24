@@ -1,0 +1,222 @@
+{
+	"fileName": "20120504JRL060R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120504JRL060R1.json",
+	"score": 1198,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 05 月 04日17时 00分",
+	"fileNameDate": "20120504",
+	"equipName": "设备名称:JRL60R1焊枪",
+	"breakdownTime": "停机时间：累计40min",
+	"areaLocation": "",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "40",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期       \nOringinator 2012.5.4  黄波",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JRL60R1焊枪在焊接车身过程中动作异常与车身发生碰撞报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进工位发现焊枪在非焊接过渡点时处于闭合状态，手动机器人示教板发出焊枪打开输出指令，焊枪电磁阀无动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查焊枪电磁阀状态发现焊枪关闭信号灯常亮且无法用输出信号关闭；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "拔掉关闭电磁阀阀头，手动戳电磁阀阀芯正常切换，焊枪动作正常，初步判断电磁阀输出信号24V短路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "将机器人焊枪开至安全维修位将后将该机器人Bypass并通知生产启动Backup生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "用备用焊枪信号线跨接机器人本体TURCK模块至焊枪接线盒，故障依旧，初步排除了机器人DRESS内信号线损坏短路的可能；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "打开焊枪接线盒检查内部信号线端子排，在焊枪关闭指令OFF情况下用万用表测量信号线端子排上焊枪关闭输出点P常有24V输出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL60R1机器人焊枪在非焊接轨迹中处于完全闭合状态且无法用输出指令打开；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊枪在非焊接轨迹中处于完全闭合状态？因为在机器人输出模块未输出焊枪关闭信号情况下焊接电磁阀收到了焊枪关闭输出24V电压；"
+		],
+		[
+			"为什么在机器人输出模块未输出焊枪关闭信号情况下焊接电磁阀收到了关闭输出24V指令？因为电磁阀信号输出线路与相邻24V电信号线路形成了并联回路，使焊枪关闭电磁阀获取了常通24V；"
+		],
+		[
+			"为什么电磁阀信号输出线路与相邻24V电信号线路形成了并联回路并使焊枪关闭电磁阀获取了常通24V？可能原因1.焊枪接线盒内部端子排接线头松散铜丝引起短路 2.端子排与TURCK模块连接19芯线缆内部短路 "
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "可能原因：1.焊枪接线盒内部端子排接线头松散铜丝引起短路 2.端子排与TURCK模块连接19芯线缆内部短路 　（待PM工作日换下相关元件解体分析确定原因）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.焊枪关闭输出点P从接线端子3#端子拆下重新整理线头后换至空置的备用12#端子；",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "2012\/5\/4",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.生产停产时将焊枪接线盒端子排进行更换并将该接线端所有线束拆下后整理搪锡正确接线；",
+				"resp": "黄光耀",
+				"supp": "A班",
+				"compDate": "2012\/5\/4",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.焊接组对主线机器人3个月内新换焊枪接线盒内部接线排进行专项检查，举一反三；",
+				"resp": "A\/B\/C维修班组、焊接组",
+				"supp": "",
+				"compDate": "2012\/5\/13",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.后续拆下的19芯线缆剖析分析确定故障根本原因并相应制定进一步的长期措施；",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012\/5\/13",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "8",
+				"descr": "判断为TURCK模块由于当时故障状态下外部信号短路而引起模块本体故障死机所以无法执行机器人指令，将TURCK模块断电重启并将机器人也重启恢复与TURCK模块的Profibus通讯后故障排除"
+			}
+		],
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:孙杰"
+}

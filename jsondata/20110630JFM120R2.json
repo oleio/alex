@@ -1,0 +1,222 @@
+{
+	"fileName": "20110630JFM120R2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110630JFM120R2.json",
+	"score": 460,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月29日22时45分",
+	"fileNameDate": "20110630",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：30MIN",
+	"areaLocation": "停机区域\/点:JFM120R2",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 张培民",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM120R2更换电极帽后修磨时电极帽脱落",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进工位关水重新安装电极帽",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "示教机器人时发现有急停报警无法复位",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查其他三台机器人状态并复位无效",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "查看R2示教板报警记录发现曾经发生示教板保险丝故障",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "更换示教板保险丝，恢复生产",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120R2急停报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人机器人修磨时急停报警？因为示教板保险丝烧坏"
+		],
+		[
+			"为什么示教板保险丝烧坏？因为机器人示教板存在短路"
+		],
+		[
+			"为什么存在短路？因为有水渗入示教板通讯电缆接头处"
+		],
+		[
+			"为什么水渗入电缆接头？因为watersaver失效"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "WATERSAVER失效",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换示教板损坏的保险丝",
+				"resp": "张培民",
+				"supp": "",
+				"compDate": "11-6-30",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "修复损坏的WATERSVER",
+				"resp": "B班",
+				"supp": "",
+				"compDate": "11-7-5",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

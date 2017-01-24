@@ -1,0 +1,222 @@
+{
+	"fileName": "20120626JFM120R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120626JFM120R1.json",
+	"score": 930,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 6月26日21时50分",
+	"fileNameDate": "20120626",
+	"equipName": "设备名称:R1机器人抱箍",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点: JFM120",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "60",
+	"lostProductNum": "45",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:马安颹     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM120R1在焊接E10时故障报警，查看示教板，R1在等backup打开信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动示教R1，打开backup行程，完成cycle，恢复自动运行；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "第二辆E10进入工位，R1仍然在该位置等待打开信号；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进入工位查看，发现R1动电极杆与板材干涉，手动示教R1，调整该焊点位置；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "调整好继续示教时，发现第二点焊点仍然与板材干涉，检查焊枪时发现J6轴抱箍断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "修复抱箍后复位，手动示教焊点，R1与1号梁干涉，平衡缸未动作，检查19芯电缆发现接头断开，电磁阀上无信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "19芯电缆飞线，手动示教确认无干涉后，恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM120 R1 焊接E10时与板材干涉，故障报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R1故障报警？因为R1在等backup打开信号；"
+		],
+		[
+			"为什么R1 backup打开信号不好？因为动电极杆与板材有干涉，卡住；"
+		],
+		[
+			"为什么R1动电极杆与板材干涉？因为19芯电缆接头脱开，平衡缸未动作，焊枪静臂未抬起，进入时与板材干涉，将侧围向外推移，故动电极杆打焊点时嵌入板材之间（E10车顶扶手支架焊点）；"
+		],
+		[
+			"为什么19芯电缆接头会脱开？因为R1的J6轴抱箍断裂，拉扯到19芯电缆；"
+		],
+		[
+			"为什么R1的J6轴抱箍断裂？因为此焊枪618车型焊接轨迹复杂导致抱箍受拉力较大，抱箍长期受力螺栓断裂。"
+		]
+	],
+	"rootCause": "焊枪618车型焊接轨迹复杂导致抱箍受拉力较大，抱箍长期受力螺栓断裂。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修J6轴的抱箍，19芯电缆飞线，更换所有抱箍固定螺栓。",
+				"resp": "马安颹",
+				"supp": "黄智君",
+				"compDate": "2012.6.26",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "每两周对此焊枪的抱箍紧固状态进行检查，每2个月更换抱箍固定螺栓。",
+				"resp": "章逸楠",
+				"supp": "黄光耀",
+				"compDate": "马上实施",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "平衡、优化焊点，将导致轨迹复杂的焊点移到其它工位焊接。",
+				"resp": "徐啸顺",
+				"supp": "尹熠俊",
+				"compDate": "2012.7.1",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位检查，J6轴抱箍螺母断裂，19芯电缆接头损坏；"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "修复J6轴抱箍，19芯电缆飞线，确认轨迹正常后恢复自动运行；"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

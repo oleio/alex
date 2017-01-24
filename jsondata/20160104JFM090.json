@@ -1,0 +1,222 @@
+{
+	"fileName": "20160104JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160104JFM090.json",
+	"score": 578,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016-01-04",
+	"fileNameDate": "20160104",
+	"equipName": "设备名称:机运线滚床",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄光耀马晓洲      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM090工位雪橇运行出现异常，现场维修将雪橇拉到位，控制工程师设车型恢复设备自动运行",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "问题重复出现，重复步骤2恢复设备运行后控制工程师联机追踪故障根本原因",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "发现JFM090滚床停止位传感器信号不稳定，进入工位更换出现问题的传感器信号电缆",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090工位雪橇 RUN IN 时超程或 RUN OUT 时异常停止，问题重复出现。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM90工位雪橇需要人工干预并设置车型恢复运行"
+		],
+		[
+			"为什么工位雪橇运行不正常"
+		],
+		[
+			"为什么JFM090工位雪橇 RUN IN 时超程或 RUN OUT 时异常停止"
+		],
+		[
+			"为什么滚床停止位传感器信号不稳定"
+		],
+		[
+			"为什么传感器信号电缆内部芯线疲劳断裂"
+		]
+	],
+	"rootCause": "传感器信号电缆用塑料蛇皮管保护时处理不当导致信号线固定位置重复折弯。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修更换发生稳定的信号电缆",
+				"resp": "黄光耀",
+				"supp": "李颖琛",
+				"compDate": "1\/4\/2016",
+				"status": "24\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "车间内排查升降滚床类似布线的信号电缆,消除故障隐患。",
+				"resp": "黄光耀 陈烨华 曹鸣晓",
+				"supp": "李颖琛",
+				"compDate": "1\/15\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤1以外的维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL黄光耀",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

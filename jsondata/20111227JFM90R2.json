@@ -1,0 +1,222 @@
+{
+	"fileName": "20111227JFM90R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111227JFM90R2.json",
+	"score": 662,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 12 月 28日2时 30分",
+	"fileNameDate": "20111227",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:    JFM",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 章轶楠      \nOringinator 2011.12.28 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "R2焊枪焊接618车型是粘电极帽，更换后再次粘掉；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将焊枪开到HOME位置，检查焊枪、更换电极帽后修磨，仍然后粘枪现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "后焊枪在某些焊点出现爆电极帽现象及钩枪现象，由此怀疑焊枪动作速度慢导致问题产生；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "焊枪关闭打开加0.1S延时后恢复设备运行，跟踪至当班结束焊枪工作正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90工位R2焊枪焊接618车型时粘电极帽，后焊枪出现爆电极帽现象。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪粘电极帽？因为焊枪有程度不同的炸电极帽现象"
+		],
+		[
+			"为什么焊枪有程度不同的炸电极帽现象？因为焊枪在没有完全建立焊接压力的情况下通电焊接"
+		],
+		[
+			"为什么焊枪在没有完全建立焊接压力的情况下通电焊接？因为焊枪关闭打开速度变慢"
+		],
+		[
+			"为什么焊枪关闭打开速度变慢？因为焊枪控制电磁阀阀芯不灵活动作速度慢"
+		],
+		[
+			"为什么焊枪控制电磁阀阀芯不灵活动作速度慢？因为焊枪电磁阀长期使用性能变差"
+		]
+	],
+	"rootCause": "焊枪电磁阀长期使用性能变差，导致焊枪动作速度慢。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "焊枪打开关闭加0.1S延时维持工作，当班生产结束后更换焊枪电磁阀",
+				"resp": "章轶楠",
+				"supp": "黄光耀",
+				"compDate": "11-12-28",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "统计车间内机器人气动焊枪电磁阀的使用年限，制定计划预防性更换。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "12-01-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:程超",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

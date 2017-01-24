@@ -1,0 +1,222 @@
+{
+	"fileName": "20151222EUB050R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151222EUB050R2.json",
+	"score": 642,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年12月22日23时00分",
+	"fileNameDate": "20151222",
+	"equipName": "设备名称:R2机器人",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "停机区域\/点: EUB050",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄波     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "纠正EUB050R2调用的程序错误，将机器人示教至HOME位置",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "所有机器人焊接完成",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "修改PLC控制程序，增加车型传递时间，保证车型信息准确传递至机器人",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复工位自动",
+				"lostMin": 0,
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB050R2机器人在工位E6车型时提前调用E15程序，R2机器人Gripper抓取零件准备放料"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么EUB050R2机器人Gripper抓取零件后等待？因为机器人调用程序与当前车型不匹配"
+		],
+		[
+			"为什么机器人调用程序与当前车型不匹配？当时EUB40和50工位处于E15\/E16切换的状态下，机运线传输时操作人员触发安全光栅，工位恢复自动时R2提前调用了与车型不匹配的程序"
+		],
+		[
+			"为什么工位恢复自动时R2提前调用了与车型不匹配的程序？因为机运线FWD时发生急停，工位车型传递滞后"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机运线FWD发生故障时工位车型传递滞后，机器人得到了上一个工位的车型，发生程序调用错误。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "纠正EUB050R2调用的程序错误",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "12\/22\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "分别示教机器人完成焊接工艺",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "12\/23\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "梳理机器人提前调用程序时车型传递控制的可靠性",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "12\/30\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL 黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

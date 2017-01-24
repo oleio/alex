@@ -1,0 +1,222 @@
+{
+	"fileName": "20110509sfi060.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110509sfi060.json",
+	"score": 578,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年  月  日  时  分",
+	"fileNameDate": "20110509",
+	"equipName": "设备名称:R2",
+	"breakdownTime": "停机时间：35",
+	"areaLocation": "停机区域\/点:SUR10",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "35",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 陈文佳 2011-5-9",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "SFI060 GATELOCK open 报警，无动做。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "手动戳阀仍无动作，打开侧面盖板检查，发现锁紧销明显卡住无法动作。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "在锁紧销打开过程中撬棒进行加力，反复几次后锁紧销弹开。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "下一cycle　hold对锁紧销进行检查，外表面无名显现卡住痕迹。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "将锁紧销盖板拆除，检查发现锁紧销导向轮外侧有飞溅进入。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "将飞溅清除并进行润滑。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "工位恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060 GATELOCK卡，打开无法到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么hmi报警gatelock打开报警？因为gate lock无动做。"
+		],
+		[
+			"为什么gate lock 无动做？因为gate lock 锁紧销导轮卡。"
+		],
+		[
+			"为什么锁紧销导轮卡？因为导轮处有飞溅进入。"
+		],
+		[
+			"为什么导轮处有飞溅？因为此处为清理盲区。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "gate lock 锁紧销导轮处有飞溅进入。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将飞溅清除并进行润滑",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-5-9",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查其他类似结构，并进行清洗",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-5-10",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "加入PM内容，定期清洁",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "11-5-12",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

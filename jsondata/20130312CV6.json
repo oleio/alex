@@ -1,0 +1,222 @@
+{
+	"fileName": "20130312CV6.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130312CV6.json",
+	"score": 689,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年3月11日  时  分",
+	"fileNameDate": "20130312",
+	"equipName": "设备名称:解垛机",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:  CV6",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马晓洲         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "CV6机运线报警，维修检查解垛机，发现解垛机托架倾斜，提升皮带断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "更换提升皮带，纠正倾斜的托架；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV6雪橇返回线解垛机皮带断裂,导致托架倾斜,滚床固定螺栓断裂."
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么解垛机托架倾斜"
+		],
+		[
+			"为什么解垛机托架后方提升皮带断裂"
+		],
+		[
+			"为什么解垛机提升皮带过度磨损"
+		],
+		[
+			"为何提升皮带损坏未及时提前干预？因为维修人员巡视中未能及时发现提升皮带的过度磨损"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.维修人员巡视中未能及时发现提升皮带的过度磨损2.提升皮带接触面在使用过程中受力不均匀，造成皮带侧面损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换该解垛机皮带，取出断裂的滚床固定螺栓。",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "3\/12\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2. 批量更换同时期开始使用的堆解垛机提升皮带，并检测升降平台水平度，使皮带接触面在使用过程中均匀受力。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "3\/26\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.处理该区域责任人，扣除当月响应绩效。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "3\/20\/2013",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.调查堆解垛机提升皮带实际使用周期,维修A班周期性维护工作计划中定期更换。（堆垛机3个月，解垛机6个月）",
+				"resp": "马晓洲黄光耀",
+				"supp": "孙伟",
+				"compDate": "3\/15\/2013",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.举一反三，马上开始实施维修A班周期性维护工作计划并不断更新，避免工作跟踪失误造成停机。（维修A班计划中工作）",
+				"resp": "马晓洲黄光耀王俊杰",
+				"supp": "",
+				"compDate": "3\/15\/2013",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同抢修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20150804 JMC P&P-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150804 JMC P&P-Y.json",
+	"score": 701,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.8.4",
+	"fileNameDate": "20150804",
+	"equipName": "设备名称:  P&P",
+	"breakdownTime": "停机时间：72min",
+	"areaLocation": "停机区域\/点: JMC000",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "72",
+	"lostProductNum": "15",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    葛逸飞   2015.8.4\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "查看图纸，发现受损线路来自空中的两个J箱。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "由于设备停止位置不好，需要登高作业，做好安全防护措施。",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "根据图纸，检查通讯和电源两类线路，逐步排查。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "最终确认一根从主控柜经由拖链到J箱的控制电缆内部出现断路。",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "使用柔性电缆进行更换，并查明该拖链内多处线缆表皮有磨损。同时更换升降电机刹车线缆",
+				"lostMin": 12,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行状态。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JMC P&P抓手升降电机刹车故障，4和5号抓手上模块通讯故障。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么4和5号抓手上模块通讯故障"
+		],
+		[
+			"为什么通讯网段的供电电源丢失"
+		],
+		[
+			"为什么主控柜经由拖链到J箱的控制电缆内部出现断路"
+		],
+		[
+			"为什么坦克链移动时电缆受拉扯？因为坦克链内线路过多，坦克链移动时线缆受挤压；"
+		],
+		[
+			"为什么坦克链内线路过多，线缆受挤压？因为坦克链中放置了备用线缆（但由于长期不用失效）,造成坦克链中线缆相互挤压。"
+		]
+	],
+	"rootCause": "1.坦克链中放置了备用线，造成坦克链中线缆过多，移动时线缆受挤压磨损",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用新高柔电缆替换受损电缆，并清理坦克链中所有电缆。",
+				"resp": "谢诚侃",
+				"supp": "曹鸣晓",
+				"compDate": "8\/4\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对同类工位移动坦克链内部线缆进行检查，更换受挤压的线缆。（3处）",
+				"resp": "尹伟文",
+				"supp": "曹鸣晓",
+				"compDate": "8\/9\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "去除坦克链中备用线的放置，增大坦克链中的线缆空间，避免线缆间不正常的挤压磨损。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "8\/9\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同抢修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹明晓",
+	"person_ENG": "工程师\/ENG.: 张少峰",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

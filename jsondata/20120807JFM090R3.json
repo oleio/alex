@@ -1,0 +1,222 @@
+{
+	"fileName": "20120807JFM090R3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120807JFM090R3.json",
+	"score": 931,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年08月07日16时30分",
+	"fileNameDate": "20120807",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JFM",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 黄波",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "焊机焊接故障复位后连续多辆E-10焊接故障，Backup动作反馈信号丢失；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "维修在焊接故障点示教板手动操作机器人焊枪焊接，发现焊枪焊接动作无，电磁阀无24v电信号，TURCK模块故障灯短时间闪烁；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "怀疑19芯焊枪控制电缆失效，紧固换枪盘侧插头及TURCK模块侧线缆侧插头， 故障仍然存在；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "示教R3手动运行工作轨迹，发现在车型切换时抓放停枪支架上的E-10焊枪时Dress拉动，造成控制电缆接头受力后外壳损坏内部线缆铜丝外露后与外壳短路引起TURCK模块故障，导致焊枪动作异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "排除Dress19芯电缆短路点，修复电缆端子的外壳，恢复焊枪焊接功能；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090工位机器人R3焊枪E-10车型焊接故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊枪无法焊接？因为焊枪未收到关枪指令"
+		],
+		[
+			"为什么焊枪关枪信号没有收到？因为开关信号输入连接线路短路，引起TURCK模块故障，模块输入输出信号异常；"
+		],
+		[
+			"为什么开关信号输入连接线路短路？因为焊枪控制信号19芯电缆在机器人轨迹运行时Dress扯动，19芯线缆接头受力后外壳损坏内部线缆铜丝外露后与外壳短路引起TURCK模块故障"
+		],
+		[
+			"为什么焊枪控制19芯电缆在机器人轨迹运行时Dress外露部分扯动损坏？因为机器人手臂伸展至最远端时J6处Dress外露部分19芯信号电缆预留拉伸余量不够"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "19芯线缆接头受力后外壳损坏，导致内部线缆铜丝外露后与外壳短路引起TURCK模块故障",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "分析焊接故障原因，现场排除焊枪信号控制电缆短路点；",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012\/8\/7",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "停产时间更换原电缆并验证机器人运行轨迹充分预留线缆长度",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2012\/08\/19",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "在线巡检车身区域内其他机器人动态情况下J6处Dress外露部分19芯信号电缆是否受到拉扯力，各班组按班组责任区域落实整改。",
+				"resp": "A\/B\/C三个班组",
+				"supp": "徐啸顺",
+				"compDate": "2012\/08\/30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

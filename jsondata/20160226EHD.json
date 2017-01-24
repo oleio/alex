@@ -1,0 +1,222 @@
+{
+	"fileName": "20160226EHD.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160226EHD.json",
+	"score": 854,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016-2-26",
+	"fileNameDate": "20160226",
+	"equipName": "设备名称:机器人滚边",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点:EHD",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "120",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 李颖琛 马晓洲      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "现场维修检查触摸屏报警信息,显示胎模切换伺服放大器报警；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "拉动控制工程师支持共同排故，检查伺服放大器报警代码并查找对应报警信息，提示伺服电机位置丢失；",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "无法确定并解决故障情况下试图释放伺服电机刹车将胎模推到工作位置维持生产，无法释放电机刹车、推动胎模；",
+				"lostMin": 25,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "继续检查排故，无进展；",
+				"lostMin": 40,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "发现E2胎模离开存放位置不远，强制信号将E15胎模切换到工作位置，拆除一个夹头后检查各机器人轨迹无干涉，恢复E15前盖生产；",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "确定故障原因，恢复E2前盖生产；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E15\/E2前盖滚边工位切换E2胎模时报警停止"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么E15\/E2前盖滚边工位切换E2胎模时报警停止？因为胎模驱动伺服放大器故障报警"
+		],
+		[
+			"为什么胎模驱动伺服放大器故障报警？因为伺服放大器与伺服电机电缆连接不正常"
+		],
+		[
+			"为什么伺服放大器与伺服电机电缆连接不正常？因为电机刹车控制电缆接头脱落，伺服编码器电缆与电源电缆接头松动。"
+		],
+		[
+			"为什么电机刹车控制电缆接头脱落，伺服编码器电缆与电源电缆接头松动？因为FFT集成E2设备时未将电缆接头安装到位并锁紧。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "（1）FFT集成E2设备时未将电缆接头安装到位并锁紧                        （2）伺服电机安装位置无法检修与松电机刹车造成排故困难",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "发现E2胎模离开存放位置不远，强制信号将E15胎模切换到工作位置，检查各机器人轨迹无干涉，恢复E15前盖生产。",
+				"resp": "",
+				"supp": "",
+				"compDate": "2\/26\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "确定故障原因，重新安装电缆后恢复设备自动运行。",
+				"resp": "",
+				"supp": "",
+				"compDate": "2\/26\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "在胎模导轨盖板上开维修孔，方便观察检修，必要情况下可以松电机刹车人力推动胎模切换。",
+				"resp": "夏伟",
+				"supp": "",
+				"compDate": "TBD",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "发现无法松伺服电机刹车后应马上考虑步骤5"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL 曹鸣晓",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

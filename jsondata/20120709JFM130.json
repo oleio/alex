@@ -1,0 +1,222 @@
+{
+	"fileName": "20120709JFM130.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120709JFM130.json",
+	"score": 564,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月9日6时45分",
+	"fileNameDate": "20120709",
+	"equipName": "设备名称:自动工位工装",
+	"breakdownTime": "停机时间：13min",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "13",
+	"lostProductNum": "5",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 顾念仁         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM130工位落车状态差而且重复出现，现场维修确定更换勾销套（换回原来使用的",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "勾销套）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "换回原来使用的勾销套后设备恢复正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM130工位开班后落车状态差，问题重复出现后更换左后勾销套（换回原来"
+		],
+		[
+			"使用的勾销套。夜班开线验证后有剩余时间，评估为低风险工作后预防性"
+		],
+		[
+			"更换有缺陷的勾销套）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么落车状态差而且重复出现"
+		],
+		[
+			"为什么勾销套与对应车身定位孔配合状态差"
+		],
+		[
+			"为什么领用的勾销套与工位实际使用的勾销套有细微差别"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "目视比对原使用勾销套确定需要领用的备件,方法不当。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "换回原来使用的有缺陷的勾销套",
+				"resp": "马鞍伟",
+				"supp": "",
+				"compDate": "7\/9\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "根据勾销套备件清单领用正确备件更换有缺陷的勾销套",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "7\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "填写《勾销套备件确定方法》一点课程培训维修员工领用正确勾销备件",
+				"resp": "胡滨",
+				"supp": "陈烨华李颖琛黄光耀",
+				"compDate": "7\/20\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "梳理勾销备件，按照需求计划申购勾销备件，满足现场需求",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "8\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:胡滨",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

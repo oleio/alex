@@ -1,0 +1,222 @@
+{
+	"fileName": "20120111JFM090L3.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120111JFM090L3.json",
+	"score": 633,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年1 月11日19时25分",
+	"fileNameDate": "20120111",
+	"equipName": "设备名称:JFM090",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点: JFM090L3",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "45",
+	"lostProductNum": "25",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期 滕征 1.11        \nOringinator    ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修检查机器人状态，发现换枪盘信号丢失。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "维修进入工位检查，确认是乒乓板断裂，造成DRESS松动，压坏19芯电缆接头。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "乒乓板断裂成三段，烧焊方案不适合，采用更换乒乓板的方案。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "乒乓板更换后切割掉多余的手柄，并完成19芯电缆的飞线捆扎。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复自动运行。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090 L3 不能自动换枪"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人不能自动换枪？因为换枪盘反馈信号丢失"
+		],
+		[
+			"为什么焊枪盘反馈信号丢失？因为19芯信号电缆接头损坏"
+		],
+		[
+			"为什么19芯信号电缆接头损坏？因为造成DRESS松动造成压坏19芯电缆接头"
+		],
+		[
+			"为什么DRESS套管送动？因为机器人本体上固定DRESS套管用的乒乓拍断裂"
+		],
+		[
+			"为什么乒乓板断裂？因为长期处于受力状态，造成零件疲劳损坏。"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换乒乓板，临时采用飞线代替损坏的19芯电缆。",
+				"resp": "马安颹",
+				"supp": "谢诚侃",
+				"compDate": "12\/1\/11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修复受损19芯电缆，取消飞线。",
+				"resp": "顾乐斌",
+				"supp": "黄光耀",
+				"compDate": "12\/01\/25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制作加强型固定DRESS用乒乓拍，评估现场使用情况予以更换。",
+				"resp": "顾乐斌",
+				"supp": "徐孝顺",
+				"compDate": "12.02.25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "`",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：谢诚侃（代）",
+	"person_ENG": "工程师\/ENG:滕征（代）",
+	"person_GL": "工段长\/ GL:滕征（代）",
+	"person_Manager": "技术经理\/Tech.Manager:邱正东"
+}

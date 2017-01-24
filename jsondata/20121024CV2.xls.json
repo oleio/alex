@@ -1,0 +1,222 @@
+{
+	"fileName": "20121024CV2.xls.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121024CV2.xls.json",
+	"score": 587,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年 10月 23日23时50分",
+	"fileNameDate": "20121024",
+	"equipName": "设备名称: TT03滚床",
+	"breakdownTime": "停机时间： 15 min",
+	"areaLocation": "停机区域\/点:CV2",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 李斌\nOringinator\/2012.10.23",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "到现场查看HMI报警信息，发现LT01反光板信号无；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "上楼发现发光板掉落，请控制工程师强制；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "强制后出现新报警，RB03热保护断开，热保护复位后上自动，TT03无动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "工程师强制后TT03手动开到位，手动将车子从RB04开到RB05时被卡住；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动放刹车将车拉到RB05到位后，上自动恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV2 RB03 上车子无动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么雪橇无动作？ 因为LT01反光板信号无；"
+		],
+		[
+			"为什么放光板无信号？ 因为反光板掉落；"
+		],
+		[
+			"为什么反光板会掉落？ 因为支架震动大；"
+		],
+		[
+			"为什么支架震动大？ 因为雪橇在前进到位前，RB01最后一个轮子上下来后，雪橇与支架有摩擦；"
+		],
+		[
+			"为什么热保护会断开？ 雪橇与支架摩擦，使电流变大；"
+		]
+	],
+	"rootCause": "雪橇前进与支架有摩擦，使热保护断开，反光板被震下",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "强制信号，排除故障，恢复生产",
+				"resp": "李斌",
+				"supp": "陈佳文",
+				"compDate": "10\/23\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "恢复反光板",
+				"resp": "李斌 ",
+				"supp": "",
+				"compDate": "10\/24\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将干涉的地方打磨掉",
+				"resp": "李斌",
+				"supp": "",
+				"compDate": "10\/24\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

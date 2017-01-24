@@ -1,0 +1,222 @@
+{
+	"fileName": "20130406JRL050R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130406JRL050R1.json",
+	"score": 534,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年  4月6  日18 时 00分",
+	"fileNameDate": "20130406",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点:  ESOR10",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "40",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄智君       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL050R1 E-CAR焊枪焊点位置偏。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "调整E10焊点位置。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "调整E11焊点位置。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL050R1 焊点位置偏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL050R1 E-CAR焊枪焊点位置偏？因为JRL050R1 E-CAR焊枪在项目施工中发生过严重的撞击。"
+		],
+		[
+			"为什么 E-CAR焊枪在项目施工中发生了严重的撞击？因为施工人员没有充分确认焊枪位置，操作了滚床上升。"
+		],
+		[
+			"为什么焊枪位置没有确认却能够操作滚床上升？因为施工人员强制了信号。"
+		],
+		[
+			"为什么没有在验证设备期间调整焊点？ 因为补焊线JRL030正在更换换枪盘，验证车辆无法到达JRL050。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "施工人员现场没有确认焊枪位置，强制了信号。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "现场调整焊点。",
+				"resp": "陆强",
+				"supp": " 黄智君",
+				"compDate": "2013.04.6",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "强化项目验证环节的双重确认，确保项目施工期间人员和设备安全。",
+				"resp": " 沈建伟",
+				"supp": "钱俊",
+				"compDate": "2013.04.10",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄智君",
+	"person_ENG": "工程师\/ENG.滕征代",
+	"person_GL": "工段长\/ GL:滕 征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

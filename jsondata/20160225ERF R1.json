@@ -1,0 +1,222 @@
+{
+	"fileName": "20160225ERF R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160225ERF R1.json",
+	"score": 456,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "20156.2.25   12",
+	"fileNameDate": "20160225",
+	"equipName": "设备名称: 机器人",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点: ERF",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "10",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    钱毅吉   2015.11.8",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "工位故障,发现R1抓手抓了2块A10内板,涂胶枪嘴断",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "更换涂胶枪嘴,机器人开回HOME",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "慢速自动运行,发现机器人抓第一块料时未及时停下",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "察看程序发现程序有漏洞,修改程序并调整传感器",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ERF R1抓了2块内板涂胶,涂胶头断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么涂胶枪嘴断"
+		],
+		[
+			"为什么抓手抓了2块内板"
+		],
+		[
+			"为什么机器人抓第一块内板时未及时停下"
+		],
+		[
+			"为什么为什么有1个物料传感器未亮机器人就不会停下"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "机器人抓料轨迹程序中存在漏洞",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换涂胶枪嘴",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "2\/25\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "调整抓手传感器",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "2\/25\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修改机器人程序",
+				"resp": "钱毅吉",
+				"supp": "",
+				"compDate": "2\/25\/2016",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "排查车间内同类抓料应用的机器人程序",
+				"resp": "钱毅吉",
+				"supp": "",
+				"compDate": "2\/29\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：曹鸣晓",
+	"person_ENG": "工程师\/ENG.:钱毅吉",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

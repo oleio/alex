@@ -1,0 +1,222 @@
+{
+	"fileName": "20140809JFM090OPENGATE.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140809JFM090OPENGATE.json",
+	"score": 1005,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年8月9日14时08分",
+	"fileNameDate": "20140809",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点: JFM",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "120",
+	"lostProductNum": "67",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  马晓洲        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "变频器故障复位，手动操作GATE打开，变频器过流故障重复出现；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进入工位检查GATE打开摆臂机械机构状态，导轨状态，未发现异常；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "人员在安全监护状态下工位内观察GATE打开状态，发现右侧GATE前方导轨上GATE承重轮卡滞；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "尝试松电机刹车、人力转动电机，电机无法转动，失败；",
+				"lostMin": 15,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "用手拉葫芦拉住GATE助力，人力转动电机、手动操作电机，仍然未能使GATE打开；",
+				"lostMin": 35,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "拆卸两个承重轮清理并恢复安装，拆卸并清理右侧GATE靠轮，人力转动电机发现能够转动；",
+				"lostMin": 65,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复安装，恢复设备正常运行；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090GATE工位工艺完成后右侧GATE驱动电机变频器过流报警，"
+		],
+		[
+			"GATE无法打开。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么GATE驱动电机变频器报警"
+		],
+		[
+			"为什么为什么GATE驱动电机过载？因为GATE承重轮机构走偏卡死"
+		],
+		[
+			"为什么GATE承重轮机构走偏卡死？因为右侧GATEC型导轨内存在设备5S掉落杂物"
+		],
+		[
+			"为什么右侧GATEC型导轨内存在设备5S掉落杂物？因为导轨遮盖防护不充分，存在间隙，焊接飞溅落入OPENGATE C型导轨内。"
+		],
+		[
+			"为什么导轨遮盖防护不充分？1.设备MASTER未辨识出导轨遮盖防护间隙存在停机隐患；2.GATE保养的MTS内容缺少对保养过程中导轨的防护。"
+		]
+	],
+	"rootCause": "1.设备MASTER在制作导轨防护罩时间隙预留过大,未辨识出仍存在异物侵入导轨的隐患；2.GATE保养的TIS内容缺少对保养过程中导轨的防护。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修及当日生产后清理C型导轨",
+				"resp": "黄智君佘佳安",
+				"supp": "",
+				"compDate": "8\/10\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对设备MASTER进行谈话记录",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "8\/10\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "改进导轨防护罩，减小间隙，减少异物侵入导轨的可能性。",
+				"resp": "夏伟",
+				"supp": "",
+				"compDate": "8\/25\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更新TIS，GATE维护时遮盖导轨敏感位置，避免异物掉落导轨，并培训维修、生产和相关供应商。",
+				"resp": "马晓洲",
+				"supp": "黄伟杰",
+				"compDate": "8\/15\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制定GATE导轨清洁的PM计划,每半年清理一次。",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "8\/20\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "步骤4、5无法使GATE打开，正确步骤为拆卸并清理承重轮后手动转动电机"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄智君（代）",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20140903ESOR4.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140903ESOR4.json",
+	"score": 983,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年09月03日12时30分",
+	"fileNameDate": "20140903",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：140min",
+	"areaLocation": "停机区域\/点: ESO R4",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "240",
+	"lostProductNum": "50",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 何文泽       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查网络内各模块状态，发现所有模块的通信均中断，判断网络内存在短路；",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "分段检查网络状态，发现机器人J3轴处通信电缆断开时，其他模块通信正常，判定故障点在换枪盘及抓手一侧；",
+				"lostMin": "25min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "逐个检查换枪盘及抓手上各模块状态，发现54#模块正常，在54#模块后分别单独连接33#、34#、36#模块状态均正常，但在54#模块后同时连接34#和36#模块时网络再次出现短路故障，判断为34#与36#模块间连接线短路；",
+				"lostMin": "20min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换34#与36#模块间连接线，所有模块状态显示正常，准备恢复生产，生产一件物料后相同故障再次出现；",
+				"lostMin": "20min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "分析网络状态，确认故障点仍在换枪盘及抓手一侧；",
+				"lostMin": "20min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "再次逐个检查各模块状态，发现54#模块单独连接33#及36#模块时网络均会出现状态，更换电缆后测试，发现故障依旧，怀疑54#模块状态不稳定导致网络故障；",
+				"lostMin": "40min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "更换54#模块，故障消失。",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"机器人工作时中途停止，Devicenet通信网络故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人工作时中途停止？因为机器人Devicenet通信网络故障；"
+		],
+		[
+			"为什么机器人Devicenet通信网络故障？因为网络内存在短路；"
+		],
+		[
+			"为什么网络内存在短路？因为通信模块内部损坏；"
+		],
+		[
+			"为什么排故时间长？1、模块状态不稳定，对排故造成误导；2、对于疑似故障点未做进一步检查"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1、通信模块损坏造成网络内部短路；2、未对疑似故障点做进一步检查，排故时被表象误导。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换故障模块，重新固定模块和通讯电缆，恢复生产。",
+				"resp": "何文泽",
+				"supp": "曹鸣晓",
+				"compDate": "9\/3\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "供应商对损坏模块进行分析,根据原因确定长期措施",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "9\/20\/2014",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "针对通信网络故障制作一点课程，培训各维修人员，对于疑似故障点需做进一步检查和判断",
+				"resp": "何文泽",
+				"supp": "钱俊",
+				"compDate": "9\/7\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制作机器人线缆快速诊断装置，提高故障判断效率。",
+				"resp": "何文泽",
+				"supp": "尹伟文",
+				"compDate": "9\/30\/2014",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "上述第3步更换连接线后，应检测电缆状态，确认电缆是否为故障点。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL :马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

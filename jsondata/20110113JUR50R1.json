@@ -1,0 +1,222 @@
+{
+	"fileName": "20110113JUR50R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110113JUR50R1.json",
+	"score": 606,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012 年1月13日10时 45分",
+	"fileNameDate": "20110113",
+	"equipName": "设备名称:机器人转动接头",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点:JUR",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "35",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 宋浩亮\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "手动示教将机器人运行至合理位置，检查电磁阀信号是否正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "发现BACKUP打开信号常亮，临时飞一根19芯电缆从J1模块到转动接头，打开信号还是常亮",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "跳过转动接头直接飞到焊枪上，BACKUP信号正常，焊枪动作正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换转动接头上部电刷片，信号还是有短路，跳过转动接头飞线。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "不断调整转动接头上电缆位置并试运行将R1速度由低到高验证飞线工作状况，至速度恢复100％",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JUR050R1机器人焊枪BACKUP关闭不动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么R1焊枪报警停止？因为R1焊枪BACKUP关闭不动作？"
+		],
+		[
+			"为什么R1焊枪BACKUP关闭不动作？因为BACKUP打开电磁阀控制信号长ON"
+		],
+		[
+			"为什么BACKUP打开电磁阀控制信号长ON？因为转动接头内部信号电排短路"
+		],
+		[
+			"为什么转动接头内部信号电排短路？因为转动接头使用寿命短，长期使用后失效。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "转动接头使用寿命短，长期使用后失效。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用19芯焊枪控制电缆飞线跳过转动接头控制焊枪",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "12-1-13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拆除使用寿命短的转动接头并调整机器人焊接轨迹",
+				"resp": "陈烨华",
+				"supp": "周志辉",
+				"compDate": "12-2-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀",
+	"person_Manager": "工程师\/ENG.:周志辉"
+}

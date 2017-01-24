@@ -1,0 +1,222 @@
+{
+	"fileName": "20121109SFI060.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121109SFI060.json",
+	"score": 649,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年11月9日21时00分",
+	"fileNameDate": "20121109",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：35min",
+	"areaLocation": "停机区域\/点: SFI060",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "35",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant 南厂车身",
+	"originator": "填表人\/日期: 仇卫忠         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查气缸固定螺栓与R销情况，发现气缸上部两根固定螺栓断在螺孔中无法取出，2根R钉销弯曲、断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "评估损坏状况及取断螺丝需要时间，确定更换气缸修理；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "从东昌现场仓库领用新气缸更换；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "配合工程匹配调整夹头组件安装位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "配合工程调整气缸夹头组件上定位销安装块垫片，解决销子无法从零件孔中拔出问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"内总拼SFI060工位机器人L3碰撞报警，进入工位检查发现UNIT213夹头"
+		],
+		[
+			"气缸脱落"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位机器人L3碰撞报警停止,"
+		],
+		[
+			"为什么机器人焊枪与工装夹头干涉"
+		],
+		[
+			"为什么工装夹头气缸在OPENGATE上安装位置发生变化"
+		],
+		[
+			"为什么夹头气缸安装螺栓及R钉销松动"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "工装夹头气缸固定螺栓松动未及时发现，位置变化后导致机器人焊枪干涉夹头。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换螺纹孔被断螺栓堵塞的夹头气缸",
+				"resp": "仇卫忠",
+				"supp": "黄光耀",
+				"compDate": "11\/9\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "非生产日安排人员检查紧固OPENGATE上夹头气缸固定螺栓",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "11\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "调整匹配夹头组件定位销安装垫片，使定位销能够平滑正常从焊接完成的零件孔中拉出",
+				"resp": "倪云飞",
+				"supp": "黄光耀",
+				"compDate": "11\/9\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:倪云飞 马晓洲（代）",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

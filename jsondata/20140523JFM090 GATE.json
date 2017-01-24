@@ -1,0 +1,222 @@
+{
+	"fileName": "20140523JFM090 GATE.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140523JFM090 GATE.json",
+	"score": 902,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年5月23日14时00分",
+	"fileNameDate": "20140523",
+	"equipName": "设备名称:GATE",
+	"breakdownTime": "停机时间：累计70分钟",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "70",
+	"lostProductNum": "50",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  钱俊\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": "修理步骤 \/ Trouble-Shooting steps (记下维修过程中的实际步骤,不正确的打\"X\".)",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "雪橇进入JFM90工位下降时白车身和底板定位销干涉，右侧围掉落；",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "GATE关闭，右侧围被夹在底板和GATE之间；",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "维修尝试打开GATE，变频器报警，重复打开无效；",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "松开马达刹车,手动盘马达,无法打开GATE。",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "使用撬棒和枕木撬动GATE，使GATE和导轨垂直。",
+				"lostMin": "`",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "手动盘马达，打开GATE，取走侧围等零件。",
+				"lostMin": 15,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90 GATE 关闭卡死，无法动作。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM90 GATE 关闭卡死，无法动作？因为GATE运行方法没有和导轨垂直；"
+		],
+		[
+			"为什么GATE运行方向没有和导轨垂直？因为GATE后部和后轮罩干涉；"
+		],
+		[
+			"为什么GATE后部和后轮罩干涉？因为右侧围倾倒，掉落在GATE和底板之间；"
+		],
+		[
+			"为什么侧围倾倒？因为白车身落车时雪橇底板和定位销干涉，落车时产生冲击；"
+		],
+		[
+			"为什么白车身落车时雪橇底板和定位销干涉？因为该雪橇（最新批次）定位不准；"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause:",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "短期\/Short Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "1.将该雪橇下线，进行重新校验。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "5\/23\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.举一反三，对同批次的雪橇进行校验。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "6\/1\/2014",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "1.更新新雪橇验收CHECKLIST，增加雪橇试用期的",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "6\/1\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.改进检具，使之测点能够覆盖雪橇所有特征点。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "6\/30\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 8,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "GATE关闭时GATE后部和后轮罩干涉，造成打开卡死。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "相应变更：   TPM       PM       CM       图纸       备件清单       参数        程序        标书      ",
+	"person_ENG": "",
+	"person_GL": "签名及日期 \/Signature & Date:",
+	"person_Manager": ""
+}

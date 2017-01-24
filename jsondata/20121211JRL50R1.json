@@ -1,0 +1,222 @@
+{
+	"fileName": "20121211JRL50R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121211JRL50R1.json",
+	"score": 708,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年12月11日9时  分",
+	"fileNameDate": "20121211",
+	"equipName": "设备名称:机器人换枪盘",
+	"breakdownTime": "停机时间：累计影响30min",
+	"areaLocation": "停机区域\/点: JRL",
+	"maintainTeam": "维修班组：A\/B",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 陈烨华         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "机器人放置618焊枪时出现碰撞报警，维修手动操作机器人并复位报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "问题重复出现，手动操作复位后人员跟踪尝试找到根本原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "发现机器人放枪时机器人侧\/工具侧换枪盘分离困难；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查机器人停枪支架未发现明显问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "微调机器人放枪轨迹后一段时间内没有出现问题；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "后碰撞故障再次发生，手动操作检查机器人放枪轨迹时发现焊枪放置位置不平稳；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "进一步检查发现焊枪放置不平稳原因为焊枪变压器下方有焊接飞溅，清理飞溅并恢复机器人轨迹后设备正常运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL50R1机器人放618焊枪时多次发生碰撞报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人放618焊枪时机器人碰撞报警？因为机器人放枪时机器人侧\/工具侧换枪盘分离困难"
+		],
+		[
+			"为什么机器人放枪时机器人侧\/工具侧换枪盘分离困难？因为焊枪在停枪支架上的放置位置不平稳"
+		],
+		[
+			"为什么焊枪在停枪支架上的放置位置不平稳？因为作为放枪支点的焊枪变压器下方有焊接飞溅"
+		],
+		[
+			"为什么"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "作为放枪支点的焊枪变压器下方有焊接飞溅",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "故障检修发现根本原因后清理焊接飞溅",
+				"resp": "黄智君",
+				"supp": "陈烨华",
+				"compDate": "12\/11\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更新机器人焊枪TPM要求并协调培训生产员工",
+				"resp": "王俊杰",
+				"supp": "马晓洲",
+				"compDate": "12\/18\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "停机报告维修班前会讨论，共同吸取经验教训。",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "12\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "确定故障根本原因并清理焊接飞溅"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀 陈烨华",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120723CV4.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120723CV4.json",
+	"score": 563,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月24日02时52分",
+	"fileNameDate": "20120723",
+	"equipName": "",
+	"breakdownTime": "停机时间累计 13min",
+	"areaLocation": "",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "13",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 陈文佳        \nOringinator 2012.7.24",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "TC105 横移皮带运行过程中发生较大偏移；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动开动TC105到位，并手动搬正；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "恢复后RB101运行至一半无法开出，程序清除信号后恢复；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "工位恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV4 TC105 运行到位后发生偏移，报警，并引起其它运行中工位停止"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么横移机会停止运行？因为横移机感应器状态报错；"
+		],
+		[
+			"为什么感应器状态出错？因为雪橇位置发生偏移无法感应到位；"
+		],
+		[
+			"为什么雪橇位置发生偏移？因为皮带运行中雪橇发生抖动两边运行速度不一致；"
+		],
+		[
+			"为什么雪橇运行中发生抖动？因为皮带承重后摩擦力不一致；"
+		],
+		[
+			"为什么承重后摩擦力不一致？因为皮带下端粉尘堆积，或涨紧度不一致造成。"
+		]
+	],
+	"rootCause": "雪橇皮带运行抖动造成位置偏移，报警后其他工位停止运行",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "人工推动雪橇到位，并手动开动其他工位",
+				"resp": "孙伟",
+				"supp": "黄光耀",
+				"compDate": "7\/24\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "在线跟踪后续车辆状态",
+				"resp": "孙伟",
+				"supp": "黄光耀",
+				"compDate": "7\/24\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "横移皮带定期清理并检查两侧皮带涨紧度，并调整",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "8\/1\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

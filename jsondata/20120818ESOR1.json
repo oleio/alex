@@ -1,0 +1,222 @@
+{
+	"fileName": "20120818ESOR1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120818ESOR1.json",
+	"score": 726,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年8月18日14时50分",
+	"fileNameDate": "20120818",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：累计75min",
+	"areaLocation": "停机区域\/点:  ESO右",
+	"maintainTeam": "维修班组：C\/A",
+	"lostTime": "75",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 曹鸣晓 黄光耀         \n",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "配合生产处理夹头印问题，检查GRIPPER抓放料位置，调整夹头动作速度；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "完成工作后生产发现焊点偏移而且有部分半点焊；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "示教板操作机器人抓料，检查机器人GRIPPER抓料位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "示教板操作机器人抓料到固定焊枪焊接，发现焊枪焊接时GRIPPER抓料位置变化；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "调整GRIPPER夹头位置后再次验证，发现抓料位置变化问题仍然存在；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "进一步检查观察发现，导致抓料位置变化的根本原因是固定焊枪焊接侧围上特定点时导致侧围受力下拉；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "调整问题焊点焊接姿态后设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO020R工位GRIPPER夹头产生夹头印，维修配合处理解决夹头印问题后生产"
+		],
+		[
+			"人员发现焊点偏而且部分为半点焊。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么右侧围焊点偏而且部分为半点焊"
+		],
+		[
+			"为什么机器人固定焊枪焊接时GRIPPER抓料位置发生偏移"
+		],
+		[
+			""
+		],
+		[
+			"为什么GRIPPER夹头夹住的侧围受到向下力作用"
+		],
+		[
+			"为什么固定焊枪焊接侧围上特定焊点时使侧围受向下力作用"
+		]
+	],
+	"rootCause": "固定焊枪焊接侧围特定点时姿态不佳,导致侧围受拉。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整导致侧围受力窜动的特定焊点焊接姿态",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "8\/18\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "特定焊点焊枪姿态调整方法维修班组交流，避免问题再次产生并且缩短问题处理过程。",
+				"resp": "黄光耀",
+				"supp": "陈烨华李颖琛",
+				"compDate": "8\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "在生产人员配合下检查调整R1固定焊枪所有焊点。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "8\/14\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤5以外的所有维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:尹熠俊（代）",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20120918CV14.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120918CV14.json",
+	"score": 813,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月18日20时30分",
+	"fileNameDate": "20120918",
+	"equipName": "设备名称:丝杆升降机",
+	"breakdownTime": "停机时间：11小时",
+	"areaLocation": "停机区域\/点:  CV14",
+	"maintainTeam": "维修班组：B\/C",
+	"lostTime": "11",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马晓洲黄轶佳         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "用手拉葫芦吊住升降机多个位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "清理损坏的小车；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "校正损坏的升降机；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "焊接损坏开裂的升降机机构方管；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "调整升降段水平度；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "修理损坏的升降机水平锁；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "调试加装的升降段入口活挡块提前动作感应器及相关程序后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV14空中机运线上侧围升降机2辆EMS小车在升降段追尾，升降机下降时后面"
+		],
+		[
+			"的小车卡在升降段和固定段之间，造成升降机损坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV14上侧围升降机损坏"
+		],
+		[
+			"为什么EMS小车卡在固定段和升降段之间"
+		],
+		[
+			"为什么升降段下降时升降段有小车而且后面还有一辆小车部分进入升降段"
+		],
+		[
+			"为什么前后两辆小车发生追尾"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "后面的小车在预定位置传感器没有感应,小车没有停止在预定位置,造成小车追尾,两辆小车同时进入升降段",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修修复升降机后检查所有小车感应块位置，保证小车正确停止，不出现小车追尾现象",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "9\/23\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "增加传感器检测，修改PLC控制程序，小车进入升降段后马上关闭机械活挡块，避免后面追尾小车进入升降段。（工作范围车间内所有丝杠升降机，出现故障的升降机已经完成）",
+				"resp": "黄轶佳陈文佳",
+				"supp": "刘丰 马晓洲",
+				"compDate": "9\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "故障升降机加装光电开关检测误入小车并报警停止升降机",
+				"resp": "黄轶佳陈文佳",
+				"supp": "刘丰 马晓洲",
+				"compDate": "9\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "空中EMS机运线修改小车运行超时报警程序，出现报警后必须人员到现场检查并使小车到达指定位置才能复位故障，恢复设备运行，避免出现小车追尾（工作范围所有EMS机运线，CV14已经完成程序修改）",
+				"resp": "黄轶佳陈文佳",
+				"supp": "刘丰 马晓洲",
+				"compDate": "9\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备抢修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

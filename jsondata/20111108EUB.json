@@ -1,0 +1,222 @@
+{
+	"fileName": "20111108EUB.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111108EUB.json",
+	"score": 786,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年11月8日7时 0分",
+	"fileNameDate": "20111108",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:EUB",
+	"maintainTeam": "维修班组：A&B",
+	"lostTime": "NONE",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 黄光耀 谢成侃         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修到现场检查发现LIFT3后方导向平衡杆脱落，LIFT3\/LIFT4齿轮齿条导向各有一个弯曲；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "拆除弯曲的齿轮齿条导向，拆下脱落导向平衡杆的基座；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "降低往复速度恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "修理损坏的导向平衡杆总成，更换直线轴承，取出断头螺栓；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "同生产协调时间恢复导向平衡杆安装；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复往复线正常速度运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB区域SHUTTLE线LIFT3不上升，设备停止运行。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SHUTTLE线LIFT3不上升？因为LIFT3升降导向平衡杆脱落，LIFT3\/LIFT4齿轮齿条导向弯曲。"
+		],
+		[
+			"为什么LIFT3升降导向平衡杆脱落，LIFT3\/LIFT4齿轮齿条导向弯曲？因为LIFT3升降导向平衡杆固定螺栓断裂"
+		],
+		[
+			"为什么LIFT3升降导向平衡杆固定螺栓断裂？因为LIFT3升降动作时不平衡"
+		],
+		[
+			""
+		],
+		[
+			"为什么LIFT3升降动作时不平衡？因为LIFT3升降导向平衡杆中的直线轴承损坏失效"
+		]
+	],
+	"rootCause": "LIFT3升降导向平衡杆中的直线轴承损坏失效，造成LIFT3升降动作时不平衡。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "修复出现问题的LIFT3升降导向平衡杆总成，临时拆除升降齿轮齿条导向维持设备运行。",
+				"resp": "黄光耀 谢成侃",
+				"supp": "殷致平夏伟 ",
+				"compDate": "11-11-08",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日检修EUB往复线所有升降平衡机构，保证升降状态正常，避免升降机构受非正常力。出现平衡状态不佳的升降平衡杆更换固定螺栓。",
+				"resp": "尹熠俊",
+				"supp": "殷致平指导",
+				"compDate": "11-11-14",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "升降平衡杆平衡性检查列入维修日常检查工作指导书",
+				"resp": "马晓洲",
+				"supp": "黄波",
+				"compDate": "11-11-14",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀 谢成侃（代）",
+	"person_Manager": "工程师\/ENG.:殷致平 夏伟（代）"
+}

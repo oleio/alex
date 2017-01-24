@@ -1,0 +1,222 @@
+{
+	"fileName": "20141207 SUR060.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20141207 SUR060.json",
+	"score": 740,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年12月7日18时10分",
+	"fileNameDate": "20141207",
+	"equipName": "设备名称:升降滚床",
+	"breakdownTime": "停机时间：90 min",
+	"areaLocation": "停机区域\/点: JRL",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "90",
+	"lostProductNum": "45",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄智君 \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修人员设备开线后，SUR60落车不到位多次；",
+				"lostMin": 20,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进工位检查，手动操作将升降滚床升起，用硬支撑顶住滚床，发现摆臂不同步；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "利用千斤顶将滚床调整至水平状态；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "调整曲臂涨紧套的紧固螺栓，并用扭力扳手将各个螺栓拧至规定扭矩范围内。",
+				"lostMin": 40,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "解除千斤顶支撑，带负载上升下降调试，无异常。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复设备正常运行。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR60滚床摆臂不同步，造成落车不到位。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么开线后SUR60落车不到位？因为升降滚床下降出现倾斜；"
+		],
+		[
+			"为什么升降滚床下降出现倾斜？因为升降滚床摆臂出现不同步；"
+		],
+		[
+			"为什么升降滚床摆臂出现不同步？因为停产时间维护升降滚床（更换摆臂轴承）后，未带车验证。"
+		],
+		[
+			"为什么修理调整升降滚床后未带车调试？1.为项目施工争取时间，减少了带车调试环节；\n                                                    2.维修人员未辨识出升降滚床维护后验证关键点。"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "1.为项目施工争取时间，减少了带车调试时间；\n2.维修人员未辨识出验证关键点。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整滚床摆臂一致性，恢复滚床水平。",
+				"resp": "黄志君",
+				"supp": "黄波",
+				"compDate": "12\/9\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更新升降滚床水平调试的MTS，细化验证环节，全员培训。",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "12\/10\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "根据项目施工计划调整PM工作内容，尽量避免交叉施工。",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "12\/10\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "维护升降滚床后立即进行带车验证，并进行相应调整。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄智君",
+	"person_ENG": "工程师\/ENG.李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

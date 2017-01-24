@@ -1,0 +1,116 @@
+<h1>{{title}}</h1>
+
+      <div id="piechart_2016" style="width: 900px; height: 500px;"></div>
+      <div id="piechart_2015" style="width: 900px; height: 500px;"></div>
+      <div id="piechart_2014" style="width: 900px; height: 500px;"></div>
+      <div id="piechart_2013" style="width: 900px; height: 500px;"></div>
+      <div id="piechart_2012" style="width: 900px; height: 500px;"></div>
+      <div id="piechart_2011" style="width: 900px; height: 500px;"></div>
+
+
+ <script type="text/javascript">
+$(document).ready(function() {
+
+         google.charts.load('current', {'packages':['corechart']});
+         google.charts.setOnLoadCallback(drawChart);
+         function drawChart() {
+         
+         var options = {
+         title: 'Plant Total Downtime(Per Year)',
+         is3D:true   
+         };
+         var data_2011 = google.visualization.arrayToDataTable([
+         ['plant' , 'total downtime'],
+         ['单位1',1945],
+         ['单位2',5353]
+           ]);
+           var options_2011 = {
+               title: '2011年单位故障时间对比',
+               is3D:true   
+           };
+         
+         var data_2012 = google.visualization.arrayToDataTable([
+         ['plant' , 'total downtime'],
+         ['单位1',445],
+         ['单位2',7958]
+           ]);
+           var options_2012 = {
+               title: '2012年单位故障时间对比',
+               is3D:true   
+           };
+         
+         
+         var data_2013 = google.visualization.arrayToDataTable([
+         ['plant' , 'total downtime'],
+         ['单位1',120],
+         ['单位2',1642]
+           ]);
+           var options_2013= {
+               title: '2013年单位故障时间对比',
+               is3D:true   
+           };
+         
+         
+         var data_2014 = google.visualization.arrayToDataTable([
+         ['plant' , 'total downtime'],
+         ['单位1',0],
+         ['单位2',2352]
+           ]);
+           var options_2014 = {
+               title: '2014年单位故障时间对比',
+               is3D:true   
+           };
+         
+         
+         
+         var data_2015 = google.visualization.arrayToDataTable([
+         ['plant' , 'total downtime'],
+         ['单位1',2062],
+         ['单位2',3755]
+           ]);
+           var options_2015 = {
+               title: '2015年单位故障时间对比',
+               is3D:true   
+           };
+         
+         
+         
+         var data_2016 = google.visualization.arrayToDataTable([
+         ['plant' , 'total downtime'],
+         ['单位1',782],
+         ['单位2',800]
+           ]);
+           var options_2016 = {
+               title: '2016年单位故障时间对比',
+               is3D:true   
+           };
+
+
+
+
+
+         var chart = new google.visualization.PieChart(document.getElementById('piechart_2016'));
+         chart.draw(data_2016, options_2016);
+
+         chart = new google.visualization.PieChart(document.getElementById('piechart_2015'));
+         chart.draw(data_2015, options_2015);
+
+         chart = new google.visualization.PieChart(document.getElementById('piechart_2014'));
+         chart.draw(data_2014, options_2014);
+
+         chart = new google.visualization.PieChart(document.getElementById('piechart_2013'));
+         chart.draw(data_2013, options_2013);
+
+         chart = new google.visualization.PieChart(document.getElementById('piechart_2012'));
+         chart.draw(data_2012, options_2012);
+         
+         var chart = new google.visualization.PieChart(document.getElementById('piechart_2011'));
+         chart.draw(data_2011, options_2011);
+         
+
+         
+         }
+      
+      
+            	      	     });   
+ </script>

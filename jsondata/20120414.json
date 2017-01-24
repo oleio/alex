@@ -1,0 +1,222 @@
+{
+	"fileName": "20120414.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120414.json",
+	"score": 913,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年4月14日10时  分",
+	"fileNameDate": "20120414",
+	"equipName": "设备名称:机器人铆接枪",
+	"breakdownTime": "停机时间：累计150min",
+	"areaLocation": "停机区域\/点:  门盖",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "150",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS 南厂车身\nPlant",
+	"originator": "填表人\/日期:  马晓洲        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "记录分析现场情况；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "修理调整机器人铆接枪；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查调整机器人铆接轨迹；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "根据问题分析更换换枪盘控制气阀；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "后问题重复出现，发现机器人电缆气管捆扎状态不佳导致铆接枪被拉离停枪支架；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "整理捆扎机器人电缆气管并验证轨迹，观察电缆气管运动中状态并调整；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "在铆接枪停放位置下方加装传感器并修改机器人程序，机器人放枪过程中如出现铆接枪被拉动状况马上停止机器人运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"后盖机器人铆接工位铆接枪从停枪支架上坠落"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人铆接枪损坏？因为机器人铆接枪坠落？"
+		],
+		[
+			"为什么机器人铆接枪坠落？因为机器人将铆接枪放到停枪支架上后又将其拉起"
+		],
+		[
+			"为什么机器人将铆接枪放到停枪支架上后又将其拉起？因为机器人侧的铆接枪控制电缆、控制气管被压在铆接枪和停枪支架之间"
+		],
+		[
+			"为什么机器人侧的铆接枪控制电缆、控制气管被压在铆接枪和停枪支架之间？因为机器人控制气管、控制电缆固定位置不佳，与铆接枪的相对位置不正确"
+		],
+		[
+			"为什么机器人控制气管、控制电缆固定位置不佳，与铆接枪的相对位置不正确？因为数天前机器人控制电缆被拉坏，恢复安装后实际工作状况发生了变化。"
+		]
+	],
+	"rootCause": "机器人控制气管、控制电缆固定位置不佳，与铆接枪的相对位置不正确。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "非生产时间重新捆扎铆接枪控制电缆和控制气管并验证机器人运行轨迹",
+				"resp": "黄光耀",
+				"supp": "袁伟",
+				"compDate": "4\/16\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "在铆接枪停枪支架上增加一个检测传感器检测停枪状态并修改机器人程序，放枪完毕机器人返回HOME过程中实时检测铆接枪位置，发现铆接枪被异常拉起马上停止机器人运行，避免铆接枪被拉离停枪支架。",
+				"resp": "黄俊宇",
+				"supp": "马晓洲",
+				"compDate": "4\/14\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "完成机器人电缆气管整理后跟踪运行状态，将确认状态正确的DRESS状态拍照制成文档悬挂在工位围栏上供维修人员巡检参照。",
+				"resp": "黄光耀 黄俊宇 ",
+				"supp": "",
+				"compDate": "4\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤4以外的维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

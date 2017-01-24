@@ -1,0 +1,222 @@
+{
+	"fileName": "20140505SUR40L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140505SUR40L1.json",
+	"score": 990,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年5月5日13时00分",
+	"fileNameDate": "20140505",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：210min",
+	"areaLocation": "停机区域\/点:SUR",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "210",
+	"lostProductNum": "90",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  瞿淼晋     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "SUR40L1工位故障，焊机跳闸。测量焊机进线电源，发现进线电压异常。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "排查控制柜内保险丝，有两相保险丝烧毁，东昌查找备件并更换。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "上电后SUR40L1无法复位，焊机无reday信号输出、电源板指示灯不亮，判断焊机内部故障（间歇报40#故障）。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "维修拉取现场螺柱焊备机（手工螺柱焊），同时更换故障焊机CPU电路板，更换后故障依旧，确认焊机电源模块故障，生产启动Back up方案维持生产。",
+				"lostMin": 40,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换备用焊机，更换备用焊机（两焊机不兼容，需更换部分组件），同时从东昌中心仓库调拨北厂类似型号焊机。",
+				"lostMin": 40,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "现场备用焊机改造后，焊机不兼容，无法正常焊接，尝试将备用焊机电源模块整体拆卸后更换，更换后焊机报16#故障。",
+				"lostMin": 40,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "调拨焊机到达现场，更换焊机，更换通信模块、存储模块后恢复生产。",
+				"lostMin": 60,
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR40L1自动工位螺柱焊机故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SUR40L1工位故障"
+		],
+		[
+			"为什么更换保险丝后无法恢复生产？因为焊机焊机无reday信号输出、电源板指示灯不亮。"
+		],
+		[
+			"为什么焊机无reday信号输出、电源板指示灯不亮？因为焊机电源模块内部短路,模块损坏。"
+		],
+		[
+			"为什么现场螺柱焊备机无法直接使用？因为现场螺柱焊机为手工螺柱焊焊机，与自动工位螺柱焊机版本不同，内部组件有差异。"
+		],
+		[
+			"为什么现场备用焊机改造后，无法正常焊接？因为联系Emhart供应商，其对该情况是否兼容也不确定，现场抢修时在中心调拨焊机未到达之前先进行尝试，结果为不兼容。"
+		]
+	],
+	"rootCause": "对手工螺柱焊机改装自动焊机存在盲区；自动焊机备件策略失效。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换螺柱焊机、更换通信模块、存储模块",
+				"resp": "瞿淼晋",
+				"supp": "",
+				"compDate": "5\/5\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系Emhart分析焊机故障原因，及时修复",
+				"resp": "瞿淼晋",
+				"supp": "",
+				"compDate": "5\/10\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制定SUR40自动螺柱焊机Backup策略，采购相应备件",
+				"resp": "瞿淼晋",
+				"supp": "",
+				"compDate": "6\/30\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系Emhart梳理焊机兼容性信息，新项目采购螺柱焊机选型时考虑设备兼容性",
+				"resp": "瞿淼晋",
+				"supp": "",
+				"compDate": "5\/31\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "更换整机备件,并更换通信模块、存储模块后恢复生产。"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:曹鸣晓",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

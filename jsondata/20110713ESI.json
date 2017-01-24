@@ -1,0 +1,222 @@
+{
+	"fileName": "20110713ESI.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110713ESI.json",
+	"score": 455,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7 月14日  3时00  分",
+	"fileNameDate": "20110713",
+	"equipName": "设备名称:R3J2电机",
+	"breakdownTime": "停机时间：20",
+	"areaLocation": "停机区域\/点:JRL070",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 王烨\n2011-7-14",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "ESI010R3无法焊接，维修通知焊接工程师到场",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "联系焊接工程师到现场查看，发现焊机主板保险丝断",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "维修准备更换枪柄和保险丝",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换主板保险丝",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换损坏的枪柄",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESI010R3无法焊接"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么无法焊接？因为比例阀无信号"
+		],
+		[
+			"为什么比例阀无信号？因为焊机主板无电流"
+		],
+		[
+			"为什么焊机主板无电流？因为焊机保险丝断"
+		],
+		[
+			"为什么焊机保险丝断？因为枪柄短路烧断保险丝"
+		],
+		[
+			"为什么枪柄短路？因为枪柄使用过程中信号线绝缘磨破导致枪柄导电短路"
+		]
+	],
+	"rootCause": "枪柄短路烧断保险丝",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换枪柄和主板保险丝",
+				"resp": "王烨",
+				"supp": "",
+				"compDate": "2011\/7\/13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将检查焊机枪柄信号线磨损状态列入DTPM内容中每日检查",
+				"resp": "王烨",
+				"supp": "",
+				"compDate": "2011\/7\/31",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:王烨"
+}

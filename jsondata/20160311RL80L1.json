@@ -1,0 +1,222 @@
+{
+	"fileName": "20160311RL80L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160311RL80L1.json",
+	"score": 639,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016.3.11   22",
+	"fileNameDate": "20160311",
+	"equipName": "设备名称: 机器人",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点: FO140",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "25",
+	"lostProductNum": "10",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    钱毅吉   2015.11.8\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "机器人报警,显示胎膜位置测量故障,手动复位",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "第二辆车仍发生测量超差,进入工位发现胎膜上的尼龙块丢失,挠性定位销丢失,向前追溯发现前1辆车滚边产生馄饨皮,且侧围上被撞出凹坑",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "手动开机器人,将胎膜从侧围上拿下,并bypass工位",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "安装尼龙块和定位销",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "下一批E2进入80号工位时手动走轨迹,确认轨迹无问题",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"RL80L1 E2胎膜上尼龙块和销子掉落"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么E2侧围被撞出凹坑,轮罩滚边出现馄饨皮"
+		],
+		[
+			"为什么胎膜在侧围上位置发生变化,尼龙块与侧围发生碰撞"
+		],
+		[
+			"为什么机器人上的一个挠性定位销丢失"
+		],
+		[
+			"为什么挠性定位销的固定螺栓松动"
+		],
+		[
+			"为什么该定位销在安装支架上可转动"
+		]
+	],
+	"rootCause": "定位销设计存在存在问题\n",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "工位bypass,维持生产",
+				"resp": "张少峰",
+				"supp": "",
+				"compDate": "3\/12\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "重新安装尼龙块和定位销",
+				"resp": "吴家骏",
+				"supp": "",
+				"compDate": "3\/12\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "与供应商交流该定位销设计问题",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "3\/20\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "机器人发生测量故障,进入工位发现胎膜上的尼龙块丢失,挠性定位销丢失"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "手动开机器人,将胎膜从侧围上拿下,并bypass工位"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "安装尼龙块和定位销"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "下一批E2进入80号工位时手动走轨迹,确认轨迹无问题"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：曹鸣晓",
+	"person_ENG": "工程师\/ENG.:钱毅吉",
+	"person_GL": "工段长\/ GL:腾征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

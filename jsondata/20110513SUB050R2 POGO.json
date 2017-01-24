@@ -1,0 +1,222 @@
+{
+	"fileName": "20110513SUB050R2 POGO.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110513SUB050R2 POGO.json",
+	"score": 626,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年5月13日10时30分",
+	"fileNameDate": "20110513",
+	"equipName": "设备名称:POGO焊",
+	"breakdownTime": "停机时间：70min",
+	"areaLocation": "停机区域\/点:SUB",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "70",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：\nPlant南厂车身",
+	"originator": "填表人\/日期          \nOringinator 袁伟",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "取出拉弧的螺栓、垫片，拆下拉弧的主缆、副缆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "打磨拉弧的连接铜块，水冷电缆连接端，副缆连接端；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "领用新螺栓、垫片等辅材重新安装；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复正常生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"机器人POGO焊出现焊接故障，现场检查发现电缆主缆与副缆连接处拉弧。"
+		],
+		[
+			"（底板区域维修人员对拉弧的电缆接头进行处理，"
+		],
+		[
+			"（停机时间包括离开处理E-CAR主线故障和轮班吃饭时间）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人POGO焊接故障？因为焊接电流小于设定范围"
+		],
+		[
+			"为什么焊接电流小于设定范围？因为焊接回路电阻变大"
+		],
+		[
+			"为什么焊接回路电阻变大？因为电缆主缆和副缆连接处拉弧"
+		],
+		[
+			""
+		],
+		[
+			"为什么电缆主缆和副缆连接处拉弧？因为长期使用后电缆接触面导电性能变差未及时发现处理导致状态恶化"
+		]
+	],
+	"rootCause": "长期使用后电缆接触面导电性能变差未及时发现处理导致状态恶化",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "处理拉弧的电缆主缆和副缆连接",
+				"resp": "袁伟",
+				"supp": "",
+				"compDate": "11-5-13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "跟踪修复后的主缆副缆连接节点工作状态，保证问题不会",
+				"resp": "袁伟",
+				"supp": "王俊杰",
+				"compDate": "11-5-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "重复发现并同时检查POGO焊工位其它电缆连接点工作状态",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "统计车间内自动工位焊接水冷电缆使用情况并列入焊接专",
+				"resp": "王俊杰",
+				"supp": "",
+				"compDate": "11-5-20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "业预防性检查工作计划",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:王俊杰"
+}

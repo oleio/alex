@@ -1,0 +1,222 @@
+{
+	"fileName": "20110622EMC050.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110622EMC050.json",
+	"score": 812,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 6月 22日 18时 00分",
+	"fileNameDate": "20110622",
+	"equipName": "设备名称:EMC SHUTTLE",
+	"breakdownTime": "停机时间：min",
+	"areaLocation": "停机区域\/点:   EMC",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "45",
+	"lostProductNum": "27",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期　尹熠俊      \nOringinator 2011.6.22",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "确认工位检查气源和气缸状态是否正常并手动戳阀恢复到正常工作状态，通知控制工程师实施监控。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "再次发生上述故障，监控显示程序信号输出正常，推断工位内电磁阀输入信号不稳定。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "进入工位对换了LIFTER1和LIFTER2的SMC阀岛的电源线，故障依旧会发生。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "排除了阀岛的电源问题，怀疑上升下降控制电磁阀或者电磁阀控制线存在问题。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "临时修改程序，在SHUTTLE移动中，LIFTER2采用机械刹车锁定，恢复正常生产，并准备控制线和电磁阀备件。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "生产7个小时后，发生LIFTER2上升过程中下落。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "直接更换电磁阀并恢复LIFTER移动程序。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC050 SHUTTLE LIFTER2 载料上升和前进过程中，自动下落。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为何LIFTER2 载料前进时会自动下落？气缸不能保持顶升状态。"
+		],
+		[
+			"为什么气缸不能保持顶升状态？电磁阀阀芯状态不能保持。"
+		],
+		[
+			"为什么电磁阀阀芯状态不能保持？电磁阀先导损坏。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "电磁阀先导失效，阀芯状态不能保持。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时修改程序，LIFTER2采用机械刹车锁定，恢复正常生产",
+				"resp": "滕征",
+				"supp": "尹熠俊",
+				"compDate": "2011.6.22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班检查接线情况，清理线束上的飞溅。",
+				"resp": "腾征",
+				"supp": "谢诚侃",
+				"compDate": "2011.6.22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换电磁阀，并恢LIFTER2复移动程序。",
+				"resp": "腾征",
+				"supp": "谢诚侃",
+				"compDate": "2011.6.22",
+				"status": "4\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "分析电磁阀先导失效原因",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2011.6.30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "针对LIFTER2上升不到位制作BACKUP方案，利用闲置的LIFTER3气源，对LIFTER2进行供气。",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "2011.6.30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：黄波",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

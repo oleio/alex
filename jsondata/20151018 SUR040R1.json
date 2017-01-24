@@ -1,0 +1,222 @@
+{
+	"fileName": "20151018 SUR040R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151018 SUR040R1.json",
+	"score": 651,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.10.18",
+	"fileNameDate": "20151018",
+	"equipName": "设备名称:  螺柱焊",
+	"breakdownTime": "停机时间： 90   min",
+	"areaLocation": "停机区域\/点: SUR040",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "90",
+	"lostProductNum": "60",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期: ：葛逸飞\nOringinator：",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "临时飞小钉DRESS",
+				"lostMin": 15,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查DRESS走向，发现DRESS与原位置发生变化",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "重新调整并固定DRESS位置",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更改机器人轨迹，增加过度点，使DRESS避开机器人4、5号轴",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换小钉焊枪",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR040R1 螺柱焊枪小钉DRESS通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SUR040R1无法焊接？因为小钉DRESS通讯报警；"
+		],
+		[
+			"为什么小钉DRESS通讯报警？因为DRESS缠绕进机器人4号轴处；"
+		],
+		[
+			"为什么DRESS会缠绕进机器人4号轴处？因为机器人DRESS位置发生变化；"
+		],
+		[
+			"为什么机器人DRESS位置发生变化？因为怀疑焊接E2LB车型时DRESS有被拉扯过；"
+		],
+		[
+			"为什么过完E2LB后DRESS有被拉扯过？因为怀疑E2LB轨迹不佳，DRESS与机器人及螺柱枪支架存在干涉"
+		]
+	],
+	"rootCause": "E2LB轨迹不佳，DRESS与机器人及螺柱枪支架存在干涉",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整机器人轨迹，避开干涉点",
+				"resp": "黄光耀",
+				"supp": "葛逸飞",
+				"compDate": "2015.10.19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "临时飞小钉DRESS",
+				"resp": "孙伟",
+				"supp": "葛逸飞",
+				"compDate": "2015.10.19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对E2轨迹中的DRESS状态进行优化",
+				"resp": "瞿淼晋",
+				"supp": "",
+				"compDate": "2015.10.25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "焊枪支架上安装过渡支架，限制DRESS位置",
+				"resp": "袁伟",
+				"supp": "",
+				"compDate": "2015.10.25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "应该先检查DRESS走向"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：黄光耀",
+	"person_ENG": "工程师\/ENG.:葛逸飞",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

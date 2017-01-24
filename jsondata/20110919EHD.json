@@ -1,0 +1,222 @@
+{
+	"fileName": "20110919EHD.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110919EHD.json",
+	"score": 746,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年09月19日06时30分",
+	"fileNameDate": "20110919",
+	"equipName": "设备名称:机器人滚边",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点:前盖",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "50",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 黄智君         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "机器人控制箱内DC24V电源上电，无效；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查阀岛通讯电缆未见异常，用飞线将阀岛直接接到机器人上的通讯电缆插座故障依旧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "从备件仓库领用备件阀岛通讯模块更换，问题没有解决；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "将出现通讯故障的阀岛和其它阀岛互换（模块地址不变），互换后的2个模块均能正常通讯，排除通讯电缆问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "根据软件设置重新设置硬件地址，出现故障的模块（原来地址）重复故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "判断#33地址为通讯故障原因，临时将模块的硬件地址及机器人控制器的软件地址从#33改为#32；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "恢复设备正常自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E－CAR前盖机器人E11GRIPPER上的机器人SLAVE阀岛模块通讯故障（33#）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人滚边工位停止自动运行？因为抓料机器人SLAVE通讯故障"
+		],
+		[
+			"为什么抓料机器人SLAVE通讯故障？因为机器人GRIPPER上阀岛没有正常通讯"
+		],
+		[
+			"为什么机器人GRIPPER上阀岛没有正常通讯？因为机器人关于33#SLAVE的设置出现问题"
+		],
+		[
+			"为什么机器人关于33#SLAVE的设置出现问题？真正故障原因待继续研究确定"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人关于33#SLAVE的设置出现问题",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将出现问题的阀岛通讯地址从33#改为32#",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "11-09-19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "继续研究机器人关于33#SLAVE的设置出现问题原因，找到真正原因并确定相应的长期措施。",
+				"resp": "徐啸顺",
+				"supp": "黄俊宇",
+				"compDate": "暂定为11-10-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修处理过过程，但确定“模块地址”为故障原因的时间因缩短。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

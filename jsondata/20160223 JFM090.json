@@ -1,0 +1,222 @@
+{
+	"fileName": "20160223 JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160223 JFM090.json",
+	"score": 751,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "20150223",
+	"fileNameDate": "20160223",
+	"equipName": "设备名称:GATE通讯",
+	"breakdownTime": "停机时间：110min",
+	"areaLocation": "停机区域\/点:JFM090",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "110",
+	"lostProductNum": "80",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:谢诚侃\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "GATE切换至E2LB时,GATE右侧通讯故障；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查右侧GATE的SATBLI，及坦克链中的通讯线，发现通讯异常；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "用从主控柜过来的通讯线直接接至GATE上，通讯正常。所以判断坦克链中的通讯线或者STABLI有故障；",
+				"lostMin": 20,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "准备好STABLI备件及通讯线进行更换；通讯插头及电源插头需要重新制作；",
+				"lostMin": 60,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "整理线缆，恢复自动；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090 切换E2LB车型时右侧GATE通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么切换GATE时故障？因为右侧GATE通讯故障；"
+		],
+		[
+			"为什么右侧GATE通讯故障？因为通讯电缆至STABLI插头处电缆断路；"
+		],
+		[
+			"为什么通讯电缆至STABLI插头处电缆断路？因为GATE STABLI插头内部通讯线缆与插针连接处断路"
+		],
+		[
+			"为什么GATE STABLI插头内部通讯线缆与插针连接处断路？因为线缆锁紧接头未能完全固定线缆，线缆拉伸窜动"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": " 1.右侧GATE STABLI插头内部通讯线缆与插针连接处断路\n 2.线缆锁紧接头未能完全固定线缆，线缆拉伸窜动",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换STABLI插头，及通讯电缆",
+				"resp": "陈烨华",
+				"supp": "谢诚侃",
+				"compDate": "2\/23\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查内外总拼STABLI插头状态；确认备件状态；",
+				"resp": "A C班",
+				"supp": "",
+				"compDate": "2\/27\/2016",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "改进线缆防水接头，锁紧线缆；",
+				"resp": "谢诚侃",
+				"supp": "控制组",
+				"compDate": "3\/15\/2016",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "检查右侧GATE的SATBLI，及坦克链中的通讯线，发现通讯异常"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "分段排查通讯回路，确认故障点，准备好STABLI备件及通讯线进行更换"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "整理线缆，恢复自动"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL 陈烨华",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

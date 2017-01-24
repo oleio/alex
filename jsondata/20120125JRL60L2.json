@@ -1,0 +1,222 @@
+{
+	"fileName": "20120125JRL60L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120125JRL60L2.json",
+	"score": 733,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1月 25 日19时 52 分",
+	"fileNameDate": "20120125",
+	"equipName": "设备名称:L2机器人",
+	"breakdownTime": "停机时间：累计50min",
+	"areaLocation": "停机区域\/点:JRL060",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "50",
+	"lostProductNum": "18",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:陈烨华          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "机器人DRESS抱箍底座拉断，机器人碰撞报警，维修到工位确定问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "维修人员拉动支持，拆卸损坏DRESS抱箍，同时从东昌领用DRESS抱箍及19芯电缆送到现场；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "恢复DRESS抱箍安装，修整拉脱开裂的19芯电缆座，整理捆扎机器人6轴上的电缆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复工位自动运行，机器人L1低速，检查E11车型DRESS状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "运行中检查618\/E10机器人轨迹DRESS状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL60工位做完618车型开始做E11车型，L2机器人放下618焊枪抓E－CAR焊枪"
+		],
+		[
+			"过程中机器人6轴DRESS抱箍底座拉断，造成19芯电缆损坏，电缆座开裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人碰撞报警"
+		],
+		[
+			"为什么机器人运行过程中DRESS缠绕手臂"
+		],
+		[
+			"为什么机器人6轴处DRESSS抱箍底座断裂"
+		],
+		[
+			"为什么DRESS抱箍长期受力过大"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人轨迹复杂，DRESS扭动幅度大导致DRESS抱箍长期受力过大,DRESS抱箍无法承受长期受力过大状态",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "完成抱箍更换后跟踪调整DRESS工作状态",
+				"resp": "陈烨华",
+				"supp": "曹鸣晓",
+				"compDate": "1\/28\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "整修机器人DRESS并重新验证各车型轨迹工作情况",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "1\/28\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "优化618\/E10\/E11车型机器人过渡轨迹，减小抱箍受力",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2\/8\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系抱箍供应商提高备件抱箍质量",
+				"resp": "黄俊宇",
+				"supp": "胡滨",
+				"compDate": "2\/13\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同抢修步骤"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110917JRL60L2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110917JRL60L2.json",
+	"score": 794,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年9月17日13时30分",
+	"fileNameDate": "20110917",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：90min",
+	"areaLocation": "停机区域\/点:JRL线",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "90",
+	"lostProductNum": "40",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 樊超杰         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "拆下断裂的乒乓拍并同时安排人员到东昌领用备件；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "完成更换后参考历史照片并根据故障时状态重新固定机器人DRESS；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "根据线上车身验证DRESS工作状态，不断调整固定处；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "反复调整同时另外人员研究资料视频并截图送抢修现场；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "根据多幅多角度截图照片再次固定机器人DRESS，验证后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL60L2机器人固定DRESS的\"乒乓拍“断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人DRESS固定乒乓拍断裂？因为工艺要求限制乒乓拍在不同车型轨迹切换过程中受力较大"
+		],
+		[
+			"为什么更换DRESS固定“乒乓拍”后设备还是无法正常运行？因为重新固定后的机器人DRESS状态同原来状态不一致"
+		],
+		[
+			"为什么重新固定后的机器人DRESS状态同原来状态不一致？因为参考单幅DRESS照片以及更换“乒乓拍”前DRESS状态的方法存在缺陷"
+		],
+		[
+			"为什么工作方法存在缺陷？因为单幅平面照片无法完全表现DRESS的3维立体状态，DRESS状态记录工作不完善。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1)DRESS状态不佳 2)采用的DRESS恢复方法存在缺陷，DRESS状态记录工作不完善。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "找到机器人工作视频，参照关键位置截图恢复机器人DRESS.",
+				"resp": "李颖琛",
+				"supp": "黄俊宇",
+				"compDate": "11-9-17",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "系统拍摄所有机器人DRESS工作状态视频，将视频保存到维修会议室电脑备用。",
+				"resp": "黄俊宇",
+				"supp": "徐啸顺",
+				"compDate": "11-11-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "根据视频截取所有机器人DRESS状态多幅关键照片并保存到总拼电脑中备用。",
+				"resp": "黄俊宇",
+				"supp": "徐啸顺",
+				"compDate": "11-11-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "重新整修机器人DRESS.",
+				"resp": "维修B",
+				"supp": "",
+				"compDate": "11-09-19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "1,4,5"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:谢鲲（代）",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

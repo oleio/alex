@@ -1,0 +1,222 @@
+{
+	"fileName": "20140414ESOR1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140414ESOR1.json",
+	"score": 1146,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年4月14日8时00分",
+	"fileNameDate": "20140414",
+	"equipName": "设备名称:机器人抓手",
+	"breakdownTime": "停机时间：165分钟",
+	"areaLocation": "停机区域\/点:  ESOR1",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "165",
+	"lostProductNum": "60",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  何文泽    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "跟据故障现象判断为机器人D网短路故障，决定分段寻找短路点；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "将机器人抓手上方所有模块通信截断后，发现其他模块通信正常无故障，判断故障点在机器人抓手内；",
+				"lostMin": 25,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "逐段检查模块通信状态，锁定故障源为36#模块；",
+				"lostMin": 45,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "对比模块外形，从现场料架领取外观一致的AB通信输入模块；（机器人抓手上使用了3块外形相同的模块，2块输入，1块可配置输入输出）",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查机器人设置的的故障模块信息，发现与新模块基本一致，判断备件应正确；",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "将此模块替换损坏的36#模块，发现此新模块装上后无法与机器人建立通信；",
+				"lostMin": 20,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "怀疑机器人通信网络内各模块间存在地址冲突，将新模块地址改为37#连入机器人网络，通信成功；",
+				"lostMin": 20,
+				"success": "X"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"生产过程中R1机器人下挂所有通信模块同时报错"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么通信模块同时报错？          为什么排故过程过长？\n                 机器人D网存在短路；"
+		],
+		[
+			"为什么机器人D网存在短路？         为什么使用了型号不一致的模块？\n                 36#模块内部短路；"
+		],
+		[
+			"为什么36#模块内部短路？           为什么维修人员会误判断？\n                 模块中有金属粉尘侵入；"
+		],
+		[
+			"为什么模块中有金属粉尘侵入？\n                  模块空余插口缺少闷头；"
+		],
+		[
+			"为什么模块空余插口缺少闷头？1.安装时未辨识出此漏装风险"
+		]
+	],
+	"rootCause": "1、模块安装时未辨识出此漏装的风险，\n3、对此类模块型号培训与考核缺失，抢修人员错误使用备件造成恢复时间延误。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换故障模块，恢复正常生产。",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "4\/14\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.维修交接班交流此停机信息。",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "4\/16\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.对其余模块的闷头进行检查，补全缺失的闷头。",
+				"resp": "陈烨华",
+				"supp": "黄伟杰",
+				"compDate": "4\/27\/2014",
+				"status": "1\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.细化模块安装与更换的MTS\/TIS，将闷头安装作为关键点，并开展培训。",
+				"resp": "何文泽",
+				"supp": "黄伟杰",
+				"compDate": "4\/30\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 9,
+				"descr": "仔细对比新旧模块型号，发现备件型号有误；"
+			}
+		],
+		[
+			{
+				"step": 10,
+				"descr": "从仓库领取同型号备件，更换后故障恢复。"
+			}
+		],
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "跟据故障现象判断为机器人D网短路故障，决定分段寻找短路点；"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "将机器人抓手上方所有模块通信截断后，发现其他模块通信正常无故障，判断故障点在机器人抓手内；"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "逐段检查模块通信状态，锁定故障源为36#模块；"
+			}
+		]
+	],
+	"person_TL": "",
+	"person_ENG": "",
+	"person_GL": "相应变更：   TPM       PM       CM       图纸       备件清单       参数        程序        标书      ",
+	"person_Manager": ""
+}

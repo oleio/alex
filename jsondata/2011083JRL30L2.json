@@ -1,0 +1,222 @@
+{
+	"fileName": "2011083JRL30L2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\2011083JRL30L2.json",
+	"score": 619,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 8月30日21时  0分",
+	"fileNameDate": "2011083J",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "60",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator丁伟",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "停止机器人运行，进入工位人工干预；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "后面的车出现相同问题，人工干预；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "联系生产调整985生产计划，生产结束时JRL30工位前停985车型；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "生产结束后调整985车型机器人轨迹；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL30L2焊接985车型时发生机器人焊枪报警，复位观察时发现机器人"
+		],
+		[
+			"DRESS缠在5#轴上。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊接985车型时焊枪报警？因为机器人DRESS被拉扯"
+		],
+		[
+			"为什么机器人DRESS被拉扯？因为985车型时机器人轨迹造成DRESS卷在5#轴上"
+		],
+		[
+			"为什么985车型机器人轨迹造成DRESS卷在5#轴上？因为机器人运动轨迹与DRESS配合状态不理想"
+		],
+		[
+			"为什么机器人运动轨迹与DRESS配合状态不理想？因为夜班维修DRESS后未充分验证C-CAR轨迹"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人运动轨迹与DRESS配合状态不理想",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "协调生产调整985生产计划，生产结束时在工位停985车型",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "11-8-31",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "生产结束后根据目前DRESS状态调整机器人985车型机器人轨迹",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-9-2",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "维修Dress后必需充分验证各种车型轨迹",
+				"resp": "陈文佳\/尹熠俊\/黄波",
+				"supp": "",
+				"compDate": "11-9-2",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "201511123_JFM030.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\201511123_JFM030.json",
+	"score": 452,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年11月23日9点03分",
+	"fileNameDate": "20151112",
+	"equipName": "设备名称:电机链条",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:JFM030",
+	"maintainTeam": "维修班组:",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区： SPBS\nPlant",
+	"originator": "填表人\/日期:  吴梦杰     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修检查发现胶枪枪体大量漏胶。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "通知生产启动BACKUP方案，准备胶枪备件。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "现场更换胶枪。",
+				"lostMin": "10min",
+				"success": "O "
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "进行充放胶试验。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "取消BACKUP，恢复自动生产。",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM030 L2 胶枪充胶报警。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么L2 胶枪充胶报警？因为胶枪枪体大量漏胶。"
+		],
+		[
+			"为什么胶枪枪体大量漏胶？因为内部密封圈磨损。"
+		],
+		[
+			"为什么内部密封圈磨损？因为使用频次高。"
+		],
+		[
+			"为什么？"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "使用频次高，内部密封圈磨损。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换胶枪。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2015.11.23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "编写更换胶枪的MTS",
+				"resp": "钱毅吉",
+				"supp": "",
+				"compDate": "2015.11.25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "每三个月更换一次胶枪，列入PM计划。",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "2015.11.25",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 黄光耀",
+	"person_ENG": "工程师\/ENG.: 吴梦杰",
+	"person_GL": "工段长\/ GL: 滕征",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20130214JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130214JFM090.json",
+	"score": 806,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年 02月14日07时30分",
+	"fileNameDate": "20130214",
+	"equipName": "设备名称:U1机器人",
+	"breakdownTime": "",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "26",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 张兆        \nOringinator 2013.2.14",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM90U1,R4,L4不动作,HMI无报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看U1在等POSTION10(夹紧GRIP的夹头)，当时判断为U1要抓GRIPPER退回到HOME；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "手动打开该夹头后,跳过POSTION试教U1,发现轨迹不对,U1是在放GRIPPER的程序里；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将U1开回原位,触阀关闭夹紧GRIPPER的夹头.但强制电磁阀时操作错误导致DUMP在复位后误动作敲坏车顶；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "手动将DUMP打开，试教完U1，R4，L4。打开工装此车下线；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "确认设备正常后上自动，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90U1故障(生产618车型时）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么618DUMP敲坏车顶？因为DUMP在抢修过程中被误触发；"
+		],
+		[
+			"为什么DUMP被误触发？因为维修人员在强制GRIPPER夹紧气缸时误触发了DUMP电磁阀；"
+		],
+		[
+			"为什么需要强制GRIPPER夹紧气缸？因为GRIPPER夹紧气缸被手动打开过；"
+		],
+		[
+			"为什么GRIPPER夹紧气缸被手动打开过？因为U1机器人在等待GRIPPER夹紧气缸到位信号；"
+		],
+		[
+			"为什么U1在等待GRIPPER夹紧气缸到位信号？因为夹紧气缸未到位；"
+		]
+	],
+	"rootCause": "维修人员操作失误导致618车顶被敲坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "手动示教U1,L4,R4完成焊接，恢复自动",
+				"resp": "张兆",
+				"supp": "谢诚侃",
+				"compDate": "2013.2.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对总拼区域维修员工进行手动操作的培训",
+				"resp": "谢诚侃",
+				"supp": "沈建伟",
+				"compDate": "2013.2.24",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "规范维修现场强制要求：1、确认标示；2、强制方法",
+				"resp": "陈烨华",
+				"supp": "沈建伟",
+				"compDate": "2013.2.24",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "扣除现场维修操作人员当月响应绩效分值",
+				"resp": "沈建伟",
+				"supp": "",
+				"compDate": "2013.2.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "确认设备故障原因后按步骤操作"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢诚侃",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

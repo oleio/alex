@@ -1,0 +1,222 @@
+{
+	"fileName": "20151227JFM110.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151227JFM110.json",
+	"score": 517,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015-12-27",
+	"fileNameDate": "20151227",
+	"equipName": "设备名称:机器人涂胶",
+	"breakdownTime": "停机时间：累计20min",
+	"areaLocation": "停机区域\/点:总拼",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:黄光耀 马晓洲       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "插拔相关以太网电缆头，机器人示教板复位恢复通讯；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "故障重复出现，重复步骤1；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "临时修改E15机器人程序，跳转照相检测相关信号，恢复自动运行；",
+				"lostMin": 4,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "临时修改A10机器人程序，跳转照相检测相关信号，恢复自动运行；",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "临时修改E16机器人程序，跳转照相检测相关信号，恢复自动运行；",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM110工位机器人调试中的涂胶检测照相系统以太网报警（未实际使用）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM110涂胶机器人停止动作"
+		],
+		[
+			"为什么机器人故障报警停止"
+		],
+		[
+			"为什么机器人以太网控制网络报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "机器人以太网控制网络中的照相机状态位不稳定,故障根本原因待跟踪确定。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时修改机器人程序，跳转照相检测相关信号，恢复设备自动运行。（照相机未实际使用）",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "12\/28\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "待跟踪确定机器人以太网不稳定根本原因后确定",
+				"resp": "何文泽",
+				"supp": "",
+				"compDate": "TBD",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同问题处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL黄光耀",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110218E10.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110218E10.json",
+	"score": 1028,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年2月18日22时40分",
+	"fileNameDate": "20110218",
+	"equipName": "设备名称:机器涂胶",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点: 后门",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "30",
+	"lostProductNum": "0",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator     2011.2.18",
+	"troubleShooting": [
+		[
+			{
+				"step": "2",
+				"descr": "怀疑机器人DEVICE NET网络模块电源回路有短路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查机器人手臂上的DEVICE NET电源线，未发现明显异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "断开机器人底座上的DEVICE NET电源线接头，复位后空开没有跳闸，怀疑机器人内部DEVICE NET电源线短路；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "直接从机器控制箱飞线至机器人上的模块，空开能够合上，使机器人恢复自动涂胶动作",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "机器人无法涂胶，用调压阀替代电磁比例阀，修改机器人程序使涂胶系统能够涂胶；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": "",
+				"lostMin": "故障原因评估",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"后门压机涂胶停止涂胶，初步检查发现涂胶机器人控制柜内部DC24V电源空开跳闸"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"维修过程:(记录维修的步骤)\/Trouble-Shooting(Describe the repaire step)"
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么后门压机停止涂胶？因为涂胶机器人控制柜内部DC24V电源空开跳闸"
+		],
+		[
+			"为什么涂胶机器人控制柜内部DC24V电源空开跳闸？因为DEVICE NET电源回路有短路现象"
+		],
+		[
+			"为什么DEVICE NET电源回路有短路现象？因为机器人底座至涂胶P-FLOW接口箱部分DEVICE NET电源回路有短路现象"
+		],
+		[
+			"为什么机器人底座至涂胶P-FLOW接口箱部分DEVICE NET电源回路有短路现象？因为接口箱输入信号线换胶桶时被压坏、短路"
+		],
+		[
+			"为什么接口箱输入信号线换胶桶时被压坏、短路？因为检测胶桶胶量的开关信号线走向不合理"
+		]
+	],
+	"rootCause": "机器人底座至涂胶P-FLOW接口箱部分DEVICE NET电源回路有短路现象，对涂胶机器人系统DEVICE NET电源回路不熟悉导致问题直接原因没有马上发现",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "找出确切短路点并修复",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "11-2-21",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查门盖范围的胶量检测开关信号线，发现走向不合理的信号线进行整改",
+				"resp": "谢诚侃",
+				"supp": "黄波",
+				"compDate": "11-2-28",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "相应变更",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "2",
+				"descr": "找出导致DEVICE NET电源回路短路的原因并修复；（故障范围应该是机器人底座至涂胶P-FLOW接口箱）"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "恢复设备自动运行；"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "TPM是否可以预防：",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "工段长\/ GL:马晓洲",
+	"person_ENG": "技术经理\/Tech.Manager.:邱正东",
+	"person_GL": "验证方法Verification Method：完成整改后跟踪1周",
+	"person_Manager": ""
+}

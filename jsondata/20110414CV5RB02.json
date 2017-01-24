@@ -1,0 +1,222 @@
+{
+	"fileName": "20110414CV5RB02.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110414CV5RB02.json",
+	"score": 533,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 4月14日11时45分",
+	"fileNameDate": "20110414",
+	"equipName": "设备名称:滚床",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:CV6",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 谢诚侃\n2011-4-14",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "手动操作HMI，CV6 RB01轮子不动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "查看CV5　RB02控制箱，变频器有输出。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "进工位检查，滚床，链条，轴等无异常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "松RB02的马达刹车，推雪橇无效。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "检查雪橇底部，发现雪橇上一个内六角螺丝被卡在滚床上。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "用撬棒推动雪橇，拆除螺丝，恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"雪橇在CV5 RB02位置停止不动"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV6雪橇停止不动？因为雪橇受阻力，滚床带不动雪橇。"
+		],
+		[
+			"为什么雪橇受阻力，滚床带不动雪橇？因为雪橇和滚床之间有干涉。"
+		],
+		[
+			"为什么雪橇和滚床之间有干涉？因为雪橇和滚床之间有螺丝。"
+		],
+		[
+			"为什么雪橇和滚床之间有螺丝？因为雪橇导轮的螺丝松脱。"
+		],
+		[
+			"为什么雪橇导轮的螺丝松脱？因为雪橇每次下降导轮都受冲击。"
+		]
+	],
+	"rootCause": "雪橇每次下降导轮都受冲击。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "拆除掉落的螺丝,更换新螺丝",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "2011.4.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查雪橇底部螺丝的状态，上螺纹胶",
+				"resp": "三班组",
+				"supp": "",
+				"compDate": "2011.5.1",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈文佳",
+	"person_Manager": "工程师\/ENG.:滕征"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20150526ESOL4-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150526ESOL4-Y.json",
+	"score": 1083,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年05月26日12时00分",
+	"fileNameDate": "20150526",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：累计180min",
+	"areaLocation": "停机区域\/点:ESOL4",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "180",
+	"lostProductNum": "100",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 何文泽       \nOringinator:2015.05.26",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "55#模块飞线，故障未消除，并且网络中所有模块均报警；",
+				"lostMin": "15min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查通信回路所有电缆，发现Y型线表皮有磨损，更换Y型线，故障消除一段时间后再次出现；",
+				"lostMin": "20min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "飞接管线包内通信电缆，故障依旧，断开54#站点以后的网络，其余网络正常，故障范围确认在54#模块至33#模块之间",
+				"lostMin": "10min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换换枪盘机器人侧及工具侧的通信接插件及电缆，故障未消除；",
+				"lostMin": "30min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换36#与34#模块间和34#与33#模块间的通信短线，故障消除，同时发现短线内有插针弯曲；",
+				"lostMin": "30min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "运行数分钟后，同样故障再次出现，手动开动机器人将料放下，进一步排故；",
+				"lostMin": "25min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "从控制柜直接飞接电缆与36#33#34#模块分别直接通信，只有36#模块通信未恢复，怀疑36#模块内部短路；",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"L4机器人Devicenet网络中55#模块出现通信故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人Devicenet网络出现通信故障？因为通信回路出现短路；"
+		],
+		[
+			"为什么通信回路出现短路？因为36号模块内部短路；"
+		],
+		[
+			"为什么36号模块内部短路？因为模块连接电缆接头内插针短路；"
+		],
+		[
+			"为什么连接电缆接头内插针短路？因为插接电缆时插针未进入针孔，接头拧紧后插针弯曲与其他插针接触；"
+		],
+		[
+			"为什么插针未进入针孔；因为电缆插头导向设计不合理，插针未能有效受到引导。"
+		]
+	],
+	"rootCause": "通信电缆插头导向设计不合理，插针未进入针孔而弯曲，与附近插针接触导致电缆及模块短路。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换故障模块及电缆",
+				"resp": "黄俊宇",
+				"supp": "黄波",
+				"compDate": "5\/26\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "长期 \/Long Term",
+				"resp": "负责人\nResp.",
+				"supp": "支持人\nSupp.",
+				"compDate": "完成日期\nComp. Date",
+				"status": "状态\nStatus"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制定同类故障维修方案，优化排故流程，缩短排故时间；",
+				"resp": "何文泽",
+				"supp": "黄俊宇",
+				"compDate": "5\/28\/2015",
+				"status": "2\/4"
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 9,
+				"descr": "更换36#模块，并恢复33#、34#及36#模块间的接线，未出现故障；"
+			}
+		],
+		[
+			{
+				"step": 10,
+				"descr": "恢复所有飞接的通信线，恢复生产。"
+			}
+		],
+		[
+			{
+				"step": "正确路径 \/ Correct Path:",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 1,
+				"descr": "从控制柜直接飞接电缆与36#模块通信，故障未消除，怀疑36#模块内部短路；"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "从仓库领取新模块与控制柜连接，通信OK，故障消除；"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换36#模块，并恢复33#、34#及36#模块间的接线，未出现故障；"
+			}
+		]
+	],
+	"person_TL": "",
+	"person_ENG": "",
+	"person_GL": "相应变更：   TPM       PM       CM       图纸       备件清单       参数        程序        标书      ",
+	"person_Manager": ""
+}

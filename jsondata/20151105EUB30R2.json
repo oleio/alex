@@ -1,0 +1,222 @@
+{
+	"fileName": "20151105EUB30R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151105EUB30R2.json",
+	"score": 520,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "15\/11\/6  1",
+	"fileNameDate": "20151105",
+	"equipName": "设备名称:人工焊枪",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:EUB030",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "30",
+	"lostProductNum": "17",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   费望德    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "焊接时电极杆弯曲，焊点焊穿，检查发现焊枪电极杆与枪体连接的四个螺栓断裂3个",
+				"lostMin": 8,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "准备工具取断螺栓同时要求中心仓库紧急拉动备件到现场",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "取出一个断螺栓后，尝试用两个处于对角位置的螺栓紧固电极杆后状态ok，恢复生产",
+				"lostMin": 7,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EUB030R2焊枪电极杆与枪体紧固螺栓断"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接时焊点焊穿"
+		],
+		[
+			"为什么焊接时压力建立不足"
+		],
+		[
+			"为什么焊接时静电极杆位置偏移"
+		],
+		[
+			"为什么紧固静电极杆和枪体的螺栓断"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "紧固螺栓长期受焊接压力导致螺栓达到疲劳极限而断裂,致使电极杆松动,焊点焊穿。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "取出断螺栓,更换密封圈后重新安装",
+				"resp": "黄光耀",
+				"supp": "费望德",
+				"compDate": "11\/6\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "中班结束更换静握杆",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11\/6\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "优化此处焊接压力,减少螺栓受力",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "11\/8\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "寻找焊枪替代方案，避免采用靠螺栓直接紧固并受力的此类结构",
+				"resp": "瞿淼晋",
+				"supp": "",
+				"compDate": "12\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20130123EMC60R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130123EMC60R2.json",
+	"score": 729,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年1月24日5时15分",
+	"fileNameDate": "20130123",
+	"equipName": "设备名称:机器人伺服焊枪",
+	"breakdownTime": "停机时间：累计60min",
+	"areaLocation": "停机区域\/点: EMC",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  马晓洲        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "更换发热损坏的上电极臂回水管；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "更换冷却水管后跟踪发现上电极杆\/电极帽异常发热；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "生产结束后更换TAB变形的上电极杆，电极帽；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换下电极帽时发现下电极座和连接铜块之间拉弧、松动；无法拧紧也无法拆出；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "东昌紧急送货连接铜块备件；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "从电极臂上拆卸已经损坏的连接铜块；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "同时更换连接铜块，电极杆。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"生产结束前15分钟，EMC060R2机器人焊枪上电极臂冷却水管发热损坏，更换后跟踪发现电极杆\/电极帽过热。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"       发热损坏的焊枪冷却水管          TAB损坏的电极杆       "
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么上焊枪电极臂冷却回水管发热损坏"
+		],
+		[
+			"为什么焊枪回水异常发热？因为焊枪上电极杆TAB安装面变形堵塞回水管路导致冷却水流量减小；"
+		],
+		[
+			"为什么焊枪下电极座与连接铜块之间拉弧、松动？因为电极座与连接铜块之间接触不良，长期过热，最终导致拉弧；"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1）焊枪上电极杆TAB变形影响冷却水流量，回水异常发热烫坏回水管；2）焊枪下电极座与连接铜块之间接触不良、长期过热，最终导致拉弧损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的焊枪零件，恢复焊枪正常工作性能",
+				"resp": "曹鸣晓",
+				"supp": "黄光耀",
+				"compDate": "1\/24\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制订焊枪热成像照片定期拍摄计划，提前发现焊枪非正常发热现象",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "1\/30\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "东昌仓库增设连接铜块库位，减少备件响应时间",
+				"resp": "程超",
+				"supp": "",
+				"compDate": "1\/26\/2013",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修步骤"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:王俊杰 程超",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

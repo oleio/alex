@@ -1,0 +1,222 @@
+{
+	"fileName": "20110825ESOL2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110825ESOL2.json",
+	"score": 576,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "11年  8月 25 日 21",
+	"fileNameDate": "20110825",
+	"equipName": "设备名称:ESOL2",
+	"breakdownTime": "停机时间：90min",
+	"areaLocation": "停机区域\/点:    ESO",
+	"maintainTeam": "维修班组：",
+	"lostTime": "90",
+	"lostProductNum": "40",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator   陈文佳 8\/25",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "ESOL2 DTERR 报警频繁，断电重启复位。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "飞编码器线J3至R侧，无效报警仍发生。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "飞编码器线J3至焊枪侧报警消除，怀疑伺服焊枪短线或伺服模块故障。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换伺服焊枪侧短线，无效报警仍发生",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "检查伺服模块并清洁，发现R侧伺服模有一根针脚断裂，断裂部分卡在模块内部。",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "临时修复损坏针脚",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOl2 DTERR 报警频繁"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么DTERR报警？因为编码器回路接触不良"
+		],
+		[
+			"为什么编码器回路接触不良？因为换枪盘伺服模块结合接触不良"
+		],
+		[
+			"为什么换枪盘伺服模块结合接触不良？因为伺服模块内接触针脚断裂"
+		],
+		[
+			"为什么伺服模块内接触针脚断裂？因为换枪盘接插件长期使用插针疲劳断裂"
+		],
+		[
+			"为什么修复针脚用时较长？因为针脚外壳断在模块内部无法安装新针脚。"
+		]
+	],
+	"rootCause": "换枪盘接插件长期使用插针疲劳断裂",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换饲服模块",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "08\/25",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "备件的库存量提高",
+				"resp": "徐啸顺",
+				"supp": "胡滨",
+				"compDate": "09\/1",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "制定伺服模块更换周期，准备备件强制更换。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "09\/30",
+				"status": "10\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "1，2，3，4，6，7"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:",
+	"person_GL": "工段长\/ GL:殷致平",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

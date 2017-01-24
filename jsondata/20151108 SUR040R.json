@@ -1,0 +1,222 @@
+{
+	"fileName": "20151108 SUR040R.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151108 SUR040R.json",
+	"score": 612,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.11.8",
+	"fileNameDate": "20151108",
+	"equipName": "设备名称:  自动螺柱焊枪",
+	"breakdownTime": "停机时间：50min",
+	"areaLocation": "停机区域\/点: SUR040",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "50",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    葛逸飞\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查大钉、小钉螺柱焊枪内外夹头及焊接电缆ok",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "调整内小钉焊枪顶杆位置，调整机器人轨迹，调整大钉顶杆位置",
+				"lostMin": 30,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "恢复生产",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"1. 小钉螺柱焊枪第1，2点位置无法焊接（图1）"
+		],
+		[
+			"2. 大钉螺柱焊枪无法焊接（图2）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么螺柱焊枪无法焊接？因为螺柱焊枪回程故障及销栓外露长度太小；"
+		],
+		[
+			"为什么大钉螺柱焊枪回程故障？因为大钉螺柱焊枪的顶杆位置不佳与焊点飞溅干涉造成回退距离不足；"
+		],
+		[
+			"为什么小钉销栓外露长度太小？因为小钉焊枪未能完全顶与零件上造成螺柱回退不到位"
+		],
+		[
+			"为什么顶杆位置与焊点飞溅干涉？因为焊枪焊接轨迹不佳产生飞溅"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "1. HP焊枪轨迹不佳产生飞溅造成大钉螺柱焊枪顶杆不到位\n2.小钉焊枪未能完全顶与零件上造成螺柱回退不到位",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.调整HP处焊枪姿态，减少飞溅",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "11\/8\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2. 调整小钉螺柱焊枪轨迹，顶杆位置",
+				"resp": "葛逸飞",
+				"supp": "",
+				"compDate": "11\/8\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.调整HP处焊点位置，避开螺柱焊接位置",
+				"resp": "黄伟杰",
+				"supp": "",
+				"compDate": "11\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2. 制定PM检查小钉螺柱焊枪与穿线板相对位置",
+				"resp": "陈烨华",
+				"supp": "胡滨",
+				"compDate": "11\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:葛逸飞",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

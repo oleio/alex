@@ -1,0 +1,222 @@
+{
+	"fileName": "20151205ML130.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151205ML130.json",
+	"score": 586,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015\/12\/5 23：20",
+	"fileNameDate": "20151205",
+	"equipName": "设备名称:  工装气管",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: ML130",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "20",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:   黄波\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查气源气路，发现气管弹簧管弯折，气路不通",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "准备人字梯，去除弯折处气管，恢复工装使用",
+				"lostMin": 6,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "在线观察吊具滑车在滑动时E-car气管与615气管有干涉，弹簧管易弯折",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "准备升降车，改进弹簧管钢丝绳吊点，避免弹簧管间的干涉",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ML130前盖工装吊具无气源"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么ML130前盖工装吊具无气源？因为气管弹簧管弯折，气路不通"
+		],
+		[
+			"为什么气管弹簧管弯折，气路不通？因为吊具滑车在滑动时E-car气管与615气管有干涉，弹簧管易弯折"
+		],
+		[
+			"为什么吊具滑车在滑动时E-car气管与615气管有干涉，弹簧管易弯折？因为两路气管钢丝绳吊点过于靠近，钢丝绳稍有变化就造成气管弹簧管干涉"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.气管弹簧管钢丝绳松动荡下\n2.两路气管钢丝绳吊点过于靠近，造成气管弹簧管干涉",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "分开干涉的弹簧管，去除气管弯折处",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "12\/5\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.改进相邻两根弹簧管钢丝绳吊点，扩大安全距离",
+				"resp": "孙伟",
+				"supp": "唐翠众",
+				"compDate": "12\/6\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.维修班组加强弹簧管钢丝绳的目视检查",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "12\/12\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：孙伟",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

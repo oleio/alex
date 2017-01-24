@@ -1,0 +1,222 @@
+{
+	"fileName": "20130308JFM90R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130308JFM90R1.json",
+	"score": 698,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年3月8 日7时42分",
+	"fileNameDate": "20130308",
+	"equipName": "设备名称: R1",
+	"breakdownTime": "停机时间： 16min",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "16",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 佘佳安\nOringinator\/2013.3.8",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM90衣帽板Unit243-C02 关闭不到位，进入工位整形后上自动，待其他机器人完成cycle后发现R1和R0未动作",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "查看R0示教板发现R0等待DI28（wait zone6）=ON，查看机器人干涉区明细表，确认是等待R1机器人clear zone6=ON 的信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "查看R1机器人，发现机器人程序始终停留在Proclose关枪宏程序中；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "退出程序后重新选择程序并找到该焊点位置，手动完成整个cycle；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "完成cycle后复位时发现R1机器人无法将机器人模式选择开关从T2模式恢复至AUTO模式，打开控制柜发现钥匙开关单元松动，重新安装好后复位，恢复生产；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM90 R0、R1未启动"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1、机器人程序始终循环执行在Proclose程序 2、钥匙选择开关机械连杆损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.重新选择执行R1机器人程序并找到该焊点位置，完成Cycle",
+				"resp": "佘佳安",
+				"supp": "李斌",
+				"compDate": "3\/8\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.修复钥匙选择开关机械连杆",
+				"resp": "尹熠俊 ",
+				"supp": "",
+				"compDate": "3\/8\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.机器人工程师全员培训维修人员熟练掌握快速查找程序中的焊点位置，快速响应类似故障；",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "3\/24\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.现场测试机器人钥匙选择开关状态，预定采购数量后更换",
+				"resp": "维修A\/B\/C",
+				"supp": "",
+				"compDate": "4\/30\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "1、3、4、5"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:尹熠俊",
+	"person_GL": "工段长\/ GL:黄波 ",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

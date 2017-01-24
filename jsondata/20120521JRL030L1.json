@@ -1,0 +1,222 @@
+{
+	"fileName": "20120521JRL030L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120521JRL030L1.json",
+	"score": 639,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年5月21日14时30分",
+	"fileNameDate": "20120521",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：28min",
+	"areaLocation": "停机区域\/点:   JRL",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "28",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   王昀       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "用示教板手动操作机器人焊枪，发现焊枪无法闭合；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查焊枪控制电磁阀，发现阀头线圈信号灯亮；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "用螺丝刀强制动作阀，焊枪能闭合，判断焊枪控制先导阀故障，更换电磁阀后故障依旧；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换机器人焊枪并尝试手动操作（机器人有2把焊枪），另一焊枪能够正常动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "由此判断问题出在焊枪及工具侧换枪盘，换回故障焊枪并用万用表测量电磁阀线圈端电压；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "侧得电压DC19V，低于正常电压，怀疑换枪盘控制插针接触不良；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "脱开换枪盘检查控制插针，未见明显异常，用电子清洁剂清理插针后设备恢复正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL030L1焊枪报警，维修到现场检修，用示教板操作无法关闭焊枪。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊枪无法闭合"
+		],
+		[
+			"为什么焊枪电磁阀阀芯没有切换"
+		],
+		[
+			"为什么焊枪电磁阀线圈没有得到足够的工作电压"
+		],
+		[
+			"为什么电磁阀控制回路接触不良"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "换枪盘插针接触不良,故障判断没有及时使用万用表确定故障性质导致排故时间延长。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用电子清洁剂清理换枪盘插针",
+				"resp": "李颖琛",
+				"supp": "尹熠俊",
+				"compDate": "5\/21\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "总结各种场合万用表使用方式和技巧，编写一点课程培训维修员工。",
+				"resp": "尹伟文刘丰 马晓洲",
+				"supp": "",
+				"compDate": "5\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤3以外的维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110221CV2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110221CV2.json",
+	"score": 677,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 2月21日7时00分",
+	"fileNameDate": "20110221",
+	"equipName": "设备名称:横移小车",
+	"breakdownTime": "停机时间：累计60min",
+	"areaLocation": "停机区域\/点:  CV2",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "41",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  陈文佳        \nOringinator 2011.2.21",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查横移小车驱动电机，发现左侧电机温度很高（100度以上），右侧电机温度正常（30度左右）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查变频器输出，高于正常电压，测量温度较高电机的三相绕组，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "周末PM工作中更换过横移小车滚轮及电机，查询电机型号发现更换的电机速比有问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "取消温度较高的电机驱动，单靠速比较低的电机驱动，调整输出频率至90Hz；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "测试CT基本能满足线速要求，恢复自动生产，同时准备备用电机进行更换（夜班实施）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV2横移小车CT慢，影响线速"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"1、为什么CV2横移小车CT慢？因为电机输出转速较低；"
+		],
+		[
+			"为什么电机输出转速较低？因为更换的电机与原电机速比不同（低了40%)；"
+		],
+		[
+			"2、为什么原电机温度很高？因为原电机速比较高，与低速比电机共用造成堵转，引起温度高；"
+		],
+		[
+			"为什么造成堵转？因为两个电机输出轴共用，且同一变频器控制；"
+		],
+		[
+			"为什么两个电机输出速比不同？因为PM工作中更换的电机速比不对；"
+		]
+	],
+	"rootCause": "",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整控制频率至90Hz,提高CT维持生产",
+				"resp": "陈文佳",
+				"supp": "尹伟文",
+				"compDate": "2011.2.21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换驱动电机，恢复原始状态",
+				"resp": "殷致平",
+				"supp": "C班",
+				"compDate": "2011.2.22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "完善PM工作CHECK LIST",
+				"resp": "尹伟文",
+				"supp": "殷致平",
+				"compDate": "2011.2.24",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:尹伟文",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20140327JFM150L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140327JFM150L1.json",
+	"score": 589,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年3月27日中午",
+	"fileNameDate": "20140327",
+	"equipName": "设备名称:激光焊",
+	"breakdownTime": "停机时间：",
+	"areaLocation": "停机区域\/点: JFM150L1",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 何文泽",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查下线车辆状态及焊缝跟踪系统图像，确认车顶与侧围配合良好，初步判断系设备原因造成激光终止",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查机器人及PLC报警信息，未发现相关报警",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查激光发生器状态，发现冷却水电导率较高，会间歇性地超过极限值，引起激光中断",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "判断去离子过滤器失效，将L1机器人Bypass，用R1机器人烧焊两边",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "从中心仓库调取备件，同时水冷机内更换冷却水",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换去离子过滤器，完成后L1机器人恢复工作",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"激光焊工位L1机器人间歇性出现烧到一半激光即中止的现象"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接到一半激光中止？因为激光发生器出现故障中断激光；"
+		],
+		[
+			"为什么激光发生器出现故障？因为激光发生器内冷却水离子浓度过高；"
+		],
+		[
+			"为什么激光发生器内冷却水离子浓度过高？因为去离子过滤器失效。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "去离子过滤器失效导致激光发生器内冷却水离子浓度过高",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换冷却水及去离子过滤器",
+				"resp": "何文泽",
+				"supp": "陈烨华",
+				"compDate": "3\/27\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更新TPM内容，定期检查水冷机各项参数变化，提前预警接近极限值的参数",
+				"resp": "何文泽",
+				"supp": "黄俊宇",
+				"compDate": "4\/2\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "选用优质水源作为水冷机冷却用水",
+				"resp": "何文泽",
+				"supp": "黄俊宇",
+				"compDate": "4\/2\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：陈烨华",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

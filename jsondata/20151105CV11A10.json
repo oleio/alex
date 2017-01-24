@@ -1,0 +1,222 @@
+{
+	"fileName": "20151105CV11A10.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151105CV11A10.json",
+	"score": 637,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015-11-05",
+	"fileNameDate": "20151105",
+	"equipName": "设备名称:解垛机",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:CV11",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "15",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 李颖琛马晓洲      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "发现A10雪橇解垛机工作不正常后马上将该区域切换到手动模式，避免问题扩大；",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "观察问题雪橇状态，发现底层#239雪橇托架开档小，导致上部雪橇没有落到位；",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "手动操作滚床，将堆垛机滚床上雪橇倒退，空出堆垛机滚床；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将转台上的2个堆垛雪橇倒退至堆垛机滚床，手动操作堆垛机解垛空雪橇；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "将#239问题雪橇下线",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV11 A10 解垛空雪橇返程转台上出现两个堆垛雪橇"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么 A10 解垛空雪橇返程转台上出现两个堆垛雪橇"
+		],
+		[
+			"为什么解垛机解垛失败"
+		],
+		[
+			"为什么检测堆垛雪橇的光电传感器信号错误"
+		],
+		[
+			"为什么堆垛雪橇高度不正确？因为#239雪橇托架开档小，导致上方雪橇没有落到位。"
+		],
+		[
+			"为什么#239雪橇托架开档小？因为未辨识出托架开档尺寸将造成雪橇堆垛解垛异常风险，雪橇检修校验托架开档尺寸未控制。"
+		]
+	],
+	"rootCause": "未辨识出托架开档尺寸将造成雪橇堆垛解垛异常风险，雪橇检修校验托架开档尺寸未控制。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "在解垛雪橇出口滚床上方增加限高钢丝绳，防止出现堆垛雪橇逃出。",
+				"resp": "佘佳安",
+				"supp": "",
+				"compDate": "11\/5\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "控制雪橇托架尺寸并重新辨识雪橇校验风险",
+				"resp": "张少峰",
+				"supp": "袁伟",
+				"compDate": "11\/7\/2015",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL佘佳安",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

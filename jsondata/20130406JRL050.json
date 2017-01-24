@@ -1,0 +1,222 @@
+{
+	"fileName": "20130406JRL050.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130406JRL050.json",
+	"score": 590,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年  4月6  日19时 00分",
+	"fileNameDate": "20130406",
+	"equipName": "设备名称:",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:  JRL050",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "15",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 黄智君       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "手动操作使其脱离超程位置。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "自动模式生产了数量车以后又出现超程报警，检查停止位传感器对其进行微调。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "微调后还是发生了超程报警，重现检查发现超限行程开关的安装位置出现了偏移，造成了易于碰触到杠杆发生超程报警。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "临时调整超限行程开关位置，维持生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL050滚床上升超程。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL050滚床超限位？因为JRL050超限位行程开关安装位置出现了偏移。"
+		],
+		[
+			"为什么超限位行程开关安装位置出现了偏移？因为项目施工时滚床出现了倾斜，造成安装位置出现了偏移。"
+		],
+		[
+			"为什么项目施工时滚床出现了倾斜？因为施工人员未对现场进行确认，强制信号发生了机器人和滚床干涉。"
+		],
+		[
+			"为什么没有在验证设备时发现问题？ 因为补焊线JRL030正在更换换枪盘，没有更多的验证车辆进行测试。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "滚穿发生倾斜恢复后，没有更多的车辆进行设备验证。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "临时调整超限行程开关位置。",
+				"resp": "陆强",
+				"supp": " 黄智君",
+				"compDate": "2013.04.6",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "重新校对超限行程开关位置。",
+				"resp": "陈烨华",
+				"supp": "陈文佳",
+				"compDate": "2013.04.10",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄智君",
+	"person_ENG": "工程师\/ENG.滕征代",
+	"person_GL": "工段长\/ GL:滕 征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

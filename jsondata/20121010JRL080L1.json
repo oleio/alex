@@ -1,0 +1,222 @@
+{
+	"fileName": "20121010JRL080L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121010JRL080L1.json",
+	"score": 691,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月10日10时10分",
+	"fileNameDate": "20121010",
+	"equipName": "设备名称 机器人通讯电缆",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:   JRL080",
+	"maintainTeam": "维修班组：B班",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  黄波      \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查机器人Devicenet通讯状态，发现与胎模连接的通讯模块通讯异常；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "进入工位检查Devicenet通讯各部件，发现胎模通讯电缆由于Dress抱箍损坏而受到拉扯损坏；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "更换损坏的Dress抱箍，重新连接通讯电缆恢复通讯；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "恢复生产；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL080L1机器人滚边胎模信号故障；"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人胎模检测信号无反馈？因为Devicenet通讯故障"
+		],
+		[
+			"为什么Devicenet通讯故障？因为Dress内通讯电缆受拉扯力损坏"
+		],
+		[
+			"为什么Dress内通讯电缆受拉扯力损坏？因为机器人J6抱箍开裂无法固定Dress造成通讯电缆受损"
+		],
+		[
+			"为什么机器人J6抱箍开裂无法固定Dress造成通讯电缆受损？因为Dress套管与现场地上滴落的胶水接触，在Dress移动时受力严重将固定抱箍拉坏"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "因为Dress套管与现场地上滴落的胶水接触，在Dress移动时受力严重将固定抱箍拉坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换损坏的Dress抱箍",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012\/10\/10",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.修复并重新连接Devicenet通讯电缆",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "2012\/10\/10",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.按计划清理JRL080地面溢胶",
+				"resp": "A\/B\/C生产",
+				"supp": "",
+				"compDate": "2012\/10\/14",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.改进Dress悬挂方式避免与工位地面接触",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012\/10\/28",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

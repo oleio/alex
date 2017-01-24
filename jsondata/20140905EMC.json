@@ -1,0 +1,222 @@
+{
+	"fileName": "20140905EMC.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140905EMC.json",
+	"score": 884,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年9月5日7时50分",
+	"fileNameDate": "20140905",
+	"equipName": "",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点: EMC",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "60",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  李颖琛佘佳安",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查PLC控制系统触摸屏通讯状态，确定SLOT7网段通讯故障，尝试网络断电重启，未恢复通讯；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "巡视检查EMC SLOT7网段通讯模块电缆接头，未发现明显故障点；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "分段检查网段通讯系统，缩小故障范围至空中BUFFER的通讯网络；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "用电缆替代法进一步缩小故障范围时发现空中BUFFER区域使用的通讯电缆未按常规布置，现场制作的电缆为MALE接插件-MALE接插件，无法使用标准预注电缆替代；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "东昌现场库领用通讯电缆接插件，现场制作一根非标准电缆，替代后确定EMC70工位至EMC BUFFER的通讯电缆内部短路；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复EMC PLC系统SLOT7通讯，恢复设备自动运行；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC区域设备因PLC系统SLOT7通讯故障紧急停止"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么EMC区域PLC控制设备紧急停止"
+		],
+		[
+			"为什么EMC PLC控制系统SLOT7通讯网络故障"
+		],
+		[
+			"为什么EMC PLC控制系统通讯网络中有短路现象"
+		],
+		[
+			"为什么EMC070工位至EMC BUFFER的通讯电缆内部短路"
+		],
+		[
+			"为什么排故过程较长？因为（1）现场网络布置与电气图纸不完全一致，查找线路延长了停机时间。 （2）现场接线不规范，使用了非常规的MALE-MALE通讯电缆，无法用标准通讯电缆替代，现场制作通讯电缆延长了停机时间。"
+		]
+	],
+	"rootCause": "（1）EMC区域使用了非标准预注通讯电缆,接线工艺质量差。（2）现场网络布置与电气图纸不完全一致（3）现场接线不规范，使用了非常规的MALE-MALE通讯电缆，无法用标准通讯电缆替代",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "现场制作非标准通讯电缆替代内部短路的故障电缆",
+				"resp": "佘佳安",
+				"supp": "李颖琛",
+				"compDate": "9\/5\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "使用标准预注通讯电缆整改EMC BUFFER区域通讯网络。",
+				"resp": "曹鸣晓",
+				"supp": "李颖琛",
+				"compDate": "9\/30\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "根据整改后的通讯网络更新图纸。",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "9\/30\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:佘佳安",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

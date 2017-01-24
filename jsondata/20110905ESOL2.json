@@ -1,0 +1,222 @@
+{
+	"fileName": "20110905ESOL2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110905ESOL2.json",
+	"score": 533,
+	"title": "SGM-车身 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年  9 月5日19时00分",
+	"fileNameDate": "20110905",
+	"equipName": "设备名称:L2机器人",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:  ESO",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期　陈烨华   \nOringinator        2011-9-5",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进工位检查发现乒乓板移位，抱箍断裂，Dress松脱，电磁阀损坏",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "临时恢复乒乓板，修复Dress及抱箍，更换损坏的电磁阀",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOL2机器人乒乓板移位，抱箍断裂，Dress松脱"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人报警？因为电磁阀损坏，信号丢失"
+		],
+		[
+			"为什么电磁阀损坏？因为Dress松脱，运行轨迹中压坏电磁阀"
+		],
+		[
+			"为什么Dress松脱？因为抱箍受力断裂"
+		],
+		[
+			"为什么抱箍受力断裂？因为乒乓板移位"
+		],
+		[
+			"为什么乒乓板发生移位？因为乒乓板支架末端与焊枪碰擦，长期受力移位"
+		]
+	],
+	"rootCause": "乒乓板支架末端与焊枪碰擦，导致乒乓板移位抱箍受力。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "恢复电磁阀，Dress、抱箍及乒乓板位置",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "2011-9-5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将乒乓板支架末端打磨20mm，确保轨迹中无干涉",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011-9-5",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查其他类似机器人，根据实际情况进行改进",
+				"resp": "陈文佳黄波尹熠俊",
+				"supp": "",
+				"compDate": "2011-9-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄波",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

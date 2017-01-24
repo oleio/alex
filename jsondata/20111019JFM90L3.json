@@ -1,0 +1,222 @@
+{
+	"fileName": "20111019JFM90L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111019JFM90L3.json",
+	"score": 448,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011.10.20 01",
+	"fileNameDate": "20111019",
+	"equipName": "设备名称:焊枪",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:JFM090L3",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "25",
+	"lostProductNum": "20",
+	"plantName": "厂区：spbs\nPlant",
+	"originator": "填表人\/日期          \nOringinator 陈文佳\n",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位，发现焊枪软连接出现断裂，且断裂部分与固定螺丝拉弧，造成固定螺丝断裂。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "准备更换软连接及固定螺丝。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "更换过程中发现软连接紧固螺丝端口被软连接拉弧拆下较难。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "用大力钳及特殊工具将拉弧螺丝拆下。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090焊接故障频繁，C系数较低。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接故障频繁？因为C系数较低焊机报警"
+		],
+		[
+			"为什么C系数过低？因为断裂的软连接与固定螺丝拉弧引起分流。"
+		],
+		[
+			"为什么断裂的软连接与固定螺丝拉弧?因为硬连接走向不佳。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "硬连接走向不佳，造成断裂的软连接易与固定螺丝接触拉弧",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换软连接及固定螺丝",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "2011.10.20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "联系小原，更改硬连接走向。",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2011.11.30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL陈文佳",
+	"person_Manager": "工程师\/ENG.:郑旭俊"
+}

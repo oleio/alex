@@ -1,0 +1,222 @@
+{
+	"fileName": "20110822JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110822JFM090.json",
+	"score": 665,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年8月22日 6时30分",
+	"fileNameDate": "20110822",
+	"equipName": "设备名称:换枪盘",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:JFM90",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  黄光耀\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "总拼90U1在焊完618后围板后，抓取GRIPPER，换枪盘上感应器报警。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "复位后重新抓取，报警依然存在，强制信号，将GRIPPER抓到平台上检修。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "将GRIPPER放到平台支架上脱开，检查感应器感应功能正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "怀疑周末工作时更换的拨动开关位置有变化。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "调整拨动开关位置，信号恢复正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼90焊枪在抓取GRIPPER报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么U1抓取GRIPPER时有报警？因为R侧换枪盘上感应器不到位。"
+		],
+		[
+			"为什么R侧换枪盘上感应器不到位？因为换枪盘抓取GRIPPER时有干涉。"
+		],
+		[
+			"为什么换枪盘抓取GRIPPER时有干涉？因为换枪盘上拨动开关更换，位置发生变化。"
+		],
+		[
+			"为什么拨动开关更换后位置变化发生后没有在设备验证过程中发现？因为验证工作不充分，618验证车安排数量不足。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "换枪盘上拨动开关更换，位置发生变化。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.调整拨动开关位置，检查感应器信号。",
+				"resp": "黄光耀",
+				"supp": "尹熠俊",
+				"compDate": "2011.8.22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.对该拨动开关位置做好MARK。",
+				"resp": "黄光耀",
+				"supp": "尹熠俊",
+				"compDate": "2011.8.22",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.优化机器人抓取618 备用GRIPPER的轨迹。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011.8.25",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产时间维修计划强化风险控制，对风险评级高的项目留足够的车身验证。",
+				"resp": "钱俊",
+				"supp": "李成、马晓洲",
+				"compDate": "长期工作",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:滕征"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20121024SFI110R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121024SFI110R2.json",
+	"score": 676,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月24日18时30分",
+	"fileNameDate": "20121024",
+	"equipName": "设备名称:机器人",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: SFI",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "15",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  丁伟        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场检修，重启机器人控制器后设备恢复自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "做车5台后故障再次发生，用已经准备的以太网电缆替代SWITCH至机器人控制柜的电缆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "机器人控制器重启后设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "生产结束后将更换的电缆放入线槽；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI110R2机器人以太网通讯报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人工位停止自动运行？因为机器人R2同以太网SWITCH之间通讯报警"
+		],
+		[
+			"为什么机器人R2同以太网SWITCH之间通讯报警？因为以太网通讯电缆中间接触不良"
+		],
+		[
+			"为什么以太网通讯电缆中间接触不良？因为从SWITCH至机器人控制柜手工制作的以太网电缆有问题"
+		],
+		[
+			"为什么从SWITCH至机器人控制柜手工制作的以太网电缆有问题？确切电缆问题需非生产时间拆卸通讯电缆接头测量后确定"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "从SWITCH至机器人控制柜手工制作的以太网电缆有问题（确切电缆问题需非生产时间拆卸通讯电缆接头测量后确定）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用预制电缆接头的以太网电缆替代发生问题的通讯电缆",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "10\/24\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.寻求FANUC软件工程师确认以太网通讯故障的根本原因",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "10\/31\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.非生产时间拆卸通讯电缆接头确定确切故障原因并制订相应长期对策。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "10\/28\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

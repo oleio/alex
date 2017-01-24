@@ -1,0 +1,222 @@
+{
+	"fileName": "20150601 CV7-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150601 CV7-Y.json",
+	"score": 721,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年6月1日8时 0分",
+	"fileNameDate": "20150601",
+	"equipName": "设备名称:空中EMS机运线",
+	"breakdownTime": "停机时间：32min",
+	"areaLocation": "停机区域\/点: CV7",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "32",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:马晓洲          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "发现JFM040工位（机器人安装侧围工位）上方空中EMS机运线小车停止运动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "现场维修从邻近直梯登上空中平台检查发生故障的36#小车，发现小车机械卡死；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "进一步检查发现小车驱动轮的包胶已经开裂脱离，导致小车的构架直接搁在小车导轨上；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "试图将开裂的包胶装回到钢轮上，尝试多人托起小车，失败；",
+				"lostMin": 7,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "利用角铁构架及液压千斤顶抬高小车，使损坏的轮子脱离导轨，将包胶装回，人力将小车后退（后退过程中用锤子敲击包胶，防止包胶滑出）；",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "强制PLC控制信号切换岔道，将小车推入E2LB区域；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "恢复空中EMS机运线正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"空中机运线36#小车机械故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"包胶轮损坏导致小车高度下降，小车构架直接搁在铝合金导轨上。"
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么36#小车变频器故障,停止运行"
+		],
+		[
+			"为什么36#小车在EMS导轨上机械卡死"
+		],
+		[
+			"为什么小车构架直接搁在EMS导轨上"
+		],
+		[
+			"为什么小车包胶轮包胶损坏"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "小车包胶钢轮的制作存在质量问题",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "采取机械措施将损坏的小车推入E2LB区域,恢复空中机运线运行。",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "6\/1\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查所有小车包胶是否有脱胶情况",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "6\/1\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "召集设备制造供应商及包胶轮制造商进行专题紧急会议，分析调查小车包胶轮损坏原因，并根据包胶轮损坏原因确定整改工作范围。",
+				"resp": "夏伟 胡滨",
+				"supp": "沈建伟",
+				"compDate": "6\/15\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

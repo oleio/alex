@@ -1,0 +1,222 @@
+{
+	"fileName": "20110514CV13.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110514CV13.json",
+	"score": 661,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年 5月 14日 2时 10分",
+	"fileNameDate": "20110514",
+	"equipName": "设备名称:CV13",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:   CV13",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期　张兆          \nOringinator 2011.5.14",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "查看CV13 HMI1屏幕上都是问号，且OPM3、OPM4 无模式，且无法复位。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "通知控制工程师连线检查通讯网络状态，主干网络状态正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "连线检查故障部位模式丢失的原因，发现有来自SBOLH的通讯报警造成CV13模式丢失 。 ",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查SBOLH控制柜，发现MASTER模块下有通讯站点连接不上，重新插拔后恢复正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "紧固插头后，恢复正常生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV13小车停止运行"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为何CV13 小车停止运行？因为SBOLH的通讯传输报警，使运行模式丢失。"
+		],
+		[
+			"为什么有来自SBOLH的通讯报警？因为MASTER模块下有模块通讯报警。"
+		],
+		[
+			"为什么MASTER模块下所有模块通讯报警？因为通讯电缆回路中有连接不佳状况。"
+		],
+		[
+			""
+		],
+		[
+			"为什么MASTER模块下所有模块通讯报警？因为通讯电缆回路中有连接不佳状况。"
+		]
+	],
+	"rootCause": "通讯电缆回路中有连接不佳状况",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新插拔MASTER模块插头恢复正常",
+				"resp": "黄波",
+				"supp": "滕征",
+				"compDate": "2011.5.13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查CV13MASTER模块下所有通讯线路状态",
+				"resp": "黄波",
+				"supp": "滕征",
+				"compDate": "2011.5.20",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修改程序，使C-CAR通讯传输故障不会对CV13产生影响。",
+				"resp": "滕征",
+				"supp": "尹伟文",
+				"compDate": "2011.5.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：黄波",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:蒋兆君",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

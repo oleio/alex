@@ -1,0 +1,222 @@
+{
+	"fileName": "20111210SFI060GATE.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111210SFI060GATE.json",
+	"score": 801,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年12月11日2时  分",
+	"fileNameDate": "20111210",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：30MIN",
+	"areaLocation": "停机区域\/点:SFI",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 陈烨华         \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "变频器故障报警复位后再次手动操作打开GATE,变频器再次过流报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位检查GATE导轨上是否有异物，未发现异常，变频器再次过流报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "松电机刹车确认GATE打开关闭有卡阻现象，接临时气管用压缩空气清洁GATE闭合导轨；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "完成压缩空气清洁后再次手动操作GATE打开关闭，GATE能动作但行程中有明显的冲击停顿现象；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "人员进入工位观察并重复手动操作3次后GATE能够正常动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "生产结束后再次检查故障设备，检查调整GATE关闭打开导向轮偏心位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI060E10车型完成焊接后GATE无法完全打开，GATE关闭电机驱动变频器过流报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位完成焊接后OPENGATE无法打开？因为OPENGATE关闭打开驱动电机变频器过流报警"
+		],
+		[
+			"为什么OPENGATE关闭打开驱动电机变频器过流报警？因为OPENGATE平移运动阻力过大"
+		],
+		[
+			"为什么OPENGATE平移运动阻力过大？因为OPENGATE运动方向与导轨没有严格在一个方向上"
+		],
+		[
+			"为什么OPENGATE运动方向与导轨没有严格在一个方向上？因为OPENGATE平移导向状态差"
+		],
+		[
+			"为什么OPENGATE平移导向状态差？因为OPENGATE平移导向设计缺陷，对导向轮位置误差容错能力小。"
+		]
+	],
+	"rootCause": "OPENGATE平移导向设计缺陷，对导向轮位置误差容错能力小。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整OPENGATE平移导向轮，使GATE平移导向理想。",
+				"resp": "殷致平",
+				"supp": "",
+				"compDate": "11-12-11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拉动供应商COMAU资源，改进OPENGATE导向机构。",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "待确定",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:"
+}

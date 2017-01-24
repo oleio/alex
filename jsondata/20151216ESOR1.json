@@ -1,0 +1,222 @@
+{
+	"fileName": "20151216ESOR1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151216ESOR1.json",
+	"score": 769,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.12.16.20",
+	"fileNameDate": "20151216",
+	"equipName": "设备名称:ESOR1",
+	"breakdownTime": "停机时间：累计23min",
+	"areaLocation": "停机区域\/点:ESO",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "23",
+	"lostProductNum": "10",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:费望德\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "ESOR1焊接时G2：A1碰撞报警，进工位查看焊枪处于打开状态，尝试手动开闭伺服焊枪，发现无法动作且出现碰撞报警",
+				"lostMin": 3,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查焊枪硬件，未发现干涉，焊枪动作时电机反馈电流很大，怀疑其内部卡死，尝试手动盘电机丝杆（图示红圈处），无法盘动",
+				"lostMin": 8,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "尝试用榔头敲击图示红圈处，丝杆向外运行几毫米后会自动弹回，用力敲击后成功盘动电机丝杆，丝杆向外活动时发现少许皮老虎碎屑被同时带出",
+				"lostMin": 12,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOR1焊枪碰撞报警、伺服电机卡死"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么ESOR1碰撞报警？因为焊枪伺服电机运行时受到异常大阻力；"
+		],
+		[
+			"为什么焊枪伺服电机运行时受到异常大阻力？因为伺服电机内部有异物卡阻；"
+		],
+		[
+			"为什么伺服电机内部有异物卡阻？因为丝杆运动时意外将皮老虎带入电机内部；"
+		],
+		[
+			"为什么丝杆运动时意外将皮老虎带入电机内部？因为1.橡胶皮老虎老化龟裂2.电机丝杆和电机本体间有间隙，如图篮圈处所示；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.橡胶皮老虎老化龟裂\n2.电机丝杆和电机本体间有间隙\n由于上述两个原因，造成龟裂的小部分皮老虎被丝杆带入伺服电机内部，造成电机卡死，碰撞报警",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换老化磨损的皮老虎",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "12\/16\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "PM更换伺服电机丝杆处六角衬套，消除此处间隙",
+				"resp": "费望德",
+				"supp": "",
+				"compDate": "12\/20\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "三班维修检查各自区域内焊枪皮老虎的状态，更换老化磨损严重的皮老虎",
+				"resp": "黄光耀\n陈烨华\n曹鸣晓",
+				"supp": "",
+				"compDate": "12\/31\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "三班维修检查各自区域内伺服电机丝杆处的间隙，间隙较大的更换六角衬套",
+				"resp": "黄光耀\n陈烨华\n曹鸣晓",
+				"supp": "",
+				"compDate": "12\/31\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL：曹鸣晓",
+	"person_ENG": "工程师\/ENG.:费望德",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

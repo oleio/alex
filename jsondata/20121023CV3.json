@@ -1,0 +1,222 @@
+{
+	"fileName": "20121023CV3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121023CV3.json",
+	"score": 695,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月23日17时50分",
+	"fileNameDate": "20121023",
+	"equipName": "设备名称",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点: CV3",
+	"maintainTeam": "维修班组：A班",
+	"lostTime": "20",
+	"lostProductNum": "14",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   黄波     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查TC03横移机驱动轮与导轨间是否有异物，检查结果无异物；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "变频器故障复位后，手动开启横移机移动变频器再次过载报警；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "由于该横移机驱动使用单变频器输出双电机同步驱动的原理，现场进行对左右两个单电机分开测试发现左侧电机在变频器输出后启动异常，电机发热严重；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "机械释放故障电机的刹车，启用单电机驱动的维修预案；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "安排停产时间排查引起电机过载的的根本原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV3TC03横移机移动时驱动电机变频器过载报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么TC03横移机移动时驱动电机变频器过载报警？因为横移机启动时遇到阻力；"
+		],
+		[
+			"为什么横移机启动时遇到阻力？因为电机启动时刹车没有释放；"
+		],
+		[
+			"为什么电机启动时刹车没有释放？该电机刹车模块失效；"
+		],
+		[
+			"为什么电机刹车模块失效？需要进一步测试（根据以往经验为电子器件老化造成）"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "驱动电机刹车模块损坏刹车无法释放，引起电机运行过载；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.机械释放故障电机的刹车，启用单电机驱动的维修预案",
+				"resp": "黄光耀",
+				"supp": "刘丰",
+				"compDate": "2012\/10\/23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.对比正常与损坏的刹车模块电阻值，利用仪表测量车间内同类型驱动电机，根据测量数据提前判断刹车模块衰减量并提前更换。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "2012\/11\/30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.统计主线BUFFER横移小车电机刹车模块型号，并制定更换计划。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "2012\/11\/30",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

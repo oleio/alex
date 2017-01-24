@@ -1,0 +1,222 @@
+{
+	"fileName": "20130126JFM090L3.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\20130126JFM090L3.json",
+	"score": 749,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年01月26日20时  分",
+	"fileNameDate": "20130126",
+	"equipName": "设备名称:j机器人焊枪",
+	"breakdownTime": "停机时间：累计60min",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "60",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 马晓洲王俊杰         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "发现焊枪炸电极帽，进入工位检查焊枪，发现焊枪速度较慢；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查发现DRESS套管工作中弯曲过度，调整DRESS套管工作状态；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "尝试增加焊枪关闭DELAY延时维持生产，失败；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "怀疑焊枪关闭电磁阀问题引起炸枪，用WD40润滑阀芯、更换电磁阀，问题仍然没有解决；",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "更换焊枪气路快速排气阀后焊枪关闭速度恢复正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "因炸枪多次焊枪静电极杆损坏漏水严重，从东昌现场库领用静握杆更换；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "东昌仓库无法及时找到静电极杆导致“焊枪修理更换电极杆工作”无法同时进行；",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼JFM090工位L3机器人焊枪重复炸电极帽（E-CAR）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊枪炸电极帽"
+		],
+		[
+			"为什么焊枪关闭速度减慢"
+		],
+		[
+			"为什么东昌仓库无法及时领到焊枪静电极杆？因为东昌电子账单上该备件零库存"
+		],
+		[
+			"为什么东昌电子账单上该备件零库存？因为去年12月28日移交的备件没有完成移交流程后入帐（无法找到移交记录，电话联系东昌工程师后找到移交备件）"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1）焊枪控制回路排气阀性能变差，气动元件老化  2）东昌移交备件工作操作速度慢",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修更换性能变差的快速排气阀恢复焊枪正常速度",
+				"resp": "陈烨华",
+				"supp": "王俊杰",
+				"compDate": "1\/28\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制订监督流程保证移交东昌备件及时入账",
+				"resp": "胡滨",
+				"supp": "孙杰  尹伟文黄俊宇",
+				"compDate": "2\/15\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "联系小原分析修复焊枪发生早期故障根本原因，制订相应措施保证修复焊枪较长时间的无故障使用",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2\/20\/2013",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤3以外的维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

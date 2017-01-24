@@ -1,0 +1,222 @@
+{
+	"fileName": "20120319JFM90.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120319JFM90.json",
+	"score": 729,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年3月19日14时55分",
+	"fileNameDate": "20120319",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：75min",
+	"areaLocation": "停机区域\/点:   JFM090",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "75",
+	"lostProductNum": "40",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  黄轶佳        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修进入工位检查左侧OPENGATE上输入模块通讯信号灯状态，发现多个模块通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "根据通讯电缆走向检查GATE上各个模块上通讯电缆接头状态，未发现异常外力损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "用备件终端电阻分段检查网络缩小故障范围，检查中发现左侧GATE所有输入模块通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "怀疑GATE坦克链内通讯电缆损坏，使用备件通讯电缆飞线替代，故障依旧；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "发现左侧GATE切换接插件因为没有压缩空气已经脱开，设法恢复压缩空气压力后左侧GATE通讯故障消除；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "发现右侧GATE网络也有一模块通讯故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "判断该模块失效引起通讯故障，更换后恢复设备正常通讯；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090工位618 GATE PROFIBUS网络通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行"
+		],
+		[
+			"为什么PLC控制系统左侧618GATE网络有通讯故障"
+		],
+		[
+			"为什么左侧618GATE通讯接插件脱开"
+		],
+		[
+			"为什么控制系统压缩空气控制阀断电"
+		],
+		[
+			"为什么工位控制系统紧急停止"
+		]
+	],
+	"rootCause": "右侧618 GATE 通讯网络中一个输入模块损坏,网络通讯故障。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "维修工段一点课程培训压缩空气控制阀控制原理及断开工位",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "3\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "压缩空气后对工位控制系统的影响原理",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拉动ME控制专业组参与评估通讯故障情况下断开工位压缩",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "3\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "空气总阀的必要性（GLOBAL控制标准）并优化控制程序。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20140826JFM110.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140826JFM110.json",
+	"score": 627,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年8月26日 时 分",
+	"fileNameDate": "20140826",
+	"equipName": "设备名称:滚床机运线",
+	"breakdownTime": "停机时间：22+11min",
+	"areaLocation": "停机区域\/点: EUB",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "33",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  李颖琛        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JFM110工位发生雪橇碰撞，拉动控制工程师强制信号后处理故障现场；",
+				"lostMin": 22,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "后类似故障再次发生，进入工位将雪橇拉到位，手动操作升降滚床后恢复自动；",
+				"lostMin": 11,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM110工位雪橇碰撞JFM120工位雪橇，发生2次。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么总拼JFM70-JFM110区域故障报警停止"
+		],
+		[
+			"为什么JFM110工位带车雪橇碰撞JFM120工位带车雪橇"
+		],
+		[
+			"为什么JFM110工位滚床能耗自动失效"
+		],
+		[
+			"为什么 怀疑:出现故障时JFM110变频器使能接触器瞬时失效"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "怀疑:出现故障时JFM110变频器使能接触器瞬时失效 可能原因:1)JFM110使能接触器主触点接触不良 2)安全延时继电器触点接触不良 3)安全继电器触点接触不良 4)JFM120安全连锁继电器触点接触不良",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换JFM110使能接触器；更换延时安全继电器；更换安全继电器上的触点",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "8\/27\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换JFM120安全连锁继电器触点",
+				"resp": "李颖琛",
+				"supp": "谢诚侃",
+				"compDate": "8\/28\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "跟踪研究总拼机运线雪橇碰撞故障，确定问题根本原因后实施针对性的整改措施。",
+				"resp": "尹伟文",
+				"supp": "",
+				"compDate": "TBD",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:李颖琛",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

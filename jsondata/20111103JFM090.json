@@ -1,0 +1,222 @@
+{
+	"fileName": "20111103JFM090.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111103JFM090.json",
+	"score": 692,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年11月4日2时0分",
+	"fileNameDate": "20111103",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：40＋8min",
+	"areaLocation": "停机区域\/点:JFM090",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "40",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 马安颹",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查发生夹头不到位报警的相关传感器，信号电缆，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查对应动作的电磁阀控制线及相关接插件，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "后夹头不到位报警在右侧其它车型GATE上发生，由此怀疑GATE公共供电部分有故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "检查相关接插件未发现异常，判断坦克链中的DC24V电源线断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "更换坦克链中的DC24V电源线后设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090工位E11左侧GATE UNIT237不到位报警3次，短暂处理后恢复设备运行；后"
+		],
+		[
+			"右侧其它车型GATE上也出现各种夹头不到位报警，检修过程中发现左侧GATE模块"
+		],
+		[
+			"电源不稳定。"
+		],
+		[
+			"因绝缘硬化损坏的电缆"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么不同车型GATE上夹头不到位报警？因为控制夹头动作的电磁阀没有及时动作"
+		],
+		[
+			"为什么控制夹头动作的电磁阀没有及时动作？因为电磁阀电源时有时无"
+		],
+		[
+			"为什么电磁阀电源时有时无？因为输出模块供电电源时有时无"
+		],
+		[
+			"为什么输出模块供电电源时有时无？因为坦克链中模块供电电源线断裂"
+		],
+		[
+			"为什么坦克链中模块供电电源线断裂？因为电缆保护层硬化，导致电缆芯线长期折弯运行后断裂。"
+		]
+	],
+	"rootCause": "电缆保护层硬化，导致电缆芯线长期折弯运行后断裂。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换坦克链中断裂的问题电缆",
+				"resp": "马安颹",
+				"supp": "谢成侃",
+				"compDate": "11-11-03",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更换坦克链中各种老化的电缆",
+				"resp": "尹熠俊",
+				"supp": "黄轶佳",
+				"compDate": "12-01-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:谢成侃",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

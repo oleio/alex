@@ -1,0 +1,222 @@
+{
+	"fileName": "20120614ESOL12.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120614ESOL12.json",
+	"score": 709,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 6月14日20时00 分",
+	"fileNameDate": "20120614",
+	"equipName": "设备名称:L1抓手",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点: ESO",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "15",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:佘佳安       \nOringinator 2012.6.14",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "ESOL1 GRIPPER A柱侧夹头关闭不到位；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查夹头状态发现夹头运行有阻滞，怀疑气缸内部有异物卡住，通知东昌准备备件；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "东昌反馈备件在中心仓库，紧急送货并对气缸进行在线检修；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "对气缸转动部件进行清洁润滑，拔下气管进行清洁，打开气源发现关闭气源进气压力小；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检查进气回路发现进气管前端固定处有弯折，导致进气压力小；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "松开扎带重新固定，确认气缸状态正常后恢复自动运行。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOL1夹头关闭不到位报警（开班不久此夹头关闭较慢，为维持生产增加过"
+		],
+		[
+			"3s延时）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么气缸关闭不到位？因为气缸内部有阻滞，关闭气源进气压力小；"
+		],
+		[
+			"1、为什么气缸内部有阻滞？因为气缸内部老化磨损（更换后进一步确认内部状态）；"
+		],
+		[
+			"2、为什么关闭气源进气压力小？因为进气管前端固定处有弯折；"
+		],
+		[
+			"为什么进气管有弯折？因为此气管长期使用后强度降低，早班在抢修过程中重新用扎带固定时产生弯折；"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "气缸有阻滞，进气管弯折导致关闭气源进气压力小，气缸关闭不到位",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将气管临时整理并重新固定，润滑气缸和转动部件",
+				"resp": "李颖琛",
+				"supp": "佘佳安",
+				"compDate": "2012.6.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班更换此气缸和部分气管",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "2012.6.14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "设备抢修后的验证工作内部交流总结经验，并逐步标准化验证要求",
+				"resp": "沈建伟",
+				"supp": "各功能组",
+				"compDate": "2012.6.24",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "维修过程同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:陈文佳",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

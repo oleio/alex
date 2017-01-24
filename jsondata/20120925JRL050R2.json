@@ -1,0 +1,222 @@
+{
+	"fileName": "20120925JRL050R2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120925JRL050R2.json",
+	"score": 672,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月25日12时10分",
+	"fileNameDate": "20120925",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：55min",
+	"areaLocation": "停机区域\/点: 总拼补焊线",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "55",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 袁伟         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场检修，发现焊枪在等待BACKUP闭合（焊枪大开档闭合）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "用示教板手动操作机器人焊枪闭合动作（DO信号置ON），焊枪电磁阀没有动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "怀疑焊枪控制19芯电缆问题，从现场备件料架上取用19芯电缆替代，重新手动操作焊枪，问题相同；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "万用表检查电磁阀电压信号正常，用螺丝刀强制动作电磁阀，焊枪气缸仍然没有动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "同生产协调BYPASS机器人R2后BACKUP生产，更换焊枪BACKUP控制电磁阀；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "完成电磁阀更换，手动操作焊枪试验焊接正常后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL050R2机器人运行过程中停止"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人R2等待没有进行焊接"
+		],
+		[
+			"为什么机器人焊枪BACKUP大开档没有关闭"
+		],
+		[
+			"为什么焊枪BACKUP大开档控制气阀没有动作"
+		],
+		[
+			"为什么焊枪大开档控制气阀损坏"
+		],
+		[
+			"为什么控制气阀内部阀芯卡死"
+		]
+	],
+	"rootCause": "控制气阀内部阀芯卡死?因为控制气阀阀芯老化磨损后与阀体内壁阻力增大，影响阀芯动作；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换BACKUP电磁气阀",
+				"resp": "袁伟",
+				"supp": "尹熠俊",
+				"compDate": "9\/25\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.统计现场同批次电磁阀使用数量，准备备件批量更换；",
+				"resp": "郑旭俊",
+				"supp": "马晓洲",
+				"compDate": "9\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.确定电磁阀芯润滑维护方法并实施周期性润滑；",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "9\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20140623CV3CL11.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2014\\20140623CV3CL11.json",
+	"score": 578,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2014年6月24日0时50分",
+	"fileNameDate": "20140623",
+	"equipName": "设备名称:SHUTTLE",
+	"breakdownTime": "停机时间：70min",
+	"areaLocation": "停机区域\/点: CV3",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "70",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  黄光耀        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "现场检查，发现升降台前方凸轮轴已经断裂；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "汇报设备故障情况并拉动生产开始BACKUP生产；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆卸断裂的凸轮轴同时寻找备件；",
+				"lostMin": 20,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "安装新备件并进行机械调试；",
+				"lostMin": 25,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "恢复设备正常运行。",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"CV3空中机运线CL11凸轮升降台上升不到位报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么CV3空中机运线停止运行"
+		],
+		[
+			"为什么CL11升降台上升不到位报警"
+		],
+		[
+			"为什么凸轮升降台没有完成上升动作"
+		],
+		[
+			"为什么升降台前方凸轮轴断裂"
+		],
+		[
+			"为什么"
+		]
+	],
+	"rootCause": "(1)升降台凸轮轴变径处没有加工圆弧倒角,造成应力集中断裂损坏。            (2)凸轮轴材料强度存在问题。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修更换断裂损坏的升降台凸轮轴",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "6\/24\/2014",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "分析损坏凸轮轴确定材料性能问题，使用性能满足要求的材料加工凸轮轴。",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "7\/5\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "改进凸轮轴加工工艺，凸轮轴变径处增加圆弧倒角",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "7\/5\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "改进后的凸轮轴备件到货后更换同批次升降台所有凸轮轴",
+				"resp": "陈烨华",
+				"supp": "胡滨",
+				"compDate": "7\/30\/2014",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备修理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

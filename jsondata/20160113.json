@@ -1,0 +1,222 @@
+{
+	"fileName": "20160113.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160113.json",
+	"score": 559,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016.01.13 22",
+	"fileNameDate": "20160113",
+	"equipName": "设备名称:压机",
+	"breakdownTime": "停机时间：25min",
+	"areaLocation": "停机区域\/点:SAD",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "25",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:       谢诚侃\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场，发现工位无模式。通讯报警",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "通过HMI报警信息显示28#模块故障",
+				"lostMin": 2,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "查看程序，仅28#模块报警。28#模块是SLOT5的最后一节",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "由于27#模块通讯正常，先更换27到28号模块的通讯线和Y型头后，通讯依旧不稳定。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "考虑到压机可以更换模具，怀疑压机快速插头不好，重新触阀插拔航空快速插头，清洁HARTING插针，通讯未恢复",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "左门和右门的28#阀岛模块互换，通讯恢复（领用通讯模块离线更换）",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"后门压机80#工位，28#模块通讯故障。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位无法上自动？因为压机有通讯故障；"
+		],
+		[
+			"为什么压机有通讯故障？因为28#站点通讯没有建立；"
+		],
+		[
+			"为什么通讯没有建立？因为通讯不稳定；"
+		],
+		[
+			"为什么通讯不稳定？因为阀岛通讯模块损坏"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "阀岛通讯模块损坏",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "插拔通讯插头，左门和右门的28#阀岛模块互换",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "1\/13\/2016",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "分析检测阀岛通讯模块损坏原因",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "1\/17\/2016",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上1、2、3、4、6"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

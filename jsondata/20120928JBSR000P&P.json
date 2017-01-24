@@ -1,0 +1,222 @@
+{
+	"fileName": "20120928JBSR000P&P.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120928JBSR000P&P.json",
+	"score": 649,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年9月28日7时25分",
+	"fileNameDate": "20120928",
+	"equipName": "设备名称: P&P抓手",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点:  JBS000",
+	"maintainTeam": "维修班组：",
+	"lostTime": "60",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 2012\/9\/28       \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "准备登高作业安全设施（升降车、安全带）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "登高检查P&P驱动部分损坏情况，检查发现驱动皮带已经断裂损坏；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "准备电机驱动皮带备件替换现场的损坏件；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "调整驱动皮带涨紧度、水平度；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "精调P&P抓手夹头相对于侧围零件的贴合位置；确认下降位置后控制工程师对伺服电机进行零位设定；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复P&P自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JBSR000Pickplace2#抓手电机驱动皮带断裂，导致升降丝杆由于无制动而下坠。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JBSR000Pickplace2#抓手在运行中下坠"
+		],
+		[
+			"为什么2#抓手升降丝杆驱动部分制动失效"
+		],
+		[
+			"为什么升降丝杆驱动皮带断裂"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.皮带橡胶件老化； 2.驱动皮带在运行中相对于皮带轮未居中，运行中皮带单边受力加快了驱动皮带的损坏；",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换驱动皮带，调整皮带相对于驱动轮运行居中。",
+				"resp": "王昀",
+				"supp": "",
+				"compDate": "9\/28\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.精调P&P抓手夹头相对于侧围零件的贴合位置,恢复运行。",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "9\/28\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.机械组在工段内培训P&P驱动皮带检查及调整标准，维修班组在PM周期内按检查标准对责任区P&P驱动皮带进行全覆盖检查。",
+				"resp": "ABCD班组长",
+				"supp": "",
+				"compDate": "10\/3\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:刘丰",
+	"person_GL": "工段长\/ GL:黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

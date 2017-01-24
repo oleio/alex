@@ -1,0 +1,222 @@
+{
+	"fileName": "20120709SUR040R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120709SUR040R1.json",
+	"score": 730,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年7月9日8时15分",
+	"fileNameDate": "20120709",
+	"equipName": "设备名称:机器人螺柱焊机",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:  SUR",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "45",
+	"lostProductNum": "30",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 王昀         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修到现场检查发现焊枪故障，拉动焊接工程师共同检查根本原因；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "发现焊枪电缆连接处活接头拉弧脱落，尝试修理失败；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "联系生产BYPASS故障焊枪，SUR090人工螺柱焊枪补焊；（由于大多数小钉由故障焊枪焊接，人工补焊速度太低）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "更换螺柱焊控制电缆总成，修理电缆接口损坏的焊枪后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR40工位机器人R1小钉螺柱焊枪与电缆连接处拉弧断开，导致螺柱焊"
+		],
+		[
+			"机故障。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人螺柱焊机报警停止"
+		],
+		[
+			"为什么螺柱焊机焊接回路断开？因为焊接控制电缆总成与焊枪连接接头脱落"
+		],
+		[
+			"为什么焊接控制电缆总成中焊接电缆与焊枪连接接头脱落？因为焊接电缆连接接头已经损坏"
+		],
+		[
+			"为什么焊接电缆连接接头已经损坏？因为焊接电缆连接接头拉弧烧损"
+		],
+		[
+			"为什么焊接电缆连接接头拉弧烧损？因为与焊枪连接的电缆总成在机器人运行时状态不佳受拉力，TPM缺陷。"
+		]
+	],
+	"rootCause": "与焊枪连接的电缆总成在机器人运行时状态不佳受拉力，TPM缺陷。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换焊枪控制电缆总成，修理损坏的螺柱焊枪电缆接头，生产过程中跟踪检查焊枪及电缆总成状态。",
+				"resp": "李颖琛",
+				"supp": "郑旭俊",
+				"compDate": "7\/10\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "预防性维修责任人工作质量项考评扣分",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "7\/15\/2012",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "工位机器人L1增加BACKUP程序，应急情况下能够覆盖绝大多数R1小钉螺柱焊接，加快BACKUP生产速度。",
+				"resp": "徐啸顺",
+				"supp": "郑旭俊",
+				"compDate": "7\/30\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同故障处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:李颖琛",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

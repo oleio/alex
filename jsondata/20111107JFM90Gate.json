@@ -1,0 +1,222 @@
+{
+	"fileName": "20111107JFM90Gate.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111107JFM90Gate.json",
+	"score": 621,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年11月7日2时0分",
+	"fileNameDate": "20111107",
+	"equipName": "设备名称:OPENGATE",
+	"breakdownTime": "停机时间：20",
+	"areaLocation": "停机区域\/点:JFM090",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 黄光耀",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JFM90左侧夹头不到位报警，进入工位检查发现Gate电源线拉断",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "抽出损坏电源线，穿入新电源线并重新做头",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "绑扎坦克链两端电源线，确保无相对串动",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090工位左侧GATE电源线拉断"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么不同车型GATE上夹头不到位报警？因为控制夹头动作的电磁阀无动作"
+		],
+		[
+			"为什么控制夹头动作的电磁阀无动作？因为电磁阀电源无"
+		],
+		[
+			"为什么电磁阀电源时有时无？因为Gate电源线拉断"
+		],
+		[
+			"为什么Gate电源线拉断？因为电源线从坦克链中逃出，与E11Gate停止位传感器支架干涉"
+		],
+		[
+			"为什么电源线从坦克链中逃出？因为11月3日故障后更换电源线时，未对坦克链内的电源线做有效绑定（末端绑定，而首端未绑定，导致坦克链频繁运动后，电源线余量从线槽内逃出"
+		]
+	],
+	"rootCause": "11月3日故障后维修不当，导致电源线拉断　　　　　　　　　　　　　　　　",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏电源线",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "11-11-07",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对左右Gate电源制作并穿入备用电源线，便于抢修",
+				"resp": "陈文佳",
+				"supp": "尹熠俊",
+				"compDate": "11-11-13",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对于11月3日故障后恢复电源线的员工进行绩效处分",
+				"resp": "李成",
+				"supp": "",
+				"compDate": "11-11-15",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄光耀（代）",
+	"person_Manager": "工程师\/ENG.:陈文佳（代）"
+}

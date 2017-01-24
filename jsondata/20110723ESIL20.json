@@ -1,0 +1,222 @@
+{
+	"fileName": "20110723ESIL20.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110723ESIL20.json",
+	"score": 520,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月23日  时  分",
+	"fileNameDate": "20110723",
+	"equipName": "设备名称:转台工装",
+	"breakdownTime": "停机时间：20min、",
+	"areaLocation": "停机区域\/点:ESI",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "12",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 张文杰\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "HMI报警，ESIL20转台工装打开关闭不到位。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "发现工装气源没有，检查气动三联件状态，结果正常。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "分段检查气路，发现转台下气管对接头脱落，对接头损坏。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换对接头，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESIL20转台工装故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么HMI报警？因为转台工装打开关闭不到位。"
+		],
+		[
+			"为什么转台工装打开关闭不到位？因为该工装气源丢失，工装气缸不动作。"
+		],
+		[
+			"为什么转台工装气源丢失？转台工装下方一气管对接头损坏。"
+		],
+		[
+			"为什么气管对接头损坏？因为对接头受力。"
+		],
+		[
+			"为什么对接头受力？因为气管偏短，转台动作时气管受拉扯。"
+		]
+	],
+	"rootCause": "对接头长期受力，卡圈损坏，气管脱落。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换损坏的对接头。",
+				"resp": "张文杰",
+				"supp": "",
+				"compDate": "2011.7.23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "生产结束后更换加长的气管，避免今后转台动作时气管受力。",
+				"resp": "张文杰",
+				"supp": "",
+				"compDate": "2011.7.23",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查其他工位转台工装的相应气管，并更换偏短的气管。",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "2011.7.24",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同问题处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:腾征"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20121019JRL030L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121019JRL030L1.json",
+	"score": 600,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月19日6时45分",
+	"fileNameDate": "20121019",
+	"equipName": "设备名称:机器人焊机",
+	"breakdownTime": "停机时间：20min",
+	"areaLocation": "停机区域\/点:  JRL030",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "NONE",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:刘少杰          \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "维修检修机器人焊枪无法正常焊接故障，发现焊枪BACKUP打开关闭均信号丢失；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "直观检查焊枪控制相关信号电缆，未发现明显故障点；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "替换焊枪控制19芯控制电缆，故障现象依然存在；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "怀疑焊枪BACKUP信号电缆有问题，更换信号电缆后焊枪反馈信号恢复；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "设备恢复正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"工位机器人焊枪出现故障停止运行"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊枪停止工作？因为机器人没有收到焊枪工作状态反馈信号"
+		],
+		[
+			"为什么机器人没有收到焊枪工作状态反馈信号？因为焊枪反馈信号电缆回路断路"
+		],
+		[
+			"为什么焊枪反馈信号电缆回路断路？因为焊枪状态反馈信号电缆内部芯线断路"
+		],
+		[
+			"为什么焊枪状态反馈信号电缆内部芯线断路？因为焊枪信号电缆外皮老化柔软度变差，长期弯曲疲劳损坏。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "焊枪信号电缆外皮老化柔软度变差，长期弯曲疲劳损坏。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "在线抢修更换疲劳弯曲损坏的焊枪信号电缆",
+				"resp": "刘少杰",
+				"supp": "黄光耀",
+				"compDate": "10\/19\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "检查补焊线焊枪信号电缆老化情况，批量更换外皮硬化的焊枪信号电缆。",
+				"resp": "陈烨华",
+				"supp": "班组",
+				"compDate": "11\/15\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110401JFM130.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110401JFM130.json",
+	"score": 641,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年  3 月 28日 时 分",
+	"fileNameDate": "20110401",
+	"equipName": "设备名称:JFM130",
+	"breakdownTime": "停机时间：累计45min",
+	"areaLocation": "停机区域\/点:  JFM130",
+	"maintainTeam": "维修班组：A\/C",
+	"lostTime": "45",
+	"lostProductNum": "25",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  蒋兆君        \nOringinator 2011.4.1",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "伺服报警过电流，机器人重启报INTP310　SWSHELL3,1735（通信握手协议失效）",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "再次复位发现机器人无法自动调用程序，检查PLC程序OK，重启机器人报警无法消除",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "导入镜像程序仍然报警，并重启机器人后死机",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "更换主板，再次导入镜像程序，报警仍然无法消除",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "手动操作机器人维持生产",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "线下利用培训机器人试验，多次导入镜像后报警消除",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "安装培训机器人主板到JFM130 L1机器人，导入示教程序，手工设置参数，恢复自动生产",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM130抓料机器人无法启动"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"JFM130抓料机器人无法启动？因为机器人报通信握手协议失效。"
+		],
+		[
+			"为什么机器人报通信握手协议失效？因为内核程序源码无法查看，"
+		],
+		[
+			"怀疑机器人系统有漏洞。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "怀疑机器人软件系统有漏洞",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "FANUC恢复故障的主板（带程序），并送SGM当备件",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011.4.3",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "保存临时PLC程序，保留手动生产能力（无CT影响）",
+				"resp": "腾征",
+				"supp": "",
+				"compDate": "2011.4.1",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "将故障主板和程序运回FANUC进行检修，分析原因",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011.4.20",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "根据FANUC故障报告待确定",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上。"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊 陈文佳",
+	"person_ENG": "工程师\/ENG.:徐啸顺 黄俊宇",
+	"person_GL": "工段长\/ GL:蒋兆君",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

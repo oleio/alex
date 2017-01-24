@@ -1,0 +1,222 @@
+{
+	"fileName": "20121002JRL040L2.xls.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121002JRL040L2.xls.json",
+	"score": 759,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年10月2日09时00分",
+	"fileNameDate": "20121002",
+	"equipName": "设备名称: L2转到接头",
+	"breakdownTime": "停机时间：min",
+	"areaLocation": "停机区域\/点:JRL040",
+	"maintainTeam": "维修班组：C班",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:曹鸣晓          \nOringinator 2012.10.2",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进入工位地上积水较多，打开焊机电源，WaterSave复位，发现焊枪上水管破损喷水；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "确定转动接头有水漏进去造成跳闸，通知控制工程师将L2 BYPASS，机器人开回HOME；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "打开转动接头盖板，对转动接头进行除水保养；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将转动接头装好，空打焊点OK后，工位恢复自动；",
+				"lostMin": "",
+				"success": 0
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "焊接10辆车之后，焊机再次跳闸，再次Bypass L2,机器人开回Home，同时准备备件；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "打开转动接头，发现配电环拉弧，而且仍有积水，更换转动接头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "转到接头更换后试验焊接状态和轨迹，确认正常后恢复自动。",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL040 L2焊接时焊机跳闸"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL040L2焊机跳闸？因为转动接头内部短路；"
+		],
+		[
+			"为什么转动接头内部短路？因为转动接头内部有积水；"
+		],
+		[
+			"为什么转动接头内部有积水？因为焊枪上水管漏水，且转动接头密封状态欠佳；"
+		],
+		[
+			"为什么焊枪水管漏水？因为焊枪水管磨损破裂；"
+		],
+		[
+			"为什么焊枪水管磨损破裂？因为焊枪水管长期使用磨损，PM检查不到位。"
+		]
+	],
+	"rootCause": "水管磨损漏水,转动接头密封性差，造成转动接头内部短路跳闸",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换转动接头,恢复生产",
+				"resp": "袁炜",
+				"supp": "曹鸣晓",
+				"compDate": "10\/2\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "对转动接头进行密封处理",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "10\/2\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对相关设备MASTER进行内部通报批评，并扣除当月响应绩效",
+				"resp": "B班",
+				"supp": "沈建伟",
+				"compDate": "10\/3\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查主线自动工位水气管磨损情况,更换磨损的水气管",
+				"resp": "各班组",
+				"supp": "",
+				"compDate": "10\/14\/2012",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹鸣晓",
+	"person_ENG": "工程师\/ENG.:尹熠俊",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

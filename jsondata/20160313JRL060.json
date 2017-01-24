@@ -1,0 +1,222 @@
+{
+	"fileName": "20160313JRL060.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2016\\20160313JRL060.json",
+	"score": 695,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2016年3月13日1点30分",
+	"fileNameDate": "20160313",
+	"equipName": "设备名称:JRL060",
+	"breakdownTime": "停机时间：45min",
+	"areaLocation": "停机区域\/点:JRL060",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "45",
+	"lostProductNum": "30",
+	"plantName": "厂区： SPBS\nPlant",
+	"originator": "填表人\/日期:张少峰     \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "JRL60机器人焊接故障，检查发现焊机通讯故障，重启焊机",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "重启焊机后，通讯仍然无法上去，再次连同机器人一起重启",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "重启后依旧通讯故障，检查通讯发现JRL060交换机指示灯状态异常，系统指示灯一直闪烁，交换机断电重启",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "交换机重启后系统指示灯仍然异常，检查线路及电源设备等均正常，怀疑交换机设备故障，将E16前盖的交换机拆下装到JRL60使用，系统指示灯仍然闪烁",
+				"lostMin": "10min",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "将JRL60拆下的交换机装到E16前盖进行测试，起初也是系统指示灯闪烁，较长时间等待后指示灯恢复正常，立即再将此交换机重新装回JRL60",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "安装等待一段时间后，系统指示灯正常，通讯恢复",
+				"lostMin": "5min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL060通讯故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么补焊60号工位机器人焊接故障"
+		],
+		[
+			"为什么焊机故障报警"
+		],
+		[
+			"为什么焊机与机器人出现通讯故障"
+		],
+		[
+			"为什么交换机通讯故障且排故时间较长"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "对新型号交换机设备不熟悉，不了解其断电重启的工作特性",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "将相关信息在维修交接会议上传达",
+				"resp": "黄光耀",
+				"supp": "张少峰",
+				"compDate": "2016.3.13",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "针对工程师交换机设备进行组内培训",
+				"resp": "张少峰",
+				"supp": "",
+				"compDate": "2016.3.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "针对现场维修交换机设备进行一点课程培训",
+				"resp": "张少峰",
+				"supp": "",
+				"compDate": "2016.3.26",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "第四步交换机重启后应继续等待一段时间，交换机即可恢复正常通讯"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 黄光耀",
+	"person_ENG": "工程师\/ENG.: 张少峰",
+	"person_GL": "工段长\/ GL: 滕征",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

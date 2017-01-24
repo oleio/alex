@@ -1,0 +1,222 @@
+{
+	"fileName": "20110913 ESOL2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110913 ESOL2.json",
+	"score": 704,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011   年  9 月 13 日  11  时     分",
+	"fileNameDate": "20110913",
+	"equipName": "设备名称:L2",
+	"breakdownTime": "停机时间：1H",
+	"areaLocation": "停机区域\/点:  ESO",
+	"maintainTeam": "维修班组：",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  徐啸顺          \nOringinator   ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "人工将坠落抓手重新搬运到停放支架上。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查换枪盘机器人侧，发现汽缸、感应器、电磁阀信号正常，但卡爪固定板松脱，卡爪失效",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "寻找固定板残骸，发现固定板固定螺丝丢失",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "立刻更换换枪盘机器人侧总成备件",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "新换枪盘备件安装验证正常，但抓手坠落后有较大形变",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "重新各车型调整轨迹，对抓手铝管进行整形",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "慢速运行几个CYCLE后恢复生产",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESOL2机器人抓起抓手离开时，抓手脱开坠落。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么抓手会坠落？因为抓紧卡爪失效"
+		],
+		[
+			"为什么抓紧卡爪失效？因为卡爪固定板松脱"
+		],
+		[
+			"为什么卡爪固定板会松脱？因为固定板固定板螺丝丢失"
+		],
+		[
+			"为什么固定板固定板螺丝丢失？螺丝固定在气缸上，气缸可以旋转任意角度，"
+		],
+		[
+			"因此出厂安装时拧紧扭矩难以确保足够。长期工作震动后螺丝松脱。"
+		]
+	],
+	"rootCause": "固定板螺丝扭矩没有达到足够大小，长期工作震动后松脱导致卡爪失效抓手坠落。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换换枪盘总成，示教抓放料轨迹，夜班继续优化",
+				"resp": "徐啸顺",
+				"supp": "黄波",
+				"compDate": "9-13",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "要求供应商针对此固定螺丝提供相应扭矩标准和改进措施",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2011-9-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "春节期间更换为WALTHER换枪盘",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012-3-1",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "人工将坠落抓手重新搬运到停放支架上，检查换枪盘发现卡爪固定板松脱"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "更换换枪盘机器人侧总成备件"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "重新各车型调整轨迹，对抓手铝管进行整形"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:徐啸顺",
+	"person_GL": "工段长\/ GL:钱俊",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20150625 JFM90 GATE.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150625 JFM90 GATE.json",
+	"score": 652,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015年6月25日12时00分",
+	"fileNameDate": "20150625",
+	"equipName": "设备名称:JFM090",
+	"breakdownTime": "停机时间：30 min",
+	"areaLocation": "停机区域\/点: JFM090",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "30",
+	"lostProductNum": "22",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:李颖琛",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "检查发现报警传感器对应的车型铁条损坏，缺失，PLC信号临时强制，",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "当E15在work位置焊接时，车型检测也出现报警，不稳定，",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "检查后发现支架变形，E16传感器也被撞坏，",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将传感器支架整形，恢复生产，准备备件，",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "待再次切换gate时，工位放手动，更换损坏的传感器",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "恢复自动生产。",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090 左侧E16gate，进L22buffer时，报车型检测传感器出错。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么E15在work位置焊接时，车型检测出现报警？因为传感器距离変远，感应不稳定。"
+		],
+		[
+			"为什么传感器距离変远，感应不稳定？ 因为传感器支架变形。"
+		],
+		[
+			"为什么传感器支架变形？因为E16时E16gate上铁块将传感器撞坏，支架变形。"
+		],
+		[
+			"为什么铁块将传感器撞坏，支架变形？因为铁块翘起。"
+		],
+		[
+			"为什么铁块翘起？因为固定螺丝松.安装方式有缺陷；并且此处不易察觉紧固螺丝的松动。"
+		]
+	],
+	"rootCause": "车型感应铁块安装方式有缺陷",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换铁块和传感器，对支架整形。",
+				"resp": "佘佳安",
+				"supp": "",
+				"compDate": "6\/25\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "夜班对内外总拼gate上的铁块检查。",
+				"resp": "陈烨华",
+				"supp": "",
+				"compDate": "6\/25\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更改所有gate上车型检测感应铁块的安装方式，防止松脱",
+				"resp": "夏伟，comau",
+				"supp": "",
+				"compDate": "7\/31\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "传感器支架变形，需要更换"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:曹明晓",
+	"person_ENG": "工程师\/ENG.李颖琛",
+	"person_GL": "工段长\/ GL:滕征",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20110715JRL120L1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110715JRL120L1.json",
+	"score": 699,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年  7月 15日21时30 分",
+	"fileNameDate": "20110715",
+	"equipName": "设备名称:焊枪",
+	"breakdownTime": "停机时间：10",
+	"areaLocation": "停机区域\/点:  JRL120L1",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "10",
+	"lostProductNum": "7",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:王烨\/7.15  \nOringinator   ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JRL120L1焊接时无焊接电流，跳过焊点后还是无法焊接",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "联系焊接工程师到现场查看，维修人员进入工位检查，发现软连接断裂，将工位L1机器人BYPASS，生产使用BACKUP方案，维修准备更换软连接",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "现场料架无备用软连接，维修人员将焊机上明细表中软连接物料号报给东昌，东昌回复两个物料号均无库存",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "焊接工程师到东昌根据软连接型号找到第三个物料号，在东昌现场找到软连接，由维修带到现场",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "维修人员更换软连接",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "换好软连接，恢复生产",
+				"lostMin": "",
+				"success": "0"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL120L1焊接故障"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊接故障？因为焊接时无电流"
+		],
+		[
+			"为什么焊接无电流？因为焊枪的软连接断裂"
+		],
+		[
+			"为什么补焊料架无软连接备件？因为现场补焊料架空间有限，已经放满了应急的电极杆等备件"
+		],
+		[
+			"为什么现场明细表上无第三个物料号？因为软连接由多家供应商供货可能存在多个物料号，现场列出了最为常用的物料号，如有需要可以根据明细表中的型号查出其余物料号"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "软连接断裂，现场料架无应急软连接备件",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换软连接，恢复生产",
+				"resp": "王烨",
+				"supp": "谢鲲",
+				"compDate": "2011.07.15",
+				"status": "100％"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1、增加料架或利用总拼料架现场存放软连接",
+				"resp": "王烨",
+				"supp": "",
+				"compDate": "2011.7.31",
+				"status": "25％"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2、更新补焊明细表，将其余软连接物料号全加入",
+				"resp": "王烨",
+				"supp": "",
+				"compDate": "2011.7.31",
+				"status": "25％"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.PM区责任人绩效扣分",
+				"resp": "李成",
+				"supp": "",
+				"compDate": "2011.7.31",
+				"status": "25％"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:谢鲲（代）",
+	"person_ENG": "工程师\/ENG.:王烨",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

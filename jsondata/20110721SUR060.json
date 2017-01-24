@@ -1,0 +1,222 @@
+{
+	"fileName": "20110721SUR060.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110721SUR060.json",
+	"score": 860,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年7月21日15时 10分",
+	"fileNameDate": "20110721",
+	"equipName": "设备名称:SUR060升降滚床",
+	"breakdownTime": "停机时间：40min",
+	"areaLocation": "停机区域\/点:",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "40",
+	"lostProductNum": "20",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator仇卫忠    ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "现场评估车身与工装干涉是否影响机运线平台升降",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "通知控制工程师强制机运线平台上升信号条件，手动将060平台上升到位",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "将该工位空出，检查工装损坏情况（无损坏）、白车身底板局部变形需整形。检查发现滚床升降摇臂靠近070工位侧上升位不垂直倾斜30°、感应器扇形片位置偏移",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "拆除机运线平台盖板恢复感应器扇形片",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "手动检验机运线平台电机在空载和负载情况下的刹车功能，刹车性能较差",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "现场评估该电机还能够运行临时恢复设备投入生产，待当班生产结束检修该电机刹车、恢复摇臂垂直度",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR机运线在从060～070运行一半时060机运线平台自动下沉车身底板与工装卡住"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么SUR机运线故障？因为当机运线从060至070时SUR060平台落下车身底板与工装干涉"
+		],
+		[
+			"为什么机运线从060至070时SUR060平台落下车身底板与工装干涉？因为SUR060平台升降电机刹车失效"
+		],
+		[
+			"为什么SUR060平台升降电机刹车失效？因为升降电机刹车片磨损摩擦力减小"
+		],
+		[
+			"为什么电机刹车片磨损严重？因为1，制动全过程中，刹车始终直接接触\n2，与目前使用电机匹配的刹车片损耗速度快，现有PM频次无法满足"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "恢复由于非下降位置下降引起的雪橇倾斜、恢复平台倾斜引起的感应器扇形片位置偏移",
+				"resp": "仇卫忠",
+				"supp": "黄波",
+				"compDate": "11-07-21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换刹车片备件调整刹车间隙、恢复摇臂垂直度",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-07-21",
+				"status": "4\/4 "
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将同步皮带式升降滚床电机刹车片、刹车间隙检查PM检查频次更改为每季度一次",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "11-08-6",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "尝试在SUR80试点采用变频器控制升降，减少制动过程中刹车片硬接触时间，延长使用寿命",
+				"resp": "刘丰",
+				"supp": "",
+				"compDate": "11-9-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄波",
+	"person_ENG": "工程师\/ENG:刘丰",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

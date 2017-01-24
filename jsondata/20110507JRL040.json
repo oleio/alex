@@ -1,0 +1,222 @@
+{
+	"fileName": "20110507JRL040.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110507JRL040.json",
+	"score": 549,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年  月  日  时  分",
+	"fileNameDate": "20110507",
+	"equipName": "设备名称:水冷机",
+	"breakdownTime": "停机时间：18",
+	"areaLocation": "停机区域\/点:JRL40#",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "18",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 王昀\n2011-5-7",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JRL40# R2故障，复位无效，示教板显示机器人程序丢失",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "手动走程序回HOME位，重新上自动恢复",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查示教板报警记录，发现模块 4#5#14#报警",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "查看SLAVE插头，期间又有报警，发现插头松，紧固螺丝发现无法固定",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "用轧带临时固定，到早班下班前又发生过一次",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "计划利用夜班时间更换插头",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL40# R2故障（多次）"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JRL40#R2故障？因为R2没有回到POUNCE位就停止了。"
+		],
+		[
+			"为什么R2没有回到POUNCE位就停止了？因为R2程序丢失。"
+		],
+		[
+			"为什么R2程序丢失？因为机器人报模块故障。"
+		],
+		[
+			"为什么模块故障？怀疑SLAVE插头接触不良。晚上更换插头。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "怀疑SLAVE插头接触不良。晚上更换插头。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用轧带临时固定SLAVE插头",
+				"resp": "王昀",
+				"supp": "",
+				"compDate": "11-5-7",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "更换松动的插头",
+				"resp": "谢诚侃",
+				"supp": "",
+				"compDate": "11-5-8",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "将控制柜内的插头紧固螺丝加入PM检查清单",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "11-5-10",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

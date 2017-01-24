@@ -1,0 +1,222 @@
+{
+	"fileName": "20151128E15_E16.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151128E15_E16.json",
+	"score": 618,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015-11-28",
+	"fileNameDate": "20151128",
+	"equipName": "设备名称:机器人抓手",
+	"breakdownTime": "停机时间：累计45min",
+	"areaLocation": "停机区域\/点:E15\/E16后盖",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "45",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   黄光耀    \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "滚边工位停止运行，检查发现抓手定位伸缩销前进不到位，进一步检查发现销子和孔配合位置存在偏差；",
+				"lostMin": 5,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查抓手伸缩定位销及夹头状态，试图发现伸缩销动作不到位原因，未发现异常",
+				"lostMin": 10,
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "恢复设备自动运行，观察过程中发现GRIPPER放料时打开保险夹头后工件跌落到胎模上，确定吸盘吸力存在问题；",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "将抓手开到维修位置，检查各吸盘工作状态，发现有一组吸盘无吸力；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "进一步检查发现对应问题吸盘的真空发生器没有动作，驱动电磁阀无电；",
+				"lostMin": 10,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换对应输出控制电缆，适当捆扎后设备恢复正常运行",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E15\/E16滚边工位机器人抓手定位气缸伸缩销前进不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工装定位伸缩销不到位"
+		],
+		[
+			"为什么后盖在胎模上的位置不理想"
+		],
+		[
+			"为什么抓手放后盖时部分吸盘无吸力"
+		],
+		[
+			"为什么为吸盘驱动电磁阀没有得电动作"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "输出模块与吸盘驱动电磁阀之间的连线断裂",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换内部芯线接触不良的驱动电磁阀控制电缆",
+				"resp": "黄光耀",
+				"supp": "李颖琛",
+				"compDate": "11\/28\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产时间重新捆扎信号电缆并慢速示教,保证信号电缆不受拉,不受压。",
+				"resp": "曹鸣晓",
+				"supp": "",
+				"compDate": "12\/6\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "除步骤（1）（2）以外的抢修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL 黄光耀",
+	"person_ENG": "工程师\/ENG.:何文泽",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

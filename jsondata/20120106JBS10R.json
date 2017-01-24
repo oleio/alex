@@ -1,0 +1,222 @@
+{
+	"fileName": "20120106JBS10R.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120106JBS10R.json",
+	"score": 640,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年 01月06日19时0分",
+	"fileNameDate": "20120106",
+	"equipName": "设备名称:工装",
+	"breakdownTime": "停机时间：累计影响20min",
+	"areaLocation": "停机区域\/点:  JBS",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "20",
+	"lostProductNum": "8",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 马晓洲      \nOringinator 2012.01.06 ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "设备运行过程中发现JBS10R工装通讯不稳定；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "检查工装上及控制柜各个通讯电缆接头，未发现明显故障；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "怀疑新换的抢修用“通用替换用通讯电缆”接插件接触不良；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "制作替换用通讯电缆，完成制作后更换“多接插件替换用通讯电缆”；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复设备稳定运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JBS10R工装频繁掉模式，通讯不稳定。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工装频繁掉模式？因为工装通讯不稳定"
+		],
+		[
+			"为什么工装通讯不稳定？因为通讯电缆接触不良"
+		],
+		[
+			"为什么通讯电缆接触不良？因为临时使用的“多接插件替换用通讯电缆”接插件内部接线接触不良"
+		],
+		[
+			"为什么临时使用的“多接插件替换用通讯电缆”接插件内部接线接触不良？电缆确切故障点需分解电缆进一步分析。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "抢修用的“多接插件替换用通讯电缆”未经充分验证，接插件内部接触不良。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "制作专用通讯电缆替换“多接插件替换用通讯电缆”",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "12-01-06",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制作两种长度的专用通讯电缆备用",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "分析“多接插件替换用通讯电缆”确切故障原因，确保电缆能够可靠用于应急。",
+				"resp": "刘丰",
+				"supp": "黄轶佳",
+				"compDate": "",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "验证其它抢修用应急通讯电缆，确保应急电缆能够可靠使用。",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

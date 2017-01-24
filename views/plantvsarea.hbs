@@ -1,0 +1,172 @@
+<h1>{{title}}</h1>
+
+      <div id="chart_div_2011" style="width: 900px; height: 500px;"></div>
+      <div id="chart_div_2012" style="width: 900px; height: 500px;"></div>
+      <div id="chart_div_2015" style="width: 900px; height: 500px;"></div>
+
+
+ <script type="text/javascript">
+$(document).ready(function() {
+
+         google.charts.load('current', {'packages':['treemap']});
+         google.charts.setOnLoadCallback(drawChart);
+         
+         function drawChart() {
+         
+         
+         var data = new google.visualization.DataTable();
+         data.addColumn('string', 'ID');
+         data.addColumn('string', 'Parent');
+         data.addColumn('number', 'Number Of Lines');
+         data.addRows([
+//         ['南厂车身',null,0],
+         ['2016年单位1',null,0],
+         ['后门','2016年单位1',30],
+         ['CV13','2016年单位1',25],
+         ['CV3','2016年单位1',10],
+         ['CV7/CV13','2016年单位1',0],
+         ['EDR','2016年单位1',120],
+         ['EFDL','2016年单位1',0],
+         ['EHD','2016年单位1',30],
+         ['EMC020','2016年单位1',22],
+         ['EMC035','2016年单位1',20],
+         ['EMC060','2016年单位1',20],
+         ['EMC75','2016年单位1',30],
+         ['ESI','2016年单位1',20],
+         ['ESO','2016年单位1',145],
+         ['ESO L','2016年单位1',33],
+         ['ESO R1','2016年单位1',25],
+         ['EUB','2016年单位1',40],
+         ['EUB020  L1','2016年单位1',25],
+         ['EUB10','2016年单位1',35],
+         ['EUB50','2016年单位1',20],
+         ['JBS70R1','2016年单位1',90],
+         ['JBSL','2016年单位1',0],
+         ['JFM','2016年单位1',38],
+         ['JFM090','2016年单位1',159],
+         ['JFM090U1','2016年单位1',40],
+         ['JFM120','2016年单位1',35],
+         ['JFM120L2','2016年单位1',21],
+         ['JFM120R1','2016年单位1',20],
+         ['JFM120R2','2016年单位1',27],
+         ['JFM150','2016年单位1',38],
+         ['JFM90','2016年单位1',97],
+         ['JMC','2016年单位1',105],
+         ['JRL','2016年单位1',120],
+         ['JRL 060R2','2016年单位1',20],
+         ['JRL050','2016年单位1',15],
+         ['JRL120','2016年单位1',0],
+         ['JRL50R2','2016年单位1',26],
+         ['JRL90','2016年单位1',30],
+         ['JUR050','2016年单位1',15],
+         ['前盖','2016年单位1',20],
+         ['SFI','2016年单位1',0],
+         ['SFI020','2016年单位1',55],
+         ['SFI060','2016年单位1',30],
+         ['SFI110','2016年单位1',0],
+         ['SMC','2016年单位1',25],
+         ['SUB','2016年单位1',70],
+         ['SUR010','2016年单位1',24],
+         ['SUR070','2016年单位1',0],
+         ['SUR10','2016年单位1',15],
+         ['SUR80','2016年单位1',120]
+         ]);      
+         
+         
+         var options = {
+           highlightOnMouseOver: true,
+           maxDepth: 1,
+           maxPostDepth: 2,
+           minHighlightColor: '#8c6bb1',
+           midHighlightColor: '#9ebcda',
+           maxHighlightColor: '#edf8fb',
+           minColor: '#009688',
+           midColor: '#f7f7f7',
+           maxColor: '#ee8100',
+           headerHeight: 15,
+           showScale: true,
+           height: 500,
+           useWeightedAverageForAggregation: true
+         };
+         
+         tree = new google.visualization.TreeMap(document.getElementById('chart_div_2011'));      
+         tree.draw(data, options);
+         
+         data = new google.visualization.DataTable();
+         data.addColumn('string', 'ID');
+         data.addColumn('string', 'Parent');
+         data.addColumn('number', 'Number Of Lines');
+         data.addRows([
+//         ['南厂车身',null,0],
+         ['2016年单位2',null,0],
+         ['CV7','2016年单位2',15],
+         ['ESOLH 11#滑台','2016年单位2',25],
+         ['JFM090','2016年单位2',35],
+         ['JFM090L3','2016年单位2',50],
+         ['JFM120','2016年单位2',50],
+         ['JFM130工位','2016年单位2',20],
+         ['JFM150','2016年单位2',25],
+         ['JRL120R1','2016年单位2',40],
+         ['SFI060','2016年单位2',0],
+         ['门盖','2016年单位2',150]
+         ]);      
+         
+         
+         tree = new google.visualization.TreeMap(document.getElementById('chart_div_2012'));      
+         tree.draw(data, options);
+         
+         
+         data = new google.visualization.DataTable();
+         data.addColumn('string', 'ID');
+         data.addColumn('string', 'Parent');
+         data.addColumn('number', 'Number Of Lines');
+         data.addRows([
+//         ['南厂车身',null,0],
+         ['2016年单位3',null,0],
+         ['AMC005','2016年单位3',240],
+         ['AMC010','2016年单位3',80],
+         ['ASOL','2016年单位3',40],
+         ['ASORH','2016年单位3',120],
+         ['EMC010','2016年单位3',110],
+         ['EMC75','2016年单位3',16],
+         ['ERF','2016年单位3',90],
+         ['ESO','2016年单位3',90],
+         ['EUB050','2016年单位3',44],
+         ['EUB050R2','2016年单位3',45],
+         ['FO140','2016年单位3',40],
+         ['JFM','2016年单位3',26],
+         ['JFM020','2016年单位3',15],
+         ['JFM040','2016年单位3',28],
+         ['JMC000','2016年单位3',72],
+         ['JRL','2016年单位3',18],
+         ['JRL070','2016年单位3',230],
+         ['JRL090','2016年单位3',18],
+         ['JRL160','2016年单位3',20],
+         ['JUB','2016年单位3',40],
+         ['ML130','2016年单位3',20],
+         ['前门','2016年单位3',35],
+         ['SFI','2016年单位3',30],
+         ['SFI000','2016年单位3',25],
+         ['SFI060','2016年单位3',40],
+         ['SFI110R2','2016年单位3',120],
+         ['SFI60','2016年单位3',60],
+         ['SUR','2016年单位3',30],
+         ['SUR010','2016年单位3',30],
+         ['SUR030','2016年单位3',25],
+         ['SUR040','2016年单位3',140],
+         ['SUR060','2016年单位3',75],
+         ['SUR080','2016年单位3',50]
+         ]);      
+         
+         
+         tree = new google.visualization.TreeMap(document.getElementById('chart_div_2015'));      
+         tree.draw(data, options);
+         
+         
+         
+         }
+
+      
+      
+            	      	     });   
+ </script>

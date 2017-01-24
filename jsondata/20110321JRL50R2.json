@@ -1,0 +1,222 @@
+{
+	"fileName": "20110321JRL50R2.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110321JRL50R2.json",
+	"score": 690,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年3月21日 0时53 分",
+	"fileNameDate": "20110321",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：26 min",
+	"areaLocation": "停机区域\/点: JRL50R2",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "26",
+	"lostProductNum": "15",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinatorCH陈文佳     2011.3.4",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "根据故障现象检查焊枪19芯电缆，发现19芯电缆在J1轴模块上的插头松动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进一步检查发现19芯电缆松动的原因是DRESS套管过长导致机器人工作中碰19芯插头；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "调整机器人DRESS管长度；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "发现工位无法恢复运转，检查发现滚床下降超程开关动作；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "强制信号上升后超程开关仍然动作（卡死）；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "屏蔽硬件信号后恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JRL50R2焊枪BACKUP没有动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪BACKUP没有动作？因为19芯电缆没有传递信号"
+		],
+		[
+			"为什么19芯电缆没有传递信号？因为19芯电缆在J1轴上的接头松动"
+		],
+		[
+			"为什么19芯电缆在J1轴上的接头松动？因为DRESS套管过长，擦碰"
+		],
+		[
+			"为什么DRESS套管过长，擦碰？预防性维修更换了DRESS套管，试验运行时没有及时发现问题。"
+		],
+		[
+			"为什么升降机下降超程后无法很快解决问题？因为超程开关长期不动作，卡死。"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整DRESS套管",
+				"resp": "李颖琛",
+				"supp": "",
+				"compDate": "11-3-21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "屏蔽升降滚床下降超程开关恢复生产",
+				"resp": "陈文佳",
+				"supp": "刘丰",
+				"compDate": "11-3-21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "班组交接班会议上交流停机报告",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "11-3-23",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "检查升降滚床超程开关完好性",
+				"resp": "陈文佳",
+				"supp": "",
+				"compDate": "11-4-10",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "黄波",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈文佳",
+	"person_ENG": "工程师\/ENG.:王烨 刘丰",
+	"person_GL": "工段长\/ GL:夏伟（代）",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

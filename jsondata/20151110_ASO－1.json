@@ -1,0 +1,222 @@
+{
+	"fileName": "20151110_ASO－1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20151110_ASO－1.json",
+	"score": 866,
+	"title": "SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.11.10",
+	"fileNameDate": "20151110",
+	"equipName": "设备名称:  转台",
+	"breakdownTime": "停机时间：120min",
+	"areaLocation": "停机区域\/点: ASORH",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "120",
+	"lostProductNum": "12",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期:    陈志剑\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "将抓手机器人手动开回原位；转台手动操作返回。",
+				"lostMin": "10min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "机器人执行换枪程序时，无法人工操作。通过多角度排查找到问题原因是机器人程序内部启用了非标准功能，转台不到位，机器人内部限制不能移动。",
+				"lostMin": "50min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "来回转动转台，发现转台始终无法Ret到位。查看图纸找到转台Ret的使能接触器，并尝试转动转台，发现转台还未转到位时使能接触器就提前断开。",
+				"lostMin": "20min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "研究图纸发现，转台高速运转与低速运转时停止位不同，程序的控制逻辑与硬件接线不符，造成接触器的提前断开。",
+				"lostMin": "20min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "通过程序设定转台电气减速停止，并且调整停止位凸轮在合适位置触发停止传感器。",
+				"lostMin": "20min",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ASORH转台停止位不准确，抓料抓坏工件。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人无法手动操作？因为机器人内部有限制。"
+		],
+		[
+			"为什么机器人内部有限制？因为机器人启用了非标准功能。"
+		],
+		[
+			"为什么ASORH的转台无法停止到位？因为转台电机使能接触器提前断开。"
+		],
+		[
+			"为什么使能接触器提前断开？因为当转台碰到低速传感器后，程序控制低速接触器吸合，由于硬件接线方式较特殊，低速时提前碰到了低速停止传感器，使能接触器就会立即断开。"
+		],
+		[
+			"为什么调节困难？因为电气的硬件设计、凸轮时序和PLC控制逻辑存在不一致，导致调节困难。"
+		]
+	],
+	"rootCause": "机器人启用了非标准功能；电气的硬件设计、凸轮时序和PLC控制逻辑存在不一致，导致调节困难。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整转台低速和高速传感器位置，使转台能够停止到位。",
+				"resp": "陈志剑",
+				"supp": "滕征",
+				"compDate": "11\/10\/2015",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "整理ASORH、ASOLH电气接线，并修改程序。",
+				"resp": "陈志剑",
+				"supp": "滕征",
+				"compDate": "11\/22\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "替换调程序中的非标准功能",
+				"resp": "何文泽",
+				"supp": "陈志剑",
+				"compDate": "11\/22\/2015",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "梳理其它特殊工位，扫除技术盲区。",
+				"resp": "张少峰",
+				"supp": "滕征",
+				"compDate": "11\/30\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL: 陈烨华",
+	"person_ENG": "工程师\/ENG.: 陈志剑",
+	"person_GL": "工段长\/ GL: 滕征",
+	"person_Manager": "技术经理\/Tech.Manager.: 邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "2013-4-1JFM090U1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2013\\2013-4-1JFM090U1.json",
+	"score": 480,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2013年4月1日7时39分",
+	"fileNameDate": "2013-4-1",
+	"equipName": "设备名称:机器人焊接电缆",
+	"breakdownTime": "停机时间：28min",
+	"areaLocation": "停机区域\/点:总拼",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "28",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:  宋浩亮        \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "准备焊接水冷电缆；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "组织人员抢修更换；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090工位U1机器人焊接水冷电缆漏水，更换焊接水冷电缆。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机器人焊接水冷电缆漏水"
+		],
+		[
+			"为什么焊接水冷电缆护套损坏"
+		],
+		[
+			"为什么焊接水冷电缆表面橡皮护套龟裂"
+		],
+		[
+			"为什么焊接水冷电缆护套橡皮硬化"
+		],
+		[
+			"为什么粘贴塑料皮使用的胶水使护套橡皮硬化？现场常用的406胶水对橡皮有硬化作用，胶水使用不当。"
+		]
+	],
+	"rootCause": "406胶水对橡皮有硬化作用，胶水使用不当。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修更换焊接水冷电缆",
+				"resp": "黄光耀",
+				"supp": "",
+				"compDate": "4\/1\/2013",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "三班维修通报胶水造成焊接水冷电缆橡皮护套龟裂问题",
+				"resp": "马晓洲",
+				"supp": "",
+				"compDate": "4\/2\/2013",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "JFM090U1选用外径较小的焊接水冷电缆，减小DRESS套管对电缆护套的摩擦。",
+				"resp": "王俊杰",
+				"supp": "黄光耀",
+				"compDate": "4\/6\/2013",
+				"status": "3\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:王俊杰",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

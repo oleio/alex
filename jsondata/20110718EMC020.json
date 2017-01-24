@@ -1,0 +1,222 @@
+{
+	"fileName": "20110718EMC020.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110718EMC020.json",
+	"score": 611,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年7月19日  时  分",
+	"fileNameDate": "20110718",
+	"equipName": "设备名称:工装气缸",
+	"breakdownTime": "停机时间：累计30min",
+	"areaLocation": "停机区域\/点:EMC",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 卞德勇\nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "生产反应EMC20气缸经常关闭不到位，可能影响水箱框架前后方向尺寸，要求立即更换。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "维修准备备件更换，更换好后还是出现工装打开关闭不到位情况。",
+				"lostMin": "",
+				"success": "X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "仔细观察该气缸的结构，发现四个固定螺柱中的两个和气缸的转动轴轴套存在干涉（见示意图）",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "再次准备备件，选用两个偏短的固定螺柱，固定气缸，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "对换下的气缸摆动轴处变形的轴套进行处理，确认状态后移交入库。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC20工装上TUENKERS 气缸打开关闭不到位"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工装气缸打开关闭不到位？固定螺柱和气缸摆动轴干涉。"
+		],
+		[
+			"为什么固定螺柱和气缸摆动轴干涉？气缸设计不合理，固定螺柱用力紧固就会和轴干涉。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "气缸设计缺陷，容易造成固定螺柱和摆动轴干涉。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.更换气缸备件，并适当改短两个固定螺柱。",
+				"resp": "卞德勇",
+				"supp": "",
+				"compDate": "2011.7.18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.目视化气缸紧固螺柱的长度。",
+				"resp": "卞德勇",
+				"supp": "",
+				"compDate": "2011.7.18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3.维修交接班介绍此类气缸的紧固注意点。（一点课程形式）",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2011.7.20",
+				"status": "2\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1.向TUENKERS 反馈此类气缸的设计问题，并寻求改进方案。",
+				"resp": "胡滨",
+				"supp": "",
+				"compDate": "2011.8.10",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:黄波",
+	"person_Manager": "工程师\/ENG.:"
+}

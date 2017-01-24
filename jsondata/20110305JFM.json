@@ -1,0 +1,222 @@
+{
+	"fileName": "20110305JFM.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110305JFM.json",
+	"score": 691,
+	"title": "SGM-SPBS设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年3月5日01时50 分",
+	"fileNameDate": "20110305",
+	"equipName": "设备名称:机运线",
+	"breakdownTime": "停机时间：20 min",
+	"areaLocation": "停机区域\/点: JFM",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "20",
+	"lostProductNum": "15",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期           \nOringinator黄轶佳     2011.3.5",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "机运线手动操作，各工位雪橇仍然无法运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "打开机运线变频器控制柜，发现变频器故障出错；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "复位后再次尝试手动操作，仍然无法操作滚床运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "因故障前主控柜增加了部分接线，对增加的接线进行检查，未发现问题；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "检查主控柜过程中发现PLC电源信号灯有闪烁现象，进一步检查发现有一公共电源接线松动；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "紧固松动的公共电源接线；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "设置程序中丢失的置位信号，设置部分工位车型后恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"总拼机运线所有工位雪橇无法自动运行"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么所有机运线工位雪橇无法运行？因为变频器故障报警，PLC程序中的置位信号丢失。"
+		],
+		[
+			"为什么变频器故障报警，PLC程序中的置位信号丢失？因为PLC供电直流电源电压闪烁，时有时无。"
+		],
+		[
+			"为什么PLC供电直流电源电压闪烁，时有时无？因为直流电源公共接线接触不良"
+		],
+		[
+			"为什么直流电源公共接线接触不良？因为柜内接线增加接线时被整理"
+		],
+		[
+			"为什么柜内接线增加接线时被整理后线路接触不良？因为原接线紧固状态不佳"
+		]
+	],
+	"rootCause": "根本原因 \/Root Cause: ",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "紧固松动的直流电源公共接线",
+				"resp": "黄轶佳",
+				"supp": "刘少杰",
+				"compDate": "11-3-4",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "PLC程序中恢复丢失的状态位",
+				"resp": "黄轶佳",
+				"supp": "",
+				"compDate": "11-3-4",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "重新紧固主控柜内端子排上所有接线",
+				"resp": "黄轶佳",
+				"supp": "刘少杰",
+				"compDate": "11-3-15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修步骤"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:黄轶佳",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

@@ -1,0 +1,222 @@
+{
+	"fileName": "20150601 SUR060-Y.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2015\\20150601 SUR060-Y.json",
+	"score": 624,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2015.6.1 19",
+	"fileNameDate": "20150601",
+	"equipName": "设备名称:机运线",
+	"breakdownTime": "停机时间：140min",
+	"areaLocation": "停机区域\/点: SUR060",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "140",
+	"lostProductNum": "80",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期:   黄波\nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "进工位发现滚床倾斜侧翻，滚床上升时与E2L2工装基座卡住",
+				"lostMin": 5,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "根据维修预案，千斤顶顶起滚床，安装支撑柱，切除工装基座干涉点",
+				"lostMin": 40,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "拆卸摆臂过程中，发现涨紧器与摆臂轴卡死，修复涨紧器、修磨摆臂轴",
+				"lostMin": 50,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "调整摆臂位置，后恢复生产",
+				"lostMin": 15,
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SUR060滚床上升降过程中，与E2LB工装基座干涉，摆臂倾斜、滚床倾斜。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么机运线报警？因为升降滚床没有上升到位；"
+		],
+		[
+			"为什么升降滚床没有上升到位？因为滚床上升降过程中，与E2LB工装基座干涉；"
+		],
+		[
+			"为什么床上升降过程中，与E2LB工装基座干涉？因为E2L2工装基座延伸部分与滚床导向基座间没有预留足够间隙；"
+		],
+		[
+			"为什么工装基座延伸部分与导向基座间没有预留足够间隙？因为上周六停机抢修时对工装打磨量不够；摆臂未调整到最佳位置。"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "1.停机抢修后未及时进行补救性修复；\n2.供应商施工质量差",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "调整滚床摆臂，修复涨紧器、修磨摆臂轴",
+				"resp": "孙伟",
+				"supp": "黄波",
+				"compDate": "2015.6.1",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "消除工装基座干涉点",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "2015.6.1",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "对车间滚床进行检查，消除升降滚床与工装基座的干涉。",
+				"resp": "SYL\/DEMC\/COMAU",
+				"supp": "夏伟",
+				"compDate": "6\/7\/2015",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同抢修处理过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:孙伟",
+	"person_ENG": "工程师\/ENG.:谢诚侃",
+	"person_GL": "工段长\/ GL 黄波",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

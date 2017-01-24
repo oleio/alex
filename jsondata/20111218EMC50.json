@@ -1,0 +1,222 @@
+{
+	"fileName": "20111218EMC50.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20111218EMC50.json",
+	"score": 563,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年12月18日15时0分",
+	"fileNameDate": "20111218",
+	"equipName": "设备名称:滑台工装",
+	"breakdownTime": "停机时间：30min",
+	"areaLocation": "停机区域\/点:EMC",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "30",
+	"lostProductNum": "15",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  仇卫忠        \nOringinator ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "维修到现场检查发现滑台不动作原因是气缸杆与滑台的连接板与滑台开裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "断开工装气源，将滑台拉到修理位置；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "根据原来焊接位置将连接板焊到滑台上；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "恢复设备正常运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"EMC50工位左侧滑台不动作"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工装滑台无法动作？因为滑台气缸运动无法传递给滑台"
+		],
+		[
+			"为什么滑台气缸运动无法传递给滑台？因为气缸杆与滑台的连接板与滑台之间焊缝开裂"
+		],
+		[
+			"为什么气缸杆与滑台的连接板与滑台之间焊缝开裂？因为气缸与连接板之间连接缺少必要的自由度。"
+		],
+		[
+			"为什么气缸与连接板之间连接缺少必要的自由度？因为历史上连接板脱落后抢修安装状态不理想"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "历史上连接板脱落后抢修安装状态不理想",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修焊接焊缝开裂的气缸杆与滑台的连接板",
+				"resp": "尹熠俊",
+				"supp": "陈烨华",
+				"compDate": "11-12-18",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日安排滑台连接板维修，恢复设备初始设计强度。",
+				"resp": "马晓洲",
+				"supp": "尹熠俊",
+				"compDate": "11-12-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "修改PLC程序，屏蔽HMI滑台传感器BYPASS功能",
+				"resp": "黄轶佳",
+				"supp": "尹伟文",
+				"compDate": "11-12-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:陈烨华",
+	"person_Manager": "工程师\/ENG.:马晓洲（代）"
+}

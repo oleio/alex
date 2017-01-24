@@ -1,0 +1,222 @@
+{
+	"fileName": "20121114SFI110L2.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121114SFI110L2.json",
+	"score": 578,
+	"title": "SGM-车身 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年  11 月14日17时0分",
+	"fileNameDate": "20121114",
+	"equipName": "设备名称:L3",
+	"breakdownTime": "停机时间： min",
+	"areaLocation": "停机区域\/点: SFI110",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "NONE",
+	"lostProductNum": "NONE",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期  尹熠俊      \nOringinator        2011-12-2  ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "机器人报警“SRVO–135 SERVO FSAL alarm (Group:2 Axis:2)”",
+				"lostMin": "",
+				"success": " O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "重启机器人，无效",
+				"lostMin": "",
+				"success": " X"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "查看报警手册，得知伺服放大器冷却风扇损坏。立即更换",
+				"lostMin": "",
+				"success": " O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "重启后，恢复",
+				"lostMin": "",
+				"success": " O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": " O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"SFI110L3机器人运行时报警"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么报警？因为机器人控制柜内部有故障"
+		],
+		[
+			"为什么机器人控制柜内部有故障？因为机器人伺服放大器冷却风扇损坏"
+		],
+		[
+			"为什么机器人伺服放大器冷却风扇损坏？因为伺服放大器冷却风扇机械寿命短,老化磨损。"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "伺服放大器冷却风扇机械寿命短,老化磨损。",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "抢修更换机器人伺服放大器风扇",
+				"resp": "尹熠俊",
+				"supp": "黄俊宇",
+				"compDate": "12-11-14",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "制订伺服放大器风扇批量预防性更换计划，准备备件安排更换。",
+				"resp": "黄俊宇",
+				"supp": "徐啸顺",
+				"compDate": "12-11-30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "机器人报警“SRVO–135 SERVO FSAL alarm (Group:2 Axis:2)”"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "查看报警手册，得知伺服放大器冷却风扇损坏。立即更换"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "重启后，恢复"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄光耀",
+	"person_ENG": "工程师\/ENG.:黄俊宇",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

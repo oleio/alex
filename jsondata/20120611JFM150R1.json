@@ -1,0 +1,222 @@
+{
+	"fileName": "20120611JFM150R1.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120611JFM150R1.json",
+	"score": 684,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年6月11 日20 时10  分",
+	"fileNameDate": "20120611",
+	"equipName": "设备名称:R1激光焊枪",
+	"breakdownTime": "停机时间：累计25min",
+	"areaLocation": "停机区域\/点:JFM150",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "25",
+	"lostProductNum": "20",
+	"plantName": "厂区：南厂车身\nPlant",
+	"originator": "填表人\/日期          \nOringinator 黄波",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "检查R1无法收到激光焊机准备好的原因，焊机显示面板报警6#水管冷却水流量低报警；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "将该焊枪Bypass，检查6#冷却回路流量浮标在标尺范围内但略偏低；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "检查该冷却回路滤芯未发现问题；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "启动Backup方案用L1焊枪焊接车顶两边，但用L1焊接R侧车顶时焊缝找到频次过高；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "适当开大6#冷却水管流量开关，恢复冷却水流量后焊机报警清除；",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM150R1机器人等待激光焊机准备完成信号DI102"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么JFM150R1停止焊接？因为机器人未收到激光焊机准备完成信号；"
+		],
+		[
+			"为什么机器人未收到激光焊机准备完成信号？因为激光焊机自检未通过；"
+		],
+		[
+			"为什么激光焊机自检未通过？因为焊机内部6#冷却水路流量低报警；"
+		],
+		[
+			"为什么焊机内部6#冷却水路流量低报警？因为6#激光灯管腔体冷却内部水路阻力变大"
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "6#激光灯管腔体冷却内部水路阻力变大",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1.临时开大6#冷却水管流量开关保证激光灯管腔体冷却",
+				"resp": "黄俊宇",
+				"supp": "",
+				"compDate": "2012\/6\/11",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2.夜班停产时间及非生产日清理焊机内部冷却水流量低的激光灯管腔体冷却回路",
+				"resp": "黄光耀 陈烨华",
+				"supp": "",
+				"compDate": "2102\/6\/24",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "更新激光灯管腔体冷却水回路维护的MTS，细化冷却水回路预防性维修要点，指导维修人员维护激光焊机。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "2012\/6\/30",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:王昀（代）",
+	"person_Manager": "工程师\/ENG.:黄俊宇"
+}

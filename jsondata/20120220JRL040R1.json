@@ -1,0 +1,222 @@
+{
+	"fileName": "20120220JRL040R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20120220JRL040R1.json",
+	"score": 806,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年2月20日30时30分",
+	"fileNameDate": "20120220",
+	"equipName": "设备名称:机器人转动接头",
+	"breakdownTime": "停机时间：20MIN",
+	"areaLocation": "停机区域\/点:JRL",
+	"maintainTeam": "维修班组：C",
+	"lostTime": "20",
+	"lostProductNum": "16",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator  尹熠俊\n2012-02-20",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "示教板手动操作机器人焊枪，确定BACKUP控制电磁阀动作信号正常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "使用工具强制切换BACKUP控制电磁阀，发现焊枪BACKUP动作加快而且在维修过程中发现电磁阀排气中存在大量水汽；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "由此判断焊枪气路中有水存在，拆下电磁阀上的消音器，反复动作排去气路中的水并用松锈除锈剂润滑阀芯，电磁阀切换速度明显加快；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "临时修改机器人程序增加脉冲提前发出关闭BACKUP电磁阀信号；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "恢复设备自动运行；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"早班开线后JRL040R1焊接故障报警，维修到现场检修发现机器人焊枪BACKUP关闭"
+		],
+		[
+			"速度慢。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪BACKUP关闭速度慢？因为电磁阀阀芯切换速度慢"
+		],
+		[
+			"为什么电磁阀阀芯切换速度慢？因为阀芯润滑状态差"
+		],
+		[
+			"为什么阀芯润滑状态差？因为电磁阀气路内部有水"
+		],
+		[
+			"为什么电磁阀气路内部有水？因为非生产日关断该焊枪气源，焊枪转动接头内部焊枪冷却水路的水渗透到焊枪电磁阀气路中。"
+		],
+		[
+			"为什么焊枪冷却水会进入焊枪控制气路？因为焊枪转动接头密封件老化，水气回路穿透（关气后焊枪冷却水渗透到没有压力的转动接头气回路）。"
+		]
+	],
+	"rootCause": "焊枪转动接头密封件老化，水气回路穿透。（关气后焊枪冷却水渗透到没有压力的转动接头气回路）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "拆下电磁阀上的消音器，反复动作排去气路中的水并用松锈除锈剂润滑阀芯，",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "12-02-20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "临时修改机器人程序增加脉冲提前发出关闭BACKUP电磁阀信号",
+				"resp": "尹熠俊",
+				"supp": "",
+				"compDate": "12-02-20",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "评估车间内使用的转动接头使用情况，制订转动接头拆除及更换计划。",
+				"resp": "徐啸顺",
+				"supp": "",
+				"compDate": "12-03-10",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同设备故障处理过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:徐啸顺"
+}

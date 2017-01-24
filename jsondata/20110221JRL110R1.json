@@ -1,0 +1,222 @@
+{
+	"fileName": "20110221JRL110R1.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110221JRL110R1.json",
+	"score": 584,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年2月21日16时05分",
+	"fileNameDate": "20110221",
+	"equipName": "设备名称:自动焊枪",
+	"breakdownTime": "停机时间：15min",
+	"areaLocation": "停机区域\/点:  JRL110R1",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "15",
+	"lostProductNum": "10",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 孙伟        \nOringinator 2010.5.29  ",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "JRL110R1发现平衡缸漏气严重，并且在工作中实效与车身干涉",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "由于干涉使车顶方孔变形，所以这两点临时跳转，由生产进行在线返修",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"L-CAR 焊枪平衡缸漏气实效"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么焊枪与车身干涉？因为平衡缸失效无法固定焊枪姿态"
+		],
+		[
+			"为什么平衡缸实效？因为平衡缸漏气严重，活塞杆无法输出足够力锁紧焊枪"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			"为什么平衡缸漏气严重？因为长期动作后导致平衡缸密封圈老化磨损"
+		]
+	],
+	"rootCause": "平衡缸密封圈老化磨损",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "1、调整焊枪轨迹避免与车身干涉",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "2011.2.21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2、对干涉两个焊点程序跳转",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "2011.2.21",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3、更换平衡缸",
+				"resp": "孙伟",
+				"supp": "",
+				"compDate": "2011.2.21",
+				"status": "1\/4"
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "1、编写C型焊枪平衡缸快速更换一点课程",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2011.3.15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "2、对主线区域焊枪平衡缸进行检查，并制作专用保养加油工具对平衡缸进行周期性保养",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "2011.3.15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "3、确认主线区域各车型整枪备件，对于难拆装焊枪整枪备件",
+				"resp": "钱俊",
+				"supp": "",
+				"compDate": "2011.3.15",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "必须备齐确认。",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:黄波",
+	"person_ENG": "工程师\/ENG.:王烨",
+	"person_GL": "工段长\/ GL:李成",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

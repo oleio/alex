@@ -1,0 +1,222 @@
+{
+	"fileName": "20110215JFM090.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110215JFM090.json",
+	"score": 679,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011年 2月 15日 6时00 分",
+	"fileNameDate": "20110215",
+	"equipName": "设备名称:GATE通讯",
+	"breakdownTime": "停机时间：累计80min",
+	"areaLocation": "停机区域\/点:  JFM090",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "40",
+	"lostProductNum": "28",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期 顾乐宾         \nOringinator 2011.2.15",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "两轮切换均报警通讯故障，故怀疑信号接头公共端有问题，确认抢修方案；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "进入工位，在信号接头连接的情况下测量线缆通断状态，发现有一根线缆断路；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "拆下雌端（公共端）接头，拔出断路插针，发现绿色线缆断裂；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "重新制作插针，并对其余插针进行清洁保养，恢复线缆后确认通讯正常，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"JFM090右侧GATE切换到E11时报警通讯故障，插拔GATE信号接头后通讯正常；"
+		],
+		[
+			"下一轮切换到618时又报警通讯故障，测量信号接头通讯电缆未发现断路，临时"
+		],
+		[
+			"飞线维持生产，确认方案后进行抢修"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"1、为什么JFM090报警通讯故障？因为GATE信号接头通讯故障；"
+		],
+		[
+			"为什么GATE信号接头通讯故障？因为通讯线缆与插针断裂；"
+		],
+		[
+			"为什么线缆与插针断裂？因为每次GATE切换插针的插拔均对线缆有损伤，导"
+		],
+		[
+			"致插针与电缆接头处疲劳断裂；"
+		],
+		[
+			"2、为什么第一次通讯报警未能查出故障点？因为第一次测量线缆在接头内未检测出断路，未能判断准确的故障点（为减少停线影响临时飞线）；"
+		]
+	],
+	"rootCause": "",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "重新制作信号接头插针，恢复通讯",
+				"resp": "滕征",
+				"supp": "刘丰",
+				"compDate": "2011.2.15",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "把信号接头改进为可拆卸式，可用标准件进行快速更换",
+				"resp": "滕征",
+				"supp": "控制组",
+				"compDate": "2011.2.20",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "维修过程同上"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:尹熠俊",
+	"person_ENG": "工程师\/ENG.:滕征",
+	"person_GL": "工段长\/ GL:沈建伟",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}

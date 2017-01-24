@@ -1,0 +1,222 @@
+{
+	"fileName": "20110619ESOR4.xls",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2011\\20110619ESOR4.json",
+	"score": 567,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2011 年6月19日 时 分",
+	"fileNameDate": "20110619",
+	"equipName": "设备名称:机器人焊枪",
+	"breakdownTime": "停机时间：累计影响45MIN",
+	"areaLocation": "停机区域\/点:ESO",
+	"maintainTeam": "维修班组：B",
+	"lostTime": "45",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期          \nOringinator 顾乐斌\n2011-6-19",
+	"troubleShooting": [
+		[
+			{
+				"step": "1",
+				"descr": "进入工位检查伺服编码器电缆外观状态，接插件锁紧情况，未发现异常；",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": "机器人控制器上电复位后设备能恢复运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": "重复出现第三次后无法复位故障，用备件编码器电缆“飞线”处理后设备恢复自动运行",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		],
+		[
+			{
+				"step": "7",
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"ESO R4机器人伺服焊枪G2A1伺服编码器报警，上电复位后能恢复运行。"
+		],
+		[
+			"重复出现第三次后无法复位故障，用备件编码器电缆“飞线”后恢复运行。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么工位停止自动运行？因为机器人R4报警停止"
+		],
+		[
+			"为什么机器人R4报警停止？因为机器人伺服焊枪伺服编码器报警"
+		],
+		[
+			"为什么机器人伺服焊枪伺服编码器报警？因为伺服编码器电缆接插件内部或电缆中间接触不良"
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"rootCause": "伺服编码器电缆接插件内部或电缆中间接触不良（造成电缆内部接触不良的具体故障位置待拆下电缆解体后分析确定）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "用备件伺服编码器电缆“飞线”方法恢复设备",
+				"resp": "顾乐斌",
+				"supp": "",
+				"compDate": "11-6-19",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "非生产日拆下问题伺服编码器电缆确切故障位置并确定具体对策",
+				"resp": "尹熠俊黄波",
+				"supp": "",
+				"compDate": "11-6-26",
+				"status": "1\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": "1",
+				"descr": "同维修过程"
+			}
+		],
+		[
+			{
+				"step": "2",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "3",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "4",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "5",
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": "6",
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "签名及日期 \/Signature & Date:",
+	"person_ENG": "",
+	"person_GL": "班组长\/TL:尹熠俊",
+	"person_Manager": "工程师\/ENG.:黄轶佳"
+}

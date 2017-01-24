@@ -1,0 +1,222 @@
+{
+	"fileName": "20121126ERD20螺柱焊机.xlsx",
+	"savedJsonName": "C:\\Dropbox\\Proj_fullstack\\proj_excel\\2012\\20121126ERD20螺柱焊机.json",
+	"score": 719,
+	"title": "SGM-SPBS 设备停机报告",
+	"codeNo": "",
+	"downtimeDate": "2012年11月26日7时45分",
+	"fileNameDate": "20121126",
+	"equipName": "设备名称:螺柱焊机",
+	"breakdownTime": "停机时间：60min",
+	"areaLocation": "停机区域\/点:  后门",
+	"maintainTeam": "维修班组：A",
+	"lostTime": "60",
+	"lostProductNum": "20",
+	"plantName": "厂区：SPBS\nPlant",
+	"originator": "填表人\/日期: 谢诚侃郑旭俊         \nOringinator",
+	"troubleShooting": [
+		[
+			{
+				"step": 1,
+				"descr": "E10后门螺柱焊无法焊接，提示152号报警“Feeder: 24V external missing”",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": "检查送钉机24V电源保险丝，发现保险丝烧坏。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": "领用保险丝进行更换，上电后保险丝再次烧坏，判断存在短路。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": "检查螺柱焊系统外部接线，未发现明显接线问题。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": "检修DC24V短路故障原因，断开螺柱焊枪连接电缆后发现短路故障仍然存在。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": "更换送钉机备机，恢复生产。",
+				"lostMin": "",
+				"success": "O"
+			}
+		],
+		[
+			{
+				"step": 7,
+				"descr": "",
+				"lostMin": "",
+				"success": ""
+			}
+		]
+	],
+	"faultDescription": [
+		[
+			"E10后门螺柱焊机送钉机构故障导致设备无法使用。"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	],
+	"fiveWhy": [
+		[
+			"为什么螺柱焊机无法焊接？因为螺柱焊送钉机机构不工作"
+		],
+		[
+			"为什么螺柱焊送钉机机构不工作？因为螺柱焊送钉机没有工作电源"
+		],
+		[
+			"为什么螺柱焊送钉机没有工作电源？因为螺柱焊送钉机24V电源保险丝烧坏"
+		],
+		[
+			"为什么螺柱焊送钉机构DC24V电源保险丝烧坏？因为送钉机构内部电路板故障短路"
+		],
+		[
+			"为什么送钉机构内部电路板故障短路？确切电路板损坏原因将拉动设备供应商帮助确定"
+		]
+	],
+	"rootCause": "送钉机构内部电路板故障短路（确切损坏原因将拉动设备供应商帮助确定）",
+	"shortTerm": [
+		[
+			{
+				"counterMeasure": "更换备用螺柱焊送钉器",
+				"resp": "郑旭俊",
+				"supp": "谢诚侃",
+				"compDate": "11\/26\/2012",
+				"status": "4\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"longTerm": [
+		[
+			{
+				"counterMeasure": "拉动设备供应商支持确定电路板损坏原因",
+				"resp": "孙杰",
+				"supp": "",
+				"compDate": "12\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "改进后门区域螺柱焊枪接线及悬挂方式，使左右后门螺柱焊枪能够互为备用，避免其中一把螺柱焊枪损坏导致生产停线。",
+				"resp": "郑旭俊",
+				"supp": "孙杰",
+				"compDate": "12\/10\/2012",
+				"status": "2\/4"
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		],
+		[
+			{
+				"counterMeasure": "",
+				"resp": "",
+				"supp": "",
+				"compDate": "",
+				"status": ""
+			}
+		]
+	],
+	"correctPath": [
+		[
+			{
+				"step": 1,
+				"descr": "同设备维修过程"
+			}
+		],
+		[
+			{
+				"step": 2,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 3,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 4,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 5,
+				"descr": ""
+			}
+		],
+		[
+			{
+				"step": 6,
+				"descr": ""
+			}
+		]
+	],
+	"person_TL": "班组长\/TL:陈烨华",
+	"person_ENG": "工程师\/ENG.:郑旭俊",
+	"person_GL": "工段长\/ GL:马晓洲",
+	"person_Manager": "技术经理\/Tech.Manager.:邱正东"
+}
